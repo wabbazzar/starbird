@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#e8302a"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="PE Exposure"/>
+<meta name="description" content="Which brands are PE-owned, why it matters, and who to buy from instead."/>
+<meta property="og:title" content="PE Exposure — Know What You're Buying"/>
+<meta property="og:description" content="35+ brands, 17 PE firms, and independent alternatives. Know before you spend."/>
+<meta property="og:type" content="website"/>
+<link rel="manifest" href="manifest.json"/>
+<link rel="apple-touch-icon" href="icons/icon-192.png"/>
+<title>PE Exposure — Know What You're Buying</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+/* ── RESET & TOKENS ─────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+:root{
+  --bg:#0d0d0d;
+  --surface:#161616;
+  --surface2:#1f1f1f;
+  --surface3:#2a2a2a;
+  --border:#2a2a2a;
+  --border2:#363636;
+  --red:#e8302a;
+  --red-dim:rgba(232,48,42,0.15);
+  --red-glow:rgba(232,48,42,0.3);
+  --green:#22c55e;
+  --green-dim:rgba(34,197,94,0.12);
+  --gold:#f59e0b;
+  --gold-dim:rgba(245,158,11,0.12);
+  --text:#f0ebe3;
+  --text-2:#a09890;
+  --text-3:#666;
+  --mono:'DM Mono',monospace;
+  --sans:'DM Sans',sans-serif;
+  --display:'Bebas Neue',sans-serif;
+  --nav-h:64px;
+  --safe-b:env(safe-area-inset-bottom,0px);
+  --safe-t:env(safe-area-inset-top,0px);
+  --r:12px;
+}
+html{height:100%;scroll-behavior:smooth;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--sans);
+  height:100%;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+}
+
+/* ── TOP BAR ─────────────────────────────────────────── */
+.topbar{
+  flex-shrink:0;
+  padding:calc(var(--safe-t) + 10px) 16px 10px;
+  background:var(--bg);
+  border-bottom:1px solid var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  position:relative;
+  z-index:10;
+}
+.topbar-logo{
+  font-family:var(--display);
+  font-size:1.5rem;
+  letter-spacing:.04em;
+  line-height:1;
+  color:var(--text);
+}
+.topbar-logo span{color:var(--red);}
+.topbar-search{
+  flex:1;
+  min-width:0;
+  position:relative;
+  max-width:280px;
+}
+.topbar-search input{
+  width:100%;
+  background:var(--surface2);
+  border:1px solid var(--border2);
+  border-radius:8px;
+  color:var(--text);
+  font-family:var(--mono);
+  font-size:.75rem;
+  padding:8px 12px 8px 32px;
+  outline:none;
+  transition:border-color .15s;
+}
+.topbar-search input:focus{border-color:var(--red);}
+.topbar-search input::placeholder{color:var(--text-3);}
+.search-icon{
+  position:absolute;
+  left:9px;top:50%;
+  transform:translateY(-50%);
+  color:var(--text-3);
+  font-size:.75rem;
+  pointer-events:none;
+}
+
+/* ── STAT STRIP ──────────────────────────────────────── */
+.stat-strip{
+  flex-shrink:0;
+  display:flex;
+  overflow-x:auto;
+  gap:0;
+  border-bottom:1px solid var(--border);
+  scrollbar-width:none;
+}
+.stat-strip::-webkit-scrollbar{display:none;}
+.stat-item{
+  flex-shrink:0;
+  padding:10px 18px;
+  border-right:1px solid var(--border);
+  text-align:center;
+}
+.stat-item:last-child{border-right:none;}
+.stat-n{
+  font-family:var(--display);
+  font-size:1.35rem;
+  color:var(--red);
+  line-height:1;
+  letter-spacing:.03em;
+}
+.stat-l{
+  font-family:var(--mono);
+  font-size:.55rem;
+  color:var(--text-3);
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  margin-top:2px;
+  white-space:nowrap;
+}
+
+/* ── FILTER ROW ──────────────────────────────────────── */
+.filter-row{
+  flex-shrink:0;
+  display:flex;
+  gap:6px;
+  padding:10px 14px;
+  overflow-x:auto;
+  scrollbar-width:none;
+  border-bottom:1px solid var(--border);
+}
+.filter-row::-webkit-scrollbar{display:none;}
+.cat-chip{
+  flex-shrink:0;
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  padding:5px 11px;
+  border-radius:20px;
+  border:1px solid var(--border2);
+  background:none;
+  color:var(--text-2);
+  font-family:var(--mono);
+  font-size:.68rem;
+  cursor:pointer;
+  transition:all .15s;
+  white-space:nowrap;
+}
+.cat-chip:hover{border-color:var(--text-3);color:var(--text);}
+.cat-chip.active{background:var(--red);border-color:var(--red);color:#fff;}
+.chip-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+
+/* ── SCROLL AREA ─────────────────────────────────────── */
+.scroll-area{
+  flex:1;
+  overflow-y:auto;
+  overflow-x:hidden;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+  padding:12px 12px calc(var(--nav-h) + var(--safe-b) + 12px);
+}
+
+/* ── PANELS ──────────────────────────────────────────── */
+.panel{display:none;}
+.panel.active{display:block;}
+
+/* ── BRAND CARDS ─────────────────────────────────────── */
+.brand-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  margin-bottom:10px;
+  overflow:hidden;
+  transition:border-color .15s;
+}
+.brand-card:active{border-color:var(--border2);}
+.brand-head{
+  padding:14px 14px 10px;
+  cursor:pointer;
+  user-select:none;
+}
+.brand-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:8px;
+  margin-bottom:8px;
+}
+.brand-cat{
+  font-family:var(--mono);
+  font-size:.58rem;
+  padding:3px 7px;
+  border-radius:4px;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+  flex-shrink:0;
+}
+.brand-chevron{
+  color:var(--text-3);
+  font-size:.8rem;
+  transition:transform .2s;
+  flex-shrink:0;
+  margin-top:2px;
+}
+.brand-card.open .brand-chevron{transform:rotate(180deg);}
+.brand-name{
+  font-size:1.1rem;
+  font-weight:700;
+  line-height:1.2;
+  margin-bottom:4px;
+}
+.brand-owner{
+  font-family:var(--mono);
+  font-size:.65rem;
+  color:var(--red);
+  display:flex;
+  align-items:center;
+  gap:4px;
+}
+.brand-owner::before{content:'▲';font-size:.5rem;}
+.brand-body{
+  display:none;
+  padding:0 14px 14px;
+}
+.brand-card.open .brand-body{display:block;}
+.section-label{
+  font-family:var(--mono);
+  font-size:.58rem;
+  color:var(--text-3);
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  margin-bottom:6px;
+}
+.alt-list{margin-bottom:12px;}
+.alt-item{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  padding:6px 10px;
+  background:var(--green-dim);
+  border:1px solid rgba(34,197,94,0.2);
+  border-radius:6px;
+  margin-bottom:5px;
+  font-size:.82rem;
+  color:var(--text);
+}
+.alt-arrow{color:var(--green);font-size:.75rem;flex-shrink:0;margin-top:1px;}
+.why-box{
+  background:var(--surface2);
+  border-radius:8px;
+  padding:10px 12px;
+  font-family:var(--mono);
+  font-size:.7rem;
+  color:var(--text-2);
+  line-height:1.6;
+}
+
+/* ── FIRM CARDS ──────────────────────────────────────── */
+.firm-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  margin-bottom:10px;
+  overflow:hidden;
+}
+.firm-head{
+  padding:14px 14px 0;
+  cursor:pointer;
+  user-select:none;
+}
+.firm-top-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin-bottom:8px;
+}
+.firm-name{
+  font-family:var(--display);
+  font-size:1.4rem;
+  letter-spacing:.04em;
+  line-height:1;
+}
+.firm-aum{
+  font-family:var(--mono);
+  font-size:.6rem;
+  color:var(--red);
+  background:var(--red-dim);
+  border:1px solid rgba(232,48,42,0.3);
+  padding:3px 8px;
+  border-radius:4px;
+}
+.firm-rap{
+  font-family:var(--mono);
+  font-size:.68rem;
+  color:var(--text-2);
+  line-height:1.55;
+  margin-bottom:10px;
+}
+.firm-brands{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  padding-bottom:12px;
+}
+.brand-pill{
+  font-family:var(--mono);
+  font-size:.6rem;
+  padding:3px 8px;
+  border-radius:4px;
+  background:var(--red-dim);
+  border:1px solid rgba(232,48,42,0.25);
+  color:#f0a;
+  color:#e8a;
+}
+.firm-meta{
+  display:none;
+  padding:0 14px 14px;
+  font-family:var(--mono);
+  font-size:.65rem;
+  color:var(--text-2);
+}
+.firm-card.open .firm-meta{display:block;}
+.firm-meta-row{margin-bottom:4px;}
+.firm-meta-row span{color:var(--red);}
+.firm-source{
+  display:inline-block;
+  margin-top:8px;
+  color:var(--text-3);
+  font-size:.62rem;
+  text-decoration:underline;
+  text-decoration-color:var(--border2);
+}
+.firm-source:hover{color:var(--gold);}
+
+/* ── CHARTS ──────────────────────────────────────────── */
+.chart-block{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:14px;
+  margin-bottom:10px;
+}
+.chart-block-title{
+  font-family:var(--mono);
+  font-size:.6rem;
+  color:var(--text-3);
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  margin-bottom:14px;
+  padding-bottom:8px;
+  border-bottom:1px solid var(--border);
+}
+.bar-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:7px;
+}
+.bar-lbl{
+  font-family:var(--mono);
+  font-size:.62rem;
+  color:var(--text);
+  width:120px;
+  flex-shrink:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.bar-track{
+  flex:1;
+  height:18px;
+  background:var(--surface2);
+  border-radius:4px;
+  overflow:hidden;
+  position:relative;
+}
+.bar-fill{
+  height:100%;
+  border-radius:4px;
+  position:relative;
+  animation:barIn .8s cubic-bezier(.22,1,.36,1) both;
+}
+@keyframes barIn{from{width:0!important;}}
+.bar-fill::after{
+  content:attr(data-val);
+  position:absolute;
+  right:6px;top:50%;
+  transform:translateY(-50%);
+  font-family:var(--mono);
+  font-size:.55rem;
+  color:rgba(255,255,255,0.85);
+  font-weight:500;
+  white-space:nowrap;
+}
+.bf-red{background:linear-gradient(90deg,#7a1a17,var(--red));}
+.bf-gold{background:linear-gradient(90deg,#7a5c00,var(--gold));}
+
+/* ── ABOUT PANEL ─────────────────────────────────────── */
+.about-block{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:20px 16px;
+  margin-bottom:10px;
+}
+.about-block h2{
+  font-family:var(--display);
+  font-size:1.8rem;
+  letter-spacing:.04em;
+  margin-bottom:10px;
+  line-height:1;
+}
+.about-block h2 em{font-style:normal;color:var(--red);}
+.about-block p{
+  font-size:.875rem;
+  color:var(--text-2);
+  line-height:1.65;
+  margin-bottom:12px;
+}
+.about-block p:last-child{margin-bottom:0;}
+.about-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  color:var(--gold);
+  font-family:var(--mono);
+  font-size:.72rem;
+  text-decoration:none;
+  padding:8px 12px;
+  border:1px solid rgba(245,158,11,0.3);
+  border-radius:6px;
+  background:rgba(245,158,11,0.08);
+  margin-top:4px;
+  transition:background .15s;
+}
+.about-link:hover{background:rgba(245,158,11,0.15);}
+.src-grid{display:flex;flex-direction:column;gap:6px;margin-top:12px;}
+.src-item{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 10px;
+  background:var(--surface2);
+  border-radius:6px;
+  font-family:var(--mono);
+  font-size:.65rem;
+  color:var(--text-2);
+}
+.src-item a{color:var(--text-2);text-decoration:underline;text-decoration-color:var(--border2);}
+.src-item a:hover{color:var(--gold);}
+.src-dot{width:6px;height:6px;border-radius:50%;background:var(--red);flex-shrink:0;}
+
+/* ── EMPTY STATE ─────────────────────────────────────── */
+.empty{
+  text-align:center;
+  padding:60px 20px;
+  font-family:var(--mono);
+  font-size:.8rem;
+  color:var(--text-3);
+}
+
+/* ── BOTTOM NAV ──────────────────────────────────────── */
+.bottom-nav{
+  flex-shrink:0;
+  position:fixed;
+  bottom:0;left:0;right:0;
+  height:calc(var(--nav-h) + var(--safe-b));
+  padding-bottom:var(--safe-b);
+  background:rgba(13,13,13,.95);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-top:1px solid var(--border);
+  display:flex;
+  z-index:100;
+}
+.nav-btn{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  background:none;
+  border:none;
+  color:var(--text-3);
+  cursor:pointer;
+  transition:color .15s;
+  padding:0;
+}
+.nav-btn.active{color:var(--red);}
+.nav-icon{font-size:1.25rem;line-height:1;}
+.nav-label{
+  font-family:var(--mono);
+  font-size:.55rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+/* ── CATEGORY COLORS ─────────────────────────────────── */
+.cat-tech{background:rgba(129,140,248,.15);color:#818cf8;border-color:rgba(129,140,248,.3);}
+.cat-food{background:rgba(249,115,22,.15);color:#f97316;border-color:rgba(249,115,22,.3);}
+.cat-coffee{background:rgba(194,133,90,.15);color:#c2855a;border-color:rgba(194,133,90,.3);}
+.cat-retail{background:rgba(168,85,247,.15);color:#a855f7;border-color:rgba(168,85,247,.3);}
+.cat-health{background:rgba(34,211,238,.15);color:#22d3ee;border-color:rgba(34,211,238,.3);}
+.cat-pets{background:rgba(74,222,128,.15);color:#4ade80;border-color:rgba(74,222,128,.3);}
+.cat-home{background:rgba(96,165,250,.15);color:#60a5fa;border-color:rgba(96,165,250,.3);}
+.cat-hospitality{background:rgba(236,72,153,.15);color:#ec4899;border-color:rgba(236,72,153,.3);}
+.cat-finance{background:rgba(240,180,41,.15);color:var(--gold);border-color:rgba(240,180,41,.3);}
+
+/* ── DESKTOP BREAKPOINT ──────────────────────────────── */
+@media(min-width:768px){
+  body{overflow:auto;}
+  .bottom-nav{
+    position:static;
+    height:auto;
+    padding-bottom:0;
+    border-top:none;
+    border-bottom:1px solid var(--border);
+    order:-1;
+  }
+  .nav-btn{
+    flex-direction:row;
+    gap:6px;
+    padding:14px 20px;
+    flex:none;
+  }
+  .nav-icon{font-size:1rem;}
+  .nav-label{font-size:.7rem;letter-spacing:.05em;}
+  .scroll-area{padding-bottom:20px;}
+  .topbar{padding-top:14px;padding-bottom:12px;}
+  .brand-card,.firm-card,.chart-block,.about-block{max-width:860px;margin-left:auto;margin-right:auto;margin-bottom:10px;}
+  .scroll-area{max-width:900px;margin:0 auto;width:100%;padding-left:20px;padding-right:20px;}
+}
+
+/* ── ANIMATIONS ──────────────────────────────────────── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+.brand-card,.firm-card,.chart-block,.about-block{animation:fadeUp .3s ease both;}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-logo">PE <span>Exposure</span></div>
+  <div class="topbar-search">
+    <span class="search-icon">⌕</span>
+    <input type="search" id="searchInput" placeholder="Search brands…" autocomplete="off" autocorrect="off" spellcheck="false"/>
+  </div>
+</div>
+
+<!-- STAT STRIP -->
+<div class="stat-strip">
+  <div class="stat-item"><div class="stat-n">65K+</div><div class="stat-l">PE layoffs '24</div></div>
+  <div class="stat-item"><div class="stat-n">56%</div><div class="stat-l">Big bankruptcies</div></div>
+  <div class="stat-item"><div class="stat-n">10×</div><div class="stat-l">Bankruptcy risk</div></div>
+  <div class="stat-item"><div class="stat-n">17</div><div class="stat-l">PE firms tracked</div></div>
+  <div class="stat-item"><div class="stat-n">35+</div><div class="stat-l">Brands exposed</div></div>
+</div>
+
+<!-- FILTER ROW -->
+<div class="filter-row" id="filterRow">
+  <button class="cat-chip active" data-cat="all"><span class="chip-dot" style="background:#888"></span>All</button>
+  <button class="cat-chip" data-cat="tech"><span class="chip-dot" style="background:#818cf8"></span>Tech</button>
+  <button class="cat-chip" data-cat="food"><span class="chip-dot" style="background:#f97316"></span>Fast Food</button>
+  <button class="cat-chip" data-cat="coffee"><span class="chip-dot" style="background:#c2855a"></span>Coffee</button>
+  <button class="cat-chip" data-cat="retail"><span class="chip-dot" style="background:#a855f7"></span>Retail</button>
+  <button class="cat-chip" data-cat="health"><span class="chip-dot" style="background:#22d3ee"></span>Health</button>
+  <button class="cat-chip" data-cat="pets"><span class="chip-dot" style="background:#4ade80"></span>Pets</button>
+  <button class="cat-chip" data-cat="home"><span class="chip-dot" style="background:#60a5fa"></span>Home</button>
+  <button class="cat-chip" data-cat="hospitality"><span class="chip-dot" style="background:#ec4899"></span>Hotels</button>
+  <button class="cat-chip" data-cat="finance"><span class="chip-dot" style="background:#f59e0b"></span>Services</button>
+</div>
+
+<!-- SCROLL AREA -->
+<div class="scroll-area" id="scrollArea">
+
+  <!-- BRANDS PANEL -->
+  <div class="panel active" id="panel-brands">
+    <div id="brandsCount" style="font-family:var(--mono);font-size:.65rem;color:var(--text-3);margin-bottom:10px;padding:0 2px;"></div>
+    <div id="brandsList"></div>
+    <div id="brandsEmpty" class="empty" style="display:none">No results. Try a different search.</div>
+  </div>
+
+  <!-- FIRMS PANEL -->
+  <div class="panel" id="panel-firms">
+    <div id="firmsList"></div>
+    <div id="firmsEmpty" class="empty" style="display:none">No results.</div>
+  </div>
+
+  <!-- CHARTS PANEL -->
+  <div class="panel" id="panel-charts">
+    <div class="chart-block">
+      <div class="chart-block-title">// AUM — Assets Under Management</div>
+      <div id="aumChart"></div>
+    </div>
+    <div class="chart-block">
+      <div class="chart-block-title">// Destruction Score — Bankruptcy &amp; Layoff Severity (0–100)</div>
+      <div id="bkChart"></div>
+    </div>
+    <div class="chart-block">
+      <div class="chart-block-title">// Brands Tracked per PE Firm</div>
+      <div id="brandChart"></div>
+    </div>
+  </div>
+
+  <!-- ABOUT PANEL -->
+  <div class="panel" id="panel-about">
+    <div class="about-block">
+      <h2>Your money funds <em>their</em> playbook.</h2>
+      <p>Private equity firms buy beloved brands, load them with debt, cut costs (read: workers), then sell for a profit — usually within 3–5 years. The brand, the workers, and often the customers are left with the wreckage.</p>
+      <p>This app tracks PE-owned consumer brands, explains why it matters, and suggests independent alternatives. Knowledge is leverage.</p>
+    </div>
+    <div class="about-block">
+      <h2>The <em>numbers</em></h2>
+      <p>In 2024, PE-related bankruptcies directly caused <strong>65,850+ layoffs</strong>. PE-backed companies were behind <strong>56% of all large bankruptcies</strong> (those with $500M+ in liabilities), despite representing only ~6.5% of the US economy. Studies show PE-acquired companies are <strong>10× more likely to go bankrupt</strong> than comparable non-PE firms.</p>
+    </div>
+    <div class="about-block">
+      <h2>Also see <em>Scott Galloway's</em> list</h2>
+      <p>Prof. Galloway's <em>Resist & Unsubscribe</em> campaign focuses on a related but different threat: tech oligarchs with political power and ICE contracts. It's a complementary lens — worth knowing both.</p>
+      <a class="about-link" href="https://www.resistandunsubscribe.com/" target="_blank" rel="noopener">→ resistandunsubscribe.com</a>
+    </div>
+    <div class="about-block">
+      <h2><em>Sources</em></h2>
+      <div class="src-grid">
+        <div class="src-item"><span class="src-dot"></span><a href="https://pestakeholder.org/private-equity-bankruptcy/" target="_blank">PESP Bankruptcy Tracker</a></div>
+        <div class="src-item"><span class="src-dot"></span><a href="https://americansfortaxfairness.org/private-equity-public-damage/" target="_blank">Americans for Tax Fairness</a></div>
+        <div class="src-item"><span class="src-dot"></span><a href="https://en.wikipedia.org/wiki/List_of_private_equity_owned_companies_that_have_filed_for_bankruptcy" target="_blank">Wikipedia PE Bankruptcy List</a></div>
+        <div class="src-item"><span class="src-dot"></span><a href="https://www.retaildive.com/news/the-biggest-buyouts/541078/" target="_blank">Retail Dive: Biggest Buyouts</a></div>
+        <div class="src-item"><span class="src-dot"></span><a href="https://techcrunch.com/2023/01/11/company-created-by-citrix-tibco-merger-confirms-it-has-laid-off-15-of-staff/" target="_blank">TechCrunch: Citrix/Vista Layoffs</a></div>
+        <div class="src-item"><span class="src-dot"></span><a href="https://en.wikipedia.org/wiki/JAB_Holding_Company" target="_blank">Wikipedia: JAB Holding</a></div>
+        <div class="src-item"><span class="src-dot"></span><a href="https://www.cnbc.com/2025/02/25/red-lobster-tgi-fridays-bankruptcies-private-equity.html" target="_blank">CNBC: PE Restaurant Bankruptcies</a></div>
+      </div>
+      <p style="margin-top:14px;font-family:var(--mono);font-size:.62rem;color:var(--text-3);">Not investment advice. Ownership data as of 2024–2025.</p>
+    </div>
+  </div>
+
+</div><!-- /scroll-area -->
+
+<!-- BOTTOM NAV -->
+<nav class="bottom-nav" id="bottomNav">
+  <button class="nav-btn active" data-panel="brands">
+    <span class="nav-icon">⚠</span>
+    <span class="nav-label">Brands</span>
+  </button>
+  <button class="nav-btn" data-panel="firms">
+    <span class="nav-icon">⬡</span>
+    <span class="nav-label">Firms</span>
+  </button>
+  <button class="nav-btn" data-panel="charts">
+    <span class="nav-icon">▦</span>
+    <span class="nav-label">Charts</span>
+  </button>
+  <button class="nav-btn" data-panel="about">
+    <span class="nav-icon">ℹ</span>
+    <span class="nav-label">About</span>
+  </button>
+</nav>
+
+<script>
+/* ─── DATA ──────────────────────────────────────────── */
+const FIRMS=[
+  {name:"Blackstone",aum:"$1T+",aumVal:1000,rap:"World's largest PE firm. Owns Jersey Mike's, Great Wolf Lodge, Tropical Smoothie. Notorious for sale-leaseback strategies that extract real estate and saddle companies with above-market rents.",brands:["Jersey Mike's","Great Wolf Lodge","Tropical Smoothie Café","Merlin Entertainments"],layoffs:"Portfolio-wide, ongoing",notableBk:"Multiple retail portfolio bankruptcies",bkScore:60,source:"https://en.wikipedia.org/wiki/Blackstone_Inc.",cats:["food","hospitality","retail"]},
+  {name:"Apollo Global",aum:"$650B",aumVal:650,rap:"Owns Albertsons, Michaels ($5B LBO 2021), PetSmart (minority), and drove Claire's to bankruptcy in 2018. Also entangled in 99 Cents Only and Serta Simmons debt schemes.",brands:["Albertsons / Safeway","Michaels","PetSmart (minority)","Claire's (post-bankrupt)","Qdoba","ADT","Chuck E. Cheese (former)"],layoffs:"Tens of thousands across portfolio",notableBk:"Claire's (2018), Chuck E. Cheese (2020)",bkScore:80,source:"https://en.wikipedia.org/wiki/Apollo_Global_Management",cats:["food","retail","pets","finance"]},
+  {name:"KKR",aum:"$600B",aumVal:600,rap:"Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after bankruptcy in 2017. Currently loading Varsity Brands with $2.4B in junk-rated debt.",brands:["Toys 'R' Us (bankrupt)","Varsity Brands ($2.4B debt)","Dollar General (exited)","1-800 Contacts","Heartland Dental"],layoffs:"73,000+ (Toys 'R' Us alone)",notableBk:"Toys 'R' Us (2017)",bkScore:88,source:"https://en.wikipedia.org/wiki/KKR_%26_Co.",cats:["retail","health","finance"]},
+  {name:"Bain Capital",aum:"$185B",aumVal:185,rap:"Infamous for Burger King, Dunkin', Domino's, Toys 'R' Us (co-investor). Pattern of debt-loading, cost-cutting, and quick exits leaving employees and communities behind.",brands:["Burger King (former)","Dunkin' (former)","Domino's (former)","Staples (former)","Michaels (former)"],layoffs:"Thousands across portfolio exits",notableBk:"Toys 'R' Us (co-investor)",bkScore:72,source:"https://en.wikipedia.org/wiki/Bain_Capital",cats:["food","retail"]},
+  {name:"Leonard Green & Partners",aum:"$70B",aumVal:70,rap:"Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure. Serially over-leverages retail and healthcare.",brands:["Joann Craft (bankrupt 2025)","The Container Store (bankrupt 2024)","Prospect Medical (bankrupt)","J.Crew (former)","Petco (former)"],layoffs:"19,000+ (Joann alone in 2025)",notableBk:"Joann (2025), Container Store (2024)",bkScore:97,source:"https://pestakeholder.org/private-equity-bankruptcy/",cats:["retail","health"]},
+  {name:"Cerberus Capital",aum:"$65B",aumVal:65,rap:"Owned Steward Health Care for a decade; exited 2020. Steward then filed for bankruptcy in 2024 with $9B in liabilities, closing hospitals across 8 states. 2,650+ healthcare workers lost jobs.",brands:["Steward Health Care (bankrupt)","Albertsons (co-investor, former)","Chrysler (former)"],layoffs:"2,650+ hospital workers",notableBk:"Steward Health Care (2024, $9B liabilities)",bkScore:90,source:"https://pestakeholder.org/news/private-equity-industry-behind-over-half-of-large-us-bankruptcies-in-2024/",cats:["health"]},
+  {name:"Ares Management",aum:"$450B",aumVal:450,rap:"Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity.",brands:["99 Cents Only (bankrupt 2024)","Guitar Center (post-bankrupt)","H-Food Holdings (bankrupt)"],layoffs:"10,800+ (99 Cents Only, 2024)",notableBk:"99 Cents Only (2024), Guitar Center (2020)",bkScore:82,source:"https://pestakeholder.org/private-equity-bankruptcy/",cats:["retail","food"]},
+  {name:"Sycamore Partners",aum:"$10B",aumVal:10,rap:"Retail-stripping specialist. Completed Walgreens take-private 2025. Drove Nine West to bankruptcy 2018. Known for rapidly selling assets, closing stores, and cutting workforces post-acquisition.",brands:["Walgreens (take-private 2025)","Staples (current)","Hot Topic","Nine West (bankrupt 2018)","Talbots"],layoffs:"Thousands in retail closures",notableBk:"Nine West (2018)",bkScore:82,source:"https://mergersandinquisitions.com/consumer-retail-private-equity/",cats:["retail","health","finance"]},
+  {name:"JAB Holding Company",aum:"$120B+",aumVal:120,rap:"Secretive German family holding group that monopolized coffee and bakery. CEO admitted in 2025 to shrinking Panera portions, raising prices, switching to frozen bread. Two failed Panera IPOs.",brands:["Panera Bread","Krispy Kreme","Peet's Coffee","Caribou Coffee","Einstein Bros.","Pret A Manger","Keurig (stake)","Bruegger's Bagels"],layoffs:"Multiple waves across closures",notableBk:"Two failed Panera IPOs; 5%+ sales decline 2024",bkScore:55,source:"https://en.wikipedia.org/wiki/JAB_Holding_Company",cats:["coffee","food"]},
+  {name:"BC Partners",aum:"$40B+",aumVal:40,rap:"Owns PetSmart via the largest LBO of 2014 ($8.7B). Controversially transferred Chewy equity outside reach of PetSmart creditors. Also co-owns Guitar Center with Ares.",brands:["PetSmart","Guitar Center (co-owner)","Chewy (majority via transfer)"],layoffs:"Management purges, store cuts",notableBk:"PetSmart $3B+ debt burden; Guitar Center (co, 2020)",bkScore:52,source:"https://en.wikipedia.org/wiki/PetSmart",cats:["pets","retail"]},
+  {name:"CVC Capital Partners",aum:"$190B",aumVal:190,rap:"Majority owner of Petco post-IPO (still controls 60%+). Loaded Petco with $3.3B in debt. Near-bankruptcy warnings in 2023; CEO stepped down March 2024.",brands:["Petco (majority 60%+)"],layoffs:"Ongoing store closures",notableBk:"Near Chapter 11 (2023 warnings)",bkScore:58,source:"https://en.wikipedia.org/wiki/Petco",cats:["pets"]},
+  {name:"BDT & MSD Partners",aum:"Private",aumVal:15,rap:"Bought majority of Whataburger in 2019, ending 69 years of family ownership. Texas Monthly 2025 documented quality concerns since PE takeover.",brands:["Whataburger"],layoffs:"N/A — expansion phase",notableBk:"None yet; rapid debt-funded expansion",bkScore:35,source:"https://en.wikipedia.org/wiki/Whataburger",cats:["food"]},
+  {name:"Advent International",aum:"$90B",aumVal:90,rap:"Bought Serta Simmons in 2012 via $3B LBO. Engaged in controversial 'uptier' debt manipulation. Filed Chapter 11 in Jan 2023 with $1.9B in liabilities. Took a 90-year-old brand to bankruptcy.",brands:["Serta Simmons (bankrupt 2023)","Beautyrest (bankrupt via Serta)","Tuft & Needle (bankrupt via Serta)"],layoffs:"Factory and retail workers",notableBk:"Serta Simmons (Jan 2023, $1.9B liabilities)",bkScore:86,source:"https://www.axios.com/2023/01/24/mattress-maker-serta-simmons-bankrupt",cats:["home"]},
+  {name:"Vista Equity Partners",aum:"$100B+",aumVal:100,rap:"Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",brands:["Citrix / Cloud Software Group","TIBCO (merged w/ Citrix)","KnowBe4","Ping Identity","Solera"],layoffs:"2,250+ (Citrix alone, Jan 2023)",notableBk:"Citrix debt debacle cost banks $1.3B",bkScore:68,source:"https://techcrunch.com/2023/01/11/company-created-by-citrix-tibco-merger-confirms-it-has-laid-off-15-of-staff/",cats:["tech"]},
+  {name:"Thoma Bravo",aum:"$160B",aumVal:160,rap:"Software-focused PE giant. Took Anaplan private for $10.7B in 2022, immediately laid off hundreds and offshored jobs. Glassdoor: 'cut their way to profitability at any cost.'",brands:["Anaplan","Coupa Software","SolarWinds (partial)","Proofpoint","Sophos","SailPoint"],layoffs:"300–500+ at Anaplan; waves at Proofpoint",notableBk:"No bankruptcy; destructive cost-cutting pattern",bkScore:62,source:"https://www.channelfutures.com/channel-business/anaplan-layoffs-reportedly-take-their-toll-on-hundreds",cats:["tech"]},
+  {name:"Hellman & Friedman / Permira",aum:"$85B+ / $75B+",aumVal:85,rap:"Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",brands:["Zendesk","McAfee (Permira former co-owner)"],layoffs:"Restructuring underway",notableBk:"No bankruptcy; price pressure documented",bkScore:48,source:"https://en.wikipedia.org/wiki/Zendesk",cats:["tech"]},
+  {name:"Silver Lake",aum:"$100B+",aumVal:100,rap:"Acquired Qualtrics for $12.5B in 2023. Experience management platform now focused on PE exit returns. Also holds stakes in Twitter/X and Endeavor.",brands:["Qualtrics","Endeavor Group","Twitter/X (minority)"],layoffs:"Post-acquisition restructuring",notableBk:"No bankruptcy; exit-oriented ownership",bkScore:45,source:"https://www.financierworldwide.com/qualtrics-acquired-by-silver-lake-for-125bn",cats:["tech"]}
+];
+
+const COMPARE=[
+  {cat:"tech",avoid:"Citrix / Cloud Software Group",owner:"Vista Equity Partners + Elliott (Sept 2022, $16.5B)",alts:["VMware Horizon (Broadcom, public)","Microsoft Azure Virtual Desktop","AWS WorkSpaces (Amazon)"],why:"Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30–40%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices."},
+  {cat:"tech",avoid:"Zendesk",owner:"Hellman & Friedman + Permira (Nov 2022, $10.2B)",alts:["Freshdesk (Freshworks, Nasdaq)","HubSpot Service Hub (public)","Intercom (founder-led)"],why:"Sold to PE after rejecting a $17B offer months earlier. Now private and focused on exit returns. Customers lose public company accountability. Price hikes expected."},
+  {cat:"tech",avoid:"Anaplan",owner:"Thoma Bravo (June 2022, $10.7B)",alts:["Adaptive Insights (Workday, public)","Pigment (founder-led VC)","Planful (independent)"],why:"Thoma Bravo laid off hundreds immediately and offshored roles. Glassdoor reviews describe 'cutting 80% of the company.' PE managing for EBITDA exit, not product quality."},
+  {cat:"tech",avoid:"Qualtrics",owner:"Silver Lake (June 2023, $12.5B)",alts:["SurveyMonkey / Momentive (public)","Typeform (founder-led)","Forsta (independent)"],why:"Taken private from SAP. All PE exits require price hikes or cuts to generate returns. Customer data inside PE-owned platforms faces monetization pressure."},
+  {cat:"tech",avoid:"SolarWinds (Thoma Bravo stake)",owner:"Thoma Bravo (major shareholder)",alts:["Datadog (public, founder-led)","Grafana Labs (independent)","Zabbix (open source)"],why:"Thoma Bravo took SolarWinds private in 2016 then re-IPO'd it. During PE ownership, the 2020 cyberattack hit 18,000+ organizations. PE cost-cutting on security contributed."},
+  {cat:"food",avoid:"Jersey Mike's",owner:"Blackstone (Jan 2025)",alts:["Firehouse Subs (franchisee-owned)","Local deli/sandwich shops","Jimmy John's (independent units)"],why:"Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction — typically manifests in 2–3 years."},
+  {cat:"food",avoid:"Whataburger",owner:"BDT & MSD Partners (since 2019)",alts:["In-N-Out Burger (family-owned)","Five Guys (family-owned)","Shake Shack (public, founder-led)"],why:"Sold by Dobson family after 69 years. Texas Monthly 2025 documented quality concerns. PE expands rapidly on debt then cuts quality to service it."},
+  {cat:"food",avoid:"Tropical Smoothie Café",owner:"Blackstone (June 2024)",alts:["Smoothie King (founder-controlled)","Jamba (independent franchise units)","Local juice bars"],why:"Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2–3 years of PE acquisition."},
+  {cat:"food",avoid:"Qdoba Mexican Grill",owner:"Apollo Global Management",alts:["Chipotle (publicly held)","Local taquerias","Moe's Southwest (independent units)"],why:"Apollo portfolio company. PE-owned chains typically cut ingredient quality to improve EBITDA for exit. Chipotle remains founder-culture focused."},
+  {cat:"food",avoid:"Red Lobster",owner:"Golden Gate Capital (former) — bankrupt 2024",alts:["Legal Sea Foods (private)","Bonefish Grill (public)","Local seafood restaurants"],why:"PE-engineered sale-leaseback stripped real estate and raised rents above market. 100 locations closed, 36,000 jobs affected in 2024."},
+  {cat:"food",avoid:"TGI Fridays",owner:"PE-backed — bankrupt 2024",alts:["Applebee's (Dine Brands, public)","Chili's (Brinker, public)","Local casual dining"],why:"One of 10 PE-backed restaurant chains that went bankrupt in 2024. PE debt made adapting to post-COVID dining shifts impossible."},
+  {cat:"coffee",avoid:"Panera Bread",owner:"JAB Holding Company (since 2017)",alts:["Corner Bakery (independent)","Local bakery-cafés","Au Bon Pain (regional)"],why:"JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread — ending the fresh-baked identity. Two failed IPOs."},
+  {cat:"coffee",avoid:"Krispy Kreme",owner:"JAB Holding (re-IPO'd 2021, JAB majority)",alts:["Local donut shops","Duck Donuts (franchisee-owned)","Shipley Do-Nuts (independent)"],why:"JAB acquired 2016, re-IPO'd 2021 but retains majority control. Rapid expansion to 14,100+ locations diluted the quality that built the brand."},
+  {cat:"coffee",avoid:"Peet's Coffee",owner:"JAB Holding Company (since 2012)",alts:["Stumptown Coffee (craft)","Intelligentsia (craft)","Local independent roasters"],why:"JAB's first coffee monopoly acquisition. Once independent craft brand now part of a $120B extraction machine. Sourcing subordinated to margin targets."},
+  {cat:"coffee",avoid:"Caribou Coffee",owner:"JAB Holding Company (since 2012)",alts:["Dunn Bros Coffee (independent)","Dutch Bros (public, founder)","Local coffee roasters"],why:"JAB converted 88 Caribou locations to Peet's post-acquisition. Classic PE: eliminate redundancy, extract brand equity, standardize at lowest cost."},
+  {cat:"coffee",avoid:"Einstein Bros / Noah's / Bruegger's",owner:"JAB Holding Company (since 2014)",alts:["Local bagel shops","NY-style independent delis","Regional bagel chains"],why:"JAB paid $374M to take Einstein Noah private in 2014, then absorbed into Panera Brands 2021. Your dollar funds JAB's full extraction machine."},
+  {cat:"coffee",avoid:"Pret A Manger",owner:"JAB Holding Company (since 2018, $2B)",alts:["Local sandwich shops","Cosi (independent)","Le Pain Quotidien (separate)"],why:"Part of JAB's massive fast-casual monopoly. UK staff cuts followed. Prices have risen significantly post-acquisition."},
+  {cat:"retail",avoid:"Michaels",owner:"Apollo Global Management (2021, $5B LBO)",alts:["Hobby Lobby (private, family)","Local craft/art stores","Dick Blick Art Materials"],why:"Apollo's $5B buyout loaded Michaels with debt. Preparing for PE exit via re-IPO or sale, prioritizing exit returns over investment."},
+  {cat:"retail",avoid:"Staples",owner:"Sycamore Partners (since 2017)",alts:["Office Depot/OfficeMax (public)","Amazon Business","Local office supply stores"],why:"Sycamore is a retail-stripping specialist. Closed hundreds of Staples locations and cut workforce repeatedly since 2017."},
+  {cat:"retail",avoid:"Hot Topic",owner:"Sycamore Partners",alts:["Spencer's Gifts (independent)","Band merch via Bandcamp","Local alternative shops"],why:"Sycamore portfolio company. Multiple waves of closures and staff reductions since acquisition."},
+  {cat:"retail",avoid:"Claire's",owner:"Apollo Global (post-bankruptcy)",alts:["Local boutique jewelry","Mejuri (direct-to-consumer)","Etsy jewelry sellers"],why:"Apollo drove Claire's to Chapter 11 in 2018. Emerged still burdened with debt. Textbook PE extraction of a teen-focused retailer."},
+  {cat:"retail",avoid:"Guitar Center",owner:"Ares Management + BC Partners",alts:["Sweetwater (employee-culture)","Sam Ash Music (family-owned)","Local music shops"],why:"Filed bankruptcy 2020 after years of PE debt-loading. Now owned by former lenders who converted debt to equity. Sweetwater is the independent gold standard."},
+  {cat:"retail",avoid:"Varsity Spirit / BSN Sports",owner:"KKR (2024 LBO, $2.4B debt loaded)",alts:["Team Express (independent)","Direct Nike/Adidas school programs","Local uniform shops"],why:"KKR's third PE owner in a decade. $2.4B in junk-rated debt at acquisition. School athletic programs ultimately absorb higher costs."},
+  {cat:"retail",avoid:"The Container Store",owner:"Leonard Green — bankrupt Dec 2024",alts:["IKEA (private, Kamprad foundation)","Muji (public)","Local storage shops"],why:"Leonard Green drove it to bankruptcy December 2024 — same firm that bankrupted Joann and contributed to Prospect Medical's collapse."},
+  {cat:"health",avoid:"Walgreens",owner:"Sycamore Partners (take-private 2025)",alts:["CVS (public, accountable)","Costco Pharmacy","Walmart Pharmacy","Independent pharmacies"],why:"Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities."},
+  {cat:"health",avoid:"ADT Home Security",owner:"Apollo Global Management (partial)",alts:["SimpliSafe (VC-backed)","Abode (independent)","Ring (Amazon)"],why:"Apollo took ADT private for $6.9B in 2016, restructured, re-IPO'd 2018. Workers and customers bore debt costs. Apollo retains partial stake."},
+  {cat:"health",avoid:"The Body Shop",owner:"Aurelius Group (German PE, 2023)",alts:["Lush (employee-owned)","Sabon (independent)","Bathing Culture (indie)"],why:"German PE Aurelius acquired 2023, shut all US stores by early 2024. Bankruptcy filed 2024. A brand built on ethics had its ethics immediately put up for sale."},
+  {cat:"pets",avoid:"PetSmart",owner:"BC Partners + Apollo minority (2015/2023)",alts:["Local independent pet stores","Pet Supplies Plus (franchisee)","Tractor Supply (public)"],why:"BC Partners' $8.7B LBO was largest of 2014. Controversially transferred Chewy equity outside reach of PetSmart creditors. Apollo added minority stake 2023."},
+  {cat:"pets",avoid:"Petco",owner:"CVC Capital Partners (60%+ majority)",alts:["Local independent pet stores","Pet Supplies Plus (franchisee)","Tractor Supply (public)"],why:"CVC loaded Petco with $3.3B in debt. Near-bankruptcy warnings 2023. CEO resigned March 2024. Still majority PE-controlled despite IPO."},
+  {cat:"home",avoid:"Serta & Simmons Beautyrest",owner:"Advent International — bankrupt Jan 2023",alts:["Purple (public, DTC)","Saatva (independent DTC)","WinkBed (family-owned)"],why:"Advent's $3B LBO in 2012 ended in Chapter 11 Jan 2023 with $1.9B liabilities. Debt manipulation schemes bankrupted a 90-year-old American brand."},
+  {cat:"home",avoid:"Tuft & Needle",owner:"Advent International (bankrupt via Serta 2023)",alts:["Casper (public)","Saatva (independent)","Helix Sleep (independent)"],why:"Acquired by Serta Simmons 2018, swept into Advent's bankruptcy Jan 2023 despite being branded as a 'disruptor' mattress line."},
+  {cat:"hospitality",avoid:"Great Wolf Lodge",owner:"Blackstone",alts:["Kalahari Resorts (family-owned, OH)","Wilderness Resort (independent, WI)","Local regional water parks"],why:"Blackstone portfolio company. Premium pricing with ongoing margin extraction via real estate and PE fee strategies."},
+  {cat:"finance",avoid:"Chuck E. Cheese",owner:"Apollo Global (2014–2020, COVID bankruptcy)",alts:["Local arcade venues","Dave & Buster's (public)","Main Event (public)"],why:"Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock. Classic: load debt, company can't absorb a crisis, workers pay."}
+];
+
+/* ─── STATE ─────────────────────────────────────────── */
+let activePanel='brands', activeCat='all', searchTerm='';
+
+/* ─── CATEGORY LABEL MAP ────────────────────────────── */
+const CAT_LABELS={food:'Fast Food',coffee:'Coffee/Bakery',retail:'Retail',health:'Health/Beauty',finance:'Services',hospitality:'Hospitality',pets:'Pet Retail',home:'Home/Mattress',tech:'Tech/Software'};
+
+/* ─── BRAND CARD RENDER ─────────────────────────────── */
+function renderBrands(){
+  const list=document.getElementById('brandsList');
+  const empty=document.getElementById('brandsEmpty');
+  const count=document.getElementById('brandsCount');
+  const q=searchTerm.toLowerCase();
+  const filtered=COMPARE.filter(r=>{
+    const mc=activeCat==='all'||r.cat===activeCat;
+    const ms=!q||r.avoid.toLowerCase().includes(q)||r.owner.toLowerCase().includes(q)||r.alts.some(a=>a.toLowerCase().includes(q))||r.why.toLowerCase().includes(q);
+    return mc&&ms;
+  });
+  count.textContent=`${filtered.length} of ${COMPARE.length} brands`;
+  if(!filtered.length){list.innerHTML='';empty.style.display='block';return;}
+  empty.style.display='none';
+  list.innerHTML=filtered.map((r,i)=>`
+    <div class="brand-card" style="animation-delay:${i*0.03}s" onclick="toggleCard(this)">
+      <div class="brand-head">
+        <div class="brand-top">
+          <span class="brand-cat cat-${r.cat}">${CAT_LABELS[r.cat]||r.cat}</span>
+          <span class="brand-chevron">▾</span>
+        </div>
+        <div class="brand-name">${r.avoid}</div>
+        <div class="brand-owner">${r.owner}</div>
+      </div>
+      <div class="brand-body">
+        <div class="section-label" style="margin-bottom:6px">✓ Better alternatives</div>
+        <div class="alt-list">
+          ${r.alts.map(a=>`<div class="alt-item"><span class="alt-arrow">→</span>${a}</div>`).join('')}
+        </div>
+        <div class="section-label">Why it matters</div>
+        <div class="why-box">${r.why}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleCard(el){
+  el.classList.toggle('open');
+}
+
+/* ─── FIRM CARD RENDER ──────────────────────────────── */
+function renderFirms(){
+  const list=document.getElementById('firmsList');
+  const empty=document.getElementById('firmsEmpty');
+  const q=searchTerm.toLowerCase();
+  const filtered=FIRMS.filter(f=>{
+    const mc=activeCat==='all'||f.cats.includes(activeCat);
+    const ms=!q||f.name.toLowerCase().includes(q)||f.brands.some(b=>b.toLowerCase().includes(q))||f.rap.toLowerCase().includes(q);
+    return mc&&ms;
+  });
+  if(!filtered.length){list.innerHTML='';empty.style.display='block';return;}
+  empty.style.display='none';
+  list.innerHTML=filtered.map((f,i)=>`
+    <div class="firm-card" style="animation-delay:${i*0.03}s">
+      <div class="firm-head" onclick="this.closest('.firm-card').classList.toggle('open')">
+        <div class="firm-top-row">
+          <div class="firm-name">${f.name}</div>
+          <div class="firm-aum">${f.aum} AUM</div>
+        </div>
+        <div class="firm-rap">${f.rap}</div>
+        <div class="firm-brands">
+          ${f.brands.map(b=>`<span class="brand-pill">${b}</span>`).join('')}
+        </div>
+      </div>
+      <div class="firm-meta">
+        <div class="firm-meta-row">Notable: <span>${f.notableBk}</span></div>
+        <div class="firm-meta-row">Known layoffs: <span>${f.layoffs}</span></div>
+        <a class="firm-source" href="${f.source}" target="_blank" rel="noopener">→ Primary source</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ─── CHART RENDER ──────────────────────────────────── */
+function renderCharts(){
+  const maxA=Math.max(...FIRMS.map(f=>f.aumVal));
+  document.getElementById('aumChart').innerHTML=
+    [...FIRMS].sort((a,b)=>b.aumVal-a.aumVal).map(f=>{
+      const p=Math.round((f.aumVal/maxA)*100);
+      return`<div class="bar-row"><div class="bar-lbl">${f.name}</div><div class="bar-track"><div class="bar-fill bf-red" style="width:${p}%" data-val="${f.aum}"></div></div></div>`;
+    }).join('');
+  document.getElementById('bkChart').innerHTML=
+    [...FIRMS].sort((a,b)=>b.bkScore-a.bkScore).map(f=>
+      `<div class="bar-row"><div class="bar-lbl">${f.name}</div><div class="bar-track"><div class="bar-fill bf-red" style="width:${f.bkScore}%" data-val="${f.bkScore}/100"></div></div></div>`
+    ).join('');
+  const maxB=Math.max(...FIRMS.map(f=>f.brands.length));
+  document.getElementById('brandChart').innerHTML=
+    [...FIRMS].sort((a,b)=>b.brands.length-a.brands.length).map(f=>{
+      const p=Math.round((f.brands.length/maxB)*100);
+      return`<div class="bar-row"><div class="bar-lbl">${f.name}</div><div class="bar-track"><div class="bar-fill bf-gold" style="width:${p}%" data-val="${f.brands.length}"></div></div></div>`;
+    }).join('');
+}
+
+/* ─── NAV ───────────────────────────────────────────── */
+function switchPanel(panel){
+  activePanel=panel;
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('panel-'+panel).classList.add('active');
+  document.querySelector(`[data-panel="${panel}"]`).classList.add('active');
+  document.getElementById('scrollArea').scrollTop=0;
+  if(panel==='charts')renderCharts();
+  // show/hide filter row — only relevant for brands + firms
+  document.getElementById('filterRow').style.display=
+    (panel==='brands'||panel==='firms')?'flex':'none';
+}
+
+document.getElementById('bottomNav').addEventListener('click',e=>{
+  const btn=e.target.closest('.nav-btn');
+  if(btn)switchPanel(btn.dataset.panel);
+});
+
+/* ─── FILTERS ───────────────────────────────────────── */
+document.getElementById('filterRow').addEventListener('click',e=>{
+  const chip=e.target.closest('.cat-chip');
+  if(!chip)return;
+  activeCat=chip.dataset.cat;
+  document.querySelectorAll('.cat-chip').forEach(c=>c.classList.remove('active'));
+  chip.classList.add('active');
+  renderBrands();
+  renderFirms();
+});
+
+/* ─── SEARCH ────────────────────────────────────────── */
+let searchTimer;
+document.getElementById('searchInput').addEventListener('input',e=>{
+  clearTimeout(searchTimer);
+  searchTimer=setTimeout(()=>{
+    searchTerm=e.target.value.trim();
+    renderBrands();
+    renderFirms();
+  },120);
+});
+
+/* ─── INIT ──────────────────────────────────────────── */
+renderBrands();
+renderFirms();
+
+/* ─── SERVICE WORKER ────────────────────────────────── */
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('sw.js').catch(()=>{});
+  });
+}
+</script>
+</body>
+</html>
