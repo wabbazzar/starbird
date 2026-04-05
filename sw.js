@@ -1,5 +1,5 @@
-const CACHE = 'pe-exposure-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json'];
+const CACHE = 'pe-exposure-v2';
+const ASSETS = ['/pe_app/', '/pe_app/index.html', '/pe_app/manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
