@@ -76,23 +76,82 @@ One strategy runs per invocation. Which one runs is not up to you — the launch
 
 ## Data you will write
 
-For each new or updated entity, emit JSON matching the schema in `src/lib/schema.ts`.
+Every new entity you add must produce a **brand** entry. Optionally, you also
+add a **firm** entry if one doesn't already exist for the entity's owner.
 
-**New firm:**
+### Why both
+
+The consumer-facing view of Starbird is the Brands panel. That's where users
+who picked the `workers` value will see ICE contractors surfaced against their
+values. If you only add a firm, the entity is invisible to them.
+
+A firm is the legal/financial parent. A brand is the name a user recognizes.
+For a **single-company entity** like Clearview AI (one product, one legal
+entity, no parent holding company), both records exist with the same ID and
+the brand's `ownership` points at the firm with that same ID. That is the
+expected pattern for ICE contractors, which are usually standalone companies
+rather than brands inside a PE portfolio.
+
+For an **entity owned by a known parent** (e.g. a subsidiary of Thomson
+Reuters), you create *only* the brand record and point its `ownership` at the
+existing firm ID. Do not duplicate.
+
+The firm and brand arrays have independent uniqueness. `firms[].id ==
+"clearview_ai"` and `brands[].id == "clearview_ai"` coexist fine — zod
+enforces uniqueness only within each array.
+
+### New firm (create if the owner is new to the database)
+
 ```
-id, name, aum, aumVal, summary, brands: [],
-layoffs, notableBk, harmScore (0–100, 50=neutral),
-source (URL to best evidence), cats: [],
-harms: ["workers_ice_cooperation"], aligns: []
+id, name,
+aum: "N/A" if not a financial entity, else dollar display string,
+aumVal: 0 if not a financial entity, else number in $B,
+summary: one-paragraph description ending with the *current* quest context
+brands: []  (leave empty; the brand record links to it via ownership)
+layoffs, notableBk: "N/A" if not applicable
+harmScore (0–100, 50=neutral),
+source (URL to best evidence),
+cats: [],
+harms: ["workers_ice_cooperation"],  // plus any prior harms if updating
+aligns: []
 ```
 
-**New brand:**
+### New brand (ALWAYS create one per new entity)
+
 ```
-id, avoid, ownership: [{firmId, stake, since}],
-cat, alts: [], why, harms: ["workers_ice_cooperation"], aligns: []
+id: same slug as the firm if it's a self-owned entity, otherwise unique
+avoid: display name shown to the user (e.g. "Clearview AI", "Deloitte")
+ownership: [{firmId, stake, since}]
+  - firmId: existing firm id, OR the firm id you just created above
+  - stake: usually "majority" for self-owned entities
+  - since: year the company was founded / started the ICE work
+cat: one of tech/food/coffee/retail/health/pets/home/hospitality/finance
+  - Use "tech" for software/data/surveillance firms
+  - Use "finance" for consultancies like Deloitte
+alts: []  (leave empty for now — alternatives for B2B/gov contractors
+           are hard to generate and easy to get wrong; the next quest
+           iteration can add them)
+why: one-paragraph explanation of the harm. Required.
+harms: ["workers_ice_cooperation"]
+aligns: []
 ```
 
-**Update existing:** append to `harms` if not already present. Never remove existing tags. If the existing entry is tagged with a different quest, add `workers_ice_cooperation` to its harms — do not replace.
+### Checking for existing entries
+
+Before creating a firm, check if the owner already exists in `firms[]` by ID
+or by name. If it does, skip creating a new firm and just point the brand's
+ownership at the existing ID.
+
+Before creating a brand, check if it already exists in `brands[]` by ID. If
+it does, **update** it: append `workers_ice_cooperation` to its `harms` if
+not already present. Never remove existing tags.
+
+### Update existing
+
+If an existing entry is tagged with a different quest, add
+`workers_ice_cooperation` to its harms — do not replace. Other fields
+(`summary`, `why`, etc.) you may extend with the new evidence if meaningful,
+but do not rewrite from scratch.
 
 ## Validation before merge
 

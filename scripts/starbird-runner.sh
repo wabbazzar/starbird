@@ -112,17 +112,65 @@ Co-Authored-By: Starbird Runner <noreply@anthropic.com>" >> "$LOG_FILE" 2>&1 || 
   git push >> "$LOG_FILE" 2>&1 || true
 fi
 
-# ── Step 9: Notification ────────────────────────────────────────────────
-SUMMARY="Starbird Runner ($MODE): $NEW_ENTITIES new, strategy=$PICKED_STRATEGY. exit=$EXIT"
+# ── Step 9: Build rich notification from ground-truth metrics + labels ──
+# We pull human-readable labels for the strategy and quest so Signal users
+# don't have to decode underscores. Everything here comes from files on
+# disk, not from Claude's self-report.
+STRATEGY_LABEL=$(python3 "$STARBIRD_DIR/scripts/labels.py" strategy "$PICKED_STRATEGY")
+STRATEGY_DESC=$(python3 "$STARBIRD_DIR/scripts/labels.py" strategy-desc "$PICKED_STRATEGY")
+QUEST_LABEL=$(python3 "$STARBIRD_DIR/scripts/labels.py" quest workers_ice_cooperation)
+
+# Extract the specific new entity IDs and counts from the ground-truth record
+# (not from Claude's self-report — these numbers are derived from the diff).
+NEW_FIRMS=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('new_firms', 0))" 2>/dev/null || echo 0)
+NEW_BRANDS=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('new_brands', 0))" 2>/dev/null || echo 0)
+EVIDENCE=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(int(100 * json.load(sys.stdin).get('evidence_coverage', 0)))" 2>/dev/null || echo 0)
+NEW_IDS=$(echo "$GROUND_TRUTH" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+# Dedupe across firm+brand since single-company entities appear in both arrays
+# with the same ID. We care about unique entities, not records.
+ids = list(dict.fromkeys(d.get('new_firm_ids', []) + d.get('new_brand_ids', [])))
+print(', '.join(ids) if ids else 'none')
+" 2>/dev/null || echo 'none')
+
+MODE_LABEL="Dry Run"
+if [ "$MODE" = "daily" ]; then
+  MODE_LABEL="Daily"
+fi
+
+if [ "$EXIT" = "0" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
+  STATUS="added $NEW_ENTITIES"
+elif [ "$EXIT" = "0" ]; then
+  STATUS="no additions"
+else
+  STATUS="failed (exit $EXIT)"
+fi
+
+SUMMARY="Starbird Runner — $MODE_LABEL
+Status: $STATUS
+Quest: $QUEST_LABEL
+Strategy: $STRATEGY_LABEL
+  → $STRATEGY_DESC
+New: $NEW_BRANDS brand(s), $NEW_FIRMS firm(s) [$NEW_IDS]
+Evidence coverage: ${EVIDENCE}%
+Cost: \$$COST_HINT / ${TOKENS_HINT} tokens"
 
 if [ -x "$NOTIFY" ]; then
   if [ "$EXIT" = "0" ]; then
-    "$NOTIFY" "Starbird Runner ($MODE)" "$SUMMARY"
+    "$NOTIFY" "Starbird Runner — $MODE_LABEL" "$SUMMARY"
   else
-    "$NOTIFY" "Starbird Runner FAILED ($MODE)" "$SUMMARY"
+    "$NOTIFY" "Starbird Runner FAILED — $MODE_LABEL" "$SUMMARY"
   fi
 else
   echo "[starbird-runner] notify.sh not found at $NOTIFY — skipping notification" >> "$LOG_FILE"
 fi
 
-echo "[starbird-runner] Done. $SUMMARY" >> "$LOG_FILE"
+{
+  echo ""
+  echo "=== NOTIFICATION SUMMARY ==="
+  echo "$SUMMARY"
+  echo "============================"
+} >> "$LOG_FILE"
+
+echo "[starbird-runner] Done. exit=$EXIT new=$NEW_ENTITIES" >> "$LOG_FILE"
