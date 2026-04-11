@@ -10,7 +10,7 @@
       "brands": [
         "Jersey Mike's",
         "Great Wolf Lodge",
-        "Tropical Smoothie Caf\u00e9",
+        "Tropical Smoothie Café",
         "Merlin Entertainments"
       ],
       "layoffs": "Portfolio-wide, ongoing",
@@ -310,7 +310,7 @@
       "brands": [
         "Whataburger"
       ],
-      "layoffs": "N/A \u2014 expansion phase",
+      "layoffs": "N/A — expansion phase",
       "notableBk": "None yet; rapid debt-funded expansion",
       "harmScore": 35,
       "source": "https://en.wikipedia.org/wiki/Whataburger",
@@ -352,7 +352,7 @@
       "name": "Vista Equity Partners",
       "aum": "$100B+",
       "aumVal": 100,
-      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30\u201340%. Also took Pluralsight private at a major loss.",
+      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",
       "brands": [
         "Citrix / Cloud Software Group",
         "TIBCO (merged w/ Citrix)",
@@ -387,7 +387,7 @@
         "Sophos",
         "SailPoint"
       ],
-      "layoffs": "300\u2013500+ at Anaplan; waves at Proofpoint",
+      "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
       "harmScore": 62,
       "source": "https://www.channelfutures.com/channel-business/anaplan-layoffs-reportedly-take-their-toll-on-hundreds",
@@ -405,7 +405,7 @@
       "name": "Hellman & Friedman / Permira",
       "aum": "$85B+ / $75B+",
       "aumVal": 85,
-      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 \u2014 after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
+      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
       "brands": [
         "Zendesk",
         "McAfee (Permira former co-owner)"
@@ -514,7 +514,7 @@
       "name": "Palantir Technologies",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS\u2014an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
+      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -677,7 +677,7 @@
       "name": "Amazon",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025\u2014more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
+      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025—more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
       "brands": [
         "Amazon Web Services",
         "Amazon.com",
@@ -764,7 +764,7 @@
       "name": "Perdue Farms",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways \u2014 contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
+      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways — contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
       "brands": [
         "Perdue"
       ],
@@ -895,7 +895,7 @@
       "name": "CHS Inc.",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed \u2014 the highest of any U.S. company \u2014 driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
+      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company — driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
       "brands": [
         "Cenex"
       ],
@@ -941,7 +941,7 @@
       "name": "Duke Energy Corporation",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest electric utility holding companies in the United States, headquartered in Charlotte, North Carolina. Duke Energy serves approximately 8.4 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky. Ranked #2 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 87 million metric tons of CO2 equivalent per year \u2014 one of the highest greenhouse gas emitters of any corporation in the United States. Climate TRACE satellite-verified data corroborates Duke's coal and gas plant emissions. Despite pledges to reach net-zero by 2050, Duke continued operating multiple large coal plants through 2024 and has been sued repeatedly by environmental groups for delaying its clean energy transition.",
+      "summary": "One of the largest electric utility holding companies in the United States, headquartered in Charlotte, North Carolina. Duke Energy serves approximately 8.4 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky. Ranked #2 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 87 million metric tons of CO2 equivalent per year — one of the highest greenhouse gas emitters of any corporation in the United States. Climate TRACE satellite-verified data corroborates Duke's coal and gas plant emissions. Despite pledges to reach net-zero by 2050, Duke continued operating multiple large coal plants through 2024 and has been sued repeatedly by environmental groups for delaying its clean energy transition.",
       "brands": [
         "Duke Energy"
       ],
@@ -962,7 +962,7 @@
       "name": "Southern Company",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Major electric and gas utility holding company headquartered in Atlanta, Georgia. Ranked #3 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 86 million metric tons of CO2 equivalent per year. Climate TRACE satellite-verified power-sector data identifies Southern Company facilities \u2014 particularly its coal-heavy fleet in Alabama and Georgia \u2014 among the highest-emitting in the nation. Operates consumer-facing subsidiaries Georgia Power, Alabama Power, Mississippi Power, and Gulf Power, serving over 9 million customers. The Plant Vogtle nuclear expansion, while carbon-free, came in at 6B \u2014 double the original estimate \u2014 and was partly funded by ratepayer rate hikes approved by regulators.",
+      "summary": "Major electric and gas utility holding company headquartered in Atlanta, Georgia. Ranked #3 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 86 million metric tons of CO2 equivalent per year. Climate TRACE satellite-verified power-sector data identifies Southern Company facilities — particularly its coal-heavy fleet in Alabama and Georgia — among the highest-emitting in the nation. Operates consumer-facing subsidiaries Georgia Power, Alabama Power, Mississippi Power, and Gulf Power, serving over 9 million customers. The Plant Vogtle nuclear expansion, while carbon-free, came in at 6B — double the original estimate — and was partly funded by ratepayer rate hikes approved by regulators.",
       "brands": [
         "Georgia Power",
         "Alabama Power",
@@ -985,7 +985,7 @@
       "name": "American Electric Power",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest electric utilities in the United States, headquartered in Columbus, Ohio, serving approximately 5.5 million customers across 11 states including Ohio, Texas, Oklahoma, Arkansas, Louisiana, West Virginia, Virginia, Michigan, Indiana, and Kentucky. Ranked #5 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 70 million metric tons of CO2 equivalent per year \u2014 declining to 69.3 MT in 2023. Climate TRACE independently tracks AEP's coal and gas fleet as among the highest-emitting power company assets in North America. AEP operates the largest electric transmission system in the United States (39,000+ miles), giving it outsized influence over the pace of the grid's decarbonization.",
+      "summary": "One of the largest electric utilities in the United States, headquartered in Columbus, Ohio, serving approximately 5.5 million customers across 11 states including Ohio, Texas, Oklahoma, Arkansas, Louisiana, West Virginia, Virginia, Michigan, Indiana, and Kentucky. Ranked #5 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 70 million metric tons of CO2 equivalent per year — declining to 69.3 MT in 2023. Climate TRACE independently tracks AEP's coal and gas fleet as among the highest-emitting power company assets in North America. AEP operates the largest electric transmission system in the United States (39,000+ miles), giving it outsized influence over the pace of the grid's decarbonization.",
       "brands": [
         "AEP Ohio",
         "Appalachian Power",
@@ -1009,7 +1009,7 @@
       "name": "Vistra Energy",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest competitive power companies in the United States, headquartered in Irving, Texas. Ranked #1 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 106.5 million metric tons of CO2 equivalent \u2014 the single largest corporate greenhouse gas emitter in the country that year. Emissions declined to approximately 86.3 MT by 2023 as older coal plants were retired, but Climate TRACE continues to identify Vistra's Texas coal fleet (including Martin Lake and Oak Grove plants) as among the highest-emitting power assets in North America. Vistra acquired Dynegy in 2018, adding more coal capacity. It also operates TXU Energy and Ambit Energy as retail electricity brands serving Texas consumers.",
+      "summary": "One of the largest competitive power companies in the United States, headquartered in Irving, Texas. Ranked #1 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 106.5 million metric tons of CO2 equivalent — the single largest corporate greenhouse gas emitter in the country that year. Emissions declined to approximately 86.3 MT by 2023 as older coal plants were retired, but Climate TRACE continues to identify Vistra's Texas coal fleet (including Martin Lake and Oak Grove plants) as among the highest-emitting power assets in North America. Vistra acquired Dynegy in 2018, adding more coal capacity. It also operates TXU Energy and Ambit Energy as retail electricity brands serving Texas consumers.",
       "brands": [
         "TXU Energy",
         "Ambit Energy"
@@ -1074,7 +1074,7 @@
       "name": "Delta Air Lines",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest airlines in the world by revenue, headquartered in Atlanta, Georgia. Climate TRACE satellite-verified aviation data tracks Delta's fleet as a top-tier global airline emitter. Delta reported scope 1 emissions of 35.9 million metric tons of CO2 equivalent in 2023, exceeding its own pre-pandemic 2019 baseline as travel demand rebounded \u2014 up from 30.7 MT in 2022. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely based on carbon offsets, which was subsequently criticized by environmental groups and academics as greenwashing. A 2023 class-action lawsuit alleged Delta misled consumers by claiming carbon-neutral status. SAF represented less than 0.5% of fuel consumed in 2023.",
+      "summary": "One of the largest airlines in the world by revenue, headquartered in Atlanta, Georgia. Climate TRACE satellite-verified aviation data tracks Delta's fleet as a top-tier global airline emitter. Delta reported scope 1 emissions of 35.9 million metric tons of CO2 equivalent in 2023, exceeding its own pre-pandemic 2019 baseline as travel demand rebounded — up from 30.7 MT in 2022. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely based on carbon offsets, which was subsequently criticized by environmental groups and academics as greenwashing. A 2023 class-action lawsuit alleged Delta misled consumers by claiming carbon-neutral status. SAF represented less than 0.5% of fuel consumed in 2023.",
       "brands": [
         "Delta Air Lines",
         "SkyMiles"
@@ -1118,7 +1118,7 @@
       "name": "Xcel Energy",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Major utility holding company headquartered in Minneapolis, Minnesota, serving approximately 3.7 million electric and 2.1 million natural gas customers across eight states: Colorado, Minnesota, Texas, New Mexico, South Dakota, North Dakota, Wisconsin, and Michigan. Ranked #7 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 47 million metric tons of CO2 equivalent \u2014 among the top 10 US corporate emitters. Climate TRACE independently tracks Xcel's coal and gas generation fleet. Xcel was one of the first utilities to pledge 100% carbon-free electricity by 2050 (later moved to 80% carbon-free by 2030), but continued operating major coal plants through 2024 and faces ongoing regulatory scrutiny over its transition timeline.",
+      "summary": "Major utility holding company headquartered in Minneapolis, Minnesota, serving approximately 3.7 million electric and 2.1 million natural gas customers across eight states: Colorado, Minnesota, Texas, New Mexico, South Dakota, North Dakota, Wisconsin, and Michigan. Ranked #7 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 47 million metric tons of CO2 equivalent — among the top 10 US corporate emitters. Climate TRACE independently tracks Xcel's coal and gas generation fleet. Xcel was one of the first utilities to pledge 100% carbon-free electricity by 2050 (later moved to 80% carbon-free by 2030), but continued operating major coal plants through 2024 and faces ongoing regulatory scrutiny over its transition timeline.",
       "brands": [
         "Xcel Energy",
         "Public Service of Colorado",
@@ -1165,7 +1165,7 @@
       "name": "Procter & Gamble",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products \u2014 including Tide laundry detergents and Febreze air fresheners \u2014 as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general.",
+      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products — including Tide laundry detergents and Febreze air fresheners — as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general.",
       "brands": [
         "Tide",
         "Febreze",
@@ -1196,9 +1196,9 @@
       "name": "Unilever",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemm\u00e9, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products \u2014 particularly TRESemm\u00e9 \u2014 as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemm\u00e9 faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemm\u00e9 products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general.",
+      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemmé, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products — particularly TRESemmé — as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemmé faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemmé products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general.",
       "brands": [
-        "TRESemm\u00e9",
+        "TRESemmé",
         "Dove",
         "Suave",
         "Axe",
@@ -1222,7 +1222,7 @@
       "name": "Colgate-Palmolive",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "American consumer goods company headquartered in New York City, with approximately $20B in annual revenue. Colgate-Palmolive manufactures oral care, personal care, and household cleaning products sold globally. Its Palmolive dish soap line receives D and F grades from EWG's Healthy Cleaning Guide due to methylisothiazolinone (MIT) \u2014 a potent skin sensitizer and suspected neurotoxin classified as 'high concern' by EWG \u2014 as well as synthetic fragrances and surfactants. EWG has flagged MIT-containing products as a known cause of allergic contact dermatitis, and the European Union has banned MIT from leave-on cosmetics. Tagged environment_general.",
+      "summary": "American consumer goods company headquartered in New York City, with approximately $20B in annual revenue. Colgate-Palmolive manufactures oral care, personal care, and household cleaning products sold globally. Its Palmolive dish soap line receives D and F grades from EWG's Healthy Cleaning Guide due to methylisothiazolinone (MIT) — a potent skin sensitizer and suspected neurotoxin classified as 'high concern' by EWG — as well as synthetic fragrances and surfactants. EWG has flagged MIT-containing products as a known cause of allergic contact dermatitis, and the European Union has banned MIT from leave-on cosmetics. Tagged environment_general.",
       "brands": [
         "Palmolive",
         "Softsoap",
@@ -1249,7 +1249,7 @@
       "name": "SC Johnson",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Privately held American consumer goods company headquartered in Racine, Wisconsin, with estimated revenues of $10B+. SC Johnson manufactures household cleaning, pest control, and storage products including Windex, Scrubbing Bubbles, Raid, Off!, Pledge, Glade, and Ziploc. EWG's Healthy Cleaning Guide grades multiple SC Johnson products as D or F due to quaternary ammonium compounds ('quats') in Scrubbing Bubbles bathroom cleaners \u2014 chemicals associated with reproductive toxicity, asthma, and antibiotic resistance \u2014 and synthetic fragrance in Glade products. Scrubbing Bubbles Disinfectant Bathroom Cleaner received an F from EWG specifically for quat content and chronic toxicity concerns. Tagged environment_general.",
+      "summary": "Privately held American consumer goods company headquartered in Racine, Wisconsin, with estimated revenues of $10B+. SC Johnson manufactures household cleaning, pest control, and storage products including Windex, Scrubbing Bubbles, Raid, Off!, Pledge, Glade, and Ziploc. EWG's Healthy Cleaning Guide grades multiple SC Johnson products as D or F due to quaternary ammonium compounds ('quats') in Scrubbing Bubbles bathroom cleaners — chemicals associated with reproductive toxicity, asthma, and antibiotic resistance — and synthetic fragrance in Glade products. Scrubbing Bubbles Disinfectant Bathroom Cleaner received an F from EWG specifically for quat content and chronic toxicity concerns. Tagged environment_general.",
       "brands": [
         "Scrubbing Bubbles",
         "Windex",
@@ -1277,7 +1277,7 @@
       "name": "Reckitt",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "British multinational consumer goods company headquartered in Slough, UK, with approximately $15B in annual revenue. Reckitt markets hygiene, health, and nutrition products globally under brands including Lysol, Finish, Woolite, Clearasil, and Durex. EWG's Healthy Cleaning Guide gives multiple Lysol products D or F grades for containing quaternary ammonium compounds ('quats') \u2014 chemicals the EPA has warned may impair fertility and fetal development \u2014 as well as synthetic fragrances and other high-hazard ingredients. Lysol Disinfectant Spray received an F from EWG specifically for quat content and undisclosed fragrance chemicals. Tagged environment_general.",
+      "summary": "British multinational consumer goods company headquartered in Slough, UK, with approximately $15B in annual revenue. Reckitt markets hygiene, health, and nutrition products globally under brands including Lysol, Finish, Woolite, Clearasil, and Durex. EWG's Healthy Cleaning Guide gives multiple Lysol products D or F grades for containing quaternary ammonium compounds ('quats') — chemicals the EPA has warned may impair fertility and fetal development — as well as synthetic fragrances and other high-hazard ingredients. Lysol Disinfectant Spray received an F from EWG specifically for quat content and undisclosed fragrance chemicals. Tagged environment_general.",
       "brands": [
         "Lysol",
         "Finish",
@@ -1304,7 +1304,7 @@
       "name": "Edgewell Personal Care",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "American personal care company headquartered in Shelton, Connecticut, spun off from Energizer Holdings in 2015. Edgewell markets sun care, shaving, and feminine care products globally under brands including Banana Boat, Hawaiian Tropic, Schick, Wilkinson Sword, Carefree, and Stayfree. EWG's annual Sunscreen Guide has consistently ranked Banana Boat and Hawaiian Tropic products among its worst-rated sunscreens due to oxybenzone \u2014 a chemical sunscreen filter detected in human blood, urine, and breast milk at concentrations associated with hormone disruption, and confirmed to damage coral reef ecosystems at very low concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A), which EWG warns may accelerate skin tumor growth when used in sun-exposed skin. Tagged environment_general.",
+      "summary": "American personal care company headquartered in Shelton, Connecticut, spun off from Energizer Holdings in 2015. Edgewell markets sun care, shaving, and feminine care products globally under brands including Banana Boat, Hawaiian Tropic, Schick, Wilkinson Sword, Carefree, and Stayfree. EWG's annual Sunscreen Guide has consistently ranked Banana Boat and Hawaiian Tropic products among its worst-rated sunscreens due to oxybenzone — a chemical sunscreen filter detected in human blood, urine, and breast milk at concentrations associated with hormone disruption, and confirmed to damage coral reef ecosystems at very low concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A), which EWG warns may accelerate skin tumor growth when used in sun-exposed skin. Tagged environment_general.",
       "brands": [
         "Banana Boat",
         "Hawaiian Tropic",
@@ -1326,10 +1326,10 @@
     },
     {
       "id": "loreal",
-      "name": "L'Or\u00e9al",
+      "name": "L'Oréal",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "L'Or\u00e9al is the world's largest cosmetics company, headquartered in Clichy, France, with brands spanning mass-market and luxury beauty. Despite claims of investment in non-animal testing methods, L'Or\u00e9al continues to sell products in mainland China, where regulators require animal testing for many imported cosmetic products. PETA lists L'Or\u00e9al as a company that tests on animals as of 2024, tagging it under animals_general for continued animal testing practices in markets where it is legally required.",
+      "summary": "L'Oréal is the world's largest cosmetics company, headquartered in Clichy, France, with brands spanning mass-market and luxury beauty. Despite claims of investment in non-animal testing methods, L'Oréal continues to sell products in mainland China, where regulators require animal testing for many imported cosmetic products. PETA lists L'Oréal as a company that tests on animals as of 2024, tagging it under animals_general for continued animal testing practices in markets where it is legally required.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1346,10 +1346,10 @@
     },
     {
       "id": "estee_lauder",
-      "name": "The Est\u00e9e Lauder Companies",
+      "name": "The Estée Lauder Companies",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "The Est\u00e9e Lauder Companies is a global luxury beauty conglomerate owning MAC, Clinique, Bobbi Brown, Tom Ford Beauty, La Mer, Aveda, and dozens of other prestige brands. The company sells products in mainland China and has confirmed it tests on animals 'where required by law.' PETA lists Est\u00e9e Lauder as a company that tests on animals, placing it in the animals_general harm category for ongoing animal testing tied to market access in countries with mandatory testing requirements.",
+      "summary": "The Estée Lauder Companies is a global luxury beauty conglomerate owning MAC, Clinique, Bobbi Brown, Tom Ford Beauty, La Mer, Aveda, and dozens of other prestige brands. The company sells products in mainland China and has confirmed it tests on animals 'where required by law.' PETA lists Estée Lauder as a company that tests on animals, placing it in the animals_general harm category for ongoing animal testing tied to market access in countries with mandatory testing requirements.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1409,7 +1409,7 @@
       "name": "Henkel AG & Co. KGaA",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Henkel is a German multinational consumer goods company headquartered in D\u00fcsseldorf, owning hair care brand Schwarzkopf, Dial soap, Purex, Right Guard, and industrial adhesives. Henkel sells products in mainland China and tests on animals where required by law. Despite rhetoric about reducing animal testing, Henkel has not achieved cruelty-free certification and remains on PETA's companies-that-test list. Tagged under animals_general for continued animal testing practices in regulated markets.",
+      "summary": "Henkel is a German multinational consumer goods company headquartered in Düsseldorf, owning hair care brand Schwarzkopf, Dial soap, Purex, Right Guard, and industrial adhesives. Henkel sells products in mainland China and tests on animals where required by law. Despite rhetoric about reducing animal testing, Henkel has not achieved cruelty-free certification and remains on PETA's companies-that-test list. Tagged under animals_general for continued animal testing practices in regulated markets.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1486,7 +1486,7 @@
       "name": "Shiseido Company",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Shiseido is Japan's largest cosmetics company, founded in 1872 and headquartered in Tokyo, with brands including Shiseido, NARS, bareMinerals, Cl\u00e9 de Peau Beaut\u00e9, and Drunk Elephant. Shiseido sells extensively in mainland China, where animal testing requirements apply to many imported cosmetics. PETA lists Shiseido as a company that tests on animals. Although Shiseido has pledged to eliminate animal testing by 2027, it has not yet achieved that goal and continues to test where legally required. Tagged under animals_general for ongoing animal testing in regulated markets.",
+      "summary": "Shiseido is Japan's largest cosmetics company, founded in 1872 and headquartered in Tokyo, with brands including Shiseido, NARS, bareMinerals, Clé de Peau Beauté, and Drunk Elephant. Shiseido sells extensively in mainland China, where animal testing requirements apply to many imported cosmetics. PETA lists Shiseido as a company that tests on animals. Although Shiseido has pledged to eliminate animal testing by 2027, it has not yet achieved that goal and continues to test where legally required. Tagged under animals_general for ongoing animal testing in regulated markets.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1503,7 +1503,7 @@
     },
     {
       "id": "lvmh",
-      "name": "LVMH Mo\u00ebt Hennessy Louis Vuitton",
+      "name": "LVMH Moët Hennessy Louis Vuitton",
       "aum": "N/A",
       "aumVal": 0,
       "summary": "LVMH is the world's largest luxury goods conglomerate, controlled by Bernard Arnault and headquartered in Paris. Its beauty and fragrance division includes Parfums Christian Dior, Guerlain, Givenchy Parfums, Benefit Cosmetics, Make Up For Ever, and Acqua di Parma. LVMH sells luxury cosmetics and fragrances in mainland China, where animal testing requirements apply, and its beauty brands are listed by PETA as companies that test on animals. LVMH's prioritization of the lucrative Chinese market over cruelty-free standards places it in the animals_general harm category.",
@@ -1598,7 +1598,7 @@
       "name": "Avon Products (Natura &Co)",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Avon is a global direct-sales beauty and personal care company, now a subsidiary of Brazil-based Natura &Co following a 2020 acquisition. Avon sells cosmetics, skincare, and fragrance products in over 100 countries. Because Avon continues to sell in China\u2014where animal testing is required for imported cosmetics\u2014it remains on PETA's list of brands that do not meet cruelty-free standards.",
+      "summary": "Avon is a global direct-sales beauty and personal care company, now a subsidiary of Brazil-based Natura &Co following a 2020 acquisition. Avon sells cosmetics, skincare, and fragrance products in over 100 countries. Because Avon continues to sell in China—where animal testing is required for imported cosmetics—it remains on PETA's list of brands that do not meet cruelty-free standards.",
       "brands": [
         "Avon",
         "Skin So Soft"
@@ -1645,7 +1645,7 @@
       "name": "Mars, Incorporated",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Mars, Incorporated is a privately-held global food and pet care company known for candy brands like M&Ms, Snickers, and Skittles, and pet food brands such as Pedigree, Whiskas, and Royal Canin. In 2018 Mars acquired Blue Buffalo for $8 billion, adding a premium natural pet food brand to its portfolio. Mars conducts animal testing on its pet food formulations and is cited in cruelty-free databases for these practices.",
+      "summary": "Mars, Incorporated is a privately-held global food and pet care company known for candy brands like M&Ms, Snickers, and Skittles, and pet food brands such as Pedigree, Whiskas, and Royal Canin. In 2018 Mars acquired Blue Buffalo for $8 billion, adding a premium natural pet food brand to its portfolio. Mars conducts animal testing on its pet food formulations and is cited in cruelty-free databases for these practices. In March 2025, Mars completed its $35.9 billion acquisition of Kellanova (formerly Kellogg's), adding Pop-Tarts, Froot Loops, Frosted Flakes, Cheez-It, Pringles, and Eggo to its portfolio — making Mars one of the largest ultra-processed snack and cereal companies in the world.",
       "brands": [
         "Blue Buffalo",
         "Pedigree",
@@ -1662,7 +1662,8 @@
         "food"
       ],
       "harms": [
-        "animals_general"
+        "animals_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -1710,6 +1711,259 @@
         "animals_general"
       ],
       "aligns": []
+    },
+    {
+      "id": "general_mills",
+      "name": "General Mills",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Multinational food corporation headquartered in Golden Valley, Minnesota. General Mills is one of the world's largest food companies, making cereals, baking products, and packaged foods. EWG's Cereal Offenders campaign directly named General Mills products: Cheerios, Honey Nut Cheerios, and other oat-based cereals were found in a 2024 EWG study to contain chlormequat — a pesticide linked to reproductive harm in animal studies — at levels above EWG's health benchmark. General Mills' children's cereals Lucky Charms, Trix, and Cocoa Puffs contain artificial colors RED 40, YELLOW 5, YELLOW 6, and BLUE 1, which are associated with hyperactivity in children. EWG's Food Scores database lists multiple General Mills products as scoring 7–10 (worst tier) due to high sugar content, artificial additives, and degree of ultra-processing. Flagged under health_general.",
+      "brands": [
+        "Cheerios",
+        "Lucky Charms",
+        "Trix",
+        "Cocoa Puffs",
+        "Betty Crocker",
+        "Pillsbury",
+        "Yoplait",
+        "Annie's",
+        "Old El Paso"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.ewg.org/cerealoffenders/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "pepsico",
+      "name": "PepsiCo",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Multinational food and beverage corporation headquartered in Purchase, New York, with annual revenue exceeding $90 billion. PepsiCo owns Quaker Oats, Frito-Lay (Doritos, Cheetos, Lay's), Gatorade, and Pepsi-Cola beverages. A 2024 EWG study found chlormequat — a pesticide linked to reproductive harm — in Quaker's Honey Nut Oatmeal Squares and Maple & Brown Sugar Instant Oatmeal at levels exceeding EWG's health benchmark of 100 ppb. Gatorade and Mountain Dew products contain artificial dyes RED 40, YELLOW 5, and BLUE 1. Doritos and Cheetos receive among the worst EWG Food Scores for ultra-processed snacks due to artificial flavors, seed oils, and high sodium. Flagged under health_general.",
+      "brands": [
+        "Quaker Oats",
+        "Doritos",
+        "Cheetos",
+        "Lay's",
+        "Mountain Dew",
+        "Gatorade",
+        "Pepsi",
+        "Fritos",
+        "Ruffles",
+        "Tropicana"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.cbsnews.com/news/cheerios-quaker-oats-infertility-chemicals-in-cereal-ewg/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "kraft_heinz",
+      "name": "Kraft Heinz",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Global food and beverage company formed through the 2015 merger of Kraft Foods and H.J. Heinz, headquartered in Chicago and Pittsburgh. Kraft Heinz's Lunchables children's lunch kits are rated among the most concerning products on EWG's Food Scores database, containing sodium nitrite — classified by EWG as of higher concern and linked to cancer in processed meat — alongside multiple artificial food dyes including RED 40, BLUE 1, YELLOW 5, and YELLOW 6. Kool-Aid drink mixes score 6–9 on EWG Food Scores due to artificial colors and high sugar. Oscar Mayer processed meats routinely use sodium nitrite. The company's portfolio of ultra-processed, additive-laden products makes it a repeat offender across EWG's food safety rankings. Flagged under health_general.",
+      "brands": [
+        "Lunchables",
+        "Oscar Mayer",
+        "Kool-Aid",
+        "Jell-O",
+        "Velveeta",
+        "Heinz",
+        "Philadelphia Cream Cheese",
+        "Capri Sun (US license)"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.ewg.org/foodscores/products/044700024119-LunchablesKraftCheeseBlendPizzaCrustsPizzaSauceExtraCheesyPizzaKraftCheeseBlendPizzaCrustsPizzaSauce/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "nestle_usa",
+      "name": "Nestlé USA",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "U.S. subsidiary of Nestlé S.A., the world's largest food and beverage company by revenue, headquartered in Arlington, Virginia. Nestlé USA's Hot Pockets frozen sandwiches score poorly on EWG's Food Scores database — products contain sodium nitrite, which EWG rates as a higher-concern ingredient associated with increased cancer risk, as well as high sodium levels (often exceeding 40% of the daily adequate intake per serving) and multiple ultra-processed artificial ingredients. Hot Pockets are classified as NOVA Group 4 ultra-processed food products. Other Nestlé USA brands including Stouffer's and Lean Cuisine frozen meals also score poorly due to sodium, preservatives, and artificial additives. Flagged under health_general.",
+      "brands": [
+        "Hot Pockets",
+        "Stouffer's",
+        "Lean Cuisine",
+        "DiGiorno",
+        "Coffee-mate",
+        "Toll House",
+        "Nesquik"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.ewg.org/foodscores/products/043695056310-NestleHotPocketsPremiumPepperoniPizzaSandwichesHotPockets/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "conagra_brands",
+      "name": "Conagra Brands",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American consumer packaged goods company headquartered in Chicago, Illinois, with annual revenues around $12 billion. Conagra's Chef Boyardee canned pasta products are rated as high-concern on EWG's Food Scores database, containing sodium nitrite in meat varieties, artificial flavors, high sodium, and refined ingredients that rank them as ultra-processed NOVA Group 4 foods. Slim Jim meat snacks — another Conagra brand — contain sodium nitrite, mechanically separated chicken, and dextrose, scoring among the worst EWG Food Scores for processed meats. Conagra acquired Chef Boyardee and other shelf-stable brands through its 2000 purchase of American Home Foods. Flagged under health_general.",
+      "brands": [
+        "Chef Boyardee",
+        "Slim Jim",
+        "Hunt's",
+        "Orville Redenbacher",
+        "Healthy Choice",
+        "Marie Callender's",
+        "Vlasic",
+        "Birds Eye"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.ewg.org/foodscores/products/064144043224-ChefBoyardeeSpaghettiMeatballs/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "mondelez_international",
+      "name": "Mondelēz International",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Global snack food company headquartered in Chicago, Illinois, spun off from Kraft Foods in 2012, with annual revenue exceeding $35 billion. Mondelēz's Oreo cookies are rated as ultra-processed on EWG's Food Scores database — scored as a NOVA Group 4 ultra-processed product containing refined bleached flour, high-fructose corn syrup, artificial vanilla flavor, soy lecithin emulsifier, and palm oil. The company's portfolio of snack brands — including Chips Ahoy!, Ritz, Wheat Thins, Nutter Butter, Sour Patch Kids, and Cadbury — are predominantly ultra-processed products that score 6–9 on EWG Food Scores due to refined ingredients, added sugars, seed oils, and artificial additives. Flagged under health_general.",
+      "brands": [
+        "Oreo",
+        "Chips Ahoy!",
+        "Ritz",
+        "Wheat Thins",
+        "Sour Patch Kids",
+        "Cadbury",
+        "Trident",
+        "Nabisco",
+        "Nutter Butter",
+        "Triscuit"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.ewg.org/foodscores/products/044000032029-OreoOreoNabiscoOreoMilksFavoriteSandwichCookiesChocolateChocolate/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "post_holdings",
+      "name": "Post Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Diversified consumer packaged goods company headquartered in St. Louis, Missouri, with cereal brands descending from C.W. Post's original Battle Creek operation. Post Holdings' Fruity Pebbles cereal scores among the worst on EWG's Food Scores database for cereals — it contains artificial colors RED 40, YELLOW 5, YELLOW 6, and BLUE 1 plus added sugar as the third ingredient, classifying it as a high-concern NOVA Group 4 ultra-processed food. Other Post cereal brands including Cocoa Pebbles and Honey Bunches of Oats score similarly poorly. EWG's state-of-America's-food-landscape report found 32% of cold cereals contain higher-concern ingredients, and Post's children's cereals are among the most frequently cited. Flagged under health_general.",
+      "brands": [
+        "Fruity Pebbles",
+        "Cocoa Pebbles",
+        "Honey Bunches of Oats",
+        "Alpha-Bits",
+        "Grape-Nuts",
+        "Malt-O-Meal"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.ewg.org/foodscores/content/ewg-food-scores-state-of-americas-food-landscape/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "jm_smucker",
+      "name": "J.M. Smucker Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Consumer food company headquartered in Orrville, Ohio, founded in 1897. J.M. Smucker acquired the Jif peanut butter brand from Procter & Gamble in 2002. Jif peanut butter products score moderately on EWG's Food Scores database due to added sugar, fully hydrogenated vegetable oils in some varieties (which have been linked to increased cardiovascular risk), and palm oil sourcing concerns. Uncrustables frozen PB&J sandwiches — a fast-growing Smucker product — score poorly as ultra-processed foods, containing enriched bleached flour, high-fructose corn syrup, and multiple additives. In recent years Smucker also acquired Hostess Brands (2023), adding Twinkies, Ding Dongs, and Ho Hos — ultra-processed snack cakes that score worst-tier on EWG Food Scores. Flagged under health_general.",
+      "brands": [
+        "Jif",
+        "Uncrustables",
+        "Smucker's",
+        "Folgers",
+        "Hostess",
+        "Twinkies",
+        "Milk-Bone"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.ewg.org/foodscores/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "campbell_soup",
+      "name": "Campbell Soup Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American food company headquartered in Camden, New Jersey, founded in 1869. Campbell's condensed soups score poorly on EWG's Food Scores database principally due to sodium — a single serving of Campbell's Chicken Noodle Soup contains approximately 890mg of sodium, roughly 60% of the American Heart Association's recommended daily limit, and the full can provides double that. EWG's nutrition scoring flags high sodium as a top concern. Campbell's also owns Pepperidge Farm (Goldfish crackers, Milano cookies, Chessmen) and Snyder's-Lance (Snyder's of Hanover pretzels, Cape Cod chips), both lines of ultra-processed snack foods that score 6–9 on EWG Food Scores. Goldfish crackers, one of the most consumed children's snacks in the U.S., contain refined enriched flour, cheddar cheese made with artificial color, and multiple natural flavor additives. Flagged under health_general.",
+      "brands": [
+        "Campbell's Soup",
+        "Goldfish",
+        "Pepperidge Farm",
+        "Swanson",
+        "V8",
+        "Prego",
+        "Pace",
+        "Snyder's of Hanover"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.ewg.org/foodscores/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
@@ -1729,7 +1983,7 @@
         "Microsoft Azure Virtual Desktop",
         "AWS WorkSpaces (Amazon)"
       ],
-      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30\u201340%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
+      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30–40%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -1843,7 +2097,7 @@
         "Local deli/sandwich shops",
         "Jimmy John's (independent units)"
       ],
-      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years.",
+      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction — typically manifests in 2–3 years.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1877,7 +2131,7 @@
     },
     {
       "id": "tropical_smoothie_caf",
-      "avoid": "Tropical Smoothie Caf\u00e9",
+      "avoid": "Tropical Smoothie Café",
       "ownership": [
         {
           "firmId": "blackstone",
@@ -1891,7 +2145,7 @@
         "Jamba (independent franchise units)",
         "Local juice bars"
       ],
-      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2\u20133 years of PE acquisition.",
+      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2–3 years of PE acquisition.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1984,10 +2238,10 @@
       "cat": "coffee",
       "alts": [
         "Corner Bakery (independent)",
-        "Local bakery-caf\u00e9s",
+        "Local bakery-cafés",
         "Au Bon Pain (regional)"
       ],
-      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread \u2014 ending the fresh-baked identity. Two failed IPOs.",
+      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread — ending the fresh-baked identity. Two failed IPOs.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -2268,7 +2522,7 @@
         "Muji (public)",
         "Local storage shops"
       ],
-      "why": "Leonard Green drove it to bankruptcy December 2024 \u2014 same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
+      "why": "Leonard Green drove it to bankruptcy December 2024 — same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -2500,7 +2754,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS\u2014an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
+      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -2518,7 +2772,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment\u2014surveillance deployed ahead of any oversight.",
+      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment—surveillance deployed ahead of any oversight.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -2657,7 +2911,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025\u2014more than any other cloud provider\u2014including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
+      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025—more than any other cloud provider—including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -2692,7 +2946,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) \u2014 the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
+      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) — the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
       "harms": [
         "environment_general"
       ],
@@ -2746,7 +3000,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) \u2014 the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
+      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) — the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
       "harms": [
         "environment_general"
       ],
@@ -2800,7 +3054,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations \u2014 including facilities in California, Louisiana, and Texas \u2014 are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
+      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations — including facilities in California, Louisiana, and Texas — are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
       "harms": [
         "environment_general"
       ],
@@ -2836,7 +3090,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed \u2014 the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
+      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
       "harms": [
         "environment_general"
       ],
@@ -2926,7 +3180,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "TXU Energy is the retail electricity brand of Vistra Energy, which was the single largest corporate greenhouse gas emitter in the United States in 2019 (approximately 106.5 million metric tons CO2e, UMass PERI Greenhouse 100 rank #1), declining to 86.3 MT in 2023. Climate TRACE satellite data identifies Vistra's Texas coal plants \u2014 including Martin Lake and Oak Grove \u2014 among the highest-emitting power assets in North America. TXU Energy is one of the largest retail electricity providers in the deregulated Texas market.",
+      "why": "TXU Energy is the retail electricity brand of Vistra Energy, which was the single largest corporate greenhouse gas emitter in the United States in 2019 (approximately 106.5 million metric tons CO2e, UMass PERI Greenhouse 100 rank #1), declining to 86.3 MT in 2023. Climate TRACE satellite data identifies Vistra's Texas coal plants — including Martin Lake and Oak Grove — among the highest-emitting power assets in North America. TXU Energy is one of the largest retail electricity providers in the deregulated Texas market.",
       "harms": [
         "environment_general"
       ],
@@ -2944,7 +3198,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "Reliant Energy is the primary retail electricity brand of NRG Energy, ranked #11 in the UMass PERI Greenhouse 100 Polluters Index with approximately 36.8 million metric tons of CO2e per year. Climate TRACE tracks NRG's large fossil fuel generation fleet in Texas and the Northeast. Reliant serves hundreds of thousands of Texas households in the deregulated electricity market, marketed under various plans including green energy options \u2014 but NRG's core generation remains heavily fossil fuel-dependent.",
+      "why": "Reliant Energy is the primary retail electricity brand of NRG Energy, ranked #11 in the UMass PERI Greenhouse 100 Polluters Index with approximately 36.8 million metric tons of CO2e per year. Climate TRACE tracks NRG's large fossil fuel generation fleet in Texas and the Northeast. Reliant serves hundreds of thousands of Texas households in the deregulated electricity market, marketed under various plans including green energy options — but NRG's core generation remains heavily fossil fuel-dependent.",
       "harms": [
         "environment_general"
       ],
@@ -2962,7 +3216,7 @@
       ],
       "cat": "hospitality",
       "alts": [],
-      "why": "American Airlines is one of the world's highest-emitting airlines, releasing approximately 45\u201350 million metric tons of CO2 equivalent annually as tracked by Climate TRACE aviation sector data. It is the world's largest airline by scheduled passengers. American made a net-zero-by-2050 pledge but sustainable aviation fuel accounted for less than 1% of fuel used in 2023 as post-pandemic demand rebounded. Aviation represents one of the hardest-to-decarbonize sectors, and American's continued fleet expansion extends its carbon commitments further into the future.",
+      "why": "American Airlines is one of the world's highest-emitting airlines, releasing approximately 45–50 million metric tons of CO2 equivalent annually as tracked by Climate TRACE aviation sector data. It is the world's largest airline by scheduled passengers. American made a net-zero-by-2050 pledge but sustainable aviation fuel accounted for less than 1% of fuel used in 2023 as post-pandemic demand rebounded. Aviation represents one of the hardest-to-decarbonize sectors, and American's continued fleet expansion extends its carbon commitments further into the future.",
       "harms": [
         "environment_general"
       ],
@@ -2980,7 +3234,7 @@
       ],
       "cat": "hospitality",
       "alts": [],
-      "why": "Delta Air Lines reported scope 1 greenhouse gas emissions of 35.9 million metric tons of CO2 equivalent in 2023 \u2014 exceeding its own pre-pandemic 2019 baseline \u2014 as tracked by Climate TRACE aviation data and Delta's own ESG report. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely built on offset purchases, which was subsequently challenged by academics and led to a 2023 class-action greenwashing lawsuit. SAF represented less than 0.5% of Delta's fuel in 2023.",
+      "why": "Delta Air Lines reported scope 1 greenhouse gas emissions of 35.9 million metric tons of CO2 equivalent in 2023 — exceeding its own pre-pandemic 2019 baseline — as tracked by Climate TRACE aviation data and Delta's own ESG report. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely built on offset purchases, which was subsequently challenged by academics and led to a 2023 class-action greenwashing lawsuit. SAF represented less than 0.5% of Delta's fuel in 2023.",
       "harms": [
         "environment_general"
       ],
@@ -3052,7 +3306,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Tide laundry products as D or F due to 1,4-dioxane \u2014 a likely human carcinogen listed by California as a Proposition 65 chemical \u2014 found as a contaminant in surfactant ingredients. The New York State Attorney General tested Tide Original in 2019 and found 1,4-dioxane levels exceeding safe thresholds, leading to new state regulations. Tide products also contain optical brighteners and undisclosed synthetic fragrance compounds that can include allergens and hormone-disrupting chemicals. EWG has campaigned for years for P&G to remove 1,4-dioxane from its cleaning formulas.",
+      "why": "EWG's Healthy Cleaning Guide rates Tide laundry products as D or F due to 1,4-dioxane — a likely human carcinogen listed by California as a Proposition 65 chemical — found as a contaminant in surfactant ingredients. The New York State Attorney General tested Tide Original in 2019 and found 1,4-dioxane levels exceeding safe thresholds, leading to new state regulations. Tide products also contain optical brighteners and undisclosed synthetic fragrance compounds that can include allergens and hormone-disrupting chemicals. EWG has campaigned for years for P&G to remove 1,4-dioxane from its cleaning formulas.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3080,7 +3334,7 @@
     },
     {
       "id": "tresemme",
-      "avoid": "TRESemm\u00e9",
+      "avoid": "TRESemmé",
       "ownership": [
         {
           "firmId": "unilever",
@@ -3090,7 +3344,7 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "EWG's Skin Deep database rates numerous TRESemm\u00e9 shampoos and conditioners as moderate to high hazard due to DMDM hydantoin \u2014 a formaldehyde-releasing preservative linked to hair loss, scalp irritation, and allergic reactions. Multiple class-action lawsuits filed in 2021-2022 alleged TRESemm\u00e9 products caused significant hair loss and scalp damage due to DMDM hydantoin content. In addition, multiple TRESemm\u00e9 aerosol dry shampoo products were recalled in late 2021 after the FDA detected benzene \u2014 a known human carcinogen \u2014 in product samples. Unilever has faced sustained consumer pressure to reformulate these products.",
+      "why": "EWG's Skin Deep database rates numerous TRESemmé shampoos and conditioners as moderate to high hazard due to DMDM hydantoin — a formaldehyde-releasing preservative linked to hair loss, scalp irritation, and allergic reactions. Multiple class-action lawsuits filed in 2021-2022 alleged TRESemmé products caused significant hair loss and scalp damage due to DMDM hydantoin content. In addition, multiple TRESemmé aerosol dry shampoo products were recalled in late 2021 after the FDA detected benzene — a known human carcinogen — in product samples. Unilever has faced sustained consumer pressure to reformulate these products.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3109,7 +3363,7 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "EWG's Skin Deep database rates numerous Dove personal care products \u2014 including body washes, shampoos, and antiperspirants \u2014 as moderate concern (score 3-6 out of 10) due to synthetic fragrances, BHT (butylated hydroxytoluene, a possible endocrine disruptor), parabens in some product lines, and other ingredients of concern. Dove's 'Real Beauty' marketing positions it as a gentle, consumer-friendly brand, but EWG ingredient analysis reveals the same class of synthetic chemicals found in competitors' products, obscured by 'clean beauty' branding. The brand's aerosol dry shampoo products were also included in the 2021 benzene recall affecting multiple Unilever brands.",
+      "why": "EWG's Skin Deep database rates numerous Dove personal care products — including body washes, shampoos, and antiperspirants — as moderate concern (score 3-6 out of 10) due to synthetic fragrances, BHT (butylated hydroxytoluene, a possible endocrine disruptor), parabens in some product lines, and other ingredients of concern. Dove's 'Real Beauty' marketing positions it as a gentle, consumer-friendly brand, but EWG ingredient analysis reveals the same class of synthetic chemicals found in competitors' products, obscured by 'clean beauty' branding. The brand's aerosol dry shampoo products were also included in the 2021 benzene recall affecting multiple Unilever brands.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3128,7 +3382,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Palmolive dish soaps as D or F for containing methylisothiazolinone (MIT) \u2014 a preservative EWG rates as high concern for skin sensitization and suspected neurotoxicity \u2014 as well as synthetic fragrances and surfactant blends with limited safety data. MIT has been banned or severely restricted in leave-on cosmetics in the European Union due to its known capacity to cause allergic contact dermatitis. The EU Scientific Committee on Consumer Safety has also warned about MIT in rinse-off products. Despite regulatory pressure in Europe, Palmolive products sold in the United States continue to contain MIT in formulations sold as family dish soaps.",
+      "why": "EWG's Healthy Cleaning Guide rates Palmolive dish soaps as D or F for containing methylisothiazolinone (MIT) — a preservative EWG rates as high concern for skin sensitization and suspected neurotoxicity — as well as synthetic fragrances and surfactant blends with limited safety data. MIT has been banned or severely restricted in leave-on cosmetics in the European Union due to its known capacity to cause allergic contact dermatitis. The EU Scientific Committee on Consumer Safety has also warned about MIT in rinse-off products. Despite regulatory pressure in Europe, Palmolive products sold in the United States continue to contain MIT in formulations sold as family dish soaps.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3147,7 +3401,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Scrubbing Bubbles Disinfectant Bathroom Cleaner as F \u2014 its worst grade \u2014 primarily for quaternary ammonium compounds ('quats') including alkyl dimethyl benzyl ammonium chloride. The EPA has registered quats as pesticides, and peer-reviewed studies have linked occupational quat exposure to asthma in healthcare workers and cleaning professionals. Animal studies show quats impair fertility and fetal development. EWG also flags the products for synthetic fragrance and chronic toxicity concerns. Despite these issues, Scrubbing Bubbles is marketed aggressively to household consumers cleaning bathrooms and kitchens.",
+      "why": "EWG's Healthy Cleaning Guide rates Scrubbing Bubbles Disinfectant Bathroom Cleaner as F — its worst grade — primarily for quaternary ammonium compounds ('quats') including alkyl dimethyl benzyl ammonium chloride. The EPA has registered quats as pesticides, and peer-reviewed studies have linked occupational quat exposure to asthma in healthcare workers and cleaning professionals. Animal studies show quats impair fertility and fetal development. EWG also flags the products for synthetic fragrance and chronic toxicity concerns. Despite these issues, Scrubbing Bubbles is marketed aggressively to household consumers cleaning bathrooms and kitchens.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3166,7 +3420,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Windex Original Glass Cleaner as D for containing 2-hexoxyethanol \u2014 a glycol ether that EWG classifies as high concern for occupational hazard and moderate concern for reproductive toxicity \u2014 as well as isopropanolamine, synthetic blue dye, and fragrance compounds not fully disclosed on the label. EWG warns that glycol ethers at high exposure can cause blood disorders and reproductive harm. While household exposure levels may be lower than occupational thresholds, EWG argues consumers deserve to know what they are spraying in enclosed spaces like kitchens and bathrooms.",
+      "why": "EWG's Healthy Cleaning Guide rates Windex Original Glass Cleaner as D for containing 2-hexoxyethanol — a glycol ether that EWG classifies as high concern for occupational hazard and moderate concern for reproductive toxicity — as well as isopropanolamine, synthetic blue dye, and fragrance compounds not fully disclosed on the label. EWG warns that glycol ethers at high exposure can cause blood disorders and reproductive harm. While household exposure levels may be lower than occupational thresholds, EWG argues consumers deserve to know what they are spraying in enclosed spaces like kitchens and bathrooms.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3185,7 +3439,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Lysol Disinfectant Spray and multiple Lysol products as D or F for containing quaternary ammonium compounds ('quats') \u2014 EPA-registered pesticides that peer-reviewed research links to occupational asthma, reproductive harm in animal studies, and potential antibiotic resistance. EWG also flags Lysol for undisclosed fragrance formulations and other high-concern ingredients. During the COVID-19 pandemic, Lysol was ubiquitously promoted as a household disinfectant, dramatically increasing consumer and indoor air exposure to quat-containing aerosol sprays \u2014 amplifying EWG's public health concerns about chronic low-level exposure.",
+      "why": "EWG's Healthy Cleaning Guide rates Lysol Disinfectant Spray and multiple Lysol products as D or F for containing quaternary ammonium compounds ('quats') — EPA-registered pesticides that peer-reviewed research links to occupational asthma, reproductive harm in animal studies, and potential antibiotic resistance. EWG also flags Lysol for undisclosed fragrance formulations and other high-concern ingredients. During the COVID-19 pandemic, Lysol was ubiquitously promoted as a household disinfectant, dramatically increasing consumer and indoor air exposure to quat-containing aerosol sprays — amplifying EWG's public health concerns about chronic low-level exposure.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3204,7 +3458,7 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "EWG's annual Sunscreen Guide has consistently ranked Banana Boat sunscreens among its worst-rated products, citing oxybenzone \u2014 a chemical UV filter detected in human blood, urine, and breast milk within minutes of application, and flagged by the FDA as needing further safety data before it can be classified as generally recognized as safe. EWG also found that Hawaii banned oxybenzone-containing sunscreens to protect coral reefs after studies showed it damages coral DNA at parts-per-trillion concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A palmitate), which EWG warns may speed development of skin lesions and tumors when applied to sun-exposed skin, based on U.S. government animal studies. In 2021, Banana Boat recalled multiple aerosol sunscreen products after FDA testing detected benzene contamination.",
+      "why": "EWG's annual Sunscreen Guide has consistently ranked Banana Boat sunscreens among its worst-rated products, citing oxybenzone — a chemical UV filter detected in human blood, urine, and breast milk within minutes of application, and flagged by the FDA as needing further safety data before it can be classified as generally recognized as safe. EWG also found that Hawaii banned oxybenzone-containing sunscreens to protect coral reefs after studies showed it damages coral DNA at parts-per-trillion concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A palmitate), which EWG warns may speed development of skin lesions and tumors when applied to sun-exposed skin, based on U.S. government animal studies. In 2021, Banana Boat recalled multiple aerosol sunscreen products after FDA testing detected benzene contamination.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3223,7 +3477,7 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "EWG's annual Sunscreen Guide rates multiple Hawaiian Tropic products poorly due to oxybenzone \u2014 a chemical UV filter the FDA has asked manufacturers to provide additional safety data for, and which Hawaii has banned in sunscreens due to documented coral reef damage at trace concentrations. EWG sunscreen analysts also cite inadequate UVA protection in several Hawaiian Tropic formulations relative to their advertised SPF values. High SPF numbers primarily reflect UVB protection; without adequate UVA filters, consumers may experience sunscreen-induced false confidence while incurring cumulative UVA damage. EWG recommends mineral-based sunscreens (zinc oxide, titanium dioxide) as safer alternatives.",
+      "why": "EWG's annual Sunscreen Guide rates multiple Hawaiian Tropic products poorly due to oxybenzone — a chemical UV filter the FDA has asked manufacturers to provide additional safety data for, and which Hawaii has banned in sunscreens due to documented coral reef damage at trace concentrations. EWG sunscreen analysts also cite inadequate UVA protection in several Hawaiian Tropic formulations relative to their advertised SPF values. High SPF numbers primarily reflect UVB protection; without adequate UVA filters, consumers may experience sunscreen-induced false confidence while incurring cumulative UVA damage. EWG recommends mineral-based sunscreens (zinc oxide, titanium dioxide) as safer alternatives.",
       "harms": [
         "environment_general",
         "animals_general"
@@ -3242,7 +3496,7 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "Maybelline is owned by L'Or\u00e9al, which tests on animals to comply with regulations in mainland China and other markets. PETA lists L'Or\u00e9al as a company that tests on animals as of 2024. Maybelline is one of L'Or\u00e9al's largest mass-market cosmetics brands, and purchasing it directly funds a parent company that continues to subject animals to safety tests for market access. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "why": "Maybelline is owned by L'Oréal, which tests on animals to comply with regulations in mainland China and other markets. PETA lists L'Oréal as a company that tests on animals as of 2024. Maybelline is one of L'Oréal's largest mass-market cosmetics brands, and purchasing it directly funds a parent company that continues to subject animals to safety tests for market access. Source: https://crueltyfree.peta.org/companies-do-test/",
       "harms": [
         "animals_general"
       ],
@@ -3260,7 +3514,7 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "Clinique is owned by The Est\u00e9e Lauder Companies, which confirms it tests on animals 'where required by law,' including in mainland China. PETA lists Est\u00e9e Lauder as a company that tests on animals. Despite Clinique's marketing as a dermatologist-developed, allergy-tested brand, its parent company continues to subject animals to testing to maintain access to the Chinese cosmetics market. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "why": "Clinique is owned by The Estée Lauder Companies, which confirms it tests on animals 'where required by law,' including in mainland China. PETA lists Estée Lauder as a company that tests on animals. Despite Clinique's marketing as a dermatologist-developed, allergy-tested brand, its parent company continues to subject animals to testing to maintain access to the Chinese cosmetics market. Source: https://crueltyfree.peta.org/companies-do-test/",
       "harms": [
         "animals_general"
       ],
@@ -3584,9 +3838,189 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "BIC Razors are manufactured by BIC Corporation, which appears on PETA's list of companies that conduct animal testing. BIC's personal care products\u2014including disposable razors and shaving gels\u2014involve formulations that undergo animal safety testing in some markets. PETA flags BIC Corporation as not meeting cruelty-free standards for its personal care product lines.",
+      "why": "BIC Razors are manufactured by BIC Corporation, which appears on PETA's list of companies that conduct animal testing. BIC's personal care products—including disposable razors and shaving gels—involve formulations that undergo animal safety testing in some markets. PETA flags BIC Corporation as not meeting cruelty-free standards for its personal care product lines.",
       "harms": [
         "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "cheerios",
+      "avoid": "Cheerios",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1941"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Cheerios, made by General Mills, was directly named in EWG's 2024 Cereal Offenders campaign after laboratory testing detected chlormequat — a pesticide linked to reproductive harm in animal studies — at levels above EWG's health benchmark in Cheerios, Honey Nut Cheerios, Oat Crunch Cheerios, and Oat's n' Honey varieties. Chlormequat disrupts the body's hormonal system and has been associated with reduced fertility, delayed puberty, and impaired embryonic growth in animal studies. Despite being marketed as a wholesome breakfast food for children, Cheerios products also contain added sugars and, in some varieties, artificial flavors. EWG's chlormequat study found that 80% of Americans now test positive for the chemical in their bodies, with exposure frequency rising from 69% in 2017 to 90% in 2023.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "quaker_oats",
+      "avoid": "Quaker Oats",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Quaker Oats, owned by PepsiCo since 2001, was specifically cited in EWG's 2024 chlormequat study: Quaker's Honey Nut Oatmeal Squares and Maple & Brown Sugar Instant Oatmeal both contained chlormequat above 100 parts per billion — exceeding EWG's health benchmark. Chlormequat is a pesticide not approved for use on U.S. food crops but permitted in countries exporting oats to the United States. EWG has also found that Quaker products rank poorly on its Food Scores database due to added sugars, artificial flavors in flavored oatmeal varieties, and high-fructose corn syrup in some granola products. Quaker defended its products by stating they meet all regulatory requirements, but EWG noted that existing EPA tolerances for chlormequat were set without fully accounting for developmental and reproductive effects on children.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "lunchables",
+      "avoid": "Lunchables",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1988"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Lunchables, marketed by Kraft Heinz and consumed by tens of millions of U.S. children, are rated among the worst products in EWG's Food Scores database. The ham-and-cheese variety contains sodium nitrite — an additive EWG rates as higher concern, linked to increased risk of colorectal cancer in processed meat — along with American pasteurized prepared cheese product and crackers made with enriched bleached flour. Lunchables pizza varieties contain sodium benzoate (moderate concern) while others add artificial food dyes RED 40, BLUE 1, YELLOW 5, and YELLOW 6 (colors linked to hyperactivity in children). All Lunchables kits are classified as NOVA Group 4 ultra-processed foods. Despite being sold in U.S. school cafeterias and marketed to children and parents as a convenient, complete meal, Lunchables provide minimal nutritional value while delivering multiple concerning additives in a single package.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "hot_pockets",
+      "avoid": "Hot Pockets",
+      "ownership": [
+        {
+          "firmId": "nestle_usa",
+          "stake": "majority",
+          "since": "2002"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hot Pockets, manufactured by Nestlé USA since its 2002 acquisition of Chef America, score poorly on EWG's Food Scores database across virtually all varieties. The flagship Pepperoni Pizza Hot Pocket contains sodium nitrite — rated by EWG as a higher-concern ingredient and an established carcinogen in processed meats — along with high sodium levels that can provide 40–50% of the daily adequate sodium intake per serving. Hot Pockets are classified as NOVA Group 4 ultra-processed foods by EWG, containing enriched bleached flour, partially hydrogenated oils (in older formulations), artificial flavors, and mechanically separated chicken and pork in some varieties. The EWG Food Scores database lists Hot Pockets across flavors as scoring in the 7–9 (high concern) range, driven by their sodium content, sodium nitrite, and degree of ultra-processing.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "chef_boyardee",
+      "avoid": "Chef Boyardee",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "2000"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Chef Boyardee canned pasta products, owned by Conagra Brands since 2000, are rated as high-concern on EWG's Food Scores database. The flagship Spaghetti & Meatballs product contains sodium nitrite — an additive EWG rates as higher concern due to its association with increased colorectal cancer risk in processed meat — along with high sodium, refined white pasta, and artificial flavors. All Chef Boyardee products are classified as NOVA Group 4 ultra-processed foods due to their use of multiple industrial ingredients not found in home cooking. Despite their positioning as a children's food and their ubiquity in U.S. pantries, these canned pasta products deliver negligible whole-food nutrition while exposing children to repeated doses of sodium nitrite and high-sodium formulations. EWG's Food Scores methodology specifically flags sodium nitrite as a top-tier concern ingredient that should be avoided.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "oreo",
+      "avoid": "Oreo",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Oreo cookies, made by Mondelēz International since its 2012 spin-off from Kraft, score poorly on EWG's Food Scores database as a highly ultra-processed snack food. The standard Oreo contains enriched bleached flour, sugar as the second ingredient, high-fructose corn syrup, palm oil, artificial vanilla flavor, and soy lecithin (an emulsifier). EWG rates Oreos as a NOVA Group 4 ultra-processed food with high processing concerns. The product scores in the 7–9 range across varieties due to high sugar content, refined flour, palm oil (with associated deforestation concerns), and artificial flavors. With global sales of over $3.5 billion annually, Oreo is among the world's most widely consumed ultra-processed snack foods, making it a significant contributor to ultra-processed food consumption among children and adolescents.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "fruity_pebbles",
+      "avoid": "Fruity Pebbles",
+      "ownership": [
+        {
+          "firmId": "post_holdings",
+          "stake": "majority",
+          "since": "1971"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Fruity Pebbles cereal, made by Post Holdings since 1971, scores among the worst in EWG's Food Scores database for ready-to-eat cereals. The product contains sugar as the second ingredient (after rice), and its distinctive colors come entirely from artificial dyes: RED 40, YELLOW 5, YELLOW 6, and BLUE 1 — petroleum-derived synthetic dyes that EWG flags as moderate-to-higher concern ingredients associated with behavioral problems in children. Multiple EU countries require warning labels on products containing these dyes. Fruity Pebbles is classified as a NOVA Group 4 ultra-processed food, containing refined white rice, BHA (a preservative EWG rates as moderate concern), and artificial fruit flavoring. Despite its marketing to children on Saturday morning television for decades, the cereal provides virtually no nutritional value beyond fortification vitamins added back after processing.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "jif",
+      "avoid": "Jif",
+      "ownership": [
+        {
+          "firmId": "jm_smucker",
+          "stake": "majority",
+          "since": "2002"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Jif peanut butter, owned by J.M. Smucker since 2002, scores as a moderately concerning product on EWG's Food Scores database. Most Jif varieties — including the flagship Jif Creamy and Jif Extra Crunchy — add sugar and fully hydrogenated vegetable oils as stabilizers, creating a product that EWG rates as more processed than natural single-ingredient peanut butters. Fully hydrogenated oils, while technically trans-fat-free, raise cardiovascular concerns when consumed in quantity. EWG's Food Scores specifically flags added sugars and oil additives in peanut butter as nutrition concerns. Jif's parent company, J.M. Smucker, also acquired Hostess Brands in 2023 for $5.6 billion, adding Twinkies, Ding Dongs, and Ho Hos — ultra-processed snack cakes that EWG rates as worst-tier (scores 8–10) due to artificial colors, preservatives, and their classification as NOVA Group 4 foods.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "campbells_soup",
+      "avoid": "Campbell's Soup",
+      "ownership": [
+        {
+          "firmId": "campbell_soup",
+          "stake": "majority",
+          "since": "1897"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Campbell's condensed soups score poorly on EWG's Food Scores database primarily due to extreme sodium content. A single serving of Campbell's Condensed Chicken Noodle Soup contains approximately 890mg of sodium — 60% of the American Heart Association's recommended 1,500mg daily limit — and a full can provides nearly double the entire daily limit. EWG's Food Scores nutrition methodology flags high sodium as a top-tier concern ingredient given its links to hypertension, cardiovascular disease, and stroke. Campbell's soups also contain artificial flavors and are classified as ultra-processed. Beyond soup, Campbell's Goldfish crackers — one of the most widely consumed children's snacks in the United States — score 6–8 on EWG Food Scores due to enriched bleached flour, artificial coloring in the cheddar variety, and multiple natural flavor additives. Pepperidge Farm cookies (Milano, Chessmen) are also highly processed high-sugar snacks in the same product portfolio.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "pop_tarts",
+      "avoid": "Pop-Tarts",
+      "ownership": [
+        {
+          "firmId": "mars_inc",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Pop-Tarts, manufactured by Kellanova (formerly Kellogg's, acquired by Mars Inc. in March 2025 for $35.9 billion), score worst-tier on EWG's Food Scores database. The Froot Loops-flavored Pop-Tarts variety contains artificial colors RED 40 LAKE, RED 40, BLUE 1, and YELLOW 5 — petroleum-derived synthetic dyes that EWG rates as moderate concern and which are banned or require warning labels in several European countries. All Pop-Tarts are classified as NOVA Group 4 ultra-processed foods, containing enriched bleached flour, high-fructose corn syrup, sugar, artificial flavors, and BHT (a preservative of moderate concern). A 2024 social media campaign citing independent research pressured Kellogg's to address the use of artificial dyes, particularly in children's products. Pop-Tarts — with annual U.S. retail sales exceeding $900 million — are one of the most widely consumed ultra-processed breakfast pastries marketed to children in America.",
+      "harms": [
+        "health_general"
       ],
       "aligns": []
     }
