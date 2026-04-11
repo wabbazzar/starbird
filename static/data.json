@@ -3596,9 +3596,7 @@
       "harms": [
         "workers_general",
         "extraction_general",
-        "health_general",
-        "elite_impunity_general",
-        "elite_impunity_epstein_network"
+        "health_general"
       ],
       "aligns": []
     },
