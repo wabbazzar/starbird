@@ -11,7 +11,7 @@
 		{ id: 'brands', icon: '◈', label: 'Brands' },
 		{ id: 'firms', icon: '⬡', label: 'Firms' },
 		{ id: 'charts', icon: '▦', label: 'Charts' },
-		{ id: 'about', icon: 'ℹ', label: 'About' }
+		{ id: 'about', icon: '◌', label: 'About' }
 	];
 </script>
 

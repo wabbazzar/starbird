@@ -30,7 +30,7 @@
 		class:chip-active={matchOnly}
 		onclick={ontoggleMatch}
 	>
-		★ My values
+		◉ My values
 	</button>
 	<span class="divider"></span>
 	{#each CATS as c (c.id)}
