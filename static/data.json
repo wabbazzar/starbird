@@ -10,7 +10,7 @@
       "brands": [
         "Jersey Mike's",
         "Great Wolf Lodge",
-        "Tropical Smoothie Caf\u00e9",
+        "Tropical Smoothie Café",
         "Merlin Entertainments"
       ],
       "layoffs": "Portfolio-wide, ongoing",
@@ -310,7 +310,7 @@
       "brands": [
         "Whataburger"
       ],
-      "layoffs": "N/A \u2014 expansion phase",
+      "layoffs": "N/A — expansion phase",
       "notableBk": "None yet; rapid debt-funded expansion",
       "harmScore": 35,
       "source": "https://en.wikipedia.org/wiki/Whataburger",
@@ -352,7 +352,7 @@
       "name": "Vista Equity Partners",
       "aum": "$100B+",
       "aumVal": 100,
-      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30\u201340%. Also took Pluralsight private at a major loss.",
+      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",
       "brands": [
         "Citrix / Cloud Software Group",
         "TIBCO (merged w/ Citrix)",
@@ -387,7 +387,7 @@
         "Sophos",
         "SailPoint"
       ],
-      "layoffs": "300\u2013500+ at Anaplan; waves at Proofpoint",
+      "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
       "harmScore": 62,
       "source": "https://www.channelfutures.com/channel-business/anaplan-layoffs-reportedly-take-their-toll-on-hundreds",
@@ -405,7 +405,7 @@
       "name": "Hellman & Friedman / Permira",
       "aum": "$85B+ / $75B+",
       "aumVal": 85,
-      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 \u2014 after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
+      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
       "brands": [
         "Zendesk",
         "McAfee (Permira former co-owner)"
@@ -716,6 +716,225 @@
         "workers_ice_cooperation"
       ],
       "aligns": []
+    },
+    {
+      "id": "standard_industries",
+      "name": "Standard Industries",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Private holding company headquartered in New York. Primary operations through GAF, the largest roofing manufacturer in North America. GAF's asphalt shingle plants emit polycyclic aromatic hydrocarbons (PAHs) and hazardous air pollutants. Standard Industries was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data), indicating the highest chronic human health risk from air toxics releases among all major U.S. corporations. Facilities have contributed to elevated cancer rates in frontline communities in Texas, Minnesota, and elsewhere. Tagged environment_general.",
+      "brands": [
+        "GAF"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.sierraclub.org/sierra/frontline-communities-fight-evict-toxic-roofing-company",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "chemours",
+      "name": "The Chemours Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Specialty chemicals company spun off from DuPont in 2015, headquartered in Wilmington, Delaware. Chemours is one of the world's largest producers of PFAS ('forever chemicals'), including those used in Teflon-branded non-stick coatings and refrigerants. Its Washington Works facility near Parkersburg, West Virginia has a documented history of PFAS contamination that poisoned drinking water for 70,000+ people, spurring nationwide awareness of the PFAS crisis. Ranked among the top 10 parent companies in EPA's 2023 Toxics Release Inventory with 603 million pounds of waste managed. Chemours's GenX PFAS discharges have also contaminated drinking water for 500,000+ North Carolina residents. Tagged environment_general.",
+      "brands": [
+        "Teflon"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 82,
+      "source": "https://www.ewg.org/news-insights/news/why-are-dupont-and-chemours-still-discharging-most-notorious-forever-chemical",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "perdue_farms",
+      "name": "Perdue Farms",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways — contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
+      "brands": [
+        "Perdue"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.epa.gov/trinationalanalysis/waste-managed-parent-company",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "marathon_petroleum",
+      "name": "Marathon Petroleum Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the largest U.S. petroleum refining and marketing companies, headquartered in Findlay, Ohio, with 13 refineries and crude oil capacity of about 3 million barrels per day. Ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data), indicating it supplied more greenhouse-gas-emitting fossil fuel than any other U.S. company. Its refineries are major EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into neighboring communities. Sold the Speedway convenience store chain to 7-Eleven in 2021 but continues to operate Marathon-branded fuel retail. Tagged environment_general.",
+      "brands": [
+        "Marathon"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "exxonmobil",
+      "name": "ExxonMobil",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the world's largest publicly traded oil and gas companies, headquartered in Spring, Texas. ExxonMobil operates refineries, petrochemical plants, and over 21,000 global retail fuel stations under the Exxon, Mobil, and Esso brands. Ranked in the top 10 of PERI's Greenhouse 100 Polluters index and #5 in the Toxic 100 Water Polluters index (2022 data). Its Baytown, Texas complex is one of the largest U.S. refineries and among the top greenhouse gas emitters in the country. ExxonMobil spent decades funding climate denial while being one of the largest contributors to climate change and a major EPA TRI chemical reporter. Tagged environment_general.",
+      "brands": [
+        "Exxon",
+        "Mobil"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 85,
+      "source": "https://en.wikipedia.org/wiki/Criticism_of_ExxonMobil",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "valero_energy",
+      "name": "Valero Energy Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The world's largest independent petroleum refiner, headquartered in San Antonio, Texas. Operates 15 refineries in the U.S., Canada, and UK with combined throughput of about 3.2 million barrels per day. Ranked #3 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data). Valero's refinery operations are among the largest EPA Toxics Release Inventory reporters, releasing volatile organic compounds, sulfur dioxide, nitrogen oxides, and other hazardous chemicals into communities near its facilities in Texas, Louisiana, and California. Tagged environment_general.",
+      "brands": [
+        "Valero",
+        "Diamond Shamrock"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 76,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "phillips66",
+      "name": "Phillips 66",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Energy manufacturing and logistics company spun off from ConocoPhillips in 2012, headquartered in Houston, Texas. Operates refineries, chemical plants, and retail fuel stations across the U.S. and internationally. Ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data). Phillips 66's refinery operations are significant EPA TRI reporters, contributing to air and water pollution in communities near its California, Texas, and Louisiana facilities. Owns the Phillips 66, Conoco, and 76 retail fuel brands. Tagged environment_general.",
+      "brands": [
+        "Phillips 66",
+        "Conoco",
+        "76"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "chevron",
+      "name": "Chevron Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the world's largest oil and gas companies, headquartered in San Ramon, California. Operates upstream exploration, refining, and retail marketing globally under the Chevron and Texaco brands. Ranked #7 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data). Chevron's refineries are major EPA Toxics Release Inventory reporters; its Richmond, California refinery has triggered multiple air quality emergencies, including a 2012 fire that sent approximately 15,000 residents to hospital. Chevron also faced a $9.5 billion judgment (later overturned) for catastrophic oil contamination of the Ecuadorian Amazon. Acquired Texaco in 2001. Tagged environment_general.",
+      "brands": [
+        "Chevron",
+        "Texaco"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "chs_inc",
+      "name": "CHS Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company — driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
+      "brands": [
+        "Cenex"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.epa.gov/trinationalanalysis/waste-managed-parent-company",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "koch_industries",
+      "name": "Koch Industries",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The second-largest privately-held company in the United States, headquartered in Wichita, Kansas, with operations spanning oil refining (Flint Hills Resources), fertilizers (Koch Fertilizer), paper products (Georgia-Pacific), glass, electronics, and more. Ranks in the top 10 of the PERI UMass Toxic 100 Air Polluters index. Georgia-Pacific's paper mills are major EPA TRI reporters; the Green Bay, WI facility was responsible for 23% of total industrial discharge statewide in 2007-2009. The Crossett, AR mill received a $600,000 EPA Clean Air Act fine in 2018. Koch Industries has accumulated 150+ state environmental violation penalties across 20 states. Owns consumer brands Brawny, Angel Soft, Quilted Northern, Dixie, and Sparkle through Georgia-Pacific. Tagged environment_general.",
+      "brands": [
+        "Brawny",
+        "Angel Soft",
+        "Quilted Northern",
+        "Dixie",
+        "Sparkle"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 82,
+      "source": "https://www.greenpeace.org/usa/climate/climate-deniers/koch-industries/koch-industries-pollution/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
@@ -735,7 +954,7 @@
         "Microsoft Azure Virtual Desktop",
         "AWS WorkSpaces (Amazon)"
       ],
-      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30\u201340%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
+      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30–40%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -849,7 +1068,7 @@
         "Local deli/sandwich shops",
         "Jimmy John's (independent units)"
       ],
-      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years.",
+      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction — typically manifests in 2–3 years.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -883,7 +1102,7 @@
     },
     {
       "id": "tropical_smoothie_caf",
-      "avoid": "Tropical Smoothie Caf\u00e9",
+      "avoid": "Tropical Smoothie Café",
       "ownership": [
         {
           "firmId": "blackstone",
@@ -897,7 +1116,7 @@
         "Jamba (independent franchise units)",
         "Local juice bars"
       ],
-      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2\u20133 years of PE acquisition.",
+      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2–3 years of PE acquisition.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -990,10 +1209,10 @@
       "cat": "coffee",
       "alts": [
         "Corner Bakery (independent)",
-        "Local bakery-caf\u00e9s",
+        "Local bakery-cafés",
         "Au Bon Pain (regional)"
       ],
-      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread \u2014 ending the fresh-baked identity. Two failed IPOs.",
+      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread — ending the fresh-baked identity. Two failed IPOs.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1274,7 +1493,7 @@
         "Muji (public)",
         "Local storage shops"
       ],
-      "why": "Leonard Green drove it to bankruptcy December 2024 \u2014 same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
+      "why": "Leonard Green drove it to bankruptcy December 2024 — same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -1683,6 +1902,186 @@
       "why": "Accenture Federal Services is the incumbent on ICE's $100M+ cyber defense and intelligence support services contract. It also won a $71M DHS contract to manage an immigration-focused biometric and biographic identity management system. Accenture Federal is one of the largest IT contractors enabling ICE's enforcement and surveillance infrastructure.",
       "harms": [
         "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "gaf_roofing",
+      "avoid": "GAF",
+      "ownership": [
+        {
+          "firmId": "standard_industries",
+          "stake": "majority",
+          "since": "1886"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) — the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "teflon",
+      "avoid": "Teflon",
+      "ownership": [
+        {
+          "firmId": "chemours",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Teflon is the world's most recognized non-stick coating brand, manufactured using PFAS ('forever chemicals') by Chemours. PFAS are highly persistent environmental pollutants that accumulate in wildlife and humans. Chemours, which inherited DuPont's PFAS business in 2015, is one of the nation's largest industrial PFAS dischargers. Its plants contaminated drinking water for 70,000+ people near Parkersburg, West Virginia and have since been found to contaminate drinking water for 500,000+ North Carolina residents with GenX PFAS compounds. Chemours ranks among the top 10 U.S. companies by total TRI waste managed (603 million pounds, 2023).",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "perdue",
+      "avoid": "Perdue",
+      "ownership": [
+        {
+          "firmId": "perdue_farms",
+          "stake": "majority",
+          "since": "1920"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Perdue is one of America's best-known chicken brands, produced by Perdue Farms, which ranked #4 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Industrial poultry processing releases large quantities of ammonia and nitrogen into air and waterways. These emissions contribute to respiratory harm in surrounding rural communities and are a major driver of algal blooms and dead zones in the Chesapeake Bay watershed, where Perdue's operations are concentrated.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "marathon_gas",
+      "avoid": "Marathon",
+      "ownership": [
+        {
+          "firmId": "marathon_petroleum",
+          "stake": "majority",
+          "since": "1887"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) — the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "exxon",
+      "avoid": "Exxon",
+      "ownership": [
+        {
+          "firmId": "exxonmobil",
+          "stake": "majority",
+          "since": "1911"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Exxon is the primary U.S. gasoline brand of ExxonMobil, which ranks in the top 10 of the PERI UMass Greenhouse 100 Polluters index and #5 on the Toxic 100 Water Polluters index (2022 data). ExxonMobil is one of the largest corporate contributors to greenhouse gas emissions globally and a major EPA TRI reporter from its refinery and chemical operations. The company spent decades funding climate denial while internal research showed it understood the science of climate change, making it a central actor in delaying climate action.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "valero_gas",
+      "avoid": "Valero",
+      "ownership": [
+        {
+          "firmId": "valero_energy",
+          "stake": "majority",
+          "since": "1980"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Valero is a major U.S. fuel retail brand operated by Valero Energy, the world's largest independent petroleum refiner, ranked #3 in PERI's Greenhouse 100 Suppliers Index (2022 data). Valero's refineries are among the largest EPA Toxics Release Inventory reporters in the country, releasing volatile organic compounds, sulfur dioxide, and benzene into communities near its facilities in Texas, Louisiana, and California. As one of the top U.S. fossil fuel suppliers, Valero's operations are a significant driver of both local toxic pollution and climate change.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "phillips_66_gas",
+      "avoid": "Phillips 66",
+      "ownership": [
+        {
+          "firmId": "phillips66",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations — including facilities in California, Louisiana, and Texas — are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "texaco",
+      "avoid": "Texaco",
+      "ownership": [
+        {
+          "firmId": "chevron",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Texaco is a major U.S. gasoline retail brand now owned by Chevron Corporation, ranked #7 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data). Chevron is one of the largest corporate contributors to global greenhouse gas emissions and a major EPA TRI reporter. Chevron's Richmond, California refinery has caused multiple air quality emergencies, including a 2012 fire that sent approximately 15,000 residents to the hospital. The Texaco brand is also historically associated with catastrophic Amazon oil contamination from legacy Texaco operations in Ecuador that polluted an area the size of Rhode Island.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "cenex",
+      "avoid": "Cenex",
+      "ownership": [
+        {
+          "firmId": "chs_inc",
+          "stake": "majority",
+          "since": "1931"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "brawny",
+      "avoid": "Brawny",
+      "ownership": [
+        {
+          "firmId": "koch_industries",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Brawny is a paper towel brand owned by Georgia-Pacific, a subsidiary of Koch Industries, which ranks in the PERI UMass Toxic 100 Air Polluters top 10. Georgia-Pacific's paper mills are major EPA Toxics Release Inventory reporters. The Green Bay, WI facility alone was responsible for 23% of all industrial discharge in the state (2007-2009). The Crossett, AR mill received a $600,000 EPA fine in 2018 for Clean Air Act violations; Crossett has one of the nation's highest rates of exposure to cancer-causing toxins, with Georgia-Pacific identified as the leading culprit. Koch Industries has amassed 150+ state environmental violation penalties across 20 states.",
+      "harms": [
+        "environment_general"
       ],
       "aligns": []
     }
