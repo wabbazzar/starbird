@@ -10,7 +10,7 @@
       "brands": [
         "Jersey Mike's",
         "Great Wolf Lodge",
-        "Tropical Smoothie Café",
+        "Tropical Smoothie Caf\u00e9",
         "Merlin Entertainments"
       ],
       "layoffs": "Portfolio-wide, ongoing",
@@ -310,7 +310,7 @@
       "brands": [
         "Whataburger"
       ],
-      "layoffs": "N/A — expansion phase",
+      "layoffs": "N/A \u2014 expansion phase",
       "notableBk": "None yet; rapid debt-funded expansion",
       "harmScore": 35,
       "source": "https://en.wikipedia.org/wiki/Whataburger",
@@ -352,7 +352,7 @@
       "name": "Vista Equity Partners",
       "aum": "$100B+",
       "aumVal": 100,
-      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",
+      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30\u201340%. Also took Pluralsight private at a major loss.",
       "brands": [
         "Citrix / Cloud Software Group",
         "TIBCO (merged w/ Citrix)",
@@ -387,7 +387,7 @@
         "Sophos",
         "SailPoint"
       ],
-      "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
+      "layoffs": "300\u2013500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
       "harmScore": 62,
       "source": "https://www.channelfutures.com/channel-business/anaplan-layoffs-reportedly-take-their-toll-on-hundreds",
@@ -405,7 +405,7 @@
       "name": "Hellman & Friedman / Permira",
       "aum": "$85B+ / $75B+",
       "aumVal": 85,
-      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
+      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 \u2014 after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
       "brands": [
         "Zendesk",
         "McAfee (Permira former co-owner)"
@@ -514,7 +514,7 @@
       "name": "Palantir Technologies",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
+      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS\u2014an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -677,7 +677,7 @@
       "name": "Amazon",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025—more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
+      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025\u2014more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
       "brands": [
         "Amazon Web Services",
         "Amazon.com",
@@ -764,7 +764,7 @@
       "name": "Perdue Farms",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways — contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
+      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways \u2014 contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
       "brands": [
         "Perdue"
       ],
@@ -895,7 +895,7 @@
       "name": "CHS Inc.",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company — driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
+      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed \u2014 the highest of any U.S. company \u2014 driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
       "brands": [
         "Cenex"
       ],
@@ -935,6 +935,230 @@
         "environment_general"
       ],
       "aligns": []
+    },
+    {
+      "id": "duke_energy",
+      "name": "Duke Energy Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the largest electric utility holding companies in the United States, headquartered in Charlotte, North Carolina. Duke Energy serves approximately 8.4 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky. Ranked #2 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 87 million metric tons of CO2 equivalent per year \u2014 one of the highest greenhouse gas emitters of any corporation in the United States. Climate TRACE satellite-verified data corroborates Duke's coal and gas plant emissions. Despite pledges to reach net-zero by 2050, Duke continued operating multiple large coal plants through 2024 and has been sued repeatedly by environmental groups for delaying its clean energy transition.",
+      "brands": [
+        "Duke Energy"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 74,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "southern_company",
+      "name": "Southern Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Major electric and gas utility holding company headquartered in Atlanta, Georgia. Ranked #3 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 86 million metric tons of CO2 equivalent per year. Climate TRACE satellite-verified power-sector data identifies Southern Company facilities \u2014 particularly its coal-heavy fleet in Alabama and Georgia \u2014 among the highest-emitting in the nation. Operates consumer-facing subsidiaries Georgia Power, Alabama Power, Mississippi Power, and Gulf Power, serving over 9 million customers. The Plant Vogtle nuclear expansion, while carbon-free, came in at 6B \u2014 double the original estimate \u2014 and was partly funded by ratepayer rate hikes approved by regulators.",
+      "brands": [
+        "Georgia Power",
+        "Alabama Power",
+        "Mississippi Power"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 76,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "american_electric_power",
+      "name": "American Electric Power",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the largest electric utilities in the United States, headquartered in Columbus, Ohio, serving approximately 5.5 million customers across 11 states including Ohio, Texas, Oklahoma, Arkansas, Louisiana, West Virginia, Virginia, Michigan, Indiana, and Kentucky. Ranked #5 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 70 million metric tons of CO2 equivalent per year \u2014 declining to 69.3 MT in 2023. Climate TRACE independently tracks AEP's coal and gas fleet as among the highest-emitting power company assets in North America. AEP operates the largest electric transmission system in the United States (39,000+ miles), giving it outsized influence over the pace of the grid's decarbonization.",
+      "brands": [
+        "AEP Ohio",
+        "Appalachian Power",
+        "Public Service Oklahoma",
+        "Southwestern Electric Power"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "vistra_energy",
+      "name": "Vistra Energy",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the largest competitive power companies in the United States, headquartered in Irving, Texas. Ranked #1 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 106.5 million metric tons of CO2 equivalent \u2014 the single largest corporate greenhouse gas emitter in the country that year. Emissions declined to approximately 86.3 MT by 2023 as older coal plants were retired, but Climate TRACE continues to identify Vistra's Texas coal fleet (including Martin Lake and Oak Grove plants) as among the highest-emitting power assets in North America. Vistra acquired Dynegy in 2018, adding more coal capacity. It also operates TXU Energy and Ambit Energy as retail electricity brands serving Texas consumers.",
+      "brands": [
+        "TXU Energy",
+        "Ambit Energy"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "nrg_energy",
+      "name": "NRG Energy",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Major integrated power company headquartered in Princeton, New Jersey, serving approximately 7.4 million residential, commercial, and industrial customers across the U.S. Ranked #11 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 36.8 million metric tons of CO2 equivalent. Climate TRACE independently tracks NRG's large fossil fuel generation fleet in Texas and the Northeast. NRG operates Reliant Energy (retail electricity in Texas) and formerly owned Green Mountain Energy, a renewable retail provider it sold to NRG-affiliated investors. Despite marketing renewable options, NRG's core generation portfolio has remained heavily dependent on natural gas and some coal-fired capacity.",
+      "brands": [
+        "Reliant Energy"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 67,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "american_airlines",
+      "name": "American Airlines Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The world's largest airline by scheduled passengers carried, headquartered in Fort Worth, Texas. Climate TRACE tracks aviation emissions by carrier; American Airlines' operational fleet emits approximately 45-50 million metric tons of CO2 equivalent annually, making it one of the highest-emitting airlines globally. American has made net-zero pledges for 2050 but actual emissions rose post-pandemic as travel rebounded; sustainable aviation fuel (SAF) accounted for less than 1% of fuel used in 2023. Unlike ground transportation, commercial aviation has limited near-term decarbonization pathways, and American's aggressive route expansion strategy extends its carbon commitments further into the future.",
+      "brands": [
+        "American Airlines",
+        "AAdvantage"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://climatetrace.org/inventory",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "delta_air_lines",
+      "name": "Delta Air Lines",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the largest airlines in the world by revenue, headquartered in Atlanta, Georgia. Climate TRACE satellite-verified aviation data tracks Delta's fleet as a top-tier global airline emitter. Delta reported scope 1 emissions of 35.9 million metric tons of CO2 equivalent in 2023, exceeding its own pre-pandemic 2019 baseline as travel demand rebounded \u2014 up from 30.7 MT in 2022. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely based on carbon offsets, which was subsequently criticized by environmental groups and academics as greenwashing. A 2023 class-action lawsuit alleged Delta misled consumers by claiming carbon-neutral status. SAF represented less than 0.5% of fuel consumed in 2023.",
+      "brands": [
+        "Delta Air Lines",
+        "SkyMiles"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://climatetrace.org/inventory",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "united_airlines",
+      "name": "United Airlines Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the three largest airlines in the United States by passengers carried, headquartered in Chicago, Illinois. Climate TRACE aviation data places United Airlines among the world's top 10 airline emitters. United reported total scope 1 emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023. United has been more aggressive than peers in investing in SAF offtake agreements and emerging technology (including contrails research with Google), but SAF represented less than 1% of fuel burned in 2023 and commercial-scale availability remains a decade away. United's ongoing fleet expansion and growing international routes mean absolute emissions are rising even as carbon intensity per seat-mile improves.",
+      "brands": [
+        "United Airlines",
+        "MileagePlus"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 63,
+      "source": "https://climatetrace.org/inventory",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "xcel_energy",
+      "name": "Xcel Energy",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Major utility holding company headquartered in Minneapolis, Minnesota, serving approximately 3.7 million electric and 2.1 million natural gas customers across eight states: Colorado, Minnesota, Texas, New Mexico, South Dakota, North Dakota, Wisconsin, and Michigan. Ranked #7 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 47 million metric tons of CO2 equivalent \u2014 among the top 10 US corporate emitters. Climate TRACE independently tracks Xcel's coal and gas generation fleet. Xcel was one of the first utilities to pledge 100% carbon-free electricity by 2050 (later moved to 80% carbon-free by 2030), but continued operating major coal plants through 2024 and faces ongoing regulatory scrutiny over its transition timeline.",
+      "brands": [
+        "Xcel Energy",
+        "Public Service of Colorado",
+        "Northern States Power"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "entergy",
+      "name": "Entergy Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Electric utility holding company headquartered in New Orleans, Louisiana, serving approximately 3 million customers in Arkansas, Louisiana, Mississippi, and Texas. Ranked #13 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 35.8 million metric tons of CO2 equivalent. Climate TRACE satellite data confirms Entergy's large gas and coal generation fleet in the Deep South as a significant regional emitter. Entergy's service territory overlaps heavily with low-income, majority-Black communities in Louisiana and Mississippi, which bear disproportionate air quality impacts from its fossil fuel generation. Entergy has faced criticism from environmental justice groups for seeking large rate increases to fund grid upgrades while delaying renewable energy investment.",
+      "brands": [
+        "Entergy",
+        "Entergy Louisiana",
+        "Entergy Arkansas",
+        "Entergy Texas"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://peri.umass.edu/collection/combined-toxic-100-greenhouse-100-polluters-indexes/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
@@ -954,7 +1178,7 @@
         "Microsoft Azure Virtual Desktop",
         "AWS WorkSpaces (Amazon)"
       ],
-      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30–40%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
+      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30\u201340%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -1068,7 +1292,7 @@
         "Local deli/sandwich shops",
         "Jimmy John's (independent units)"
       ],
-      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction — typically manifests in 2–3 years.",
+      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1102,7 +1326,7 @@
     },
     {
       "id": "tropical_smoothie_caf",
-      "avoid": "Tropical Smoothie Café",
+      "avoid": "Tropical Smoothie Caf\u00e9",
       "ownership": [
         {
           "firmId": "blackstone",
@@ -1116,7 +1340,7 @@
         "Jamba (independent franchise units)",
         "Local juice bars"
       ],
-      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2–3 years of PE acquisition.",
+      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2\u20133 years of PE acquisition.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1209,10 +1433,10 @@
       "cat": "coffee",
       "alts": [
         "Corner Bakery (independent)",
-        "Local bakery-cafés",
+        "Local bakery-caf\u00e9s",
         "Au Bon Pain (regional)"
       ],
-      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread — ending the fresh-baked identity. Two failed IPOs.",
+      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread \u2014 ending the fresh-baked identity. Two failed IPOs.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1493,7 +1717,7 @@
         "Muji (public)",
         "Local storage shops"
       ],
-      "why": "Leonard Green drove it to bankruptcy December 2024 — same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
+      "why": "Leonard Green drove it to bankruptcy December 2024 \u2014 same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -1725,7 +1949,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
+      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS\u2014an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -1743,7 +1967,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment—surveillance deployed ahead of any oversight.",
+      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment\u2014surveillance deployed ahead of any oversight.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -1882,7 +2106,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025—more than any other cloud provider—including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
+      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025\u2014more than any other cloud provider\u2014including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -1917,7 +2141,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) — the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
+      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) \u2014 the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
       "harms": [
         "environment_general"
       ],
@@ -1971,7 +2195,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) — the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
+      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) \u2014 the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
       "harms": [
         "environment_general"
       ],
@@ -2025,7 +2249,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations — including facilities in California, Louisiana, and Texas — are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
+      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations \u2014 including facilities in California, Louisiana, and Texas \u2014 are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
       "harms": [
         "environment_general"
       ],
@@ -2061,7 +2285,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
+      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed \u2014 the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
       "harms": [
         "environment_general"
       ],
@@ -2080,6 +2304,186 @@
       "cat": "home",
       "alts": [],
       "why": "Brawny is a paper towel brand owned by Georgia-Pacific, a subsidiary of Koch Industries, which ranks in the PERI UMass Toxic 100 Air Polluters top 10. Georgia-Pacific's paper mills are major EPA Toxics Release Inventory reporters. The Green Bay, WI facility alone was responsible for 23% of all industrial discharge in the state (2007-2009). The Crossett, AR mill received a $600,000 EPA fine in 2018 for Clean Air Act violations; Crossett has one of the nation's highest rates of exposure to cancer-causing toxins, with Georgia-Pacific identified as the leading culprit. Koch Industries has amassed 150+ state environmental violation penalties across 20 states.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "duke_energy",
+      "avoid": "Duke Energy",
+      "ownership": [
+        {
+          "firmId": "duke_energy",
+          "stake": "majority",
+          "since": "1904"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Duke Energy is one of the highest greenhouse gas emitters of any corporation in the United States, releasing approximately 87 million metric tons of CO2 equivalent per year (2019 EPA data, Greenhouse 100 Polluters Index rank #2). Climate TRACE satellite-verified emissions data corroborates its coal and gas fleet. Duke serves 8.4 million customers and continues to operate coal plants while lobbying against faster clean energy mandates in its service states.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "georgia_power",
+      "avoid": "Georgia Power",
+      "ownership": [
+        {
+          "firmId": "southern_company",
+          "stake": "majority",
+          "since": "1902"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Georgia Power is the primary consumer-facing brand of Southern Company, the third-largest corporate greenhouse gas emitter in the United States (approximately 86 million metric tons CO2e/year, UMass PERI Greenhouse 100 rank #3). Climate TRACE data identifies Southern Company's coal plants in Georgia and Alabama among the highest-emitting power assets in North America. Georgia Power serves 2.7 million customers and has been criticized for slow renewable transition timelines and seeking rate increases to fund nuclear construction overruns.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "aep_energy",
+      "avoid": "AEP Energy (American Electric Power)",
+      "ownership": [
+        {
+          "firmId": "american_electric_power",
+          "stake": "majority",
+          "since": "1906"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "AEP Energy is the retail electricity brand of American Electric Power, the fifth-largest corporate greenhouse gas emitter in the United States (approximately 70 million metric tons CO2e/year per UMass PERI Greenhouse 100 data, declining to 69.3 MT in 2023). Climate TRACE independently verifies AEP's large fossil fuel generation fleet. AEP serves 5.5 million customers across 11 states and operates the largest high-voltage transmission system in the US, giving it outsized influence over decarbonization pace.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "txu_energy",
+      "avoid": "TXU Energy",
+      "ownership": [
+        {
+          "firmId": "vistra_energy",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "TXU Energy is the retail electricity brand of Vistra Energy, which was the single largest corporate greenhouse gas emitter in the United States in 2019 (approximately 106.5 million metric tons CO2e, UMass PERI Greenhouse 100 rank #1), declining to 86.3 MT in 2023. Climate TRACE satellite data identifies Vistra's Texas coal plants \u2014 including Martin Lake and Oak Grove \u2014 among the highest-emitting power assets in North America. TXU Energy is one of the largest retail electricity providers in the deregulated Texas market.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "reliant_energy",
+      "avoid": "Reliant Energy",
+      "ownership": [
+        {
+          "firmId": "nrg_energy",
+          "stake": "majority",
+          "since": "2009"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Reliant Energy is the primary retail electricity brand of NRG Energy, ranked #11 in the UMass PERI Greenhouse 100 Polluters Index with approximately 36.8 million metric tons of CO2e per year. Climate TRACE tracks NRG's large fossil fuel generation fleet in Texas and the Northeast. Reliant serves hundreds of thousands of Texas households in the deregulated electricity market, marketed under various plans including green energy options \u2014 but NRG's core generation remains heavily fossil fuel-dependent.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "american_airlines",
+      "avoid": "American Airlines",
+      "ownership": [
+        {
+          "firmId": "american_airlines",
+          "stake": "majority",
+          "since": "1930"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "American Airlines is one of the world's highest-emitting airlines, releasing approximately 45\u201350 million metric tons of CO2 equivalent annually as tracked by Climate TRACE aviation sector data. It is the world's largest airline by scheduled passengers. American made a net-zero-by-2050 pledge but sustainable aviation fuel accounted for less than 1% of fuel used in 2023 as post-pandemic demand rebounded. Aviation represents one of the hardest-to-decarbonize sectors, and American's continued fleet expansion extends its carbon commitments further into the future.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "delta_air_lines",
+      "avoid": "Delta Air Lines",
+      "ownership": [
+        {
+          "firmId": "delta_air_lines",
+          "stake": "majority",
+          "since": "1924"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "Delta Air Lines reported scope 1 greenhouse gas emissions of 35.9 million metric tons of CO2 equivalent in 2023 \u2014 exceeding its own pre-pandemic 2019 baseline \u2014 as tracked by Climate TRACE aviation data and Delta's own ESG report. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely built on offset purchases, which was subsequently challenged by academics and led to a 2023 class-action greenwashing lawsuit. SAF represented less than 0.5% of Delta's fuel in 2023.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "united_airlines",
+      "avoid": "United Airlines",
+      "ownership": [
+        {
+          "firmId": "united_airlines",
+          "stake": "majority",
+          "since": "1926"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "United Airlines reported total scope 1 greenhouse gas emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023, placing it among the world's top 10 airline emitters as tracked by Climate TRACE. While United has been more proactive than peers in SAF offtake agreements and contrail-reduction research, SAF represented less than 1% of fuel burned in 2023. United's ongoing international expansion means absolute emissions continue rising even as carbon intensity per seat-mile improves.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "xcel_energy",
+      "avoid": "Xcel Energy",
+      "ownership": [
+        {
+          "firmId": "xcel_energy",
+          "stake": "majority",
+          "since": "1909"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Xcel Energy is one of the top 10 corporate greenhouse gas emitters in the United States (approximately 47 million metric tons CO2e/year, UMass PERI Greenhouse 100 rank #7), serving 3.7 million electric customers across eight states. Climate TRACE independently tracks Xcel's coal and gas generation fleet. While Xcel was an early utility to commit to 80% carbon-free generation by 2030, it continued operating large coal plants through 2024 and missed earlier clean energy milestones.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "entergy",
+      "avoid": "Entergy",
+      "ownership": [
+        {
+          "firmId": "entergy",
+          "stake": "majority",
+          "since": "1913"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Entergy Corporation ranked #13 in the UMass PERI Greenhouse 100 Polluters Index with approximately 35.8 million metric tons of CO2 equivalent annually, as corroborated by Climate TRACE satellite-verified power sector data. Entergy's service territory in Arkansas, Louisiana, Mississippi, and Texas overlaps heavily with low-income, majority-Black communities who bear disproportionate air quality and climate impacts from its fossil fuel generation. Entergy has faced environmental justice criticism for delaying renewable investment while seeking rate increases.",
       "harms": [
         "environment_general"
       ],
