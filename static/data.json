@@ -1159,6 +1159,164 @@
         "environment_general"
       ],
       "aligns": []
+    },
+    {
+      "id": "procter_and_gamble",
+      "name": "Procter & Gamble",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products — including Tide laundry detergents and Febreze air fresheners — as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general.",
+      "brands": [
+        "Tide",
+        "Febreze",
+        "Dawn",
+        "Cascade",
+        "Mr. Clean",
+        "Pantene",
+        "Head & Shoulders",
+        "Gillette",
+        "Oral-B"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.ewg.org/guides/cleaners/",
+      "cats": [
+        "home",
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "unilever",
+      "name": "Unilever",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemmé, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products — particularly TRESemmé — as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemmé faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemmé products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general.",
+      "brands": [
+        "TRESemmé",
+        "Dove",
+        "Suave",
+        "Axe",
+        "Vaseline"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.ewg.org/skindeep/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "colgate_palmolive",
+      "name": "Colgate-Palmolive",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American consumer goods company headquartered in New York City, with approximately $20B in annual revenue. Colgate-Palmolive manufactures oral care, personal care, and household cleaning products sold globally. Its Palmolive dish soap line receives D and F grades from EWG's Healthy Cleaning Guide due to methylisothiazolinone (MIT) — a potent skin sensitizer and suspected neurotoxin classified as 'high concern' by EWG — as well as synthetic fragrances and surfactants. EWG has flagged MIT-containing products as a known cause of allergic contact dermatitis, and the European Union has banned MIT from leave-on cosmetics. Tagged environment_general.",
+      "brands": [
+        "Palmolive",
+        "Softsoap",
+        "Irish Spring",
+        "Speed Stick",
+        "Colgate"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.ewg.org/guides/cleaners/",
+      "cats": [
+        "home",
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "sc_johnson",
+      "name": "SC Johnson",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Privately held American consumer goods company headquartered in Racine, Wisconsin, with estimated revenues of $10B+. SC Johnson manufactures household cleaning, pest control, and storage products including Windex, Scrubbing Bubbles, Raid, Off!, Pledge, Glade, and Ziploc. EWG's Healthy Cleaning Guide grades multiple SC Johnson products as D or F due to quaternary ammonium compounds ('quats') in Scrubbing Bubbles bathroom cleaners — chemicals associated with reproductive toxicity, asthma, and antibiotic resistance — and synthetic fragrance in Glade products. Scrubbing Bubbles Disinfectant Bathroom Cleaner received an F from EWG specifically for quat content and chronic toxicity concerns. Tagged environment_general.",
+      "brands": [
+        "Scrubbing Bubbles",
+        "Windex",
+        "Raid",
+        "Off!",
+        "Pledge",
+        "Glade",
+        "Ziploc"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.ewg.org/guides/cleaners/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "reckitt",
+      "name": "Reckitt",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "British multinational consumer goods company headquartered in Slough, UK, with approximately $15B in annual revenue. Reckitt markets hygiene, health, and nutrition products globally under brands including Lysol, Finish, Woolite, Clearasil, and Durex. EWG's Healthy Cleaning Guide gives multiple Lysol products D or F grades for containing quaternary ammonium compounds ('quats') — chemicals the EPA has warned may impair fertility and fetal development — as well as synthetic fragrances and other high-hazard ingredients. Lysol Disinfectant Spray received an F from EWG specifically for quat content and undisclosed fragrance chemicals. Tagged environment_general.",
+      "brands": [
+        "Lysol",
+        "Finish",
+        "Woolite",
+        "Clearasil",
+        "Mucinex"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.ewg.org/guides/cleaners/",
+      "cats": [
+        "home",
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "edgewell_personal_care",
+      "name": "Edgewell Personal Care",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American personal care company headquartered in Shelton, Connecticut, spun off from Energizer Holdings in 2015. Edgewell markets sun care, shaving, and feminine care products globally under brands including Banana Boat, Hawaiian Tropic, Schick, Wilkinson Sword, Carefree, and Stayfree. EWG's annual Sunscreen Guide has consistently ranked Banana Boat and Hawaiian Tropic products among its worst-rated sunscreens due to oxybenzone — a chemical sunscreen filter detected in human blood, urine, and breast milk at concentrations associated with hormone disruption, and confirmed to damage coral reef ecosystems at very low concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A), which EWG warns may accelerate skin tumor growth when used in sun-exposed skin. Tagged environment_general.",
+      "brands": [
+        "Banana Boat",
+        "Hawaiian Tropic",
+        "Schick",
+        "Wilkinson Sword"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.ewg.org/sunscreen/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
@@ -2484,6 +2642,186 @@
       "cat": "home",
       "alts": [],
       "why": "Entergy Corporation ranked #13 in the UMass PERI Greenhouse 100 Polluters Index with approximately 35.8 million metric tons of CO2 equivalent annually, as corroborated by Climate TRACE satellite-verified power sector data. Entergy's service territory in Arkansas, Louisiana, Mississippi, and Texas overlaps heavily with low-income, majority-Black communities who bear disproportionate air quality and climate impacts from its fossil fuel generation. Entergy has faced environmental justice criticism for delaying renewable investment while seeking rate increases.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "tide",
+      "avoid": "Tide",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1946"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "EWG's Healthy Cleaning Guide rates Tide laundry products as D or F due to 1,4-dioxane — a likely human carcinogen listed by California as a Proposition 65 chemical — found as a contaminant in surfactant ingredients. The New York State Attorney General tested Tide Original in 2019 and found 1,4-dioxane levels exceeding safe thresholds, leading to new state regulations. Tide products also contain optical brighteners and undisclosed synthetic fragrance compounds that can include allergens and hormone-disrupting chemicals. EWG has campaigned for years for P&G to remove 1,4-dioxane from its cleaning formulas.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "febreze",
+      "avoid": "Febreze",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1996"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "EWG's Healthy Cleaning Guide rates Febreze air freshener products as D or F, citing undisclosed 'fragrance' formulations that EWG testing and analysis indicates contain volatile organic compounds (VOCs), potential hormone disruptors, and respiratory sensitizers. Febreze products disclose only the generic term 'fragrance' on labels rather than individual chemical ingredients, obscuring potentially hundreds of synthetic chemicals from consumers. EWG analysis of air freshener products found chemicals including acetaldehyde (classified as a possible human carcinogen), limonene (a common sensitizer), and other compounds not disclosed on product labels.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "tresemme",
+      "avoid": "TRESemmé",
+      "ownership": [
+        {
+          "firmId": "unilever",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "EWG's Skin Deep database rates numerous TRESemmé shampoos and conditioners as moderate to high hazard due to DMDM hydantoin — a formaldehyde-releasing preservative linked to hair loss, scalp irritation, and allergic reactions. Multiple class-action lawsuits filed in 2021-2022 alleged TRESemmé products caused significant hair loss and scalp damage due to DMDM hydantoin content. In addition, multiple TRESemmé aerosol dry shampoo products were recalled in late 2021 after the FDA detected benzene — a known human carcinogen — in product samples. Unilever has faced sustained consumer pressure to reformulate these products.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "dove",
+      "avoid": "Dove",
+      "ownership": [
+        {
+          "firmId": "unilever",
+          "stake": "majority",
+          "since": "1957"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "EWG's Skin Deep database rates numerous Dove personal care products — including body washes, shampoos, and antiperspirants — as moderate concern (score 3-6 out of 10) due to synthetic fragrances, BHT (butylated hydroxytoluene, a possible endocrine disruptor), parabens in some product lines, and other ingredients of concern. Dove's 'Real Beauty' marketing positions it as a gentle, consumer-friendly brand, but EWG ingredient analysis reveals the same class of synthetic chemicals found in competitors' products, obscured by 'clean beauty' branding. The brand's aerosol dry shampoo products were also included in the 2021 benzene recall affecting multiple Unilever brands.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "palmolive",
+      "avoid": "Palmolive",
+      "ownership": [
+        {
+          "firmId": "colgate_palmolive",
+          "stake": "majority",
+          "since": "1898"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "EWG's Healthy Cleaning Guide rates Palmolive dish soaps as D or F for containing methylisothiazolinone (MIT) — a preservative EWG rates as high concern for skin sensitization and suspected neurotoxicity — as well as synthetic fragrances and surfactant blends with limited safety data. MIT has been banned or severely restricted in leave-on cosmetics in the European Union due to its known capacity to cause allergic contact dermatitis. The EU Scientific Committee on Consumer Safety has also warned about MIT in rinse-off products. Despite regulatory pressure in Europe, Palmolive products sold in the United States continue to contain MIT in formulations sold as family dish soaps.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "scrubbing_bubbles",
+      "avoid": "Scrubbing Bubbles",
+      "ownership": [
+        {
+          "firmId": "sc_johnson",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "EWG's Healthy Cleaning Guide rates Scrubbing Bubbles Disinfectant Bathroom Cleaner as F — its worst grade — primarily for quaternary ammonium compounds ('quats') including alkyl dimethyl benzyl ammonium chloride. The EPA has registered quats as pesticides, and peer-reviewed studies have linked occupational quat exposure to asthma in healthcare workers and cleaning professionals. Animal studies show quats impair fertility and fetal development. EWG also flags the products for synthetic fragrance and chronic toxicity concerns. Despite these issues, Scrubbing Bubbles is marketed aggressively to household consumers cleaning bathrooms and kitchens.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "windex",
+      "avoid": "Windex",
+      "ownership": [
+        {
+          "firmId": "sc_johnson",
+          "stake": "majority",
+          "since": "1933"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "EWG's Healthy Cleaning Guide rates Windex Original Glass Cleaner as D for containing 2-hexoxyethanol — a glycol ether that EWG classifies as high concern for occupational hazard and moderate concern for reproductive toxicity — as well as isopropanolamine, synthetic blue dye, and fragrance compounds not fully disclosed on the label. EWG warns that glycol ethers at high exposure can cause blood disorders and reproductive harm. While household exposure levels may be lower than occupational thresholds, EWG argues consumers deserve to know what they are spraying in enclosed spaces like kitchens and bathrooms.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "lysol",
+      "avoid": "Lysol",
+      "ownership": [
+        {
+          "firmId": "reckitt",
+          "stake": "majority",
+          "since": "1889"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "EWG's Healthy Cleaning Guide rates Lysol Disinfectant Spray and multiple Lysol products as D or F for containing quaternary ammonium compounds ('quats') — EPA-registered pesticides that peer-reviewed research links to occupational asthma, reproductive harm in animal studies, and potential antibiotic resistance. EWG also flags Lysol for undisclosed fragrance formulations and other high-concern ingredients. During the COVID-19 pandemic, Lysol was ubiquitously promoted as a household disinfectant, dramatically increasing consumer and indoor air exposure to quat-containing aerosol sprays — amplifying EWG's public health concerns about chronic low-level exposure.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "banana_boat",
+      "avoid": "Banana Boat",
+      "ownership": [
+        {
+          "firmId": "edgewell_personal_care",
+          "stake": "majority",
+          "since": "1976"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "EWG's annual Sunscreen Guide has consistently ranked Banana Boat sunscreens among its worst-rated products, citing oxybenzone — a chemical UV filter detected in human blood, urine, and breast milk within minutes of application, and flagged by the FDA as needing further safety data before it can be classified as generally recognized as safe. EWG also found that Hawaii banned oxybenzone-containing sunscreens to protect coral reefs after studies showed it damages coral DNA at parts-per-trillion concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A palmitate), which EWG warns may speed development of skin lesions and tumors when applied to sun-exposed skin, based on U.S. government animal studies. In 2021, Banana Boat recalled multiple aerosol sunscreen products after FDA testing detected benzene contamination.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "hawaiian_tropic",
+      "avoid": "Hawaiian Tropic",
+      "ownership": [
+        {
+          "firmId": "edgewell_personal_care",
+          "stake": "majority",
+          "since": "1969"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "EWG's annual Sunscreen Guide rates multiple Hawaiian Tropic products poorly due to oxybenzone — a chemical UV filter the FDA has asked manufacturers to provide additional safety data for, and which Hawaii has banned in sunscreens due to documented coral reef damage at trace concentrations. EWG sunscreen analysts also cite inadequate UVA protection in several Hawaiian Tropic formulations relative to their advertised SPF values. High SPF numbers primarily reflect UVB protection; without adequate UVA filters, consumers may experience sunscreen-induced false confidence while incurring cumulative UVA damage. EWG recommends mineral-based sunscreens (zinc oxide, titanium dioxide) as safer alternatives.",
       "harms": [
         "environment_general"
       ],
