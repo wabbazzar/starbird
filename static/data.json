@@ -10,7 +10,7 @@
       "brands": [
         "Jersey Mike's",
         "Great Wolf Lodge",
-        "Tropical Smoothie Caf\u00e9",
+        "Tropical Smoothie Café",
         "Merlin Entertainments"
       ],
       "layoffs": "Portfolio-wide, ongoing",
@@ -310,7 +310,7 @@
       "brands": [
         "Whataburger"
       ],
-      "layoffs": "N/A \u2014 expansion phase",
+      "layoffs": "N/A — expansion phase",
       "notableBk": "None yet; rapid debt-funded expansion",
       "harmScore": 35,
       "source": "https://en.wikipedia.org/wiki/Whataburger",
@@ -352,7 +352,7 @@
       "name": "Vista Equity Partners",
       "aum": "$100B+",
       "aumVal": 100,
-      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30\u201340%. Also took Pluralsight private at a major loss.",
+      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",
       "brands": [
         "Citrix / Cloud Software Group",
         "TIBCO (merged w/ Citrix)",
@@ -387,7 +387,7 @@
         "Sophos",
         "SailPoint"
       ],
-      "layoffs": "300\u2013500+ at Anaplan; waves at Proofpoint",
+      "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
       "harmScore": 62,
       "source": "https://www.channelfutures.com/channel-business/anaplan-layoffs-reportedly-take-their-toll-on-hundreds",
@@ -405,7 +405,7 @@
       "name": "Hellman & Friedman / Permira",
       "aum": "$85B+ / $75B+",
       "aumVal": 85,
-      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 \u2014 after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
+      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
       "brands": [
         "Zendesk",
         "McAfee (Permira former co-owner)"
@@ -514,7 +514,7 @@
       "name": "Palantir Technologies",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS\u2014an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
+      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
       "brands": [],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -677,7 +677,7 @@
       "name": "Amazon",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025\u2014more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
+      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025—more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
       "brands": [
         "Amazon Web Services",
         "Amazon.com",
@@ -764,7 +764,7 @@
       "name": "Perdue Farms",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways \u2014 contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
+      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways — contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
       "brands": [
         "Perdue"
       ],
@@ -895,7 +895,7 @@
       "name": "CHS Inc.",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed \u2014 the highest of any U.S. company \u2014 driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
+      "summary": "The largest agricultural cooperative in the United States, headquartered in Inver Grove Heights, Minnesota. CHS operates grain handling, food manufacturing, petroleum refining, and the Cenex consumer fuel and lubricant brand. Ranked #1 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company — driven by large-scale n-hexane recycling at soybean processing facilities. CHS also operates two petroleum refineries (Laurel, MT and McPherson, KS) whose TRI releases include volatile organic compounds and other hazardous chemicals. Tagged environment_general.",
       "brands": [
         "Cenex"
       ],
@@ -941,7 +941,7 @@
       "name": "Duke Energy Corporation",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest electric utility holding companies in the United States, headquartered in Charlotte, North Carolina. Duke Energy serves approximately 8.4 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky. Ranked #2 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 87 million metric tons of CO2 equivalent per year \u2014 one of the highest greenhouse gas emitters of any corporation in the United States. Climate TRACE satellite-verified data corroborates Duke's coal and gas plant emissions. Despite pledges to reach net-zero by 2050, Duke continued operating multiple large coal plants through 2024 and has been sued repeatedly by environmental groups for delaying its clean energy transition.",
+      "summary": "One of the largest electric utility holding companies in the United States, headquartered in Charlotte, North Carolina. Duke Energy serves approximately 8.4 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky. Ranked #2 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 87 million metric tons of CO2 equivalent per year — one of the highest greenhouse gas emitters of any corporation in the United States. Climate TRACE satellite-verified data corroborates Duke's coal and gas plant emissions. Despite pledges to reach net-zero by 2050, Duke continued operating multiple large coal plants through 2024 and has been sued repeatedly by environmental groups for delaying its clean energy transition.",
       "brands": [
         "Duke Energy"
       ],
@@ -962,7 +962,7 @@
       "name": "Southern Company",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Major electric and gas utility holding company headquartered in Atlanta, Georgia. Ranked #3 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 86 million metric tons of CO2 equivalent per year. Climate TRACE satellite-verified power-sector data identifies Southern Company facilities \u2014 particularly its coal-heavy fleet in Alabama and Georgia \u2014 among the highest-emitting in the nation. Operates consumer-facing subsidiaries Georgia Power, Alabama Power, Mississippi Power, and Gulf Power, serving over 9 million customers. The Plant Vogtle nuclear expansion, while carbon-free, came in at 6B \u2014 double the original estimate \u2014 and was partly funded by ratepayer rate hikes approved by regulators.",
+      "summary": "Major electric and gas utility holding company headquartered in Atlanta, Georgia. Ranked #3 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 86 million metric tons of CO2 equivalent per year. Climate TRACE satellite-verified power-sector data identifies Southern Company facilities — particularly its coal-heavy fleet in Alabama and Georgia — among the highest-emitting in the nation. Operates consumer-facing subsidiaries Georgia Power, Alabama Power, Mississippi Power, and Gulf Power, serving over 9 million customers. The Plant Vogtle nuclear expansion, while carbon-free, came in at 6B — double the original estimate — and was partly funded by ratepayer rate hikes approved by regulators.",
       "brands": [
         "Georgia Power",
         "Alabama Power",
@@ -985,7 +985,7 @@
       "name": "American Electric Power",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest electric utilities in the United States, headquartered in Columbus, Ohio, serving approximately 5.5 million customers across 11 states including Ohio, Texas, Oklahoma, Arkansas, Louisiana, West Virginia, Virginia, Michigan, Indiana, and Kentucky. Ranked #5 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 70 million metric tons of CO2 equivalent per year \u2014 declining to 69.3 MT in 2023. Climate TRACE independently tracks AEP's coal and gas fleet as among the highest-emitting power company assets in North America. AEP operates the largest electric transmission system in the United States (39,000+ miles), giving it outsized influence over the pace of the grid's decarbonization.",
+      "summary": "One of the largest electric utilities in the United States, headquartered in Columbus, Ohio, serving approximately 5.5 million customers across 11 states including Ohio, Texas, Oklahoma, Arkansas, Louisiana, West Virginia, Virginia, Michigan, Indiana, and Kentucky. Ranked #5 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 70 million metric tons of CO2 equivalent per year — declining to 69.3 MT in 2023. Climate TRACE independently tracks AEP's coal and gas fleet as among the highest-emitting power company assets in North America. AEP operates the largest electric transmission system in the United States (39,000+ miles), giving it outsized influence over the pace of the grid's decarbonization.",
       "brands": [
         "AEP Ohio",
         "Appalachian Power",
@@ -1009,7 +1009,7 @@
       "name": "Vistra Energy",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest competitive power companies in the United States, headquartered in Irving, Texas. Ranked #1 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 106.5 million metric tons of CO2 equivalent \u2014 the single largest corporate greenhouse gas emitter in the country that year. Emissions declined to approximately 86.3 MT by 2023 as older coal plants were retired, but Climate TRACE continues to identify Vistra's Texas coal fleet (including Martin Lake and Oak Grove plants) as among the highest-emitting power assets in North America. Vistra acquired Dynegy in 2018, adding more coal capacity. It also operates TXU Energy and Ambit Energy as retail electricity brands serving Texas consumers.",
+      "summary": "One of the largest competitive power companies in the United States, headquartered in Irving, Texas. Ranked #1 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 106.5 million metric tons of CO2 equivalent — the single largest corporate greenhouse gas emitter in the country that year. Emissions declined to approximately 86.3 MT by 2023 as older coal plants were retired, but Climate TRACE continues to identify Vistra's Texas coal fleet (including Martin Lake and Oak Grove plants) as among the highest-emitting power assets in North America. Vistra acquired Dynegy in 2018, adding more coal capacity. It also operates TXU Energy and Ambit Energy as retail electricity brands serving Texas consumers.",
       "brands": [
         "TXU Energy",
         "Ambit Energy"
@@ -1074,7 +1074,7 @@
       "name": "Delta Air Lines",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the largest airlines in the world by revenue, headquartered in Atlanta, Georgia. Climate TRACE satellite-verified aviation data tracks Delta's fleet as a top-tier global airline emitter. Delta reported scope 1 emissions of 35.9 million metric tons of CO2 equivalent in 2023, exceeding its own pre-pandemic 2019 baseline as travel demand rebounded \u2014 up from 30.7 MT in 2022. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely based on carbon offsets, which was subsequently criticized by environmental groups and academics as greenwashing. A 2023 class-action lawsuit alleged Delta misled consumers by claiming carbon-neutral status. SAF represented less than 0.5% of fuel consumed in 2023.",
+      "summary": "One of the largest airlines in the world by revenue, headquartered in Atlanta, Georgia. Climate TRACE satellite-verified aviation data tracks Delta's fleet as a top-tier global airline emitter. Delta reported scope 1 emissions of 35.9 million metric tons of CO2 equivalent in 2023, exceeding its own pre-pandemic 2019 baseline as travel demand rebounded — up from 30.7 MT in 2022. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely based on carbon offsets, which was subsequently criticized by environmental groups and academics as greenwashing. A 2023 class-action lawsuit alleged Delta misled consumers by claiming carbon-neutral status. SAF represented less than 0.5% of fuel consumed in 2023.",
       "brands": [
         "Delta Air Lines",
         "SkyMiles"
@@ -1118,7 +1118,7 @@
       "name": "Xcel Energy",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Major utility holding company headquartered in Minneapolis, Minnesota, serving approximately 3.7 million electric and 2.1 million natural gas customers across eight states: Colorado, Minnesota, Texas, New Mexico, South Dakota, North Dakota, Wisconsin, and Michigan. Ranked #7 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 47 million metric tons of CO2 equivalent \u2014 among the top 10 US corporate emitters. Climate TRACE independently tracks Xcel's coal and gas generation fleet. Xcel was one of the first utilities to pledge 100% carbon-free electricity by 2050 (later moved to 80% carbon-free by 2030), but continued operating major coal plants through 2024 and faces ongoing regulatory scrutiny over its transition timeline.",
+      "summary": "Major utility holding company headquartered in Minneapolis, Minnesota, serving approximately 3.7 million electric and 2.1 million natural gas customers across eight states: Colorado, Minnesota, Texas, New Mexico, South Dakota, North Dakota, Wisconsin, and Michigan. Ranked #7 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 47 million metric tons of CO2 equivalent — among the top 10 US corporate emitters. Climate TRACE independently tracks Xcel's coal and gas generation fleet. Xcel was one of the first utilities to pledge 100% carbon-free electricity by 2050 (later moved to 80% carbon-free by 2030), but continued operating major coal plants through 2024 and faces ongoing regulatory scrutiny over its transition timeline.",
       "brands": [
         "Xcel Energy",
         "Public Service of Colorado",
@@ -1186,7 +1186,8 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1211,7 +1212,8 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1237,7 +1239,8 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1264,7 +1267,8 @@
         "home"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1290,7 +1294,8 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1314,7 +1319,204 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "loreal",
+      "name": "L'Oréal",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "L'Oréal is the world's largest cosmetics company, headquartered in Clichy, France, with brands spanning mass-market and luxury beauty. Despite claims of investment in non-animal testing methods, L'Oréal continues to sell products in mainland China, where regulators require animal testing for many imported cosmetic products. PETA lists L'Oréal as a company that tests on animals as of 2024, tagging it under animals_general for continued animal testing practices in markets where it is legally required.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health",
+        "retail"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "estee_lauder",
+      "name": "The Estée Lauder Companies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The Estée Lauder Companies is a global luxury beauty conglomerate owning MAC, Clinique, Bobbi Brown, Tom Ford Beauty, La Mer, Aveda, and dozens of other prestige brands. The company sells products in mainland China and has confirmed it tests on animals 'where required by law.' PETA lists Estée Lauder as a company that tests on animals, placing it in the animals_general harm category for ongoing animal testing tied to market access in countries with mandatory testing requirements.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health",
+        "retail"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "coty",
+      "name": "Coty Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Coty Inc. is one of the world's largest beauty companies, owning brands including Rimmel London, CoverGirl, Sally Hansen, OPI, and designer fragrance licenses (Hugo Boss, Gucci). Coty tests on animals where required by local regulations, including in China, and appears on PETA's companies-that-test-on-animals list. Coty has faced significant financial struggles and debt burdens following its 2016 acquisition of Procter & Gamble's beauty brands, but remains a dominant force in mass-market cosmetics. Tagged under animals_general for its continued animal testing practices.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health",
+        "retail"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "church_and_dwight",
+      "name": "Church & Dwight Co.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Church & Dwight is an American consumer goods company best known for Arm & Hammer, OxiClean, Trojan, Vitafusion, and Waterpik. The company tests on animals for its household and personal care product lines and appears on PETA's list of companies that conduct animal testing. While Church & Dwight claims to minimize animal testing, it has not achieved cruelty-free certification from Cruelty Free International or PETA. Tagged under animals_general for ongoing animal testing across its product portfolio.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health",
+        "home"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "henkel",
+      "name": "Henkel AG & Co. KGaA",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Henkel is a German multinational consumer goods company headquartered in Düsseldorf, owning hair care brand Schwarzkopf, Dial soap, Purex, Right Guard, and industrial adhesives. Henkel sells products in mainland China and tests on animals where required by law. Despite rhetoric about reducing animal testing, Henkel has not achieved cruelty-free certification and remains on PETA's companies-that-test list. Tagged under animals_general for continued animal testing practices in regulated markets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health",
+        "home"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "beiersdorf",
+      "name": "Beiersdorf AG",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Beiersdorf is a German personal care company headquartered in Hamburg, most famous for its Nivea brand, as well as Eucerin, La Prairie, Hansaplast, and Coppertone. Beiersdorf sells across global markets including mainland China and tests on animals where required by local regulations. The company has not obtained cruelty-free certification from Cruelty Free International or PETA, and appears on PETA's companies-that-test-on-animals list. Tagged under animals_general for its animal testing practices tied to international market access.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "clorox_company",
+      "name": "The Clorox Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The Clorox Company is an American consumer goods manufacturer headquartered in Oakland, California, owning brands including Clorox bleach, Pine-Sol, Formula 409, Liquid-Plumr, Glad, Kingsford, Hidden Valley, and Burt's Bees. Clorox tests on animals for its cleaning product formulations and safety compliance and appears on PETA's list of companies that conduct animal testing. The company has not obtained cruelty-free certification. Tagged under animals_general for ongoing animal testing practices.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "mary_kay_inc",
+      "name": "Mary Kay Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Mary Kay Inc. is a privately held American multi-level marketing cosmetics company founded in 1963 by Mary Kay Ash, headquartered in Addison, Texas. Mary Kay sells its personal care and beauty products in over 40 countries including mainland China, where regulators require animal testing for many cosmetic products. Mary Kay appears on PETA's companies-that-test-on-animals list. The company has been unable or unwilling to obtain cruelty-free certification from Cruelty Free International or PETA. Tagged under animals_general for continued animal testing tied to its China market access.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "shiseido",
+      "name": "Shiseido Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Shiseido is Japan's largest cosmetics company, founded in 1872 and headquartered in Tokyo, with brands including Shiseido, NARS, bareMinerals, Clé de Peau Beauté, and Drunk Elephant. Shiseido sells extensively in mainland China, where animal testing requirements apply to many imported cosmetics. PETA lists Shiseido as a company that tests on animals. Although Shiseido has pledged to eliminate animal testing by 2027, it has not yet achieved that goal and continues to test where legally required. Tagged under animals_general for ongoing animal testing in regulated markets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health",
+        "retail"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "lvmh",
+      "name": "LVMH Moët Hennessy Louis Vuitton",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "LVMH is the world's largest luxury goods conglomerate, controlled by Bernard Arnault and headquartered in Paris. Its beauty and fragrance division includes Parfums Christian Dior, Guerlain, Givenchy Parfums, Benefit Cosmetics, Make Up For Ever, and Acqua di Parma. LVMH sells luxury cosmetics and fragrances in mainland China, where animal testing requirements apply, and its beauty brands are listed by PETA as companies that test on animals. LVMH's prioritization of the lucrative Chinese market over cruelty-free standards places it in the animals_general harm category.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "animals_general"
       ],
       "aligns": []
     }
@@ -1336,7 +1538,7 @@
         "Microsoft Azure Virtual Desktop",
         "AWS WorkSpaces (Amazon)"
       ],
-      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30\u201340%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
+      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30–40%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -1450,7 +1652,7 @@
         "Local deli/sandwich shops",
         "Jimmy John's (independent units)"
       ],
-      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years.",
+      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction — typically manifests in 2–3 years.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1484,7 +1686,7 @@
     },
     {
       "id": "tropical_smoothie_caf",
-      "avoid": "Tropical Smoothie Caf\u00e9",
+      "avoid": "Tropical Smoothie Café",
       "ownership": [
         {
           "firmId": "blackstone",
@@ -1498,7 +1700,7 @@
         "Jamba (independent franchise units)",
         "Local juice bars"
       ],
-      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2\u20133 years of PE acquisition.",
+      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2–3 years of PE acquisition.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1591,10 +1793,10 @@
       "cat": "coffee",
       "alts": [
         "Corner Bakery (independent)",
-        "Local bakery-caf\u00e9s",
+        "Local bakery-cafés",
         "Au Bon Pain (regional)"
       ],
-      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread \u2014 ending the fresh-baked identity. Two failed IPOs.",
+      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread — ending the fresh-baked identity. Two failed IPOs.",
       "harms": [
         "workers_general",
         "extraction_general",
@@ -1875,7 +2077,7 @@
         "Muji (public)",
         "Local storage shops"
       ],
-      "why": "Leonard Green drove it to bankruptcy December 2024 \u2014 same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
+      "why": "Leonard Green drove it to bankruptcy December 2024 — same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
       "harms": [
         "workers_general",
         "extraction_general"
@@ -2107,7 +2309,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS\u2014an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
+      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -2125,7 +2327,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment\u2014surveillance deployed ahead of any oversight.",
+      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment—surveillance deployed ahead of any oversight.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -2264,7 +2466,7 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025\u2014more than any other cloud provider\u2014including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
+      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025—more than any other cloud provider—including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
       "harms": [
         "workers_ice_cooperation"
       ],
@@ -2299,7 +2501,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) \u2014 the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
+      "why": "GAF is North America's largest roofing manufacturer and a subsidiary of Standard Industries, which was ranked #1 in the PERI UMass Toxic 100 Air Polluters Index (2024 report, 2022 data) — the highest chronic human health risk from air toxic releases of any major U.S. corporation. GAF's asphalt shingle manufacturing plants emit polycyclic aromatic hydrocarbons (PAHs) and other hazardous air pollutants. Frontline communities surrounding GAF plants in Texas, Minnesota, and other states face elevated cancer risks, and residents report years of failed attempts to compel state agencies and the EPA to address the pollution.",
       "harms": [
         "environment_general"
       ],
@@ -2353,7 +2555,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) \u2014 the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
+      "why": "Marathon is a major U.S. gasoline retail brand operated by Marathon Petroleum, which was ranked #1 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data) — the largest U.S. supplier of greenhouse-gas-emitting fossil fuel. Marathon Petroleum's 13 refineries are significant EPA Toxics Release Inventory reporters, releasing benzene, volatile organic compounds, and other hazardous chemicals into surrounding communities. As the nation's top petroleum supplier by greenhouse gas contribution, Marathon is a central driver of both local toxic pollution and global climate change.",
       "harms": [
         "environment_general"
       ],
@@ -2407,7 +2609,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations \u2014 including facilities in California, Louisiana, and Texas \u2014 are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
+      "why": "Phillips 66 is a major U.S. fuel retail brand ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2022 data), making it one of the top U.S. fossil fuel suppliers by greenhouse gas contribution. Phillips 66's refinery operations — including facilities in California, Louisiana, and Texas — are significant EPA TRI reporters, releasing toxic chemicals including benzene, toluene, and sulfur dioxide into surrounding communities. The company also owns the Conoco and 76 fuel brands, giving it one of the largest consumer-facing fuel retail footprints in the U.S.",
       "harms": [
         "environment_general"
       ],
@@ -2443,7 +2645,7 @@
       ],
       "cat": "retail",
       "alts": [],
-      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed \u2014 the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
+      "why": "Cenex is the consumer fuel and lubricant brand of CHS Inc., which was ranked #1 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 4,696 million pounds of chemical waste managed — the highest of any U.S. company. While much of this figure reflects n-hexane recycled from soybean processing, CHS also operates two petroleum refineries whose TRI releases include volatile organic compounds and other hazardous chemicals affecting communities in Montana, Kansas, and across the Midwest and Great Plains.",
       "harms": [
         "environment_general"
       ],
@@ -2533,7 +2735,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "TXU Energy is the retail electricity brand of Vistra Energy, which was the single largest corporate greenhouse gas emitter in the United States in 2019 (approximately 106.5 million metric tons CO2e, UMass PERI Greenhouse 100 rank #1), declining to 86.3 MT in 2023. Climate TRACE satellite data identifies Vistra's Texas coal plants \u2014 including Martin Lake and Oak Grove \u2014 among the highest-emitting power assets in North America. TXU Energy is one of the largest retail electricity providers in the deregulated Texas market.",
+      "why": "TXU Energy is the retail electricity brand of Vistra Energy, which was the single largest corporate greenhouse gas emitter in the United States in 2019 (approximately 106.5 million metric tons CO2e, UMass PERI Greenhouse 100 rank #1), declining to 86.3 MT in 2023. Climate TRACE satellite data identifies Vistra's Texas coal plants — including Martin Lake and Oak Grove — among the highest-emitting power assets in North America. TXU Energy is one of the largest retail electricity providers in the deregulated Texas market.",
       "harms": [
         "environment_general"
       ],
@@ -2551,7 +2753,7 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "Reliant Energy is the primary retail electricity brand of NRG Energy, ranked #11 in the UMass PERI Greenhouse 100 Polluters Index with approximately 36.8 million metric tons of CO2e per year. Climate TRACE tracks NRG's large fossil fuel generation fleet in Texas and the Northeast. Reliant serves hundreds of thousands of Texas households in the deregulated electricity market, marketed under various plans including green energy options \u2014 but NRG's core generation remains heavily fossil fuel-dependent.",
+      "why": "Reliant Energy is the primary retail electricity brand of NRG Energy, ranked #11 in the UMass PERI Greenhouse 100 Polluters Index with approximately 36.8 million metric tons of CO2e per year. Climate TRACE tracks NRG's large fossil fuel generation fleet in Texas and the Northeast. Reliant serves hundreds of thousands of Texas households in the deregulated electricity market, marketed under various plans including green energy options — but NRG's core generation remains heavily fossil fuel-dependent.",
       "harms": [
         "environment_general"
       ],
@@ -2569,7 +2771,7 @@
       ],
       "cat": "hospitality",
       "alts": [],
-      "why": "American Airlines is one of the world's highest-emitting airlines, releasing approximately 45\u201350 million metric tons of CO2 equivalent annually as tracked by Climate TRACE aviation sector data. It is the world's largest airline by scheduled passengers. American made a net-zero-by-2050 pledge but sustainable aviation fuel accounted for less than 1% of fuel used in 2023 as post-pandemic demand rebounded. Aviation represents one of the hardest-to-decarbonize sectors, and American's continued fleet expansion extends its carbon commitments further into the future.",
+      "why": "American Airlines is one of the world's highest-emitting airlines, releasing approximately 45–50 million metric tons of CO2 equivalent annually as tracked by Climate TRACE aviation sector data. It is the world's largest airline by scheduled passengers. American made a net-zero-by-2050 pledge but sustainable aviation fuel accounted for less than 1% of fuel used in 2023 as post-pandemic demand rebounded. Aviation represents one of the hardest-to-decarbonize sectors, and American's continued fleet expansion extends its carbon commitments further into the future.",
       "harms": [
         "environment_general"
       ],
@@ -2587,7 +2789,7 @@
       ],
       "cat": "hospitality",
       "alts": [],
-      "why": "Delta Air Lines reported scope 1 greenhouse gas emissions of 35.9 million metric tons of CO2 equivalent in 2023 \u2014 exceeding its own pre-pandemic 2019 baseline \u2014 as tracked by Climate TRACE aviation data and Delta's own ESG report. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely built on offset purchases, which was subsequently challenged by academics and led to a 2023 class-action greenwashing lawsuit. SAF represented less than 0.5% of Delta's fuel in 2023.",
+      "why": "Delta Air Lines reported scope 1 greenhouse gas emissions of 35.9 million metric tons of CO2 equivalent in 2023 — exceeding its own pre-pandemic 2019 baseline — as tracked by Climate TRACE aviation data and Delta's own ESG report. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely built on offset purchases, which was subsequently challenged by academics and led to a 2023 class-action greenwashing lawsuit. SAF represented less than 0.5% of Delta's fuel in 2023.",
       "harms": [
         "environment_general"
       ],
@@ -2661,7 +2863,8 @@
       "alts": [],
       "why": "EWG's Healthy Cleaning Guide rates Tide laundry products as D or F due to 1,4-dioxane — a likely human carcinogen listed by California as a Proposition 65 chemical — found as a contaminant in surfactant ingredients. The New York State Attorney General tested Tide Original in 2019 and found 1,4-dioxane levels exceeding safe thresholds, leading to new state regulations. Tide products also contain optical brighteners and undisclosed synthetic fragrance compounds that can include allergens and hormone-disrupting chemicals. EWG has campaigned for years for P&G to remove 1,4-dioxane from its cleaning formulas.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2679,7 +2882,8 @@
       "alts": [],
       "why": "EWG's Healthy Cleaning Guide rates Febreze air freshener products as D or F, citing undisclosed 'fragrance' formulations that EWG testing and analysis indicates contain volatile organic compounds (VOCs), potential hormone disruptors, and respiratory sensitizers. Febreze products disclose only the generic term 'fragrance' on labels rather than individual chemical ingredients, obscuring potentially hundreds of synthetic chemicals from consumers. EWG analysis of air freshener products found chemicals including acetaldehyde (classified as a possible human carcinogen), limonene (a common sensitizer), and other compounds not disclosed on product labels.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2697,7 +2901,8 @@
       "alts": [],
       "why": "EWG's Skin Deep database rates numerous TRESemmé shampoos and conditioners as moderate to high hazard due to DMDM hydantoin — a formaldehyde-releasing preservative linked to hair loss, scalp irritation, and allergic reactions. Multiple class-action lawsuits filed in 2021-2022 alleged TRESemmé products caused significant hair loss and scalp damage due to DMDM hydantoin content. In addition, multiple TRESemmé aerosol dry shampoo products were recalled in late 2021 after the FDA detected benzene — a known human carcinogen — in product samples. Unilever has faced sustained consumer pressure to reformulate these products.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2715,7 +2920,8 @@
       "alts": [],
       "why": "EWG's Skin Deep database rates numerous Dove personal care products — including body washes, shampoos, and antiperspirants — as moderate concern (score 3-6 out of 10) due to synthetic fragrances, BHT (butylated hydroxytoluene, a possible endocrine disruptor), parabens in some product lines, and other ingredients of concern. Dove's 'Real Beauty' marketing positions it as a gentle, consumer-friendly brand, but EWG ingredient analysis reveals the same class of synthetic chemicals found in competitors' products, obscured by 'clean beauty' branding. The brand's aerosol dry shampoo products were also included in the 2021 benzene recall affecting multiple Unilever brands.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2733,7 +2939,8 @@
       "alts": [],
       "why": "EWG's Healthy Cleaning Guide rates Palmolive dish soaps as D or F for containing methylisothiazolinone (MIT) — a preservative EWG rates as high concern for skin sensitization and suspected neurotoxicity — as well as synthetic fragrances and surfactant blends with limited safety data. MIT has been banned or severely restricted in leave-on cosmetics in the European Union due to its known capacity to cause allergic contact dermatitis. The EU Scientific Committee on Consumer Safety has also warned about MIT in rinse-off products. Despite regulatory pressure in Europe, Palmolive products sold in the United States continue to contain MIT in formulations sold as family dish soaps.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2751,7 +2958,8 @@
       "alts": [],
       "why": "EWG's Healthy Cleaning Guide rates Scrubbing Bubbles Disinfectant Bathroom Cleaner as F — its worst grade — primarily for quaternary ammonium compounds ('quats') including alkyl dimethyl benzyl ammonium chloride. The EPA has registered quats as pesticides, and peer-reviewed studies have linked occupational quat exposure to asthma in healthcare workers and cleaning professionals. Animal studies show quats impair fertility and fetal development. EWG also flags the products for synthetic fragrance and chronic toxicity concerns. Despite these issues, Scrubbing Bubbles is marketed aggressively to household consumers cleaning bathrooms and kitchens.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2769,7 +2977,8 @@
       "alts": [],
       "why": "EWG's Healthy Cleaning Guide rates Windex Original Glass Cleaner as D for containing 2-hexoxyethanol — a glycol ether that EWG classifies as high concern for occupational hazard and moderate concern for reproductive toxicity — as well as isopropanolamine, synthetic blue dye, and fragrance compounds not fully disclosed on the label. EWG warns that glycol ethers at high exposure can cause blood disorders and reproductive harm. While household exposure levels may be lower than occupational thresholds, EWG argues consumers deserve to know what they are spraying in enclosed spaces like kitchens and bathrooms.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2787,7 +2996,8 @@
       "alts": [],
       "why": "EWG's Healthy Cleaning Guide rates Lysol Disinfectant Spray and multiple Lysol products as D or F for containing quaternary ammonium compounds ('quats') — EPA-registered pesticides that peer-reviewed research links to occupational asthma, reproductive harm in animal studies, and potential antibiotic resistance. EWG also flags Lysol for undisclosed fragrance formulations and other high-concern ingredients. During the COVID-19 pandemic, Lysol was ubiquitously promoted as a household disinfectant, dramatically increasing consumer and indoor air exposure to quat-containing aerosol sprays — amplifying EWG's public health concerns about chronic low-level exposure.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2805,7 +3015,8 @@
       "alts": [],
       "why": "EWG's annual Sunscreen Guide has consistently ranked Banana Boat sunscreens among its worst-rated products, citing oxybenzone — a chemical UV filter detected in human blood, urine, and breast milk within minutes of application, and flagged by the FDA as needing further safety data before it can be classified as generally recognized as safe. EWG also found that Hawaii banned oxybenzone-containing sunscreens to protect coral reefs after studies showed it damages coral DNA at parts-per-trillion concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A palmitate), which EWG warns may speed development of skin lesions and tumors when applied to sun-exposed skin, based on U.S. government animal studies. In 2021, Banana Boat recalled multiple aerosol sunscreen products after FDA testing detected benzene contamination.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2823,7 +3034,188 @@
       "alts": [],
       "why": "EWG's annual Sunscreen Guide rates multiple Hawaiian Tropic products poorly due to oxybenzone — a chemical UV filter the FDA has asked manufacturers to provide additional safety data for, and which Hawaii has banned in sunscreens due to documented coral reef damage at trace concentrations. EWG sunscreen analysts also cite inadequate UVA protection in several Hawaiian Tropic formulations relative to their advertised SPF values. High SPF numbers primarily reflect UVB protection; without adequate UVA filters, consumers may experience sunscreen-induced false confidence while incurring cumulative UVA damage. EWG recommends mineral-based sunscreens (zinc oxide, titanium dioxide) as safer alternatives.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "maybelline",
+      "avoid": "Maybelline",
+      "ownership": [
+        {
+          "firmId": "loreal",
+          "stake": "majority",
+          "since": "1996"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Maybelline is owned by L'Oréal, which tests on animals to comply with regulations in mainland China and other markets. PETA lists L'Oréal as a company that tests on animals as of 2024. Maybelline is one of L'Oréal's largest mass-market cosmetics brands, and purchasing it directly funds a parent company that continues to subject animals to safety tests for market access. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "clinique",
+      "avoid": "Clinique",
+      "ownership": [
+        {
+          "firmId": "estee_lauder",
+          "stake": "majority",
+          "since": "1968"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Clinique is owned by The Estée Lauder Companies, which confirms it tests on animals 'where required by law,' including in mainland China. PETA lists Estée Lauder as a company that tests on animals. Despite Clinique's marketing as a dermatologist-developed, allergy-tested brand, its parent company continues to subject animals to testing to maintain access to the Chinese cosmetics market. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "rimmel_london",
+      "avoid": "Rimmel London",
+      "ownership": [
+        {
+          "firmId": "coty",
+          "stake": "majority",
+          "since": "1996"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Rimmel London is owned by Coty Inc., which tests on animals to comply with regulations in markets including mainland China. PETA lists Coty as a company that tests on animals. Rimmel is one of the world's best-selling drugstore makeup brands, and purchasing it funds a parent company that continues to conduct or commission animal testing for regulatory compliance. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "oxiclean",
+      "avoid": "OxiClean",
+      "ownership": [
+        {
+          "firmId": "church_and_dwight",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "OxiClean is owned by Church & Dwight Co., which tests on animals for its household cleaning and personal care products. PETA lists Church & Dwight as a company that tests on animals. Church & Dwight has not obtained cruelty-free certification from any major animal welfare organization. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "schwarzkopf",
+      "avoid": "Schwarzkopf",
+      "ownership": [
+        {
+          "firmId": "henkel",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Schwarzkopf is one of Henkel AG's flagship hair care brands, sold globally including in mainland China. Henkel tests on animals where required by local regulations and appears on PETA's companies-that-test list. Henkel has not obtained cruelty-free certification from Cruelty Free International or PETA. Purchasing Schwarzkopf products funds Henkel's ongoing animal testing practices. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "nivea",
+      "avoid": "Nivea",
+      "ownership": [
+        {
+          "firmId": "beiersdorf",
+          "stake": "majority",
+          "since": "1911"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Nivea is the flagship brand of Beiersdorf AG, which sells personal care products worldwide including in mainland China, where animal testing is required for many imported cosmetics. PETA lists Beiersdorf as a company that tests on animals. Beiersdorf has not received cruelty-free certification from Cruelty Free International or PETA. Purchasing Nivea products funds a parent company that continues animal testing for regulatory compliance. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "pine_sol",
+      "avoid": "Pine-Sol",
+      "ownership": [
+        {
+          "firmId": "clorox_company",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Pine-Sol is owned by The Clorox Company, which tests on animals for its household cleaning products as part of safety and regulatory compliance. PETA lists Clorox as a company that tests on animals. Clorox has not achieved cruelty-free certification from any major animal welfare organization. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "mary_kay",
+      "avoid": "Mary Kay",
+      "ownership": [
+        {
+          "firmId": "mary_kay_inc",
+          "stake": "majority",
+          "since": "1963"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Mary Kay Inc. sells personal care and cosmetics products in over 40 countries including mainland China, where animal testing requirements apply to many imported cosmetics. Mary Kay appears on PETA's companies-that-test-on-animals list and has not obtained cruelty-free certification from Cruelty Free International or PETA. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "shiseido",
+      "avoid": "Shiseido",
+      "ownership": [
+        {
+          "firmId": "shiseido",
+          "stake": "majority",
+          "since": "1872"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Shiseido Company sells luxury and prestige skincare and cosmetics extensively in mainland China, where animal testing is required for many imported cosmetic products. PETA lists Shiseido as a company that tests on animals. Although Shiseido has pledged to eliminate animal testing, it has not yet achieved cruelty-free certification and continues to test where legally mandated. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "dior_beauty",
+      "avoid": "Dior Beauty",
+      "ownership": [
+        {
+          "firmId": "lvmh",
+          "stake": "majority",
+          "since": "1984"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Dior Beauty (Parfums Christian Dior) is owned by LVMH, which sells luxury cosmetics and fragrances in mainland China, where animal testing is required for many imported cosmetics. PETA lists LVMH's beauty brands as companies that test on animals. LVMH's decision to prioritize access to the Chinese luxury market means that consumers purchasing Dior Beauty products are indirectly funding animal testing. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
       ],
       "aligns": []
     }
