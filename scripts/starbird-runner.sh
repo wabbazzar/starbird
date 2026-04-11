@@ -129,7 +129,10 @@ fi
 # disk, not from Claude's self-report.
 STRATEGY_LABEL=$(python3 "$STARBIRD_DIR/scripts/labels.py" strategy "$PICKED_STRATEGY")
 STRATEGY_DESC=$(python3 "$STARBIRD_DIR/scripts/labels.py" strategy-desc "$PICKED_STRATEGY")
-QUEST_LABEL=$(python3 "$STARBIRD_DIR/scripts/labels.py" quest workers_ice_cooperation)
+# Derive the value from the picked strategy so the notification reports the
+# correct value system — not a hardcoded ICE label.
+STRATEGY_VALUE=$(python3 "$STARBIRD_DIR/scripts/labels.py" strategy-value "$PICKED_STRATEGY")
+VALUE_LABEL=$(python3 "$STARBIRD_DIR/scripts/labels.py" value "$STRATEGY_VALUE")
 
 # Extract the specific new entity IDs and counts from the ground-truth record
 # (not from Claude's self-report — these numbers are derived from the diff).
@@ -160,7 +163,7 @@ fi
 
 SUMMARY="Starbird Runner — $MODE_LABEL
 Status: $STATUS
-Quest: $QUEST_LABEL
+Value: $VALUE_LABEL
 Strategy: $STRATEGY_LABEL
   → $STRATEGY_DESC
 New: $NEW_BRANDS brand(s), $NEW_FIRMS firm(s) [$NEW_IDS]
