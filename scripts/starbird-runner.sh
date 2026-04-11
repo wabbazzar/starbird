@@ -38,24 +38,35 @@ echo "[starbird-runner] picked strategy: $PICKED_STRATEGY" >> "$LOG_FILE"
 # ── Step 3: Snapshot data.json so we can diff afterwards ────────────────
 cp "$STARBIRD_DIR/static/data.json" "$BEFORE_SNAPSHOT"
 
+# Target pairs per run. Can be overridden via env var. The launcher scales
+# the budget with the target (rough estimate: $0.50 per pair of firm+brand
+# records, plus $0.50 overhead for scoring + schema validation).
+TARGET_PAIRS="${TARGET_PAIRS:-3}"
+
 # ── Step 4: Assemble the prompt with injected facts ─────────────────────
 PROMPT="$(cat "$PROMPT_FILE")
 
 MODE=$MODE
 TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 PICKED_STRATEGY=$PICKED_STRATEGY
+TARGET_PAIRS=$TARGET_PAIRS
 
-(The launcher has already chosen the strategy for this run. You do not
-decide which strategy to use, and you do not write to the scores file.
-Execute the strategy above and only that strategy.)"
+(The launcher has already chosen the strategy for this run and set the
+target count. You do not decide which strategy to use, you do not write
+to the scores file, and you do not reduce TARGET_PAIRS below the value
+given. Execute the strategy above and only that strategy.)"
 
 MODEL="sonnet"
 
+# Budget scales with target: $0.50 per pair + $0.50 overhead, capped.
+BUDGET_BASE=$(python3 -c "print(max(0.50, 0.50 * $TARGET_PAIRS + 0.50))")
 if [ "$MODE" = "dry-run" ]; then
-  BUDGET="1.00"
+  BUDGET="$BUDGET_BASE"
 else
-  BUDGET="4.00"
+  # Daily mode has the same per-pair cost but a higher floor for safety.
+  BUDGET=$(python3 -c "print(max(4.00, $BUDGET_BASE))")
 fi
+echo "[starbird-runner] target=$TARGET_PAIRS budget=\$$BUDGET" >> "$LOG_FILE"
 
 # ── Step 5: Invoke Claude ───────────────────────────────────────────────
 claude -p \

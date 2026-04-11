@@ -47,7 +47,7 @@ Known baseline (these are the kinds of entries we want more of):
 - Motorola Solutions — communications equipment
 - Northrop Grumman — enforcement technology
 
-Aim for 1–3 well-sourced new entities per run. Quality beats quantity. The Guardian will reject bad data at push time.
+Target for this run: **`TARGET_PAIRS`** well-sourced new entity pairs (each pair = 1 firm record + 1 brand record). The launcher injects `TARGET_PAIRS` as an environment variable at the bottom of this prompt. Keep researching and adding until you hit the target or exhaust the strategy's source. Quality still beats quantity — if you cannot find more than N valid candidates, stop at N rather than fabricating. The Guardian will reject bad data at push time regardless.
 
 ## Strategy bank
 

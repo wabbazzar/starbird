@@ -37,13 +37,17 @@
 		grid-template-columns: repeat(4, 1fr);
 		background: var(--bg);
 		border-top: 1px solid var(--border);
-		padding-bottom: env(safe-area-inset-bottom, 0px);
+		/* Pad exactly the home-indicator inset — do not add extra button padding
+		   on top of this or the labels float too high above the home bar. */
+		padding-bottom: max(env(safe-area-inset-bottom, 0px), 4px);
 	}
 	.btn-nav {
 		background: none;
 		border: none;
 		color: var(--ink-faint);
-		padding: 10px 4px;
+		/* Asymmetric: breathing room above the icon, minimal below the label,
+		   since the nav element itself handles safe-area spacing underneath. */
+		padding: 8px 4px 2px;
 		cursor: pointer;
 		display: flex;
 		flex-direction: column;
