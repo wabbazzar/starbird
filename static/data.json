@@ -4,28 +4,33 @@
       "name": "Blackstone",
       "aum": "$1T+",
       "aumVal": 1000,
-      "rap": "World's largest PE firm. Owns Jersey Mike's, Great Wolf Lodge, Tropical Smoothie. Notorious for sale-leaseback strategies that extract real estate and saddle companies with above-market rents.",
+      "summary": "World's largest PE firm. Owns Jersey Mike's, Great Wolf Lodge, Tropical Smoothie. Notorious for sale-leaseback strategies that extract real estate and saddle companies with above-market rents.",
       "brands": [
         "Jersey Mike's",
         "Great Wolf Lodge",
-        "Tropical Smoothie Café",
+        "Tropical Smoothie Caf\u00e9",
         "Merlin Entertainments"
       ],
       "layoffs": "Portfolio-wide, ongoing",
       "notableBk": "Multiple retail portfolio bankruptcies",
-      "bkScore": 60,
+      "harmScore": 60,
       "source": "https://en.wikipedia.org/wiki/Blackstone_Inc.",
       "cats": [
         "food",
         "hospitality",
         "retail"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Apollo Global",
       "aum": "$650B",
       "aumVal": 650,
-      "rap": "Owns Albertsons, Michaels ($5B LBO 2021), PetSmart (minority), and drove Claire's to bankruptcy in 2018. Also entangled in 99 Cents Only and Serta Simmons debt schemes.",
+      "summary": "Owns Albertsons, Michaels ($5B LBO 2021), PetSmart (minority), and drove Claire's to bankruptcy in 2018. Also entangled in 99 Cents Only and Serta Simmons debt schemes.",
       "brands": [
         "Albertsons / Safeway",
         "Michaels",
@@ -37,20 +42,26 @@
       ],
       "layoffs": "Tens of thousands across portfolio",
       "notableBk": "Claire's (2018), Chuck E. Cheese (2020)",
-      "bkScore": 80,
+      "harmScore": 80,
       "source": "https://en.wikipedia.org/wiki/Apollo_Global_Management",
       "cats": [
         "food",
         "retail",
         "pets",
         "finance"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction",
+        "elite_impunity"
+      ],
+      "aligns": []
     },
     {
       "name": "KKR",
       "aum": "$600B",
       "aumVal": 600,
-      "rap": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after bankruptcy in 2017. Currently loading Varsity Brands with $2.4B in junk-rated debt.",
+      "summary": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after bankruptcy in 2017. Currently loading Varsity Brands with $2.4B in junk-rated debt.",
       "brands": [
         "Toys 'R' Us (bankrupt)",
         "Varsity Brands ($2.4B debt)",
@@ -60,19 +71,25 @@
       ],
       "layoffs": "73,000+ (Toys 'R' Us alone)",
       "notableBk": "Toys 'R' Us (2017)",
-      "bkScore": 88,
+      "harmScore": 88,
       "source": "https://en.wikipedia.org/wiki/KKR_%26_Co.",
       "cats": [
         "retail",
         "health",
         "finance"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
       "name": "Bain Capital",
       "aum": "$185B",
       "aumVal": 185,
-      "rap": "Infamous for Burger King, Dunkin', Domino's, Toys 'R' Us (co-investor). Pattern of debt-loading, cost-cutting, and quick exits leaving employees and communities behind.",
+      "summary": "Infamous for Burger King, Dunkin', Domino's, Toys 'R' Us (co-investor). Pattern of debt-loading, cost-cutting, and quick exits leaving employees and communities behind.",
       "brands": [
         "Burger King (former)",
         "Dunkin' (former)",
@@ -82,18 +99,23 @@
       ],
       "layoffs": "Thousands across portfolio exits",
       "notableBk": "Toys 'R' Us (co-investor)",
-      "bkScore": 72,
+      "harmScore": 72,
       "source": "https://en.wikipedia.org/wiki/Bain_Capital",
       "cats": [
         "food",
         "retail"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Leonard Green & Partners",
       "aum": "$70B",
       "aumVal": 70,
-      "rap": "Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure. Serially over-leverages retail and healthcare.",
+      "summary": "Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure. Serially over-leverages retail and healthcare.",
       "brands": [
         "Joann Craft (bankrupt 2025)",
         "The Container Store (bankrupt 2024)",
@@ -103,18 +125,24 @@
       ],
       "layoffs": "19,000+ (Joann alone in 2025)",
       "notableBk": "Joann (2025), Container Store (2024)",
-      "bkScore": 97,
+      "harmScore": 97,
       "source": "https://pestakeholder.org/private-equity-bankruptcy/",
       "cats": [
         "retail",
         "health"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
       "name": "Cerberus Capital",
       "aum": "$65B",
       "aumVal": 65,
-      "rap": "Owned Steward Health Care for a decade; exited 2020. Steward then filed for bankruptcy in 2024 with $9B in liabilities, closing hospitals across 8 states. 2,650+ healthcare workers lost jobs.",
+      "summary": "Owned Steward Health Care for a decade; exited 2020. Steward then filed for bankruptcy in 2024 with $9B in liabilities, closing hospitals across 8 states. 2,650+ healthcare workers lost jobs.",
       "brands": [
         "Steward Health Care (bankrupt)",
         "Albertsons (co-investor, former)",
@@ -122,17 +150,23 @@
       ],
       "layoffs": "2,650+ hospital workers",
       "notableBk": "Steward Health Care (2024, $9B liabilities)",
-      "bkScore": 90,
+      "harmScore": 90,
       "source": "https://pestakeholder.org/news/private-equity-industry-behind-over-half-of-large-us-bankruptcies-in-2024/",
       "cats": [
         "health"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
       "name": "Ares Management",
       "aum": "$450B",
       "aumVal": 450,
-      "rap": "Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity.",
+      "summary": "Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity.",
       "brands": [
         "99 Cents Only (bankrupt 2024)",
         "Guitar Center (post-bankrupt)",
@@ -140,18 +174,23 @@
       ],
       "layoffs": "10,800+ (99 Cents Only, 2024)",
       "notableBk": "99 Cents Only (2024), Guitar Center (2020)",
-      "bkScore": 82,
+      "harmScore": 82,
       "source": "https://pestakeholder.org/private-equity-bankruptcy/",
       "cats": [
         "retail",
         "food"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Sycamore Partners",
       "aum": "$10B",
       "aumVal": 10,
-      "rap": "Retail-stripping specialist. Completed Walgreens take-private 2025. Drove Nine West to bankruptcy 2018. Known for rapidly selling assets, closing stores, and cutting workforces post-acquisition.",
+      "summary": "Retail-stripping specialist. Completed Walgreens take-private 2025. Drove Nine West to bankruptcy 2018. Known for rapidly selling assets, closing stores, and cutting workforces post-acquisition.",
       "brands": [
         "Walgreens (take-private 2025)",
         "Staples (current)",
@@ -161,19 +200,24 @@
       ],
       "layoffs": "Thousands in retail closures",
       "notableBk": "Nine West (2018)",
-      "bkScore": 82,
+      "harmScore": 82,
       "source": "https://mergersandinquisitions.com/consumer-retail-private-equity/",
       "cats": [
         "retail",
         "health",
         "finance"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "JAB Holding Company",
       "aum": "$120B+",
       "aumVal": 120,
-      "rap": "Secretive German family holding group that monopolized coffee and bakery. CEO admitted in 2025 to shrinking Panera portions, raising prices, switching to frozen bread. Two failed Panera IPOs.",
+      "summary": "Secretive German family holding group that monopolized coffee and bakery. CEO admitted in 2025 to shrinking Panera portions, raising prices, switching to frozen bread. Two failed Panera IPOs.",
       "brands": [
         "Panera Bread",
         "Krispy Kreme",
@@ -186,18 +230,23 @@
       ],
       "layoffs": "Multiple waves across closures",
       "notableBk": "Two failed Panera IPOs; 5%+ sales decline 2024",
-      "bkScore": 55,
+      "harmScore": 55,
       "source": "https://en.wikipedia.org/wiki/JAB_Holding_Company",
       "cats": [
         "coffee",
         "food"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "BC Partners",
       "aum": "$40B+",
       "aumVal": 40,
-      "rap": "Owns PetSmart via the largest LBO of 2014 ($8.7B). Controversially transferred Chewy equity outside reach of PetSmart creditors. Also co-owns Guitar Center with Ares.",
+      "summary": "Owns PetSmart via the largest LBO of 2014 ($8.7B). Controversially transferred Chewy equity outside reach of PetSmart creditors. Also co-owns Guitar Center with Ares.",
       "brands": [
         "PetSmart",
         "Guitar Center (co-owner)",
@@ -205,50 +254,67 @@
       ],
       "layoffs": "Management purges, store cuts",
       "notableBk": "PetSmart $3B+ debt burden; Guitar Center (co, 2020)",
-      "bkScore": 52,
+      "harmScore": 52,
       "source": "https://en.wikipedia.org/wiki/PetSmart",
       "cats": [
         "pets",
         "retail"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction",
+        "animals"
+      ],
+      "aligns": []
     },
     {
       "name": "CVC Capital Partners",
       "aum": "$190B",
       "aumVal": 190,
-      "rap": "Majority owner of Petco post-IPO (still controls 60%+). Loaded Petco with $3.3B in debt. Near-bankruptcy warnings in 2023; CEO stepped down March 2024.",
+      "summary": "Majority owner of Petco post-IPO (still controls 60%+). Loaded Petco with $3.3B in debt. Near-bankruptcy warnings in 2023; CEO stepped down March 2024.",
       "brands": [
         "Petco (majority 60%+)"
       ],
       "layoffs": "Ongoing store closures",
       "notableBk": "Near Chapter 11 (2023 warnings)",
-      "bkScore": 58,
+      "harmScore": 58,
       "source": "https://en.wikipedia.org/wiki/Petco",
       "cats": [
         "pets"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction",
+        "animals"
+      ],
+      "aligns": []
     },
     {
       "name": "BDT & MSD Partners",
       "aum": "Private",
       "aumVal": 15,
-      "rap": "Bought majority of Whataburger in 2019, ending 69 years of family ownership. Texas Monthly 2025 documented quality concerns since PE takeover.",
+      "summary": "Bought majority of Whataburger in 2019, ending 69 years of family ownership. Texas Monthly 2025 documented quality concerns since PE takeover.",
       "brands": [
         "Whataburger"
       ],
-      "layoffs": "N/A — expansion phase",
+      "layoffs": "N/A \u2014 expansion phase",
       "notableBk": "None yet; rapid debt-funded expansion",
-      "bkScore": 35,
+      "harmScore": 35,
       "source": "https://en.wikipedia.org/wiki/Whataburger",
       "cats": [
         "food"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Advent International",
       "aum": "$90B",
       "aumVal": 90,
-      "rap": "Bought Serta Simmons in 2012 via $3B LBO. Engaged in controversial 'uptier' debt manipulation. Filed Chapter 11 in Jan 2023 with $1.9B in liabilities. Took a 90-year-old brand to bankruptcy.",
+      "summary": "Bought Serta Simmons in 2012 via $3B LBO. Engaged in controversial 'uptier' debt manipulation. Filed Chapter 11 in Jan 2023 with $1.9B in liabilities. Took a 90-year-old brand to bankruptcy.",
       "brands": [
         "Serta Simmons (bankrupt 2023)",
         "Beautyrest (bankrupt via Serta)",
@@ -256,17 +322,22 @@
       ],
       "layoffs": "Factory and retail workers",
       "notableBk": "Serta Simmons (Jan 2023, $1.9B liabilities)",
-      "bkScore": 86,
+      "harmScore": 86,
       "source": "https://www.axios.com/2023/01/24/mattress-maker-serta-simmons-bankrupt",
       "cats": [
         "home"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Vista Equity Partners",
       "aum": "$100B+",
       "aumVal": 100,
-      "rap": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",
+      "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30\u201340%. Also took Pluralsight private at a major loss.",
       "brands": [
         "Citrix / Cloud Software Group",
         "TIBCO (merged w/ Citrix)",
@@ -276,17 +347,22 @@
       ],
       "layoffs": "2,250+ (Citrix alone, Jan 2023)",
       "notableBk": "Citrix debt debacle cost banks $1.3B",
-      "bkScore": 68,
+      "harmScore": 68,
       "source": "https://techcrunch.com/2023/01/11/company-created-by-citrix-tibco-merger-confirms-it-has-laid-off-15-of-staff/",
       "cats": [
         "tech"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Thoma Bravo",
       "aum": "$160B",
       "aumVal": 160,
-      "rap": "Software-focused PE giant. Took Anaplan private for $10.7B in 2022, immediately laid off hundreds and offshored jobs. Glassdoor: 'cut their way to profitability at any cost.'",
+      "summary": "Software-focused PE giant. Took Anaplan private for $10.7B in 2022, immediately laid off hundreds and offshored jobs. Glassdoor: 'cut their way to profitability at any cost.'",
       "brands": [
         "Anaplan",
         "Coupa Software",
@@ -295,36 +371,46 @@
         "Sophos",
         "SailPoint"
       ],
-      "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
+      "layoffs": "300\u2013500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
-      "bkScore": 62,
+      "harmScore": 62,
       "source": "https://www.channelfutures.com/channel-business/anaplan-layoffs-reportedly-take-their-toll-on-hundreds",
       "cats": [
         "tech"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Hellman & Friedman / Permira",
       "aum": "$85B+ / $75B+",
       "aumVal": 85,
-      "rap": "Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
+      "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 \u2014 after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
       "brands": [
         "Zendesk",
         "McAfee (Permira former co-owner)"
       ],
       "layoffs": "Restructuring underway",
       "notableBk": "No bankruptcy; price pressure documented",
-      "bkScore": 48,
+      "harmScore": 48,
       "source": "https://en.wikipedia.org/wiki/Zendesk",
       "cats": [
         "tech"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
       "name": "Silver Lake",
       "aum": "$100B+",
       "aumVal": 100,
-      "rap": "Acquired Qualtrics for $12.5B in 2023. Experience management platform now focused on PE exit returns. Also holds stakes in Twitter/X and Endeavor.",
+      "summary": "Acquired Qualtrics for $12.5B in 2023. Experience management platform now focused on PE exit returns. Also holds stakes in Twitter/X and Endeavor.",
       "brands": [
         "Qualtrics",
         "Endeavor Group",
@@ -332,377 +418,566 @@
       ],
       "layoffs": "Post-acquisition restructuring",
       "notableBk": "No bankruptcy; exit-oriented ownership",
-      "bkScore": 45,
+      "harmScore": 45,
       "source": "https://www.financierworldwide.com/qualtrics-acquired-by-silver-lake-for-125bn",
       "cats": [
         "tech"
-      ]
+      ],
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
     {
-      "cat": "tech",
       "avoid": "Citrix / Cloud Software Group",
       "owner": "Vista Equity Partners + Elliott (Sept 2022, $16.5B)",
+      "cat": "tech",
       "alts": [
         "VMware Horizon (Broadcom, public)",
         "Microsoft Azure Virtual Desktop",
         "AWS WorkSpaces (Amazon)"
       ],
-      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30–40%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices."
+      "why": "Vista immediately laid off 15% (~2,250 jobs). Discussed raising prices 30\u201340%. Banks lost $1.3B financing the deal. Employees were locked out of accounts before receiving layoff notices.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "tech",
       "avoid": "Zendesk",
       "owner": "Hellman & Friedman + Permira (Nov 2022, $10.2B)",
+      "cat": "tech",
       "alts": [
         "Freshdesk (Freshworks, Nasdaq)",
         "HubSpot Service Hub (public)",
         "Intercom (founder-led)"
       ],
-      "why": "Sold to PE after rejecting a $17B offer months earlier. Now private and focused on exit returns. Customers lose public company accountability. Price hikes expected."
+      "why": "Sold to PE after rejecting a $17B offer months earlier. Now private and focused on exit returns. Customers lose public company accountability. Price hikes expected.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "tech",
       "avoid": "Anaplan",
       "owner": "Thoma Bravo (June 2022, $10.7B)",
+      "cat": "tech",
       "alts": [
         "Adaptive Insights (Workday, public)",
         "Pigment (founder-led VC)",
         "Planful (independent)"
       ],
-      "why": "Thoma Bravo laid off hundreds immediately and offshored roles. Glassdoor reviews describe 'cutting 80% of the company.' PE managing for EBITDA exit, not product quality."
+      "why": "Thoma Bravo laid off hundreds immediately and offshored roles. Glassdoor reviews describe 'cutting 80% of the company.' PE managing for EBITDA exit, not product quality.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "tech",
       "avoid": "Qualtrics",
       "owner": "Silver Lake (June 2023, $12.5B)",
+      "cat": "tech",
       "alts": [
         "SurveyMonkey / Momentive (public)",
         "Typeform (founder-led)",
         "Forsta (independent)"
       ],
-      "why": "Taken private from SAP. All PE exits require price hikes or cuts to generate returns. Customer data inside PE-owned platforms faces monetization pressure."
+      "why": "Taken private from SAP. All PE exits require price hikes or cuts to generate returns. Customer data inside PE-owned platforms faces monetization pressure.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "tech",
       "avoid": "SolarWinds (Thoma Bravo stake)",
       "owner": "Thoma Bravo (major shareholder)",
+      "cat": "tech",
       "alts": [
         "Datadog (public, founder-led)",
         "Grafana Labs (independent)",
         "Zabbix (open source)"
       ],
-      "why": "Thoma Bravo took SolarWinds private in 2016 then re-IPO'd it. During PE ownership, the 2020 cyberattack hit 18,000+ organizations. PE cost-cutting on security contributed."
+      "why": "Thoma Bravo took SolarWinds private in 2016 then re-IPO'd it. During PE ownership, the 2020 cyberattack hit 18,000+ organizations. PE cost-cutting on security contributed.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "food",
       "avoid": "Jersey Mike's",
       "owner": "Blackstone (Jan 2025)",
+      "cat": "food",
       "alts": [
         "Firehouse Subs (franchisee-owned)",
         "Local deli/sandwich shops",
         "Jimmy John's (independent units)"
       ],
-      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction — typically manifests in 2–3 years."
+      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "food",
       "avoid": "Whataburger",
       "owner": "BDT & MSD Partners (since 2019)",
+      "cat": "food",
       "alts": [
         "In-N-Out Burger (family-owned)",
         "Five Guys (family-owned)",
         "Shake Shack (public, founder-led)"
       ],
-      "why": "Sold by Dobson family after 69 years. Texas Monthly 2025 documented quality concerns. PE expands rapidly on debt then cuts quality to service it."
+      "why": "Sold by Dobson family after 69 years. Texas Monthly 2025 documented quality concerns. PE expands rapidly on debt then cuts quality to service it.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "food",
-      "avoid": "Tropical Smoothie Café",
+      "avoid": "Tropical Smoothie Caf\u00e9",
       "owner": "Blackstone (June 2024)",
+      "cat": "food",
       "alts": [
         "Smoothie King (founder-controlled)",
         "Jamba (independent franchise units)",
         "Local juice bars"
       ],
-      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2–3 years of PE acquisition."
+      "why": "Acquired by Blackstone June 2024. Franchise fee pressure and cost-cutting typically follow within 2\u20133 years of PE acquisition.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "food",
       "avoid": "Qdoba Mexican Grill",
       "owner": "Apollo Global Management",
+      "cat": "food",
       "alts": [
         "Chipotle (publicly held)",
         "Local taquerias",
         "Moe's Southwest (independent units)"
       ],
-      "why": "Apollo portfolio company. PE-owned chains typically cut ingredient quality to improve EBITDA for exit. Chipotle remains founder-culture focused."
+      "why": "Apollo portfolio company. PE-owned chains typically cut ingredient quality to improve EBITDA for exit. Chipotle remains founder-culture focused.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health",
+        "elite_impunity"
+      ],
+      "aligns": []
     },
     {
-      "cat": "food",
       "avoid": "Red Lobster",
-      "owner": "Golden Gate Capital (former) — bankrupt 2024",
+      "owner": "Golden Gate Capital (former) \u2014 bankrupt 2024",
+      "cat": "food",
       "alts": [
         "Legal Sea Foods (private)",
         "Bonefish Grill (public)",
         "Local seafood restaurants"
       ],
-      "why": "PE-engineered sale-leaseback stripped real estate and raised rents above market. 100 locations closed, 36,000 jobs affected in 2024."
+      "why": "PE-engineered sale-leaseback stripped real estate and raised rents above market. 100 locations closed, 36,000 jobs affected in 2024.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "food",
       "avoid": "TGI Fridays",
-      "owner": "PE-backed — bankrupt 2024",
+      "owner": "PE-backed \u2014 bankrupt 2024",
+      "cat": "food",
       "alts": [
         "Applebee's (Dine Brands, public)",
         "Chili's (Brinker, public)",
         "Local casual dining"
       ],
-      "why": "One of 10 PE-backed restaurant chains that went bankrupt in 2024. PE debt made adapting to post-COVID dining shifts impossible."
+      "why": "One of 10 PE-backed restaurant chains that went bankrupt in 2024. PE debt made adapting to post-COVID dining shifts impossible.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "coffee",
       "avoid": "Panera Bread",
       "owner": "JAB Holding Company (since 2017)",
+      "cat": "coffee",
       "alts": [
         "Corner Bakery (independent)",
-        "Local bakery-cafés",
+        "Local bakery-caf\u00e9s",
         "Au Bon Pain (regional)"
       ],
-      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread — ending the fresh-baked identity. Two failed IPOs."
+      "why": "JAB's CEO admitted in 2025: smaller portions, higher prices, lower-quality ingredients. Switching to frozen bread \u2014 ending the fresh-baked identity. Two failed IPOs.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "coffee",
       "avoid": "Krispy Kreme",
       "owner": "JAB Holding (re-IPO'd 2021, JAB majority)",
+      "cat": "coffee",
       "alts": [
         "Local donut shops",
         "Duck Donuts (franchisee-owned)",
         "Shipley Do-Nuts (independent)"
       ],
-      "why": "JAB acquired 2016, re-IPO'd 2021 but retains majority control. Rapid expansion to 14,100+ locations diluted the quality that built the brand."
+      "why": "JAB acquired 2016, re-IPO'd 2021 but retains majority control. Rapid expansion to 14,100+ locations diluted the quality that built the brand.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "coffee",
       "avoid": "Peet's Coffee",
       "owner": "JAB Holding Company (since 2012)",
+      "cat": "coffee",
       "alts": [
         "Stumptown Coffee (craft)",
         "Intelligentsia (craft)",
         "Local independent roasters"
       ],
-      "why": "JAB's first coffee monopoly acquisition. Once independent craft brand now part of a $120B extraction machine. Sourcing subordinated to margin targets."
+      "why": "JAB's first coffee monopoly acquisition. Once independent craft brand now part of a $120B extraction machine. Sourcing subordinated to margin targets.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "coffee",
       "avoid": "Caribou Coffee",
       "owner": "JAB Holding Company (since 2012)",
+      "cat": "coffee",
       "alts": [
         "Dunn Bros Coffee (independent)",
         "Dutch Bros (public, founder)",
         "Local coffee roasters"
       ],
-      "why": "JAB converted 88 Caribou locations to Peet's post-acquisition. Classic PE: eliminate redundancy, extract brand equity, standardize at lowest cost."
+      "why": "JAB converted 88 Caribou locations to Peet's post-acquisition. Classic PE: eliminate redundancy, extract brand equity, standardize at lowest cost.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "coffee",
       "avoid": "Einstein Bros / Noah's / Bruegger's",
       "owner": "JAB Holding Company (since 2014)",
+      "cat": "coffee",
       "alts": [
         "Local bagel shops",
         "NY-style independent delis",
         "Regional bagel chains"
       ],
-      "why": "JAB paid $374M to take Einstein Noah private in 2014, then absorbed into Panera Brands 2021. Your dollar funds JAB's full extraction machine."
+      "why": "JAB paid $374M to take Einstein Noah private in 2014, then absorbed into Panera Brands 2021. Your dollar funds JAB's full extraction machine.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "coffee",
       "avoid": "Pret A Manger",
       "owner": "JAB Holding Company (since 2018, $2B)",
+      "cat": "coffee",
       "alts": [
         "Local sandwich shops",
         "Cosi (independent)",
         "Le Pain Quotidien (separate)"
       ],
-      "why": "Part of JAB's massive fast-casual monopoly. UK staff cuts followed. Prices have risen significantly post-acquisition."
+      "why": "Part of JAB's massive fast-casual monopoly. UK staff cuts followed. Prices have risen significantly post-acquisition.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "Michaels",
       "owner": "Apollo Global Management (2021, $5B LBO)",
+      "cat": "retail",
       "alts": [
         "Hobby Lobby (private, family)",
         "Local craft/art stores",
         "Dick Blick Art Materials"
       ],
-      "why": "Apollo's $5B buyout loaded Michaels with debt. Preparing for PE exit via re-IPO or sale, prioritizing exit returns over investment."
+      "why": "Apollo's $5B buyout loaded Michaels with debt. Preparing for PE exit via re-IPO or sale, prioritizing exit returns over investment.",
+      "harms": [
+        "workers",
+        "extraction",
+        "elite_impunity"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "Staples",
       "owner": "Sycamore Partners (since 2017)",
+      "cat": "retail",
       "alts": [
         "Office Depot/OfficeMax (public)",
         "Amazon Business",
         "Local office supply stores"
       ],
-      "why": "Sycamore is a retail-stripping specialist. Closed hundreds of Staples locations and cut workforce repeatedly since 2017."
+      "why": "Sycamore is a retail-stripping specialist. Closed hundreds of Staples locations and cut workforce repeatedly since 2017.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "Hot Topic",
       "owner": "Sycamore Partners",
+      "cat": "retail",
       "alts": [
         "Spencer's Gifts (independent)",
         "Band merch via Bandcamp",
         "Local alternative shops"
       ],
-      "why": "Sycamore portfolio company. Multiple waves of closures and staff reductions since acquisition."
+      "why": "Sycamore portfolio company. Multiple waves of closures and staff reductions since acquisition.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "Claire's",
       "owner": "Apollo Global (post-bankruptcy)",
+      "cat": "retail",
       "alts": [
         "Local boutique jewelry",
         "Mejuri (direct-to-consumer)",
         "Etsy jewelry sellers"
       ],
-      "why": "Apollo drove Claire's to Chapter 11 in 2018. Emerged still burdened with debt. Textbook PE extraction of a teen-focused retailer."
+      "why": "Apollo drove Claire's to Chapter 11 in 2018. Emerged still burdened with debt. Textbook PE extraction of a teen-focused retailer.",
+      "harms": [
+        "workers",
+        "extraction",
+        "elite_impunity"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "Guitar Center",
       "owner": "Ares Management + BC Partners",
+      "cat": "retail",
       "alts": [
         "Sweetwater (employee-culture)",
         "Sam Ash Music (family-owned)",
         "Local music shops"
       ],
-      "why": "Filed bankruptcy 2020 after years of PE debt-loading. Now owned by former lenders who converted debt to equity. Sweetwater is the independent gold standard."
+      "why": "Filed bankruptcy 2020 after years of PE debt-loading. Now owned by former lenders who converted debt to equity. Sweetwater is the independent gold standard.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "Varsity Spirit / BSN Sports",
       "owner": "KKR (2024 LBO, $2.4B debt loaded)",
+      "cat": "retail",
       "alts": [
         "Team Express (independent)",
         "Direct Nike/Adidas school programs",
         "Local uniform shops"
       ],
-      "why": "KKR's third PE owner in a decade. $2.4B in junk-rated debt at acquisition. School athletic programs ultimately absorb higher costs."
+      "why": "KKR's third PE owner in a decade. $2.4B in junk-rated debt at acquisition. School athletic programs ultimately absorb higher costs.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "retail",
       "avoid": "The Container Store",
-      "owner": "Leonard Green — bankrupt Dec 2024",
+      "owner": "Leonard Green \u2014 bankrupt Dec 2024",
+      "cat": "retail",
       "alts": [
         "IKEA (private, Kamprad foundation)",
         "Muji (public)",
         "Local storage shops"
       ],
-      "why": "Leonard Green drove it to bankruptcy December 2024 — same firm that bankrupted Joann and contributed to Prospect Medical's collapse."
+      "why": "Leonard Green drove it to bankruptcy December 2024 \u2014 same firm that bankrupted Joann and contributed to Prospect Medical's collapse.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "health",
       "avoid": "Walgreens",
       "owner": "Sycamore Partners (take-private 2025)",
+      "cat": "health",
       "alts": [
         "CVS (public, accountable)",
         "Costco Pharmacy",
         "Walmart Pharmacy",
         "Independent pharmacies"
       ],
-      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities."
+      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health"
+      ],
+      "aligns": []
     },
     {
-      "cat": "health",
       "avoid": "ADT Home Security",
       "owner": "Apollo Global Management (partial)",
+      "cat": "health",
       "alts": [
         "SimpliSafe (VC-backed)",
         "Abode (independent)",
         "Ring (Amazon)"
       ],
-      "why": "Apollo took ADT private for $6.9B in 2016, restructured, re-IPO'd 2018. Workers and customers bore debt costs. Apollo retains partial stake."
+      "why": "Apollo took ADT private for $6.9B in 2016, restructured, re-IPO'd 2018. Workers and customers bore debt costs. Apollo retains partial stake.",
+      "harms": [
+        "workers",
+        "extraction",
+        "elite_impunity"
+      ],
+      "aligns": []
     },
     {
-      "cat": "health",
       "avoid": "The Body Shop",
       "owner": "Aurelius Group (German PE, 2023)",
+      "cat": "health",
       "alts": [
         "Lush (employee-owned)",
         "Sabon (independent)",
         "Bathing Culture (indie)"
       ],
-      "why": "German PE Aurelius acquired 2023, shut all US stores by early 2024. Bankruptcy filed 2024. A brand built on ethics had its ethics immediately put up for sale."
+      "why": "German PE Aurelius acquired 2023, shut all US stores by early 2024. Bankruptcy filed 2024. A brand built on ethics had its ethics immediately put up for sale.",
+      "harms": [
+        "workers",
+        "extraction",
+        "animals"
+      ],
+      "aligns": []
     },
     {
-      "cat": "pets",
       "avoid": "PetSmart",
       "owner": "BC Partners + Apollo minority (2015/2023)",
+      "cat": "pets",
       "alts": [
         "Local independent pet stores",
         "Pet Supplies Plus (franchisee)",
         "Tractor Supply (public)"
       ],
-      "why": "BC Partners' $8.7B LBO was largest of 2014. Controversially transferred Chewy equity outside reach of PetSmart creditors. Apollo added minority stake 2023."
+      "why": "BC Partners' $8.7B LBO was largest of 2014. Controversially transferred Chewy equity outside reach of PetSmart creditors. Apollo added minority stake 2023.",
+      "harms": [
+        "workers",
+        "extraction",
+        "animals",
+        "elite_impunity"
+      ],
+      "aligns": []
     },
     {
-      "cat": "pets",
       "avoid": "Petco",
       "owner": "CVC Capital Partners (60%+ majority)",
+      "cat": "pets",
       "alts": [
         "Local independent pet stores",
         "Pet Supplies Plus (franchisee)",
         "Tractor Supply (public)"
       ],
-      "why": "CVC loaded Petco with $3.3B in debt. Near-bankruptcy warnings 2023. CEO resigned March 2024. Still majority PE-controlled despite IPO."
+      "why": "CVC loaded Petco with $3.3B in debt. Near-bankruptcy warnings 2023. CEO resigned March 2024. Still majority PE-controlled despite IPO.",
+      "harms": [
+        "workers",
+        "extraction",
+        "animals"
+      ],
+      "aligns": []
     },
     {
-      "cat": "home",
       "avoid": "Serta & Simmons Beautyrest",
-      "owner": "Advent International — bankrupt Jan 2023",
+      "owner": "Advent International \u2014 bankrupt Jan 2023",
+      "cat": "home",
       "alts": [
         "Purple (public, DTC)",
         "Saatva (independent DTC)",
         "WinkBed (family-owned)"
       ],
-      "why": "Advent's $3B LBO in 2012 ended in Chapter 11 Jan 2023 with $1.9B liabilities. Debt manipulation schemes bankrupted a 90-year-old American brand."
+      "why": "Advent's $3B LBO in 2012 ended in Chapter 11 Jan 2023 with $1.9B liabilities. Debt manipulation schemes bankrupted a 90-year-old American brand.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "home",
       "avoid": "Tuft & Needle",
       "owner": "Advent International (bankrupt via Serta 2023)",
+      "cat": "home",
       "alts": [
         "Casper (public)",
         "Saatva (independent)",
         "Helix Sleep (independent)"
       ],
-      "why": "Acquired by Serta Simmons 2018, swept into Advent's bankruptcy Jan 2023 despite being branded as a 'disruptor' mattress line."
+      "why": "Acquired by Serta Simmons 2018, swept into Advent's bankruptcy Jan 2023 despite being branded as a 'disruptor' mattress line.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "hospitality",
       "avoid": "Great Wolf Lodge",
       "owner": "Blackstone",
+      "cat": "hospitality",
       "alts": [
         "Kalahari Resorts (family-owned, OH)",
         "Wilderness Resort (independent, WI)",
         "Local regional water parks"
       ],
-      "why": "Blackstone portfolio company. Premium pricing with ongoing margin extraction via real estate and PE fee strategies."
+      "why": "Blackstone portfolio company. Premium pricing with ongoing margin extraction via real estate and PE fee strategies.",
+      "harms": [
+        "workers",
+        "extraction"
+      ],
+      "aligns": []
     },
     {
-      "cat": "finance",
       "avoid": "Chuck E. Cheese",
-      "owner": "Apollo Global (2014–2020, COVID bankruptcy)",
+      "owner": "Apollo Global (2014\u20132020, COVID bankruptcy)",
+      "cat": "finance",
       "alts": [
         "Local arcade venues",
         "Dave & Buster's (public)",
         "Main Event (public)"
       ],
-      "why": "Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock. Classic: load debt, company can't absorb a crisis, workers pay."
+      "why": "Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock. Classic: load debt, company can't absorb a crisis, workers pay.",
+      "harms": [
+        "workers",
+        "extraction",
+        "health",
+        "elite_impunity"
+      ],
+      "aligns": []
     }
   ]
 }

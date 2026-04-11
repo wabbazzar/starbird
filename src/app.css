@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   THEME TOKENS — light + dark
+   Logo colors: deep teal #0a4a52 + gold #d08828 (light)
+                bright teal #5fc4d0 + gold #e8a83e (dark)
+   ============================================================ */
+
+:root,
+:root[data-theme='dark'] {
+	--bg: #0d0d0d;
+	--surface: #161616;
+	--surface-2: #1f1f1f;
+	--border: #2a2a2a;
+	--border-strong: #363636;
+
+	--ink: #f0ebe3;
+	--ink-muted: #a09890;
+	--ink-faint: #666666;
+
+	--primary: #5fc4d0;
+	--primary-dim: rgba(95, 196, 208, 0.14);
+	--primary-glow: rgba(95, 196, 208, 0.28);
+
+	--gold: #e8a83e;
+	--gold-dim: rgba(232, 168, 62, 0.14);
+
+	--avoid: #e06c5f;
+	--avoid-dim: rgba(224, 108, 95, 0.12);
+	--align: #5fbf7a;
+	--align-dim: rgba(95, 191, 122, 0.12);
+
+	--logo: url('/logo-dark.png');
+	--radius: 12px;
+}
+
+:root[data-theme='light'] {
+	--bg: #f5f3ee;
+	--surface: #ffffff;
+	--surface-2: #ece8df;
+	--border: #dcd6c8;
+	--border-strong: #b8b0a0;
+
+	--ink: #1a2e32;
+	--ink-muted: #4a5f64;
+	--ink-faint: #8a9094;
+
+	--primary: #0a4a52;
+	--primary-dim: rgba(10, 74, 82, 0.1);
+	--primary-glow: rgba(10, 74, 82, 0.22);
+
+	--gold: #d08828;
+	--gold-dim: rgba(208, 136, 40, 0.12);
+
+	--avoid: #c44040;
+	--avoid-dim: rgba(196, 64, 64, 0.1);
+	--align: #4a8c5c;
+	--align-dim: rgba(74, 140, 92, 0.1);
+
+	--logo: url('/logo-light.png');
+}
+
+/* ============================================================
+   BASE STYLES
+   ============================================================ */
+@layer base {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		background: var(--bg);
+		color: var(--ink);
+		font-family: 'DM Sans', sans-serif;
+		min-height: 100%;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family: 'Bebas Neue', sans-serif;
+		letter-spacing: 0.03em;
+		color: var(--ink);
+	}
+
+	a {
+		color: var(--primary);
+		text-decoration: none;
+	}
+	a:hover {
+		color: var(--gold);
+	}
+}
+
+/* ============================================================
+   COMPONENT CLASSES
+   ============================================================ */
+@layer components {
+	.card {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: var(--radius);
+		transition: border-color 150ms ease;
+	}
+	.card:hover {
+		border-color: var(--border-strong);
+	}
+	.card-avoid {
+		border-left: 3px solid var(--avoid);
+	}
+	.card-align {
+		border-left: 3px solid var(--align);
+	}
+
+	.chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 4px 10px;
+		border-radius: 999px;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.65rem;
+		letter-spacing: 0.02em;
+		background: var(--surface-2);
+		color: var(--ink-muted);
+		border: 1px solid var(--border);
+		cursor: pointer;
+		transition: all 150ms ease;
+	}
+	.chip:hover {
+		border-color: var(--primary);
+		color: var(--ink);
+	}
+	.chip-active {
+		background: var(--primary-dim);
+		border-color: var(--primary);
+		color: var(--primary);
+	}
+	.chip-avoid {
+		background: var(--avoid-dim);
+		color: var(--avoid);
+		border-color: var(--avoid);
+	}
+	.chip-align {
+		background: var(--align-dim);
+		color: var(--align);
+		border-color: var(--align);
+	}
+
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		padding: 10px 18px;
+		border-radius: var(--radius);
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 600;
+		font-size: 0.9rem;
+		cursor: pointer;
+		border: 1px solid transparent;
+		transition: all 150ms ease;
+	}
+	.btn-primary {
+		background: var(--primary);
+		color: var(--bg);
+	}
+	.btn-primary:hover {
+		background: var(--gold);
+	}
+	.btn-primary:disabled {
+		opacity: 0.4;
+		cursor: not-allowed;
+	}
+	.btn-ghost {
+		background: transparent;
+		color: var(--ink-muted);
+		border-color: var(--border);
+	}
+	.btn-ghost:hover {
+		color: var(--ink);
+		border-color: var(--primary);
+	}
+
+	.section-label {
+		font-family: 'DM Mono', monospace;
+		font-size: 0.65rem;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		color: var(--ink-faint);
+	}
+
+	.logo-mark {
+		width: 32px;
+		height: 32px;
+		background-image: var(--logo);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* hide scrollbars on horizontal chip rows */
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+.no-scrollbar {
+	scrollbar-width: none;
+}
