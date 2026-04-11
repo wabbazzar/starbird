@@ -55,6 +55,22 @@ If that doesn't work due to TS import, fall back to running `npx tsx` or use the
 
 If schema validation fails, the fix is almost always in `static/data.json` (bad firmId reference, typo'd quest id, duplicate id). Fix the data file, not the schema.
 
+## Step 2b — Harm score rubric consistency
+
+Run the harm score verifier. This is a fast deterministic check that catches three failure modes: rubric gaps, unmappable scores, and missing rubric fields.
+
+```bash
+python3 scripts/verify-harm-score.py
+```
+
+Exit 0 = pass. Exit 1 with `HARM SCORE RUBRIC FAIL: <reason>` = fail. The three classes of failure the script catches:
+
+1. **Rubric structural issue** — buckets in `src/lib/harm-score-rubric.json` don't span 0–100 with no gaps/overlaps, or a bucket is missing a required field. Fix the JSON file directly.
+2. **Unmappable firm harmScore** — a firm in `static/data.json` has a harmScore outside every bucket. This usually means either the rubric changed and a firm is now orphaned, or a runner produced a bad score. Fix whichever is appropriate — usually clamp the firm's score, or add a bucket.
+3. **Multi-bucket overlap** — two buckets both contain the same score value. Fix the rubric.
+
+Drift between the rubric and the About page is caught separately by svelte-check via the TypeScript import in `src/lib/harmScore.ts` — there's only one source of truth (the JSON file), so the About page cannot silently diverge.
+
 ## Step 3 — Stale source audit (daily mode only)
 
 Skip this if MODE=hook.

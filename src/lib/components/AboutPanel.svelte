@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { VALUES } from '$lib/values';
+	import { HARM_SCORE_BUCKETS, HARM_SCORE_INPUTS } from '$lib/harmScore';
 
 	type Props = { oneditValues: () => void };
 	let { oneditValues }: Props = $props();
@@ -142,6 +143,48 @@
 </section>
 
 <section class="block">
+	<h2>How the harm score works</h2>
+	<p>
+		Every firm in Starbird carries a <strong>harm score</strong> from 0 to 100. Brands inherit
+		their score from the highest-scoring firm that owns them. It's the main sort key on the
+		Brands and Firms panels and the header of every card.
+	</p>
+	<p>
+		Be honest with yourself about what this number is: it's a <strong>subjective estimate</strong>,
+		not a formula. It's assigned when an entry enters the database — either by a human during
+		data curation or by the research loop during automated extraction — and anchored against the
+		reference examples below. The rubric and its examples live in one file
+		(<code>src/lib/harm-score-rubric.json</code>), and the Guardian verifies that every firm's
+		score in the database maps to exactly one defined bucket, so the vocabulary here doesn't
+		silently drift from what's in the data.
+	</p>
+
+	<div class="section-label" style="margin-top:14px">What goes into the score</div>
+	<ul class="inputs-list">
+		{#each HARM_SCORE_INPUTS as input (input.label)}
+			<li>
+				<strong>{input.label}.</strong> {input.detail}
+			</li>
+		{/each}
+	</ul>
+
+	<div class="section-label" style="margin-top:18px">What the ranges mean</div>
+	<div class="buckets">
+		{#each HARM_SCORE_BUCKETS as b (b.label)}
+			<div class="bucket">
+				<div class="bucket-head">
+					<span class="bucket-range">{b.min}–{b.max}</span>
+					<span class="bucket-label">{b.label}</span>
+					<span class="bucket-short">{b.short}</span>
+				</div>
+				<p class="bucket-desc">{b.description}</p>
+				<p class="bucket-ex"><em>e.g.</em> {b.example}</p>
+			</div>
+		{/each}
+	</div>
+</section>
+
+<section class="block">
 	<h2>A note on private equity</h2>
 	<p>
 		One of the lenses in the app is <strong>extraction</strong> — brands and firms whose ownership
@@ -265,5 +308,85 @@
 		font-family: 'DM Mono', monospace;
 		font-size: 0.62rem;
 		color: var(--ink-faint);
+	}
+	code {
+		font-family: 'DM Mono', monospace;
+		font-size: 0.78rem;
+		background: var(--surface-2);
+		color: var(--primary);
+		padding: 1px 5px;
+		border-radius: 4px;
+	}
+	.inputs-list {
+		list-style: none;
+		padding: 0;
+		margin: 8px 0 0;
+	}
+	.inputs-list li {
+		padding: 6px 0;
+		font-size: 0.82rem;
+		color: var(--ink-muted);
+		line-height: 1.5;
+		border-top: 1px solid var(--border);
+	}
+	.inputs-list li:first-child {
+		border-top: none;
+	}
+	.inputs-list strong {
+		color: var(--ink);
+	}
+	.buckets {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		margin-top: 8px;
+	}
+	.bucket {
+		background: var(--surface-2);
+		border-left: 3px solid var(--primary);
+		border-radius: 6px;
+		padding: 10px 12px;
+	}
+	.bucket-head {
+		display: flex;
+		align-items: baseline;
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+	.bucket-range {
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 1.1rem;
+		color: var(--primary);
+		letter-spacing: 0.04em;
+		line-height: 1;
+	}
+	.bucket-label {
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 0.92rem;
+		color: var(--ink);
+		letter-spacing: 0.04em;
+	}
+	.bucket-short {
+		font-family: 'DM Mono', monospace;
+		font-size: 0.66rem;
+		color: var(--ink-faint);
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+	}
+	.bucket-desc {
+		margin: 6px 0 4px;
+		font-size: 0.78rem;
+		color: var(--ink-muted);
+		line-height: 1.5;
+	}
+	.bucket-ex {
+		margin: 0;
+		font-size: 0.74rem;
+		color: var(--ink-faint);
+		line-height: 1.45;
+	}
+	.bucket-ex em {
+		color: var(--gold);
+		font-style: normal;
 	}
 </style>

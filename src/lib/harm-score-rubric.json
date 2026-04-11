@@ -1,0 +1,76 @@
+{
+	"version": 1,
+	"description": "Single source of truth for the Starbird harm score rubric. Imported by src/lib/harmScore.ts (app) and scripts/verify-harm-score.py (Guardian). Changing this file is the only supported way to evolve the rubric. Update both the bucket definitions and the inputs explanation when ranges change.",
+	"inputs": [
+		{
+			"label": "Scope",
+			"detail": "How many people, communities, or places are affected. 73,000 Toys 'R' Us workers weighs more than a single store closure."
+		},
+		{
+			"label": "Permanence",
+			"detail": "Recoverable vs irreversible. A pollution event that clears in a year is different from PFAS contamination. A brand-name reputation hit fades; a bankruptcy that closes every US store does not."
+		},
+		{
+			"label": "Intentionality",
+			"detail": "Accidental vs strategic. Dividend recaps and sale-leasebacks are deliberate value extraction, not accidents."
+		},
+		{
+			"label": "Pattern",
+			"detail": "One incident vs repeated behavior. A firm with multiple bankrupt portfolio companies scores higher than a firm with one."
+		},
+		{
+			"label": "Evidence",
+			"detail": "Contemporaneous, sourced reporting beats unsourced claims. A score without a documented source is a weak score."
+		}
+	],
+	"buckets": [
+		{
+			"min": 0,
+			"max": 19,
+			"label": "Minimal",
+			"short": "Low documented harm",
+			"description": "A small-scale concern with limited documentation. Rarely used — most entries tracked here wouldn't be in the database at all if their harm was this low.",
+			"example": "A single local lawsuit, later settled."
+		},
+		{
+			"min": 20,
+			"max": 39,
+			"label": "Moderate",
+			"short": "Limited but real",
+			"description": "Documented harm at a constrained scale. One bad incident, or a small pattern of issues affecting hundreds rather than thousands.",
+			"example": "A mid-size firm with a handful of documented wage-theft complaints."
+		},
+		{
+			"min": 40,
+			"max": 59,
+			"label": "Significant",
+			"short": "Meaningful scale",
+			"description": "Thousands affected across multiple incidents, OR systematic behavior at a smaller scale. Most PE catch-alls and mid-tier firms land here.",
+			"example": "JAB Holding (55) — quality degradation across Panera/Krispy Kreme/Peet's over ~a decade."
+		},
+		{
+			"min": 60,
+			"max": 79,
+			"label": "Severe",
+			"short": "Large-scale and documented",
+			"description": "Tens of thousands affected, or a clear pattern of sale-leasebacks, mass layoffs, or environmental damage with sourced reporting.",
+			"example": "Blackstone (60) — portfolio-wide sale-leaseback strategies; Aurelius (70) — The Body Shop bankruptcy."
+		},
+		{
+			"min": 80,
+			"max": 94,
+			"label": "Extreme",
+			"short": "Mass harm or portfolio collapse",
+			"description": "Documented mass layoffs (10,000+), portfolio-wide bankruptcies, or a well-established systematic pattern with multiple high-profile casualties.",
+			"example": "Apollo Global (80), Ares (82), Cerberus (90), Advent (86), KKR (88) — Toys 'R' Us collapse, 73,000 jobs."
+		},
+		{
+			"min": 95,
+			"max": 100,
+			"label": "Catastrophic",
+			"short": "Historic-scale destruction",
+			"description": "Company-ending collapses or multiple simultaneous portfolio bankruptcies at the highest documented scale. Reserved for the worst-case outliers.",
+			"example": "Leonard Green (97) — Joann (19,000+ layoffs 2025) + Container Store (Dec 2024) + Prospect Medical collapse, in the same window."
+		}
+	]
+}
