@@ -54,39 +54,66 @@
 		}
 	});
 
+	/**
+	 * Highest-impact first: sort by the parent firm's harmScore descending.
+	 * A brand inherits the max harmScore across all its ownership.firmId
+	 * references. Tiebreakers:
+	 *   1. brands with a non-empty `why` (a proxy for evidence presence)
+	 *   2. insertion order (stable — newest additions fall below older ones
+	 *      at the same impact level, so the existing top doesn't shuffle on
+	 *      every runner pass)
+	 */
+	function brandImpactScore(b: Brand): number {
+		const ownerScores = b.ownership
+			.map((o) => firmById.get(o.firmId)?.harmScore ?? 0)
+			.filter((s) => s > 0);
+		return ownerScores.length ? Math.max(...ownerScores) : 0;
+	}
+
 	const filteredBrands = $derived.by(() => {
 		const q = search.trim().toLowerCase();
-		return brands.filter((b) => {
-			if (cat !== 'all' && b.cat !== cat) return false;
-			if (q) {
-				const ownerText = b.ownership
-					.map((o) => firmById.get(o.firmId)?.name ?? o.firmId)
-					.join(' ');
-				const hay = [b.avoid, ownerText, b.why, ...b.alts].join(' ').toLowerCase();
-				if (!hay.includes(q)) return false;
-			}
-			if (matchOnly) {
-				const c = classify(b.harms, b.aligns, $userValues);
-				if (c.kind === 'neutral') return false;
-			}
-			return true;
-		});
+		return brands
+			.filter((b) => {
+				if (cat !== 'all' && b.cat !== cat) return false;
+				if (q) {
+					const ownerText = b.ownership
+						.map((o) => firmById.get(o.firmId)?.name ?? o.firmId)
+						.join(' ');
+					const hay = [b.avoid, ownerText, b.why, ...b.alts].join(' ').toLowerCase();
+					if (!hay.includes(q)) return false;
+				}
+				if (matchOnly) {
+					const c = classify(b.harms, b.aligns, $userValues);
+					if (c.kind === 'neutral') return false;
+				}
+				return true;
+			})
+			.sort((a, b) => {
+				const sa = brandImpactScore(a);
+				const sb = brandImpactScore(b);
+				if (sb !== sa) return sb - sa;
+				const ea = a.why && a.why.length > 20 ? 1 : 0;
+				const eb = b.why && b.why.length > 20 ? 1 : 0;
+				return eb - ea;
+			});
 	});
 
 	const filteredFirms = $derived.by(() => {
 		const q = search.trim().toLowerCase();
-		return firms.filter((f) => {
-			if (cat !== 'all' && !f.cats.includes(cat as never)) return false;
-			if (q) {
-				const hay = [f.name, f.summary, ...f.brands].join(' ').toLowerCase();
-				if (!hay.includes(q)) return false;
-			}
-			if (matchOnly) {
-				const c = classify(f.harms, f.aligns, $userValues);
-				if (c.kind === 'neutral') return false;
-			}
-			return true;
-		});
+		return firms
+			.filter((f) => {
+				if (cat !== 'all' && !f.cats.includes(cat as never)) return false;
+				if (q) {
+					const hay = [f.name, f.summary, ...f.brands].join(' ').toLowerCase();
+					if (!hay.includes(q)) return false;
+				}
+				if (matchOnly) {
+					const c = classify(f.harms, f.aligns, $userValues);
+					if (c.kind === 'neutral') return false;
+				}
+				return true;
+			})
+			.sort((a, b) => b.harmScore - a.harmScore);
 	});
 </script>
 

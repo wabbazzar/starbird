@@ -30,22 +30,43 @@ All you do is execute the strategy you were given.
 5. Print a summary block.
 6. Exit.
 
-## Current quest
+## Quest mapping
 
-**`workers_ice_cooperation`** — workers value, ICE cooperation quest.
+The quest you tag is determined by the strategy you were given. Every strategy
+is permanently bound to exactly one value system, and the default quest is the
+catch-all `*_general` for that value. Use a more specific quest only when the
+evidence clearly fits one (e.g. `workers_ice_cooperation` if the strategy is
+ICE-flavored, `extraction_sale_leaseback` if the evidence names a specific
+real-estate strip).
 
-Target: companies with contracts, data-sharing agreements, detention-center services, or software/tooling used by U.S. Immigration and Customs Enforcement (ICE) or for immigration enforcement more broadly. This is the only quest we are hardening in v1. Do not wander into other quests.
+Strategy → value → default quest:
 
-Known baseline (these are the kinds of entries we want more of):
-- Palantir Technologies — ICE case-management software
-- Thomson Reuters / CLEAR — data brokerage used by ICE
-- LexisNexis — data services used by ICE
-- Amazon Web Services — hosts ICE infrastructure
-- Microsoft Azure — federal cloud contracts
-- GEO Group — private detention operator
-- CoreCivic — private detention operator
-- Motorola Solutions — communications equipment
-- Northrop Grumman — enforcement technology
+| Strategy                                           | Value           | Default quest                     |
+|----------------------------------------------------|-----------------|-----------------------------------|
+| `mijente_no_tech_for_ice`                          | workers         | workers_ice_cooperation           |
+| `usaspending_ice_contracts`                        | workers         | workers_ice_cooperation           |
+| `ice_foia_library`                                 | workers         | workers_ice_cooperation           |
+| `adjacent_source_discovery_workers`                | workers         | workers_general                   |
+| `epa_tri_toxics_release`                           | environment     | environment_general               |
+| `climate_trace_emissions`                          | environment     | environment_general               |
+| `ewg_consumer_scores`                              | environment     | environment_general               |
+| `adjacent_source_discovery_environment`            | environment     | environment_general               |
+| `cruelty_free_international_db`                    | animals         | animals_general                   |
+| `peta_cruelty_list`                                | animals         | animals_general                   |
+| `mercy_for_animals_investigations`                 | animals         | animals_general                   |
+| `adjacent_source_discovery_animals`                | animals         | animals_general                   |
+| `ewg_food_scores`                                  | health          | health_general                    |
+| `ultraprocessed_nova_tracker`                      | health          | health_general                    |
+| `cspi_additive_tracker`                            | health          | health_general                    |
+| `adjacent_source_discovery_health`                 | health          | health_general                    |
+| `pesp_bankruptcy_tracker`                          | extraction      | extraction_general                |
+| `sec_lbo_filings`                                  | extraction      | extraction_general                |
+| `nyt_dealbook_archive`                             | extraction      | extraction_general                |
+| `adjacent_source_discovery_extraction`             | extraction      | extraction_general                |
+| `epstein_flight_logs`                              | elite_impunity  | elite_impunity_epstein_network    |
+| `littlesis_power_network`                          | elite_impunity  | elite_impunity_general            |
+| `icij_panama_pandora_papers`                       | elite_impunity  | elite_impunity_general            |
+| `adjacent_source_discovery_elite_impunity`         | elite_impunity  | elite_impunity_general            |
 
 Target for this run: **`TARGET_PAIRS`** well-sourced new entity pairs (each pair = 1 firm record + 1 brand record). The launcher injects `TARGET_PAIRS` as an environment variable at the bottom of this prompt. Keep researching and adding until you hit the target or exhaust the strategy's source. Quality still beats quantity — if you cannot find more than N valid candidates, stop at N rather than fabricating. The Guardian will reject bad data at push time regardless.
 
@@ -53,26 +74,89 @@ Target for this run: **`TARGET_PAIRS`** well-sourced new entity pairs (each pair
 
 One strategy runs per invocation. Which one runs is not up to you — the launcher injects it as `PICKED_STRATEGY`. Execute that strategy and only that strategy.
 
-### `mijente_no_tech_for_ice`
-- Source: https://notechforice.com/
-- Extract named companies from the tracker pages
-- For each candidate, verify the ICE connection with a second source before adding (news article, press release, FOIA document)
+### Workers
 
-### `usaspending_ice_contracts`
-- Source: https://www.usaspending.gov/
-- Query for contracts where the awarding agency is ICE or DHS
-- Extract the vendor companies from the top contracts by dollar value
-- Cross-reference against existing `firms[]` and `brands[]`
+**`mijente_no_tech_for_ice`**
+Source: https://notechforice.com/ — Extract named companies from the Mijente campaign's tracker pages. Cross-verify each candidate with a second source (news article, press release, FOIA document).
 
-### `ice_foia_library`
-- Source: https://www.ice.gov/foia/library
-- Parse recently released documents for company names
-- Flag any firm or brand mentioned in a vendor context
+**`usaspending_ice_contracts`**
+Source: https://www.usaspending.gov/ — Query for contracts where the awarding agency is ICE or DHS. Extract the vendor companies from the top contracts by dollar value. Cross-reference existing firms/brands before adding.
 
-### `adjacent_source_discovery`
-- Source: GitHub `awesome-*` lists, academic papers, investigative journalism
-- Find *new* data sources we haven't tried yet
-- Meta-strategy: expands the strategy bank itself. If you find a high-yield source, propose adding it as a new strategy by leaving a short note in the commit message. A human updates the strategy list in `scripts/update-strategy-scores.py` and `scripts/starbird-runner-prompt.md` — you do not edit those yourself.
+**`ice_foia_library`**
+Source: https://www.ice.gov/foia/library — Parse recently released documents for company names. Flag any firm or brand mentioned in a vendor context.
+
+**`adjacent_source_discovery_workers`**
+Meta-strategy. Find *new* data sources for worker/labor harms we haven't tried yet — awesome-lists, academic papers, investigative journalism. Leave a short note in the commit message if a source yields well so a human can promote it to a permanent strategy.
+
+### Environment
+
+**`epa_tri_toxics_release`**
+Source: https://www.epa.gov/toxics-release-inventory-tri-program — Top-polluting facilities from the EPA's Toxics Release Inventory. Map each facility back to its parent company, then identify consumer-facing brands owned by that parent.
+
+**`climate_trace_emissions`**
+Source: https://climatetrace.org/ — Satellite-verified emissions data ranked by tons CO2-equivalent. Focus on the top 100 emitters per sector, mapped back to parent companies and brands.
+
+**`ewg_consumer_scores`**
+Source: https://www.ewg.org/consumer-guides — Environmental Working Group's consumer guides for personal care, cleaning products, and sunscreens. Identify low-scoring brands and their parent firms.
+
+**`adjacent_source_discovery_environment`**
+Meta-strategy. Find new environment / pollution / climate data sources we haven't tried. NGOs, academic papers, and investigative reporting are the likely yields.
+
+### Animals
+
+**`cruelty_free_international_db`**
+Source: https://crueltyfreeinternational.org/ — Companies and parent conglomerates that continue to test on animals or source animal-tested ingredients. Pay attention to the "non-approved" list.
+
+**`peta_cruelty_list`**
+Source: https://www.peta.org/living/beauty/companies-test-animals/ — PETA's published list of companies that test on animals. Extract brand → parent mappings.
+
+**`mercy_for_animals_investigations`**
+Source: https://mercyforanimals.org/investigations/ — Factory farming exposés. Extract processor, supplier, and retail brand names from published investigations.
+
+**`adjacent_source_discovery_animals`**
+Meta-strategy. Find new animal welfare data sources — academic papers, NGO trackers, undercover investigations.
+
+### Health
+
+**`ewg_food_scores`**
+Source: https://www.ewg.org/foodscores/ — EWG's Food Scores database. Products rated on nutrition, ingredients, and processing. Map low-scoring products to their parent brands and firms.
+
+**`ultraprocessed_nova_tracker`**
+Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/ — NOVA classification system literature. Identify products in NOVA group 4 (ultra-processed), primarily snack/beverage brands owned by the big-10 food conglomerates (Nestlé, PepsiCo, Coca-Cola, Unilever, etc.).
+
+**`cspi_additive_tracker`**
+Source: https://www.cspinet.org/chemical-cuisine — Center for Science in the Public Interest additive safety ratings. Focus on "avoid" and "certain people should avoid" categories, mapped to containing brands.
+
+**`adjacent_source_discovery_health`**
+Meta-strategy. Find new health / consumer-safety data sources — research papers, FDA databases, watchdog reports.
+
+### Extraction (PE / asset-stripping)
+
+**`pesp_bankruptcy_tracker`**
+Source: https://pestakeholder.org/private-equity-bankruptcy/ — Private Equity Stakeholder Project's running list of PE-owned companies that filed for bankruptcy. Extract parent firms and the brands they damaged.
+
+**`sec_lbo_filings`**
+Source: https://www.sec.gov/edgar/search-and-access — Recent leveraged-buyout filings (10-K, Form D). Extract acquirer and target names for the highest-dollar deals.
+
+**`nyt_dealbook_archive`**
+Source: https://www.nytimes.com/section/business/dealbook — NYT DealBook coverage of PE acquisitions, sale-leasebacks, and dividend recaps. Extract named companies and deal structures.
+
+**`adjacent_source_discovery_extraction`**
+Meta-strategy. Find new PE / extraction data sources — watchdog NGOs, academic papers, financial journalism.
+
+### Elite impunity
+
+**`epstein_flight_logs`**
+Source: https://www.documentcloud.org/documents/24380582-epstein-documents — Unsealed Epstein court documents. Extract documented associates and the companies/institutions they own or run. Tag with `elite_impunity_epstein_network`.
+
+**`littlesis_power_network`**
+Source: https://littlesis.org/ — LittleSis's mapped relationships between billionaires, corporations, and political donors. Identify companies owned by figures with documented elite-impunity behavior (not just "rich people" — must have concrete behavior that evidences impunity).
+
+**`icij_panama_pandora_papers`**
+Source: https://offshoreleaks.icij.org/ — International Consortium of Investigative Journalists leaks. Beneficial ownership records linking shell companies to named oligarchs and politicians. Report brands/firms that the leaks name specifically.
+
+**`adjacent_source_discovery_elite_impunity`**
+Meta-strategy. Find new data sources for elite-impunity networks — investigative journalism, academic research.
 
 ## Data you will write
 

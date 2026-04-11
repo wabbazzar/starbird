@@ -4,19 +4,20 @@ Deterministic strategy picker for Starbird Runner.
 
 Reads tmp/starbird-runner-strategy-scores.json and prints a single strategy
 ID to stdout. The launcher captures this and exports it as PICKED_STRATEGY
-before invoking Claude.
+before invoking Claude. Exit code 2 if no strategy is pickable (all values
+at target — the research loop is done).
 
-Policy:
-  1. Exploration-first: if any strategy has 0 runs, pick it. Ties broken
-     by the strategy order in update-strategy-scores.py (deterministic).
-  2. Otherwise epsilon-greedy (epsilon=0.2) with the RNG seeded from the
-     current UTC date. Same date → same pick. Different days → different
-     picks. This is still deterministic given an external clock.
-  3. If the greedy branch fires, pick the strategy with the highest score.
-     Ties broken by strategy order.
+Policy (v2 — progress-aware):
+  1. Drop any strategy whose value_at_target is True. If nothing remains,
+     exit with a "complete" sentinel.
+  2. Exploration-first over the survivors: pick the first strategy with
+     zero runs whose parent value still needs entries.
+  3. Otherwise epsilon-greedy (epsilon=0.2) with the RNG seeded from the
+     current UTC date. Random choices drawn only from survivors.
+  4. Greedy fallback: pick the survivor with the highest score, ties
+     broken by strategy order.
 
-No LLM involvement. No learned model. If we want UCB1 or Thompson sampling
-later, swap the body of pick() — history format does not need to change.
+No LLM involvement. No learned model.
 """
 import json
 import pathlib
@@ -31,20 +32,27 @@ EPSILON = 0.2
 
 def pick(scores_payload):
     strategies = scores_payload["strategies"]
-    order = list(strategies.keys())
+    # Drop strategies whose value is already at target.
+    order = [
+        sid for sid in strategies.keys()
+        if not strategies[sid].get("value_at_target", False)
+    ]
 
-    # Exploration-first
+    if not order:
+        return None, "all_values_complete"
+
+    # Exploration-first among survivors
     for sid in order:
-        if strategies[sid]["exploration_eligible"]:
+        if strategies[sid].get("exploration_eligible", False):
             return sid, "exploration"
 
-    # Epsilon-greedy with date-seeded RNG
+    # Epsilon-greedy with date-seeded RNG, survivors only
     seed = datetime.utcnow().strftime("%Y%m%d")
     rng = random.Random(seed)
     if rng.random() < EPSILON:
         return rng.choice(order), "epsilon_random"
 
-    # Greedy: highest score, ties broken by order
+    # Greedy: highest score among survivors
     best = max(order, key=lambda s: (strategies[s]["score"], -order.index(s)))
     return best, "greedy"
 
@@ -55,7 +63,9 @@ def main():
         sys.exit(2)
     payload = json.loads(SCORES_FILE.read_text())
     sid, reason = pick(payload)
-    # stdout is the machine-readable output; stderr carries the rationale
+    if sid is None:
+        print(f"no pick: {reason}", file=sys.stderr)
+        sys.exit(3)  # sentinel: research loop is complete
     print(sid)
     print(f"picked {sid} via {reason}", file=sys.stderr)
 
