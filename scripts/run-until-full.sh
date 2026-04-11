@@ -68,12 +68,18 @@ print(total)
   # Pre-check: if pick-strategy would return exit 3 (all values complete),
   # we don't need to invoke the full runner at all.
   python3 scripts/update-strategy-scores.py >> "$LOOP_LOG" 2>&1
-  if ! python3 scripts/pick-strategy.py >/dev/null 2>&1; then
-    RC=$?
-    if [ "$RC" = "3" ]; then
-      echo "[run-until-full] HALTING: all values complete (picker exit 3)" >> "$LOOP_LOG"
-      break
-    fi
+  # Run the picker and capture its exit code explicitly. The previous
+  # "if ! cmd; then RC=$?" form didn't reliably preserve the original
+  # exit code inside the then-block, so the exit-3 branch never fired
+  # and the loop spun through empty iterations.
+  python3 scripts/pick-strategy.py >/dev/null 2>&1
+  RC=$?
+  if [ "$RC" = "3" ]; then
+    echo "[run-until-full] HALTING: all values complete (picker exit 3)" >> "$LOOP_LOG"
+    break
+  fi
+  if [ "$RC" != "0" ]; then
+    echo "[run-until-full] WARN: picker returned unexpected exit $RC, continuing" >> "$LOOP_LOG"
   fi
 
   # Fire one runner iteration. TARGET_PAIRS is passed through via env.
