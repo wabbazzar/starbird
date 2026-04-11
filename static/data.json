@@ -1964,6 +1964,156 @@
         "health_general"
       ],
       "aligns": []
+    },
+    {
+      "id": "tyson_foods",
+      "name": "Tyson Foods",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of the world's largest protein producers, headquartered in Springdale, Arkansas, with annual revenue exceeding $53 billion. Tyson owns Jimmy Dean, Ball Park, Hillshire Farm, and State Fair brands. CSPI's Chemical Cuisine database specifically lists BHA (butylated hydroxyanisole) — an antioxidant preservative rated 'Avoid' — as an ingredient in multiple Jimmy Dean pork sausage products. Sodium nitrite, also rated 'Avoid' by CSPI, is used widely across Tyson's processed meat portfolio. IARC classifies sodium nitrite-treated processed meats as Group 1 carcinogens. Tyson acquired Jimmy Dean Brands from Sara Lee Corporation in 2012 for approximately $400 million. Flagged under health_general.",
+      "brands": ["Jimmy Dean", "Ball Park", "Hillshire Farm"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "hormel_foods",
+      "name": "Hormel Foods",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American multinational food company headquartered in Austin, Minnesota, founded in 1891, with annual revenue over $12 billion. Hormel's flagship product SPAM Classic lists sodium nitrite in its ingredient panel — a preservative CSPI rates as 'Avoid' due to its conversion in the stomach to nitrosamines, compounds classified as probable human carcinogens by IARC. SPAM is sold in 44 countries and generated over $1 billion in annual U.S. retail sales. Hormel also owns Applegate Farms (natural/organic meats), Skippy peanut butter, and Jennie-O Turkey Store. Its core deli and canned meat portfolio — including Hormel pepperoni, Vienna Beef, and Black Label bacon — relies heavily on sodium nitrite and sodium nitrate as preservatives and color fixatives. Flagged under health_general.",
+      "brands": ["SPAM", "Hormel Natural Choice", "Applegate Farms"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "hershey_company",
+      "name": "The Hershey Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American multinational confectionery manufacturer headquartered in Hershey, Pennsylvania, with annual revenue over $11 billion. Hershey is the largest chocolate manufacturer in North America. TBHQ (tert-butylhydroquinone) — rated 'Avoid' by CSPI — appears as an antioxidant in Reese's Peanut Butter Cups and other Hershey products. CSPI notes that TBHQ caused tumor formation in animal studies and inhibits the process by which immune-system T cells recognize and fight disease. Additionally, PGPR (polyglycerol polyricinoleate), used by Hershey as a cheaper emulsifier in place of cocoa butter, was inadequately tested at the time of approval. In 2023, Hershey settled a class-action lawsuit alleging undisclosed heavy metals (lead and cadmium) in dark chocolate products. Flagged under health_general.",
+      "brands": ["Reese's", "Kit Kat (US)", "Hershey's", "Jolly Rancher", "Twizzlers"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food", "retail"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "coca_cola_company",
+      "name": "The Coca-Cola Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "World's largest beverage company by revenue, headquartered in Atlanta, Georgia, with annual revenue exceeding $45 billion. Coca-Cola's Diet Coke and Coke Zero Sugar products contain acesulfame potassium (Ace-K) — an artificial sweetener CSPI rates as 'Avoid' due to inadequate safety testing, with one study finding increased cancer incidence in mice. Diet Coke also contains aspartame, which CSPI rates as 'Certain people should avoid' (phenylketonurics). Coca-Cola's caramel-colored products (Coke Classic, Pepsi competitors) contain 4-methylimidazole (4-MEI), a potential carcinogen formed during caramel color IV manufacturing; California required Coke to carry a Prop 65 cancer warning in 2012 before the company reduced 4-MEI levels. Powererade and other products contain artificial colors. Flagged under health_general.",
+      "brands": ["Coca-Cola", "Diet Coke", "Coke Zero", "Sprite", "Fanta", "Poweraide", "Minute Maid"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "wk_kellogg_co",
+      "name": "WK Kellogg Co",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "North American ready-to-eat cereal company spun off from the Kellogg Company in October 2023 (NYSE: KLG), headquartered in Battle Creek, Michigan. WK Kellogg Co operates the legacy cereal brands: Corn Flakes, Frosted Flakes, Froot Loops, Apple Jacks, Raisin Bran, Special K, and Rice Krispies. CSPI's Chemical Cuisine rates Red 40, Blue 1, and Yellow 6 — all artificial colors present in Froot Loops and Apple Jacks — as 'Avoid' due to potential carcinogenicity and documented hyperactivity effects in children. A 2007 UK study published in The Lancet found children who consumed a mixture of artificial colors including Red 40 and Yellow 6 showed significantly increased hyperactivity. The European Union requires products with these colors to carry a warning label: 'may have an adverse effect on activity and attention in children.' Flagged under health_general.",
+      "brands": ["Froot Loops", "Apple Jacks", "Frosted Flakes", "Corn Flakes", "Rice Krispies", "Raisin Bran"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "keurig_dr_pepper",
+      "name": "Keurig Dr Pepper",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "One of North America's largest beverage companies, headquartered in Burlington, Massachusetts, with annual revenue exceeding $14 billion. Formed from the 2018 merger of Keurig Green Mountain and Dr Pepper Snapple Group. Hawaiian Punch, one of KDP's flagship fruit drink products with over $1 billion in annual retail sales, contains Red 40 and Blue 1 — artificial colors CSPI rates as 'Avoid' due to potential carcinogenicity and behavioral effects in children. Some KDP products including Canada Dry and certain Snapple varieties contain sodium benzoate, which can react with added ascorbic acid to form benzene, a known carcinogen. Sunkist Orange and other citrus sodas have historically contained brominated vegetable oil (BVO), an 'Avoid'-rated additive CSPI cites for potential nerve damage — BVO was removed from most products after consumer campaigns in 2013. Flagged under health_general.",
+      "brands": ["Dr Pepper", "Hawaiian Punch", "Snapple", "7UP (US)", "Canada Dry", "A&W (US)", "Bai"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "flowers_foods",
+      "name": "Flowers Foods",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Second-largest producer of packaged bakery goods in the United States, headquartered in Thomasville, Georgia (NYSE: FLO), with annual revenue over $5 billion. Flowers Foods acquired Wonder Bread from Hostess in 2012 for $360 million after Hostess's first bankruptcy. Wonder Bread contains calcium propionate — rated by CSPI as 'Certain people should avoid' due to a controlled study finding it caused irritability, restlessness, and inattention in children — and DATEM (diacetyl tartaric acid esters of mono- and diglycerides), a dough conditioner CSPI rates as 'Certain people should avoid' pending additional testing. Nature's Own and Dave's Killer Bread (also Flowers) use similar preservative systems. Calcium propionate is among the most common antimold additives in U.S. commercial bread and the subject of ongoing pediatric health research. Flagged under health_general.",
+      "brands": ["Wonder Bread", "Nature's Own", "Dave's Killer Bread", "Tastykake", "Sunbeam"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "bg_foods",
+      "name": "B&G Foods",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "American packaged food company headquartered in Parsippany, New Jersey (NYSE: BGS), with annual revenue around $2 billion. B&G Foods acquired the Crisco brand from J.M. Smucker in December 2020 for $550 million. Crisco all-vegetable shortening and Crisco cooking oils list TBHQ (tert-butylhydroquinone) as an antioxidant preservative — CSPI rates TBHQ as 'Avoid' because animal studies showed tumor formation and it inhibits T-cell immune function. TBHQ is ubiquitous in deep-frying oils, packaged crackers, and processed snacks. B&G Foods also owns Green Giant (canned and frozen vegetables), Ortega, Las Palmas, Cream of Wheat, and McCann's. Flagged under health_general.",
+      "brands": ["Crisco", "Green Giant", "Ortega", "Cream of Wheat"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "grupo_bimbo",
+      "name": "Grupo Bimbo / Bimbo Bakeries USA",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The world's largest bread company by sales, headquartered in Mexico City (BMV: BIMBOA), with annual revenue exceeding $17 billion. Its U.S. subsidiary Bimbo Bakeries USA owns Thomas', Arnold, Entenmann's, Sara Lee (bakery), Brownberry, Ball Park (bread), Nature's Harvest, and Oroweat. Thomas' English Muffins contain calcium propionate — CSPI rates as 'Certain people should avoid' based on studies linking the preservative to irritability and inattention in children — and DATEM, another dough additive CSPI marks as 'Certain people should avoid.' The widespread use of these additives across Bimbo's mass-market bread portfolio exposes millions of daily consumers, including children, to preservatives that lack a clean safety record. Flagged under health_general.",
+      "brands": ["Thomas' English Muffins", "Arnold", "Entenmann's", "Sara Lee (bakery)", "Oroweat"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "ferrero_group",
+      "name": "Ferrero Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Italian multinational confectionery manufacturer headquartered in Alba, Italy, and one of the world's largest candy companies by revenue (~$17B). Ferrero acquired Ferrara Candy Company in 2017 for approximately $1.3 billion, adding Nerds, SweeTarts, Trolli, Brach's, and RunnerBean to its portfolio. Nerds candy contains Red 40, Blue 1, Yellow 5, and Yellow 6 — all artificial color additives rated 'Avoid' by CSPI based on carcinogenicity concerns and documented hyperactivity effects in children. The 2007 McCann et al. study in The Lancet, confirmed by subsequent European Food Safety Authority review, linked mixtures of these synthetic dyes to significantly increased hyperactivity in children. Ferrero also owns Nutella, Tic Tac, and Kinder products globally; Nutella contains vanillin (artificial vanilla flavoring). Flagged under health_general.",
+      "brands": ["Nerds", "SweeTarts", "Trolli", "Nutella", "Ferrero Rocher", "Tic Tac"],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.cspinet.org/chemical-cuisine",
+      "cats": ["food"],
+      "harms": ["health_general"],
+      "aligns": []
     }
   ],
   "brands": [
@@ -4202,6 +4352,166 @@
       "harms": [
         "health_general"
       ],
+      "aligns": []
+    },
+    {
+      "id": "jimmy_dean",
+      "avoid": "Jimmy Dean",
+      "ownership": [
+        {
+          "firmId": "tyson_foods",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Jimmy Dean sausage products contain BHA (butylated hydroxyanisole) and sodium nitrite — both rated 'Avoid' by the Center for Science in the Public Interest (CSPI). BHA is classified as a possible carcinogen by California's Office of Environmental Health Hazard Assessment. Sodium nitrite is used as a preservative and color fixative in processed meats; in the stomach it converts to nitrosamines, which the International Agency for Research on Cancer (IARC) classifies as probable human carcinogens, and processed meats overall are classified by IARC as Group 1 carcinogens (sufficient evidence of cancer causation). Jimmy Dean Original Pork Sausage Roll lists both BHA and sodium nitrite on its ingredients panel. Tyson Foods acquired Jimmy Dean from Sara Lee in 2012; the brand generates over $1 billion in annual retail sales.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "spam",
+      "avoid": "SPAM",
+      "ownership": [
+        {
+          "firmId": "hormel_foods",
+          "stake": "majority",
+          "since": "1937"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "SPAM Classic's ingredient list includes sodium nitrite — rated 'Avoid' by CSPI — which preserves the meat and gives it its pink color. In the stomach, sodium nitrite reacts with amines in meat to form N-nitrosamines, compounds IARC classifies as probable human carcinogens. Processed meats preserved with nitrite are in IARC Group 1 (causes colorectal cancer). SPAM has been produced by Hormel since 1937 and sells over 150 million cans annually in the U.S. alone. It is one of the most widely recognized processed meat brands globally. CSPI has long called on the FDA to require warning labels on sodium nitrite-containing meats, noting that children who consume them regularly face elevated colorectal cancer risk later in life.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "reeses",
+      "avoid": "Reese's",
+      "ownership": [
+        {
+          "firmId": "hershey_company",
+          "stake": "majority",
+          "since": "1963"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Reese's Peanut Butter Cups contain TBHQ (tert-butylhydroquinone) as an antioxidant preservative. CSPI rates TBHQ as 'Avoid': animal studies showed that high doses caused tumor formation, and it inhibits the process by which immune-system T cells recognize and fight disease. TBHQ is among the most common preservatives in American packaged foods — found in pop-tarts, crackers, fast-food frying oils, and candy. The FDA permits TBHQ at concentrations up to 0.02% of the oil content of a product. Reese's is the top-selling candy brand in the United States with annual retail sales exceeding $2.8 billion. In 2023, Hershey also settled class-action litigation alleging its dark chocolate products contained undisclosed lead and cadmium levels exceeding California Prop 65 safe harbor thresholds.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "diet_coke",
+      "avoid": "Diet Coke",
+      "ownership": [
+        {
+          "firmId": "coca_cola_company",
+          "stake": "majority",
+          "since": "1982"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Diet Coke contains two additives rated as concerns by CSPI: acesulfame potassium (Ace-K), rated 'Avoid' because inadequate safety testing conducted in the 1970s included one study with a modest increased cancer signal in mice, and aspartame, rated 'Certain people should avoid' (phenylalanine metabolized from aspartame can be harmful to phenylketonurics; CSPI has long called for better labeling). Diet Coke also contains phosphoric acid (associated with reduced bone density at high intakes) and caramel color, whose manufacturing byproduct 4-methylimidazole (4-MEI) prompted California's Prop 65 cancer warning for Coca-Cola products in 2012. Diet Coke is one of the three best-selling carbonated soft drinks in the United States with annual retail sales exceeding $3 billion.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "froot_loops",
+      "avoid": "Froot Loops",
+      "ownership": [
+        {
+          "firmId": "wk_kellogg_co",
+          "stake": "majority",
+          "since": "1963"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Froot Loops contains Red 40, Blue 1, and Yellow 6 — all synthetic food dyes rated 'Avoid' by CSPI. A 2007 double-blind, randomized, placebo-controlled study published in The Lancet (McCann et al.) found that mixtures of artificial food colorings including Red 40, Yellow 6, and others caused a statistically significant increase in hyperactivity in children across multiple age groups. The European Union responded by requiring warning labels on products with these dyes stating: 'May have an adverse effect on activity and attention in children.' The U.S. FDA has not required such labeling, relying on an advisory committee review in 2011 that found the existing evidence inconclusive — though CSPI had filed a petition to ban these dyes as early as 2008. Froot Loops generates approximately $400 million in annual U.S. retail sales.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "hawaiian_punch",
+      "avoid": "Hawaiian Punch",
+      "ownership": [
+        {
+          "firmId": "keurig_dr_pepper",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hawaiian Punch Fruit Juicy Red contains Red 40 and Blue 1 — artificial colors rated 'Avoid' by CSPI. Red 40 is the most widely used food dye in the United States; CSPI notes it may contain p-Cresidine, a compound the U.S. National Toxicology Program has found to cause tumors in mice, and that it causes hypersensitivity (allergic-type) reactions in some people. Blue 1 may carry a small risk of cancer and has not been conclusively proven safe. Hawaiian Punch is marketed heavily to children and generates over $1 billion in annual U.S. retail sales. Despite containing less than 5% actual juice, it is sold as a 'fruit punch' product. Keurig Dr Pepper acquired Hawaiian Punch from Procter & Gamble via the 1999 sale that eventually passed to Cadbury Schweppes.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "wonder_bread",
+      "avoid": "Wonder Bread",
+      "ownership": [
+        {
+          "firmId": "flowers_foods",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Wonder Bread contains calcium propionate — an antimold preservative CSPI rates as 'Certain people should avoid' — and DATEM (diacetyl tartaric acid esters of mono- and diglycerides), a dough conditioner CSPI also rates as 'Certain people should avoid' due to insufficient long-term safety data. A 2002 controlled study by Dengate and Ruben (Journal of Paediatrics and Child Health) found calcium propionate caused irritability, restlessness, and inattention in some children. A subsequent 2019 Australian study linked propionic acid (the active antimicrobial compound in calcium propionate) to autism-related behavioral changes in animal models, though this link remains under investigation. Wonder Bread is one of the most recognized bread brands in America, with a history dating to 1921. Flowers Foods acquired it from Hostess for $360 million in 2012.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "crisco",
+      "avoid": "Crisco",
+      "ownership": [
+        {
+          "firmId": "bg_foods",
+          "stake": "majority",
+          "since": "2020"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Crisco All-Vegetable Shortening lists TBHQ (tert-butylhydroquinone) as an antioxidant ingredient. CSPI rates TBHQ as 'Avoid': animal studies showed tumor formation at high doses, and mechanistic research indicates TBHQ impairs T-cell immune function. TBHQ is also present in Crisco vegetable oil products. Originally introduced by Procter & Gamble in 1911, Crisco was later sold to J.M. Smucker in 2002 and subsequently to B&G Foods in 2020 for $550 million. In its original formulation, Crisco was a significant source of artificial trans fats (partially hydrogenated oils), which were banned by the FDA in 2015 and phased out by 2018. The reformulated version eliminated trans fats but retained TBHQ as a stabilizer. Crisco is the dominant U.S. shortening brand, used in baking and frying by millions of households.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "thomas_english_muffins",
+      "avoid": "Thomas' English Muffins",
+      "ownership": [
+        {
+          "firmId": "grupo_bimbo",
+          "stake": "majority",
+          "since": "2011"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Thomas' Original English Muffins contain calcium propionate (an antimold preservative) and DATEM (a dough conditioner) — both rated 'Certain people should avoid' by CSPI. Calcium propionate has been linked in controlled studies to irritability and inattention in some children (Dengate & Ruben, 2002), and a 2019 study in Scientific Reports found propionic acid triggered autism-relevant behavioral and metabolic changes in rodents. DATEM lacks long-term safety data from independent studies. Thomas' English Muffins are one of the best-selling bread products in the United States, with annual retail sales exceeding $500 million. Grupo Bimbo acquired Thomas' as part of its 2011 purchase of Bimbo Bakeries USA from Sara Lee Corporation for $959 million.",
+      "harms": ["health_general"],
+      "aligns": []
+    },
+    {
+      "id": "nerds_candy",
+      "avoid": "Nerds",
+      "ownership": [
+        {
+          "firmId": "ferrero_group",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Nerds candy (original variety) contains Red 40, Blue 1, Yellow 5 (tartrazine), and Yellow 6 — four artificial dyes CSPI rates as 'Avoid.' The McCann et al. (2007) Lancet study found that mixtures including these exact dyes significantly increased hyperactivity in 3-year-olds and 8–9-year-olds in a double-blind trial. Yellow 5 (tartrazine) has additionally been linked to hyperactivity and allergic reactions including urticaria and asthma in sensitive individuals. Yellow 6 contains trace amounts of carcinogenic contaminants (benzidine and 4-aminobiphenyl). The EU requires warning labels on all products containing these dyes stating they 'may have an adverse effect on activity and attention in children.' Nerds are one of the top-selling candies in the United States, with annual retail sales estimated at $500 million+. Ferrara Candy (maker of Nerds) was acquired by Ferrero Group in 2017 for approximately $1.3 billion.",
+      "harms": ["health_general"],
       "aligns": []
     }
   ]
