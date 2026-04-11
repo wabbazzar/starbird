@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Brand, Classification } from '$lib/types';
+	import type { Brand, Firm, Classification, OwnershipStake } from '$lib/types';
 	import type { ValueId } from '$lib/values';
 	import ValueChip from './ValueChip.svelte';
 
@@ -7,24 +7,54 @@
 		brand: Brand;
 		classification: Classification;
 		matched: ValueId[];
+		firmById: Map<string, Firm>;
 	};
 
-	let { brand, classification, matched }: Props = $props();
+	let { brand, classification, matched, firmById }: Props = $props();
 
 	const verdict = $derived(
-		classification === 'avoid' ? 'Conflicts with your values' :
-		classification === 'align' ? 'Aligns with your values' :
-		'No direct conflict'
+		classification === 'avoid'
+			? 'Conflicts with your values'
+			: classification === 'align'
+				? 'Aligns with your values'
+				: 'No direct conflict'
 	);
+
+	function stakeLabel(s: OwnershipStake): string {
+		switch (s) {
+			case 'majority':
+				return 'majority';
+			case 'minority':
+				return 'minority';
+			case 'former':
+				return 'former';
+			case 'post_bankrupt':
+				return 'post-bankrupt';
+		}
+	}
 </script>
 
-<article class="card" class:card-avoid={classification === 'avoid'} class:card-align={classification === 'align'}>
+<article
+	class="card"
+	class:card-avoid={classification === 'avoid'}
+	class:card-align={classification === 'align'}
+>
 	<header>
 		<div class="name-row">
 			<h3>{brand.avoid}</h3>
 			<span class="cat">{brand.cat}</span>
 		</div>
-		<div class="owner">Owned by <strong>{brand.owner}</strong></div>
+		<div class="owners">
+			{#each brand.ownership as o, i (o.firmId + i)}
+				{@const firm = firmById.get(o.firmId)}
+				<div class="owner-row">
+					<span class="label">Owned by</span>
+					<strong>{firm?.name ?? o.firmId}</strong>
+					<span class="stake" data-stake={o.stake}>{stakeLabel(o.stake)}</span>
+					{#if o.since}<span class="since">since {o.since}</span>{/if}
+				</div>
+			{/each}
+		</div>
 	</header>
 
 	<p class="verdict" data-kind={classification}>{verdict}</p>
@@ -74,14 +104,49 @@
 		letter-spacing: 0.08em;
 		color: var(--ink-faint);
 	}
-	.owner {
+	.owners {
+		margin-top: 4px;
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+	}
+	.owner-row {
+		display: flex;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 6px;
 		font-size: 0.78rem;
 		color: var(--ink-muted);
-		margin-top: 2px;
 	}
-	.owner strong {
+	.owner-row .label {
+		color: var(--ink-faint);
+	}
+	.owner-row strong {
 		color: var(--ink);
 		font-weight: 500;
+	}
+	.stake {
+		font-family: 'DM Mono', monospace;
+		font-size: 0.56rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		padding: 1px 6px;
+		border-radius: 4px;
+		background: var(--surface-2);
+		color: var(--ink-faint);
+	}
+	.stake[data-stake='majority'] {
+		color: var(--primary);
+		background: var(--primary-dim);
+	}
+	.stake[data-stake='former'],
+	.stake[data-stake='post_bankrupt'] {
+		color: var(--ink-faint);
+	}
+	.since {
+		font-family: 'DM Mono', monospace;
+		font-size: 0.62rem;
+		color: var(--ink-faint);
 	}
 	.verdict {
 		font-family: 'DM Mono', monospace;
