@@ -2431,6 +2431,177 @@
         "elite_impunity_epstein_network"
       ],
       "aligns": []
+    },
+    {
+      "id": "fox_corporation",
+      "name": "Fox Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Fox Corporation is Rupert Murdoch's primary US media holding company, owning Fox News Channel, Fox Business Network, Fox Sports, and local TV stations. In April 2023, Fox Corp paid $787.5 million \u2014 the largest-ever US media defamation settlement \u2014 to resolve claims brought by Dominion Voting Systems that Fox News knowingly broadcast false election-fraud narratives. LittleSis documents the Murdoch family's extensive political network, including direct access to senior officials, favorable regulatory treatment, and decades of coordinated influence operations used to shape policy in the US, UK, and Australia while avoiding accountability for harms from its media platforms.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://littlesis.org/org/58778-Fox_Corporation",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "las_vegas_sands",
+      "name": "Las Vegas Sands Corp",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Las Vegas Sands Corp (LVS) was founded by Sheldon Adelson and operates casino resort properties including The Venetian in Las Vegas and properties in Macau and Singapore. In 2016, the DOJ concluded a years-long Foreign Corrupt Practices Act (FCPA) investigation into LVS's Macau operations. Adelson and the Adelson family PACs spent over $200 million in documented dark money influencing US elections and policy, giving the family direct access to shape legislation on issues including foreign policy toward Israel, drug legalization, and antitrust enforcement \u2014 with documented policy outcomes favoring LVS's business interests.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 71,
+      "source": "https://littlesis.org/org/19685-Las_Vegas_Sands_Corp",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "wynn_resorts",
+      "name": "Wynn Resorts, Limited",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Wynn Resorts, Limited owns and operates luxury hotel-casino properties under the Wynn and Encore brands in Las Vegas, Boston, and Macau. Founder Steve Wynn resigned as CEO and RNC Finance Chair in 2018 following Wall Street Journal reporting on over 200 sexual misconduct allegations. In 2023, Wynn was indicted by DOJ for acting as an unregistered foreign agent for the Chinese government (FARA violation), attempting to use White House access to influence immigration decisions. The company paid $26.7 million in Massachusetts to settle claims tied to Wynn's misconduct, yet the properties continue to operate under his name.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 74,
+      "source": "https://littlesis.org/org/41560-Wynn_Resorts",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "news_corp",
+      "name": "News Corp",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "News Corp is Rupert Murdoch's global publishing and media conglomerate, split from 21st Century Fox in 2013. It owns the Wall Street Journal, New York Post, HarperCollins Publishers, and News UK (The Times, The Sun). News Corp's UK outlets were central to the phone hacking scandal that ultimately led to over $1.6 billion in civil settlements and criminal convictions of News of the World staff. LittleSis documents News Corp's lobbying network and Murdoch family use of editorial pages to exercise political leverage over UK and US governments, securing favorable regulatory outcomes while avoiding accountability for systematic privacy violations.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 73,
+      "source": "https://littlesis.org/org/3827-News_Corporation",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "oracle_corporation",
+      "name": "Oracle Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Oracle Corporation is a major enterprise software and cloud company controlled by co-founder Larry Ellison, who owns approximately 40% of shares. LittleSis documents Ellison's political network, including a 2019 fundraiser for President Trump at his California estate. In 2020, Oracle was selected as TikTok's US technology partner following White House intervention under Ellison's pressure \u2014 despite Microsoft having submitted a stronger technical bid. Ellison's documented access to executive officials has shaped federal procurement decisions including Pentagon cloud contracts, while Oracle has used litigation and lobbying to stifle competitors and avoid antitrust accountability.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://littlesis.org/org/34791-Oracle_Corporation",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "anduril_industries",
+      "name": "Anduril Industries",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Anduril Industries is a defense technology company founded in 2017 by Palmer Luckey (creator of Oculus VR) and backed by Peter Thiel's Founders Fund. Anduril develops autonomous weapons, surveillance towers, and AI-driven border monitoring systems. Its Lattice AI platform is deployed along the US-Mexico border for immigration enforcement surveillance. LittleSis documents the company's ties to the Thiel network of political donors who have funded campaigns to weaken democratic oversight of surveillance and weapons technology, while Anduril has received over $1.5 billion in Pentagon contracts with limited public accountability for the autonomous lethality decisions built into its systems.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://littlesis.org/org/213093-Anduril_Industries",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "iac_interactivecorp",
+      "name": "IAC/InterActiveCorp",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "IAC/InterActiveCorp is a media and technology conglomerate controlled by Barry Diller, who serves as Chairman and Senior Executive. IAC owns Angi (home services marketplace), Dotdash Meredith (major publisher of People, Better Homes & Gardens, Investopedia), and various digital properties. LittleSis documents Diller's extensive political network spanning both parties and his documented social relationships with figures linked to elite-impunity behavior. Diller's decades of consolidated media power have been exercised with minimal regulatory scrutiny, while Angi/HomeAdvisor has faced class action litigation for deceptive practices including billing contractors for fraudulent leads.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 63,
+      "source": "https://littlesis.org/org/5878-IAC",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "access_industries",
+      "name": "Access Industries",
+      "aum": "$30B",
+      "aumVal": 30,
+      "summary": "Access Industries is a private holding company owned by Ukrainian-American billionaire Leonard (Len) Blavatnik, controlling approximately $30 billion in assets. Access Industries owns a controlling stake in Warner Music Group (WMG), the world's third-largest record label. LittleSis documents Blavatnik's documented connections to sanctioned Russian oligarchs including Viktor Vekselberg, his former business partner in TNK-BP. Blavatnik donated $1 million to Trump's inaugural committee and has made substantial donations to politicians of both parties, gaining access that has insulated him from scrutiny of his oligarch-era business relationships as the US imposed sanctions on his former associates.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 67,
+      "source": "https://littlesis.org/person/17494-Leonard_Blavatnik",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "live_nation_entertainment",
+      "name": "Live Nation Entertainment",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Live Nation Entertainment is the world's largest live entertainment company, owning Ticketmaster, concert venues, artist management, and touring operations. In May 2024, the DOJ and 30 state attorneys general sued Live Nation for illegal monopolization of the live entertainment industry. LittleSis documents Live Nation's lobbying network and its history of using political access to delay antitrust enforcement for over a decade following its 2010 merger with Ticketmaster. The company has used its dominant position to impose junk fees on consumers, lock artists and venues into exclusive deals, and retaliate against venues that work with competitors \u2014 practices that regulators documented but were slow to address.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://littlesis.org/org/131033-Live_Nation_Entertainment",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
@@ -5026,6 +5197,186 @@
       "why": "Bank of America agreed to a $72.5 million settlement with Jeffrey Epstein accusers in March 2026, becoming the third major US bank to settle Epstein-related trafficking facilitation claims after JPMorgan Chase and Deutsche Bank. Litigation documents allege the bank processed payments connected to Epstein's network and failed to act on anti-money-laundering obligations despite red flags.",
       "harms": [
         "elite_impunity_epstein_network"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "fox_news",
+      "avoid": "Fox News",
+      "ownership": [
+        {
+          "firmId": "fox_corporation",
+          "stake": "majority",
+          "since": "1996"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Fox News is owned by Fox Corporation, Rupert Murdoch's media empire. In 2023, Fox Corp paid $787.5 million \u2014 the largest US media defamation settlement in history \u2014 after a jury was set to hear evidence that Fox News hosts and executives knowingly broadcast false claims about the 2020 election to protect ratings. LittleSis maps the Murdoch family's direct access to heads of government across three countries and shows how that relationship has been used to shape regulatory and policy decisions in Fox's commercial interest, with no individual held accountable for the systematic deception.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "venetian_resort",
+      "avoid": "The Venetian Resort",
+      "ownership": [
+        {
+          "firmId": "las_vegas_sands",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "The Venetian Resort in Las Vegas is the flagship property of Las Vegas Sands Corp, founded by Sheldon Adelson. The Adelson family leveraged casino profits to build one of the largest dark money political machines in US history, spending over $200 million to elect politicians who then shaped legislation on drug policy, Israel policy, and antitrust matters directly benefiting LVS. LittleSis documents the feedback loop between Adelson donations and favorable government access, a textbook example of wealth purchasing policy impunity.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "wynn_las_vegas",
+      "avoid": "Wynn / Encore",
+      "ownership": [
+        {
+          "firmId": "wynn_resorts",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "The Wynn and Encore resorts in Las Vegas are operated by Wynn Resorts, whose founder Steve Wynn resigned in 2018 amid 200+ sexual misconduct allegations and later was indicted in 2023 for acting as an unregistered foreign agent for the Chinese government. Wynn's elite connections \u2014 as RNC Finance Chair and a prominent Republican donor \u2014 gave him access to White House officials he exploited to lobby for immigration policy changes favoring Chinese nationals. The company paid $26.7 million in settlements but continues to operate under his name, profiting from the brand identity he built.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "new_york_post",
+      "avoid": "New York Post",
+      "ownership": [
+        {
+          "firmId": "news_corp",
+          "stake": "majority",
+          "since": "1976"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "The New York Post is owned by News Corp, Rupert Murdoch's publishing conglomerate. The Post has operated as a vehicle for political influence and tabloid misinformation for decades, with Murdoch using it to reward allies and punish opponents. News Corp's UK outlets were convicted in the phone hacking scandal that led to criminal convictions, shuttering of News of the World, and over $1.6 billion in civil settlements. LittleSis documents how Murdoch's editorial control across his outlets has historically translated into direct policy access \u2014 UK prime ministers have sought his blessing before elections, and US officials have been documented responding to Murdoch's coverage preferences.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "oracle",
+      "avoid": "Oracle",
+      "ownership": [
+        {
+          "firmId": "oracle_corporation",
+          "stake": "majority",
+          "since": "1977"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Oracle is an enterprise software company where founder Larry Ellison holds ~40% of shares and exercises dominant control. LittleSis documents how Ellison's political fundraising \u2014 including a 2019 event for President Trump \u2014 correlated with favorable government treatment: the White House intervened in 2020 to steer the TikTok US deal to Oracle over a stronger competing bid from Microsoft. Oracle has also received hundreds of millions in federal contracts while Ellison maintained direct access to officials. Ellison's purchase of the Hawaiian island of Lanai has drawn scrutiny for water rights practices that have harmed local communities with minimal state accountability.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "anduril",
+      "avoid": "Anduril Industries",
+      "ownership": [
+        {
+          "firmId": "anduril_industries",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Anduril Industries, backed by Peter Thiel's Founders Fund, has secured over $1.5 billion in Pentagon contracts for autonomous weapons and surveillance systems with limited public oversight of its AI-driven lethality decisions. Its Lattice border surveillance platform is deployed at the US-Mexico border for immigration enforcement. LittleSis documents Anduril's position within the Thiel political network, whose members have funded efforts to weaken democratic oversight of AI weapons, funded election denialism, and secured government contracts through political access rather than competitive merit \u2014 part of a broader pattern of private defense tech firms concentrating power outside normal accountability structures.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "angi",
+      "avoid": "Angi (HomeAdvisor)",
+      "ownership": [
+        {
+          "firmId": "iac_interactivecorp",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Angi (formerly Angie's List / HomeAdvisor) is controlled by IAC/InterActiveCorp, the media empire of Barry Diller. Angi faced class action litigation for billing contractors for fraudulent leads generated by fake accounts, a practice the FTC later investigated. IAC's broader pattern of acquiring platforms and extracting value through dark patterns and deceptive billing reflects the elite access Diller's network provides: decades of regulatory deference enabled IAC to build a dominant home-services marketplace while sidelining accountability. LittleSis documents Diller's bipartisan donor relationships that have created a protective buffer around his business operations.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "warner_music_group",
+      "avoid": "Warner Music Group",
+      "ownership": [
+        {
+          "firmId": "access_industries",
+          "stake": "majority",
+          "since": "2004"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Warner Music Group \u2014 home to Atlantic Records, Warner Records, and Elektra \u2014 is majority controlled by Access Industries, the holding company of Len Blavatnik. LittleSis documents Blavatnik's documented business history with Viktor Vekselberg, a sanctioned Russian oligarch, through their joint venture TNK-BP. While Vekselberg faced US sanctions, Blavatnik \u2014 who became a US citizen and major political donor \u2014 avoided similar scrutiny. His $1 million donation to Trump's inaugural committee and substantial contributions to bipartisan politicians have provided a layer of political protection that his oligarch-era associates did not enjoy.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "ticketmaster",
+      "avoid": "Ticketmaster",
+      "ownership": [
+        {
+          "firmId": "live_nation_entertainment",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Ticketmaster, merged with Live Nation in 2010, operates a documented monopoly over primary and secondary concert ticketing. The DOJ's 2024 antitrust lawsuit filed alongside 30 state AGs found Live Nation/Ticketmaster used exclusionary contracts, retaliation against venues, and market power to suppress competition for over a decade. LittleSis documents how Live Nation's lobbying network delayed DOJ action for years after regulators first identified concerns at the 2010 merger. The result: consumers faced billions in junk fees, artists lost negotiating leverage, and the company used political access to avoid the antitrust enforcement that market behavior clearly warranted.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "dixie",
+      "avoid": "Dixie (cups & plates)",
+      "ownership": [
+        {
+          "firmId": "koch_industries",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Dixie disposable cups, plates, and cutlery are manufactured by Georgia-Pacific, a subsidiary of Koch Industries. The Koch brothers have used their industrial fortune to build one of the most powerful dark money networks in American history \u2014 funding ALEC (American Legislative Exchange Council), Americans for Prosperity, and dozens of astroturf organizations that write and lobby for legislation immunizing polluters, weakening labor protections, and blocking climate regulation. LittleSis documents how this network has provided Koch Industries itself with regulatory protection, including decades of documented environmental violations at Koch-owned facilities that resulted in far lighter penalties than comparable violations by companies without such political infrastructure.",
+      "harms": [
+        "elite_impunity_general"
       ],
       "aligns": []
     }
