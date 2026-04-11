@@ -508,6 +508,214 @@
         "extraction_sale_leaseback"
       ],
       "aligns": []
+    },
+    {
+      "id": "palantir_technologies",
+      "name": "Palantir Technologies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 92,
+      "source": "https://www.usaspending.gov/award/CONT_AWD_70CTD022FR0000170_7012_GS35F0086U_4730",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "clearview_ai",
+      "name": "Clearview AI",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Facial recognition company that scraped billions of images from public websites and social media without consent to build a mass surveillance database. ICE awarded Clearview AI a $9.2M contract in 2025 for facial recognition investigations. ICE began using Clearview in 2019, before completing the legally required Privacy Impact Assessment in May 2020.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 88,
+      "source": "https://idtechwire.com/ice-awards-9-2-million-clearview-ai-contract-for-facial-recognition-investigations/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "geo_group",
+      "name": "GEO Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "World's largest private prison operator and dominant ICE detention contractor. Operates 19+ ICE detention facilities with 26,000 beds as of 2025. Subsidiary BI Incorporated holds ICE's sole electronic monitoring contract worth $2.2B. GEO posted record $254M profit in 2025 driven by ICE detention expansion under the Trump administration. Revenue rose to $2.63B in 2025 with projections of $3B in 2026.",
+      "brands": [
+        "GEO Secure Services",
+        "BI Incorporated"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 95,
+      "source": "https://time.com/7378284/ice-immigration-detention-contractors-record-revenue/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "corecivic",
+      "name": "CoreCivic",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Second-largest private prison company in the U.S. and major ICE detention contractor operating at least 10 ICE facilities. Under the 2025 immigration crackdown, CoreCivic saw a 55% increase in immigration detainee contracts and signed agreements for facilities in California, Kansas, Texas, and Oklahoma totaling roughly $300M in new ICE revenue. Total 2025 revenue: $2.2B. Detainees at the California City facility reported inhumane conditions.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 93,
+      "source": "https://www.axios.com/2025/02/27/private-prison-corecivic-ice-detention-immigrants",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "cellebrite",
+      "name": "Cellebrite",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Israeli-founded digital forensics company whose Universal Forensic Extraction Devices (UFEDs) unlock phones and extract complete data images including messages, location history, encrypted app content, and photos. ICE renewed an $11M contract with Cellebrite and filed a notice of intent for a new contract worth up to $35M. DHS has contracted Cellebrite since 2008. CBP searched 47,000 devices in 2024 using similar tools.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 82,
+      "source": "https://immpolicytracking.org/policies/ice-notice-of-intent-to-award-contract-to-cellebrite-for-smartphone-hacking-technology/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "thomson_reuters",
+      "name": "Thomson Reuters",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Global media and information company whose CLEAR platform provides ICE access to license plate data, real-time incarceration data, cell phone and address records, real estate ownership, credit data, and social media information. Thomson Reuters holds six distinct contracts with ICE totaling $54.4M, including a $22.8M contract expiring 2026. Employee unions and 70% of independent shareholders have raised concerns about CLEAR's role in immigration enforcement.",
+      "brands": [
+        "Reuters",
+        "Westlaw",
+        "CLEAR"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.404media.co/how-thomson-reuters-powers-ice-and-palantir/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "relx_group",
+      "name": "RELX Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "UK-headquartered information analytics company and parent of LexisNexis Risk Solutions. Its Accurint platform holds dossiers on 282 million unique U.S. identities and was awarded a $22.1M ICE contract in 2021 running through 2028. The contract gives 11,000+ ICE agents automation tools for vetting, screening, and targeting people for deportation. A 2023 lawsuit alleged Accurint enables warrantless surveillance of immigrants.",
+      "brands": [
+        "LexisNexis",
+        "Accurint",
+        "Reed Elsevier"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://theintercept.com/2021/04/02/ice-database-surveillance-lexisnexis/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "motorola_solutions",
+      "name": "Motorola Solutions",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Communications technology company providing mission-critical radio, communications, and surveillance infrastructure to law enforcement. Holds a $15.6M contract with ICE to implement and maintain tactical communication infrastructure delivering secure voice and data to ICE agents, with potential extension to $28M through 2028. Also holds $391M+ in CBP contracts since 2008 for Border Patrol radio communications.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.usaspending.gov/award/CONT_AWD_70CTD023FR0000148_7012_70B04C19D00000035_7014",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025—more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale.",
+      "brands": [
+        "Amazon Web Services",
+        "Amazon.com",
+        "Whole Foods",
+        "Ring",
+        "Twitch",
+        "Alexa"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "accenture",
+      "name": "Accenture",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Global consulting and professional services firm whose federal arm, Accenture Federal Services, is the incumbent contractor on ICE's $100M+ cyber defense and intelligence support services contract. Accenture also won a $71M DHS contract to support an immigration-focused biometric and biographic identity management system. Accenture Federal Services is one of the largest IT and government services contractors enabling ICE enforcement infrastructure.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.govconwire.com/articles/ice-cyber-defense-intel-contract-recompete",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
     }
   ],
   "brands": [
@@ -1283,6 +1491,198 @@
         "extraction_general",
         "health_general",
         "elite_impunity_general"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "palantir",
+      "avoid": "Palantir Technologies",
+      "ownership": [
+        {
+          "firmId": "palantir_technologies",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Palantir built ICE's case management backbone (FALCON, ICM) beginning in 2013 and in 2025 won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants. Its software gives thousands of ICE agents access to private and federal databases containing addresses, vehicle records, and biometric data on millions of people.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "clearview_ai",
+      "avoid": "Clearview AI",
+      "ownership": [
+        {
+          "firmId": "clearview_ai",
+          "stake": "majority",
+          "since": "2019"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Clearview AI scraped billions of photos from the internet without consent to build a mass facial recognition database. ICE awarded a $9.2M contract in 2025 to identify and target people in public. ICE began using Clearview in June 2019 before completing the legally required Privacy Impact Assessment—surveillance deployed ahead of any oversight.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "geo_group",
+      "avoid": "GEO Group",
+      "ownership": [
+        {
+          "firmId": "geo_group",
+          "stake": "majority"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "GEO Group is ICE's largest private detention contractor with 26,000 beds at 19+ facilities. Its subsidiary BI Incorporated runs ICE's entire electronic monitoring program under a $2.2B sole-source contract. GEO posted record $254M profit in 2025 driven by ICE expansion. Facilities have documented violations including inhumane conditions reported by detainees.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "bi_incorporated",
+      "avoid": "BI Incorporated",
+      "ownership": [
+        {
+          "firmId": "geo_group",
+          "stake": "majority"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "BI Inc., a wholly owned subsidiary of GEO Group, is ICE's sole provider of electronic monitoring under a $2.2B contract. It operates ankle monitors and the SmartLINK smartphone app that surveils 187,000+ immigrants. In December 2025, ICE awarded BI Inc. a $121M skip-tracing contract to locate immigrants who miss check-ins.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "corecivic",
+      "avoid": "CoreCivic",
+      "ownership": [
+        {
+          "firmId": "corecivic",
+          "stake": "majority"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "CoreCivic operates ICE detention facilities including the 2,400-bed family detention center in Dilley, Texas and new facilities in California, Kansas, and Oklahoma. A 55% increase in immigration contracts in 2025 generated roughly $300M in new ICE revenue. Detainees at the California City facility reported freezing cells, sewage-filled showers, insect infestations, and denied medical care.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "cellebrite",
+      "avoid": "Cellebrite",
+      "ownership": [
+        {
+          "firmId": "cellebrite",
+          "stake": "majority",
+          "since": "2008"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Cellebrite's phone-cracking devices are used by ICE to unlock seized phones and extract a complete image of all data including messages, photos, location history, and encrypted app content. ICE renewed an $11M contract and filed notice of intent for a new $35M deal. CBP searched 47,000 devices in 2024, a massive escalation from 8,500 in 2015.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "thomson_reuters_clear",
+      "avoid": "Thomson Reuters / CLEAR",
+      "ownership": [
+        {
+          "firmId": "thomson_reuters",
+          "stake": "majority"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Thomson Reuters' CLEAR platform gives ICE access to license plate records, incarceration data, phone and address records, real estate, credit data, and social media across six contracts totaling $54.4M. Employee unions have protested CLEAR's use for tracking and deporting immigrants with no criminal background. CLEAR data feeds directly into Palantir's ICM system used by ICE agents.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "lexisnexis",
+      "avoid": "LexisNexis Risk Solutions",
+      "ownership": [
+        {
+          "firmId": "relx_group",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "LexisNexis Risk Solutions' Accurint platform holds dossiers on 282 million U.S. residents and gives 11,000+ ICE agents automation tools for vetting, screening, and targeting people for deportation under a $22.1M contract through 2028. A 2023 lawsuit alleged Accurint enables warrantless surveillance. Advocates say ICE uses it as a backdoor around state sanctuary laws.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "motorola_solutions",
+      "avoid": "Motorola Solutions",
+      "ownership": [
+        {
+          "firmId": "motorola_solutions",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Motorola Solutions provides ICE with mission-critical tactical communications infrastructure under a $15.6M contract extendable to $28M through 2028. Secure radio and data networks enable ICE enforcement operations in the field. The company also holds $391M+ in Border Patrol radio contracts since 2008.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "amazon_web_services",
+      "avoid": "Amazon Web Services",
+      "ownership": [
+        {
+          "firmId": "amazon",
+          "stake": "majority"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Amazon Web Services holds 114 federal authorizations to manage DHS data in FY2025—more than any other cloud provider—including ICE case management and biometric databases. AWS Government Cloud hosts the data backbone enabling ICE enforcement operations at scale. Amazon has maintained and expanded these contracts despite internal employee protests.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": []
+    },
+    {
+      "id": "accenture_federal",
+      "avoid": "Accenture Federal Services",
+      "ownership": [
+        {
+          "firmId": "accenture",
+          "stake": "majority"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Accenture Federal Services is the incumbent on ICE's $100M+ cyber defense and intelligence support services contract. It also won a $71M DHS contract to manage an immigration-focused biometric and biographic identity management system. Accenture Federal is one of the largest IT contractors enabling ICE's enforcement and surveillance infrastructure.",
+      "harms": [
+        "workers_ice_cooperation"
       ],
       "aligns": []
     }
