@@ -163,7 +163,7 @@
 				{/each}
 			{/if}
 		{:else if panel === 'charts'}
-			<ChartsPanel {firms} />
+			<ChartsPanel {firms} {brands} />
 		{:else if panel === 'about'}
 			<AboutPanel oneditValues={() => (showEditValues = true)} />
 		{/if}
