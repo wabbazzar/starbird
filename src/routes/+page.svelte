@@ -32,12 +32,15 @@
 	// firmId → Firm index for O(1) ownership lookup from BrandCard
 	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
 
-	// Bound to the scroll container so the top-bar tap-to-scroll gesture
-	// can reset it to the top. Each panel (brands/firms/charts/about) shares
-	// this single scroll container, so one handler serves all of them.
+	// Bound to the scroll container for scroll-to-top gestures.
 	let scrollEl: HTMLDivElement | null = $state(null);
+	let showScrollBtn = $state(false);
+
 	function scrollToTop() {
 		scrollEl?.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+	function onScroll() {
+		showScrollBtn = (scrollEl?.scrollTop ?? 0) > 300;
 	}
 
 	onMount(async () => {
@@ -142,7 +145,7 @@
 		/>
 	{/if}
 
-	<div class="scroll" bind:this={scrollEl}>
+	<div class="scroll" bind:this={scrollEl} onscroll={onScroll}>
 		{#if loading}
 			<p class="empty">Loading…</p>
 		{:else if loadError}
@@ -181,6 +184,17 @@
 	</div>
 
 	<BottomNav active={panel} onchange={(p) => (panel = p)} />
+
+	{#if showScrollBtn}
+		<button
+			type="button"
+			class="scroll-top-btn"
+			aria-label="Scroll to top"
+			onclick={scrollToTop}
+		>
+			<span aria-hidden="true">↑</span>
+		</button>
+	{/if}
 </div>
 
 {#if showOnboarding}
@@ -227,5 +241,28 @@
 	}
 	.error {
 		color: var(--avoid);
+	}
+	.scroll-top-btn {
+		position: fixed;
+		bottom: calc(env(safe-area-inset-bottom, 0px) + 62px);
+		right: 14px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: var(--primary);
+		color: var(--bg);
+		border: none;
+		font-size: 1.1rem;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+		z-index: 20;
+		transition: opacity 150ms ease, transform 150ms ease;
+	}
+	.scroll-top-btn:active {
+		transform: scale(0.9);
 	}
 </style>
