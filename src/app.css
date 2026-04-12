@@ -73,15 +73,17 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
-	html {
+	html, body {
 		height: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
 	}
 
 	body {
 		background: var(--bg);
 		color: var(--ink);
 		font-family: 'DM Sans', sans-serif;
-		min-height: 100%;
 		-webkit-font-smoothing: antialiased;
 	}
 

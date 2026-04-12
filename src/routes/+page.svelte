@@ -225,12 +225,9 @@
 
 <style>
 	.app {
-		/* position: fixed + inset: 0 locks to the actual viewport on iOS,
-		   avoiding the timing issue where 100dvh is miscalculated on first
-		   paint in PWA standalone mode (nav sits too high until first scroll).
-		   This is the standard full-screen mobile-app pattern. */
-		position: fixed;
-		inset: 0;
+		height: 100vh;
+		height: 100dvh;
+		height: -webkit-fill-available; /* iOS PWA: fills the actual screen */
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;

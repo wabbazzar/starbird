@@ -42,7 +42,6 @@
 		grid-template-columns: repeat(4, 1fr);
 		background: var(--bg);
 		border-top: 1px solid var(--border);
-		padding-bottom: env(safe-area-inset-bottom, 0px);
 		/* Prevent iOS from interpreting nav touches as scroll gestures */
 		touch-action: none;
 		-webkit-touch-callout: none;
