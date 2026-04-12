@@ -33,7 +33,7 @@
       "name": "Apollo Global",
       "aum": "$650B",
       "aumVal": 650,
-      "summary": "Owns Albertsons, Michaels ($5B LBO 2021), PetSmart (minority), and drove Claire's to bankruptcy in 2018. Also entangled in 99 Cents Only and Serta Simmons debt schemes.",
+      "summary": "Owns Albertsons, Michaels ($5B LBO 2021), PetSmart (minority), and drove Claire's to bankruptcy in 2018. Also entangled in 99 Cents Only and Serta Simmons debt schemes. Co-founder Leon Black paid $158 million to Jeffrey Epstein in advisory fees over five years, as documented in a 2021 independent review by Dechert LLP. Black stepped down as CEO in 2021 under pressure.",
       "brands": [
         "Albertsons / Safeway",
         "Michaels",
@@ -55,7 +55,9 @@
       ],
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "elite_impunity_general",
+        "elite_impunity_epstein_network"
       ],
       "aligns": []
     },
@@ -64,7 +66,7 @@
       "name": "KKR",
       "aum": "$600B",
       "aumVal": 600,
-      "summary": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after bankruptcy in 2017. Currently loading Varsity Brands with $2.4B in junk-rated debt.",
+      "summary": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after bankruptcy in 2017. Currently loading Varsity Brands with $2.4B in junk-rated debt. Owns Heartland Dental and 1-800 Contacts, where PE cost-cutting affects quality of care and product pricing.",
       "brands": [
         "Toys 'R' Us (bankrupt)",
         "Varsity Brands ($2.4B debt)",
@@ -83,7 +85,8 @@
       ],
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -255,7 +258,7 @@
       "name": "BC Partners",
       "aum": "$40B+",
       "aumVal": 40,
-      "summary": "Owns PetSmart via the largest LBO of 2014 ($8.7B). Controversially transferred Chewy equity outside reach of PetSmart creditors. Also co-owns Guitar Center with Ares.",
+      "summary": "Owns PetSmart via the largest LBO of 2014 ($8.7B). Controversially transferred Chewy equity outside reach of PetSmart creditors. Also co-owns Guitar Center with Ares. Owns PetSmart, which has documented animal welfare violations in grooming salons (47 dog deaths 2008-2018, NJ Advance Media investigation).",
       "brands": [
         "PetSmart",
         "Guitar Center (co-owner)",
@@ -271,7 +274,8 @@
       ],
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -280,7 +284,7 @@
       "name": "CVC Capital Partners",
       "aum": "$190B",
       "aumVal": 190,
-      "summary": "Majority owner of Petco post-IPO (still controls 60%+). Loaded Petco with $3.3B in debt. Near-bankruptcy warnings in 2023; CEO stepped down March 2024.",
+      "summary": "Majority owner of Petco post-IPO (still controls 60%+). Loaded Petco with $3.3B in debt. Near-bankruptcy warnings in 2023; CEO stepped down March 2024. Majority owner of Petco, which has documented USDA animal welfare violations in stores.",
       "brands": [
         "Petco (majority 60%+)"
       ],
@@ -293,7 +297,8 @@
       ],
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1161,7 +1166,7 @@
       "name": "Procter & Gamble",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products \u2014 including Tide laundry detergents and Febreze air fresheners \u2014 as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general.",
+      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products \u2014 including Tide laundry detergents and Febreze air fresheners \u2014 as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general. P&G is one of the world's largest companies still conducting animal testing for consumer product safety. Hundreds of thousands of animals are used annually, documented by Cruelty Free International and Humane Society International.",
       "brands": [
         "Tide",
         "Febreze",
@@ -1182,7 +1187,8 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -1191,7 +1197,7 @@
       "name": "Unilever",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemm\u00e9, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products \u2014 particularly TRESemm\u00e9 \u2014 as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemm\u00e9 faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemm\u00e9 products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general.",
+      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemm\u00e9, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products \u2014 particularly TRESemm\u00e9 \u2014 as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemm\u00e9 faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemm\u00e9 products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general. Unilever continues animal testing where 'required by law,' but Cruelty Free International and PETA note this is often voluntary and that validated non-animal alternatives exist for most test categories. Unilever is NOT Leaping Bunny certified.",
       "brands": [
         "TRESemm\u00e9",
         "Dove",
@@ -1207,7 +1213,8 @@
         "health"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -2945,10 +2952,11 @@
         "Local deli/sandwich shops",
         "Jimmy John's (independent units)"
       ],
-      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years.",
+      "why": "Blackstone closed Jan 2025. Social media already documents portion reductions. Classic early-stage PE quality extraction \u2014 typically manifests in 2\u20133 years. Fast-food franchise menu is high in sodium and processed meats; a regular sub can contain over 1,500 mg sodium (65%+ of daily recommended intake).",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -2968,10 +2976,11 @@
         "Five Guys (family-owned)",
         "Shake Shack (public, founder-led)"
       ],
-      "why": "Sold by Dobson family after 69 years. Texas Monthly 2025 documented quality concerns. PE expands rapidly on debt then cuts quality to service it.",
+      "why": "Sold by Dobson family after 69 years. Texas Monthly 2025 documented quality concerns. PE expands rapidly on debt then cuts quality to service it. Menu is high in sodium, saturated fat, and processed ingredients; a Whataburger meal can exceed 1,200 calories and 2,000 mg sodium.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -3013,11 +3022,13 @@
         "Local taquerias",
         "Moe's Southwest (independent units)"
       ],
-      "why": "Apollo portfolio company. PE-owned chains typically cut ingredient quality to improve EBITDA for exit. Chipotle remains founder-culture focused.",
+      "why": "Apollo portfolio company. PE-owned chains typically cut ingredient quality to improve EBITDA for exit. Chipotle remains founder-culture focused. High-calorie, high-sodium menu; a standard burrito can exceed 1,000 calories and 2,000 mg sodium before additions. Owned by Apollo Global, co-founded by Leon Black, who paid $158 million to Jeffrey Epstein in advisory fees over five years (documented in a 2021 independent review by Dechert LLP).",
       "harms": [
         "workers_general",
         "extraction_general",
-        "health_general"
+        "health_general",
+        "elite_impunity_general",
+        "elite_impunity_epstein_network"
       ],
       "aligns": []
     },
@@ -3037,10 +3048,11 @@
         "Bonefish Grill (public)",
         "Local seafood restaurants"
       ],
-      "why": "PE-engineered sale-leaseback stripped real estate and raised rents above market. 100 locations closed, 36,000 jobs affected in 2024.",
+      "why": "PE-engineered sale-leaseback stripped real estate and raised rents above market. 100 locations closed, 36,000 jobs affected in 2024. Chain restaurant preparations are typically high in sodium, butter, and deep-fried items; Cheddar Bay Biscuits alone contain 150 mg sodium each.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -3060,10 +3072,11 @@
         "Chili's (Brinker, public)",
         "Local casual dining"
       ],
-      "why": "One of 10 PE-backed restaurant chains that went bankrupt in 2024. PE debt made adapting to post-COVID dining shifts impossible.",
+      "why": "One of 10 PE-backed restaurant chains that went bankrupt in 2024. PE debt made adapting to post-COVID dining shifts impossible. Menu items routinely exceed 1,500 calories and 3,000 mg sodium per entr\u00e9e; CSPI has repeatedly flagged TGI Fridays as one of the worst chain-restaurant offenders for portion size and sodium.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -3107,10 +3120,11 @@
         "Duck Donuts (franchisee-owned)",
         "Shipley Do-Nuts (independent)"
       ],
-      "why": "JAB acquired 2016, re-IPO'd 2021 but retains majority control. Rapid expansion to 14,100+ locations diluted the quality that built the brand.",
+      "why": "JAB acquired 2016, re-IPO'd 2021 but retains majority control. Rapid expansion to 14,100+ locations diluted the quality that built the brand. Ultra-processed, high-sugar product; a single Original Glazed doughnut contains 10g of sugar and 190 calories, and the brand actively markets dozen-box purchases as routine consumption.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -3222,10 +3236,12 @@
         "Local craft/art stores",
         "Dick Blick Art Materials"
       ],
-      "why": "Apollo's $5B buyout loaded Michaels with debt. Preparing for PE exit via re-IPO or sale, prioritizing exit returns over investment.",
+      "why": "Apollo's $5B buyout loaded Michaels with debt. Preparing for PE exit via re-IPO or sale, prioritizing exit returns over investment. Apollo's $5B LBO of Michaels links it to Leon Black, who paid $158M to Epstein (Dechert LLP, 2021).",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "elite_impunity_general",
+        "elite_impunity_epstein_network"
       ],
       "aligns": []
     },
@@ -3385,10 +3401,11 @@
         "Walmart Pharmacy",
         "Independent pharmacies"
       ],
-      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities.",
+      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities. Pharmacy closures in rural and underserved communities create pharmacy deserts \u2014 residents lose their closest source of medications, vaccinations, and clinical services, disproportionately affecting elderly and low-income populations.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -3407,10 +3424,12 @@
         "Abode (independent)",
         "Ring (Amazon)"
       ],
-      "why": "Apollo took ADT private for $6.9B in 2016, restructured, re-IPO'd 2018. Workers and customers bore debt costs. Apollo retains partial stake.",
+      "why": "Apollo took ADT private for $6.9B in 2016, restructured, re-IPO'd 2018. Workers and customers bore debt costs. Apollo retains partial stake. Apollo took ADT private for $6.9B in 2016. Apollo co-founded by Leon Black, who paid $158M to Epstein (Dechert LLP, 2021).",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "elite_impunity_general",
+        "elite_impunity_epstein_network"
       ],
       "aligns": []
     },
@@ -3453,10 +3472,11 @@
         "Pet Supplies Plus (franchisee)",
         "Tractor Supply (public)"
       ],
-      "why": "BC Partners' $8.7B LBO was largest of 2014. Controversially transferred Chewy equity outside reach of PetSmart creditors. Apollo added minority stake 2023.",
+      "why": "BC Partners' $8.7B LBO was largest of 2014. Controversially transferred Chewy equity outside reach of PetSmart creditors. Apollo added minority stake 2023. Multiple documented incidents of animal deaths and unsanitary conditions in store grooming salons. A 2018 NJ Advance Media investigation found 47 dogs died in PetSmart grooming salons between 2008 and 2018.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -3475,10 +3495,11 @@
         "Pet Supplies Plus (franchisee)",
         "Tractor Supply (public)"
       ],
-      "why": "CVC loaded Petco with $3.3B in debt. Near-bankruptcy warnings 2023. CEO resigned March 2024. Still majority PE-controlled despite IPO.",
+      "why": "CVC loaded Petco with $3.3B in debt. Near-bankruptcy warnings 2023. CEO resigned March 2024. Still majority PE-controlled despite IPO. USDA inspection reports have documented animal welfare violations in Petco stores, including inadequate veterinary care and improper housing conditions for small animals.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "animals_general"
       ],
       "aligns": []
     },
@@ -3566,10 +3587,11 @@
         "Dave & Buster's (public)",
         "Main Event (public)"
       ],
-      "why": "Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock. Classic: load debt, company can't absorb a crisis, workers pay.",
+      "why": "Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock. Classic: load debt, company can't absorb a crisis, workers pay. Children's menu is highly processed with low nutritional value, served in a context that encourages overconsumption through play-and-eat incentives.",
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "health_general"
       ],
       "aligns": []
     },
@@ -4156,9 +4178,10 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Febreze air freshener products as D or F, citing undisclosed 'fragrance' formulations that EWG testing and analysis indicates contain volatile organic compounds (VOCs), potential hormone disruptors, and respiratory sensitizers. Febreze products disclose only the generic term 'fragrance' on labels rather than individual chemical ingredients, obscuring potentially hundreds of synthetic chemicals from consumers. EWG analysis of air freshener products found chemicals including acetaldehyde (classified as a possible human carcinogen), limonene (a common sensitizer), and other compounds not disclosed on product labels.",
+      "why": "EWG's Healthy Cleaning Guide rates Febreze air freshener products as D or F, citing undisclosed 'fragrance' formulations that EWG testing and analysis indicates contain volatile organic compounds (VOCs), potential hormone disruptors, and respiratory sensitizers. Febreze products disclose only the generic term 'fragrance' on labels rather than individual chemical ingredients, obscuring potentially hundreds of synthetic chemicals from consumers. EWG analysis of air freshener products found chemicals including acetaldehyde (classified as a possible human carcinogen), limonene (a common sensitizer), and other compounds not disclosed on product labels. EWG rates Febreze poorly for VOC emissions that contribute to indoor air pollution and are released into the atmosphere during use.",
       "harms": [
-        "animals_general"
+        "animals_general",
+        "environment_general"
       ],
       "aligns": []
     },
@@ -4231,9 +4254,10 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Scrubbing Bubbles Disinfectant Bathroom Cleaner as F \u2014 its worst grade \u2014 primarily for quaternary ammonium compounds ('quats') including alkyl dimethyl benzyl ammonium chloride. The EPA has registered quats as pesticides, and peer-reviewed studies have linked occupational quat exposure to asthma in healthcare workers and cleaning professionals. Animal studies show quats impair fertility and fetal development. EWG also flags the products for synthetic fragrance and chronic toxicity concerns. Despite these issues, Scrubbing Bubbles is marketed aggressively to household consumers cleaning bathrooms and kitchens.",
+      "why": "EWG's Healthy Cleaning Guide rates Scrubbing Bubbles Disinfectant Bathroom Cleaner as F \u2014 its worst grade \u2014 primarily for quaternary ammonium compounds ('quats') including alkyl dimethyl benzyl ammonium chloride. The EPA has registered quats as pesticides, and peer-reviewed studies have linked occupational quat exposure to asthma in healthcare workers and cleaning professionals. Animal studies show quats impair fertility and fetal development. EWG also flags the products for synthetic fragrance and chronic toxicity concerns. Despite these issues, Scrubbing Bubbles is marketed aggressively to household consumers cleaning bathrooms and kitchens. Contains quats and chlorinated solvents that persist in wastewater and harm aquatic organisms after household use.",
       "harms": [
-        "animals_general"
+        "animals_general",
+        "environment_general"
       ],
       "aligns": []
     },
@@ -4268,9 +4292,10 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Lysol Disinfectant Spray and multiple Lysol products as D or F for containing quaternary ammonium compounds ('quats') \u2014 EPA-registered pesticides that peer-reviewed research links to occupational asthma, reproductive harm in animal studies, and potential antibiotic resistance. EWG also flags Lysol for undisclosed fragrance formulations and other high-concern ingredients. During the COVID-19 pandemic, Lysol was ubiquitously promoted as a household disinfectant, dramatically increasing consumer and indoor air exposure to quat-containing aerosol sprays \u2014 amplifying EWG's public health concerns about chronic low-level exposure.",
+      "why": "EWG's Healthy Cleaning Guide rates Lysol Disinfectant Spray and multiple Lysol products as D or F for containing quaternary ammonium compounds ('quats') \u2014 EPA-registered pesticides that peer-reviewed research links to occupational asthma, reproductive harm in animal studies, and potential antibiotic resistance. EWG also flags Lysol for undisclosed fragrance formulations and other high-concern ingredients. During the COVID-19 pandemic, Lysol was ubiquitously promoted as a household disinfectant, dramatically increasing consumer and indoor air exposure to quat-containing aerosol sprays \u2014 amplifying EWG's public health concerns about chronic low-level exposure. Contains quaternary ammonium compounds that are EPA-registered pesticides; wastewater runoff introduces these biocides into aquatic ecosystems.",
       "harms": [
-        "animals_general"
+        "animals_general",
+        "environment_general"
       ],
       "aligns": []
     },

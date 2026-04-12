@@ -213,16 +213,26 @@
 
 <style>
 	.app {
+		/* position: fixed + inset: 0 locks to the actual viewport on iOS,
+		   avoiding the timing issue where 100dvh is miscalculated on first
+		   paint in PWA standalone mode (nav sits too high until first scroll).
+		   This is the standard full-screen mobile-app pattern. */
+		position: fixed;
+		inset: 0;
 		display: flex;
 		flex-direction: column;
-		height: 100vh;
-		height: 100dvh;
 		overflow: hidden;
 	}
 	.scroll {
 		flex: 1;
+		/* min-height: 0 is critical for flex items with overflow scroll.
+		   Without it, the default min-height: auto prevents the item from
+		   shrinking below its content height on some browsers, which pushes
+		   the BottomNav off-screen when content is tall. */
+		min-height: 0;
 		overflow-y: auto;
 		padding: 12px;
+		-webkit-overflow-scrolling: touch;
 	}
 	.count {
 		font-family: 'DM Mono', monospace;
