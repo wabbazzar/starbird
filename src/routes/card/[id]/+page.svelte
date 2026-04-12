@@ -4,7 +4,7 @@
 
 	let { data } = $props();
 
-	const ogImage = `https://wabbazzar.github.io/starbird/logo-light.png`;
+	const ogImage = `https://wabbazzar.github.io/starbird/cards/${data.id}.png`;
 	const cardUrl = `https://wabbazzar.github.io/starbird/card/${data.id}/`;
 	const appUrl = `${base}/`;
 
@@ -23,7 +23,7 @@
 	<meta property="og:image" content={ogImage} />
 	<meta property="og:url" content={cardUrl} />
 	<meta property="og:site_name" content="Starbird" />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={data.title} />
 	<meta name="twitter:description" content={data.description} />
 	<meta name="twitter:image" content={ogImage} />

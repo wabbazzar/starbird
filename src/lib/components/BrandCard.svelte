@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { Brand, Firm, Classification, OwnershipStake, ValueTag } from '$lib/types';
 	import { VALUE_BY_ID } from '$lib/values';
-	import { renderShareCard } from '$lib/shareCard';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
@@ -53,38 +52,10 @@
 	async function share(e: MouseEvent) {
 		e.stopPropagation();
 		const cardUrl = `https://wabbazzar.github.io/starbird/card/${brand.id}/`;
-		const ownerNames = brand.ownership
-			.map((o) => firmById.get(o.firmId)?.name ?? o.firmId)
-			.join(', ');
 
 		try {
-			// Render the card-specific PNG
-			const blob = await renderShareCard({
-				type: 'brand',
-				name: brand.avoid,
-				category: brand.cat,
-				ownership: `Owned by ${ownerNames}`,
-				verdict,
-				verdictKind: classification,
-				tags,
-				why: brand.why
-			});
-			const file = new File([blob], `starbird-${brand.id}.png`, { type: 'image/png' });
-
-			if (navigator.share && navigator.canShare?.({ files: [file] })) {
-				// Send BOTH the rendered PNG and the card URL.
-				// Recipient sees the custom card image + a tappable link to Starbird.
-				await navigator.share({
-					title: `Starbird — ${brand.avoid}`,
-					files: [file],
-					url: cardUrl
-				});
-			} else if (navigator.share) {
-				await navigator.share({
-					title: `Starbird — ${brand.avoid}`,
-					text: `${brand.avoid} — ${verdict.toLowerCase()}`,
-					url: cardUrl
-				});
+			if (navigator.share) {
+				await navigator.share({ url: cardUrl });
 			} else {
 				await navigator.clipboard.writeText(cardUrl);
 			}
