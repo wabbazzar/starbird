@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Firm, Classification, ValueTag } from '$lib/types';
 	import { VALUE_BY_ID } from '$lib/values';
+	import { renderShareCard } from '$lib/shareCard';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
@@ -23,7 +24,24 @@
 		const cardUrl = `https://wabbazzar.github.io/starbird/card/${firm.id}/`;
 
 		try {
-			if (navigator.share) {
+			const blob = await renderShareCard({
+				type: 'firm',
+				name: firm.name,
+				harmScore: firm.harmScore,
+				verdict: classification === 'avoid' ? 'Conflicts with your values' : classification === 'align' ? 'Aligns with your values' : 'No direct conflict',
+				verdictKind: classification,
+				tags,
+				why: firm.summary
+			});
+			const file = new File([blob], `starbird-${firm.id}.png`, { type: 'image/png' });
+
+			if (navigator.share && navigator.canShare?.({ files: [file] })) {
+				await navigator.share({
+					title: `Starbird — ${firm.name}`,
+					files: [file],
+					url: cardUrl
+				});
+			} else if (navigator.share) {
 				await navigator.share({
 					title: `Starbird — ${firm.name}`,
 					text: `${firm.name} — harm score ${firm.harmScore}/100`,
