@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { Brand, Firm, Classification, OwnershipStake, ValueTag } from '$lib/types';
 	import { VALUE_BY_ID } from '$lib/values';
-	import { renderShareCard } from '$lib/shareCard';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
@@ -52,51 +51,24 @@
 
 	async function share(e: MouseEvent) {
 		e.stopPropagation();
-		const ownerNames = brand.ownership
-			.map((o) => firmById.get(o.firmId)?.name ?? o.firmId)
-			.join(', ');
+		const cardUrl = `https://wabbazzar.github.io/starbird/card/${brand.id}/`;
 
 		try {
-			const blob = await renderShareCard({
-				type: 'brand',
-				name: brand.avoid,
-				category: brand.cat,
-				ownership: `Owned by ${ownerNames}`,
-				verdict,
-				verdictKind: classification,
-				tags,
-				why: brand.why
-			});
-
-			const file = new File([blob], `starbird-${brand.id}.png`, { type: 'image/png' });
-
-			if (navigator.share && navigator.canShare?.({ files: [file] })) {
+			if (navigator.share) {
+				// Share the card URL. Slack/iMessage will fetch the OG meta tags
+				// from the prerendered card page and render a tappable preview
+				// with the card-specific title, description, and Starbird logo.
 				await navigator.share({
 					title: `Starbird — ${brand.avoid}`,
-					text: `${brand.avoid} on Starbird — ${verdict.toLowerCase()}`,
-					url: 'https://wabbazzar.github.io/starbird/',
-					files: [file]
-				});
-			} else if (navigator.share) {
-				// Fallback: text-only share if file sharing not supported
-				const tagLabels = tags
-					.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label)
-					.join(' · ');
-				await navigator.share({
-					title: `Starbird — ${brand.avoid}`,
-					text: `◈ Starbird — ${brand.avoid}\n${verdict}\n${tagLabels}\n\n${brand.why}\n\n→ https://wabbazzar.github.io/starbird/`
+					text: `${brand.avoid} — ${verdict.toLowerCase()}`,
+					url: cardUrl
 				});
 			} else {
-				// Desktop fallback: download the image
-				const url = URL.createObjectURL(blob);
-				const a = document.createElement('a');
-				a.href = url;
-				a.download = `starbird-${brand.id}.png`;
-				a.click();
-				URL.revokeObjectURL(url);
+				// Desktop: copy the card URL to clipboard
+				await navigator.clipboard.writeText(cardUrl);
 			}
 		} catch {
-			// User cancelled or error
+			// User cancelled
 		}
 	}
 </script>

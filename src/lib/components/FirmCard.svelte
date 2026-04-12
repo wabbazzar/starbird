@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { Firm, Classification, ValueTag } from '$lib/types';
 	import { VALUE_BY_ID } from '$lib/values';
-	import { renderShareCard } from '$lib/shareCard';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
@@ -21,44 +20,20 @@
 
 	async function share(e: MouseEvent) {
 		e.stopPropagation();
+		const cardUrl = `https://wabbazzar.github.io/starbird/card/${firm.id}/`;
+
 		try {
-			const blob = await renderShareCard({
-				type: 'firm',
-				name: firm.name,
-				harmScore: firm.harmScore,
-				verdict: classification === 'avoid' ? 'Conflicts with your values' : classification === 'align' ? 'Aligns with your values' : 'No direct conflict',
-				verdictKind: classification,
-				tags,
-				why: firm.summary
-			});
-
-			const file = new File([blob], `starbird-${firm.id}.png`, { type: 'image/png' });
-
-			if (navigator.share && navigator.canShare?.({ files: [file] })) {
+			if (navigator.share) {
 				await navigator.share({
 					title: `Starbird — ${firm.name}`,
-					text: `${firm.name} on Starbird — harm score ${firm.harmScore}/100`,
-					url: 'https://wabbazzar.github.io/starbird/',
-					files: [file]
-				});
-			} else if (navigator.share) {
-				const tagLabels = tags
-					.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label)
-					.join(' · ');
-				await navigator.share({
-					title: `Starbird — ${firm.name}`,
-					text: `◈ Starbird — ${firm.name}\nHarm score: ${firm.harmScore}/100\n${tagLabels}\n\n${firm.summary}\n\n→ https://wabbazzar.github.io/starbird/`
+					text: `${firm.name} — harm score ${firm.harmScore}/100`,
+					url: cardUrl
 				});
 			} else {
-				const url = URL.createObjectURL(blob);
-				const a = document.createElement('a');
-				a.href = url;
-				a.download = `starbird-${firm.id}.png`;
-				a.click();
-				URL.revokeObjectURL(url);
+				await navigator.clipboard.writeText(cardUrl);
 			}
 		} catch {
-			// User cancelled or error
+			// User cancelled
 		}
 	}
 </script>
