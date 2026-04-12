@@ -1,16 +1,15 @@
 <script lang="ts">
-	import type { Brand, Firm, Classification, OwnershipStake } from '$lib/types';
-	import type { ValueId } from '$lib/values';
+	import type { Brand, Firm, Classification, OwnershipStake, ValueTag } from '$lib/types';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
 		brand: Brand;
 		classification: Classification;
-		matched: ValueId[];
+		tags: ValueTag[];
 		firmById: Map<string, Firm>;
 	};
 
-	let { brand, classification, matched, firmById }: Props = $props();
+	let { brand, classification, tags, firmById }: Props = $props();
 
 	const verdict = $derived(
 		classification === 'avoid'
@@ -59,10 +58,10 @@
 
 	<p class="verdict" data-kind={classification}>{verdict}</p>
 
-	{#if matched.length > 0}
+	{#if tags.length > 0}
 		<div class="matched">
-			{#each matched as m (m)}
-				<ValueChip id={m} variant={classification === 'avoid' ? 'avoid' : 'align'} />
+			{#each tags as t (t.value)}
+				<ValueChip id={t.value} variant={t.variant} />
 			{/each}
 		</div>
 	{/if}

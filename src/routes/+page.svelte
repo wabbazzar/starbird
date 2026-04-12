@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { userValues, hasOnboarded } from '$lib/stores/userValues';
-	import { classify, type Brand, type Firm } from '$lib/types';
+	import { classify, valueTags, type Brand, type Firm } from '$lib/types';
 	import { DataFileSchema } from '$lib/schema';
 
 	import TopBar from '$lib/components/TopBar.svelte';
@@ -145,10 +145,11 @@
 				<div class="count">{filteredBrands.length} brands</div>
 				{#each filteredBrands as b (b.id)}
 					{@const c = classify(b.harms, b.aligns, $userValues)}
+					{@const t = valueTags(b.harms, b.aligns, $userValues)}
 					<BrandCard
 						brand={b}
 						classification={c.kind}
-						matched={c.matched}
+						tags={t}
 						{firmById}
 					/>
 				{/each}
@@ -159,7 +160,8 @@
 			{:else}
 				{#each filteredFirms as f (f.id)}
 					{@const c = classify(f.harms, f.aligns, $userValues)}
-					<FirmCard firm={f} classification={c.kind} matched={c.matched} />
+					{@const t = valueTags(f.harms, f.aligns, $userValues)}
+					<FirmCard firm={f} classification={c.kind} tags={t} />
 				{/each}
 			{/if}
 		{:else if panel === 'charts'}

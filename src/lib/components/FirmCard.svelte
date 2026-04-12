@@ -1,15 +1,14 @@
 <script lang="ts">
-	import type { Firm, Classification } from '$lib/types';
-	import type { ValueId } from '$lib/values';
+	import type { Firm, Classification, ValueTag } from '$lib/types';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
 		firm: Firm;
 		classification: Classification;
-		matched: ValueId[];
+		tags: ValueTag[];
 	};
 
-	let { firm, classification, matched }: Props = $props();
+	let { firm, classification, tags }: Props = $props();
 </script>
 
 <article
@@ -24,10 +23,10 @@
 
 	<p class="summary">{firm.summary}</p>
 
-	{#if matched.length > 0}
+	{#if tags.length > 0}
 		<div class="matched">
-			{#each matched as m (m)}
-				<ValueChip id={m} variant={classification === 'avoid' ? 'avoid' : 'align'} />
+			{#each tags as t (t.value)}
+				<ValueChip id={t.value} variant={t.variant} />
 			{/each}
 		</div>
 	{/if}
