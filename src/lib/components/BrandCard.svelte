@@ -73,6 +73,8 @@
 			if (navigator.share && navigator.canShare?.({ files: [file] })) {
 				await navigator.share({
 					title: `Starbird — ${brand.avoid}`,
+					text: `${brand.avoid} on Starbird — ${verdict.toLowerCase()}`,
+					url: 'https://wabbazzar.github.io/starbird/',
 					files: [file]
 				});
 			} else if (navigator.share) {

@@ -37,6 +37,8 @@
 			if (navigator.share && navigator.canShare?.({ files: [file] })) {
 				await navigator.share({
 					title: `Starbird — ${firm.name}`,
+					text: `${firm.name} on Starbird — harm score ${firm.harmScore}/100`,
+					url: 'https://wabbazzar.github.io/starbird/',
 					files: [file]
 				});
 			} else if (navigator.share) {
