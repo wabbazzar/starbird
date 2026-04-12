@@ -11,7 +11,7 @@
 	};
 
 	let { brand, classification, tags, firmById }: Props = $props();
-	let expanded = $state(false);
+	let showDetails = $state(false);
 
 	const verdict = $derived(
 		classification === 'avoid'
@@ -34,7 +34,6 @@
 		}
 	}
 
-	// Source URLs from the owning firm(s)
 	const sources = $derived(
 		brand.ownership
 			.map((o) => {
@@ -44,11 +43,10 @@
 			.filter((s): s is { name: string; url: string } => s !== null)
 	);
 
-	function toggleExpand(e: MouseEvent) {
-		// Don't toggle if the user clicked a link or button inside the card
+	function toggleDetails(e: MouseEvent) {
 		const target = e.target as HTMLElement;
 		if (target.closest('a') || target.closest('button')) return;
-		expanded = !expanded;
+		showDetails = !showDetails;
 	}
 
 	async function share(e: MouseEvent) {
@@ -56,7 +54,9 @@
 		const ownerNames = brand.ownership
 			.map((o) => firmById.get(o.firmId)?.name ?? o.firmId)
 			.join(', ');
-		const tagLabels = tags.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label).join(' · ');
+		const tagLabels = tags
+			.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label)
+			.join(' · ');
 
 		const text = [
 			`◈ Starbird — ${brand.avoid}`,
@@ -75,13 +75,14 @@
 			if (navigator.share) {
 				await navigator.share({
 					title: `Starbird — ${brand.avoid}`,
-					text
+					text,
+					url: 'https://wabbazzar.github.io/starbird/'
 				});
 			} else {
 				await navigator.clipboard.writeText(text);
 			}
 		} catch {
-			// User cancelled the share sheet — not an error
+			// User cancelled the share sheet
 		}
 	}
 </script>
@@ -92,16 +93,12 @@
 	class="card"
 	class:card-avoid={classification === 'avoid'}
 	class:card-align={classification === 'align'}
-	class:expanded
-	onclick={toggleExpand}
+	onclick={toggleDetails}
 >
 	<header>
 		<div class="name-row">
 			<h3>{brand.avoid}</h3>
-			<div class="name-right">
-				<span class="cat">{brand.cat}</span>
-				<span class="chevron" aria-hidden="true">{expanded ? '▾' : '▸'}</span>
-			</div>
+			<span class="cat">{brand.cat}</span>
 		</div>
 		<div class="owners">
 			{#each brand.ownership as o, i (o.firmId + i)}
@@ -126,24 +123,30 @@
 		</div>
 	{/if}
 
-	{#if expanded}
-		{#if brand.alts.length > 0}
-			<div class="alts">
-				<div class="section-label">Alternatives</div>
-				<ul>
-					{#each brand.alts as a (a)}
-						<li>{a}</li>
-					{/each}
-				</ul>
-			</div>
-		{/if}
+	{#if brand.alts.length > 0}
+		<div class="alts">
+			<div class="section-label">Alternatives</div>
+			<ul>
+				{#each brand.alts as a (a)}
+					<li>{a}</li>
+				{/each}
+			</ul>
+		</div>
+	{/if}
 
-		<p class="why">{brand.why}</p>
+	<p class="why">{brand.why}</p>
 
+	{#if showDetails}
 		{#if sources.length > 0}
 			<div class="sources">
+				<div class="section-label">Sources</div>
 				{#each sources as s (s.url)}
-					<a href={s.url} target="_blank" rel="noopener" onclick={(e) => e.stopPropagation()}>
+					<a
+						href={s.url}
+						target="_blank"
+						rel="noopener"
+						onclick={(e) => e.stopPropagation()}
+					>
 						→ {s.name}
 					</a>
 				{/each}
@@ -155,6 +158,8 @@
 				<span aria-hidden="true">◈</span> Share
 			</button>
 		</div>
+	{:else}
+		<div class="tap-hint">tap for sources + share</div>
 	{/if}
 </article>
 
@@ -163,10 +168,6 @@
 		padding: 14px 16px;
 		margin-bottom: 10px;
 		cursor: pointer;
-		transition: border-color 150ms ease;
-	}
-	.card.expanded {
-		border-color: var(--border-strong);
 	}
 	header {
 		margin-bottom: 8px;
@@ -176,12 +177,6 @@
 		align-items: baseline;
 		justify-content: space-between;
 		gap: 8px;
-	}
-	.name-right {
-		display: flex;
-		align-items: baseline;
-		gap: 8px;
-		flex-shrink: 0;
 	}
 	h3 {
 		font-size: 1.1rem;
@@ -193,11 +188,6 @@
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 		color: var(--ink-faint);
-	}
-	.chevron {
-		font-size: 0.7rem;
-		color: var(--ink-faint);
-		transition: transform 150ms ease;
 	}
 	.owners {
 		margin-top: 4px;
@@ -261,7 +251,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 6px;
-		margin-bottom: 4px;
+		margin-bottom: 10px;
 	}
 	.alts {
 		background: var(--surface-2);
@@ -286,10 +276,12 @@
 		border-top: 1px solid var(--border);
 	}
 	.sources {
+		margin-top: 10px;
+		padding-top: 8px;
+		border-top: 1px solid var(--border);
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
-		margin-top: 8px;
 	}
 	.sources a {
 		font-family: 'DM Mono', monospace;
@@ -300,8 +292,6 @@
 		display: flex;
 		justify-content: flex-end;
 		margin-top: 10px;
-		padding-top: 8px;
-		border-top: 1px solid var(--border);
 	}
 	.share-btn {
 		display: inline-flex;
@@ -323,5 +313,15 @@
 	}
 	.share-btn:active {
 		transform: scale(0.96);
+	}
+	.tap-hint {
+		text-align: center;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.58rem;
+		color: var(--ink-faint);
+		margin-top: 8px;
+		padding-top: 6px;
+		border-top: 1px solid var(--border);
+		letter-spacing: 0.06em;
 	}
 </style>

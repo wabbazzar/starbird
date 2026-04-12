@@ -10,17 +10,19 @@
 	};
 
 	let { firm, classification, tags }: Props = $props();
-	let expanded = $state(false);
+	let showDetails = $state(false);
 
-	function toggleExpand(e: MouseEvent) {
+	function toggleDetails(e: MouseEvent) {
 		const target = e.target as HTMLElement;
 		if (target.closest('a') || target.closest('button')) return;
-		expanded = !expanded;
+		showDetails = !showDetails;
 	}
 
 	async function share(e: MouseEvent) {
 		e.stopPropagation();
-		const tagLabels = tags.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label).join(' · ');
+		const tagLabels = tags
+			.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label)
+			.join(' · ');
 
 		const text = [
 			`◈ Starbird — ${firm.name}`,
@@ -30,14 +32,15 @@
 			'',
 			firm.summary,
 			'',
-			`→ https://wabbazzar.github.io/starbird/`
+			'→ https://wabbazzar.github.io/starbird/'
 		].join('\n');
 
 		try {
 			if (navigator.share) {
 				await navigator.share({
 					title: `Starbird — ${firm.name}`,
-					text
+					text,
+					url: 'https://wabbazzar.github.io/starbird/'
 				});
 			} else {
 				await navigator.clipboard.writeText(text);
@@ -54,16 +57,14 @@
 	class="card"
 	class:card-avoid={classification === 'avoid'}
 	class:card-align={classification === 'align'}
-	class:expanded
-	onclick={toggleExpand}
+	onclick={toggleDetails}
 >
 	<header>
-		<div class="head-left">
-			<h3>{firm.name}</h3>
-			<span class="aum">{firm.aum} AUM</span>
-		</div>
-		<span class="chevron" aria-hidden="true">{expanded ? '▾' : '▸'}</span>
+		<h3>{firm.name}</h3>
+		<span class="aum">{firm.aum} AUM</span>
 	</header>
+
+	<p class="summary">{firm.summary}</p>
 
 	{#if tags.length > 0}
 		<div class="matched">
@@ -73,36 +74,40 @@
 		</div>
 	{/if}
 
-	{#if expanded}
-		<p class="summary">{firm.summary}</p>
-
-		<div class="metrics">
-			<div class="metric">
-				<div class="lbl">Harm score</div>
-				<div class="val score" data-high={firm.harmScore >= 75}>
-					{firm.harmScore}<span class="unit">/100</span>
-				</div>
-			</div>
-			<div class="metric">
-				<div class="lbl">Layoffs</div>
-				<div class="val">{firm.layoffs}</div>
+	<div class="metrics">
+		<div class="metric">
+			<div class="lbl">Harm score</div>
+			<div class="val score" data-high={firm.harmScore >= 75}>
+				{firm.harmScore}<span class="unit">/100</span>
 			</div>
 		</div>
+		<div class="metric">
+			<div class="lbl">Layoffs</div>
+			<div class="val">{firm.layoffs}</div>
+		</div>
+	</div>
 
-		{#if firm.brands.length > 0}
-			<div class="brands">
-				<div class="section-label">Notable holdings</div>
-				<ul>
-					{#each firm.brands as b (b)}
-						<li>{b}</li>
-					{/each}
-				</ul>
-			</div>
-		{/if}
+	{#if firm.brands.length > 0}
+		<div class="brands">
+			<div class="section-label">Notable holdings</div>
+			<ul>
+				{#each firm.brands as b (b)}
+					<li>{b}</li>
+				{/each}
+			</ul>
+		</div>
+	{/if}
 
+	{#if showDetails}
 		{#if firm.source}
 			<div class="sources">
-				<a href={firm.source} target="_blank" rel="noopener" onclick={(e) => e.stopPropagation()}>
+				<div class="section-label">Sources</div>
+				<a
+					href={firm.source}
+					target="_blank"
+					rel="noopener"
+					onclick={(e) => e.stopPropagation()}
+				>
 					→ source
 				</a>
 			</div>
@@ -113,6 +118,8 @@
 				<span aria-hidden="true">◈</span> Share
 			</button>
 		</div>
+	{:else}
+		<div class="tap-hint">tap for sources + share</div>
 	{/if}
 </article>
 
@@ -121,10 +128,6 @@
 		padding: 16px 18px;
 		margin-bottom: 12px;
 		cursor: pointer;
-		transition: border-color 150ms ease;
-	}
-	.card.expanded {
-		border-color: var(--border-strong);
 	}
 	header {
 		display: flex;
@@ -132,12 +135,6 @@
 		justify-content: space-between;
 		gap: 10px;
 		margin-bottom: 6px;
-	}
-	.head-left {
-		display: flex;
-		align-items: baseline;
-		gap: 10px;
-		min-width: 0;
 	}
 	h3 {
 		font-size: 1.2rem;
@@ -147,12 +144,6 @@
 		font-family: 'DM Mono', monospace;
 		font-size: 0.68rem;
 		color: var(--gold);
-		flex-shrink: 0;
-	}
-	.chevron {
-		font-size: 0.7rem;
-		color: var(--ink-faint);
-		flex-shrink: 0;
 	}
 	.summary {
 		font-size: 0.82rem;
@@ -164,7 +155,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 6px;
-		margin-bottom: 4px;
+		margin-bottom: 10px;
 	}
 	.metrics {
 		display: grid;
@@ -211,7 +202,12 @@
 		margin: 3px 0;
 	}
 	.sources {
-		margin-top: 8px;
+		margin-top: 10px;
+		padding-top: 8px;
+		border-top: 1px solid var(--border);
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
 	.sources a {
 		font-family: 'DM Mono', monospace;
@@ -222,8 +218,6 @@
 		display: flex;
 		justify-content: flex-end;
 		margin-top: 10px;
-		padding-top: 8px;
-		border-top: 1px solid var(--border);
 	}
 	.share-btn {
 		display: inline-flex;
@@ -245,5 +239,15 @@
 	}
 	.share-btn:active {
 		transform: scale(0.96);
+	}
+	.tap-hint {
+		text-align: center;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.58rem;
+		color: var(--ink-faint);
+		margin-top: 8px;
+		padding-top: 6px;
+		border-top: 1px solid var(--border);
+		letter-spacing: 0.06em;
 	}
 </style>

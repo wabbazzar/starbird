@@ -225,13 +225,12 @@
 	}
 	.scroll {
 		flex: 1;
-		/* min-height: 0 is critical for flex items with overflow scroll.
-		   Without it, the default min-height: auto prevents the item from
-		   shrinking below its content height on some browsers, which pushes
-		   the BottomNav off-screen when content is tall. */
 		min-height: 0;
 		overflow-y: auto;
 		padding: 12px;
+		/* Bottom padding compensates for the fixed-position BottomNav so the
+		   last card isn't hidden behind it. Nav height ≈ 48px + safe area. */
+		padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
 		-webkit-overflow-scrolling: touch;
 	}
 	.count {

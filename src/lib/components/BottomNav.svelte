@@ -32,24 +32,25 @@
 
 <style>
 	.nav {
-		flex-shrink: 0;
+		/* Pinned to the viewport bottom, independent of flex layout.
+		   This is the nuclear fix for the iOS PWA bug where the nav
+		   renders too high on initial load then corrects after scroll. */
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 30;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		background: var(--bg);
 		border-top: 1px solid var(--border);
-		/* Safe-area inset is the ONLY bottom spacing. No minimum floor on
-		   non-PWA browsers — the button's own padding gives enough
-		   breathing room there. */
 		padding-bottom: env(safe-area-inset-bottom, 0px);
 	}
 	.btn-nav {
 		background: none;
 		border: none;
 		color: var(--ink-faint);
-		/* Zero bottom padding — the nav's safe-area padding is directly
-		   underneath the button content, so any bottom padding here stacks
-		   on top of the home-indicator inset and pushes labels too high. */
-		padding: 7px 4px 0;
+		padding: 8px 4px 4px;
 		cursor: pointer;
 		display: flex;
 		flex-direction: column;
@@ -67,7 +68,6 @@
 	.icon {
 		font-size: 1.05rem;
 		line-height: 1;
-		/* Block layout gets rid of line-box font-metric fluff */
 		display: block;
 	}
 	.label {
@@ -75,10 +75,6 @@
 		font-size: 0.58rem;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		/* Explicit line-height: 1 strips the ~5–8px of invisible leading
-		   below the text that the browser adds by default, which is what
-		   was making the labels look like they were "floating" above the
-		   bottom of the nav on real iOS PWAs. */
 		line-height: 1;
 		display: block;
 	}
