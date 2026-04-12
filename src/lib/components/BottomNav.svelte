@@ -32,19 +32,20 @@
 
 <style>
 	.nav {
-		/* Pinned to the viewport bottom, independent of flex layout.
-		   This is the nuclear fix for the iOS PWA bug where the nav
-		   renders too high on initial load then corrects after scroll. */
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 30;
+		/* Back in the flex flow — NOT position: fixed, which caused a
+		   draggable floating overlay on iOS. The parent .app uses
+		   position: fixed; inset: 0 to fill the viewport, so this flex
+		   child naturally sits at the bottom without needing its own
+		   fixed positioning. */
+		flex-shrink: 0;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		background: var(--bg);
 		border-top: 1px solid var(--border);
 		padding-bottom: env(safe-area-inset-bottom, 0px);
+		/* Prevent iOS from interpreting nav touches as scroll gestures */
+		touch-action: none;
+		-webkit-touch-callout: none;
 	}
 	.btn-nav {
 		background: none;
@@ -58,6 +59,8 @@
 		gap: 2px;
 		font-family: inherit;
 		transition: color 150ms ease;
+		/* Re-enable tap for buttons specifically */
+		touch-action: manipulation;
 	}
 	.btn-nav:hover {
 		color: var(--ink-muted);
