@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Firm, Classification, ValueTag } from '$lib/types';
 	import { VALUE_BY_ID } from '$lib/values';
+	import { renderShareCard } from '$lib/shareCard';
 	import ValueChip from './ValueChip.svelte';
 
 	type Props = {
@@ -20,33 +21,42 @@
 
 	async function share(e: MouseEvent) {
 		e.stopPropagation();
-		const tagLabels = tags
-			.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label)
-			.join(' · ');
-
-		const text = [
-			`◈ Starbird — ${firm.name}`,
-			'',
-			`Harm score: ${firm.harmScore}/100`,
-			tagLabels,
-			'',
-			firm.summary,
-			'',
-			'→ https://wabbazzar.github.io/starbird/'
-		].join('\n');
-
 		try {
-			if (navigator.share) {
+			const blob = await renderShareCard({
+				type: 'firm',
+				name: firm.name,
+				harmScore: firm.harmScore,
+				verdict: classification === 'avoid' ? 'Conflicts with your values' : classification === 'align' ? 'Aligns with your values' : 'No direct conflict',
+				verdictKind: classification,
+				tags,
+				why: firm.summary
+			});
+
+			const file = new File([blob], `starbird-${firm.id}.png`, { type: 'image/png' });
+
+			if (navigator.share && navigator.canShare?.({ files: [file] })) {
 				await navigator.share({
 					title: `Starbird — ${firm.name}`,
-					text,
-					url: 'https://wabbazzar.github.io/starbird/'
+					files: [file]
+				});
+			} else if (navigator.share) {
+				const tagLabels = tags
+					.map((t) => VALUE_BY_ID[t.value]?.icon + ' ' + VALUE_BY_ID[t.value]?.label)
+					.join(' · ');
+				await navigator.share({
+					title: `Starbird — ${firm.name}`,
+					text: `◈ Starbird — ${firm.name}\nHarm score: ${firm.harmScore}/100\n${tagLabels}\n\n${firm.summary}\n\n→ https://wabbazzar.github.io/starbird/`
 				});
 			} else {
-				await navigator.clipboard.writeText(text);
+				const url = URL.createObjectURL(blob);
+				const a = document.createElement('a');
+				a.href = url;
+				a.download = `starbird-${firm.id}.png`;
+				a.click();
+				URL.revokeObjectURL(url);
 			}
 		} catch {
-			// User cancelled
+			// User cancelled or error
 		}
 	}
 </script>
@@ -118,8 +128,6 @@
 				<span aria-hidden="true">◈</span> Share
 			</button>
 		</div>
-	{:else}
-		<div class="tap-hint">tap for sources + share</div>
 	{/if}
 </article>
 
@@ -239,15 +247,5 @@
 	}
 	.share-btn:active {
 		transform: scale(0.96);
-	}
-	.tap-hint {
-		text-align: center;
-		font-family: 'DM Mono', monospace;
-		font-size: 0.58rem;
-		color: var(--ink-faint);
-		margin-top: 8px;
-		padding-top: 6px;
-		border-top: 1px solid var(--border);
-		letter-spacing: 0.06em;
 	}
 </style>
