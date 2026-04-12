@@ -27,13 +27,18 @@ echo "[starbird-runner] Starting $MODE run at $(date)" > "$LOG_FILE"
 # ── Step 1: Update strategy scores from run history (deterministic) ─────
 python3 "$STARBIRD_DIR/scripts/update-strategy-scores.py" >> "$LOG_FILE" 2>&1
 
-# ── Step 2: Pick a strategy (deterministic) ─────────────────────────────
-PICKED_STRATEGY="$(python3 "$STARBIRD_DIR/scripts/pick-strategy.py" 2>>"$LOG_FILE")"
-if [ -z "$PICKED_STRATEGY" ]; then
-  echo "[starbird-runner] FATAL: strategy picker returned empty" >> "$LOG_FILE"
-  exit 1
+# ── Step 2: Pick a strategy (deterministic, unless FORCE_STRATEGY is set) ─
+if [ -n "${FORCE_STRATEGY:-}" ]; then
+  PICKED_STRATEGY="$FORCE_STRATEGY"
+  echo "[starbird-runner] FORCED strategy override: $PICKED_STRATEGY" >> "$LOG_FILE"
+else
+  PICKED_STRATEGY="$(python3 "$STARBIRD_DIR/scripts/pick-strategy.py" 2>>"$LOG_FILE")"
+  if [ -z "$PICKED_STRATEGY" ]; then
+    echo "[starbird-runner] FATAL: strategy picker returned empty" >> "$LOG_FILE"
+    exit 1
+  fi
+  echo "[starbird-runner] picked strategy: $PICKED_STRATEGY" >> "$LOG_FILE"
 fi
-echo "[starbird-runner] picked strategy: $PICKED_STRATEGY" >> "$LOG_FILE"
 
 # ── Step 3: Snapshot data.json so we can diff afterwards ────────────────
 cp "$STARBIRD_DIR/static/data.json" "$BEFORE_SNAPSHOT"

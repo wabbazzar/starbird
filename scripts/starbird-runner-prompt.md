@@ -227,15 +227,45 @@ or by name. If it does, skip creating a new firm and just point the brand's
 ownership at the existing ID.
 
 Before creating a brand, check if it already exists in `brands[]` by ID. If
-it does, **update** it: append `workers_ice_cooperation` to its `harms` if
-not already present. Never remove existing tags.
+it does, **update** it per the rules below.
 
-### Update existing
+### Update existing — MANDATORY evidence update
 
-If an existing entry is tagged with a different quest, add
-`workers_ice_cooperation` to its harms — do not replace. Other fields
-(`summary`, `why`, etc.) you may extend with the new evidence if meaningful,
-but do not rewrite from scratch.
+When you add a harm tag to an entry that already exists, you MUST ALSO update
+the `why` field (for brands) or `summary` field (for firms) to include
+specific evidence for the new tag. **A tag without evidence is a data quality
+violation** that the Guardian will flag and the user will see.
+
+Rules:
+1. Append the new quest's tag to `harms[]` if not already present.
+2. Do NOT remove existing tags.
+3. Do NOT rewrite the existing `why`/`summary` from scratch.
+4. **APPEND** one or two sentences to the end of the existing text that
+   explain the specific harm related to the new tag. The appended text must
+   include:
+   - A concrete factual claim (numbers, dates, or named incidents)
+   - A source (named publication, database, or URL)
+5. If you cannot find specific evidence for the new tag on this entry,
+   **do not add the tag**. An unsupported tag is worse than a missing one.
+
+Example — adding `health_general` to an existing fast-food brand:
+
+BEFORE:
+```
+"why": "Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock."
+"harms": ["workers_general", "extraction_general"]
+```
+
+AFTER:
+```
+"why": "Apollo owned until 2020 COVID bankruptcy. PE debt burden prevented surviving the economic shock. Menu is high in sodium and processed ingredients; a standard meal exceeds 1,500 mg sodium (65% of daily recommended intake, per CSPI analysis)."
+"harms": ["workers_general", "extraction_general", "health_general"]
+```
+
+The new sentence at the end is what justifies the new `health_general` tag.
+A user who sees the Health chip on the card can read the why text and find
+the supporting claim. If there's no supporting claim, the tag looks like a
+mistake and erodes trust in the whole dataset.
 
 ## Validation before merge
 
