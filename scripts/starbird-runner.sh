@@ -166,8 +166,7 @@ else
   STATUS="failed (exit $EXIT)"
 fi
 
-SUMMARY="Starbird Runner — $MODE_LABEL
-Status: $STATUS
+SUMMARY="Status: $STATUS
 Value: $VALUE_LABEL
 Strategy: $STRATEGY_LABEL
   → $STRATEGY_DESC
