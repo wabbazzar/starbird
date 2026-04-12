@@ -109,21 +109,19 @@
 	{/if}
 
 	{#if showDetails}
-		{#if firm.source}
+		<div class="card-footer">
 			<div class="sources">
-				<div class="section-label">Sources</div>
-				<a
-					href={firm.source}
-					target="_blank"
-					rel="noopener"
-					onclick={(e) => e.stopPropagation()}
-				>
-					→ source
-				</a>
+				{#if firm.source}
+					<a
+						href={firm.source}
+						target="_blank"
+						rel="noopener"
+						onclick={(e) => e.stopPropagation()}
+					>
+						→ source
+					</a>
+				{/if}
 			</div>
-		{/if}
-
-		<div class="actions">
 			<button type="button" class="share-btn" onclick={share}>
 				<span aria-hidden="true">◈</span> Share
 			</button>
@@ -209,25 +207,31 @@
 	.brands li {
 		margin: 3px 0;
 	}
-	.sources {
+	.card-footer {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		gap: 12px;
 		margin-top: 10px;
 		padding-top: 8px;
 		border-top: 1px solid var(--border);
+	}
+	.sources {
 		display: flex;
 		flex-direction: column;
-		gap: 4px;
+		gap: 3px;
+		min-width: 0;
 	}
 	.sources a {
 		font-family: 'DM Mono', monospace;
 		font-size: 0.62rem;
 		color: var(--primary);
-	}
-	.actions {
-		display: flex;
-		justify-content: flex-end;
-		margin-top: 10px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	.share-btn {
+		flex-shrink: 0;
 		display: inline-flex;
 		align-items: center;
 		gap: 6px;

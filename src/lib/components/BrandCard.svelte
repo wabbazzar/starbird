@@ -149,9 +149,8 @@
 	<p class="why">{brand.why}</p>
 
 	{#if showDetails}
-		{#if sources.length > 0}
+		<div class="card-footer">
 			<div class="sources">
-				<div class="section-label">Sources</div>
 				{#each sources as s (s.url)}
 					<a
 						href={s.url}
@@ -163,9 +162,6 @@
 					</a>
 				{/each}
 			</div>
-		{/if}
-
-		<div class="actions">
 			<button type="button" class="share-btn" onclick={share}>
 				<span aria-hidden="true">◈</span> Share
 			</button>
@@ -285,25 +281,31 @@
 		padding-top: 8px;
 		border-top: 1px solid var(--border);
 	}
-	.sources {
+	.card-footer {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		gap: 12px;
 		margin-top: 10px;
 		padding-top: 8px;
 		border-top: 1px solid var(--border);
+	}
+	.sources {
 		display: flex;
 		flex-direction: column;
-		gap: 4px;
+		gap: 3px;
+		min-width: 0;
 	}
 	.sources a {
 		font-family: 'DM Mono', monospace;
 		font-size: 0.66rem;
 		color: var(--primary);
-	}
-	.actions {
-		display: flex;
-		justify-content: flex-end;
-		margin-top: 10px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	.share-btn {
+		flex-shrink: 0;
 		display: inline-flex;
 		align-items: center;
 		gap: 6px;
