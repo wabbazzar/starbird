@@ -32,6 +32,14 @@
 	// firmId → Firm index for O(1) ownership lookup from BrandCard
 	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
 
+	// Bound to the scroll container so the top-bar tap-to-scroll gesture
+	// can reset it to the top. Each panel (brands/firms/charts/about) shares
+	// this single scroll container, so one handler serves all of them.
+	let scrollEl: HTMLDivElement | null = $state(null);
+	function scrollToTop() {
+		scrollEl?.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+
 	onMount(async () => {
 		try {
 			const resp = await fetch(`${base}/data.json`);
@@ -122,6 +130,7 @@
 		searchTerm={search}
 		onsearch={(v) => (search = v)}
 		onsettings={() => (showEditValues = true)}
+		onscrolltop={scrollToTop}
 	/>
 	<StatStrip {firms} {brands} />
 	{#if panel === 'brands' || panel === 'firms'}
@@ -133,7 +142,7 @@
 		/>
 	{/if}
 
-	<div class="scroll">
+	<div class="scroll" bind:this={scrollEl}>
 		{#if loading}
 			<p class="empty">Loading…</p>
 		{:else if loadError}

@@ -5,16 +5,22 @@
 		searchTerm: string;
 		onsearch: (v: string) => void;
 		onsettings: () => void;
+		onscrolltop: () => void;
 	};
 
-	let { searchTerm, onsearch, onsettings }: Props = $props();
+	let { searchTerm, onsearch, onsettings, onscrolltop }: Props = $props();
 </script>
 
 <div class="topbar">
-	<div class="brand">
+	<button
+		type="button"
+		class="brand"
+		aria-label="Scroll to top"
+		onclick={onscrolltop}
+	>
 		<div class="logo-mark"></div>
 		<span class="name">Starbird</span>
-	</div>
+	</button>
 	<div class="search">
 		<input
 			type="search"
@@ -55,6 +61,18 @@
 		align-items: center;
 		gap: 8px;
 		flex-shrink: 0;
+		/* Strip button defaults so it renders exactly like the old div */
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		font-family: inherit;
+		color: inherit;
+		/* iOS tap-highlight hint for discoverability without a visible hover */
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0.08);
+	}
+	.brand:active {
+		opacity: 0.7;
 	}
 	.name {
 		font-family: 'Bebas Neue', sans-serif;
