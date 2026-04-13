@@ -3,12 +3,13 @@
 
 	type Props = {
 		searchTerm: string;
+		settingsOpen?: boolean;
 		onsearch: (v: string) => void;
 		onsettings: () => void;
 		onscrolltop: () => void;
 	};
 
-	let { searchTerm, onsearch, onsettings, onscrolltop }: Props = $props();
+	let { searchTerm, settingsOpen = false, onsearch, onsettings, onscrolltop }: Props = $props();
 </script>
 
 <div class="topbar">
@@ -38,7 +39,7 @@
 		>
 			<span class="dot"></span>
 		</button>
-		<button type="button" class="icon-btn" aria-label="Edit values" onclick={onsettings}>
+		<button type="button" class="icon-btn" class:active={settingsOpen} aria-label="Edit values" onclick={onsettings}>
 			<span>◦</span>
 		</button>
 	</div>
@@ -126,6 +127,11 @@
 	.icon-btn:hover {
 		border-color: var(--primary);
 		color: var(--primary);
+	}
+	.icon-btn.active {
+		border-color: var(--primary);
+		color: var(--primary);
+		background: var(--primary-dim, rgba(255, 255, 255, 0.08));
 	}
 	.dot {
 		width: 12px;

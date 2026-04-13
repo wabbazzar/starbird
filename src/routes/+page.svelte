@@ -26,11 +26,20 @@
 	let cat = $state('all');
 	let search = $state('');
 	let matchOnly = $state(false);
+	let recentOnly = $state(false);
 	let showOnboarding = $state(false);
 	let showEditValues = $state(false);
 
 	// firmId → Firm index for O(1) ownership lookup from BrandCard
 	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
+
+	// Most recent addedAt date across all brands and firms
+	const latestDate = $derived(() => {
+		let max = '';
+		for (const b of brands) if (b.addedAt && b.addedAt > max) max = b.addedAt;
+		for (const f of firms) if (f.addedAt && f.addedAt > max) max = f.addedAt;
+		return max;
+	});
 
 	// Bound to the scroll container for scroll-to-top gestures.
 	let scrollEl: HTMLDivElement | null = $state(null);
@@ -66,9 +75,9 @@
 	});
 
 	/**
-	 * Highest-impact first: sort by the parent firm's harmScore descending.
-	 * A brand inherits the max harmScore across all its ownership.firmId
-	 * references. Tiebreakers:
+	 * Highest-impact first: sort by the parent firm's harmScore descending,
+	 * minus a 5-point inheritance discount (brands inherit harm, they aren't
+	 * the firm itself). Tiebreakers:
 	 *   1. brands with a non-empty `why` (a proxy for evidence presence)
 	 *   2. insertion order (stable — newest additions fall below older ones
 	 *      at the same impact level, so the existing top doesn't shuffle on
@@ -78,7 +87,7 @@
 		const ownerScores = b.ownership
 			.map((o) => firmById.get(o.firmId)?.harmScore ?? 0)
 			.filter((s) => s > 0);
-		return ownerScores.length ? Math.max(...ownerScores) : 0;
+		return ownerScores.length ? Math.max(...ownerScores) - 5 : 0;
 	}
 
 	const filteredBrands = $derived.by(() => {
@@ -97,6 +106,7 @@
 					const c = classify(b.harms, b.aligns, $userValues);
 					if (c.kind === 'neutral') return false;
 				}
+				if (recentOnly && b.addedAt !== latestDate()) return false;
 				return true;
 			})
 			.sort((a, b) => {
@@ -122,6 +132,7 @@
 					const c = classify(f.harms, f.aligns, $userValues);
 					if (c.kind === 'neutral') return false;
 				}
+				if (recentOnly && f.addedAt !== latestDate()) return false;
 				return true;
 			})
 			.sort((a, b) => b.harmScore - a.harmScore);
@@ -132,19 +143,20 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Starbird" />
 	<meta property="og:description" content="Shop in line with your values. Track which brands align — and which don't." />
-	<meta property="og:image" content="https://wabbazzar.github.io/starbird/logo-light.png" />
+	<meta property="og:image" content="https://wabbazzar.github.io/starbird/cards/palantir_technologies.png" />
 	<meta property="og:url" content="https://wabbazzar.github.io/starbird/" />
-	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content="Starbird" />
 	<meta property="twitter:description" content="Shop in line with your values. Track which brands align — and which don't." />
-	<meta property="twitter:image" content="https://wabbazzar.github.io/starbird/logo-light.png" />
+	<meta property="twitter:image" content="https://wabbazzar.github.io/starbird/cards/palantir_technologies.png" />
 </svelte:head>
 
 <div class="app">
 	<TopBar
 		searchTerm={search}
+		settingsOpen={showEditValues}
 		onsearch={(v) => (search = v)}
-		onsettings={() => (showEditValues = true)}
+		onsettings={() => (showEditValues = !showEditValues)}
 		onscrolltop={scrollToTop}
 	/>
 	<StatStrip {firms} {brands} />
@@ -154,6 +166,8 @@
 			onchange={(id) => (cat = id)}
 			{matchOnly}
 			ontoggleMatch={() => (matchOnly = !matchOnly)}
+			{recentOnly}
+			ontoggleRecent={() => (recentOnly = !recentOnly)}
 		/>
 	{/if}
 

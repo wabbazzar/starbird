@@ -197,7 +197,8 @@ harmScore (0–100, 50=neutral),
 source (URL to best evidence),
 cats: [],
 harms: ["workers_ice_cooperation"],  // plus any prior harms if updating
-aligns: []
+aligns: [],
+addedAt: "YYYY-MM-DD"  // today's date in ISO format (from TIMESTAMP env var)
 ```
 
 ### New brand (ALWAYS create one per new entity)
@@ -217,7 +218,8 @@ alts: []  (leave empty for now — alternatives for B2B/gov contractors
            iteration can add them)
 why: one-paragraph explanation of the harm. Required.
 harms: ["workers_ice_cooperation"]
-aligns: []
+aligns: [],
+addedAt: "YYYY-MM-DD"  // today's date in ISO format (from TIMESTAMP env var)
 ```
 
 ### Checking for existing entries

@@ -5,9 +5,11 @@
 		onchange: (id: string) => void;
 		matchOnly: boolean;
 		ontoggleMatch: () => void;
+		recentOnly: boolean;
+		ontoggleRecent: () => void;
 	};
 
-	let { activeCat, onchange, matchOnly, ontoggleMatch }: Props = $props();
+	let { activeCat, onchange, matchOnly, ontoggleMatch, recentOnly, ontoggleRecent }: Props = $props();
 
 	const CATS: Cat[] = [
 		{ id: 'all', label: 'All' },
@@ -31,6 +33,14 @@
 		onclick={ontoggleMatch}
 	>
 		◉ My values
+	</button>
+	<button
+		type="button"
+		class="chip"
+		class:chip-active={recentOnly}
+		onclick={ontoggleRecent}
+	>
+		★ New
 	</button>
 	<span class="divider"></span>
 	{#each CATS as c (c.id)}

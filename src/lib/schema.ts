@@ -36,7 +36,8 @@ export const FirmSchema = z.object({
 	source: z.string().url(),
 	cats: z.array(CategoryIdSchema),
 	harms: z.array(QuestIdSchema),
-	aligns: z.array(QuestIdSchema)
+	aligns: z.array(QuestIdSchema),
+	addedAt: z.string().date().optional()
 });
 
 export const BrandSchema = z.object({
@@ -47,7 +48,8 @@ export const BrandSchema = z.object({
 	alts: z.array(z.string()),
 	why: z.string().min(1),
 	harms: z.array(QuestIdSchema),
-	aligns: z.array(QuestIdSchema)
+	aligns: z.array(QuestIdSchema),
+	addedAt: z.string().date().optional()
 });
 
 export const DataFileSchema = z

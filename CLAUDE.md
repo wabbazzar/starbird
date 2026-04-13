@@ -72,6 +72,10 @@ Signal notifications via `/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh`.
 - `src/lib/categories.ts` — 9 categories (tech, food, coffee, retail, health, pets, home, hospitality, finance)
 - `src/lib/harmScore.ts` + `src/lib/harm-score-rubric.json` — harm score rubric (single source of truth, 6 buckets spanning 0–100)
 
+## Brand ranking: 5-point inheritance discount
+
+Brands are sorted by the max `harmScore` of their parent firm(s) **minus 5 points**. This prevents a brand that is merely a *victim* of PE over-leveraging (e.g. The Container Store, owned by Leonard Green at 97) from outranking a brand that is itself the harmful actor (e.g. Palantir at 98). The discount is applied in `brandImpactScore()` in `src/routes/+page.svelte` and is display-only — it does not change the stored `harmScore` in `data.json`.
+
 ## Key rule: tags need evidence
 
 Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. When the runner adds a new tag to an existing entry, it must also append evidence text. A tag without evidence is a data quality violation. The Guardian checklist enforces this.

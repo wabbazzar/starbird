@@ -27,6 +27,7 @@ export interface Firm {
 	cats: CategoryId[];
 	harms: QuestId[];
 	aligns: QuestId[];
+	addedAt?: string;
 }
 
 export interface Brand {
@@ -38,6 +39,7 @@ export interface Brand {
 	why: string;
 	harms: QuestId[];
 	aligns: QuestId[];
+	addedAt?: string;
 }
 
 export interface DataFile {
