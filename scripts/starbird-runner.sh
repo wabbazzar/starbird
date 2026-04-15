@@ -15,12 +15,16 @@ set -euo pipefail
 MODE="${1:-daily}"
 STARBIRD_DIR="/home/wabbazzar/code/starbird"
 NOTIFY="/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh"
+LOG_EVENT="/home/wabbazzar/code/wabbazzar-ice/scripts/log_event.sh"
 PROMPT_FILE="$STARBIRD_DIR/scripts/starbird-runner-prompt.md"
 LOG_FILE="$STARBIRD_DIR/tmp/starbird-runner-last-run.log"
 BEFORE_SNAPSHOT="$STARBIRD_DIR/tmp/data-before.json"
 
 cd "$STARBIRD_DIR"
 mkdir -p tmp
+
+JOB_START=$(date +%s)
+[ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.start mode="$MODE" || true
 
 echo "[starbird-runner] Starting $MODE run at $(date)" > "$LOG_FILE"
 
@@ -192,3 +196,10 @@ fi
 } >> "$LOG_FILE"
 
 echo "[starbird-runner] Done. exit=$EXIT new=$NEW_ENTITIES" >> "$LOG_FILE"
+
+JOB_DUR=$(( $(date +%s) - JOB_START ))
+if [ "$EXIT" = "0" ]; then JOB_STATUS="ok"; else JOB_STATUS="fail"; fi
+[ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.end \
+  mode="$MODE" status="$JOB_STATUS" exit_code="$EXIT" duration_s="$JOB_DUR" \
+  strategy="$PICKED_STRATEGY" value="$STRATEGY_VALUE" \
+  new_firms="$NEW_FIRMS" new_brands="$NEW_BRANDS" evidence_pct="$EVIDENCE" || true

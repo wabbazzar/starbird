@@ -10,12 +10,16 @@ set -euo pipefail
 MODE="${1:-hook}"
 STARBIRD_DIR="/home/wabbazzar/code/starbird"
 NOTIFY="/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh"
+LOG_EVENT="/home/wabbazzar/code/wabbazzar-ice/scripts/log_event.sh"
 PROMPT_FILE="$STARBIRD_DIR/scripts/starbird-guardian-prompt.md"
 RESULT_FILE="$STARBIRD_DIR/tmp/starbird-guardian-result.json"
 LOG_FILE="$STARBIRD_DIR/tmp/starbird-guardian-last-run.log"
 
 cd "$STARBIRD_DIR"
 mkdir -p tmp
+
+JOB_START=$(date +%s)
+[ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-guardian job.start mode="$MODE" || true
 
 # Read the prompt and inject mode + timestamp
 PROMPT="$(cat "$PROMPT_FILE")
@@ -72,3 +76,8 @@ else
 fi
 
 echo "[starbird-guardian] Done. Pass=$PASS" >> "$LOG_FILE"
+
+JOB_DUR=$(( $(date +%s) - JOB_START ))
+if [ "$PASS" = "True" ]; then JOB_STATUS="ok"; else JOB_STATUS="fail"; fi
+[ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-guardian job.end \
+  mode="$MODE" status="$JOB_STATUS" exit_code="$EXIT" duration_s="$JOB_DUR" || true
