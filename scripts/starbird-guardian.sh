@@ -7,6 +7,9 @@
 
 set -euo pipefail
 
+# Guardians are unattended system processes.
+export WABBAZZAR_SOURCE="${WABBAZZAR_SOURCE:-system}"
+
 MODE="${1:-hook}"
 STARBIRD_DIR="/home/wabbazzar/code/starbird"
 NOTIFY="/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh"
