@@ -75,19 +75,24 @@
 	});
 
 	/**
-	 * Highest-impact first: sort by the parent firm's harmScore descending,
-	 * minus a 5-point inheritance discount (brands inherit harm, they aren't
-	 * the firm itself). Tiebreakers:
+	 * Highest-impact first: sort by the parent firm's harmScore descending.
+	 * PE-owned brands (firm.aumVal > 0) get a 5-point inheritance discount
+	 * so active perpetrators outrank PE victims. Self-owned brands (aumVal 0)
+	 * use the raw score. Tiebreakers:
 	 *   1. brands with a non-empty `why` (a proxy for evidence presence)
 	 *   2. insertion order (stable — newest additions fall below older ones
 	 *      at the same impact level, so the existing top doesn't shuffle on
 	 *      every runner pass)
 	 */
 	function brandImpactScore(b: Brand): number {
-		const ownerScores = b.ownership
-			.map((o) => firmById.get(o.firmId)?.harmScore ?? 0)
-			.filter((s) => s > 0);
-		return ownerScores.length ? Math.max(...ownerScores) - 5 : 0;
+		let best = 0;
+		for (const o of b.ownership) {
+			const firm = firmById.get(o.firmId);
+			if (!firm || !firm.harmScore) continue;
+			const discount = firm.aumVal > 0 ? 5 : 0;
+			best = Math.max(best, firm.harmScore - discount);
+		}
+		return best;
 	}
 
 	const filteredBrands = $derived.by(() => {
