@@ -42,6 +42,10 @@ fi
 
 echo "[starbird-guardian] Starting $MODE run at $(date)" > "$LOG_FILE"
 
+# Stay in non-strict mode for the rest of the script. A transient claude API
+# error, a grep that finds no match in SUMMARY, or a notify.sh failure must
+# NOT prevent job.end from being emitted — otherwise the dashboard gets
+# stuck in "pending".
 set +e
 claude -p \
   --model "$MODEL" \
@@ -51,7 +55,6 @@ claude -p \
   "$PROMPT" \
   >> "$LOG_FILE" 2>&1
 EXIT=$?
-set -e
 
 echo "[starbird-guardian] Claude exited with code $EXIT" >> "$LOG_FILE"
 
