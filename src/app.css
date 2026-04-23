@@ -28,9 +28,11 @@
 	--gold-dim: rgba(232, 168, 62, 0.14);
 
 	--avoid: #e06c5f;
-	--avoid-dim: rgba(224, 108, 95, 0.12);
+	--avoid-dim: rgba(224, 108, 95, 0.14);
+	--avoid-wash: color-mix(in srgb, var(--avoid) 7%, var(--surface));
 	--align: #5fbf7a;
-	--align-dim: rgba(95, 191, 122, 0.12);
+	--align-dim: rgba(95, 191, 122, 0.14);
+	--align-wash: color-mix(in srgb, var(--align) 7%, var(--surface));
 
 	--logo: url('/logo-dark.png');
 	--radius: 12px;
@@ -55,9 +57,11 @@
 	--gold-dim: rgba(208, 136, 40, 0.12);
 
 	--avoid: #c44040;
-	--avoid-dim: rgba(196, 64, 64, 0.1);
+	--avoid-dim: rgba(196, 64, 64, 0.12);
+	--avoid-wash: color-mix(in srgb, var(--avoid) 5%, var(--surface));
 	--align: #4a8c5c;
-	--align-dim: rgba(74, 140, 92, 0.1);
+	--align-dim: rgba(74, 140, 92, 0.12);
+	--align-wash: color-mix(in srgb, var(--align) 5%, var(--surface));
 
 	--logo: url('/logo-light.png');
 }
@@ -119,10 +123,14 @@
 		border-color: var(--border-strong);
 	}
 	.card-avoid {
+		background: var(--avoid-wash);
 		border-left: 3px solid var(--avoid);
+		box-shadow: inset 8px 0 20px -10px var(--avoid-dim);
 	}
 	.card-align {
+		background: var(--align-wash);
 		border-left: 3px solid var(--align);
+		box-shadow: inset 8px 0 20px -10px var(--align-dim);
 	}
 
 	.chip {

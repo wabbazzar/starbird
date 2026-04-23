@@ -12,6 +12,14 @@
 	let { firm, classification, tags }: Props = $props();
 	let showDetails = $state(false);
 
+	const verdict = $derived(
+		classification === 'avoid'
+			? 'Conflicts with your values'
+			: classification === 'align'
+				? 'Aligns with your values'
+				: ''
+	);
+
 	function toggleDetails(e: MouseEvent) {
 		const target = e.target as HTMLElement;
 		if (target.closest('a') || target.closest('button')) return;
@@ -46,6 +54,15 @@
 		<h3>{firm.name}</h3>
 		<span class="aum">{firm.aum} AUM</span>
 	</header>
+
+	{#if classification !== 'neutral'}
+		<p class="verdict" data-kind={classification}>
+			<span class="verdict-glyph" aria-hidden="true"
+				>{classification === 'align' ? '✓' : '△'}</span
+			>
+			{verdict}
+		</p>
+	{/if}
 
 	<p class="summary">{firm.summary}</p>
 
@@ -129,6 +146,36 @@
 		color: var(--ink-muted);
 		line-height: 1.5;
 		margin-bottom: 10px;
+	}
+	.verdict {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 3px 10px 3px 8px;
+		border-radius: 999px;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.6rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		margin: 0 0 8px;
+		border: 1px solid var(--border);
+		background: var(--surface-2);
+		color: var(--ink-faint);
+	}
+	.verdict[data-kind='avoid'] {
+		color: var(--avoid);
+		background: var(--avoid-dim);
+		border-color: var(--avoid);
+	}
+	.verdict[data-kind='align'] {
+		color: var(--align);
+		background: var(--align-dim);
+		border-color: var(--align);
+	}
+	.verdict-glyph {
+		font-size: 0.78rem;
+		line-height: 1;
+		font-weight: 700;
 	}
 	.matched {
 		display: flex;

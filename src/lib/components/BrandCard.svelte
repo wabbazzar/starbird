@@ -91,7 +91,14 @@
 		</div>
 	</header>
 
-	<p class="verdict" data-kind={classification}>{verdict}</p>
+	{#if classification !== 'neutral'}
+		<p class="verdict" data-kind={classification}>
+			<span class="verdict-glyph" aria-hidden="true"
+				>{classification === 'align' ? '✓' : '△'}</span
+			>
+			{verdict}
+		</p>
+	{/if}
 
 	{#if tags.length > 0}
 		<div class="matched">
@@ -206,18 +213,34 @@
 		color: var(--ink-faint);
 	}
 	.verdict {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 3px 10px 3px 8px;
+		border-radius: 999px;
 		font-family: 'DM Mono', monospace;
-		font-size: 0.62rem;
+		font-size: 0.6rem;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 		margin: 8px 0;
+		border: 1px solid var(--border);
+		background: var(--surface-2);
 		color: var(--ink-faint);
 	}
 	.verdict[data-kind='avoid'] {
 		color: var(--avoid);
+		background: var(--avoid-dim);
+		border-color: var(--avoid);
 	}
 	.verdict[data-kind='align'] {
 		color: var(--align);
+		background: var(--align-dim);
+		border-color: var(--align);
+	}
+	.verdict-glyph {
+		font-size: 0.78rem;
+		line-height: 1;
+		font-weight: 700;
 	}
 	.matched {
 		display: flex;
