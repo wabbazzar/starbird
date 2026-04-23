@@ -5,19 +5,25 @@ export type QuestId =
 	| 'workers_general'
 	| 'workers_ice_cooperation'
 	| 'workers_mass_layoffs'
+	| 'workers_positive'
 	// environment
 	| 'environment_general'
+	| 'environment_positive'
 	// animals
 	| 'animals_general'
+	| 'animals_positive'
 	// health
 	| 'health_general'
+	| 'health_positive'
 	// extraction
 	| 'extraction_general'
 	| 'extraction_sale_leaseback'
 	| 'extraction_debt_loading'
+	| 'extraction_positive'
 	// elite impunity
 	| 'elite_impunity_general'
-	| 'elite_impunity_epstein_network';
+	| 'elite_impunity_epstein_network'
+	| 'elite_impunity_positive';
 
 export interface QuestDef {
 	id: QuestId;
@@ -60,6 +66,14 @@ export const QUESTS: readonly QuestDef[] = [
 		short: 'Layoffs as strategy',
 		description: 'Large-scale layoffs used as a financial or strategic lever post-acquisition.'
 	},
+	{
+		id: 'workers_positive',
+		value: 'workers',
+		label: 'Worker-positive',
+		short: 'Fair labor leaders',
+		description:
+			'Companies with strong labor practices: living wages, employee ownership, profit-sharing, union partnerships.'
+	},
 
 	// ─── environment ──────────────────────────────────────────────
 	{
@@ -68,6 +82,14 @@ export const QUESTS: readonly QuestDef[] = [
 		label: 'Environment (general)',
 		short: 'General environmental concerns',
 		description: 'Catch-all for environmental harms not yet split into a specific quest.'
+	},
+	{
+		id: 'environment_positive',
+		value: 'environment',
+		label: 'Environment-positive',
+		short: 'Climate & planet leaders',
+		description:
+			'Companies leading on climate action: carbon-neutral operations, regenerative sourcing, circular economy models.'
 	},
 
 	// ─── animals ──────────────────────────────────────────────────
@@ -78,6 +100,14 @@ export const QUESTS: readonly QuestDef[] = [
 		short: 'General animal welfare',
 		description: 'Catch-all for animal welfare concerns not yet split into a specific quest.'
 	},
+	{
+		id: 'animals_positive',
+		value: 'animals',
+		label: 'Animal-positive',
+		short: 'Cruelty-free leaders',
+		description:
+			'Companies committed to cruelty-free products: no animal testing, vegan formulations, certified humane supply chains.'
+	},
 
 	// ─── health ───────────────────────────────────────────────────
 	{
@@ -87,6 +117,14 @@ export const QUESTS: readonly QuestDef[] = [
 		short: 'General health concerns',
 		description: 'Catch-all for product/ingredient health concerns not yet split into a quest.'
 	},
+	{
+		id: 'health_positive',
+		value: 'health',
+		label: 'Health-positive',
+		short: 'Clean ingredient leaders',
+		description:
+			'Companies prioritizing consumer health: clean ingredients, organic certification, transparent labeling, minimal processing.'
+	},
 
 	// ─── extraction ───────────────────────────────────────────────
 	{
@@ -95,6 +133,14 @@ export const QUESTS: readonly QuestDef[] = [
 		label: 'Extraction (general)',
 		short: 'Predatory capital',
 		description: 'Catch-all for PE-style asset-stripping not yet split into a specific quest.'
+	},
+	{
+		id: 'extraction_positive',
+		value: 'extraction',
+		label: 'Extraction-positive',
+		short: 'Stakeholder-first ownership',
+		description:
+			'Companies with ownership structures that build rather than extract value: cooperatives, employee-owned, B Corps, community-owned.'
 	},
 	{
 		id: 'extraction_sale_leaseback',
@@ -127,6 +173,14 @@ export const QUESTS: readonly QuestDef[] = [
 		label: 'Epstein network',
 		short: 'Epstein-connected owners',
 		description: 'Documented ties to the Jeffrey Epstein social/financial network.'
+	},
+	{
+		id: 'elite_impunity_positive',
+		value: 'elite_impunity',
+		label: 'Accountability-positive',
+		short: 'Transparent governance',
+		description:
+			'Companies with radical transparency, accountable governance, and leaders who use wealth for systemic accountability rather than impunity.'
 	}
 ] as const;
 
