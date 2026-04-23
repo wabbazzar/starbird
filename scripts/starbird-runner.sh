@@ -79,17 +79,31 @@ else
 fi
 echo "[starbird-runner] target=$TARGET_PAIRS budget=\$$BUDGET" >> "$LOG_FILE"
 
-# ── Step 5: Invoke Claude ───────────────────────────────────────────────
-claude -p \
-  --model "$MODEL" \
-  --dangerously-skip-permissions \
-  --max-budget-usd "$BUDGET" \
-  --output-format text \
-  "$PROMPT" \
-  >> "$LOG_FILE" 2>&1 || true
-
-EXIT=$?
-echo "[starbird-runner] Claude exited with code $EXIT" >> "$LOG_FILE"
+# ── Step 5: Invoke Claude (with retry for transient API errors) ─────────
+MAX_RETRIES=2
+RETRY=0
+EXIT=1
+while [ "$RETRY" -le "$MAX_RETRIES" ]; do
+  if [ "$RETRY" -gt 0 ]; then
+    echo "[starbird-runner] Retry $RETRY/$MAX_RETRIES after transient failure…" >> "$LOG_FILE"
+    sleep 15
+  fi
+  set +e
+  claude -p \
+    --model "$MODEL" \
+    --dangerously-skip-permissions \
+    --max-budget-usd "$BUDGET" \
+    --output-format text \
+    "$PROMPT" \
+    >> "$LOG_FILE" 2>&1
+  EXIT=$?
+  set -e
+  echo "[starbird-runner] Claude exited with code $EXIT (attempt $((RETRY+1)))" >> "$LOG_FILE"
+  if [ "$EXIT" -eq 0 ]; then
+    break
+  fi
+  RETRY=$((RETRY + 1))
+done
 
 # ── Step 6: Compute ground-truth metrics from data.json diff ────────────
 # Claude's self-reported numbers (if any) are ignored here. The only
