@@ -54,7 +54,7 @@
 
 	onMount(async () => {
 		try {
-			const resp = await fetch(`${base}/data.json`);
+			const resp = await fetch(`${base}/data.json?v=${__BUILD_ID__}`);
 			const raw = await resp.json();
 			const parsed = DataFileSchema.safeParse(raw);
 			if (!parsed.success) {

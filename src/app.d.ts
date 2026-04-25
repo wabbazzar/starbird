@@ -7,6 +7,8 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+
+	const __BUILD_ID__: string;
 }
 
 export {};
