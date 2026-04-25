@@ -20,6 +20,9 @@ const config = {
 		},
 		alias: {
 			$lib: './src/lib'
+		},
+		prerender: {
+			handleMissingId: 'ignore'
 		}
 	}
 };
