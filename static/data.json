@@ -4442,6 +4442,49 @@
         "elite_impunity_positive"
       ],
       "addedAt": "2026-04-23"
+    },
+    {
+      "id": "leonard_green",
+      "name": "Leonard Green & Partners",
+      "aum": "$85B",
+      "aumVal": 85,
+      "summary": "Los Angeles-based PE firm founded 1989 with $85B AUM. Drove Joann Fabrics to bankruptcy twice (2024, 2025) after saddling it with $1.1B debt following 2010 LBO, resulting in liquidation and 19,000 layoffs. Also extracted $658M in dividends from Prospect Medical Holdings (2010–2021), leaving the 16-hospital safety net system with $2.3B debt before January 2025 bankruptcy.",
+      "brands": [],
+      "layoffs": "19,000+ (Joann 2025) + 1,000+ (Prospect Medical)",
+      "notableBk": "Joann Fabrics (2024, 2025), Prospect Medical Holdings (2025)",
+      "harmScore": 92,
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/",
+      "cats": [
+        "retail",
+        "health"
+      ],
+      "harms": [
+        "workers_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-25"
+    },
+    {
+      "id": "audax_private_equity",
+      "name": "Audax Private Equity",
+      "aum": "$19.5B",
+      "aumVal": 19.5,
+      "summary": "Boston-based PE firm with $19.5B AUM. Created Renovo home remodeling platform in 2021 by rolling up seven regional contractors, saddled it with $150M debt from BlackRock/Apollo/Oaktree, then exited in 2024. Company collapsed October 2025 with $100M+ liabilities and $50k assets, leaving 1,500+ employees without final paychecks and thousands of homeowners with unfinished projects.",
+      "brands": [],
+      "layoffs": "1,500+ (Renovo 2025)",
+      "notableBk": "Renovo Home Partners (2025)",
+      "harmScore": 88,
+      "source": "https://www.law360.com/articles/2407838/home-remodel-group-renovo-files-ch-7-with-100m-debt",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "workers_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-25"
     }
   ],
   "brands": [
@@ -8838,6 +8881,67 @@
         "elite_impunity_positive"
       ],
       "addedAt": "2026-04-23"
+    },
+    {
+      "id": "joann",
+      "avoid": "Joann",
+      "ownership": [
+        {
+          "firmId": "leonard_green",
+          "stake": "majority",
+          "since": 2010
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Leonard Green acquired Joann for $1.6B in 2010, loaded it with $1.1B debt, then drove it to bankruptcy twice in under a year (March 2024, January 2025). Liquidated all 800 stores by May 2025, laying off 19,000 employees with no severance.",
+      "harms": [
+        "workers_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-25"
+    },
+    {
+      "id": "prospect_medical",
+      "avoid": "Prospect Medical Holdings",
+      "ownership": [
+        {
+          "firmId": "leonard_green",
+          "stake": "majority (2010-2021)",
+          "since": 2010
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Leonard Green owned 2010–2021 and extracted $658M in dividends (Senate Budget Committee report), leaving the 16-hospital safety net system with $2.3B debt and deteriorating facilities. Filed bankruptcy January 2025 with over 1,000 layoffs and 100,000+ creditors including unpaid employees and pensioners.",
+      "harms": [
+        "workers_general",
+        "extraction_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-25"
+    },
+    {
+      "id": "renovo",
+      "avoid": "Renovo Home Partners",
+      "ownership": [
+        {
+          "firmId": "audax_private_equity",
+          "stake": "majority (2021-2024)",
+          "since": 2021
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Audax PE roll-up combining seven regional remodelers (NEWPRO, Minnesota Rusco, Dreamstyle, Alure, others) in 2021 with $150M debt from BlackRock/Apollo/Oaktree. Collapsed October 2025 with Chapter 7 filing listing $100M+ debt vs $50k assets. 1,500+ workers terminated without final paychecks or severance; thousands of homeowners left with unfinished projects and lost deposits.",
+      "harms": [
+        "workers_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-25"
     }
   ]
 }
