@@ -6,12 +6,13 @@
 
 	const ogImage = `https://wabbazzar.github.io/starbird/cards/${data.id}.png`;
 	const cardUrl = `https://wabbazzar.github.io/starbird/card/${data.id}/`;
-	const appUrl = `${base}/`;
+	const appUrl = `${base}/#${data.id}`;
 
-	// Redirect browser to the main app. OG crawlers don't execute JS,
-	// so they see the meta tags below and render a preview card.
+	// Redirect browser to the main app, with the entry id in the hash so
+	// the homepage can jump to that specific card. OG crawlers don't
+	// execute JS, so they see the meta tags below and render a preview.
 	onMount(() => {
-		window.location.href = appUrl;
+		window.location.replace(appUrl);
 	});
 </script>
 

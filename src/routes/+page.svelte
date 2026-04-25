@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { userValues, hasOnboarded } from '$lib/stores/userValues';
-	import { classify, valueTags, type Brand, type Firm } from '$lib/types';
+	import { classify, intrinsicKind, valueTags, type Brand, type Firm } from '$lib/types';
 	import { DataFileSchema } from '$lib/schema';
 
 	import TopBar from '$lib/components/TopBar.svelte';
@@ -67,12 +67,41 @@
 			brands = parsed.data.brands as Brand[];
 			loading = false;
 			if (!$hasOnboarded) showOnboarding = true;
+			deepLinkToHash();
 		} catch (err) {
 			console.error('failed to load data.json', err);
 			loadError = String(err);
 			loading = false;
 		}
 	});
+
+	/**
+	 * If the user landed via /card/<id>/ (which redirects to /#<id>),
+	 * jump to the matching brand or firm card. Resets filters first
+	 * so the target isn't hidden by an active category or match-only
+	 * toggle. Switches panel based on whether the id is a firm or
+	 * a brand.
+	 */
+	async function deepLinkToHash() {
+		const id = decodeURIComponent(location.hash.replace(/^#/, ''));
+		if (!id) return;
+		const isFirm = firms.some((f) => f.id === id);
+		const isBrand = brands.some((b) => b.id === id);
+		if (!isFirm && !isBrand) return;
+		cat = 'all';
+		matchOnly = false;
+		recentOnly = false;
+		panel = isFirm ? 'firms' : 'brands';
+		// Wait for Svelte to re-render the (now unfiltered) list, then scroll.
+		await new Promise((r) => requestAnimationFrame(() => r(null)));
+		await new Promise((r) => requestAnimationFrame(() => r(null)));
+		const el = document.getElementById(`entry-${id}`);
+		if (el) {
+			el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			el.classList.add('card-deep-linked');
+			setTimeout(() => el.classList.remove('card-deep-linked'), 1800);
+		}
+	}
 
 	/**
 	 * Highest-impact first: sort by the parent firm's harmScore descending.
@@ -188,10 +217,12 @@
 				<div class="count">{filteredBrands.length} brands</div>
 				{#each filteredBrands as b (b.id)}
 					{@const c = classify(b.harms, b.aligns, $userValues)}
+					{@const intrinsic = intrinsicKind(b.harms, b.aligns)}
 					{@const t = valueTags(b.harms, b.aligns, $userValues)}
 					<BrandCard
 						brand={b}
 						classification={c.kind}
+						{intrinsic}
 						tags={t}
 						{firmById}
 					/>
@@ -203,8 +234,9 @@
 			{:else}
 				{#each filteredFirms as f (f.id)}
 					{@const c = classify(f.harms, f.aligns, $userValues)}
+					{@const intrinsic = intrinsicKind(f.harms, f.aligns)}
 					{@const t = valueTags(f.harms, f.aligns, $userValues)}
-					<FirmCard firm={f} classification={c.kind} tags={t} />
+					<FirmCard firm={f} classification={c.kind} {intrinsic} tags={t} />
 				{/each}
 			{/if}
 		{:else if panel === 'charts'}

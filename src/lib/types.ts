@@ -51,6 +51,21 @@ export interface DataFile {
 export type Classification = 'avoid' | 'align' | 'neutral';
 
 /**
+ * The entry's intrinsic position — does it sit on the negative or positive
+ * side of the spectrum, regardless of the user's selected values? Used to
+ * paint the card surface so a positive entry reads green and a negative
+ * one reads red even before any onboarding has happened.
+ */
+export function intrinsicKind(
+	harms: QuestId[],
+	aligns: QuestId[]
+): Classification {
+	if (harms.length > aligns.length) return 'avoid';
+	if (aligns.length > harms.length) return 'align';
+	return 'neutral';
+}
+
+/**
  * Classify an entry against the user's selected *values*. Harms and aligns
  * are stored as QuestIds, but the onboarding modal still picks values, so
  * we roll quests up to their parent value at classify time.

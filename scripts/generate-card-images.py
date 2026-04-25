@@ -32,12 +32,26 @@ ALIGN = "#5fbf7a"
 
 QUEST_TO_VALUE = {
     "workers_general": "Workers", "workers_ice_cooperation": "Workers",
-    "workers_mass_layoffs": "Workers", "environment_general": "Environment",
-    "animals_general": "Animals", "health_general": "Health",
+    "workers_mass_layoffs": "Workers", "workers_positive": "Workers",
+    "environment_general": "Environment", "environment_positive": "Environment",
+    "animals_general": "Animals", "animals_positive": "Animals",
+    "health_general": "Health", "health_positive": "Health",
     "extraction_general": "Extraction", "extraction_sale_leaseback": "Extraction",
-    "extraction_debt_loading": "Extraction", "elite_impunity_general": "Elite impunity",
-    "elite_impunity_epstein_network": "Elite impunity",
+    "extraction_debt_loading": "Extraction", "extraction_positive": "Extraction",
+    "elite_impunity_general": "Elite impunity", "elite_impunity_epstein_network": "Elite impunity",
+    "elite_impunity_positive": "Elite impunity",
 }
+
+
+def card_intent(harms, aligns):
+    """Return (verdict_text, accent_color) for a card given its tags.
+    Mirrors `intrinsicKind` in src/lib/types.ts: more harms than aligns
+    reads as negative, more aligns than harms reads as positive."""
+    if len(harms) > len(aligns):
+        return "Conflicts with your values", AVOID
+    if len(aligns) > len(harms):
+        return "Aligns with your values", ALIGN
+    return "In Starbird's database", INK_MUTED
 
 # Fonts
 try:
@@ -108,7 +122,14 @@ def render_card(
     draw.text((cx, cy), verdict.upper(), fill=verdict_color, font=FONT_SMALL)
     cy += 28
 
-    # Value chips (simple text pills)
+    # Value chips (simple text pills) — colored to match the verdict accent
+    if verdict_color == ALIGN:
+        chip_fill = (95, 191, 122, 40)
+    elif verdict_color == AVOID:
+        chip_fill = (224, 108, 95, 40)
+    else:
+        chip_fill = (160, 152, 144, 40)
+    chip_text = verdict_color
     chip_x = cx
     for label in value_labels:
         tw = draw.textlength(label, font=FONT_CHIP)
@@ -118,11 +139,11 @@ def render_card(
         chip_bg = Image.new("RGBA", (chip_w, chip_h), (0, 0, 0, 0))
         chip_draw = ImageDraw.Draw(chip_bg)
         chip_draw.rounded_rectangle([0, 0, chip_w - 1, chip_h - 1], radius=12,
-                                     fill=(224, 108, 95, 40), outline=AVOID)
+                                     fill=chip_fill, outline=verdict_color)
         img.paste(Image.alpha_composite(
             Image.new("RGBA", (chip_w, chip_h), (0, 0, 0, 0)), chip_bg
         ).convert("RGB"), (chip_x, cy), chip_bg.split()[3])
-        draw.text((chip_x + 10, cy + 4), label, fill=AVOID, font=FONT_CHIP)
+        draw.text((chip_x + 10, cy + 4), label, fill=chip_text, font=FONT_CHIP)
         chip_x += chip_w + 8
         if chip_x > W - 120:
             chip_x = cx
@@ -162,13 +183,16 @@ def main():
             name = firm["name"] if firm else o["firmId"]
             owners.append(name)
         subtitle = f"Owned by {', '.join(owners)}" if owners else ""
-        values = get_values(b.get("harms", []))
+        harms = b.get("harms", [])
+        aligns = b.get("aligns", [])
+        verdict, color = card_intent(harms, aligns)
+        values = get_values(harms + aligns)
 
         img = render_card(
             name=b["avoid"],
             subtitle=subtitle,
-            verdict="Conflicts with your values",
-            verdict_color=AVOID,
+            verdict=verdict,
+            verdict_color=color,
             value_labels=values,
             why_text=b.get("why", ""),
             footer_extra=b.get("cat", "").upper(),
@@ -178,12 +202,15 @@ def main():
 
     # Firms
     for f in data["firms"]:
-        values = get_values(f.get("harms", []))
+        harms = f.get("harms", [])
+        aligns = f.get("aligns", [])
+        verdict, color = card_intent(harms, aligns)
+        values = get_values(harms + aligns)
         img = render_card(
             name=f["name"],
             subtitle=f"Harm score: {f['harmScore']}/100" if f.get("harmScore") else "",
-            verdict="Conflicts with your values",
-            verdict_color=AVOID,
+            verdict=verdict,
+            verdict_color=color,
             value_labels=values,
             why_text=f.get("summary", ""),
             footer_extra=f.get("aum", ""),

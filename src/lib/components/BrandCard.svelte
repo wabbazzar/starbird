@@ -6,11 +6,12 @@
 	type Props = {
 		brand: Brand;
 		classification: Classification;
+		intrinsic: Classification;
 		tags: ValueTag[];
 		firmById: Map<string, Firm>;
 	};
 
-	let { brand, classification, tags, firmById }: Props = $props();
+	let { brand, classification, intrinsic, tags, firmById }: Props = $props();
 	let showDetails = $state(false);
 
 	const verdict = $derived(
@@ -68,9 +69,10 @@
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <article
+	id="entry-{brand.id}"
 	class="card"
-	class:card-avoid={classification === 'avoid'}
-	class:card-align={classification === 'align'}
+	class:card-avoid={intrinsic === 'avoid'}
+	class:card-align={intrinsic === 'align'}
 	onclick={toggleDetails}
 >
 	<header>

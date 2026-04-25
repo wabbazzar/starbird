@@ -137,7 +137,15 @@ NEW_ENTITIES=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.lo
 
 if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
   cd "$STARBIRD_DIR"
-  git add static/data.json
+
+  # Regenerate share card PNGs so newly-added entities get an OG image.
+  # The script is idempotent and overwrites all cards deterministically;
+  # `git add static/cards/` only stages files that actually changed.
+  echo "[starbird-runner] regenerating share card PNGs…" >> "$LOG_FILE"
+  python3 "$STARBIRD_DIR/scripts/generate-card-images.py" >> "$LOG_FILE" 2>&1 || \
+    echo "[starbird-runner] WARN: card image generation failed" >> "$LOG_FILE"
+
+  git add static/data.json static/cards/
   git commit -m "Runner: $NEW_ENTITIES entity(ies) for $PICKED_STRATEGY
 
 strategy: $PICKED_STRATEGY

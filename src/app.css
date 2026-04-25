@@ -132,6 +132,13 @@
 		border-left: 3px solid var(--align);
 		box-shadow: inset 8px 0 20px -10px var(--align-dim);
 	}
+	.card-deep-linked {
+		animation: card-flash 1.6s ease-out;
+	}
+	@keyframes card-flash {
+		0%   { box-shadow: 0 0 0 2px var(--primary), 0 0 0 6px var(--primary-glow); }
+		100% { box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent; }
+	}
 
 	.chip {
 		display: inline-flex;
