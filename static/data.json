@@ -393,14 +393,15 @@
       "name": "Thoma Bravo",
       "aum": "$160B",
       "aumVal": 160,
-      "summary": "Software-focused PE giant. Took Anaplan private for $10.7B in 2022, immediately laid off hundreds and offshored jobs. Glassdoor: 'cut their way to profitability at any cost.'",
+      "summary": "Software-focused PE giant. Took Anaplan private for $10.7B in 2022, immediately laid off hundreds and offshored jobs. Glassdoor: 'cut their way to profitability at any cost.' Acquired Dayforce for $12.3B in 2025, financed with $6B debt package from Goldman Sachs ($5.5B term loan + $500M revolver), the largest buyout financing of 2025.",
       "brands": [
         "Anaplan",
         "Coupa Software",
         "SolarWinds (partial)",
         "Proofpoint",
         "Sophos",
-        "SailPoint"
+        "SailPoint",
+        "Dayforce (2025)"
       ],
       "layoffs": "300\u2013500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
@@ -411,7 +412,8 @@
       ],
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "extraction_debt_loading"
       ],
       "aligns": [],
       "addedAt": "2026-04-11"
@@ -4485,6 +4487,52 @@
       ],
       "aligns": [],
       "addedAt": "2026-04-25"
+    },
+    {
+      "id": "saudi_pif",
+      "name": "Saudi Arabia Public Investment Fund",
+      "aum": "$925B",
+      "aumVal": 925,
+      "summary": "Saudi Arabia's sovereign wealth fund. Acquired 93.4% of Electronic Arts in $55B LBO (2025), the largest leveraged buyout in history. Deal financed with $20B debt from JPMorgan, loading EA with significant leverage. PIF has investments across gaming, sports, and tech sectors.",
+      "brands": [
+        "Electronic Arts (93.4% stake, 2025)"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.tweaktown.com/news/109181/saudis-will-essentially-own-ea-after-dollars55-billion-buyout-pif-to-gain-93-percent-stake/index.html",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-26"
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock",
+      "aum": "$10T+",
+      "aumVal": 10000,
+      "summary": "World's largest asset manager. Led $40B acquisition of Aligned Data Centers (2025) via AI Infrastructure Partnership consortium including Microsoft, Nvidia, MGX, and sovereign wealth funds. Deal structured with significant debt leverage targeting $100B total including debt financing.",
+      "brands": [
+        "Aligned Data Centers (via AIP consortium, 2025)"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.datacenterfrontier.com/hyperscale/article/55323360/blackrock-led-consortium-to-acquire-aligned-data-centers-in-40-billion-ai-infrastructure-deal",
+      "cats": [
+        "tech",
+        "finance"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-26"
     }
   ],
   "brands": [
@@ -5091,11 +5139,12 @@
         "Walmart Pharmacy",
         "Independent pharmacies"
       ],
-      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities. Pharmacy closures in rural and underserved communities create pharmacy deserts \u2014 residents lose their closest source of medications, vaccinations, and clinical services, disproportionately affecting elderly and low-income populations.",
+      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities. Pharmacy closures in rural and underserved communities create pharmacy deserts \u2014 residents lose their closest source of medications, vaccinations, and clinical services, disproportionately affecting elderly and low-income populations. Sycamore financed the $23.7B buyout with 83% debt ($18.2B), more than double the industry average of 41%, per SEC filings and Private Equity Stakeholder Project analysis.",
       "harms": [
         "workers_general",
         "extraction_general",
-        "health_general"
+        "health_general",
+        "extraction_debt_loading"
       ],
       "aligns": [],
       "addedAt": "2026-04-11"
@@ -8944,6 +8993,65 @@
       ],
       "aligns": [],
       "addedAt": "2026-04-25"
+    },
+    {
+      "id": "electronic_arts",
+      "avoid": "Electronic Arts (EA)",
+      "ownership": [
+        {
+          "firmId": "saudi_pif",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Taken private in $55B LBO by Saudi PIF consortium in 2025, the largest leveraged buyout in history. Deal loaded EA with $20B in debt (JPMorgan-led financing), shifting from public accountability to sovereign wealth fund control. PIF holds 93.4% stake, with Silver Lake and Affinity Partners holding minority positions.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-26"
+    },
+    {
+      "id": "aligned_data_centers",
+      "avoid": "Aligned Data Centers",
+      "ownership": [
+        {
+          "firmId": "blackrock",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Acquired by BlackRock-led AI Infrastructure Partnership consortium for $40B in 2025, one of the largest data center acquisitions ever. Deal structured to reach $100B including debt financing, targeting AI infrastructure expansion. Consortium includes Microsoft, Nvidia, MGX, and sovereign wealth funds.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-26"
+    },
+    {
+      "id": "dayforce",
+      "avoid": "Dayforce",
+      "ownership": [
+        {
+          "firmId": "thoma_bravo",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Taken private by Thoma Bravo in $12.3B LBO completed in 2025. Deal loaded the HR software company with $6B in debt (Goldman Sachs-led financing: $5.5B term loan + $500M revolver), making it the largest buyout financing of 2025. Loan rated B-/B3, indicating high default risk. Transaction included minority stake from Abu Dhabi Investment Authority.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-04-26"
     }
   ]
 }
