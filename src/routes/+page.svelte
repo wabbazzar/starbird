@@ -27,6 +27,7 @@
 	let search = $state('');
 	let matchOnly = $state(false);
 	let recentOnly = $state(false);
+	let sortDir = $state<'desc' | 'asc'>('desc');
 	let showOnboarding = $state(false);
 	let showEditValues = $state(false);
 
@@ -146,7 +147,7 @@
 			.sort((a, b) => {
 				const sa = brandImpactScore(a);
 				const sb = brandImpactScore(b);
-				if (sb !== sa) return sb - sa;
+				if (sb !== sa) return sortDir === 'desc' ? sb - sa : sa - sb;
 				const ea = a.why && a.why.length > 20 ? 1 : 0;
 				const eb = b.why && b.why.length > 20 ? 1 : 0;
 				return eb - ea;
@@ -169,7 +170,7 @@
 				if (recentOnly && f.addedAt !== latestDate()) return false;
 				return true;
 			})
-			.sort((a, b) => b.harmScore - a.harmScore);
+			.sort((a, b) => (sortDir === 'desc' ? b.harmScore - a.harmScore : a.harmScore - b.harmScore));
 	});
 </script>
 
@@ -202,6 +203,8 @@
 			ontoggleMatch={() => (matchOnly = !matchOnly)}
 			{recentOnly}
 			ontoggleRecent={() => (recentOnly = !recentOnly)}
+			{sortDir}
+			ontogglesort={() => (sortDir = sortDir === 'desc' ? 'asc' : 'desc')}
 		/>
 	{/if}
 

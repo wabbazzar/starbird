@@ -1,5 +1,6 @@
 <script lang="ts">
 	type Cat = { id: string; label: string };
+	type SortDir = 'desc' | 'asc';
 	type Props = {
 		activeCat: string;
 		onchange: (id: string) => void;
@@ -7,9 +8,20 @@
 		ontoggleMatch: () => void;
 		recentOnly: boolean;
 		ontoggleRecent: () => void;
+		sortDir: SortDir;
+		ontogglesort: () => void;
 	};
 
-	let { activeCat, onchange, matchOnly, ontoggleMatch, recentOnly, ontoggleRecent }: Props = $props();
+	let {
+		activeCat,
+		onchange,
+		matchOnly,
+		ontoggleMatch,
+		recentOnly,
+		ontoggleRecent,
+		sortDir,
+		ontogglesort
+	}: Props = $props();
 
 	const CATS: Cat[] = [
 		{ id: 'all', label: 'All' },
@@ -41,6 +53,16 @@
 		onclick={ontoggleRecent}
 	>
 		★ New
+	</button>
+	<button
+		type="button"
+		class="chip"
+		class:chip-active={sortDir === 'asc'}
+		onclick={ontogglesort}
+		aria-label="Toggle harm score sort direction"
+		title={sortDir === 'desc' ? 'Highest harm first — click to flip' : 'Lowest harm first — click to flip'}
+	>
+		{sortDir === 'desc' ? '↓' : '↑'} Harm
 	</button>
 	<span class="divider"></span>
 	{#each CATS as c (c.id)}
