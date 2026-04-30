@@ -69,6 +69,21 @@ given. Execute the strategy above and only that strategy.)"
 
 MODEL="sonnet"
 
+# Pin the Claude Code binary. The auto-updated 2.1.123 ships a regression
+# that throws "API Error: 400 due to tool use concurrency issues" on the
+# runner's tool-heavy research prompt — reproduced 3/3 retries on
+# 2026-04-30. 2.1.122 is the last version that ran the runner cleanly
+# (yesterday, 2026-04-29). Override with `CLAUDE_BIN=...` if you need to
+# test a different version. Revisit + drop this pin once Anthropic ships
+# a fix on a newer version.
+CLAUDE_BIN="${CLAUDE_BIN:-/home/wabbazzar/.local/share/claude/versions/2.1.122}"
+if [ ! -x "$CLAUDE_BIN" ]; then
+  echo "[starbird-runner] FATAL: pinned claude binary not found at $CLAUDE_BIN" >> "$LOG_FILE"
+  echo "[starbird-runner] falling back to system claude on PATH" >> "$LOG_FILE"
+  CLAUDE_BIN="$(command -v claude)"
+fi
+echo "[starbird-runner] using claude binary: $CLAUDE_BIN ($("$CLAUDE_BIN" --version 2>/dev/null | head -1))" >> "$LOG_FILE"
+
 # Budget scales with target: $0.50 per pair + $0.50 overhead, capped.
 BUDGET_BASE=$(python3 -c "print(max(0.50, 0.50 * $TARGET_PAIRS + 0.50))")
 if [ "$MODE" = "dry-run" ]; then
@@ -89,7 +104,7 @@ while [ "$RETRY" -le "$MAX_RETRIES" ]; do
     sleep 15
   fi
   set +e
-  claude -p \
+  "$CLAUDE_BIN" -p \
     --model "$MODEL" \
     --dangerously-skip-permissions \
     --max-budget-usd "$BUDGET" \
