@@ -4493,20 +4493,21 @@
       "name": "Saudi Arabia Public Investment Fund",
       "aum": "$925B",
       "aumVal": 925,
-      "summary": "Saudi Arabia's sovereign wealth fund. Acquired 93.4% of Electronic Arts in $55B LBO (2025), the largest leveraged buyout in history. Deal financed with $20B debt from JPMorgan, loading EA with significant leverage. PIF has investments across gaming, sports, and tech sectors.",
+      "summary": "Saudi Arabia's sovereign wealth fund. Acquired 93.4% of Electronic Arts in $55B LBO (2025), the largest leveraged buyout in history. Deal financed with $20B debt from JPMorgan, loading EA with significant leverage. PIF has investments across gaming, sports, and tech sectors. Crown Prince Mohammed bin Salman (MBS), who controls PIF, was assessed by the U.S. Office of the Director of National Intelligence (declassified February 2021) as having approved the murder of Washington Post journalist Jamal Khashoggi in October 2018. No criminal charges were filed against MBS. PIF's $2B launch of LIV Golf in 2022 is a documented instance of sportswashing — using cultural and sporting investment to rehabilitate Saudi Arabia's international image in the wake of the Khashoggi killing. Flagged under elite_impunity_general.",
       "brands": [
         "Electronic Arts (93.4% stake, 2025)"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
-      "harmScore": 65,
+      "harmScore": 78,
       "source": "https://www.tweaktown.com/news/109181/saudis-will-essentially-own-ea-after-dollars55-billion-buyout-pif-to-gain-93-percent-stake/index.html",
       "cats": [
         "tech"
       ],
       "harms": [
         "extraction_general",
-        "extraction_debt_loading"
+        "extraction_debt_loading",
+        "elite_impunity_general"
       ],
       "aligns": [],
       "addedAt": "2026-04-26"
@@ -4814,6 +4815,46 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-02"
+    },
+    {
+      "id": "alticor_inc",
+      "name": "Alticor Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Private holding company owned by the DeVos and Van Andel families, controlling Amway, Quixtar, and related MLM businesses with over $8B in annual revenue. The DeVos family has donated more than $200 million to Republican and conservative causes since the 1980s (OpenSecrets.org). Betsy DeVos served as U.S. Secretary of Education (2017–2021) and used the role to weaken Obama-era borrower-defense regulations protecting students from predatory for-profit colleges — a policy posture aligned with the family's long-standing opposition to federal regulation. The FTC investigated Amway for operating as a pyramid scheme in 1975 and issued a consent order widely criticized by consumer advocates as inadequate. Richard DeVos Sr. admitted to bribing Canadian government officials in 1982 (Canadian Federal Court of Appeal records); no U.S. charges followed. The DeVos family's offshore trust structures were named in ICIJ's Pandora Papers (2021).",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 73,
+      "source": "https://www.opensecrets.org/orgs/alticor-inc/summary?id=D000000082",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-04"
+    },
+    {
+      "id": "renaissance_technologies",
+      "name": "Renaissance Technologies LLC",
+      "aum": "$130B",
+      "aumVal": 130,
+      "summary": "Quantitative hedge fund founded by mathematician James Simons. Co-CEO Robert Mercer and daughter Rebekah Mercer used Renaissance profits to fund a network of political influence operations. A 2014 investigation by the U.S. Senate Permanent Subcommittee on Investigations found that Renaissance Technologies used 'basket options' through Deutsche Bank and Barclays to recharacterize short-term trading gains as long-term capital gains, evading an estimated $6.8 billion in U.S. taxes. Renaissance settled with the IRS in 2021 for approximately $7 billion without criminal charges against any individual. Robert Mercer provided over $10 million to Breitbart News and funded Cambridge Analytica — a data firm the UK Information Commissioner's Office (ICO) found had improperly harvested 87 million Facebook profiles to target voters in the 2016 U.S. election. No criminal charges were filed against Mercer or any Renaissance executive for either the tax avoidance scheme or the Cambridge Analytica operations.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-04"
     }
   ],
   "brands": [
@@ -9621,6 +9662,64 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-03"
+    },
+    {
+      "id": "amway",
+      "avoid": "Amway",
+      "ownership": [
+        {
+          "firmId": "alticor_inc",
+          "stake": "majority",
+          "since": "1959"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Amway, the world's largest multi-level marketing company owned by the DeVos and Van Andel families via Alticor Inc., has operated with near-complete regulatory impunity for 50 years despite widespread pyramid-scheme complaints. The FTC's 1979 consent order left the MLM structure intact; since then hundreds of thousands of participants have lost money while the founding families accumulated combined net worth exceeding $8B. Owner Betsy DeVos served as Secretary of Education and dismantled student-loan protections that would have helped victims of predatory for-profit college schemes structurally similar to Amway's. Richard DeVos Sr. admitted to bribing Canadian government officials in 1982 with no resulting U.S. criminal charges. ICIJ's Pandora Papers (2021) documented offshore DeVos family trusts sheltering wealth from taxation.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-04"
+    },
+    {
+      "id": "liv_golf",
+      "avoid": "LIV Golf",
+      "ownership": [
+        {
+          "firmId": "saudi_pif",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "LIV Golf is a professional golf league backed by Saudi Arabia's Public Investment Fund (PIF) with over $2B in committed capital. PIF is controlled by Crown Prince Mohammed bin Salman (MBS), whom the U.S. Office of the Director of National Intelligence assessed in a declassified February 2021 report as having approved the murder of Washington Post journalist Jamal Khashoggi in October 2018. No criminal accountability followed — MBS remained in power and expanded Saudi cultural influence via LIV Golf, Newcastle United F.C., and a global sports portfolio. Critics and human rights advocates — including Khashoggi's fiancée Hatice Cengiz — describe LIV Golf as a vehicle for laundering Saudi Arabia's international reputation, a practice scholars call sportswashing. The league's guaranteed player contracts totaling hundreds of millions of dollars have been widely reported by the Washington Post, Guardian, and Associated Press.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-04"
+    },
+    {
+      "id": "breitbart_news",
+      "avoid": "Breitbart News",
+      "ownership": [
+        {
+          "firmId": "renaissance_technologies",
+          "stake": "former",
+          "since": "2011",
+          "until": "2018"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Breitbart News received over $10 million in funding from Renaissance Technologies co-CEO Robert Mercer starting around 2011, becoming the primary media platform for a network of influence operations Mercer bankrolled. The same network funded Cambridge Analytica, which the UK Information Commissioner's Office found improperly harvested 87 million Facebook profiles for 2016 voter targeting. The U.S. Senate Permanent Subcommittee on Investigations found in 2014 that Renaissance Technologies evaded an estimated $6.8 billion in taxes via 'basket option' structures; the firm settled with the IRS for ~$7 billion in 2021 without criminal charges against any individual. Mercer sold his Breitbart stake in 2018 following Cambridge Analytica fallout, but no regulatory action targeted him personally. The platform he built continues to operate as a major far-right media outlet, with financial infrastructure established during a period of documented accountability avoidance (New Yorker, March 2017).",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-04"
     }
   ]
 }
