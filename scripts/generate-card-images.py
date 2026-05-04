@@ -160,11 +160,113 @@ def render_card(
         draw.text((cx, cy + 2), line, fill=INK_MUTED, font=FONT_TEXT)
         cy += 24
 
-    # Footer
-    draw.text((cx, H - 56), "→ wabbazzar.github.io/starbird", fill=PRIMARY, font=FONT_URL)
+    # Footer — category/AUM only, right-aligned. The image is intended for
+    # social previews where the platform already shows the URL above the
+    # card, so we don't repeat it here.
     if footer_extra:
         draw.text((W - 56 - draw.textlength(footer_extra, font=FONT_URL), H - 56),
                   footer_extra, fill=INK_FAINT, font=FONT_URL)
+
+    return img
+
+
+def render_default(stats):
+    """Default OG image used when the homepage URL is shared. Shows the
+    Starbird wordmark + tagline + the six value pillars + a live stat
+    line, all on the same dark surface used by per-entry cards."""
+    img = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(img)
+
+    # Dark hero panel — same surface treatment as a per-entry card.
+    draw.rounded_rectangle([32, 32, W - 32, H - 32], radius=14, fill=SURFACE)
+
+    # Logo + STARBIRD wordmark, centered as a unit
+    try:
+        title_font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 96
+        )
+        tagline_font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 26
+        )
+        chip_font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", 22
+        )
+        stat_font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", 18
+        )
+    except Exception:
+        title_font = tagline_font = chip_font = stat_font = ImageFont.load_default()
+
+    logo = None
+    if LOGO.exists():
+        logo = Image.open(LOGO).convert("RGBA").resize((96, 96), Image.LANCZOS)
+
+    title_text = "STARBIRD"
+    title_w = int(draw.textlength(title_text, font=title_font))
+    block_w = (96 + 24 if logo else 0) + title_w
+    block_x = (W - block_w) // 2
+    title_y = 110
+
+    if logo:
+        img.paste(logo, (block_x, title_y), logo)
+        block_x += 96 + 24
+    draw.text((block_x, title_y + 4), title_text, fill=INK, font=title_font)
+
+    # Tagline, centered below the title
+    tagline = "Shop in line with your values."
+    tag_w = draw.textlength(tagline, font=tagline_font)
+    draw.text(((W - tag_w) // 2, 240), tagline, fill=INK_MUTED, font=tagline_font)
+
+    sub = "Track which brands align — and which don't."
+    sub_w = draw.textlength(sub, font=tagline_font)
+    draw.text(((W - sub_w) // 2, 278), sub, fill=INK_FAINT, font=tagline_font)
+
+    # Six value chips, two rows × three columns, centered as a block
+    chips = [
+        ("◆", "Workers"),
+        ("◇", "Environment"),
+        ("○", "Animals"),
+        ("△", "Health"),
+        ("▣", "Extraction"),
+        ("▲", "Elite impunity"),
+    ]
+    chip_h = 40
+    chip_pad_x = 16
+    chip_gap = 12
+
+    def chip_width(icon, label):
+        return int(draw.textlength(f"{icon}  {label}", font=chip_font)) + 2 * chip_pad_x
+
+    rows = [chips[:3], chips[3:]]
+    row_y = 360
+    for row in rows:
+        row_w = sum(chip_width(i, l) for i, l in row) + chip_gap * (len(row) - 1)
+        x = (W - row_w) // 2
+        for icon, label in row:
+            cw = chip_width(icon, label)
+            draw.rounded_rectangle(
+                [x, row_y, x + cw, row_y + chip_h],
+                radius=20,
+                fill=(31, 31, 31),
+                outline=(60, 60, 60),
+                width=1,
+            )
+            draw.text(
+                (x + chip_pad_x, row_y + 7),
+                f"{icon}  {label}",
+                fill=INK_MUTED,
+                font=chip_font,
+            )
+            x += cw + chip_gap
+        row_y += chip_h + chip_gap
+
+    # Stat strip near the bottom — live data, regenerated on every run
+    stat_text = (
+        f"{stats['brands']} brands · {stats['firms']} firms · "
+        f"{stats['aum']} combined AUM tracked"
+    )
+    stat_w = draw.textlength(stat_text, font=stat_font)
+    draw.text(((W - stat_w) // 2, H - 80), stat_text, fill=INK_FAINT, font=stat_font)
 
     return img
 
@@ -217,6 +319,21 @@ def main():
         )
         img.save(OUT / f"{f['id']}.png")
         count += 1
+
+    # Default OG image — used by the homepage's <svelte:head> when the
+    # bare URL is shared (iMessage, Slack, Twitter, etc.).
+    total_aum = sum(f.get("aumVal", 0) for f in data["firms"])
+    if total_aum >= 1000:
+        aum_label = f"${total_aum / 1000:.1f}T"
+    else:
+        aum_label = f"${total_aum:.0f}B"
+    default_img = render_default({
+        "brands": len(data["brands"]),
+        "firms": len(data["firms"]),
+        "aum": aum_label,
+    })
+    default_img.save(OUT / "_default.png")
+    count += 1
 
     print(f"generated {count} card images in {OUT}")
 

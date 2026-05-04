@@ -4,8 +4,8 @@
 
 	let { data } = $props();
 
-	const ogImage = `https://wabbazzar.github.io/starbird/cards/${data.id}.png`;
-	const cardUrl = `https://wabbazzar.github.io/starbird/card/${data.id}/`;
+	const ogImage = `https://wabbazzar.com/starbird/cards/${data.id}.png`;
+	const cardUrl = `https://wabbazzar.com/starbird/card/${data.id}/`;
 	const appUrl = `${base}/#${data.id}`;
 
 	// Redirect browser to the main app, with the entry id in the hash so

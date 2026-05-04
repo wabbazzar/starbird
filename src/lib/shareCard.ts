@@ -240,9 +240,9 @@ export async function renderShareCard(opts: ShareCardOpts): Promise<Blob> {
 	cy = wrapText(ctx, opts.why, cx, cy + 10, maxTextW, 26, 5);
 
 	// ── Footer ─────────────────────────────────────────────────────
-	ctx.font = "400 15px 'DM Mono', monospace";
-	ctx.fillStyle = PRIMARY;
-	ctx.fillText('→ wabbazzar.github.io/starbird', cx, cardY + cardH - 16);
+	// Intentionally blank — the platform unfurl already shows the URL
+	// outside the image, and we want the brand identity (Starbird) to
+	// dominate over the host (wabbazzar.com) inside the artwork.
 
 	// ── Export ──────────────────────────────────────────────────────
 	return new Promise<Blob>((resolve, reject) => {

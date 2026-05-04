@@ -176,14 +176,15 @@
 
 <svelte:head>
 	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Starbird" />
 	<meta property="og:title" content="Starbird" />
 	<meta property="og:description" content="Shop in line with your values. Track which brands align — and which don't." />
-	<meta property="og:image" content="https://wabbazzar.github.io/starbird/cards/palantir_technologies.png" />
-	<meta property="og:url" content="https://wabbazzar.github.io/starbird/" />
+	<meta property="og:image" content="https://wabbazzar.com/starbird/cards/_default.png" />
+	<meta property="og:url" content="https://wabbazzar.com/starbird/" />
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content="Starbird" />
 	<meta property="twitter:description" content="Shop in line with your values. Track which brands align — and which don't." />
-	<meta property="twitter:image" content="https://wabbazzar.github.io/starbird/cards/palantir_technologies.png" />
+	<meta property="twitter:image" content="https://wabbazzar.com/starbird/cards/_default.png" />
 </svelte:head>
 
 <div class="app">
