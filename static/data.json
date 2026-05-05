@@ -9720,6 +9720,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-04"
+    },
+    {
+      "id": "gillette",
+      "avoid": "Gillette",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1901"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Gillette, acquired by Procter & Gamble in 2005 for $57 billion, is the world's leading men's grooming brand. PETA lists Gillette on its 'Does Test on Animals' database: P&G conducts or commissions animal testing to satisfy regulatory requirements in markets such as China, covering Gillette's shaving, deodorant, and body care lines. Despite P&G claiming to work toward eliminating animal testing, neither Gillette nor its parent has achieved cruelty-free certification from PETA, Leaping Bunny, or Cruelty Free International. Gillette's razors, shaving gels, deodorants, and body washes are subject to animal safety testing as part of ongoing regulatory compliance (PETA cruelty-free database, crueltyfree.peta.org/company/gillette-coprocter-gamble/).",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-05"
+    },
+    {
+      "id": "mac_cosmetics",
+      "avoid": "MAC Cosmetics",
+      "ownership": [
+        {
+          "firmId": "estee_lauder",
+          "stake": "majority",
+          "since": "1994"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "MAC Cosmetics, acquired by The Estée Lauder Companies between 1994 and 1998, is one of the world's largest prestige cosmetics brands with hundreds of standalone stores globally. PETA lists MAC on its 'Does Test on Animals' database: MAC sells products in mainland China, where regulators require animal testing for many imported cosmetics. MAC's own policy confirms it does not test 'except where required by law' — which means its products are tested on animals through China's mandatory pre-market testing regime. This disqualifies MAC from cruelty-free certification by PETA, Leaping Bunny, or Cruelty Free International (PETA cruelty-free database, crueltyfree.peta.org/company/mac-cosmetics-estee-lauder/).",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-05"
+    },
+    {
+      "id": "benefit_cosmetics",
+      "avoid": "Benefit Cosmetics",
+      "ownership": [
+        {
+          "firmId": "lvmh",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Benefit Cosmetics, acquired by LVMH Moët Hennessy Louis Vuitton in 1999, is a widely popular makeup brand with playful marketing. PETA explicitly lists Benefit on its 'Does Test on Animals' database, noting that the brand sells in mainland China where pre-market animal testing is required by government regulators for imported cosmetics. PETA states: 'Benefit may use innocent imagery in its marketing, but behind the scenes, animals are used in cruel tests for its products.' Benefit does not hold cruelty-free certification from PETA, Leaping Bunny, or Cruelty Free International (PETA cruelty-free database, crueltyfree.peta.org/company/benefit-cosmetics/).",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-05"
     }
   ]
 }
