@@ -1,15 +1,15 @@
 <script lang="ts">
 	type Cat = { id: string; label: string };
+	type SortKey = 'harm' | 'date';
 	type SortDir = 'desc' | 'asc';
 	type Props = {
 		activeCat: string;
 		onchange: (id: string) => void;
 		matchOnly: boolean;
 		ontoggleMatch: () => void;
-		recentOnly: boolean;
-		ontoggleRecent: () => void;
+		sortKey: SortKey;
 		sortDir: SortDir;
-		ontogglesort: () => void;
+		onsort: (key: SortKey) => void;
 	};
 
 	let {
@@ -17,11 +17,12 @@
 		onchange,
 		matchOnly,
 		ontoggleMatch,
-		recentOnly,
-		ontoggleRecent,
+		sortKey,
 		sortDir,
-		ontogglesort
+		onsort
 	}: Props = $props();
+
+	const arrow = $derived(sortDir === 'desc' ? '↓' : '↑');
 
 	const CATS: Cat[] = [
 		{ id: 'all', label: 'All' },
@@ -49,20 +50,22 @@
 	<button
 		type="button"
 		class="chip"
-		class:chip-active={recentOnly}
-		onclick={ontoggleRecent}
+		class:chip-active={sortKey === 'harm'}
+		onclick={() => onsort('harm')}
+		aria-label="Sort by harm score"
+		title={sortKey === 'harm' ? `Harm — ${sortDir === 'desc' ? 'highest first' : 'lowest first'} — click to flip` : 'Sort by harm score'}
 	>
-		★ New
+		{arrow} Harm
 	</button>
 	<button
 		type="button"
 		class="chip"
-		class:chip-active={sortDir === 'asc'}
-		onclick={ontogglesort}
-		aria-label="Toggle harm score sort direction"
-		title={sortDir === 'desc' ? 'Highest harm first — click to flip' : 'Lowest harm first — click to flip'}
+		class:chip-active={sortKey === 'date'}
+		onclick={() => onsort('date')}
+		aria-label="Sort by date added"
+		title={sortKey === 'date' ? `Date — ${sortDir === 'desc' ? 'newest first' : 'oldest first'} — click to flip` : 'Sort by date added'}
 	>
-		{sortDir === 'desc' ? '↓' : '↑'} Harm
+		{arrow} Date
 	</button>
 	<span class="divider"></span>
 	{#each CATS as c (c.id)}

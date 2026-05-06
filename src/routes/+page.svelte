@@ -26,7 +26,7 @@
 	let cat = $state('all');
 	let search = $state('');
 	let matchOnly = $state(false);
-	let recentOnly = $state(false);
+	let sortKey = $state<'harm' | 'date'>('harm');
 	let sortDir = $state<'desc' | 'asc'>('desc');
 	let showOnboarding = $state(false);
 	let showEditValues = $state(false);
@@ -34,13 +34,17 @@
 	// firmId → Firm index for O(1) ownership lookup from BrandCard
 	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
 
-	// Most recent addedAt date across all brands and firms
-	const latestDate = $derived(() => {
-		let max = '';
-		for (const b of brands) if (b.addedAt && b.addedAt > max) max = b.addedAt;
-		for (const f of firms) if (f.addedAt && f.addedAt > max) max = f.addedAt;
-		return max;
-	});
+	// Sort entries by addedAt date; missing dates are pushed to the end
+	// regardless of direction so unstamped entries don't dominate either pole.
+	function compareByDate(a: { addedAt?: string }, b: { addedAt?: string }) {
+		const ad = a.addedAt ?? '';
+		const bd = b.addedAt ?? '';
+		if (!ad && !bd) return 0;
+		if (!ad) return 1;
+		if (!bd) return -1;
+		if (ad === bd) return 0;
+		return sortDir === 'desc' ? bd.localeCompare(ad) : ad.localeCompare(bd);
+	}
 
 	// Bound to the scroll container for scroll-to-top gestures.
 	let scrollEl: HTMLDivElement | null = $state(null);
@@ -91,7 +95,6 @@
 		if (!isFirm && !isBrand) return;
 		cat = 'all';
 		matchOnly = false;
-		recentOnly = false;
 		panel = isFirm ? 'firms' : 'brands';
 		// Wait for Svelte to re-render the (now unfiltered) list, then scroll.
 		await new Promise((r) => requestAnimationFrame(() => r(null)));
@@ -141,10 +144,15 @@
 					const c = classify(b.harms, b.aligns, $userValues);
 					if (c.kind === 'neutral') return false;
 				}
-				if (recentOnly && b.addedAt !== latestDate()) return false;
 				return true;
 			})
 			.sort((a, b) => {
+				if (sortKey === 'date') {
+					const d = compareByDate(a, b);
+					if (d !== 0) return d;
+					// Tiebreaker: harm impact within the same date, descending
+					return brandImpactScore(b) - brandImpactScore(a);
+				}
 				const sa = brandImpactScore(a);
 				const sb = brandImpactScore(b);
 				if (sb !== sa) return sortDir === 'desc' ? sb - sa : sa - sb;
@@ -167,10 +175,16 @@
 					const c = classify(f.harms, f.aligns, $userValues);
 					if (c.kind === 'neutral') return false;
 				}
-				if (recentOnly && f.addedAt !== latestDate()) return false;
 				return true;
 			})
-			.sort((a, b) => (sortDir === 'desc' ? b.harmScore - a.harmScore : a.harmScore - b.harmScore));
+			.sort((a, b) => {
+				if (sortKey === 'date') {
+					const d = compareByDate(a, b);
+					if (d !== 0) return d;
+					return b.harmScore - a.harmScore;
+				}
+				return sortDir === 'desc' ? b.harmScore - a.harmScore : a.harmScore - b.harmScore;
+			});
 	});
 </script>
 
@@ -202,10 +216,15 @@
 			onchange={(id) => (cat = id)}
 			{matchOnly}
 			ontoggleMatch={() => (matchOnly = !matchOnly)}
-			{recentOnly}
-			ontoggleRecent={() => (recentOnly = !recentOnly)}
+			{sortKey}
 			{sortDir}
-			ontogglesort={() => (sortDir = sortDir === 'desc' ? 'asc' : 'desc')}
+			onsort={(key) => {
+				if (key === sortKey) {
+					sortDir = sortDir === 'desc' ? 'asc' : 'desc';
+				} else {
+					sortKey = key;
+				}
+			}}
 		/>
 	{/if}
 
