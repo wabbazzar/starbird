@@ -14,6 +14,7 @@
 	import ChartsPanel from '$lib/components/ChartsPanel.svelte';
 	import AboutPanel from '$lib/components/AboutPanel.svelte';
 	import OnboardingModal from '$lib/components/OnboardingModal.svelte';
+	import HamburgerMenu from '$lib/components/HamburgerMenu.svelte';
 
 	type Panel = 'brands' | 'firms' | 'charts' | 'about';
 
@@ -30,6 +31,7 @@
 	let sortDir = $state<'desc' | 'asc'>('desc');
 	let showOnboarding = $state(false);
 	let showEditValues = $state(false);
+	let menuOpen = $state(false);
 
 	// firmId → Firm index for O(1) ownership lookup from BrandCard
 	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
@@ -204,9 +206,9 @@
 <div class="app">
 	<TopBar
 		searchTerm={search}
-		settingsOpen={showEditValues}
+		{menuOpen}
 		onsearch={(v) => (search = v)}
-		onsettings={() => (showEditValues = !showEditValues)}
+		onmenu={() => (menuOpen = !menuOpen)}
 		onscrolltop={scrollToTop}
 	/>
 	<StatStrip {firms} {brands} />
@@ -281,6 +283,12 @@
 			<span aria-hidden="true">↑</span>
 		</button>
 	{/if}
+
+	<HamburgerMenu
+		open={menuOpen}
+		onclose={() => (menuOpen = false)}
+		oneditValues={() => (showEditValues = true)}
+	/>
 </div>
 
 {#if showOnboarding}
