@@ -68,16 +68,17 @@
       "name": "KKR",
       "aum": "$600B",
       "aumVal": 600,
-      "summary": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after bankruptcy in 2017. Currently loading Varsity Brands with $2.4B in junk-rated debt. Owns Heartland Dental and 1-800 Contacts, where PE cost-cutting affects quality of care and product pricing.",
+      "summary": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after 2017 bankruptcy. Loaded Envision Healthcare with $7B debt in 2018 LBO ($9.9B deal), driving it to May 2023 bankruptcy with $5.6B debt; split into two companies, thousands of jobs lost. Currently loading Varsity Brands with $2.4B junk-rated debt.",
       "brands": [
         "Toys 'R' Us (bankrupt)",
         "Varsity Brands ($2.4B debt)",
         "Dollar General (exited)",
         "1-800 Contacts",
-        "Heartland Dental"
+        "Heartland Dental",
+        "Envision Healthcare (bankrupt)"
       ],
       "layoffs": "73,000+ (Toys 'R' Us alone)",
-      "notableBk": "Toys 'R' Us (2017)",
+      "notableBk": "Toys 'R' Us (2017), Envision Healthcare (2023)",
       "harmScore": 88,
       "source": "https://en.wikipedia.org/wiki/KKR_%26_Co.",
       "cats": [
@@ -155,7 +156,7 @@
       "name": "Cerberus Capital",
       "aum": "$65B",
       "aumVal": 65,
-      "summary": "Owned Steward Health Care for a decade; exited 2020. Steward then filed for bankruptcy in 2024 with $9B in liabilities, closing hospitals across 8 states. 2,650+ healthcare workers lost jobs.",
+      "summary": "Owned Steward Health Care 2010–2021, acquiring six hospitals for $895M (only $246M equity). Executed $1.2B real estate sale-leaseback in 2016, extracting $800M profit while leaving Steward with $6.6B rent obligations. Steward filed for bankruptcy May 2024 with $9B liabilities, closing hospitals across 8 states and laying off 2,650+ healthcare workers.",
       "brands": [
         "Steward Health Care (bankrupt)",
         "Albertsons (co-investor, former)",
@@ -4993,6 +4994,26 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-07"
+    },
+    {
+      "id": "thomas_h_lee_partners",
+      "name": "Thomas H. Lee Partners",
+      "aum": "$50B",
+      "aumVal": 50,
+      "summary": "Boston-based PE firm founded 1974. Acquired Party City for $2.69B in 2012, loading it with $1.5B debt. Party City filed for bankruptcy in January 2023, emerged in October 2023, then filed again in December 2024 for liquidation. Debt-service costs of $102M/year prevented investment in stores and e-commerce, leading to collapse.",
+      "brands": [],
+      "layoffs": "Party City: ~16,000 workers (2024 liquidation)",
+      "notableBk": "Party City (2023, 2024)",
+      "harmScore": 86,
+      "source": "https://www.prnewswire.com/news-releases/thomas-h-lee-partners-acquires-majority-stake-in-party-city-157185885.html",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-08"
     }
   ],
   "brands": [
@@ -10029,6 +10050,69 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-07"
+    },
+    {
+      "id": "party_city",
+      "avoid": "Party City",
+      "ownership": [
+        {
+          "firmId": "thomas_h_lee_partners",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Thomas H. Lee Partners acquired Party City for $2.69B in 2012, saddling it with $1.5B debt. Interest payments of $102M/year left no funds for store improvements or online presence. Filed for bankruptcy in January 2023, emerged briefly in October 2023, then filed again for liquidation in December 2024, closing all 700 stores.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-08"
+    },
+    {
+      "id": "steward_health_care",
+      "avoid": "Steward Health Care",
+      "ownership": [
+        {
+          "firmId": "cerberus_capital",
+          "stake": "former",
+          "since": "2010",
+          "until": "2021"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Cerberus Capital acquired six Massachusetts hospitals for $895M in 2010 (only $246M equity), then sold hospital real estate to Medical Properties Trust in 2016 for $1.2B in a sale-leaseback. Cerberus extracted $800M profit over a decade while saddling Steward with $6.6B in rent obligations. Filed for bankruptcy May 2024 with $9B liabilities, closed six hospitals, laid off 2,650+ workers.",
+      "harms": [
+        "extraction_general",
+        "health_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-08"
+    },
+    {
+      "id": "envision_healthcare",
+      "avoid": "Envision Healthcare",
+      "ownership": [
+        {
+          "firmId": "kkr",
+          "stake": "former",
+          "since": "2018",
+          "until": "2023"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "KKR acquired Envision in a 2018 LBO for $9.9B, loading it with $7B debt (70.7% of deal). Debt service from the $5.3B term loan due 2025 became unsustainable. Filed for bankruptcy May 2023 with $5.6B debt, wiping out KKR's $3.5B equity investment but leaving KKR fund with 19% annualized return. Split into two companies, eliminated thousands of physician and medical staff jobs.",
+      "harms": [
+        "extraction_general",
+        "health_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-08"
     }
   ]
 }
