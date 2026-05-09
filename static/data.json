@@ -5014,6 +5014,62 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-08"
+    },
+    {
+      "id": "roark_capital",
+      "name": "Roark Capital",
+      "aum": "$38B",
+      "aumVal": 38,
+      "summary": "Atlanta-based PE firm owning Subway ($9.6B LBO 2023), Dave's Hot Chicken ($1B acquisition June 2025), Dunkin', Baskin-Robbins, Buffalo Wild Wings, Jimmy John's, Arby's, Sonic, Cinnabon, and others. Roark took Dave's Hot Chicken private in June 2025 with a 75% stake for ~$1B, planning rapid expansion using the franchise securitization debt model where franchise fees back whole business securitization loans.",
+      "brands": [
+        "Subway",
+        "Dave's Hot Chicken",
+        "Dunkin'",
+        "Baskin-Robbins",
+        "Buffalo Wild Wings",
+        "Jimmy John's",
+        "Arby's",
+        "Sonic Drive-In",
+        "Cinnabon"
+      ],
+      "layoffs": "Portfolio-wide, especially in post-acquisition integration",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.restaurantbusinessonline.com/financing/roark-capital-acquires-daves-hot-chicken-1b-eyes-international-growth",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-09"
+    },
+    {
+      "id": "triartisan_capital",
+      "name": "TriArtisan Capital Advisors",
+      "aum": "$5B",
+      "aumVal": 5,
+      "summary": "New York-based PE firm that acquired Denny's for $620M in January 2026, loading it with $335M in debt. TriArtisan owns P.F. Chang's, and previously drove TGI Fridays and Hooters into bankruptcy (2024-2025). Acquired TGI Fridays in 2014 via $900M LBO, loading $670M debt onto the chain before its 2024 bankruptcy. Pattern: acquire legacy dining brands, debt-load them, then extract value through sale-leaseback deals and management fees.",
+      "brands": [
+        "Denny's",
+        "P.F. Chang's",
+        "TGI Fridays (post-bankrupt)",
+        "Hooters (post-bankrupt)"
+      ],
+      "layoffs": "Thousands across TGI Fridays and Hooters bankruptcies",
+      "notableBk": "TGI Fridays (2024), Hooters (2025)",
+      "harmScore": 70,
+      "source": "https://pestakeholder.org/news/pe-files-002-dennys-gets-scrambled-into-a-private-equity-omelet/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-09"
     }
   ],
   "brands": [
@@ -10113,6 +10169,64 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-08"
+    },
+    {
+      "id": "daves_hot_chicken",
+      "avoid": "Dave's Hot Chicken",
+      "ownership": [
+        {
+          "firmId": "roark_capital",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Roark Capital acquired a 75% majority stake in June 2025 for ~$1B. Roark plans aggressive franchise expansion (400 units by end of 2025, targeting 4,000 units over 10 years) using whole business securitization debt backed by franchise fees. CEO called it 'the three-year sprint to IPO,' signaling Roark's intent to flip the brand quickly after loading it with securitized debt obligations.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-09"
+    },
+    {
+      "id": "dennys",
+      "avoid": "Denny's",
+      "ownership": [
+        {
+          "firmId": "triartisan_capital",
+          "stake": "majority",
+          "since": "2026"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Taken private by TriArtisan Capital (plus Treville Capital and Yadav Enterprises) in January 2026 for $620M, with $335M in debt loaded onto the 72-year-old diner chain. TriArtisan has a track record of bankrupting legacy dining brands: TGI Fridays (acquired 2014 with $670M debt, bankrupt 2024) and Hooters (bankrupt 2025). The same playbook threatens Denny's 1,500+ locations and franchisees.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-09"
+    },
+    {
+      "id": "nothing_bundt_cakes",
+      "avoid": "Nothing Bundt Cakes",
+      "ownership": [
+        {
+          "firmId": "kkr",
+          "stake": "majority",
+          "since": "2026"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Acquired by KKR from Roark Capital in March 2026 for over $2B including debt. The Dallas-based bundt cake chain operates ~700 franchise units approaching $1B in system sales. KKR's acquisition continues the PE churn cycle where brands are passed between firms, each extraction round adding leverage and prioritizing financial engineering over sustainable operations.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-09"
     }
   ]
 }
