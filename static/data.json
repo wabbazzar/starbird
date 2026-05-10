@@ -5070,6 +5070,50 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-09"
+    },
+    {
+      "id": "dhc",
+      "name": "DHC Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Japanese health and beauty company founded in 1972, originally as a translation service (Daigaku Honyaku Center). Operates in cosmetics, skincare, supplements, and hair care. Requires animal testing on certain products sold in mainland China to comply with local regulations, per PETA.",
+      "brands": [
+        "DHC"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 50,
+      "source": "https://www.crueltyfreekitty.com/brands/dhc/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-10"
+    },
+    {
+      "id": "chanel",
+      "name": "Chanel",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Independent luxury house privately owned by the Wertheimer family (Alain and Gérard Wertheimer) via Chanel Limited. Revenue $18.7B (2024). Operates in high-end fashion, beauty, and fragrance. Products sold in mainland China where animal testing is required by law for certain cosmetics, according to PETA and Cruelty-Free Kitty.",
+      "brands": [
+        "Chanel"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "source": "https://www.crueltyfreekitty.com/brands/chanel/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-10"
     }
   ],
   "brands": [
@@ -10227,6 +10271,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-09"
+    },
+    {
+      "id": "air_wick",
+      "avoid": "Air Wick",
+      "ownership": [
+        {
+          "firmId": "reckitt",
+          "stake": "majority",
+          "since": 1943
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Air freshener and home fragrance products owned by Reckitt Benckiser. Listed by PETA on their \"Companies That Do Test on Animals\" database. The brand or its suppliers conduct animal testing, either directly or through third parties, according to Cruelty-Free Kitty.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-10"
+    },
+    {
+      "id": "dhc",
+      "avoid": "DHC",
+      "ownership": [
+        {
+          "firmId": "dhc",
+          "stake": "majority",
+          "since": 1972
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Japanese skincare, cosmetics, and supplements brand. DHC products sold in mainland China must comply with Chinese laws requiring animal testing on certain cosmetic categories. The brand is not certified cruelty-free by PETA or Leaping Bunny as of 2026.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-10"
+    },
+    {
+      "id": "chanel",
+      "avoid": "Chanel",
+      "ownership": [
+        {
+          "firmId": "chanel",
+          "stake": "majority",
+          "since": 1910
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Luxury fashion, beauty, and fragrance house. Chanel sells makeup and fragrances in mainland China where animal testing is required by law for imported cosmetics. The brand cannot be considered fully cruelty-free due to this market presence, per Cruelty-Free Kitty 2026 analysis.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-10"
     }
   ]
 }
