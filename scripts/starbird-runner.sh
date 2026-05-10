@@ -153,6 +153,21 @@ NEW_ENTITIES=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.lo
 if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
   cd "$STARBIRD_DIR"
 
+  # Pre-commit schema gate. Three runner passes have shipped invalid
+  # ownership records (numeric since/until, free-text stake) that broke
+  # the page until manually hotfixed. Reject the run before commit if
+  # zod can't parse data.json — the diff stays in the working tree for
+  # post-mortem and the next cron pass picks a fresh strategy.
+  echo "[starbird-runner] validating data.json against schema…" >> "$LOG_FILE"
+  if ! npx tsx "$STARBIRD_DIR/scripts/validate-data.mjs" >> "$LOG_FILE" 2>&1; then
+    echo "[starbird-runner] FATAL: schema validation failed — refusing to commit" >> "$LOG_FILE"
+    if [ -x "$NOTIFY" ]; then
+      "$NOTIFY" "Starbird Runner BLOCKED — schema validation" \
+        "Strategy $PICKED_STRATEGY produced data.json that fails DataFileSchema. Diff left uncommitted in $STARBIRD_DIR. See $LOG_FILE."
+    fi
+    exit 1
+  fi
+
   # Regenerate share card PNGs so newly-added entities get an OG image.
   # The script is idempotent and overwrites all cards deterministically;
   # `git add static/cards/` only stages files that actually changed.
