@@ -5170,6 +5170,26 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-11"
+    },
+    {
+      "id": "caudalie",
+      "name": "Caudalie",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Caudalie is a French skincare brand founded in 1995, known for its grape-based formulations. PETA lists Caudalie USA, Inc. as a company that tests on animals as of 2026. The company sells dark spot-correcting products in China, classified as 'products with a specific use' by Chinese authorities, which can impose mandatory animal testing for market access.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/companies-do-test/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-12"
     }
   ],
   "brands": [
@@ -10453,6 +10473,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-11"
+    },
+    {
+      "id": "bobbi_brown",
+      "avoid": "Bobbi Brown",
+      "ownership": [
+        {
+          "firmId": "estee_lauder",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Bobbi Brown is owned by The Estée Lauder Companies, which tests on animals where required by law, including when selling in stores in mainland China. Multiple sources confirm that Bobbi Brown allows its products to be tested on animals to maintain access to the Chinese cosmetics market. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-12"
+    },
+    {
+      "id": "biotherm",
+      "avoid": "Biotherm",
+      "ownership": [
+        {
+          "firmId": "loreal",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Biotherm is owned by L'Oréal and is sold in stores in mainland China, where authorities test cosmetic products on animals. PETA lists Biotherm on their animal testing list as of 2026. Although Biotherm may not conduct these tests themselves, they knowingly allow Chinese authorities to test their products on animals to sell in China. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-12"
+    },
+    {
+      "id": "caudalie",
+      "avoid": "Caudalie",
+      "ownership": [
+        {
+          "firmId": "caudalie",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Caudalie sells in the Chinese market where certain products, particularly dark spot-correcting items classified as 'products with a specific use,' can be subject to mandatory animal testing by Chinese authorities. PETA lists Caudalie USA, Inc. as a company that tests on animals. Despite the company's stated opposition to animal testing, they comply with regulatory requirements that allow animal testing for market access. Source: https://crueltyfree.peta.org/companies-do-test/",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-12"
     }
   ]
 }
