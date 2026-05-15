@@ -175,11 +175,18 @@ if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
   python3 "$STARBIRD_DIR/scripts/generate-card-images.py" >> "$LOG_FILE" 2>&1 || \
     echo "[starbird-runner] WARN: card image generation failed" >> "$LOG_FILE"
 
+  # Refresh counts come from compute-run-metrics.py — used in both the
+  # commit message and the Signal notification so updates are visible.
+  REFRESHED_FIRMS_PRE=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('refreshed_firms', 0))" 2>/dev/null || echo 0)
+  REFRESHED_BRANDS_PRE=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('refreshed_brands', 0))" 2>/dev/null || echo 0)
+  REFRESHED_TOTAL=$((REFRESHED_FIRMS_PRE + REFRESHED_BRANDS_PRE))
+
   git add static/data.json static/cards/
   git commit -m "Runner: $NEW_ENTITIES entity(ies) for $PICKED_STRATEGY
 
 strategy: $PICKED_STRATEGY
 new_entities: $NEW_ENTITIES
+refreshed: $REFRESHED_TOTAL ($REFRESHED_BRANDS_PRE brand, $REFRESHED_FIRMS_PRE firm)
 
 See tmp/runner-metrics-history.jsonl for observed metrics.
 Co-Authored-By: Starbird Runner <noreply@anthropic.com>" >> "$LOG_FILE" 2>&1 || true
@@ -201,6 +208,8 @@ VALUE_LABEL=$(python3 "$STARBIRD_DIR/scripts/labels.py" value "$STRATEGY_VALUE")
 # (not from Claude's self-report — these numbers are derived from the diff).
 NEW_FIRMS=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('new_firms', 0))" 2>/dev/null || echo 0)
 NEW_BRANDS=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('new_brands', 0))" 2>/dev/null || echo 0)
+REFRESHED_FIRMS=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('refreshed_firms', 0))" 2>/dev/null || echo 0)
+REFRESHED_BRANDS=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('refreshed_brands', 0))" 2>/dev/null || echo 0)
 EVIDENCE=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(int(100 * json.load(sys.stdin).get('evidence_coverage', 0)))" 2>/dev/null || echo 0)
 NEW_IDS=$(echo "$GROUND_TRUTH" | python3 -c "
 import json, sys
@@ -229,6 +238,7 @@ Value: $VALUE_LABEL
 Strategy: $STRATEGY_LABEL
   → $STRATEGY_DESC
 New: $NEW_BRANDS brand(s), $NEW_FIRMS firm(s) [$NEW_IDS]
+Refreshed: $REFRESHED_BRANDS brand(s), $REFRESHED_FIRMS firm(s)
 Evidence coverage: ${EVIDENCE}%
 Cost: \$$COST_HINT / ${TOKENS_HINT} tokens"
 
