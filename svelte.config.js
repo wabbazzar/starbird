@@ -16,7 +16,7 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH ?? '/starbird'
+			base: process.env.BASE_PATH ?? ''
 		},
 		alias: {
 			$lib: './src/lib'
