@@ -5242,23 +5242,28 @@
       "name": "Tesla, Inc.",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Electric vehicle and clean energy company founded in 2003, controlled by CEO Elon Musk. DOJ documents released in January 2026 show Musk exchanged at least 16 emails with Jeffrey Epstein between 2012 and 2014, including discussions about visiting Epstein's private island ('heli to island'), a February 2013 SpaceX tour that Epstein attended with three assistants, and social topics. Despite Musk's 2019 claim that he refused to visit and knew Epstein was 'a creep,' the emails document multiple coordination attempts for Caribbean meetups. Musk has not been accused of wrongdoing related to Epstein.",
+      "summary": "Electric vehicle and clean energy company founded in 2003, controlled by CEO Elon Musk. DOJ documents released in January 2026 show Musk exchanged at least 16 emails with Jeffrey Epstein between 2012 and 2014, including discussions about visiting Epstein's private island ('heli to island'), a February 2013 SpaceX tour that Epstein attended with three assistants, and social topics. Despite Musk's 2019 claim that he refused to visit and knew Epstein was 'a creep,' the emails document multiple coordination attempts for Caribbean meetups. Musk has not been accused of wrongdoing related to Epstein. April 2024: Tesla laid off >10% of its global workforce \u2014 ~14,000 employees \u2014 amid its first YoY sales decline since the pandemic (Reuters / CNN Business). In February 2023 Tesla fired 30+ Buffalo Gigafactory workers one day after they announced a union drive; an April 2024 NLRB complaint alleged Tesla unlawfully implemented an IT policy to discourage organizing (CNBC). In Diaz v. Tesla, a Black Fremont contractor testified he was called the N-word 60+ times; the jury awarded $137M in 2021, later settled March 2024 (NPR). December 2023: NHTSA forced Tesla to recall ~2 million vehicles \u2014 nearly its entire US fleet \u2014 over an Autopilot driver-monitoring defect after a 2-year probe tied to ~1,000 crashes, some fatal (Washington Post). On the positive side, Greenly (independent) estimates Tesla's 2023 fleet displaced 10.2\u201314.4M metric tons CO2e \u2014 large, though 28\u201349% below Tesla's self-reported 20M-ton figure (CarbonCredits.com). Beyond the Epstein correspondence: Musk spent $250M+ backing Trump in the 2024 cycle ($238M to America PAC, $20.5M to the misleadingly-branded RBG PAC \u2014 the cycle's largest single donor, NBC News). As head of DOGE (Jan\u2013Nov 2025) he engineered the largest peacetime federal workforce reduction on record \u2014 ~270,000 fewer workers \u2014 while a $2T savings claim was revised down to $150B and a former staffer's deposition admitted DOGE did not lower the deficit (Fortune).",
       "brands": [
         "Tesla"
       ],
-      "layoffs": "10% workforce (April 2024)",
+      "layoffs": "10% workforce / ~14,000 (April 2024); ongoing organizer retaliation per NLRB",
       "notableBk": "N/A",
-      "harmScore": 64,
+      "harmScore": 78,
       "source": "https://www.nbcnews.com/tech/elon-musk/expressed-interest-visiting-jeffrey-epstein-island-emails-show-doj-rcna256784",
       "cats": [
         "tech"
       ],
       "harms": [
         "elite_impunity_epstein_network",
-        "workers_general"
+        "workers_general",
+        "workers_mass_layoffs",
+        "health_general",
+        "elite_impunity_general"
       ],
-      "aligns": [],
-      "addedAt": "2026-05-13"
+      "aligns": [
+        "environment_positive"
+      ],
+      "addedAt": "2026-05-15"
     },
     {
       "id": "tengram_capital",
@@ -5316,6 +5321,124 @@
       ],
       "harms": [
         "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "aum": "$350B",
+      "aumVal": 0,
+      "summary": "Privately-held space launch and satellite communications company founded by Elon Musk in 2002. November 2023 Reuters investigation documented 600+ worker injuries since 2014 \u2014 including 8 amputations and 1 fatality \u2014 with a Brownsville facility injury rate ~6x the space-industry average; SpaceX skipped OSHA reporting in most years. January 2024 NLRB complaint alleged SpaceX illegally fired 8 engineers who co-authored a 2022 open letter (signed by ~400 staff) criticizing Musk's conduct and SpaceX's tolerance of sexual harassment (CBS News). In 2024 the EPA and Texas TCEQ found SpaceX repeatedly discharged ~180,000 gallons of industrial wastewater per launch from its Starbase deluge system into wetlands without a permit; EPA proposed a $148,378 fine (NBC News). SpaceX holds a $1.8B classified NRO Starshield contract and >$700M in Space Force launch contracts; the Pentagon must contract with SpaceX to override Musk's unilateral Starlink geofencing in Ukraine, concentrating critical defense infrastructure in one private actor's hands (Breaking Defense).",
+      "brands": [
+        "Starlink",
+        "SpaceX"
+      ],
+      "layoffs": "8 engineers (Jan 2024, alleged retaliation per NLRB)",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://www.reuters.com/investigates/special-report/spacex-musk-safety/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_general",
+        "environment_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "x_corp",
+      "name": "X Corp",
+      "aum": "$19B",
+      "aumVal": 0,
+      "summary": "Social media platform acquired by Elon Musk for $44B in October 2022, rebranded from Twitter to X. Within months Musk cut ~80% of staff (from ~7,500 to ~1,500), triggering multiple severance and WARN-Act class actions from former employees. In July 2023 X Corp sued the Center for Countering Digital Hate over its research on hate speech on the platform; in November 2023 it sued Media Matters over reports documenting ads next to antisemitic content. Judge Charles Breyer dismissed the CCDH case in March 2024, finding the suit was 'about punishing the Defendants for their speech' (NPR).",
+      "brands": [
+        "X (formerly Twitter)"
+      ],
+      "layoffs": "~6,000 / ~80% of workforce (Oct 2022 \u2013 mid 2023)",
+      "notableBk": "N/A",
+      "harmScore": 75,
+      "source": "https://www.npr.org/2024/03/25/1239549276/elon-musk-lawsuit-hate-speech-researchers",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_mass_layoffs",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "aum": "$50B",
+      "aumVal": 0,
+      "summary": "Generative-AI company founded by Elon Musk in 2023; develops the Grok model integrated into X. xAI's Memphis 'Colossus' data center ran up to 35 unpermitted methane gas turbines emitting smog precursors and formaldehyde in majority-Black South Memphis \u2014 already the nation's asthma capital with ~4x national cancer risk; NAACP, SELC, and Earthjustice filed a Clean Air Act suit in 2026 (Inside Climate News). In July 2025 Grok began calling itself 'MechaHitler,' produced antisemitic posts about named Jewish public figures, and praised the Holocaust after a 'politically incorrect' update; an ADL January 2026 study ranked Grok worst of six major LLMs at countering antisemitism (21/100, NPR).",
+      "brands": [
+        "Grok",
+        "xAI"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://insideclimatenews.org/news/17072025/elon-musk-xai-data-center-gas-turbines-memphis/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "environment_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "neuralink",
+      "name": "Neuralink",
+      "aum": "$5B",
+      "aumVal": 0,
+      "summary": "Brain\u2013computer interface company founded by Elon Musk in 2016. Per a Physicians Committee for Responsible Medicine review of 700+ pages of UC Davis records, 15 of 23 monkeys used in Neuralink experiments died or were euthanized \u2014 complications included paralysis, brain swelling, and BioGlue applied directly to the brain. December 2022 Reuters reporting estimates ~1,500 animals (sheep, pigs, monkeys) killed since 2018; the USDA Office of Inspector General and DOJ opened animal-welfare probes, and the DOT separately probed illegal transport of hazardous pathogens from monkey brains (NBC News).",
+      "brands": [
+        "Neuralink"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 76,
+      "source": "https://www.pcrm.org/ethical-science/animals-in-medical-research/cruel-brain-experiments",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "animals_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "the_boring_company",
+      "name": "The Boring Company",
+      "aum": "$5.7B",
+      "aumVal": 0,
+      "summary": "Tunneling-infrastructure company founded by Elon Musk in 2016; operates the Las Vegas Convention Center Loop. In May 2025 two Clark County firefighters and an estimated 15\u201320 Boring Company workers suffered chemical burns from MasterRoc AGA 41S grout accelerant in Vegas Loop tunnels. Nevada OSHA issued three 'willful' citations totaling $425K \u2014 then rescinded all of them after Nevada Governor Lombardo's office intervened (Fortune). A federal OSHA review in February 2026 confirmed the underlying chemical-burn allegations were 'substantiated' but found Nevada OSHA had a 'flawed case' \u2014 Boring Company emerged with no willful-violation fines despite documented worker injuries (Las Vegas Sun).",
+      "brands": [
+        "The Boring Company"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://fortune.com/2025/11/12/elon-musk-boring-company-tunnels-injuries-osha-citations-fines-rescinded-nevada-governor-office-documents-altered/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_general",
+        "elite_impunity_general"
       ],
       "aligns": [],
       "addedAt": "2026-05-15"
@@ -10710,12 +10833,17 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Electric vehicle manufacturer controlled by CEO Elon Musk. DOJ documents released in January 2026 show Musk exchanged at least 16 emails with Jeffrey Epstein from 2012-2014, including plans for Musk and actress Talulah Riley to visit Epstein's private island via helicopter in November 2012, a February 2013 SpaceX facility tour that Epstein attended with three assistants, and discussions about Epstein's 'wildest party.' The correspondence contradicts Musk's 2019 public statement that he barely knew Epstein and refused all invitations. Musk has not been accused of wrongdoing in connection with Epstein.",
+      "why": "Electric vehicle manufacturer controlled by CEO Elon Musk. DOJ documents released in January 2026 show Musk exchanged at least 16 emails with Jeffrey Epstein from 2012-2014, including plans for Musk and actress Talulah Riley to visit Epstein's private island via helicopter in November 2012, a February 2013 SpaceX facility tour that Epstein attended with three assistants, and discussions about Epstein's 'wildest party.' The correspondence contradicts Musk's 2019 public statement that he barely knew Epstein and refused all invitations. Musk has not been accused of wrongdoing in connection with Epstein. In February 2023 Tesla fired 30+ Buffalo Gigafactory workers one day after they announced a union drive; an April 2024 NLRB complaint alleged Tesla unlawfully implemented an IT policy to discourage organizing (CNBC). In Diaz v. Tesla, a Black Fremont contractor testified he was called the N-word 60+ times; the jury awarded $137M in 2021, later settled March 2024 (NPR). April 2024: Tesla laid off >10% of its global workforce \u2014 ~14,000 employees \u2014 amid its first YoY sales decline since the pandemic (Reuters / CNN Business). December 2023: NHTSA forced Tesla to recall ~2 million vehicles \u2014 nearly its entire US fleet \u2014 over an Autopilot driver-monitoring defect after a 2-year probe tied to ~1,000 crashes, some fatal (Washington Post). On the positive side, Greenly (independent) estimates Tesla's 2023 fleet displaced 10.2\u201314.4M metric tons CO2e \u2014 large, though 28\u201349% below Tesla's self-reported 20M-ton figure (CarbonCredits.com).",
       "harms": [
-        "elite_impunity_epstein_network"
+        "elite_impunity_epstein_network",
+        "workers_general",
+        "workers_mass_layoffs",
+        "health_general"
       ],
-      "aligns": [],
-      "addedAt": "2026-05-13"
+      "aligns": [
+        "environment_positive"
+      ],
+      "addedAt": "2026-05-15"
     },
     {
       "id": "algenist",
@@ -10829,6 +10957,146 @@
       "harms": [
         "extraction_general",
         "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "spacex",
+      "avoid": "SpaceX",
+      "ownership": [
+        {
+          "firmId": "spacex",
+          "stake": "majority",
+          "since": "2002"
+        }
+      ],
+      "cat": "tech",
+      "alts": [
+        "Rocket Lab",
+        "Blue Origin (for launch services)"
+      ],
+      "why": "Privately-held launch company controlled by Elon Musk. November 2023 Reuters investigation: 600+ worker injuries since 2014, 8 amputations, 1 fatality, Brownsville facility injury rate ~6x the space-industry average; SpaceX skipped OSHA reporting in most years. January 2024 NLRB complaint alleged retaliatory firing of 8 engineers who criticized Musk's conduct and SpaceX's tolerance of sexual harassment (CBS News). 2024 EPA/TCEQ findings: SpaceX repeatedly discharged ~180,000 gallons of industrial wastewater per launch from its Starbase deluge system into wetlands without a permit; EPA proposed a $148,378 fine (NBC News).",
+      "harms": [
+        "workers_general",
+        "environment_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "starlink",
+      "avoid": "Starlink",
+      "ownership": [
+        {
+          "firmId": "spacex",
+          "stake": "majority",
+          "since": "2019"
+        }
+      ],
+      "cat": "tech",
+      "alts": [
+        "Terrestrial fiber/cable ISPs",
+        "HughesNet",
+        "Viasat"
+      ],
+      "why": "Satellite internet service operated by SpaceX. Starlink runs ~6,000 of the ~13,000 active satellites in orbit; the IAU's Centre for the Protection of the Dark and Quiet Sky set a +7-magnitude brightness limit that Starlink routinely exceeds, raising night-sky brightness ~10% and disrupting professional optical and radio astronomy (Scientific American). Musk unilaterally geofences Starlink in Ukraine, restricting service near Russian-occupied territory and limiting drone-control use; the Pentagon must separately contract with SpaceX to override these restrictions, ceding battlefield comms control to a private actor (Military.com).",
+      "harms": [
+        "environment_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "x_twitter",
+      "avoid": "X (formerly Twitter)",
+      "ownership": [
+        {
+          "firmId": "x_corp",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "tech",
+      "alts": [
+        "Bluesky",
+        "Mastodon",
+        "Threads"
+      ],
+      "why": "Social platform Elon Musk bought for $44B in October 2022 and rebranded from Twitter to X. Within months Musk cut ~80% of staff (from ~7,500 to ~1,500), triggering multiple severance and WARN-Act class actions. X Corp sued the Center for Countering Digital Hate (July 2023) and Media Matters (November 2023) over their research documenting hate speech and ads next to antisemitic content. Judge Charles Breyer dismissed the CCDH case in March 2024, ruling it was 'about punishing the Defendants for their speech' (NPR).",
+      "harms": [
+        "workers_mass_layoffs",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "grok",
+      "avoid": "Grok",
+      "ownership": [
+        {
+          "firmId": "xai",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "tech",
+      "alts": [
+        "Claude",
+        "ChatGPT",
+        "Gemini"
+      ],
+      "why": "AI chatbot built by xAI and integrated into X. In July 2025 Grok began calling itself 'MechaHitler,' produced antisemitic posts about named Jewish public figures, and praised the Holocaust after a 'politically incorrect' tuning update (NPR). An ADL study published January 2026 ranked Grok worst of six major LLMs at countering antisemitism (21/100). The model is trained at xAI's Memphis Colossus data center, which ran up to 35 unpermitted methane gas turbines emitting smog precursors and formaldehyde in majority-Black South Memphis (Inside Climate News).",
+      "harms": [
+        "environment_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "neuralink",
+      "avoid": "Neuralink",
+      "ownership": [
+        {
+          "firmId": "neuralink",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "tech",
+      "alts": [
+        "Synchron (less invasive BCI competitor)"
+      ],
+      "why": "Brain\u2013computer interface company controlled by Elon Musk. Physicians Committee for Responsible Medicine reviewed 700+ pages of UC Davis records: 15 of 23 monkeys used in Neuralink experiments died or were euthanized, with complications including paralysis, brain swelling, and BioGlue applied directly to the brain. December 2022 Reuters reporting estimates Neuralink killed ~1,500 animals (sheep, pigs, monkeys) since 2018; the USDA Office of Inspector General and DOJ opened animal-welfare probes, and the DOT separately probed illegal transport of hazardous pathogens from monkey brains (NBC News).",
+      "harms": [
+        "animals_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "the_boring_company",
+      "avoid": "The Boring Company",
+      "ownership": [
+        {
+          "firmId": "the_boring_company",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "tech",
+      "alts": [
+        "Public transit alternatives"
+      ],
+      "why": "Tunneling-infrastructure company controlled by Elon Musk; operates the Las Vegas Convention Center Loop. May 2025: two Clark County firefighters and ~15\u201320 Boring Company workers suffered chemical burns from MasterRoc AGA 41S grout accelerant in Vegas Loop tunnels. Nevada OSHA issued three 'willful' citations totaling $425K \u2014 then rescinded all of them after Governor Lombardo's office intervened (Fortune). A federal OSHA review in February 2026 confirmed the underlying chemical-burn allegations were 'substantiated' but found Nevada OSHA had a 'flawed case' (Las Vegas Sun).",
+      "harms": [
+        "workers_general",
+        "elite_impunity_general"
       ],
       "aligns": [],
       "addedAt": "2026-05-15"
