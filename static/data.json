@@ -5259,6 +5259,66 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-13"
+    },
+    {
+      "id": "tengram_capital",
+      "name": "Tengram Capital Partners",
+      "aum": "$0.56B",
+      "aumVal": 0.56,
+      "summary": "Private equity firm focused on middle-market consumer and retail brands. Founded 2008, acquired Algenist skincare brand in 2016. Firm operates 5 private funds with approximately $557.7M in assets under management as of 2017. Algenist continues to test on animals where required by law, particularly for sales in mainland China (per PETA 2026 database).",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/company/algenist/",
+      "cats": [],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-14"
+    },
+    {
+      "id": "3g_capital",
+      "name": "3G Capital",
+      "aum": "$50B+",
+      "aumVal": 50,
+      "summary": "Brazilian-American PE firm known for aggressive cost-cutting at consumer brands. Acquired Skechers for $9.4B in 2025, loading it with $6.5B in debt (JPMorgan-led financing). Previously acquired Kraft Heinz and AB InBev, implementing zero-based budgeting and mass layoffs. Founded by Jorge Paulo Lemann, Marcel Telles, and Carlos Alberto Sicupira. Pattern: leverage brands' market position to extract value through debt-funded dividends and operational austerity.",
+      "brands": [],
+      "layoffs": "Known for mass layoffs post-acquisition across portfolio companies",
+      "notableBk": "N/A",
+      "harmScore": 75,
+      "source": "https://www.bloomberg.com/news/articles/2025-05-05/3g-capital-to-buy-skechers-footwear-brand-for-63-a-share",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "racetrac",
+      "name": "RaceTrac Petroleum",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Georgia-based convenience store and gas station operator. Acquired Potbelly sandwich chain for $566M in 2025, taking it private. Family-owned company with 600+ retail locations. Expansion strategy includes vertical integration into food service through Potbelly acquisition. Taking Potbelly private removes public market accountability and subjects the sandwich chain to private ownership control.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.racetrac.com/About-Us/News-Media/Articles/2025/Potbelly-Corporation-to-be-Acquired-by-RaceTrac-in",
+      "cats": [
+        "retail",
+        "food"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
     }
   ],
   "brands": [
@@ -10656,6 +10716,122 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-13"
+    },
+    {
+      "id": "algenist",
+      "avoid": "Algenist",
+      "ownership": [
+        {
+          "firmId": "tengram_capital",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Anti-aging skincare brand owned by PE firm Tengram Capital Partners. Tests on animals where required by law, including for sales in mainland China. Not certified cruelty-free by PETA or Leaping Bunny as of 2026.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-14"
+    },
+    {
+      "id": "always",
+      "avoid": "Always",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1983"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Feminine hygiene brand owned by Procter & Gamble. Parent company tests on animals either directly, through suppliers, or via third parties, and sells products in regions where animal testing is legally mandated. Not cruelty-free certified (per PETA 2026 database).",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-14"
+    },
+    {
+      "id": "acuvue",
+      "avoid": "Acuvue",
+      "ownership": [
+        {
+          "firmId": "johnson_and_johnson",
+          "stake": "majority",
+          "since": "1988"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Contact lens brand owned by Johnson & Johnson Vision Care. Tests on animals directly, through suppliers, or via third parties. All contact lens brands sold in the US test on animals, primarily rabbits, though FDA recommends but does not legally require it (per PETA 2026 database).",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-14"
+    },
+    {
+      "id": "skechers",
+      "avoid": "Skechers",
+      "ownership": [
+        {
+          "firmId": "3g_capital",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "3G Capital acquired Skechers in a $9.4B leveraged buyout in 2025, loading the company with over $6.5B in debt from JPMorgan-led financing. The deal took the third-largest footwear company in the world (behind Nike and Adidas) private at $63/share. 3G has a documented pattern of aggressive cost-cutting and mass layoffs at acquired consumer brands including Kraft Heinz and AB InBev. The high debt load (69% of deal value) creates pressure to extract cash through operational cuts rather than brand investment.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "potbelly",
+      "avoid": "Potbelly",
+      "ownership": [
+        {
+          "firmId": "racetrac",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "RaceTrac, a convenience store and gas station operator, acquired Potbelly for $566M in October 2025, taking the sandwich chain private after a decade as a public company. The take-private removes public market transparency and subjects Potbelly's 445+ locations to private ownership priorities. While RaceTrac is family-owned (not PE), the acquisition represents extraction dynamics: removing public accountability, consolidating control, and potentially subordinating restaurant operations to convenience retail margins.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
+    },
+    {
+      "id": "wk_kellogg",
+      "avoid": "Kellogg's (cereals)",
+      "ownership": [
+        {
+          "firmId": "ferrero_group",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Ferrero acquired WK Kellogg Co for $3.1B in September 2025, taking the cereal maker private and delisting it from NYSE. The deal includes iconic cereal brands (Frosted Flakes, Froot Loops, Rice Krispies, Special K) across US, Canada, and Caribbean markets. While Ferrero is family-owned, the acquisition represents consolidation risk: removing public oversight of a major cereal manufacturer and subjecting nutrition decisions to private ownership priorities. Kellogg's cereals are high in added sugars; Frosted Flakes contains 12g sugar per serving (USDA data).",
+      "harms": [
+        "extraction_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-15"
     }
   ]
 }
