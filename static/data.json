@@ -5442,6 +5442,61 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-15"
+    },
+    {
+      "id": "byheart",
+      "name": "ByHeart",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Independent infant formula manufacturer founded in 2016 by siblings Mia Funt and Ron Belldegrun. Became the first new FDA-registered U.S. infant formula manufacturer in over 15 years. In November 2025, the FDA investigated a multistate outbreak of infant botulism linked to ByHeart Whole Nutrition Infant Formula, resulting in voluntary recalls on Nov. 8 and Nov. 11, 2025.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.fda.gov/news-events/press-announcements/fda-takes-action-improve-recall-effectiveness-following-infant-botulism-outbreak-investigation",
+      "cats": [],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-18"
+    },
+    {
+      "id": "akoya_capital",
+      "name": "Akoya Capital",
+      "aum": "$3.5B",
+      "aumVal": 3.5,
+      "summary": "Private equity firm based in Chicago, IL, focused on food and consumer sectors. Portfolio company Food Evolution LLC owns Fresh & Ready Foods, which was implicated in a multi-year listeria outbreak (December 2023\u2013September 2024) that resulted in 10 hospitalizations and 1 death. FDA warning letter dated September 2025 cited recurring contamination issues, with environmental samples testing positive for Listeria in both 2017 and 2025.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://www.food-safety.com/articles/10880-fda-warning-letter-provides-insight-into-fresh-and-ready-foods-rte-listeria-outbreak",
+      "cats": [],
+      "harms": [
+        "health_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-18"
+    },
+    {
+      "id": "spring_mulberry",
+      "name": "Spring & Mulberry",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Independent date-sweetened chocolate bar company founded in 2022 by Sarah Bell and Kathryn Shah, based in Raleigh, NC. In January 2026, the company began a voluntary recall of select chocolate bars due to potential salmonella contamination, eventually expanding to all 12 product lines on May 8, 2026, after a contaminated date ingredient lot was identified.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-because-possible-health-risk",
+      "cats": [],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-18"
     }
   ],
   "brands": [
@@ -11100,6 +11155,177 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-15"
+    },
+    {
+      "id": "clean_and_clear",
+      "avoid": "Clean & Clear",
+      "ownership": [
+        {
+          "firmId": "johnson_and_johnson",
+          "stake": "majority",
+          "since": "1957"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Clean & Clear is owned by Johnson & Johnson, which allows its products to be tested on animals where required by law, notably in mainland China where imported cosmetics face mandatory animal testing requirements. PETA lists Clean & Clear among companies that do test on animals.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-16"
+    },
+    {
+      "id": "arm_and_hammer",
+      "avoid": "Arm & Hammer",
+      "ownership": [
+        {
+          "firmId": "church_dwight",
+          "stake": "majority",
+          "since": "1867"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Arm & Hammer is owned by Church & Dwight, which states in its policy that it will allow products and ingredients to be tested on animals when required by law. PETA includes Arm & Hammer on its list of companies that test on animals, and the brand is not certified cruelty-free by any third-party organization such as Leaping Bunny or PETA.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-16"
+    },
+    {
+      "id": "band_aid",
+      "avoid": "Band-Aid",
+      "ownership": [
+        {
+          "firmId": "johnson_and_johnson",
+          "stake": "majority",
+          "since": "1920"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Band-Aid is owned by Johnson & Johnson, which PETA lists among companies that do test on animals. Johnson & Johnson products are sold in regions where animal testing is legally mandated, and the company allows animal testing when required by law.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-16"
+    },
+    {
+      "id": "bulgari",
+      "avoid": "Bulgari",
+      "ownership": [
+        {
+          "firmId": "lvmh",
+          "stake": "majority",
+          "since": "2011"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Bulgari is an Italian luxury brand acquired by LVMH in 2011, known for jewelry, watches, and fragrances including Goldea, Splendida, Omnia, and BVLGARI Man. LVMH sells its beauty brands in mainland China where animal testing is required by regulators. Bulgari appears on PETA's list of companies that test on animals, with testing conducted to meet Chinese market entry requirements.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-17"
+    },
+    {
+      "id": "acqua_di_parma",
+      "avoid": "Acqua di Parma",
+      "ownership": [
+        {
+          "firmId": "lvmh",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Acqua di Parma is an Italian luxury fragrance house founded in 1916, known for its signature Colonia scent. Acquired by LVMH in 2001, the brand is sold in mainland China where imported cosmetics must undergo animal testing per regulatory requirements. Acqua di Parma appears on PETA's list of companies that test on animals due to its parent company's China market presence and testing practices.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-17"
+    },
+    {
+      "id": "cacharel",
+      "avoid": "Cacharel",
+      "ownership": [
+        {
+          "firmId": "loreal",
+          "stake": "majority",
+          "since": "1975"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Cacharel is a French fashion and fragrance brand founded in 1958, known for iconic perfumes including Ana\u00efs Ana\u00efs (1978), Loulou, and Amor Amor. L'Or\u00e9al has manufactured and distributed Cacharel fragrances since 1975 under its Luxe Division. As an L'Or\u00e9al brand, Cacharel is sold in mainland China and appears on PETA's list of companies that test on animals. L'Or\u00e9al acknowledges testing where required by law, and Chinese regulations mandate animal testing for many imported cosmetics.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-17"
+    },
+    {
+      "id": "byheart",
+      "avoid": "ByHeart",
+      "ownership": [
+        {
+          "firmId": "byheart",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "FDA investigated a multistate outbreak of infant botulism linked to ByHeart Whole Nutrition Infant Formula in November 2025, prompting voluntary recalls on Nov. 8 and Nov. 11, 2025. FDA sent warning letters to four major retailers (Target, Walmart, Kroger, Albertsons) on December 12, 2025, after investigators found recalled ByHeart infant formula still on shelves weeks after the recall began.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-18"
+    },
+    {
+      "id": "fresh_ready_foods",
+      "avoid": "Fresh & Ready Foods",
+      "ownership": [
+        {
+          "firmId": "akoya_capital",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Between December 2023 and September 2024, ten people were hospitalized and one person died after consuming Listeria-contaminated ready-to-eat sandwiches, salads, and wraps produced at Fresh & Ready Foods' San Fernando, CA facility. FDA warning letter dated September 2025 documented that environmental samples tested positive for L. monocytogenes in both 2017 and 2025, indicating recurring contamination issues across multiple years under Akoya Capital ownership.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-18"
+    },
+    {
+      "id": "spring_mulberry",
+      "avoid": "Spring & Mulberry",
+      "ownership": [
+        {
+          "firmId": "spring_mulberry",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Company expanded voluntary recall from one chocolate bar flavor in January 2026 to all 12 product lines by May 8, 2026, after identifying a contaminated date ingredient lot as the likely source of potential salmonella contamination. Products were available for purchase online and through select retail partners nationwide from August 2025 through the recall.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-18"
     }
   ]
 }
