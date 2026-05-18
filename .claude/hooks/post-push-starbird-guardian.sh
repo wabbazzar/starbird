@@ -11,9 +11,9 @@ if ! echo "$COMMAND" | grep -q 'git push'; then
   exit 0
 fi
 
-SCRIPT="/home/wabbazzar/code/starbird/scripts/starbird-guardian.sh"
-if [ -x "$SCRIPT" ]; then
-  nohup bash "$SCRIPT" hook > /dev/null 2>&1 &
+RUNNER="/home/wabbazzar/code/wabbazzar-ice/agents/guardian/runner.sh"
+if [ -x "$RUNNER" ]; then
+  nohup bash "$RUNNER" --project /home/wabbazzar/code/starbird --mode hook > /dev/null 2>&1 &
 fi
 
 exit 0
