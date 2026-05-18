@@ -72,7 +72,7 @@ augur_can_merge      = false   # one-actor project; human stays in the merge loo
 # (the recurring failure mode), this fires and medic escalates.
 [[medic.probes]]
 name          = "starbird-live-data"
-url           = "https://wabbazzar.com/starbird/data.json"
+url           = "https://starbird42.com/data.json"
 expect_status = 200
 timeout_sec   = 15
 # Tells medic to run scripts/validate-data.mjs against the fetched body
