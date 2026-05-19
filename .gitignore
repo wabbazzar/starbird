@@ -18,3 +18,4 @@ scripts/__pycache__/
 
 # Guardian / Runner runtime output
 tmp/
+.worktrees/
