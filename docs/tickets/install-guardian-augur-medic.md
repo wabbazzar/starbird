@@ -3,7 +3,7 @@
 **Created:** 2026-05-18
 **Owner:** Wesley
 **Assignee:** ice-agent
-**Status:** Ready to install — bindings written, awaiting wire-up
+**Status:** Installed (2026-05-19) — guardian + medic green, scribe + augur blocked on small wabbazzar-ice + bindings fixes (see "Post-install fixes" section)
 
 ---
 
@@ -120,6 +120,66 @@ single line in `scripts/starbird-runner.sh` between the
 The Python sweeps in the four hotfix commits (`de6d777`, `8b69ec6`,
 `577bc80`, `f8df056`) are the reference implementations. Augur can
 read them out of git history.
+
+## Post-install fixes (2026-05-19 verification)
+
+After overnight first-runs, three of four agents need small fixes:
+
+### 1. Scribe — bindings gap (FIXED in this commit)
+
+`agents/scribe/runner.sh` exits 2 with `project scribe.md not found`
+when `.agents/scribe.md` is missing. The original install package
+shipped `config.toml`, `guardian.md`, `augur.md`, `medic.md` but not
+`scribe.md` — `.agents/scribe.md` is now added in the same commit as
+this status update.
+
+### 2. Augur — branch name hardcoded "master" in wabbazzar-ice runner
+
+`agents/augur/runner.sh:93` checks `[ "$CB" != "master" ]` instead of
+reading `branch` from the project's `.agents/config.toml`. Starbird's
+branch is `main`, so every augur invocation aborts with
+`not_on_master`. shredly2 happens to use `master`, which is why this
+went undetected.
+
+**Fix (in wabbazzar-ice, requires ICE-agent or human edit):**
+Replace lines ~92–101 of `agents/augur/runner.sh` with config-driven:
+
+```bash
+EXPECTED_BRANCH="${CONFIG_BRANCH:-master}"   # set by load-config.sh
+CB="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$CB" != "$EXPECTED_BRANCH" ]; then
+  echo "[$PROJECT_NAME-augur] ABORT: not on $EXPECTED_BRANCH ($CB)" >> "$LOG_FILE"
+  ...
+fi
+```
+
+Same fix likely needed at lines ~258 (incident mode) and ~270
+(`git worktree add ... origin/master`). The `origin/master` reference
+inside the worktree command should also become `origin/$EXPECTED_BRANCH`.
+
+Until this lands, augur won't process any Starbird incidents. Medic
+will continue cooldown-locking them — see the active cooldown
+`f16ab541b85ea71f6c799a44e83a78988484d9b2ae45c3a2989bd63f1642870d`
+in `tmp/medic-state.json` (frozen until 2026-05-20T07:32:06Z).
+
+### 3. Guardian — wrapper exit code vs result.json disagree
+
+The systemd service reports `exit-code 1/FAILURE` while
+`tmp/starbird-guardian-result.json` reports `"pass": true,
+"errors": []` and `tmp/starbird-guardian-last-run.log` ends with
+`Pass=True`. The Claude payload is succeeding; something downstream
+in `agents/guardian/runner.sh` (likely the notify or log_event step
+after Claude exits) is returning non-zero.
+
+Low-severity — the actual checks pass and the result file is
+authoritative — but the failing systemd state will:
+1. Trip up any external monitoring keyed on unit status
+2. Trigger medic on next scan (it currently doesn't, because the
+   service is `inactive (dead)` not `failed`; but if `Restart=` is
+   ever added, this becomes an incident loop)
+
+**Fix:** trace the runner's tail with `set -x`, find the non-zero
+exit, and silence it the way shredly-guardian.runner.sh does.
 
 ## Acceptance criteria
 
