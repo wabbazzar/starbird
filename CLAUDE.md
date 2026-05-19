@@ -36,10 +36,17 @@ bash scripts/starbird-guardian.sh daily
 
 ## Cron schedule (installed on wabbazzar-ice)
 
-- **6:15 AM daily** — Guardian daily mode (stale-source audit, harm-score rubric check, schema validation)
-- **7:05 AM daily** — Runner daily mode (one research iteration, auto-commits + pushes, fires Guardian hook)
+Cron entries (still active):
+- **6:15 AM daily** — Guardian legacy script (`scripts/starbird-guardian.sh`), daily mode
+- **7:05 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes
 
-Install/reinstall: `bash scripts/cron-install.sh` prints the entries; they're also live in `crontab -l`.
+Systemd timers (agent infrastructure, installed 2026-05-19):
+- **Every 10 min** — Medic (`starbird-medic.timer`) — live-data probe
+- **1:00 AM daily** — Scribe (`starbird-scribe.timer`) — doc refresh
+- **3:30 AM daily** — Augur (`starbird-augur.timer`) — nightly incident triage
+- **6:00 AM daily** — Guardian (`starbird-guardian.timer`) — full daily audit
+
+Reinstall cron: `bash scripts/cron-install.sh`. Check timers: `systemctl --user list-timers | grep starbird`.
 
 ## Strategy bank
 
@@ -68,7 +75,7 @@ Signal notifications via `/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh`.
 - `static/data.json` — version 2, firms[] + brands[]
 - `src/lib/schema.ts` — zod validation (run at page load + by Guardian)
 - `src/lib/values.ts` — 6 values (workers, environment, animals, health, extraction, elite_impunity)
-- `src/lib/quests.ts` — 11 quests, each rolls up to one value
+- `src/lib/quests.ts` — 17 quests, each rolls up to one value
 - `src/lib/categories.ts` — 9 categories (tech, food, coffee, retail, health, pets, home, hospitality, finance)
 - `src/lib/harmScore.ts` + `src/lib/harm-score-rubric.json` — harm score rubric (single source of truth, 6 buckets spanning 0–100)
 
