@@ -9,6 +9,15 @@ project_owner = "wabbazzar"
 branch        = "main"
 dev_port      = 5173
 
+[install.timers]
+# OnCalendar values written verbatim into ~/.config/systemd/user/<project>-<agent>.timer
+# by scripts/install-quartet.sh. Override the installer defaults here so
+# the schedule lives with the project, not in the installer.
+guardian = "*-*-* 06:00:00"
+medic    = "*-*-* *:0/10:00"
+augur    = "*-*-* 03:30:00"
+scribe   = "*-*-* 01:00:00"
+
 [paths]
 # data.json is the source of truth and the recurring failure surface.
 # Surfaced separately so guardian can deep-audit it without scanning
