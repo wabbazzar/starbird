@@ -3,7 +3,7 @@
 **Created:** 2026-05-18
 **Owner:** Wesley
 **Assignee:** ice-agent
-**Status:** Installed (2026-05-19) — guardian + medic + scribe operational (scribe bindings fixed 1d2784f), augur blocked on branch-name fix pending in wabbazzar-ice (see "Post-install fixes" section)
+**Status:** Installed (2026-05-19) — all four agents operational; augur branch-name parameterized in wabbazzar-ice 0186ea5 (2026-05-20). Awaiting 7 consecutive green days before archiving.
 
 ---
 

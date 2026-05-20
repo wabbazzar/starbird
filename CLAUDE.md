@@ -37,14 +37,13 @@ bash scripts/starbird-guardian.sh daily
 ## Cron schedule (installed on wabbazzar-ice)
 
 Cron entries (still active):
-- **6:15 AM daily** — Guardian legacy script (`scripts/starbird-guardian.sh`), daily mode
 - **7:05 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes
 
 Systemd timers (agent infrastructure, installed 2026-05-19):
-- **Every 10 min** — Medic (`starbird-medic.timer`) — live-data probe
+- **Every 10 min (quiet hours 01:00–04:00)** — Medic (`starbird-medic.timer`) — live-data probe
 - **1:00 AM daily** — Scribe (`starbird-scribe.timer`) — doc refresh
 - **3:30 AM daily** — Augur (`starbird-augur.timer`) — nightly incident triage
-- **6:00 AM daily** — Guardian (`starbird-guardian.timer`) — full daily audit
+- **4:30 AM daily** — Guardian (`starbird-guardian.timer`) — full daily audit
 
 Reinstall cron: `bash scripts/cron-install.sh`. Check timers: `systemctl --user list-timers | grep starbird`.
 
