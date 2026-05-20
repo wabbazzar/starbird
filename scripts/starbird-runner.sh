@@ -153,6 +153,11 @@ NEW_ENTITIES=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.lo
 if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
   cd "$STARBIRD_DIR"
 
+  # Coerce known-recoverable shape errors before the schema gate runs.
+  # Normalizes: integer since/until → string, stake "self-owned" → "majority",
+  # "majority (YYYY-YYYY)" → {stake:"former",until:"YYYY"}, IP-license variants → "post_bankrupt".
+  npx tsx "$STARBIRD_DIR/scripts/coerce-data-shapes.mjs" >> "$LOG_FILE" 2>&1
+
   # Pre-commit schema gate. Three runner passes have shipped invalid
   # ownership records (numeric since/until, free-text stake) that broke
   # the page until manually hotfixed. Reject the run before commit if
