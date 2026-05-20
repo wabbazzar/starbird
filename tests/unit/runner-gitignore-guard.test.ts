@@ -17,8 +17,15 @@ describe('runner.sh gitignore self-repair guard', () => {
 		expect(appendBlock).not.toBeNull();
 	});
 
-	it('commits and pushes the patch in daily mode', () => {
-		expect(source).toMatch(/git add \.gitignore/);
-		expect(source).toMatch(/git commit.*gitignore.*self-repair/s);
+	it('commits and pushes the patch unconditionally (any mode)', () => {
+		// Must commit in any mode — not just daily — so the fix lands before
+		// augur's 03:30 timer fires, which runs before the 07:05 daily runner.
+		const guardBlock = source.match(/if.*grep.*\.worktrees.*\.gitignore[\s\S]*?fi/m);
+		expect(guardBlock).not.toBeNull();
+		const blockStr = guardBlock![0];
+		expect(blockStr).toMatch(/git add \.gitignore/);
+		expect(blockStr).toMatch(/git commit.*gitignore.*self-repair/s);
+		// The commit must NOT be gated on MODE=daily
+		expect(blockStr).not.toMatch(/\$MODE.*=.*daily/);
 	});
 });
