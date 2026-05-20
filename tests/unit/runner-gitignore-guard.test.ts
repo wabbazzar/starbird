@@ -2,6 +2,18 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 
+// Regression: .worktrees/ must be in .gitignore so augur's live-mode
+// dirty-checkout pre-flight doesn't abort when a worktree is active.
+describe('.gitignore worktree entry', () => {
+	const gitignorePath = resolve(process.cwd(), '.gitignore');
+	const content = readFileSync(gitignorePath, 'utf-8');
+
+	it('contains .worktrees/ so augur live-mode pre-flight sees a clean git status', () => {
+		const lines = content.split('\n').map((l) => l.trim());
+		expect(lines).toContain('.worktrees/');
+	});
+});
+
 // Regression test for incident 9b3e2cf5: augur aborted because .worktrees/
 // was missing from .gitignore. runner.sh now self-repairs the entry.
 describe('runner.sh gitignore self-repair guard', () => {

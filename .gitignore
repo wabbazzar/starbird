@@ -18,3 +18,7 @@ scripts/__pycache__/
 
 # Guardian / Runner runtime output
 tmp/
+
+# Augur worktree staging area — must be gitignored so augur's live-mode
+# dirty-checkout pre-flight doesn't abort when a worktree is active.
+.worktrees/
