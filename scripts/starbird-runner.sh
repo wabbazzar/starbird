@@ -32,18 +32,17 @@ echo "[starbird-runner] Starting $MODE run at $(date)" > "$LOG_FILE"
 
 # ── Self-repair: ensure .worktrees/ is gitignored ───────────────────────
 # The augur runner aborts when `git status --porcelain` shows '?? .worktrees/'.
-# Patch .gitignore once so future augur invocations see a clean checkout.
+# Commit the fix in any mode — this is a one-time structural repair, not data,
+# so it must land before augur's 03:30 timer fires regardless of runner mode.
 if ! grep -qxF '.worktrees/' .gitignore 2>/dev/null; then
   printf '\n# Augur worktree staging area\n.worktrees/\n' >> .gitignore
   echo "[starbird-runner] patched .gitignore: added .worktrees/" >> "$LOG_FILE"
-  if [ "$MODE" = "daily" ]; then
-    git add .gitignore
-    git commit -m "chore: gitignore .worktrees/ (runner self-repair)
+  git add .gitignore
+  git commit -m "chore: gitignore .worktrees/ (runner self-repair)
 
 Co-Authored-By: Starbird Runner <noreply@anthropic.com>" >> "$LOG_FILE" 2>&1 || true
-    git push >> "$LOG_FILE" 2>&1 || true
-    echo "[starbird-runner] committed + pushed .gitignore patch" >> "$LOG_FILE"
-  fi
+  git push >> "$LOG_FILE" 2>&1 || true
+  echo "[starbird-runner] committed + pushed .gitignore patch" >> "$LOG_FILE"
 fi
 
 # ── Step 1: Update strategy scores from run history (deterministic) ─────
