@@ -11356,6 +11356,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-19"
+    },
+    {
+      "id": "bounty",
+      "avoid": "Bounty",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1965"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Bounty is a paper towel brand owned by Procter & Gamble since 1965. PETA lists Bounty as part of P&G's portfolio on its 'Companies That Do Test on Animals' database. P&G acknowledges testing on animals where required by law to meet regulatory requirements in certain markets, including China.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-20"
+    },
+    {
+      "id": "braun",
+      "avoid": "Braun",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Braun is a German consumer products brand specializing in electric shavers, epilators, and personal care appliances. Acquired by Procter & Gamble in 2005 (as part of the Gillette acquisition), Braun appears on PETA's 'Companies That Do Test on Animals' list. PETA states that P&G conducts animal testing directly, through suppliers, or via third parties, and sells products in regions where animal testing is legally mandated.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-20"
+    },
+    {
+      "id": "bengay",
+      "avoid": "BENGAY",
+      "ownership": [
+        {
+          "firmId": "johnson_and_johnson",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "BENGAY is a topical analgesic (pain relief) brand used for muscle and joint pain. Originally produced by Pfizer Consumer Healthcare, BENGAY was acquired by Johnson & Johnson in 2006. PETA lists BENGAY on its 'Companies That Do Test on Animals' database, noting J&J conducts animal testing directly, through suppliers, or via third parties, and sells in markets where animal testing is legally required.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-20"
     }
   ]
 }
