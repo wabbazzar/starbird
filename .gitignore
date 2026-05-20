@@ -18,3 +18,6 @@ scripts/__pycache__/
 
 # Guardian / Runner runtime output
 tmp/
+
+# Augur worktree staging area
+.worktrees/
