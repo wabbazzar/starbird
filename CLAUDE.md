@@ -57,18 +57,6 @@ Reinstall cron: `bash scripts/cron-install.sh`. Check timers: `systemctl --user 
 
 Strategy scoring is deterministic: `new_entities / cost_usd` over the last 10 runs, weighted by per-value progress (linear falloff to 0 at target). Scores in `tmp/starbird-runner-strategy-scores.json`, history in `tmp/runner-metrics-history.jsonl`. Claude never writes to either — the launcher computes ground-truth metrics from a `data.json` diff.
 
-## Guardian pattern
-
-Mirrors shredly2. Files:
-
-- `scripts/starbird-guardian.sh` — bash launcher (hook or daily mode)
-- `scripts/starbird-guardian-prompt.md` — agent instructions
-- `tests/starbird-guardian-checklist.md` — curated regression guards
-- `.claude/hooks/post-push-starbird-guardian.sh` — PostToolUse hook, fires on any `git push`
-- `.claude/settings.json` — registers the hook
-
-Signal notifications via `/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh`.
-
 ## Data schema
 
 - `static/data.json` — version 2, firms[] + brands[]
