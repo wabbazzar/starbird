@@ -9,9 +9,8 @@
       "summary": "World's largest PE firm. Owns Jersey Mike's, Great Wolf Lodge, Tropical Smoothie. Notorious for sale-leaseback strategies that extract real estate and saddle companies with above-market rents. CEO Stephen Schwarzman (net worth $37+ billion) is documented by LittleSis as a leading political donor—$40 million to Republican causes in 2024, including $5 million to Trump's super PAC in late 2025—and served as a key mediator in Trump administration disputes, wielding outsized elite influence.",
       "brands": [
         "Jersey Mike's",
-        "Great Wolf Lodge",
         "Tropical Smoothie Café",
-        "Merlin Entertainments",
+        "Great Wolf Lodge",
         "Extended Stay America"
       ],
       "layoffs": "Portfolio-wide, ongoing",
@@ -38,13 +37,11 @@
       "aumVal": 650,
       "summary": "Owns Albertsons, Michaels ($5B LBO 2021), PetSmart (minority), and drove Claire's to bankruptcy in 2018. Also entangled in 99 Cents Only and Serta Simmons debt schemes. Co-founder Leon Black paid $158 million to Jeffrey Epstein in advisory fees over five years, as documented in a 2021 independent review by Dechert LLP. Black stepped down as CEO in 2021 under pressure.",
       "brands": [
-        "Albertsons / Safeway",
+        "Qdoba Mexican Grill",
         "Michaels",
-        "PetSmart (minority)",
-        "Claire's (post-bankrupt)",
-        "Qdoba",
-        "ADT",
-        "Chuck E. Cheese (former)"
+        "Claire's",
+        "ADT Home Security",
+        "Chuck E. Cheese"
       ],
       "layoffs": "Tens of thousands across portfolio",
       "notableBk": "Claire's (2018), Chuck E. Cheese (2020)",
@@ -72,12 +69,9 @@
       "aumVal": 600,
       "summary": "Pioneer of the leveraged buyout. Infamous for Toys 'R' Us where 73,000 workers lost jobs with no severance after 2017 bankruptcy. Loaded Envision Healthcare with $7B debt in 2018 LBO ($9.9B deal), driving it to May 2023 bankruptcy with $5.6B debt; split into two companies, thousands of jobs lost. Currently loading Varsity Brands with $2.4B junk-rated debt.",
       "brands": [
-        "Toys 'R' Us (bankrupt)",
-        "Varsity Brands ($2.4B debt)",
-        "Dollar General (exited)",
-        "1-800 Contacts",
-        "Heartland Dental",
-        "Envision Healthcare (bankrupt)"
+        "Varsity Spirit / BSN Sports",
+        "Envision Healthcare",
+        "Nothing Bundt Cakes"
       ],
       "layoffs": "73,000+ (Toys 'R' Us alone)",
       "notableBk": "Toys 'R' Us (2017), Envision Healthcare (2023)",
@@ -102,13 +96,7 @@
       "aum": "$185B",
       "aumVal": 185,
       "summary": "Infamous for Burger King, Dunkin', Domino's, Toys 'R' Us (co-investor). Pattern of debt-loading, cost-cutting, and quick exits leaving employees and communities behind.",
-      "brands": [
-        "Burger King (former)",
-        "Dunkin' (former)",
-        "Domino's (former)",
-        "Staples (former)",
-        "Michaels (former)"
-      ],
+      "brands": [],
       "layoffs": "Thousands across portfolio exits",
       "notableBk": "Toys 'R' Us (co-investor)",
       "harmScore": 72,
@@ -131,11 +119,7 @@
       "aumVal": 70,
       "summary": "Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure. Serially over-leverages retail and healthcare.",
       "brands": [
-        "Joann Craft (bankrupt 2025)",
-        "The Container Store (bankrupt 2024)",
-        "Prospect Medical (bankrupt)",
-        "J.Crew (former)",
-        "Petco (former)"
+        "The Container Store"
       ],
       "layoffs": "19,000+ (Joann alone in 2025)",
       "notableBk": "Joann (2025), Container Store (2024)",
@@ -160,9 +144,7 @@
       "aumVal": 65,
       "summary": "Owned Steward Health Care 2010–2021, acquiring six hospitals for $895M (only $246M equity). Executed $1.2B real estate sale-leaseback in 2016, extracting $800M profit while leaving Steward with $6.6B rent obligations. Steward filed for bankruptcy May 2024 with $9B liabilities, closing hospitals across 8 states and laying off 2,650+ healthcare workers.",
       "brands": [
-        "Steward Health Care (bankrupt)",
-        "Albertsons (co-investor, former)",
-        "Chrysler (former)"
+        "Steward Health Care"
       ],
       "layoffs": "2,650+ hospital workers",
       "notableBk": "Steward Health Care (2024, $9B liabilities)",
@@ -186,9 +168,7 @@
       "aumVal": 450,
       "summary": "Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity.",
       "brands": [
-        "99 Cents Only (bankrupt 2024)",
-        "Guitar Center (post-bankrupt)",
-        "H-Food Holdings (bankrupt)"
+        "Guitar Center"
       ],
       "layoffs": "10,800+ (99 Cents Only, 2024)",
       "notableBk": "99 Cents Only (2024), Guitar Center (2020)",
@@ -212,11 +192,9 @@
       "aumVal": 10,
       "summary": "Retail-stripping specialist. Completed Walgreens take-private 2025. Drove Nine West to bankruptcy 2018. Known for rapidly selling assets, closing stores, and cutting workforces post-acquisition.",
       "brands": [
-        "Walgreens (take-private 2025)",
-        "Staples (current)",
+        "Staples",
         "Hot Topic",
-        "Nine West (bankrupt 2018)",
-        "Talbots"
+        "Walgreens"
       ],
       "layoffs": "Thousands in retail closures",
       "notableBk": "Nine West (2018)",
@@ -245,10 +223,8 @@
         "Krispy Kreme",
         "Peet's Coffee",
         "Caribou Coffee",
-        "Einstein Bros.",
-        "Pret A Manger",
-        "Keurig (stake)",
-        "Bruegger's Bagels"
+        "Einstein Bros / Noah's / Bruegger's",
+        "Pret A Manger"
       ],
       "layoffs": "Multiple waves across closures",
       "notableBk": "Two failed Panera IPOs; 5%+ sales decline 2024",
@@ -272,9 +248,8 @@
       "aumVal": 40,
       "summary": "Owns PetSmart via the largest LBO of 2014 ($8.7B). Controversially transferred Chewy equity outside reach of PetSmart creditors. Also co-owns Guitar Center with Ares. Owns PetSmart, which has documented animal welfare violations in grooming salons (47 dog deaths 2008-2018, NJ Advance Media investigation).",
       "brands": [
-        "PetSmart",
-        "Guitar Center (co-owner)",
-        "Chewy (majority via transfer)"
+        "Guitar Center",
+        "PetSmart"
       ],
       "layoffs": "Management purges, store cuts",
       "notableBk": "PetSmart $3B+ debt burden; Guitar Center (co, 2020)",
@@ -299,7 +274,7 @@
       "aumVal": 190,
       "summary": "Majority owner of Petco post-IPO (still controls 60%+). Loaded Petco with $3.3B in debt. Near-bankruptcy warnings in 2023; CEO stepped down March 2024. Majority owner of Petco, which has documented USDA animal welfare violations in stores.",
       "brands": [
-        "Petco (majority 60%+)"
+        "Petco"
       ],
       "layoffs": "Ongoing store closures",
       "notableBk": "Near Chapter 11 (2023 warnings)",
@@ -346,9 +321,8 @@
       "aumVal": 90,
       "summary": "Bought Serta Simmons in 2012 via $3B LBO. Engaged in controversial 'uptier' debt manipulation. Filed Chapter 11 in Jan 2023 with $1.9B in liabilities. Took a 90-year-old brand to bankruptcy.",
       "brands": [
-        "Serta Simmons (bankrupt 2023)",
-        "Beautyrest (bankrupt via Serta)",
-        "Tuft & Needle (bankrupt via Serta)"
+        "Serta & Simmons Beautyrest",
+        "Tuft & Needle"
       ],
       "layoffs": "Factory and retail workers",
       "notableBk": "Serta Simmons (Jan 2023, $1.9B liabilities)",
@@ -371,11 +345,7 @@
       "aumVal": 100,
       "summary": "Co-acquired Citrix for $16.5B in 2022, immediately laid off 15% of staff (~2,250 people) and discussed raising customer prices 30–40%. Also took Pluralsight private at a major loss.",
       "brands": [
-        "Citrix / Cloud Software Group",
-        "TIBCO (merged w/ Citrix)",
-        "KnowBe4",
-        "Ping Identity",
-        "Solera"
+        "Citrix / Cloud Software Group"
       ],
       "layoffs": "2,250+ (Citrix alone, Jan 2023)",
       "notableBk": "Citrix debt debacle cost banks $1.3B",
@@ -399,12 +369,8 @@
       "summary": "Software-focused PE giant. Took Anaplan private for $10.7B in 2022, immediately laid off hundreds and offshored jobs. Glassdoor: 'cut their way to profitability at any cost.' Acquired Dayforce for $12.3B in 2025, financed with $6B debt package from Goldman Sachs ($5.5B term loan + $500M revolver), the largest buyout financing of 2025.",
       "brands": [
         "Anaplan",
-        "Coupa Software",
-        "SolarWinds (partial)",
-        "Proofpoint",
-        "Sophos",
-        "SailPoint",
-        "Dayforce (2025)"
+        "SolarWinds (Thoma Bravo stake)",
+        "Dayforce"
       ],
       "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
@@ -429,7 +395,7 @@
       "summary": "Jointly acquired Zendesk for $10.2B in Nov 2022 — after Zendesk rejected a $17B offer months earlier. Price hikes and product cuts expected as PE exit targets loom.",
       "brands": [
         "Zendesk",
-        "McAfee (Permira former co-owner)"
+        "At Home"
       ],
       "layoffs": "Restructuring underway",
       "notableBk": "No bankruptcy; price pressure documented",
@@ -452,9 +418,7 @@
       "aumVal": 100,
       "summary": "Acquired Qualtrics for $12.5B in 2023. Experience management platform now focused on PE exit returns. Also holds stakes in Twitter/X and Endeavor.",
       "brands": [
-        "Qualtrics",
-        "Endeavor Group",
-        "Twitter/X (minority)"
+        "Qualtrics"
       ],
       "layoffs": "Post-acquisition restructuring",
       "notableBk": "No bankruptcy; exit-oriented ownership",
@@ -476,7 +440,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Placeholder for brands whose specific PE owner is not yet tracked. The research loop should replace these with specific firm records as they are identified.",
-      "brands": [],
+      "brands": [
+        "TGI Fridays"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 50,
@@ -495,7 +461,7 @@
       "aumVal": 5,
       "summary": "German PE group. Acquired The Body Shop in 2023, drove it to bankruptcy in 2024 after closing all US stores.",
       "brands": [
-        "The Body Shop (bankrupt 2024)"
+        "The Body Shop"
       ],
       "layoffs": "Mass closures",
       "notableBk": "The Body Shop (2024)",
@@ -518,7 +484,7 @@
       "aumVal": 19,
       "summary": "Former owner of Red Lobster. Engineered sale-leaseback that stripped real estate and pushed rents above market, directly contributing to Red Lobster's 2024 bankruptcy.",
       "brands": [
-        "Red Lobster (former, bankrupt 2024)"
+        "Red Lobster"
       ],
       "layoffs": "36,000 affected (Red Lobster 2024)",
       "notableBk": "Red Lobster (2024)",
@@ -541,7 +507,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Data analytics firm that has supplied ICE with case-management and targeting software since 2013. Its FALCON system and Investigative Case Management (ICM) platform give every ICE agent access to a network of federal and private databases. In 2025, Palantir won a $30M contract to build ImmigrationOS—an AI platform for tracking, targeting, and deporting immigrants, with a prototype delivered September 2025. Co-founded by Peter Thiel (net worth $25.8 billion), who serves as chairman; Thiel is part of a network of billionaire oligarchs with documented outsized political influence tracked by LittleSis.",
-      "brands": [],
+      "brands": [
+        "Palantir Technologies"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 98,
@@ -562,7 +530,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Facial recognition company that scraped billions of images from public websites and social media without consent to build a mass surveillance database. ICE awarded Clearview AI a $9.2M contract in 2025 for facial recognition investigations. ICE began using Clearview in 2019, before completing the legally required Privacy Impact Assessment in May 2020.",
-      "brands": [],
+      "brands": [
+        "Clearview AI"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 88,
@@ -583,7 +553,7 @@
       "aumVal": 0,
       "summary": "World's largest private prison operator and dominant ICE detention contractor. Operates 19+ ICE detention facilities with 26,000 beds as of 2025. Subsidiary BI Incorporated holds ICE's sole electronic monitoring contract worth $2.2B. GEO posted record $254M profit in 2025 driven by ICE detention expansion under the Trump administration. Revenue rose to $2.63B in 2025 with projections of $3B in 2026. Executive chairman George Zoley contributed over $1 million in political donations from 2021-2025, including to Trump-affiliated PACs, and GEO donated $500,000 to Trump's 2025 inaugural committee; LittleSis maps document Zoley as part of the elite network wielding political influence over immigration enforcement policy.",
       "brands": [
-        "GEO Secure Services",
+        "GEO Group",
         "BI Incorporated"
       ],
       "layoffs": "N/A",
@@ -606,7 +576,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Second-largest private prison company in the U.S. and major ICE detention contractor operating at least 10 ICE facilities. Under the 2025 immigration crackdown, CoreCivic saw a 55% increase in immigration detainee contracts and signed agreements for facilities in California, Kansas, Texas, and Oklahoma totaling roughly $300M in new ICE revenue. Total 2025 revenue: $2.2B. Detainees at the California City facility reported inhumane conditions. Former CEO Damon Hininger contributed over $1 million in political donations from 2021-2025, including $800,000 to Trump campaign and inaugural; CoreCivic PACs donated $784,974 in 2024 with 84% to Republicans, and the company donated $500,000 to Trump's 2025 inaugural, demonstrating elite influence over immigration detention policy.",
-      "brands": [],
+      "brands": [
+        "CoreCivic"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 93,
@@ -627,7 +599,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Israeli-founded digital forensics company whose Universal Forensic Extraction Devices (UFEDs) unlock phones and extract complete data images including messages, location history, encrypted app content, and photos. ICE renewed an $11M contract with Cellebrite and filed a notice of intent for a new contract worth up to $35M. DHS has contracted Cellebrite since 2008. CBP searched 47,000 devices in 2024 using similar tools.",
-      "brands": [],
+      "brands": [
+        "Cellebrite"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 82,
@@ -648,9 +622,7 @@
       "aumVal": 0,
       "summary": "Global media and information company whose CLEAR platform provides ICE access to license plate data, real-time incarceration data, cell phone and address records, real estate ownership, credit data, and social media information. Thomson Reuters holds six distinct contracts with ICE totaling $54.4M, including a $22.8M contract expiring 2026. Employee unions and 70% of independent shareholders have raised concerns about CLEAR's role in immigration enforcement.",
       "brands": [
-        "Reuters",
-        "Westlaw",
-        "CLEAR"
+        "Thomson Reuters / CLEAR"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -672,9 +644,7 @@
       "aumVal": 0,
       "summary": "UK-headquartered information analytics company and parent of LexisNexis Risk Solutions. Its Accurint platform holds dossiers on 282 million unique U.S. identities and was awarded a $22.1M ICE contract in 2021 running through 2028. The contract gives 11,000+ ICE agents automation tools for vetting, screening, and targeting people for deportation. A 2023 lawsuit alleged Accurint enables warrantless surveillance of immigrants.",
       "brands": [
-        "LexisNexis",
-        "Accurint",
-        "Reed Elsevier"
+        "LexisNexis Risk Solutions"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -695,7 +665,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Communications technology company providing mission-critical radio, communications, and surveillance infrastructure to law enforcement. Holds a $15.6M contract with ICE to implement and maintain tactical communication infrastructure delivering secure voice and data to ICE agents, with potential extension to $28M through 2028. Also holds $391M+ in CBP contracts since 2008 for Border Patrol radio communications.",
-      "brands": [],
+      "brands": [
+        "Motorola Solutions"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 65,
@@ -716,12 +688,7 @@
       "aumVal": 0,
       "summary": "E-commerce and cloud computing giant whose Amazon Web Services (AWS) division holds 114 federal authorizations to manage DHS data in fiscal year 2025—more than any other technology company. AWS hosts ICE case management, biometric data systems, and other enforcement infrastructure. Amazon holds more federal data authorizations than any other tech company and supports the data backbone underpinning ICE enforcement operations at scale. Controlled by Jeff Bezos (net worth $242 billion in 2025), one of three billionaires with wealth exceeding $200 billion; Bezos owns The Washington Post and is documented by Oxfam as wielding outsized political influence over media and policy (LittleSis network).",
       "brands": [
-        "Amazon Web Services",
-        "Amazon.com",
-        "Whole Foods",
-        "Ring",
-        "Twitch",
-        "Alexa"
+        "Amazon Web Services"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -743,7 +710,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Global consulting and professional services firm whose federal arm, Accenture Federal Services, is the incumbent contractor on ICE's $100M+ cyber defense and intelligence support services contract. Accenture also won a $71M DHS contract to support an immigration-focused biometric and biographic identity management system. Accenture Federal Services is one of the largest IT and government services contractors enabling ICE enforcement infrastructure.",
-      "brands": [],
+      "brands": [
+        "Accenture Federal Services"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 62,
@@ -852,8 +821,7 @@
       "aumVal": 0,
       "summary": "One of the world's largest publicly traded oil and gas companies, headquartered in Spring, Texas. ExxonMobil operates refineries, petrochemical plants, and over 21,000 global retail fuel stations under the Exxon, Mobil, and Esso brands. Ranked in the top 10 of PERI's Greenhouse 100 Polluters index and #5 in the Toxic 100 Water Polluters index (2022 data). Its Baytown, Texas complex is one of the largest U.S. refineries and among the top greenhouse gas emitters in the country. ExxonMobil spent decades funding climate denial while being one of the largest contributors to climate change and a major EPA TRI chemical reporter. Tagged environment_general.",
       "brands": [
-        "Exxon",
-        "Mobil"
+        "Exxon"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -875,8 +843,7 @@
       "aumVal": 0,
       "summary": "The world's largest independent petroleum refiner, headquartered in San Antonio, Texas. Operates 15 refineries in the U.S., Canada, and UK with combined throughput of about 3.2 million barrels per day. Ranked #3 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data). Valero's refinery operations are among the largest EPA Toxics Release Inventory reporters, releasing volatile organic compounds, sulfur dioxide, nitrogen oxides, and other hazardous chemicals into communities near its facilities in Texas, Louisiana, and California. Tagged environment_general.",
       "brands": [
-        "Valero",
-        "Diamond Shamrock"
+        "Valero"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -898,9 +865,7 @@
       "aumVal": 0,
       "summary": "Energy manufacturing and logistics company spun off from ConocoPhillips in 2012, headquartered in Houston, Texas. Operates refineries, chemical plants, and retail fuel stations across the U.S. and internationally. Ranked #4 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data). Phillips 66's refinery operations are significant EPA TRI reporters, contributing to air and water pollution in communities near its California, Texas, and Louisiana facilities. Owns the Phillips 66, Conoco, and 76 retail fuel brands. Tagged environment_general.",
       "brands": [
-        "Phillips 66",
-        "Conoco",
-        "76"
+        "Phillips 66"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -922,7 +887,6 @@
       "aumVal": 0,
       "summary": "One of the world's largest oil and gas companies, headquartered in San Ramon, California. Operates upstream exploration, refining, and retail marketing globally under the Chevron and Texaco brands. Ranked #7 in the PERI UMass Greenhouse 100 Suppliers Index (2024 report, 2022 data). Chevron's refineries are major EPA Toxics Release Inventory reporters; its Richmond, California refinery has triggered multiple air quality emergencies, including a 2012 fire that sent approximately 15,000 residents to hospital. Chevron also faced a $9.5 billion judgment (later overturned) for catastrophic oil contamination of the Ecuadorian Amazon. Acquired Texaco in 2001. Tagged environment_general.",
       "brands": [
-        "Chevron",
         "Texaco"
       ],
       "layoffs": "N/A",
@@ -968,10 +932,7 @@
       "summary": "The second-largest privately-held company in the United States, headquartered in Wichita, Kansas, with operations spanning oil refining (Flint Hills Resources), fertilizers (Koch Fertilizer), paper products (Georgia-Pacific), glass, electronics, and more. Ranks in the top 10 of the PERI UMass Toxic 100 Air Polluters index. Georgia-Pacific's paper mills are major EPA TRI reporters; the Green Bay, WI facility was responsible for 23% of total industrial discharge statewide in 2007-2009. The Crossett, AR mill received a $600,000 EPA Clean Air Act fine in 2018. Koch Industries has accumulated 150+ state environmental violation penalties across 20 states. Owns consumer brands Brawny, Angel Soft, Quilted Northern, Dixie, and Sparkle through Georgia-Pacific. Tagged environment_general.",
       "brands": [
         "Brawny",
-        "Angel Soft",
-        "Quilted Northern",
-        "Dixie",
-        "Sparkle"
+        "Dixie (cups & plates)"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1015,9 +976,7 @@
       "aumVal": 0,
       "summary": "Major electric and gas utility holding company headquartered in Atlanta, Georgia. Ranked #3 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 86 million metric tons of CO2 equivalent per year. Climate TRACE satellite-verified power-sector data identifies Southern Company facilities — particularly its coal-heavy fleet in Alabama and Georgia — among the highest-emitting in the nation. Operates consumer-facing subsidiaries Georgia Power, Alabama Power, Mississippi Power, and Gulf Power, serving over 9 million customers. The Plant Vogtle nuclear expansion, while carbon-free, came in at 6B — double the original estimate — and was partly funded by ratepayer rate hikes approved by regulators.",
       "brands": [
-        "Georgia Power",
-        "Alabama Power",
-        "Mississippi Power"
+        "Georgia Power"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1039,10 +998,7 @@
       "aumVal": 0,
       "summary": "One of the largest electric utilities in the United States, headquartered in Columbus, Ohio, serving approximately 5.5 million customers across 11 states including Ohio, Texas, Oklahoma, Arkansas, Louisiana, West Virginia, Virginia, Michigan, Indiana, and Kentucky. Ranked #5 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 70 million metric tons of CO2 equivalent per year — declining to 69.3 MT in 2023. Climate TRACE independently tracks AEP's coal and gas fleet as among the highest-emitting power company assets in North America. AEP operates the largest electric transmission system in the United States (39,000+ miles), giving it outsized influence over the pace of the grid's decarbonization.",
       "brands": [
-        "AEP Ohio",
-        "Appalachian Power",
-        "Public Service Oklahoma",
-        "Southwestern Electric Power"
+        "AEP Energy (American Electric Power)"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1064,8 +1020,7 @@
       "aumVal": 0,
       "summary": "One of the largest competitive power companies in the United States, headquartered in Irving, Texas. Ranked #1 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 106.5 million metric tons of CO2 equivalent — the single largest corporate greenhouse gas emitter in the country that year. Emissions declined to approximately 86.3 MT by 2023 as older coal plants were retired, but Climate TRACE continues to identify Vistra's Texas coal fleet (including Martin Lake and Oak Grove plants) as among the highest-emitting power assets in North America. Vistra acquired Dynegy in 2018, adding more coal capacity. It also operates TXU Energy and Ambit Energy as retail electricity brands serving Texas consumers.",
       "brands": [
-        "TXU Energy",
-        "Ambit Energy"
+        "TXU Energy"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1109,8 +1064,7 @@
       "aumVal": 0,
       "summary": "The world's largest airline by scheduled passengers carried, headquartered in Fort Worth, Texas. Climate TRACE tracks aviation emissions by carrier; American Airlines' operational fleet emits approximately 45-50 million metric tons of CO2 equivalent annually, making it one of the highest-emitting airlines globally. American has made net-zero pledges for 2050 but actual emissions rose post-pandemic as travel rebounded; sustainable aviation fuel (SAF) accounted for less than 1% of fuel used in 2023. Unlike ground transportation, commercial aviation has limited near-term decarbonization pathways, and American's aggressive route expansion strategy extends its carbon commitments further into the future.",
       "brands": [
-        "American Airlines",
-        "AAdvantage"
+        "American Airlines"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1132,8 +1086,7 @@
       "aumVal": 0,
       "summary": "One of the largest airlines in the world by revenue, headquartered in Atlanta, Georgia. Climate TRACE satellite-verified aviation data tracks Delta's fleet as a top-tier global airline emitter. Delta reported scope 1 emissions of 35.9 million metric tons of CO2 equivalent in 2023, exceeding its own pre-pandemic 2019 baseline as travel demand rebounded — up from 30.7 MT in 2022. Delta made a high-profile  billion carbon neutrality pledge in 2020, largely based on carbon offsets, which was subsequently criticized by environmental groups and academics as greenwashing. A 2023 class-action lawsuit alleged Delta misled consumers by claiming carbon-neutral status. SAF represented less than 0.5% of fuel consumed in 2023.",
       "brands": [
-        "Delta Air Lines",
-        "SkyMiles"
+        "Delta Air Lines"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1155,8 +1108,7 @@
       "aumVal": 0,
       "summary": "One of the three largest airlines in the United States by passengers carried, headquartered in Chicago, Illinois. Climate TRACE aviation data places United Airlines among the world's top 10 airline emitters. United reported total scope 1 emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023. United has been more aggressive than peers in investing in SAF offtake agreements and emerging technology (including contrails research with Google), but SAF represented less than 1% of fuel burned in 2023 and commercial-scale availability remains a decade away. United's ongoing fleet expansion and growing international routes mean absolute emissions are rising even as carbon intensity per seat-mile improves.",
       "brands": [
-        "United Airlines",
-        "MileagePlus"
+        "United Airlines"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1178,9 +1130,7 @@
       "aumVal": 0,
       "summary": "Major utility holding company headquartered in Minneapolis, Minnesota, serving approximately 3.7 million electric and 2.1 million natural gas customers across eight states: Colorado, Minnesota, Texas, New Mexico, South Dakota, North Dakota, Wisconsin, and Michigan. Ranked #7 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 47 million metric tons of CO2 equivalent — among the top 10 US corporate emitters. Climate TRACE independently tracks Xcel's coal and gas generation fleet. Xcel was one of the first utilities to pledge 100% carbon-free electricity by 2050 (later moved to 80% carbon-free by 2030), but continued operating major coal plants through 2024 and faces ongoing regulatory scrutiny over its transition timeline.",
       "brands": [
-        "Xcel Energy",
-        "Public Service of Colorado",
-        "Northern States Power"
+        "Xcel Energy"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1202,10 +1152,7 @@
       "aumVal": 0,
       "summary": "Electric utility holding company headquartered in New Orleans, Louisiana, serving approximately 3 million customers in Arkansas, Louisiana, Mississippi, and Texas. Ranked #13 in the UMass PERI Greenhouse 100 Polluters Index (2019 EPA data) with approximately 35.8 million metric tons of CO2 equivalent. Climate TRACE satellite data confirms Entergy's large gas and coal generation fleet in the Deep South as a significant regional emitter. Entergy's service territory overlaps heavily with low-income, majority-Black communities in Louisiana and Mississippi, which bear disproportionate air quality impacts from its fossil fuel generation. Entergy has faced criticism from environmental justice groups for seeking large rate increases to fund grid upgrades while delaying renewable energy investment.",
       "brands": [
-        "Entergy",
-        "Entergy Louisiana",
-        "Entergy Arkansas",
-        "Entergy Texas"
+        "Entergy"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1229,13 +1176,10 @@
       "brands": [
         "Tide",
         "Febreze",
-        "Dawn",
-        "Cascade",
-        "Mr. Clean",
-        "Pantene",
-        "Head & Shoulders",
         "Gillette",
-        "Oral-B"
+        "Always",
+        "Bounty",
+        "Braun"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1260,10 +1204,7 @@
       "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemmé, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products — particularly TRESemmé — as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemmé faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemmé products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general. Unilever continues animal testing where 'required by law,' but Cruelty Free International and PETA note this is often voluntary and that validated non-animal alternatives exist for most test categories. Unilever is NOT Leaping Bunny certified.",
       "brands": [
         "TRESemmé",
-        "Dove",
-        "Suave",
-        "Axe",
-        "Vaseline"
+        "Dove"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1286,11 +1227,7 @@
       "aumVal": 0,
       "summary": "American consumer goods company headquartered in New York City, with approximately $20B in annual revenue. Colgate-Palmolive manufactures oral care, personal care, and household cleaning products sold globally. Its Palmolive dish soap line receives D and F grades from EWG's Healthy Cleaning Guide due to methylisothiazolinone (MIT) — a potent skin sensitizer and suspected neurotoxin classified as 'high concern' by EWG — as well as synthetic fragrances and surfactants. EWG has flagged MIT-containing products as a known cause of allergic contact dermatitis, and the European Union has banned MIT from leave-on cosmetics. Tagged environment_general.",
       "brands": [
-        "Palmolive",
-        "Softsoap",
-        "Irish Spring",
-        "Speed Stick",
-        "Colgate"
+        "Palmolive"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1315,12 +1252,7 @@
       "summary": "Privately held American consumer goods company headquartered in Racine, Wisconsin, with estimated revenues of $10B+. SC Johnson manufactures household cleaning, pest control, and storage products including Windex, Scrubbing Bubbles, Raid, Off!, Pledge, Glade, and Ziploc. EWG's Healthy Cleaning Guide grades multiple SC Johnson products as D or F due to quaternary ammonium compounds ('quats') in Scrubbing Bubbles bathroom cleaners — chemicals associated with reproductive toxicity, asthma, and antibiotic resistance — and synthetic fragrance in Glade products. Scrubbing Bubbles Disinfectant Bathroom Cleaner received an F from EWG specifically for quat content and chronic toxicity concerns. Tagged environment_general.",
       "brands": [
         "Scrubbing Bubbles",
-        "Windex",
-        "Raid",
-        "Off!",
-        "Pledge",
-        "Glade",
-        "Ziploc"
+        "Windex"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1344,10 +1276,7 @@
       "summary": "British multinational consumer goods company headquartered in Slough, UK, with approximately $15B in annual revenue. Reckitt markets hygiene, health, and nutrition products globally under brands including Lysol, Finish, Woolite, Clearasil, and Durex. EWG's Healthy Cleaning Guide gives multiple Lysol products D or F grades for containing quaternary ammonium compounds ('quats') — chemicals the EPA has warned may impair fertility and fetal development — as well as synthetic fragrances and other high-hazard ingredients. Lysol Disinfectant Spray received an F from EWG specifically for quat content and undisclosed fragrance chemicals. Tagged environment_general.",
       "brands": [
         "Lysol",
-        "Finish",
-        "Woolite",
-        "Clearasil",
-        "Mucinex"
+        "Air Wick"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1372,9 +1301,7 @@
       "summary": "American personal care company headquartered in Shelton, Connecticut, spun off from Energizer Holdings in 2015. Edgewell markets sun care, shaving, and feminine care products globally under brands including Banana Boat, Hawaiian Tropic, Schick, Wilkinson Sword, Carefree, and Stayfree. EWG's annual Sunscreen Guide has consistently ranked Banana Boat and Hawaiian Tropic products among its worst-rated sunscreens due to oxybenzone — a chemical sunscreen filter detected in human blood, urine, and breast milk at concentrations associated with hormone disruption, and confirmed to damage coral reef ecosystems at very low concentrations. Multiple Banana Boat products also contain retinyl palmitate (vitamin A), which EWG warns may accelerate skin tumor growth when used in sun-exposed skin. Tagged environment_general.",
       "brands": [
         "Banana Boat",
-        "Hawaiian Tropic",
-        "Schick",
-        "Wilkinson Sword"
+        "Hawaiian Tropic"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1396,7 +1323,11 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "L'Oréal is the world's largest cosmetics company, headquartered in Clichy, France, with brands spanning mass-market and luxury beauty. Despite claims of investment in non-animal testing methods, L'Oréal continues to sell products in mainland China, where regulators require animal testing for many imported cosmetic products. PETA lists L'Oréal as a company that tests on animals as of 2024, tagging it under animals_general for continued animal testing practices in markets where it is legally required.",
-      "brands": [],
+      "brands": [
+        "Maybelline",
+        "Biotherm",
+        "Cacharel"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 60,
@@ -1417,7 +1348,11 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "The Estée Lauder Companies is a global luxury beauty conglomerate owning MAC, Clinique, Bobbi Brown, Tom Ford Beauty, La Mer, Aveda, and dozens of other prestige brands. The company sells products in mainland China and has confirmed it tests on animals 'where required by law.' PETA lists Estée Lauder as a company that tests on animals, placing it in the animals_general harm category for ongoing animal testing tied to market access in countries with mandatory testing requirements.",
-      "brands": [],
+      "brands": [
+        "Clinique",
+        "MAC Cosmetics",
+        "Bobbi Brown"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 60,
@@ -1438,7 +1373,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Coty Inc. is one of the world's largest beauty companies, owning brands including Rimmel London, CoverGirl, Sally Hansen, OPI, and designer fragrance licenses (Hugo Boss, Gucci). Coty tests on animals where required by local regulations, including in China, and appears on PETA's companies-that-test-on-animals list. Coty has faced significant financial struggles and debt burdens following its 2016 acquisition of Procter & Gamble's beauty brands, but remains a dominant force in mass-market cosmetics. Tagged under animals_general for its continued animal testing practices.",
-      "brands": [],
+      "brands": [
+        "Rimmel London"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 62,
@@ -1459,7 +1396,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Church & Dwight is an American consumer goods company best known for Arm & Hammer, OxiClean, Trojan, Vitafusion, and Waterpik. The company tests on animals for its household and personal care product lines and appears on PETA's list of companies that conduct animal testing. While Church & Dwight claims to minimize animal testing, it has not achieved cruelty-free certification from Cruelty Free International or PETA. Tagged under animals_general for ongoing animal testing across its product portfolio.",
-      "brands": [],
+      "brands": [
+        "OxiClean"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -1480,7 +1419,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Henkel is a German multinational consumer goods company headquartered in Düsseldorf, owning hair care brand Schwarzkopf, Dial soap, Purex, Right Guard, and industrial adhesives. Henkel sells products in mainland China and tests on animals where required by law. Despite rhetoric about reducing animal testing, Henkel has not achieved cruelty-free certification and remains on PETA's companies-that-test list. Tagged under animals_general for continued animal testing practices in regulated markets.",
-      "brands": [],
+      "brands": [
+        "Schwarzkopf"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -1501,7 +1442,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Beiersdorf is a German personal care company headquartered in Hamburg, most famous for its Nivea brand, as well as Eucerin, La Prairie, Hansaplast, and Coppertone. Beiersdorf sells across global markets including mainland China and tests on animals where required by local regulations. The company has not obtained cruelty-free certification from Cruelty Free International or PETA, and appears on PETA's companies-that-test-on-animals list. Tagged under animals_general for its animal testing practices tied to international market access.",
-      "brands": [],
+      "brands": [
+        "Nivea"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -1521,7 +1464,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "The Clorox Company is an American consumer goods manufacturer headquartered in Oakland, California, owning brands including Clorox bleach, Pine-Sol, Formula 409, Liquid-Plumr, Glad, Kingsford, Hidden Valley, and Burt's Bees. Clorox tests on animals for its cleaning product formulations and safety compliance and appears on PETA's list of companies that conduct animal testing. The company has not obtained cruelty-free certification. Tagged under animals_general for ongoing animal testing practices.",
-      "brands": [],
+      "brands": [
+        "Pine-Sol"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -1541,7 +1486,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Mary Kay Inc. is a privately held American multi-level marketing cosmetics company founded in 1963 by Mary Kay Ash, headquartered in Addison, Texas. Mary Kay sells its personal care and beauty products in over 40 countries including mainland China, where regulators require animal testing for many cosmetic products. Mary Kay appears on PETA's companies-that-test-on-animals list. The company has been unable or unwilling to obtain cruelty-free certification from Cruelty Free International or PETA. Tagged under animals_general for continued animal testing tied to its China market access.",
-      "brands": [],
+      "brands": [
+        "Mary Kay"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 62,
@@ -1561,7 +1508,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Shiseido is Japan's largest cosmetics company, founded in 1872 and headquartered in Tokyo, with brands including Shiseido, NARS, bareMinerals, Clé de Peau Beauté, and Drunk Elephant. Shiseido sells extensively in mainland China, where animal testing requirements apply to many imported cosmetics. PETA lists Shiseido as a company that tests on animals. Although Shiseido has pledged to eliminate animal testing by 2027, it has not yet achieved that goal and continues to test where legally required. Tagged under animals_general for ongoing animal testing in regulated markets.",
-      "brands": [],
+      "brands": [
+        "Shiseido"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -1582,7 +1531,12 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "LVMH is the world's largest luxury goods conglomerate, controlled by Bernard Arnault and headquartered in Paris. Its beauty and fragrance division includes Parfums Christian Dior, Guerlain, Givenchy Parfums, Benefit Cosmetics, Make Up For Ever, and Acqua di Parma. LVMH sells luxury cosmetics and fragrances in mainland China, where animal testing requirements apply, and its beauty brands are listed by PETA as companies that test on animals. LVMH's prioritization of the lucrative Chinese market over cruelty-free standards places it in the animals_general harm category.",
-      "brands": [],
+      "brands": [
+        "Dior Beauty",
+        "Benefit Cosmetics",
+        "Bulgari",
+        "Acqua di Parma"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 58,
@@ -1605,9 +1559,10 @@
       "brands": [
         "Neutrogena",
         "Aveeno",
+        "Acuvue",
         "Clean & Clear",
         "Band-Aid",
-        "Listerine"
+        "BENGAY"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1631,9 +1586,7 @@
       "summary": "GSK is a global pharmaceutical and consumer healthcare company. Its consumer healthcare division was spun out as Haleon in 2022, encompassing oral care and over-the-counter brands such as Aquafresh, Sensodyne, and Panadol. Both GSK and Haleon-inherited brands remain on PETA's list of companies that conduct animal testing, largely to satisfy regulatory requirements in China and other markets.",
       "brands": [
         "Aquafresh",
-        "Sensodyne",
-        "Panadol",
-        "Biotene"
+        "Sensodyne"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1655,8 +1608,7 @@
       "aumVal": 0,
       "summary": "Revlon is a legacy American cosmetics and fragrance company founded in 1932. The company sells mass-market beauty products under the Revlon brand and filed for Chapter 11 bankruptcy in 2022 before emerging under new ownership. Despite financial restructuring, Revlon continues to be listed by PETA as a company that conducts animal testing, as it sells in markets that mandate such testing.",
       "brands": [
-        "Revlon",
-        "Elizabeth Arden"
+        "Revlon"
       ],
       "layoffs": "N/A",
       "notableBk": "Chapter 11 bankruptcy 2022",
@@ -1679,8 +1631,7 @@
       "aumVal": 0,
       "summary": "Avon is a global direct-sales beauty and personal care company, now a subsidiary of Brazil-based Natura &Co following a 2020 acquisition. Avon sells cosmetics, skincare, and fragrance products in over 100 countries. Because Avon continues to sell in China—where animal testing is required for imported cosmetics—it remains on PETA's list of brands that do not meet cruelty-free standards.",
       "brands": [
-        "Avon",
-        "Skin So Soft"
+        "Avon"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1703,10 +1654,7 @@
       "aumVal": 0,
       "summary": "Kering is a French luxury conglomerate owning Gucci, Saint Laurent, Bottega Veneta, Balenciaga, and Alexander McQueen, among others. Multiple Kering-owned fragrance and beauty lines appear on PETA's list of companies that conduct animal testing. The company's high-fashion brands use animal-derived materials including exotic skins, fur, and down, and its cosmetics lines conduct animal testing for regulatory compliance in certain markets.",
       "brands": [
-        "Balenciaga",
-        "Gucci",
-        "Saint Laurent",
-        "Bottega Veneta"
+        "Balenciaga"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1729,10 +1677,7 @@
       "summary": "Mars, Incorporated is a privately-held global food and pet care company known for candy brands like M&Ms, Snickers, and Skittles, and pet food brands such as Pedigree, Whiskas, and Royal Canin. In 2018 Mars acquired Blue Buffalo for $8 billion, adding a premium natural pet food brand to its portfolio. Mars conducts animal testing on its pet food formulations and is cited in cruelty-free databases for these practices. In March 2025, Mars completed its $35.9 billion acquisition of Kellanova (formerly Kellogg's), adding Pop-Tarts, Froot Loops, Frosted Flakes, Cheez-It, Pringles, and Eggo to its portfolio — making Mars one of the largest ultra-processed snack and cereal companies in the world.",
       "brands": [
         "Blue Buffalo",
-        "Pedigree",
-        "Whiskas",
-        "Royal Canin",
-        "M&Ms"
+        "Pop-Tarts"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1756,8 +1701,7 @@
       "aumVal": 0,
       "summary": "Clarins is a French family-owned luxury skincare and cosmetics company founded in 1954. Known for premium botanical-based skincare products, Clarins sells globally including in mainland China, where imported cosmetics have historically required pre-market animal testing. As a result, Clarins appears on PETA's list of beauty companies that do not meet cruelty-free certification standards despite its plant-centered brand positioning.",
       "brands": [
-        "Clarins",
-        "My Blend"
+        "Clarins"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1779,8 +1723,7 @@
       "aumVal": 0,
       "summary": "BIC Corporation is a French consumer goods company best known for disposable pens, lighters, and shavers. BIC's personal care division markets disposable razors and shaving products sold globally. The company appears on PETA's list of companies that conduct animal testing for its personal care and grooming product lines, as some formulations require animal safety testing for regulatory approval in certain markets.",
       "brands": [
-        "BIC Razors",
-        "BIC Lighters"
+        "BIC Razors"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1805,13 +1748,7 @@
       "brands": [
         "Cheerios",
         "Lucky Charms",
-        "Trix",
-        "Cocoa Puffs",
-        "Betty Crocker",
-        "Pillsbury",
-        "Yoplait",
-        "Annie's",
-        "Old El Paso"
+        "Cinnamon Toast Crunch"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1836,13 +1773,8 @@
         "Quaker Oats",
         "Doritos",
         "Cheetos",
-        "Lay's",
         "Mountain Dew",
-        "Gatorade",
-        "Pepsi",
-        "Fritos",
-        "Ruffles",
-        "Tropicana"
+        "Gatorade"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1865,13 +1797,9 @@
       "summary": "Global food and beverage company formed through the 2015 merger of Kraft Foods and H.J. Heinz, headquartered in Chicago and Pittsburgh. Kraft Heinz's Lunchables children's lunch kits are rated among the most concerning products on EWG's Food Scores database, containing sodium nitrite — classified by EWG as of higher concern and linked to cancer in processed meat — alongside multiple artificial food dyes including RED 40, BLUE 1, YELLOW 5, and YELLOW 6. Kool-Aid drink mixes score 6–9 on EWG Food Scores due to artificial colors and high sugar. Oscar Mayer processed meats routinely use sodium nitrite. The company's portfolio of ultra-processed, additive-laden products makes it a repeat offender across EWG's food safety rankings. Flagged under health_general.",
       "brands": [
         "Lunchables",
-        "Oscar Mayer",
-        "Kool-Aid",
-        "Jell-O",
         "Velveeta",
-        "Heinz",
-        "Philadelphia Cream Cheese",
-        "Capri Sun (US license)"
+        "Kool-Aid",
+        "Oscar Mayer"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1894,12 +1822,8 @@
       "summary": "U.S. subsidiary of Nestlé S.A., the world's largest food and beverage company by revenue, headquartered in Arlington, Virginia. Nestlé USA's Hot Pockets frozen sandwiches score poorly on EWG's Food Scores database — products contain sodium nitrite, which EWG rates as a higher-concern ingredient associated with increased cancer risk, as well as high sodium levels (often exceeding 40% of the daily adequate intake per serving) and multiple ultra-processed artificial ingredients. Hot Pockets are classified as NOVA Group 4 ultra-processed food products. Other Nestlé USA brands including Stouffer's and Lean Cuisine frozen meals also score poorly due to sodium, preservatives, and artificial additives. Flagged under health_general.",
       "brands": [
         "Hot Pockets",
-        "Stouffer's",
-        "Lean Cuisine",
         "DiGiorno",
-        "Coffee-mate",
-        "Toll House",
-        "Nesquik"
+        "Stouffer's"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1922,13 +1846,7 @@
       "summary": "American consumer packaged goods company headquartered in Chicago, Illinois, with annual revenues around $12 billion. Conagra's Chef Boyardee canned pasta products are rated as high-concern on EWG's Food Scores database, containing sodium nitrite in meat varieties, artificial flavors, high sodium, and refined ingredients that rank them as ultra-processed NOVA Group 4 foods. Slim Jim meat snacks — another Conagra brand — contain sodium nitrite, mechanically separated chicken, and dextrose, scoring among the worst EWG Food Scores for processed meats. Conagra acquired Chef Boyardee and other shelf-stable brands through its 2000 purchase of American Home Foods. Flagged under health_general.",
       "brands": [
         "Chef Boyardee",
-        "Slim Jim",
-        "Hunt's",
-        "Orville Redenbacher",
-        "Healthy Choice",
-        "Marie Callender's",
-        "Vlasic",
-        "Birds Eye"
+        "Slim Jim"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1951,15 +1869,7 @@
       "summary": "Global snack food company headquartered in Chicago, Illinois, spun off from Kraft Foods in 2012, with annual revenue exceeding $35 billion. Mondelēz's Oreo cookies are rated as ultra-processed on EWG's Food Scores database — scored as a NOVA Group 4 ultra-processed product containing refined bleached flour, high-fructose corn syrup, artificial vanilla flavor, soy lecithin emulsifier, and palm oil. The company's portfolio of snack brands — including Chips Ahoy!, Ritz, Wheat Thins, Nutter Butter, Sour Patch Kids, and Cadbury — are predominantly ultra-processed products that score 6–9 on EWG Food Scores due to refined ingredients, added sugars, seed oils, and artificial additives. Flagged under health_general.",
       "brands": [
         "Oreo",
-        "Chips Ahoy!",
-        "Ritz",
-        "Wheat Thins",
-        "Sour Patch Kids",
-        "Cadbury",
-        "Trident",
-        "Nabisco",
-        "Nutter Butter",
-        "Triscuit"
+        "Chips Ahoy!"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1981,12 +1891,7 @@
       "aumVal": 0,
       "summary": "Diversified consumer packaged goods company headquartered in St. Louis, Missouri, with cereal brands descending from C.W. Post's original Battle Creek operation. Post Holdings' Fruity Pebbles cereal scores among the worst on EWG's Food Scores database for cereals — it contains artificial colors RED 40, YELLOW 5, YELLOW 6, and BLUE 1 plus added sugar as the third ingredient, classifying it as a high-concern NOVA Group 4 ultra-processed food. Other Post cereal brands including Cocoa Pebbles and Honey Bunches of Oats score similarly poorly. EWG's state-of-America's-food-landscape report found 32% of cold cereals contain higher-concern ingredients, and Post's children's cereals are among the most frequently cited. Flagged under health_general.",
       "brands": [
-        "Fruity Pebbles",
-        "Cocoa Pebbles",
-        "Honey Bunches of Oats",
-        "Alpha-Bits",
-        "Grape-Nuts",
-        "Malt-O-Meal"
+        "Fruity Pebbles"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2008,13 +1913,7 @@
       "aumVal": 0,
       "summary": "Consumer food company headquartered in Orrville, Ohio, founded in 1897. J.M. Smucker acquired the Jif peanut butter brand from Procter & Gamble in 2002. Jif peanut butter products score moderately on EWG's Food Scores database due to added sugar, fully hydrogenated vegetable oils in some varieties (which have been linked to increased cardiovascular risk), and palm oil sourcing concerns. Uncrustables frozen PB&J sandwiches — a fast-growing Smucker product — score poorly as ultra-processed foods, containing enriched bleached flour, high-fructose corn syrup, and multiple additives. In recent years Smucker also acquired Hostess Brands (2023), adding Twinkies, Ding Dongs, and Ho Hos — ultra-processed snack cakes that score worst-tier on EWG Food Scores. Flagged under health_general.",
       "brands": [
-        "Jif",
-        "Uncrustables",
-        "Smucker's",
-        "Folgers",
-        "Hostess",
-        "Twinkies",
-        "Milk-Bone"
+        "Jif"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2036,14 +1935,7 @@
       "aumVal": 0,
       "summary": "American food company headquartered in Camden, New Jersey, founded in 1869. Campbell's condensed soups score poorly on EWG's Food Scores database principally due to sodium — a single serving of Campbell's Chicken Noodle Soup contains approximately 890mg of sodium, roughly 60% of the American Heart Association's recommended daily limit, and the full can provides double that. EWG's nutrition scoring flags high sodium as a top concern. Campbell's also owns Pepperidge Farm (Goldfish crackers, Milano cookies, Chessmen) and Snyder's-Lance (Snyder's of Hanover pretzels, Cape Cod chips), both lines of ultra-processed snack foods that score 6–9 on EWG Food Scores. Goldfish crackers, one of the most consumed children's snacks in the U.S., contain refined enriched flour, cheddar cheese made with artificial color, and multiple natural flavor additives. Flagged under health_general.",
       "brands": [
-        "Campbell's Soup",
-        "Goldfish",
-        "Pepperidge Farm",
-        "Swanson",
-        "V8",
-        "Prego",
-        "Pace",
-        "Snyder's of Hanover"
+        "Campbell's Soup"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2065,9 +1957,7 @@
       "aumVal": 0,
       "summary": "One of the world's largest protein producers, headquartered in Springdale, Arkansas, with annual revenue exceeding $53 billion. Tyson owns Jimmy Dean, Ball Park, Hillshire Farm, and State Fair brands. CSPI's Chemical Cuisine database specifically lists BHA (butylated hydroxyanisole) — an antioxidant preservative rated 'Avoid' — as an ingredient in multiple Jimmy Dean pork sausage products. Sodium nitrite, also rated 'Avoid' by CSPI, is used widely across Tyson's processed meat portfolio. IARC classifies sodium nitrite-treated processed meats as Group 1 carcinogens. Tyson acquired Jimmy Dean Brands from Sara Lee Corporation in 2012 for approximately $400 million. Flagged under health_general.",
       "brands": [
-        "Jimmy Dean",
-        "Ball Park",
-        "Hillshire Farm"
+        "Jimmy Dean"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2089,9 +1979,7 @@
       "aumVal": 0,
       "summary": "American multinational food company headquartered in Austin, Minnesota, founded in 1891, with annual revenue over $12 billion. Hormel's flagship product SPAM Classic lists sodium nitrite in its ingredient panel — a preservative CSPI rates as 'Avoid' due to its conversion in the stomach to nitrosamines, compounds classified as probable human carcinogens by IARC. SPAM is sold in 44 countries and generated over $1 billion in annual U.S. retail sales. Hormel also owns Applegate Farms (natural/organic meats), Skippy peanut butter, and Jennie-O Turkey Store. Its core deli and canned meat portfolio — including Hormel pepperoni, Vienna Beef, and Black Label bacon — relies heavily on sodium nitrite and sodium nitrate as preservatives and color fixatives. Flagged under health_general.",
       "brands": [
-        "SPAM",
-        "Hormel Natural Choice",
-        "Applegate Farms"
+        "SPAM"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2113,11 +2001,7 @@
       "aumVal": 0,
       "summary": "American multinational confectionery manufacturer headquartered in Hershey, Pennsylvania, with annual revenue over $11 billion. Hershey is the largest chocolate manufacturer in North America. TBHQ (tert-butylhydroquinone) — rated 'Avoid' by CSPI — appears as an antioxidant in Reese's Peanut Butter Cups and other Hershey products. CSPI notes that TBHQ caused tumor formation in animal studies and inhibits the process by which immune-system T cells recognize and fight disease. Additionally, PGPR (polyglycerol polyricinoleate), used by Hershey as a cheaper emulsifier in place of cocoa butter, was inadequately tested at the time of approval. In 2023, Hershey settled a class-action lawsuit alleging undisclosed heavy metals (lead and cadmium) in dark chocolate products. Flagged under health_general.",
       "brands": [
-        "Reese's",
-        "Kit Kat (US)",
-        "Hershey's",
-        "Jolly Rancher",
-        "Twizzlers"
+        "Reese's"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2140,13 +2024,7 @@
       "aumVal": 0,
       "summary": "World's largest beverage company by revenue, headquartered in Atlanta, Georgia, with annual revenue exceeding $45 billion. Coca-Cola's Diet Coke and Coke Zero Sugar products contain acesulfame potassium (Ace-K) — an artificial sweetener CSPI rates as 'Avoid' due to inadequate safety testing, with one study finding increased cancer incidence in mice. Diet Coke also contains aspartame, which CSPI rates as 'Certain people should avoid' (phenylketonurics). Coca-Cola's caramel-colored products (Coke Classic, Pepsi competitors) contain 4-methylimidazole (4-MEI), a potential carcinogen formed during caramel color IV manufacturing; California required Coke to carry a Prop 65 cancer warning in 2012 before the company reduced 4-MEI levels. Powererade and other products contain artificial colors. Flagged under health_general.",
       "brands": [
-        "Coca-Cola",
-        "Diet Coke",
-        "Coke Zero",
-        "Sprite",
-        "Fanta",
-        "Poweraide",
-        "Minute Maid"
+        "Diet Coke"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2168,12 +2046,7 @@
       "aumVal": 0,
       "summary": "North American ready-to-eat cereal company spun off from the Kellogg Company in October 2023 (NYSE: KLG), headquartered in Battle Creek, Michigan. WK Kellogg Co operates the legacy cereal brands: Corn Flakes, Frosted Flakes, Froot Loops, Apple Jacks, Raisin Bran, Special K, and Rice Krispies. CSPI's Chemical Cuisine rates Red 40, Blue 1, and Yellow 6 — all artificial colors present in Froot Loops and Apple Jacks — as 'Avoid' due to potential carcinogenicity and documented hyperactivity effects in children. A 2007 UK study published in The Lancet found children who consumed a mixture of artificial colors including Red 40 and Yellow 6 showed significantly increased hyperactivity. The European Union requires products with these colors to carry a warning label: 'may have an adverse effect on activity and attention in children.' Flagged under health_general.",
       "brands": [
-        "Froot Loops",
-        "Apple Jacks",
-        "Frosted Flakes",
-        "Corn Flakes",
-        "Rice Krispies",
-        "Raisin Bran"
+        "Froot Loops"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2195,13 +2068,7 @@
       "aumVal": 0,
       "summary": "One of North America's largest beverage companies, headquartered in Burlington, Massachusetts, with annual revenue exceeding $14 billion. Formed from the 2018 merger of Keurig Green Mountain and Dr Pepper Snapple Group. Hawaiian Punch, one of KDP's flagship fruit drink products with over $1 billion in annual retail sales, contains Red 40 and Blue 1 — artificial colors CSPI rates as 'Avoid' due to potential carcinogenicity and behavioral effects in children. Some KDP products including Canada Dry and certain Snapple varieties contain sodium benzoate, which can react with added ascorbic acid to form benzene, a known carcinogen. Sunkist Orange and other citrus sodas have historically contained brominated vegetable oil (BVO), an 'Avoid'-rated additive CSPI cites for potential nerve damage — BVO was removed from most products after consumer campaigns in 2013. Flagged under health_general.",
       "brands": [
-        "Dr Pepper",
-        "Hawaiian Punch",
-        "Snapple",
-        "7UP (US)",
-        "Canada Dry",
-        "A&W (US)",
-        "Bai"
+        "Hawaiian Punch"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2223,11 +2090,7 @@
       "aumVal": 0,
       "summary": "Second-largest producer of packaged bakery goods in the United States, headquartered in Thomasville, Georgia (NYSE: FLO), with annual revenue over $5 billion. Flowers Foods acquired Wonder Bread from Hostess in 2012 for $360 million after Hostess's first bankruptcy. Wonder Bread contains calcium propionate — rated by CSPI as 'Certain people should avoid' due to a controlled study finding it caused irritability, restlessness, and inattention in children — and DATEM (diacetyl tartaric acid esters of mono- and diglycerides), a dough conditioner CSPI rates as 'Certain people should avoid' pending additional testing. Nature's Own and Dave's Killer Bread (also Flowers) use similar preservative systems. Calcium propionate is among the most common antimold additives in U.S. commercial bread and the subject of ongoing pediatric health research. Flagged under health_general.",
       "brands": [
-        "Wonder Bread",
-        "Nature's Own",
-        "Dave's Killer Bread",
-        "Tastykake",
-        "Sunbeam"
+        "Wonder Bread"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2249,10 +2112,7 @@
       "aumVal": 0,
       "summary": "American packaged food company headquartered in Parsippany, New Jersey (NYSE: BGS), with annual revenue around $2 billion. B&G Foods acquired the Crisco brand from J.M. Smucker in December 2020 for $550 million. Crisco all-vegetable shortening and Crisco cooking oils list TBHQ (tert-butylhydroquinone) as an antioxidant preservative — CSPI rates TBHQ as 'Avoid' because animal studies showed tumor formation and it inhibits T-cell immune function. TBHQ is ubiquitous in deep-frying oils, packaged crackers, and processed snacks. B&G Foods also owns Green Giant (canned and frozen vegetables), Ortega, Las Palmas, Cream of Wheat, and McCann's. Flagged under health_general.",
       "brands": [
-        "Crisco",
-        "Green Giant",
-        "Ortega",
-        "Cream of Wheat"
+        "Crisco"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2274,11 +2134,7 @@
       "aumVal": 0,
       "summary": "The world's largest bread company by sales, headquartered in Mexico City (BMV: BIMBOA), with annual revenue exceeding $17 billion. Its U.S. subsidiary Bimbo Bakeries USA owns Thomas', Arnold, Entenmann's, Sara Lee (bakery), Brownberry, Ball Park (bread), Nature's Harvest, and Oroweat. Thomas' English Muffins contain calcium propionate — CSPI rates as 'Certain people should avoid' based on studies linking the preservative to irritability and inattention in children — and DATEM, another dough additive CSPI marks as 'Certain people should avoid.' The widespread use of these additives across Bimbo's mass-market bread portfolio exposes millions of daily consumers, including children, to preservatives that lack a clean safety record. Flagged under health_general.",
       "brands": [
-        "Thomas' English Muffins",
-        "Arnold",
-        "Entenmann's",
-        "Sara Lee (bakery)",
-        "Oroweat"
+        "Thomas' English Muffins"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2301,11 +2157,7 @@
       "summary": "Italian multinational confectionery manufacturer headquartered in Alba, Italy, and one of the world's largest candy companies by revenue (~$17B). Ferrero acquired Ferrara Candy Company in 2017 for approximately $1.3 billion, adding Nerds, SweeTarts, Trolli, Brach's, and RunnerBean to its portfolio. Nerds candy contains Red 40, Blue 1, Yellow 5, and Yellow 6 — all artificial color additives rated 'Avoid' by CSPI based on carcinogenicity concerns and documented hyperactivity effects in children. The 2007 McCann et al. study in The Lancet, confirmed by subsequent European Food Safety Authority review, linked mixtures of these synthetic dyes to significantly increased hyperactivity in children. Ferrero also owns Nutella, Tic Tac, and Kinder products globally; Nutella contains vanillin (artificial vanilla flavoring). Flagged under health_general.",
       "brands": [
         "Nerds",
-        "SweeTarts",
-        "Trolli",
-        "Nutella",
-        "Ferrero Rocher",
-        "Tic Tac"
+        "Kellogg's (cereals)"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2349,8 +2201,7 @@
       "aumVal": 0,
       "summary": "Spun off from L Brands as an independent public company in August 2021. During the L Brands era under founder Les Wexner, court documents establish that Jeffrey Epstein — who held power of attorney over Wexner's financial holdings — used the Victoria's Secret brand as a recruitment cover, presenting himself as a talent scout for the company to lure young women into his trafficking network. The connection is documented in Virginia Giuffre's civil filings and related Epstein court documents unsealed in 2024.",
       "brands": [
-        "Victoria's Secret",
-        "PINK"
+        "Victoria's Secret"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2372,8 +2223,7 @@
       "aumVal": 0,
       "summary": "The largest U.S. bank by assets. Court documents from the U.S. Virgin Islands civil suit (unsealed 2023-2025) show JPMorgan knowingly facilitated Jeffrey Epstein's sex-trafficking operation for 15 years, from 1998 to 2013, processing over $1 billion in flagged suspicious transactions. JPMorgan settled for $290 million with survivors in June 2023 and a further $75 million with the U.S. Virgin Islands in September 2023. Internal emails show senior executives, including Jes Staley, repeatedly interceded on Epstein's behalf when compliance officers raised concerns.",
       "brands": [
-        "Chase",
-        "JPMorgan Private Bank"
+        "Chase"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2417,8 +2267,7 @@
       "aumVal": 0,
       "summary": "UK multinational banking conglomerate. Jes Staley served as Barclays CEO from 2015 to 2021 while the FCA investigated his relationship with Jeffrey Epstein. Court proceedings produced over 1,000 emails between Staley and Epstein, with Staley calling their relationship 'profound' and describing Epstein as 'family.' Staley visited Epstein's private Caribbean island and consulted him on career and business matters. The UK Financial Conduct Authority banned Staley for life from financial services in 2025 for misleading regulators about his relationship with Epstein while serving as Barclays CEO.",
       "brands": [
-        "Barclays",
-        "Barclaycard"
+        "Barclays"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2528,8 +2377,7 @@
       "aumVal": 0,
       "summary": "One of the largest U.S. commercial banks. In March 2026, Bank of America agreed to a $72.5 million settlement with Jeffrey Epstein accusers, becoming the third major U.S. bank to settle Epstein-related trafficking facilitation claims, after JPMorgan Chase ($290M + $75M) and Deutsche Bank ($75M). Litigation documents alleged that Bank of America processed payments connected to Epstein's trafficking operation and failed to act on anti-money-laundering red flags.",
       "brands": [
-        "Bank of America",
-        "Merrill Lynch"
+        "Bank of America"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2550,7 +2398,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Fox Corporation is Rupert Murdoch's primary US media holding company, owning Fox News Channel, Fox Business Network, Fox Sports, and local TV stations. In April 2023, Fox Corp paid $787.5 million — the largest-ever US media defamation settlement — to resolve claims brought by Dominion Voting Systems that Fox News knowingly broadcast false election-fraud narratives. LittleSis documents the Murdoch family's extensive political network, including direct access to senior officials, favorable regulatory treatment, and decades of coordinated influence operations used to shape policy in the US, UK, and Australia while avoiding accountability for harms from its media platforms.",
-      "brands": [],
+      "brands": [
+        "Fox News"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 78,
@@ -2570,7 +2420,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Las Vegas Sands Corp (LVS) was founded by Sheldon Adelson and operates casino resort properties including The Venetian in Las Vegas and properties in Macau and Singapore. In 2016, the DOJ concluded a years-long Foreign Corrupt Practices Act (FCPA) investigation into LVS's Macau operations. Adelson and the Adelson family PACs spent over $200 million in documented dark money influencing US elections and policy, giving the family direct access to shape legislation on issues including foreign policy toward Israel, drug legalization, and antitrust enforcement — with documented policy outcomes favoring LVS's business interests.",
-      "brands": [],
+      "brands": [
+        "The Venetian Resort"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 71,
@@ -2590,7 +2442,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Wynn Resorts, Limited owns and operates luxury hotel-casino properties under the Wynn and Encore brands in Las Vegas, Boston, and Macau. Founder Steve Wynn resigned as CEO and RNC Finance Chair in 2018 following Wall Street Journal reporting on over 200 sexual misconduct allegations. In 2023, Wynn was indicted by DOJ for acting as an unregistered foreign agent for the Chinese government (FARA violation), attempting to use White House access to influence immigration decisions. The company paid $26.7 million in Massachusetts to settle claims tied to Wynn's misconduct, yet the properties continue to operate under his name.",
-      "brands": [],
+      "brands": [
+        "Wynn / Encore"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 74,
@@ -2610,7 +2464,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "News Corp is Rupert Murdoch's global publishing and media conglomerate, split from 21st Century Fox in 2013. It owns the Wall Street Journal, New York Post, HarperCollins Publishers, and News UK (The Times, The Sun). News Corp's UK outlets were central to the phone hacking scandal that ultimately led to over $1.6 billion in civil settlements and criminal convictions of News of the World staff. LittleSis documents News Corp's lobbying network and Murdoch family use of editorial pages to exercise political leverage over UK and US governments, securing favorable regulatory outcomes while avoiding accountability for systematic privacy violations.",
-      "brands": [],
+      "brands": [
+        "New York Post"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 73,
@@ -2630,7 +2486,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Oracle Corporation is a major enterprise software and cloud company controlled by co-founder Larry Ellison, who owns approximately 40% of shares. LittleSis documents Ellison's political network, including a 2019 fundraiser for President Trump at his California estate. In 2020, Oracle was selected as TikTok's US technology partner following White House intervention under Ellison's pressure — despite Microsoft having submitted a stronger technical bid. Ellison's documented access to executive officials has shaped federal procurement decisions including Pentagon cloud contracts, while Oracle has used litigation and lobbying to stifle competitors and avoid antitrust accountability.",
-      "brands": [],
+      "brands": [
+        "Oracle"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 68,
@@ -2650,7 +2508,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Anduril Industries is a defense technology company founded in 2017 by Palmer Luckey (creator of Oculus VR) and backed by Peter Thiel's Founders Fund. Anduril develops autonomous weapons, surveillance towers, and AI-driven border monitoring systems. Its Lattice AI platform is deployed along the US-Mexico border for immigration enforcement surveillance. LittleSis documents the company's ties to the Thiel network of political donors who have funded campaigns to weaken democratic oversight of surveillance and weapons technology, while Anduril has received over $1.5 billion in Pentagon contracts with limited public accountability for the autonomous lethality decisions built into its systems.",
-      "brands": [],
+      "brands": [
+        "Anduril Industries"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 72,
@@ -2670,7 +2530,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "IAC/InterActiveCorp is a media and technology conglomerate controlled by Barry Diller, who serves as Chairman and Senior Executive. IAC owns Angi (home services marketplace), Dotdash Meredith (major publisher of People, Better Homes & Gardens, Investopedia), and various digital properties. LittleSis documents Diller's extensive political network spanning both parties and his documented social relationships with figures linked to elite-impunity behavior. Diller's decades of consolidated media power have been exercised with minimal regulatory scrutiny, while Angi/HomeAdvisor has faced class action litigation for deceptive practices including billing contractors for fraudulent leads.",
-      "brands": [],
+      "brands": [
+        "Angi (HomeAdvisor)"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 63,
@@ -2690,7 +2552,9 @@
       "aum": "$30B",
       "aumVal": 30,
       "summary": "Access Industries is a private holding company owned by Ukrainian-American billionaire Leonard (Len) Blavatnik, controlling approximately $30 billion in assets. Access Industries owns a controlling stake in Warner Music Group (WMG), the world's third-largest record label. LittleSis documents Blavatnik's documented connections to sanctioned Russian oligarchs including Viktor Vekselberg, his former business partner in TNK-BP. Blavatnik donated $1 million to Trump's inaugural committee and has made substantial donations to politicians of both parties, gaining access that has insulated him from scrutiny of his oligarch-era business relationships as the US imposed sanctions on his former associates.",
-      "brands": [],
+      "brands": [
+        "Warner Music Group"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 67,
@@ -2710,7 +2574,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Live Nation Entertainment is the world's largest live entertainment company, owning Ticketmaster, concert venues, artist management, and touring operations. In May 2024, the DOJ and 30 state attorneys general sued Live Nation for illegal monopolization of the live entertainment industry. LittleSis documents Live Nation's lobbying network and its history of using political access to delay antitrust enforcement for over a decade following its 2010 merger with Ticketmaster. The company has used its dominant position to impose junk fees on consumers, lock artists and venues into exclusive deals, and retaliate against venues that work with competitors — practices that regulators documented but were slow to address.",
-      "brands": [],
+      "brands": [
+        "Ticketmaster"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 70,
@@ -2775,8 +2641,7 @@
       "aumVal": 0,
       "summary": "Philip Morris International (PMI) is the world's largest international tobacco company, headquartered in Stamford, Connecticut, with annual revenues exceeding $35B. ICIJ's Paradise Papers (2017) documented PMI's use of offshore structures in the Netherlands to minimize taxes on global tobacco profits while simultaneously funding and coordinating lobbying campaigns against tobacco plain-packaging laws in Australia, the UK, and other countries. Internal documents showed PMI used law firms in offshore jurisdictions to conceal its involvement in third-party campaigns aimed at weakening health regulations. PMI sells Marlboro internationally and manufactures IQOS, a heated tobacco product, launched in the US in 2019. Flagged under elite_impunity_general.",
       "brands": [
-        "Marlboro (international)",
-        "IQOS"
+        "IQOS (Philip Morris)"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2842,10 +2707,7 @@
       "aumVal": 0,
       "summary": "Altice Group is the global telecommunications and media holding company of billionaire Patrick Drahi, incorporated in the Netherlands and ultimately controlled through British Virgin Islands offshore structures. ICIJ's Pandora Papers (2021) documented Drahi's use of BVI shell companies to hold his Altice empire — which spans Altice USA, SFR (France), and Altice International — while residing in Switzerland to minimize his personal tax exposure. Drahi paid $100M for a 27% stake in Sotheby's in 2019 via similar offshore structures. Despite building his fortune in the US and European telecom markets, his offshore architecture sheltered billions from the tax jurisdictions where his companies operate. Altice USA serves approximately 9 million US cable and internet customers under the Optimum brand. Flagged under elite_impunity_general.",
       "brands": [
-        "Altice USA",
-        "Optimum",
-        "Suddenlink",
-        "SFR"
+        "Altice USA (Optimum / Suddenlink)"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2867,8 +2729,7 @@
       "aumVal": 250,
       "summary": "ING Group is a Dutch multinational banking and financial services company headquartered in Amsterdam, serving more than 38 million customers globally. ICIJ's Paradise Papers (2017) documented ING's use of offshore structures in Luxembourg and the Cayman Islands to reduce tax liability on investment income. In 2018 ING paid €775M in a Dutch public prosecution settlement — one of the largest corporate criminal settlements in Dutch history — for enabling systemic money laundering by corporate clients over a decade, including corrupt payments for oil deals in Russia and the Netherlands Antilles. Prosecutors found ING's compliance failures were institutional and that senior management was aware. Flagged under elite_impunity_general.",
       "brands": [
-        "ING",
-        "ING Direct"
+        "ING"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2934,9 +2795,7 @@
       "aumVal": 0,
       "summary": "Novartis is a Swiss multinational pharmaceutical corporation headquartered in Basel, one of the world's largest drugmakers with annual revenues exceeding $45B. ICIJ's Paradise Papers (2017) documented Novartis's use of offshore structures — including entities in Bermuda and Jersey — to hold intellectual property rights for blockbuster drugs, routing royalty streams through low-tax jurisdictions while marketing and selling those drugs in high-tax countries at prices justified partly by claimed R&D investment. In 2019 Novartis paid $678M to settle DOJ charges of paying kickbacks to US physicians to prescribe its drugs — one of the largest pharmaceutical bribery settlements ever. In the same year, the FDA approved Novartis's gene therapy Zolgensma at $2.1M per dose — then the world's most expensive drug — while the company faced criminal investigations in Switzerland for data manipulation in clinical trials. Flagged under elite_impunity_general.",
       "brands": [
-        "Novartis",
-        "Sandoz",
-        "Cosentyx"
+        "Novartis"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2957,7 +2816,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Global management consulting and IT firm headquartered in McLean, Virginia, deriving approximately 97% of revenue from U.S. government clients. Booz Allen holds a $51.9M contract with ICE to design, develop, and provide data analytics for the RAVEN data repository — a platform used by ICE Homeland Security Investigations agents to centralize and analyze investigative data for targeting and enforcement operations. The contract runs through September 2025 per Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
-      "brands": [],
+      "brands": [
+        "Booz Allen Hamilton"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 68,
@@ -2977,7 +2838,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "U.S. government IT and professional services firm headquartered in Arlington, Virginia, providing technology and intelligence solutions to defense and civilian agencies. CACI holds a $119.9M contract (potential $130.6M) with ICE for tactical communications operations and maintenance — the radio and field communications infrastructure that ICE agents use during enforcement operations, arrests, and deportation activities. The contract runs through March 2026 per Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
-      "brands": [],
+      "brands": [
+        "CACI International"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 67,
@@ -2998,9 +2861,7 @@
       "aumVal": 0,
       "summary": "One of the largest U.S. telecommunications companies, headquartered in Dallas, Texas, serving hundreds of millions of consumers under the AT&T and Cricket Wireless brands. AT&T holds an $83M contract (potential $164.5M with extensions to 2032) with ICE for IT, network products, and support services — providing the network infrastructure that underpins ICE enforcement operations. Millions of Americans pay monthly AT&T wireless and broadband bills while the company simultaneously contracts with ICE. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
       "brands": [
-        "AT&T",
-        "Cricket Wireless",
-        "DirecTV (stake)"
+        "AT&T"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -3044,7 +2905,7 @@
       "aumVal": 0,
       "summary": "Defense and government services contractor headquartered in Chantilly, Virginia (NYSE: AMTM), formed from AECOM's management services division in 2020 and merged with Jacobs Solutions' Critical Mission Solutions in 2024, employing ~53,000 globally. ICE awarded Amentum a no-bid contract (CONT_AWD_70CDCR25FR0000062, effective March 2026, ~$453M) to operate Camp East Montana — the nation's largest ICE detention facility at Fort Bliss, El Paso, TX, with capacity for ~5,000 detainees. Amentum replaced the prior operator after reports of 49 detention standard violations and in-custody deaths at the facility. Tagged workers_ice_cooperation.",
       "brands": [
-        "Amentum"
+        "Amentum Services"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -3088,8 +2949,7 @@
       "aumVal": 0,
       "summary": "Nissin Foods Holdings (TYO: 2897), headquartered in Osaka, Japan, is the inventor of instant noodles and the world’s largest instant noodle producer. Founded by Momofuku Ando in 1948, the company launched Cup Noodles in 1971 and Top Ramen in the United States, together commanding an estimated 30–40% of global instant noodle sales. Every major Nissin instant noodle product is classified as NOVA Group 4 (ultra-processed) under the NOVA food classification system, which categorizes foods by degree of industrial processing rather than nutrient content (Monteiro et al., 2019, NOVA classification system, Public Health Nutrition, PMC6322572). A 2014 study from the Harvard School of Public Health (Oh et al., Journal of Nutrition) found that women who consumed instant noodles two or more times per week had a 68% higher risk of metabolic syndrome — a cluster of conditions including hypertension, insulin resistance, and abdominal obesity — independent of overall dietary quality. Cup Noodles (original flavor) contains 1,190 mg sodium per serving (52% of the daily recommended value), TBHQ (a preservative rated “Avoid” by CSPI’s Chemical Cuisine), MSG, sodium phosphates, and multiple artificial flavor compounds.",
       "brands": [
-        "Cup Noodles",
-        "Top Ramen"
+        "Cup Noodles"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -3111,10 +2971,7 @@
       "aumVal": 0,
       "summary": "The world's largest pork processor and hog producer, headquartered in Smithfield, Virginia. Acquired by Chinese conglomerate WH Group (formerly Shuanghui International, HKEX: 288) in September 2013 for $7.1 billion — the largest Chinese acquisition of a US company at the time. Smithfield's processed pork portfolio — Eckrich smoked sausages, Armour Star canned meats, Farmland bacon, Gwaltney, John Morrell, and Nathan's Famous hot dogs — relies on sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' because it reacts with amines in stomach acid to form N-nitrosamines, potent carcinogens. In 2015, IARC classified consumption of processed meats — all of which require sodium nitrite for their characteristic cured color and flavor — as Group 1 carcinogenic to humans, the same tier as tobacco smoke. Smithfield generates over $15 billion in annual revenue and is one of the largest single distributors of sodium nitrite-preserved meats to American consumers.",
       "brands": [
-        "Eckrich",
-        "Armour Star",
-        "Farmland",
-        "Nathan's Famous"
+        "Eckrich"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -3334,10 +3191,7 @@
       "aumVal": 0,
       "summary": "Danone North America is a subsidiary of the French food company Danone SA that became the world's largest Certified B Corporation in 2018. The company employs over 6,000 people across the US and Canada and has committed to paying all employees a living wage as defined by MIT's Living Wage Calculator. Danone North America produces brands including Stonyfield Organic, Silk, So Delicious, and Vega.",
       "brands": [
-        "Dannon",
-        "Stonyfield Organic",
-        "Silk",
-        "So Delicious"
+        "Dannon"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4458,7 +4312,10 @@
       "aum": "$85B",
       "aumVal": 85,
       "summary": "Los Angeles-based PE firm founded 1989 with $85B AUM. Drove Joann Fabrics to bankruptcy twice (2024, 2025) after saddling it with $1.1B debt following 2010 LBO, resulting in liquidation and 19,000 layoffs. Also extracted $658M in dividends from Prospect Medical Holdings (2010–2021), leaving the 16-hospital safety net system with $2.3B debt before January 2025 bankruptcy.",
-      "brands": [],
+      "brands": [
+        "Joann",
+        "Prospect Medical Holdings"
+      ],
       "layoffs": "19,000+ (Joann 2025) + 1,000+ (Prospect Medical)",
       "notableBk": "Joann Fabrics (2024, 2025), Prospect Medical Holdings (2025)",
       "harmScore": 92,
@@ -4480,7 +4337,9 @@
       "aum": "$19.5B",
       "aumVal": 19.5,
       "summary": "Boston-based PE firm with $19.5B AUM. Created Renovo home remodeling platform in 2021 by rolling up seven regional contractors, saddled it with $150M debt from BlackRock/Apollo/Oaktree, then exited in 2024. Company collapsed October 2025 with $100M+ liabilities and $50k assets, leaving 1,500+ employees without final paychecks and thousands of homeowners with unfinished projects.",
-      "brands": [],
+      "brands": [
+        "Renovo Home Partners"
+      ],
       "layoffs": "1,500+ (Renovo 2025)",
       "notableBk": "Renovo Home Partners (2025)",
       "harmScore": 88,
@@ -4502,7 +4361,8 @@
       "aumVal": 925,
       "summary": "Saudi Arabia's sovereign wealth fund. Acquired 93.4% of Electronic Arts in $55B LBO (2025), the largest leveraged buyout in history. Deal financed with $20B debt from JPMorgan, loading EA with significant leverage. PIF has investments across gaming, sports, and tech sectors. Crown Prince Mohammed bin Salman (MBS), who controls PIF, was assessed by the U.S. Office of the Director of National Intelligence (declassified February 2021) as having approved the murder of Washington Post journalist Jamal Khashoggi in October 2018. No criminal charges were filed against MBS. PIF's $2B launch of LIV Golf in 2022 is a documented instance of sportswashing — using cultural and sporting investment to rehabilitate Saudi Arabia's international image in the wake of the Khashoggi killing. Flagged under elite_impunity_general.",
       "brands": [
-        "Electronic Arts (93.4% stake, 2025)"
+        "Electronic Arts (EA)",
+        "LIV Golf"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4526,7 +4386,7 @@
       "aumVal": 10000,
       "summary": "World's largest asset manager. Led $40B acquisition of Aligned Data Centers (2025) via AI Infrastructure Partnership consortium including Microsoft, Nvidia, MGX, and sovereign wealth funds. Deal structured with significant debt leverage targeting $100B total including debt financing.",
       "brands": [
-        "Aligned Data Centers (via AIP consortium, 2025)"
+        "Aligned Data Centers"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4549,10 +4409,7 @@
       "aumVal": 48,
       "summary": "Beverly Hills PE firm founded 1995 by Tom Gores with $48B AUM and 60 portfolio companies employing 200,000 people. Drove LifeScan (glucose monitors) to July 2025 bankruptcy after loading it with $1.9B debt from its 2018 $2.1B LBO, eliminating 75% of $1.7B debt through Chapter 11. Also drove aerospace supplier Incora to bankruptcy June 2023 with $3.14B debt, and Elevate Textiles to debt-for-equity restructuring May 2023, reducing Platinum's stake to 2%.",
       "brands": [
-        "LifeScan",
-        "Incora (bankrupt 2023)",
-        "Elevate Textiles (restructured)",
-        "Petmate"
+        "LifeScan"
       ],
       "layoffs": "Thousands across LifeScan, Incora restructurings",
       "notableBk": "LifeScan (2025), Incora (2023)",
@@ -4576,9 +4433,7 @@
       "aumVal": 0,
       "summary": "Real estate-focused PE firm led by Richard Baker, founded 2005 explicitly 'to snap up retailers with valuable real estate.' Systematically acquired Lord & Taylor, Hudson's Bay, Saks, Galeria Kaufhof, and Neiman Marcus—each eventually filed bankruptcy, though Baker often profited on real estate extraction. Saks Fifth Avenue filed Chapter 11 January 2026 with $3B debt after Baker's 2024 Neiman merger financed by $2.2B junk bonds. Baker admitted in 2017: 'Being a retailer, that is too tough' but real estate 'is a place where we can make a lot of money.'",
       "brands": [
-        "Saks Fifth Avenue",
-        "Hudson's Bay (bankrupt)",
-        "Lord & Taylor (bankrupt)"
+        "Saks Fifth Avenue"
       ],
       "layoffs": "Thousands across retail bankruptcies",
       "notableBk": "Saks Fifth Avenue (2026), Lord & Taylor, Hudson's Bay",
@@ -4602,11 +4457,7 @@
       "summary": "Brand licensing PE-backed entity founded 2010 by Jamie Salter, controlling 50+ consumer brands generating $38B annual retail sales. Business model: acquire brand IP from bankruptcies, license to operators who bear operational risk. Bought Forever 21 from 2020 bankruptcy for $81M, split IP from operations; operating entity filed bankruptcy March 2025 with $1.5B debt, liquidating 355 stores and laying off 9,200 workers while ABG retained brand rights. Also acquired Brooks Brothers, Lucky Brand, Barneys (liquidated), and Aéropostale from bankruptcy. CEO Salter called Forever 21 his 'biggest mistake.'",
       "brands": [
         "Forever 21",
-        "Brooks Brothers",
-        "Reebok",
-        "Sports Illustrated",
-        "Barneys (liquidated)",
-        "Aéropostale"
+        "Eddie Bauer"
       ],
       "layoffs": "9,200+ (Forever 21 2025)",
       "notableBk": "Forever 21 (2025, second filing)",
@@ -4740,8 +4591,7 @@
       "aumVal": 0,
       "summary": "One of the world's largest financial institutions, headquartered in New York. Citigroup Private Bank appears in the ICIJ Offshore Leaks database as an intermediary in the Panama Papers (2016), where it facilitated offshore entity structures for wealthy clients. In 2014, Citi's Mexican subsidiary Banamex admitted enabling a $400 million fraud through fictitious loans against forged invoices. In 2023, the OCC and Federal Reserve jointly fined Citi $400 million for persistent failures in risk management and data governance. The bank has accumulated over $25 billion in global regulatory fines since 2000, reflecting a durable pattern of enabling elite financial secrecy and inadequate internal controls.",
       "brands": [
-        "Citi",
-        "Citibank"
+        "Citi"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4829,7 +4679,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Private holding company owned by the DeVos and Van Andel families, controlling Amway, Quixtar, and related MLM businesses with over $8B in annual revenue. The DeVos family has donated more than $200 million to Republican and conservative causes since the 1980s (OpenSecrets.org). Betsy DeVos served as U.S. Secretary of Education (2017–2021) and used the role to weaken Obama-era borrower-defense regulations protecting students from predatory for-profit colleges — a policy posture aligned with the family's long-standing opposition to federal regulation. The FTC investigated Amway for operating as a pyramid scheme in 1975 and issued a consent order widely criticized by consumer advocates as inadequate. Richard DeVos Sr. admitted to bribing Canadian government officials in 1982 (Canadian Federal Court of Appeal records); no U.S. charges followed. The DeVos family's offshore trust structures were named in ICIJ's Pandora Papers (2021).",
-      "brands": [],
+      "brands": [
+        "Amway"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 73,
@@ -4849,7 +4701,9 @@
       "aum": "$130B",
       "aumVal": 130,
       "summary": "Quantitative hedge fund founded by mathematician James Simons. Co-CEO Robert Mercer and daughter Rebekah Mercer used Renaissance profits to fund a network of political influence operations. A 2014 investigation by the U.S. Senate Permanent Subcommittee on Investigations found that Renaissance Technologies used 'basket options' through Deutsche Bank and Barclays to recharacterize short-term trading gains as long-term capital gains, evading an estimated $6.8 billion in U.S. taxes. Renaissance settled with the IRS in 2021 for approximately $7 billion without criminal charges against any individual. Robert Mercer provided over $10 million to Breitbart News and funded Cambridge Analytica — a data firm the UK Information Commissioner's Office (ICO) found had improperly harvested 87 million Facebook profiles to target voters in the 2016 U.S. election. No criminal charges were filed against Mercer or any Renaissance executive for either the tax avoidance scheme or the Cambridge Analytica operations.",
-      "brands": [],
+      "brands": [
+        "Breitbart News"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 78,
@@ -4870,8 +4724,7 @@
       "aumVal": 0,
       "summary": "Wholly owned U.S. subsidiary of Brazilian multinational JBS S.A., the world's largest meat processing company by revenue. JBS USA reported record revenue of $28 billion in 2025 in its beef segment, making it the market leader in U.S. meat processing. JBS owns Pilgrim's Pride (64% stake acquired in 2010), the second-largest U.S. poultry producer. Pilgrim's Pride Ultimate Chicken Nuggets are classified as NOVA Group 4 ultra-processed foods, containing modified cornstarch, sodium phosphates, dextrose, and flavoring — additives typical of breaded, formed, and frozen chicken products. Chicken nuggets marketed to children score poorly on EWG Food Scores for sodium content (400-500mg per serving) and reliance on ultra-processed breading and binders. Flagged under health_general.",
       "brands": [
-        "Pilgrim's Pride",
-        "Swift"
+        "Pilgrim's Pride"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4893,9 +4746,7 @@
       "aumVal": 0,
       "summary": "Private family-owned American bakery company headquartered in Collegedale, Tennessee, founded in 1934. McKee Foods is the producer of Little Debbie snack cakes, one of the most widely consumed ultra-processed snack brands in the United States, with billions in annual revenue. Little Debbie products are classified as NOVA Group 4 ultra-processed foods, containing enriched bleached flour, high-fructose corn syrup, palm oil, artificial flavors, and preservatives including BHT. Until recently, Little Debbie snack cakes contained petroleum-based synthetic food dyes including Red 40, Yellow 5, and Blue 1, which a 2007 UK Food Standards Agency study linked to hyperactive behavior in children. In response to FDA phase-out of synthetic dyes (announced April 2025), McKee Foods is transitioning to alternative color ingredients by the end of 2027. Flagged under health_general.",
       "brands": [
-        "Little Debbie",
-        "Sunbelt Bakery",
-        "Drake's Cakes"
+        "Little Debbie"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4917,8 +4768,7 @@
       "aumVal": 0,
       "summary": "Multinational private-label food manufacturing company founded in 2005, acquired by European private equity firm Investindustrial in February 2026 for $2.9 billion and taken private. TreeHouse is a major supplier of store-brand ultra-processed foods to Walmart, Kroger, Costco, Amazon, Target, and Aldi. Product portfolio includes crackers, pretzels, hot cereals, coffee creamers, and other shelf-stable snacks. TreeHouse private-label crackers are classified as NOVA Group 4 ultra-processed foods, typically containing enriched wheat flour, high-oleic soybean oil or palm oil, multiple leavening agents, artificial flavors, and preservatives. The company's private-label model allows retailers to offer ultra-processed snack foods at lower price points than name brands, increasing consumption of products that studies link to cardiovascular disease, diabetes, and obesity. Flagged under health_general.",
       "brands": [
-        "TreeHouse private-label crackers",
-        "TreeHouse pretzels"
+        "TreeHouse private-label crackers"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -5007,7 +4857,9 @@
       "aum": "$50B",
       "aumVal": 50,
       "summary": "Boston-based PE firm founded 1974. Acquired Party City for $2.69B in 2012, loading it with $1.5B debt. Party City filed for bankruptcy in January 2023, emerged in October 2023, then filed again in December 2024 for liquidation. Debt-service costs of $102M/year prevented investment in stores and e-commerce, leading to collapse.",
-      "brands": [],
+      "brands": [
+        "Party City"
+      ],
       "layoffs": "Party City: ~16,000 workers (2024 liquidation)",
       "notableBk": "Party City (2023, 2024)",
       "harmScore": 86,
@@ -5028,15 +4880,7 @@
       "aumVal": 38,
       "summary": "Atlanta-based PE firm owning Subway ($9.6B LBO 2023), Dave's Hot Chicken ($1B acquisition June 2025), Dunkin', Baskin-Robbins, Buffalo Wild Wings, Jimmy John's, Arby's, Sonic, Cinnabon, and others. Roark took Dave's Hot Chicken private in June 2025 with a 75% stake for ~$1B, planning rapid expansion using the franchise securitization debt model where franchise fees back whole business securitization loans.",
       "brands": [
-        "Subway",
-        "Dave's Hot Chicken",
-        "Dunkin'",
-        "Baskin-Robbins",
-        "Buffalo Wild Wings",
-        "Jimmy John's",
-        "Arby's",
-        "Sonic Drive-In",
-        "Cinnabon"
+        "Dave's Hot Chicken"
       ],
       "layoffs": "Portfolio-wide, especially in post-acquisition integration",
       "notableBk": "N/A",
@@ -5058,10 +4902,7 @@
       "aumVal": 5,
       "summary": "New York-based PE firm that acquired Denny's for $620M in January 2026, loading it with $335M in debt. TriArtisan owns P.F. Chang's, and previously drove TGI Fridays and Hooters into bankruptcy (2024-2025). Acquired TGI Fridays in 2014 via $900M LBO, loading $670M debt onto the chain before its 2024 bankruptcy. Pattern: acquire legacy dining brands, debt-load them, then extract value through sale-leaseback deals and management fees.",
       "brands": [
-        "Denny's",
-        "P.F. Chang's",
-        "TGI Fridays (post-bankrupt)",
-        "Hooters (post-bankrupt)"
+        "Denny's"
       ],
       "layoffs": "Thousands across TGI Fridays and Hooters bankruptcies",
       "notableBk": "TGI Fridays (2024), Hooters (2025)",
@@ -5129,11 +4970,7 @@
       "summary": "American consumer goods company headquartered in Ewing, New Jersey, with approximately $5.9 billion in annual revenue (2024). Church & Dwight manufactures household, personal care, and specialty products under brands including Arm & Hammer, Trojan, OxiClean, First Response, Nair, Batiste, and Vitafusion. PETA lists Church & Dwight on its 'Companies That Do Test on Animals' database, noting the company tests on animals either directly, through suppliers, or via third parties, and sells products in markets where animal testing is legally mandated.",
       "brands": [
         "Arm & Hammer",
-        "Trojan",
-        "OxiClean",
-        "First Response",
-        "Nair",
-        "Batiste"
+        "Arm & Hammer"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -5157,11 +4994,7 @@
       "summary": "American multinational consumer goods company headquartered in Oakland, California, with approximately $7 billion in annual revenue. Clorox manufactures cleaning, disinfecting, and consumer products under brands including Clorox bleach, Pine-Sol, Formula 409, Glad, Hidden Valley, Kingsford, Liquid-Plumr, Brita (Americas), Fresh Step, and Scoop Away. PETA lists Clorox on its 'Companies That Do Test on Animals' database, noting the company tests on animals directly, through suppliers, or via third parties, and sells products in regions where animal testing is legally mandated. Exception: Burt's Bees (owned by Clorox) has Leaping Bunny certification.",
       "brands": [
         "Clorox",
-        "Pine-Sol",
-        "Glad",
-        "Hidden Valley",
-        "Kingsford",
-        "Fresh Step"
+        "Glad"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -5183,7 +5016,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Caudalie is a French skincare brand founded in 1995, known for its grape-based formulations. PETA lists Caudalie USA, Inc. as a company that tests on animals as of 2026. The company sells dark spot-correcting products in China, classified as 'products with a specific use' by Chinese authorities, which can impose mandatory animal testing for market access.",
-      "brands": [],
+      "brands": [
+        "Caudalie"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -5277,7 +5112,9 @@
       "aum": "$0.56B",
       "aumVal": 0.56,
       "summary": "Private equity firm focused on middle-market consumer and retail brands. Founded 2008, acquired Algenist skincare brand in 2016. Firm operates 5 private funds with approximately $557.7M in assets under management as of 2017. Algenist continues to test on animals where required by law, particularly for sales in mainland China (per PETA 2026 database).",
-      "brands": [],
+      "brands": [
+        "Algenist"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -5295,7 +5132,9 @@
       "aum": "$50B+",
       "aumVal": 50,
       "summary": "Brazilian-American PE firm known for aggressive cost-cutting at consumer brands. Acquired Skechers for $9.4B in 2025, loading it with $6.5B in debt (JPMorgan-led financing). Previously acquired Kraft Heinz and AB InBev, implementing zero-based budgeting and mass layoffs. Founded by Jorge Paulo Lemann, Marcel Telles, and Carlos Alberto Sicupira. Pattern: leverage brands' market position to extract value through debt-funded dividends and operational austerity.",
-      "brands": [],
+      "brands": [
+        "Skechers"
+      ],
       "layoffs": "Known for mass layoffs post-acquisition across portfolio companies",
       "notableBk": "N/A",
       "harmScore": 75,
@@ -5316,7 +5155,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Georgia-based convenience store and gas station operator. Acquired Potbelly sandwich chain for $566M in 2025, taking it private. Family-owned company with 600+ retail locations. Expansion strategy includes vertical integration into food service through Potbelly acquisition. Taking Potbelly private removes public market accountability and subjects the sandwich chain to private ownership control.",
-      "brands": [],
+      "brands": [
+        "Potbelly"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 60,
@@ -5338,8 +5179,8 @@
       "aumVal": 0,
       "summary": "Privately-held space launch and satellite communications company founded by Elon Musk in 2002. November 2023 Reuters investigation documented 600+ worker injuries since 2014 — including 8 amputations and 1 fatality — with a Brownsville facility injury rate ~6x the space-industry average; SpaceX skipped OSHA reporting in most years. January 2024 NLRB complaint alleged SpaceX illegally fired 8 engineers who co-authored a 2022 open letter (signed by ~400 staff) criticizing Musk's conduct and SpaceX's tolerance of sexual harassment (CBS News). In 2024 the EPA and Texas TCEQ found SpaceX repeatedly discharged ~180,000 gallons of industrial wastewater per launch from its Starbase deluge system into wetlands without a permit; EPA proposed a $148,378 fine (NBC News). SpaceX holds a $1.8B classified NRO Starshield contract and >$700M in Space Force launch contracts; the Pentagon must contract with SpaceX to override Musk's unilateral Starlink geofencing in Ukraine, concentrating critical defense infrastructure in one private actor's hands (Breaking Defense).",
       "brands": [
-        "Starlink",
-        "SpaceX"
+        "SpaceX",
+        "Starlink"
       ],
       "layoffs": "8 engineers (Jan 2024, alleged retaliation per NLRB)",
       "notableBk": "N/A",
@@ -5386,8 +5227,7 @@
       "aumVal": 0,
       "summary": "Generative-AI company founded by Elon Musk in 2023; develops the Grok model integrated into X. xAI's Memphis 'Colossus' data center ran up to 35 unpermitted methane gas turbines emitting smog precursors and formaldehyde in majority-Black South Memphis — already the nation's asthma capital with ~4x national cancer risk; NAACP, SELC, and Earthjustice filed a Clean Air Act suit in 2026 (Inside Climate News). In July 2025 Grok began calling itself 'MechaHitler,' produced antisemitic posts about named Jewish public figures, and praised the Holocaust after a 'politically incorrect' update; an ADL January 2026 study ranked Grok worst of six major LLMs at countering antisemitism (21/100, NPR).",
       "brands": [
-        "Grok",
-        "xAI"
+        "Grok"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -5455,7 +5295,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Independent infant formula manufacturer founded in 2016 by siblings Mia Funt and Ron Belldegrun. Became the first new FDA-registered U.S. infant formula manufacturer in over 15 years. In November 2025, the FDA investigated a multistate outbreak of infant botulism linked to ByHeart Whole Nutrition Infant Formula, resulting in voluntary recalls on Nov. 8 and Nov. 11, 2025.",
-      "brands": [],
+      "brands": [
+        "ByHeart"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 68,
@@ -5473,7 +5315,9 @@
       "aum": "$3.5B",
       "aumVal": 3.5,
       "summary": "Private equity firm based in Chicago, IL, focused on food and consumer sectors. Portfolio company Food Evolution LLC owns Fresh & Ready Foods, which was implicated in a multi-year listeria outbreak (December 2023–September 2024) that resulted in 10 hospitalizations and 1 death. FDA warning letter dated September 2025 cited recurring contamination issues, with environmental samples testing positive for Listeria in both 2017 and 2025.",
-      "brands": [],
+      "brands": [
+        "Fresh & Ready Foods"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 72,
@@ -5492,7 +5336,9 @@
       "aum": "N/A",
       "aumVal": 0,
       "summary": "Independent date-sweetened chocolate bar company founded in 2022 by Sarah Bell and Kathryn Shah, based in Raleigh, NC. In January 2026, the company began a voluntary recall of select chocolate bars due to potential salmonella contamination, eventually expanding to all 12 product lines on May 8, 2026, after a contaminated date ingredient lot was identified.",
-      "brands": [],
+      "brands": [
+        "Spring & Mulberry"
+      ],
       "layoffs": "N/A",
       "notableBk": "N/A",
       "harmScore": 55,
@@ -5503,6 +5349,52 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-18"
+    },
+    {
+      "id": "nexus_capital_management",
+      "name": "Nexus Capital Management",
+      "aum": "$7B+",
+      "aumVal": 7,
+      "summary": "Mid-market PE firm founded 1998, managing $7B+ across buyout and credit strategies. Acquired Big Lots for $760M (consisting of $2.5M cash plus assumed debt/liabilities) as stalking horse bidder in September 2024 bankruptcy auction. Within three months announced full liquidation of all remaining stores, converting the Chapter 11 rescue into a complete shutdown. Pattern mirrors PE 'rescue' acquisitions that extract remaining value before winding down operations, leaving workers and communities without recourse.",
+      "brands": [
+        "Big Lots"
+      ],
+      "layoffs": "27,700+ (Big Lots liquidation)",
+      "notableBk": "Big Lots (2024, acquired then liquidated)",
+      "harmScore": 65,
+      "source": "https://www.cnbc.com/2024/09/09/big-lots-bankruptcy-plans-sale-and-store-closures.html",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-21"
+    },
+    {
+      "id": "sparc_catalyst",
+      "name": "SPARC / Catalyst Brands",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Mall-based retail operating platform formed 2021 through merger of SPARC Group (Authentic Brands Group JV) and JCPenney, backed by Simon Property Group and Brookfield Asset Management. Operates physical stores for ABG-owned brands while ABG retains IP rights, creating extraction structure where operators bear downside risk. Eddie Bauer LLC (operating entity) filed third bankruptcy February 2026, closing all 174 US stores with zero qualified bids at auction while ABG retained brand rights for licensing. Pattern shifts bankruptcy risk to operating subsidiaries while landlord-owners extract rent and brand-owners extract licensing fees.",
+      "brands": [
+        "Eddie Bauer"
+      ],
+      "layoffs": "Thousands (Eddie Bauer store closures)",
+      "notableBk": "Eddie Bauer (2026, third filing)",
+      "harmScore": 68,
+      "source": "https://www.cnbc.com/2026/02/09/outdoor-sportswear-pioneer-eddie-bauer-again-files-for-bankruptcy.html",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-21"
     }
   ],
   "brands": [
@@ -11413,6 +11305,74 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-20"
+    },
+    {
+      "id": "at_home",
+      "avoid": "At Home",
+      "ownership": [
+        {
+          "firmId": "hellman_and_friedman_permira",
+          "stake": "former",
+          "since": "2021",
+          "until": "2025"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Hellman & Friedman acquired At Home for $2.8B in 2021, loading it with $2B debt. Filed Chapter 11 June 2025 after tariffs on Chinese goods (source of 90% of inventory) reached 145%, but the bankruptcy was fundamentally caused by the PE-imposed debt burden that left no margin for shocks. Closed 30 stores, eliminated $2B in funded debt through restructuring that wiped out H&F's equity and transferred ownership to DIP lenders. Emerged October 2025 under new ownership, but the PE extraction cycle left workers, suppliers, and communities bearing the cost of H&F's failed bet.",
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-21"
+    },
+    {
+      "id": "eddie_bauer",
+      "avoid": "Eddie Bauer",
+      "ownership": [
+        {
+          "firmId": "authentic_brands_group",
+          "stake": "post_bankrupt",
+          "since": "2021"
+        },
+        {
+          "firmId": "sparc_catalyst",
+          "stake": "former",
+          "since": "2021",
+          "until": "2026"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "106-year outdoor pioneer acquired 2021 by Authentic Brands Group (IP rights) and SPARC/Catalyst (store operations), creating a split-ownership structure that shields ABG from operational risk. Eddie Bauer LLC filed third bankruptcy February 2026, receiving zero qualified bids at auction. All 174 US stores closed while ABG retained brand rights for licensing to other operators and e-commerce partners. Previous PE owner Golden Gate Capital (2009-2020) extracted value before selling to ABG/SPARC. The IP-versus-operations split ensures brand owners profit from licensing while operators and workers absorb bankruptcy losses.",
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-21"
+    },
+    {
+      "id": "big_lots",
+      "avoid": "Big Lots",
+      "ownership": [
+        {
+          "firmId": "nexus_capital_management",
+          "stake": "post_bankrupt",
+          "since": "2024"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Nexus Capital Management acquired Big Lots for $760M as stalking horse bidder in September 2024 Chapter 11 filing, promising to continue operations. Within three months, announced full liquidation and closure of all remaining stores (originally 1,300+), laying off 27,700 employees. Court documents cited 'heavily leveraged balance sheet' including $305.7M sale-leaseback deal with Blue Owl Capital in 2023 that stripped owned real estate. PE 'rescue' converted to complete shutdown, extracting remaining asset value while workers received no severance and communities lost a discount retailer serving low-income shoppers.",
+      "harms": [
+        "extraction_general",
+        "extraction_sale_leaseback",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-21"
     }
   ]
 }
