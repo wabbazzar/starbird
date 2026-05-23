@@ -26,12 +26,6 @@ FORCE_STRATEGY=pesp_bankruptcy_tracker TARGET_PAIRS=5 bash scripts/starbird-runn
 
 # Full sweep until all values hit 50
 TARGET_PAIRS=10 MAX_ITERATIONS=25 MAX_SPEND_USD=120 bash scripts/run-until-full.sh daily
-
-# Manual Guardian check (hook mode = fast)
-bash scripts/starbird-guardian.sh hook
-
-# Manual Guardian check (daily mode = deep audit including stale sources)
-bash scripts/starbird-guardian.sh daily
 ```
 
 ## Cron schedule (installed on wabbazzar-ice)
