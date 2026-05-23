@@ -168,6 +168,14 @@ NEW_ENTITIES=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.lo
 if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
   cd "$STARBIRD_DIR"
 
+  # Coerce well-known nuisance type mismatches (numeric since/until on
+  # ownership records) before the schema gate. The coercion pass only
+  # touches unambiguous fixes; structural problems still fall through
+  # to the hard gate below.
+  echo "[starbird-runner] coercing data.json (numeric since/until → string)…" >> "$LOG_FILE"
+  node "$STARBIRD_DIR/scripts/coerce-data.mjs" >> "$LOG_FILE" 2>&1 || \
+    echo "[starbird-runner] WARN: coerce-data.mjs exited non-zero" >> "$LOG_FILE"
+
   # Pre-commit schema gate. Three runner passes have shipped invalid
   # ownership records (numeric since/until, free-text stake) that broke
   # the page until manually hotfixed. Reject the run before commit if

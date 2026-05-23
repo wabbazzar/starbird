@@ -57,6 +57,7 @@ in_scope_paths = [
   "scripts/starbird-runner-prompt.md",
   "scripts/starbird-runner.sh",
   "scripts/validate-data.mjs",
+  "scripts/coerce-data.mjs",
   "scripts/generate-card-images.py",
   "scripts/labels.py",
   "scripts/pick-strategy.py",
