@@ -1555,7 +1555,7 @@
       "name": "Johnson & Johnson",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Johnson & Johnson is one of the world's largest consumer health, pharmaceutical, and medical device companies. Its consumer division sells iconic personal care and skincare brands including Neutrogena, Aveeno, Clean & Clear, and Band-Aid. Despite public trust built over decades, J&J continues to conduct animal testing to meet regulatory requirements in markets like China, landing all its consumer brands on PETA's 'Does Test on Animals' list.",
+      "summary": "Johnson & Johnson is one of the world's largest consumer health, pharmaceutical, and medical device companies. Its consumer division sells iconic personal care and skincare brands including Neutrogena, Aveeno, Clean & Clear, and Band-Aid. Despite public trust built over decades, J&J continues to conduct animal testing to meet regulatory requirements in markets like China, landing all its consumer brands on PETA's 'Does Test on Animals' list. From 1965 to 2003, J&J's baby powder talc came from a Vermont mine containing 10-20% fibrous talc contaminated with asbestos. Reuters documented that J&J knew since the late 1950s that its talc was sometimes contaminated with asbestos but hid the facts for 50 years. In 2024, J&J agreed to a $8.9 billion settlement of over 60,000 lawsuits alleging its talc products caused cancer.",
       "brands": [
         "Neutrogena",
         "Aveeno",
@@ -1566,17 +1566,18 @@
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
-      "harmScore": 55,
+      "harmScore": 70,
       "source": "https://crueltyfree.peta.org/companies-do-test/",
       "cats": [
         "health",
         "retail"
       ],
       "harms": [
-        "animals_general"
+        "animals_general",
+        "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-24"
     },
     {
       "id": "glaxosmithkline",
@@ -1955,22 +1956,23 @@
       "name": "Tyson Foods",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the world's largest protein producers, headquartered in Springdale, Arkansas, with annual revenue exceeding $53 billion. Tyson owns Jimmy Dean, Ball Park, Hillshire Farm, and State Fair brands. CSPI's Chemical Cuisine database specifically lists BHA (butylated hydroxyanisole) — an antioxidant preservative rated 'Avoid' — as an ingredient in multiple Jimmy Dean pork sausage products. Sodium nitrite, also rated 'Avoid' by CSPI, is used widely across Tyson's processed meat portfolio. IARC classifies sodium nitrite-treated processed meats as Group 1 carcinogens. Tyson acquired Jimmy Dean Brands from Sara Lee Corporation in 2012 for approximately $400 million. Flagged under health_general.",
+      "summary": "One of the world's largest protein producers, headquartered in Springdale, Arkansas, with annual revenue exceeding $53 billion. Tyson owns Jimmy Dean, Ball Park, Hillshire Farm, and State Fair brands. CSPI's Chemical Cuisine database specifically lists BHA (butylated hydroxyanisole) — an antioxidant preservative rated 'Avoid' — as an ingredient in multiple Jimmy Dean pork sausage products. Sodium nitrite, also rated 'Avoid' by CSPI, is used widely across Tyson's processed meat portfolio. IARC classifies sodium nitrite-treated processed meats as Group 1 carcinogens. Tyson acquired Jimmy Dean Brands from Sara Lee Corporation in 2012 for approximately $400 million. Between 2018 and 2022, Tyson released at least 371.7 million pounds of pollution into U.S. waterways, including 34.2 million pounds of nitrogen and 5.1 million pounds of phosphorus, dispersed in 87 billion gallons of wastewater containing blood, bacteria, and animal feces, according to a 2024 Union of Concerned Scientists report.",
       "brands": [
         "Jimmy Dean"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
-      "harmScore": 68,
+      "harmScore": 72,
       "source": "https://www.cspinet.org/chemical-cuisine",
       "cats": [
         "food"
       ],
       "harms": [
-        "health_general"
+        "health_general",
+        "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-24"
     },
     {
       "id": "hormel_foods",
@@ -5436,6 +5438,58 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-23"
+    },
+    {
+      "id": "3m",
+      "name": "3M",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "3M is a multinational conglomerate producing industrial, safety, and consumer products including Post-it Notes, Scotch tape, and N95 respirators. The company manufactured PFAS (per- and polyfluoroalkyl substances) 'forever chemicals' for decades, contaminating drinking water near its facilities across the United States. In 2024, 3M agreed to pay $10.3 billion over 13 years to settle PFAS drinking water contamination claims, following an earlier $12.5 billion settlement in 2023. EPA sampling found at least 19 different PFAS chemicals in drinking water within a 3-mile radius of the Cordova, IL facility, and Minnesota regulators found concentrations as high as 310,000 parts per trillion near the Cottage Grove facility.",
+      "brands": [
+        "3M",
+        "Post-it",
+        "Scotch",
+        "Command"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 75,
+      "source": "https://www.epa.gov/newsreleases/3m-agrees-epa-order-sample-and-provide-treatment-pfas-contamination-drinking-water",
+      "cats": [
+        "retail",
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-24"
+    },
+    {
+      "id": "dupont",
+      "name": "DuPont",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "DuPont is a chemical manufacturing conglomerate that produces specialty materials and industrial chemicals. The company produced PFOA (perfluorooctanoic acid), a PFAS 'forever chemical' used in Teflon production, for decades while knowing about its health risks. DuPont discharged PFAS from four major facilities in New Jersey including Chambers Works in Pennsville and the Parlin facility in Sayreville. Spin-off Chemours continues to discharge the notorious GenX chemical despite documented health risks. In 2026, New Jersey filed a landmark lawsuit against DuPont for 'forever chemical' pollution across South Jersey. UN human rights advisors concluded that Chemours and DuPont knew about PFAS risks but continued production and discharge.",
+      "brands": [
+        "Teflon",
+        "Corian",
+        "Tyvek",
+        "Kevlar"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://delawarecurrents.org/2025/05/21/dupont-lawsuits-forever-chemicals-pfas/",
+      "cats": [
+        "home",
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-24"
     }
   ],
   "brands": [
@@ -7805,12 +7859,13 @@
       ],
       "cat": "food",
       "alts": [],
-      "why": "Jimmy Dean sausage products contain BHA (butylated hydroxyanisole) and sodium nitrite — both rated 'Avoid' by the Center for Science in the Public Interest (CSPI). BHA is classified as a possible carcinogen by California's Office of Environmental Health Hazard Assessment. Sodium nitrite is used as a preservative and color fixative in processed meats; in the stomach it converts to nitrosamines, which the International Agency for Research on Cancer (IARC) classifies as probable human carcinogens, and processed meats overall are classified by IARC as Group 1 carcinogens (sufficient evidence of cancer causation). Jimmy Dean Original Pork Sausage Roll lists both BHA and sodium nitrite on its ingredients panel. Tyson Foods acquired Jimmy Dean from Sara Lee in 2012; the brand generates over $1 billion in annual retail sales.",
+      "why": "Jimmy Dean sausage products contain BHA (butylated hydroxyanisole) and sodium nitrite — both rated 'Avoid' by the Center for Science in the Public Interest (CSPI). BHA is classified as a possible carcinogen by California's Office of Environmental Health Hazard Assessment. Sodium nitrite is used as a preservative and color fixative in processed meats; in the stomach it converts to nitrosamines, which the International Agency for Research on Cancer (IARC) classifies as probable human carcinogens, and processed meats overall are classified by IARC as Group 1 carcinogens (sufficient evidence of cancer causation). Jimmy Dean Original Pork Sausage Roll lists both BHA and sodium nitrite on its ingredients panel. Tyson Foods acquired Jimmy Dean from Sara Lee in 2012; the brand generates over $1 billion in annual retail sales. Parent company Tyson released 371.7 million pounds of pollution into U.S. waterways between 2018-2022, per a 2024 Union of Concerned Scientists report.",
       "harms": [
-        "health_general"
+        "health_general",
+        "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-24"
     },
     {
       "id": "spam",
@@ -11149,12 +11204,13 @@
       ],
       "cat": "health",
       "alts": [],
-      "why": "Band-Aid is owned by Johnson & Johnson, which PETA lists among companies that do test on animals. Johnson & Johnson products are sold in regions where animal testing is legally mandated, and the company allows animal testing when required by law.",
+      "why": "Band-Aid is owned by Johnson & Johnson, which PETA lists among companies that do test on animals. Johnson & Johnson products are sold in regions where animal testing is legally mandated, and the company allows animal testing when required by law. J&J's baby powder and talc products, manufactured from 1965-2003, used talc contaminated with asbestos from a Vermont mine. Reuters documented J&J knew since the 1950s about asbestos contamination but concealed the facts for 50 years, leading to an $8.9 billion settlement in 2024 for over 60,000 cancer lawsuits.",
       "harms": [
-        "animals_general"
+        "animals_general",
+        "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-05-16"
+      "addedAt": "2026-05-24"
     },
     {
       "id": "bulgari",
@@ -11554,6 +11610,44 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-23"
+    },
+    {
+      "id": "3m",
+      "avoid": "3M",
+      "ownership": [
+        {
+          "firmId": "3m",
+          "stake": "majority",
+          "since": "1902"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "3M manufactured PFAS 'forever chemicals' for decades, contaminating drinking water near facilities nationwide. The company agreed to pay $10.3 billion in 2024 to settle PFAS contamination claims after EPA found 19 PFAS chemicals in drinking water near its Cordova, IL facility and Minnesota found 310,000 parts per trillion concentrations near Cottage Grove. ProPublica documented how 3M executives convinced a scientist that PFAS found in human blood were safe, despite internal knowledge of health risks dating back decades.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-24"
+    },
+    {
+      "id": "corian",
+      "avoid": "Corian",
+      "ownership": [
+        {
+          "firmId": "dupont",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Corian solid surface countertops are produced by DuPont, a chemical manufacturer that knowingly contaminated drinking water with PFAS 'forever chemicals' for decades. DuPont produced PFOA for Teflon while aware of health risks, discharging PFAS from four major New Jersey facilities. In 2026, New Jersey filed a landmark lawsuit against DuPont for PFAS pollution across South Jersey. UN human rights advisors concluded DuPont and spin-off Chemours knew about PFAS risks but continued production. DuPont's Washington Works plant contaminated drinking water for 70,000+ people near Parkersburg, WV.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-24"
     }
   ]
 }
