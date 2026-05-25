@@ -1824,7 +1824,8 @@
       "brands": [
         "Hot Pockets",
         "DiGiorno",
-        "Stouffer's"
+        "Stouffer's",
+        "Lean Cuisine"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2026,7 +2027,9 @@
       "aumVal": 0,
       "summary": "World's largest beverage company by revenue, headquartered in Atlanta, Georgia, with annual revenue exceeding $45 billion. Coca-Cola's Diet Coke and Coke Zero Sugar products contain acesulfame potassium (Ace-K) — an artificial sweetener CSPI rates as 'Avoid' due to inadequate safety testing, with one study finding increased cancer incidence in mice. Diet Coke also contains aspartame, which CSPI rates as 'Certain people should avoid' (phenylketonurics). Coca-Cola's caramel-colored products (Coke Classic, Pepsi competitors) contain 4-methylimidazole (4-MEI), a potential carcinogen formed during caramel color IV manufacturing; California required Coke to carry a Prop 65 cancer warning in 2012 before the company reduced 4-MEI levels. Powererade and other products contain artificial colors. Flagged under health_general.",
       "brands": [
-        "Diet Coke"
+        "Diet Coke",
+        "Sprite",
+        "Fanta"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -11648,6 +11651,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-24"
+    },
+    {
+      "id": "sprite",
+      "avoid": "Sprite",
+      "ownership": [
+        {
+          "firmId": "coca_cola_company",
+          "stake": "majority",
+          "since": "1961"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Lemon-lime flavored sugar-sweetened beverage containing 38 grams of sugar per 12-oz serving—exceeding the American Heart Association's daily recommended maximum for adults (25g for women, 36g for men). Regular consumption is strongly linked to weight gain, type 2 diabetes (27% increased risk per daily serving per meta-analysis), cardiovascular disease, and dental decay. Classified as NOVA Group 4 ultra-processed food.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-25"
+    },
+    {
+      "id": "fanta",
+      "avoid": "Fanta",
+      "ownership": [
+        {
+          "firmId": "coca_cola_company",
+          "stake": "majority",
+          "since": "1940"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Orange-flavored sugar-sweetened beverage containing 44 grams of sugar per 12-oz serving (11 teaspoons)—far exceeding daily recommended limits. U.S. formulation contains Yellow 6 and Red 40 artificial dyes derived from petroleum; studies suggest links to hyperactivity in children and DNA damage in animal studies. Contains high-fructose corn syrup, linked to insulin resistance and inflammation. Classified as NOVA Group 4 ultra-processed food.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-25"
+    },
+    {
+      "id": "lean_cuisine",
+      "avoid": "Lean Cuisine",
+      "ownership": [
+        {
+          "firmId": "nestle_usa",
+          "stake": "majority",
+          "since": "1981"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Frozen meal brand marketed as healthy but classified as NOVA Group 4 ultra-processed. Meals contain 400-900mg sodium (averaging ~650mg, representing 30% of daily recommended intake per serving). Contains multiple additives including modified food starch, maltodextrin, disodium inosinate, citric acid, and sodium benzoate preservatives. Marketed as nutritious despite reliance on chemical flavor enhancers and shelf-stability additives.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-25"
     }
   ]
 }
