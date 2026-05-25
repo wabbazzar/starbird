@@ -18,13 +18,13 @@ The research runner (`scripts/starbird-runner.sh`) has several env vars:
 ### Common invocations
 
 ```bash
-# Quick dry run (no commit, no push, $1.50 budget)
+# Quick dry run (no commit, no push, $2.00 budget)
 TARGET_PAIRS=3 bash scripts/starbird-runner.sh dry-run
 
 # Force a specific strategy for testing
 FORCE_STRATEGY=pesp_bankruptcy_tracker TARGET_PAIRS=5 bash scripts/starbird-runner.sh dry-run
 
-# Full sweep until all values hit 50
+# Full sweep until all values hit 100
 TARGET_PAIRS=10 MAX_ITERATIONS=25 MAX_SPEND_USD=120 bash scripts/run-until-full.sh daily
 ```
 
