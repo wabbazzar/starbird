@@ -1172,7 +1172,7 @@
       "name": "Procter & Gamble",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products — including Tide laundry detergents and Febreze air fresheners — as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general. P&G is one of the world's largest companies still conducting animal testing for consumer product safety. Hundreds of thousands of animals are used annually, documented by Cruelty Free International and Humane Society International.",
+      "summary": "World's largest consumer goods company by revenue (~$80B/year), headquartered in Cincinnati, Ohio. P&G owns dozens of household cleaning and personal care brands sold in 180+ countries. EWG's Healthy Cleaning Guide grades multiple P&G cleaning products — including Tide laundry detergents and Febreze air fresheners — as D or F due to 1,4-dioxane contamination (a likely carcinogen), synthetic fragrance chemicals, optical brighteners, and other ingredients of concern. In 2019, the New York State Attorney General found elevated levels of 1,4-dioxane in Tide Original and other P&G products, prompting regulatory action. Febreze products disclose only 'fragrance' despite EWG analysis showing the category can include hormone-disrupting and allergenic compounds. Tagged environment_general. P&G is one of the world's largest companies still conducting animal testing for consumer product safety. Hundreds of thousands of animals are used annually, documented by Cruelty Free International and Humane Society International. EPA's 2023 Toxics Release Inventory shows P&G's Kansas City manufacturing facility (1900 Kansas Ave) released 13.34 pounds of glycol ethers, a category of toxic chemicals, into the environment. While this specific facility's release was relatively small compared to the soap and detergent manufacturing sector average of 164,233 pounds, it represents ongoing toxic chemical use in consumer product manufacturing.",
       "brands": [
         "Tide",
         "Febreze",
@@ -1194,7 +1194,7 @@
         "animals_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-27"
     },
     {
       "id": "unilever",
@@ -1225,7 +1225,7 @@
       "name": "Colgate-Palmolive",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "American consumer goods company headquartered in New York City, with approximately $20B in annual revenue. Colgate-Palmolive manufactures oral care, personal care, and household cleaning products sold globally. Its Palmolive dish soap line receives D and F grades from EWG's Healthy Cleaning Guide due to methylisothiazolinone (MIT) — a potent skin sensitizer and suspected neurotoxin classified as 'high concern' by EWG — as well as synthetic fragrances and surfactants. EWG has flagged MIT-containing products as a known cause of allergic contact dermatitis, and the European Union has banned MIT from leave-on cosmetics. Tagged environment_general.",
+      "summary": "American consumer goods company headquartered in New York City, with approximately $20B in annual revenue. Colgate-Palmolive manufactures oral care, personal care, and household cleaning products sold globally. Its Palmolive dish soap line receives D and F grades from EWG's Healthy Cleaning Guide due to methylisothiazolinone (MIT) — a potent skin sensitizer and suspected neurotoxin classified as 'high concern' by EWG — as well as synthetic fragrances and surfactants. EWG has flagged MIT-containing products as a known cause of allergic contact dermatitis, and the European Union has banned MIT from leave-on cosmetics. Tagged environment_general. EPA's 2023-2024 Toxics Release Inventory data shows Colgate-Palmolive's Cambridge, Ohio plant (8800 Guernsey Industrial Blvd) reported 56,414 pounds of toxic waste managed and 10,073 pounds of off-site releases, including ammonia, formaldehyde, methanol, sodium hydroxide solution, and sulfuric acid aerosols used in soap and detergent manufacturing.",
       "brands": [
         "Palmolive"
       ],
@@ -1242,7 +1242,7 @@
         "animals_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-27"
     },
     {
       "id": "sc_johnson",
@@ -5447,7 +5447,7 @@
       "name": "3M",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "3M is a multinational conglomerate producing industrial, safety, and consumer products including Post-it Notes, Scotch tape, and N95 respirators. The company manufactured PFAS (per- and polyfluoroalkyl substances) 'forever chemicals' for decades, contaminating drinking water near its facilities across the United States. In 2024, 3M agreed to pay $10.3 billion over 13 years to settle PFAS drinking water contamination claims, following an earlier $12.5 billion settlement in 2023. EPA sampling found at least 19 different PFAS chemicals in drinking water within a 3-mile radius of the Cordova, IL facility, and Minnesota regulators found concentrations as high as 310,000 parts per trillion near the Cottage Grove facility.",
+      "summary": "3M is a multinational conglomerate producing industrial, safety, and consumer products including Post-it Notes, Scotch tape, and N95 respirators. The company manufactured PFAS (per- and polyfluoroalkyl substances) 'forever chemicals' for decades, contaminating drinking water near its facilities across the United States. In 2024, 3M agreed to pay $10.3 billion over 13 years to settle PFAS drinking water contamination claims, following an earlier $12.5 billion settlement in 2023. EPA sampling found at least 19 different PFAS chemicals in drinking water within a 3-mile radius of the Cordova, IL facility, and Minnesota regulators found concentrations as high as 310,000 parts per trillion near the Cottage Grove facility. EPA's 2023 Toxics Release Inventory reports that 3M facilities continue to release toxic chemicals, with 21 new PFAS chemicals added to TRI reporting requirements in 2023, increasing transparency around the company's ongoing chemical manufacturing operations.",
       "brands": [
         "3M",
         "Post-it",
@@ -5466,7 +5466,7 @@
         "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-05-24"
+      "addedAt": "2026-05-27"
     },
     {
       "id": "dupont",
@@ -6902,13 +6902,13 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Tide laundry products as D or F due to 1,4-dioxane — a likely human carcinogen listed by California as a Proposition 65 chemical — found as a contaminant in surfactant ingredients. The New York State Attorney General tested Tide Original in 2019 and found 1,4-dioxane levels exceeding safe thresholds, leading to new state regulations. Tide products also contain optical brighteners and undisclosed synthetic fragrance compounds that can include allergens and hormone-disrupting chemicals. EWG has campaigned for years for P&G to remove 1,4-dioxane from its cleaning formulas.",
+      "why": "EWG's Healthy Cleaning Guide rates Tide laundry products as D or F due to 1,4-dioxane — a likely human carcinogen listed by California as a Proposition 65 chemical — found as a contaminant in surfactant ingredients. The New York State Attorney General tested Tide Original in 2019 and found 1,4-dioxane levels exceeding safe thresholds, leading to new state regulations. Tide products also contain optical brighteners and undisclosed synthetic fragrance compounds that can include allergens and hormone-disrupting chemicals. EWG has campaigned for years for P&G to remove 1,4-dioxane from its cleaning formulas. EPA TRI data for 2023 shows P&G's Kansas City detergent manufacturing facility released glycol ethers and other toxic chemicals during production.",
       "harms": [
         "environment_general",
         "animals_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-27"
     },
     {
       "id": "febreze",
@@ -6982,13 +6982,13 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "EWG's Healthy Cleaning Guide rates Palmolive dish soaps as D or F for containing methylisothiazolinone (MIT) — a preservative EWG rates as high concern for skin sensitization and suspected neurotoxicity — as well as synthetic fragrances and surfactant blends with limited safety data. MIT has been banned or severely restricted in leave-on cosmetics in the European Union due to its known capacity to cause allergic contact dermatitis. The EU Scientific Committee on Consumer Safety has also warned about MIT in rinse-off products. Despite regulatory pressure in Europe, Palmolive products sold in the United States continue to contain MIT in formulations sold as family dish soaps.",
+      "why": "EWG's Healthy Cleaning Guide rates Palmolive dish soaps as D or F for containing methylisothiazolinone (MIT) — a preservative EWG rates as high concern for skin sensitization and suspected neurotoxicity — as well as synthetic fragrances and surfactant blends with limited safety data. MIT has been banned or severely restricted in leave-on cosmetics in the European Union due to its known capacity to cause allergic contact dermatitis. The EU Scientific Committee on Consumer Safety has also warned about MIT in rinse-off products. Despite regulatory pressure in Europe, Palmolive products sold in the United States continue to contain MIT in formulations sold as family dish soaps. EPA TRI data for 2024 shows Colgate-Palmolive's Cambridge, Ohio facility managing 56,414 pounds of toxic waste including formaldehyde, methanol, and sulfuric acid aerosols during dish soap production.",
       "harms": [
         "environment_general",
         "animals_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-27"
     },
     {
       "id": "scrubbing_bubbles",
@@ -11626,12 +11626,12 @@
       ],
       "cat": "home",
       "alts": [],
-      "why": "3M manufactured PFAS 'forever chemicals' for decades, contaminating drinking water near facilities nationwide. The company agreed to pay $10.3 billion in 2024 to settle PFAS contamination claims after EPA found 19 PFAS chemicals in drinking water near its Cordova, IL facility and Minnesota found 310,000 parts per trillion concentrations near Cottage Grove. ProPublica documented how 3M executives convinced a scientist that PFAS found in human blood were safe, despite internal knowledge of health risks dating back decades.",
+      "why": "3M manufactured PFAS 'forever chemicals' for decades, contaminating drinking water near facilities nationwide. The company agreed to pay $10.3 billion in 2024 to settle PFAS contamination claims after EPA found 19 PFAS chemicals in drinking water near its Cordova, IL facility and Minnesota found 310,000 parts per trillion concentrations near Cottage Grove. ProPublica documented how 3M executives convinced a scientist that PFAS found in human blood were safe, despite internal knowledge of health risks dating back decades. EPA's 2023 Toxics Release Inventory reports ongoing toxic chemical releases from 3M facilities, with 21 new PFAS chemicals added to TRI reporting requirements in 2023.",
       "harms": [
         "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-05-24"
+      "addedAt": "2026-05-27"
     },
     {
       "id": "corian",
@@ -11708,6 +11708,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-25"
+    },
+    {
+      "id": "kiehls",
+      "avoid": "Kiehl's",
+      "ownership": [
+        {
+          "firmId": "loreal",
+          "stake": "majority",
+          "since": "2000"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Kiehl's is owned by L'Oréal and sells products in mainland China, where regulatory authorities require animal testing on imported cosmetics. PETA lists Kiehl's as testing on animals as of 2026, and the brand is not certified by any major cruelty-free organization including Leaping Bunny or PETA's cruelty-free program.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-28"
+    },
+    {
+      "id": "origins",
+      "avoid": "Origins",
+      "ownership": [
+        {
+          "firmId": "estee_lauder",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Origins is owned by Estée Lauder and sells products in countries where animal testing on cosmetics is required by law. While Origins claims not to test on animals directly, PETA lists Origins as testing on animals as of 2026 due to the brand's presence in markets with mandatory testing requirements. The brand is not certified by any cruelty-free organizations.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-28"
+    },
+    {
+      "id": "lancome",
+      "avoid": "Lancôme",
+      "ownership": [
+        {
+          "firmId": "loreal",
+          "stake": "majority",
+          "since": "1964"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Lancôme is owned by L'Oréal and sells cosmetics in mainland China stores, where products are likely tested on animals by regulatory authorities. PETA lists Lancôme as testing on animals where required by law as of 2026. The brand is not certified by Leaping Bunny, PETA, or other cruelty-free certification programs due to its parent company's China market participation.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-28"
     }
   ]
 }
