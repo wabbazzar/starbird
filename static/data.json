@@ -2974,7 +2974,7 @@
       "name": "Smithfield Foods (WH Group)",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "The world's largest pork processor and hog producer, headquartered in Smithfield, Virginia. Acquired by Chinese conglomerate WH Group (formerly Shuanghui International, HKEX: 288) in September 2013 for $7.1 billion — the largest Chinese acquisition of a US company at the time. Smithfield's processed pork portfolio — Eckrich smoked sausages, Armour Star canned meats, Farmland bacon, Gwaltney, John Morrell, and Nathan's Famous hot dogs — relies on sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' because it reacts with amines in stomach acid to form N-nitrosamines, potent carcinogens. In 2015, IARC classified consumption of processed meats — all of which require sodium nitrite for their characteristic cured color and flavor — as Group 1 carcinogenic to humans, the same tier as tobacco smoke. Smithfield generates over $15 billion in annual revenue and is one of the largest single distributors of sodium nitrite-preserved meats to American consumers.",
+      "summary": "The world's largest pork processor and hog producer, headquartered in Smithfield, Virginia. Acquired by Chinese conglomerate WH Group (formerly Shuanghui International, HKEX: 288) in September 2013 for $7.1 billion — the largest Chinese acquisition of a US company at the time. Smithfield's processed pork portfolio — Eckrich smoked sausages, Armour Star canned meats, Farmland bacon, Gwaltney, John Morrell, and Nathan's Famous hot dogs — relies on sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' because it reacts with amines in stomach acid to form N-nitrosamines, potent carcinogens. In 2015, IARC classified consumption of processed meats — all of which require sodium nitrite for their characteristic cured color and flavor — as Group 1 carcinogenic to humans, the same tier as tobacco smoke. Smithfield generates over $15 billion in annual revenue and is one of the largest single distributors of sodium nitrite-preserved meats to American consumers. Smithfield ranked #1 nationally among 1,671 facilities in the food sector for total toxic releases in EPA's 2022 Toxics Release Inventory, with 4.9 million pounds released. In 2024, following installation of a $45 million wastewater treatment facility, the company still released 1.1 million pounds of nitrates and 51,400 pounds of ammonia into the Big Sioux River watershed. Nitrate and ammonia pollution from industrial meat processing contributes to algal blooms, dead zones, and contamination of drinking water sources.",
       "brands": [
         "Eckrich"
       ],
@@ -2986,7 +2986,8 @@
         "food"
       ],
       "harms": [
-        "health_general"
+        "health_general",
+        "environment_general"
       ],
       "aligns": [],
       "addedAt": "2026-04-23"
@@ -5493,6 +5494,68 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-24"
+    },
+    {
+      "id": "becton_dickinson",
+      "name": "Becton, Dickinson and Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Global medical technology company manufacturing and selling medical devices, instrument systems, and reagents for hospitals, laboratories, and healthcare providers. Operates manufacturing and sterilization facilities using ethylene oxide (EtO), a toxic gas classified as a carcinogen. EPA identified BD facilities among 23 high-risk sterilization sites emitting significant levels of ethylene oxide. Per PERI UMass Toxic 100 Air Polluters Index 2024 (based on 2022 TRI data), BD ranked #8 among the top industrial air polluters in the United States.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://peri.umass.edu/toxic-100-air-polluters-index-current",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
+    },
+    {
+      "id": "edwards_lifesciences",
+      "name": "Edwards Lifesciences Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Medical device company specializing in structural heart disease and critical care monitoring technologies, including heart valve replacement systems and hemodynamic monitoring equipment. Uses ethylene oxide sterilization for medical devices; EPA named Edwards among 23 commercial sterilization facilities posing cancer risks to nearby communities due to high ethylene oxide emissions. Additionally settled EPA claims over hazardous waste violations at Irvine facility in 2021, including non-compliance with air emission standards under RCRA, improper hazardous waste tank storage, and failure to monitor for fugitive solvent emissions. Ranked #9 on PERI UMass Toxic 100 Air Polluters Index 2024 (based on 2022 TRI data).",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://peri.umass.edu/toxic-100-air-polluters-index-current",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
+    },
+    {
+      "id": "iff",
+      "name": "International Flavors & Fragrances Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Global leader in flavors and fragrances for consumer products, headquartered in New York City, with approximately $10.9 billion in annual revenue. IFF develops ingredients for food, beverage, household goods, personal care, and pharmaceutical products sold by major consumer brands worldwide. Ranked #8 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 15 facilities reporting significant waste management. IFF's flavor and fragrance manufacturing processes involve volatile organic compounds (VOCs), synthetic musks, and other chemicals that require TRI reporting. The company's Union Beach, New Jersey facility operated from 1951–1997 with documented environmental contamination including PCBs in soil and wetlands, volatile organics migrating into Raritan Bay, and hazardous waste handling violations. IFF operates a Jacksonville, Florida facility that has been the subject of community complaints about toxic chemical releases affecting air quality. Tagged environment_general.",
+      "brands": [
+        "IFF Ingredients"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.epa.gov/trinationalanalysis/waste-managed-parent-company",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
     }
   ],
   "brands": [
@@ -8749,9 +8812,10 @@
       ],
       "cat": "food",
       "alts": [],
-      "why": "Eckrich is a processed meat brand owned by Smithfield Foods (WH Group), producing smoked sausages, bologna, hot dogs, corn dogs, and breakfast sausages sold in virtually every US supermarket. All Eckrich meat products list sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' — its highest-concern rating — because it reacts with amines in the digestive tract to form N-nitrosamines, compounds classified as probable human carcinogens by IARC. In October 2015, IARC upgraded processed meats to Group 1 carcinogenic to humans (sufficient evidence of cancer in humans), specifically citing colorectal cancer risk. The WHO's analysis found that eating 50 grams of processed meat daily — roughly two Eckrich sausages — increases colorectal cancer risk by approximately 18%. ConAgra sold Eckrich to Smithfield Foods in October 2006 for approximately $575 million.",
+      "why": "Eckrich is a processed meat brand owned by Smithfield Foods (WH Group), producing smoked sausages, bologna, hot dogs, corn dogs, and breakfast sausages sold in virtually every US supermarket. All Eckrich meat products list sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' — its highest-concern rating — because it reacts with amines in the digestive tract to form N-nitrosamines, compounds classified as probable human carcinogens by IARC. In October 2015, IARC upgraded processed meats to Group 1 carcinogenic to humans (sufficient evidence of cancer in humans), specifically citing colorectal cancer risk. The WHO's analysis found that eating 50 grams of processed meat daily — roughly two Eckrich sausages — increases colorectal cancer risk by approximately 18%. ConAgra sold Eckrich to Smithfield Foods in October 2006 for approximately $575 million. Parent company Smithfield Foods ranked #1 nationally among 1,671 food sector facilities in EPA's 2022 Toxics Release Inventory with 4.9 million pounds of toxic releases. In 2024, Smithfield's Sioux Falls plant released 1.1 million pounds of nitrates and 51,400 pounds of ammonia into the Big Sioux River watershed despite a $45 million wastewater treatment upgrade.",
       "harms": [
-        "health_general"
+        "health_general",
+        "environment_general"
       ],
       "aligns": [],
       "addedAt": "2026-04-23"
@@ -11765,6 +11829,82 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-28"
+    },
+    {
+      "id": "bd",
+      "avoid": "BD",
+      "ownership": [
+        {
+          "firmId": "becton_dickinson",
+          "stake": "majority",
+          "since": "1897"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "BD operates medical device sterilization facilities using ethylene oxide (EtO), a toxic gas the EPA classifies as a known human carcinogen. EPA analysis identified BD's facilities in Covington, Georgia and Sandy, Utah among 23 high-risk commercial sterilization sites emitting dangerous levels of EtO, posing elevated cancer risks to surrounding communities. Parent company Becton Dickinson ranked #8 on the 2024 PERI UMass Toxic 100 Air Polluters Index (based on 2022 EPA TRI data), indicating significant chronic human health risk from toxic air releases across BD's U.S. facilities.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
+    },
+    {
+      "id": "edwards_lifesciences",
+      "avoid": "Edwards Lifesciences",
+      "ownership": [
+        {
+          "firmId": "edwards_lifesciences",
+          "stake": "majority",
+          "since": "1958"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Edwards Lifesciences manufactures cardiac medical devices including heart valves and operates sterilization facilities using ethylene oxide (EtO). EPA listed Edwards among 23 commercial sterilizers posing elevated cancer risks to nearby communities from EtO emissions. In 2021, EPA found Edwards violated hazardous waste regulations at its Irvine, California facility, including non-compliance with air emission standards under RCRA, improper hazardous waste storage tank operations, lack of leak detection and secondary containment, and failure to monitor for fugitive solvent emissions. Parent company ranked #9 on the 2024 PERI UMass Toxic 100 Air Polluters Index (based on 2022 EPA TRI data).",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
+    },
+    {
+      "id": "gaf",
+      "avoid": "GAF",
+      "ownership": [
+        {
+          "firmId": "standard_industries",
+          "stake": "majority",
+          "since": "1886"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "GAF is North America's largest roofing and waterproofing manufacturer, commanding approximately 40% of the roofing market with its flagship Timberline HDZ shingles. Parent company Standard Industries ranked #1 on the 2024 PERI UMass Toxic 100 Air Polluters Index (based on 2022 EPA TRI data), identifying it as the top U.S. industrial air polluter by chronic human health risk from toxic chemical releases across all manufacturing facilities. The ranking reflects toxic emissions from roofing material production including asphalt processing, chemical additives, and volatile organic compounds released during manufacturing operations.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
+    },
+    {
+      "id": "iff_ingredients",
+      "avoid": "IFF (fragrances & flavors)",
+      "ownership": [
+        {
+          "firmId": "iff",
+          "stake": "majority",
+          "since": "1889"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "International Flavors & Fragrances (IFF) produces synthetic fragrance compounds and flavor ingredients used in thousands of consumer products including perfumes, detergents, personal care items, and processed foods. IFF ranked #8 among all U.S. parent companies by total waste managed in EPA's 2023 Toxics Release Inventory, with 15 facilities reporting. Fragrance manufacturing involves volatile organic compounds, synthetic musks (including HHCB, which IFF first synthesized in 1965), and other chemicals that persist in the environment. IFF's Union Beach, NJ facility contaminated soil and wetlands with PCBs and organic pollutants before closing in 1997, requiring EPA hazardous waste cleanup. Consumers cannot identify IFF ingredients on product labels due to 'fragrance' exemptions that allow companies to hide chemical formulas as trade secrets.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-29"
     }
   ]
 }
