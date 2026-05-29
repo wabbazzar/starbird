@@ -294,6 +294,12 @@ console.log('ok');
 
 If validation fails, fix your extraction output. Do not touch `src/lib/schema.ts`.
 
+**Preserve the top-level `version` field.** `static/data.json` is shaped
+`{ "version": 2, "firms": [...], "brands": [...] }`. When you write the merged
+file, keep `"version": 2` as the first key — do NOT emit just
+`{ "firms": [...], "brands": [...] }`. `DataFileSchema` requires `version`, and
+dropping it blocks the commit gate.
+
 ## Self-report file (optional, non-authoritative)
 
 If you want to leave a note for yourself about what you tried, you may write `tmp/starbird-runner-claude-report.json` with the following shape:

@@ -23,9 +23,22 @@ const here = path.dirname(url.fileURLToPath(import.meta.url));
 const dataPath = path.resolve(here, '..', 'static', 'data.json');
 
 const raw = fs.readFileSync(dataPath, 'utf8');
-const data = JSON.parse(raw);
+let data = JSON.parse(raw);
 
 let fixes = 0;
+
+// The runner's Claude pass rebuilds data.json as {firms, brands} and
+// occasionally drops the top-level `version` field, which DataFileSchema
+// requires (version 2). Restore it deterministically so a dropped version
+// never blocks the commit gate. 2 is the current schema version.
+if (typeof data.version !== 'number') {
+	const before = data.version;
+	// Rebuild with version first so the on-disk key order matches the
+	// canonical {version, firms, brands} shape (clean git diffs).
+	data = { version: 2, ...data };
+	console.error(`coerce-data: version: ${JSON.stringify(before)} → 2 (restored required top-level field)`);
+	fixes++;
+}
 
 for (const [bi, brand] of (data.brands ?? []).entries()) {
 	for (const [oi, own] of (brand.ownership ?? []).entries()) {
