@@ -1745,11 +1745,14 @@
       "name": "General Mills",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Multinational food corporation headquartered in Golden Valley, Minnesota. General Mills is one of the world's largest food companies, making cereals, baking products, and packaged foods. EWG's Cereal Offenders campaign directly named General Mills products: Cheerios, Honey Nut Cheerios, and other oat-based cereals were found in a 2024 EWG study to contain chlormequat — a pesticide linked to reproductive harm in animal studies — at levels above EWG's health benchmark. General Mills' children's cereals Lucky Charms, Trix, and Cocoa Puffs contain artificial colors RED 40, YELLOW 5, YELLOW 6, and BLUE 1, which are associated with hyperactivity in children. EWG's Food Scores database lists multiple General Mills products as scoring 7–10 (worst tier) due to high sugar content, artificial additives, and degree of ultra-processing. Flagged under health_general.",
+      "summary": "Multinational food corporation headquartered in Golden Valley, Minnesota. General Mills is one of the world's largest food companies, making cereals, baking products, and packaged foods. EWG's Cereal Offenders campaign directly named General Mills products: Cheerios, Honey Nut Cheerios, and other oat-based cereals were found in a 2024 EWG study to contain chlormequat — a pesticide linked to reproductive harm in animal studies — at levels above EWG's health benchmark. General Mills' children's cereals Lucky Charms, Trix, and Cocoa Puffs contain artificial colors RED 40, YELLOW 5, YELLOW 6, and BLUE 1, which are associated with hyperactivity in children. EWG's Food Scores database lists multiple General Mills products as scoring 7–10 (worst tier) due to high sugar content, artificial additives, and degree of ultra-processing. Flagged under health_general. Yoplait yogurt products contain artificial sweeteners sucralose and acesulfame potassium, which WHO found in 2023 provided no long-term weight loss benefit and were linked to potential health harms. Progresso canned soups contain excessive sodium (up to 72% of daily recommendations per serving) and BPA contamination from can liners — a 2010 study found Progresso Vegetable Soup had 22 micrograms of BPA per serving (116x the recommended daily limit). Pillsbury refrigerated dough products contain TBHQ (a preservative EWG rates as higher concern, linked to tumor formation in animal studies) and hydrogenated palm oil.",
       "brands": [
         "Cheerios",
         "Lucky Charms",
-        "Cinnamon Toast Crunch"
+        "Cinnamon Toast Crunch",
+        "Yoplait",
+        "Progresso",
+        "Pillsbury"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -1762,7 +1765,7 @@
         "health_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-05-30"
     },
     {
       "id": "pepsico",
@@ -11905,6 +11908,66 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-29"
+    },
+    {
+      "id": "yoplait",
+      "avoid": "Yoplait",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1977"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Yoplait yogurt, owned by General Mills since 1977 (full ownership in North America), contains artificial sweeteners in multiple product lines that raise health concerns. Yoplait Light and Yoplait Protein varieties contain sucralose and acesulfame potassium — artificial sweeteners that WHO found in 2023 provided no long-term weight loss benefit and were linked to a wide range of potential health harms. EWG classifies these as lower-concern additives but recommends people limit consumption of low-calorie sweeteners. The European Food Safety Authority determined in 2026 it could not confirm the safety of sucralose in foods that involve heating. Yoplait Original products contain high sugar content (10–12g per serving), modified corn starch, and natural flavors — earning moderate EWG Food Scores ratings as ultra-processed NOVA Group 4 products. A 2016 Cornucopia Institute report accused Yoplait and other major yogurt brands of misleading parents into purchasing yogurts loaded with sugar and containing questionably safe artificial sweeteners, colors, and emulsifiers. California legislation passed in 2026 will ban foods and beverages containing artificial sweeteners from school meals starting in 2029, which would exclude Yoplait Light and similar products.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-30",
+      "source": "https://www.ewg.org/foodscores/products/070470433295-Yoplait100ProteinGreekYogurtVanilla/"
+    },
+    {
+      "id": "progresso",
+      "avoid": "Progresso",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Progresso canned soups, acquired by General Mills in 2001, score poorly on EWG's Food Scores database due to excessive sodium content and BPA contamination from can liners. EWG identifies BPA contamination from the can liner as a contaminant of moderate concern in Progresso soups — in a 2010 study by Consumers Union, Progresso Vegetable Soup topped the list with 22 micrograms of BPA per serving, 116 times the recommended daily limit. BPA is an endocrine disruptor linked to reproductive harm and cardiovascular disease. Sodium content across the Progresso line is consistently high: Progresso Chicken Noodle Soup contains 72% of the Institute of Medicine's daily sodium recommendations per serving, Progresso Spicy New England Clam Chowder contains 53%, and Progresso Tomato Basil contains 46%. EWG notes that most Americans' sodium intake (averaging 3,400 mg/day vs. the recommended 1,500 mg) comes from processed foods where sodium is added to enhance flavor and extend shelf life. High sodium intake is linked to high blood pressure, heart disease, stroke, and kidney disease. While General Mills announced a transition to BPA-free lined cans in 2016, the company has not achieved full transparency on the safety of replacement liners. Progresso soups are classified as NOVA Group 4 ultra-processed foods due to canning process, preservatives, and modified ingredients.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-30",
+      "source": "https://www.ewg.org/foodscores/products/041196010886-ProgressoChickenNoodleSoup/"
+    },
+    {
+      "id": "pillsbury",
+      "avoid": "Pillsbury",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Pillsbury refrigerated dough products, acquired by General Mills in 2001, are flagged by EWG's Food Scores database as highly ultra-processed foods containing TBHQ and other concerning additives. Pillsbury Crescent Rolls contain TBHQ (tert-butylhydroquinone) in the vegetable shortening as a preservative — EWG rates TBHQ as an additive of higher concern in food. Animal studies showed high doses of TBHQ caused tumor formation, and it inhibits the process by which immune-system T cells recognize and fight disease. The FDA permits TBHQ at concentrations up to 0.02% of oil content. Pillsbury products also contain five ingredients banned at Whole Foods: bleached flour, hydrogenated palm oil, sodium aluminum phosphate (a leavening agent EWG rates as moderate concern), and artificial flavors. The hydrogenated palm oil raises concerns related to cardiovascular risk, and bleached flour is a heavily processed ingredient stripped of nutrients. EWG classifies Pillsbury Crescent Rolls as having high processing concerns and rates them poorly for nutritional quality. Pillsbury products are classified as NOVA Group 4 ultra-processed foods due to industrial formulation with chemically modified substances and cosmetic additives. The brand — which includes crescent rolls, biscuits, pie crusts, and cookie doughs — represents a major segment of General Mills' ultra-processed refrigerated dough category, with annual sales exceeding $500 million.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-05-30",
+      "source": "https://www.ewg.org/foodscores/products/0018000004010-PillsburyOriginalCrescentsRolls/"
     }
   ]
 }
