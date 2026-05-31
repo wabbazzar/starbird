@@ -3,7 +3,7 @@
 **Created:** 2026-05-18
 **Owner:** Wesley
 **Assignee:** ice-agent
-**Status:** Installed (2026-05-19) — all four agents operational; augur branch-name parameterized in wabbazzar-ice 0186ea5 (2026-05-20). Awaiting 7 consecutive green days before archiving.
+**Status:** Complete (2026-05-31) — all four agents green for 12+ days since install. Augur's first autonomous PR opened coerce-data-shapes (2f723b7, branch augur/coerce-data-shapes); runner coerce in production since 23d58fb. Archiving this ticket.
 
 ---
 
