@@ -13,13 +13,16 @@
 	import FirmCard from '$lib/components/FirmCard.svelte';
 	import ChartsPanel from '$lib/components/ChartsPanel.svelte';
 	import AboutPanel from '$lib/components/AboutPanel.svelte';
+	import BlogPanel from '$lib/components/BlogPanel.svelte';
+	import { BlogFileSchema, type BlogPost } from '$lib/blog';
 	import OnboardingModal from '$lib/components/OnboardingModal.svelte';
 	import HamburgerMenu from '$lib/components/HamburgerMenu.svelte';
 
-	type Panel = 'brands' | 'firms' | 'charts' | 'about';
+	type Panel = 'brands' | 'firms' | 'charts' | 'blog' | 'about';
 
 	let firms = $state<Firm[]>([]);
 	let brands = $state<Brand[]>([]);
+	let posts = $state<BlogPost[]>([]);
 	let loading = $state(true);
 	let loadError = $state<string | null>(null);
 
@@ -75,6 +78,9 @@
 			loading = false;
 			if (!$hasOnboarded) showOnboarding = true;
 			deepLinkToHash();
+			// Blog is non-critical: a missing/invalid blog.json must not block
+			// the core brands/firms experience, so load it best-effort.
+			loadBlog();
 		} catch (err) {
 			console.error('failed to load data.json', err);
 			loadError = String(err);
@@ -82,16 +88,24 @@
 		}
 	});
 
+	async function loadBlog() {
+		try {
+			const resp = await fetch(`${base}/blog.json?v=${__BUILD_ID__}`);
+			if (!resp.ok) return;
+			const parsed = BlogFileSchema.safeParse(await resp.json());
+			if (parsed.success) posts = parsed.data.posts as BlogPost[];
+			else console.warn('blog.json failed validation', parsed.error.issues);
+		} catch (err) {
+			console.warn('failed to load blog.json', err);
+		}
+	}
+
 	/**
-	 * If the user landed via /card/<id>/ (which redirects to /#<id>),
-	 * jump to the matching brand or firm card. Resets filters first
-	 * so the target isn't hidden by an active category or match-only
-	 * toggle. Switches panel based on whether the id is a firm or
-	 * a brand.
+	 * Navigate to a brand/firm card by id: switch to the matching panel,
+	 * clear filters so the target isn't hidden, then scroll + highlight.
+	 * Shared by hash deep-links and the blog panel's entity chips.
 	 */
-	async function deepLinkToHash() {
-		const id = decodeURIComponent(location.hash.replace(/^#/, ''));
-		if (!id) return;
+	async function goToEntity(id: string) {
 		const isFirm = firms.some((f) => f.id === id);
 		const isBrand = brands.some((b) => b.id === id);
 		if (!isFirm && !isBrand) return;
@@ -107,6 +121,19 @@
 			el.classList.add('card-deep-linked');
 			setTimeout(() => el.classList.remove('card-deep-linked'), 1800);
 		}
+	}
+
+	/**
+	 * If the user landed via /card/<id>/ (which redirects to /#<id>),
+	 * jump to the matching brand or firm card. Resets filters first
+	 * so the target isn't hidden by an active category or match-only
+	 * toggle. Switches panel based on whether the id is a firm or
+	 * a brand.
+	 */
+	async function deepLinkToHash() {
+		const id = decodeURIComponent(location.hash.replace(/^#/, ''));
+		if (!id) return;
+		await goToEntity(id);
 	}
 
 	/**
@@ -266,6 +293,12 @@
 			{/if}
 		{:else if panel === 'charts'}
 			<ChartsPanel {firms} {brands} />
+		{:else if panel === 'blog'}
+			{#if posts.length === 0}
+				<p class="empty">No dispatches yet. The nightly runner posts here after each run.</p>
+			{:else}
+				<BlogPanel {posts} {firms} {brands} onselect={goToEntity} />
+			{/if}
 		{:else if panel === 'about'}
 			<AboutPanel oneditValues={() => (showEditValues = true)} />
 		{/if}

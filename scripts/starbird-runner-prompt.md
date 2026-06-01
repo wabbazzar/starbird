@@ -27,8 +27,36 @@ All you do is execute the strategy you were given.
 2. Execute that strategy: fetch sources, extract entity candidates, tag them with the current quest's QuestId.
 3. Validate every proposed entity against `src/lib/schema.ts`.
 4. Merge into `static/data.json`, skipping duplicates by ID.
-5. Print a summary block.
-6. Exit.
+5. Write a blog dispatch draft to `tmp/blog-draft.json` (see "Blog dispatch" below).
+6. Print a summary block.
+7. Exit.
+
+## Blog dispatch
+
+After merging entities, write a short reader-facing post about *this run* to
+`tmp/blog-draft.json`. The site renders these as a Blog tab — one post per run.
+
+You write **prose only**. The launcher owns the authoritative facts (which
+entities were added, the date, the value, the source) and assembles the final
+post from the data diff — you do not set those. Write exactly this JSON shape:
+
+```json
+{ "title": "...", "summary": "...", "body": "..." }
+```
+
+- `title`: specific, ≤70 chars, no clickbait. Name the throughline of the run.
+- `summary`: 1–2 sentences — what this run surfaced and why it matters to
+  someone choosing where to spend.
+- `body`: 2–4 short paragraphs (~100–180 words), paragraphs separated by a
+  blank line. Weave the *new* entities together — who they are, what the
+  evidence shows, the connective tissue (shared owner, sector, source).
+  Synthesize the harm; don't just list tags.
+
+GROUND every claim in the evidence you actually gathered this run. Do NOT
+invent numbers, dates, dollar amounts, or lawsuits not in your sources — the
+same evidence bar as the `why`/`summary` fields. If the draft is missing or
+malformed, the launcher falls back to a mechanical post, so always write it,
+but never pad it with unverified specifics.
 
 ## Quest mapping
 

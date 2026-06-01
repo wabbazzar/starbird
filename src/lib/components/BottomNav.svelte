@@ -1,5 +1,5 @@
 <script lang="ts">
-	type Panel = 'brands' | 'firms' | 'charts' | 'about';
+	type Panel = 'brands' | 'firms' | 'charts' | 'blog' | 'about';
 	type Props = {
 		active: Panel;
 		onchange: (p: Panel) => void;
@@ -11,6 +11,7 @@
 		{ id: 'brands', icon: '◈', label: 'Brands' },
 		{ id: 'firms', icon: '⬡', label: 'Firms' },
 		{ id: 'charts', icon: '▦', label: 'Charts' },
+		{ id: 'blog', icon: '✎', label: 'Blog' },
 		{ id: 'about', icon: '◌', label: 'About' }
 	];
 </script>
@@ -39,7 +40,7 @@
 		   fixed positioning. */
 		flex-shrink: 0;
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(5, 1fr);
 		background: var(--bg);
 		border-top: 1px solid var(--border);
 		/* Prevent iOS from interpreting nav touches as scroll gestures */

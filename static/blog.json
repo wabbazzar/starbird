@@ -1,0 +1,655 @@
+{
+  "version": 1,
+  "posts": [
+    {
+      "id": "2026-04-12-peta_cruelty_list",
+      "date": "2026-04-12",
+      "title": "MAC Cosmetics enters the database via the PETA cruelty list",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run added MAC Cosmetics, a prestige cosmetics brand owned by The Estée Lauder Companies, flagged for animal testing tied to its presence in mainland China. For shoppers who factor animal welfare into their beauty purchases, this entry names both the brand and the mechanism behind the harm.",
+      "body": "MAC Cosmetics is one of the world's largest prestige makeup brands, operating hundreds of standalone stores globally under The Estée Lauder Companies umbrella. We added it this run after PETA's database listed MAC under companies that test on animals.\n\nThe mechanism is regulatory, not optional: MAC sells products in mainland China, where government rules require animal testing for many categories of imported cosmetics. MAC's own policy language acknowledges it does not test \"except where required\" — which is to say, it tests. The brand's global reach and aspirational marketing make the gap between image and practice worth naming.\n\nSurfaced via the PETA companies-that-test list (peta.org/living/beauty/companies-test-animals/).",
+      "entityIds": [
+        "mac_cosmetics"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-04-13-mijente_no_tech_for_ice",
+      "date": "2026-04-13",
+      "title": "Three ICE-contractor firms added via Mijente tracker",
+      "strategy": "mijente_no_tech_for_ice",
+      "strategyLabel": "Mijente No Tech for ICE tracker",
+      "value": "workers",
+      "summary": "This run surfaced AT&T, Booz Allen Hamilton, and CACI International as active ICE contractors, documenting the specific contracts that connect everyday consumer services and government consulting work to immigration enforcement infrastructure. Shoppers and enterprise clients of these firms are, in effect, co-funding ICE operations.",
+      "body": "AT&T holds a contract worth up to $164.5 million through 2032 to supply network infrastructure to ICE — the backbone over which enforcement communications run. For the millions of Americans paying monthly wireless or broadband bills to AT&T, that's a concrete connection between a consumer subscription and immigration enforcement operations.\n\nBooz Allen Hamilton's $51.9 million RAVEN contract is a step deeper into the machinery: the firm designed and built the data analytics repository that ICE Homeland Security Investigations agents use to identify and target individuals for arrest. CACI International's $119.9 million contract covers the tactical field communications that ICE agents use during arrests and deportation activities — the radio infrastructure for enforcement in the field.\n\nAll three firms appear as both firm and brand entries, reflecting that they operate directly rather than through subsidiaries. Surfaced via the Mijente No Tech for ICE tracker (notechforice.com), cross-verified against Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "entityIds": [
+        "at_t",
+        "booz_allen_hamilton",
+        "caci_international"
+      ],
+      "source": "https://notechforice.com/"
+    },
+    {
+      "id": "2026-04-13-usaspending_ice_contracts",
+      "date": "2026-04-13",
+      "title": "Amentum, Deloitte, and LaSalle Corrections added as ICE contractors",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "A second ICE-contractor run, this time from USASpending.gov records, added the operator of the nation's largest ICE detention facility, a Big Four consulting firm running real-time enforcement intelligence, and a family-owned private detention company with a documented wrongful-death settlement. Together they show how detention and data infrastructure are outsourced to private firms.",
+      "body": "Amentum Services received a no-bid $453 million ICE contract effective March 2026 to operate Camp East Montana at Fort Bliss in El Paso — the nation's largest ICE detention facility, with capacity for roughly 5,000 detainees. Amentum replaced the prior operator after reporting found 49 detention standard violations and in-custody deaths under that predecessor.\n\nDeloitte's federal division holds at least two active ICE contracts. The PERC contract (~$46.2 million) provides 24/7 real-time enforcement intelligence to 17 field offices across 42 states via the Pacific Enforcement Response Center, which processes targeting data for immigration arrests nationwide. A second ~$50 million task order covers Homeland Security Investigations support.\n\nLaSalle Corrections, a family-owned operator out of Ruston, Louisiana, runs 18 detention facilities across Louisiana, Texas, and Georgia with a total capacity exceeding 13,000 detainees. In 2025 LaSalle received a contract of up to $125 million for a new ICE facility; a $7 million wrongful-death settlement and multiple ACLU lawsuits document conditions inside its facilities. Surfaced via USASpending.gov contract records.",
+      "entityIds": [
+        "amentum_services",
+        "deloitte",
+        "lasalle_corrections"
+      ],
+      "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-04-23-cspi_additive_tracker",
+      "date": "2026-04-23",
+      "title": "Smithfield Foods and Eckrich added via CSPI Chemical Cuisine ratings",
+      "strategy": "cspi_additive_tracker",
+      "strategyLabel": "CSPI Chemical Cuisine",
+      "value": "health",
+      "summary": "This run added Smithfield Foods — the world's largest pork processor, owned by China's WH Group — and its Eckrich brand, flagged because virtually all Eckrich products contain sodium nitrite, which CSPI rates as 'Avoid' due to its potential to form carcinogenic nitrosamines. The entries connect a globally recognizable deli-meat brand to a specific additive safety concern.",
+      "body": "Smithfield Foods is the world's largest pork processor, headquartered in Smithfield, Virginia and owned by WH Group (formerly Shuanghui International) since a $7.1 billion acquisition in 2013. Smithfield's processed meat portfolio spans Eckrich, Armour Star, Farmland, Gwaltney, and others — products found in virtually every U.S. supermarket.\n\nEckrich produces smoked sausages, bologna, hot dogs, corn dogs, and breakfast sausages, with sodium nitrite listed as a preservative and color fixative across the product line. CSPI's Chemical Cuisine database rates sodium nitrite as 'Avoid' — its highest-concern category — because nitrite reacts with amines in meat to form nitrosamines, compounds that are classified as probable human carcinogens. Smithfield also carries an environment tag, reflecting the documented environmental footprint of large-scale industrial hog production.\n\nSurfaced via the Center for Science in the Public Interest's Chemical Cuisine additive safety ratings (cspinet.org/chemical-cuisine).",
+      "entityIds": [
+        "smithfield_foods",
+        "eckrich"
+      ],
+      "source": "https://www.cspinet.org/chemical-cuisine"
+    },
+    {
+      "id": "2026-04-23-ultraprocessed_nova_tracker",
+      "date": "2026-04-23",
+      "title": "Nissin Foods and Cup Noodles added under NOVA ultra-processed tracker",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run added Nissin Foods Holdings — the inventor of instant noodles — and its flagship Cup Noodles brand, both flagged under the NOVA Group 4 ultra-processed food classification. For shoppers tracking the health profile of packaged foods, the entry connects a globally dominant brand to its formulation and sodium load.",
+      "body": "Nissin Foods Holdings, a Japanese company headquartered in Osaka, invented instant noodles in 1948 and Cup Noodles in 1971. It is the world's largest instant noodle producer, with an estimated 30–40% share of global instant noodle sales. Every major Nissin instant noodle product carries a NOVA Group 4 classification — the most processed tier under the Monteiro et al. (2019) system, reserved for products manufactured from extracted or modified food substances plus additives not found in home kitchens.\n\nCup Noodles, the flagship brand, contains 1,190 mg of sodium per serving — a level documented in the entity's harm evidence. The NOVA system's relevance here isn't a niche academic concern: a growing body of epidemiological literature links habitual NOVA 4 consumption to cardiovascular disease and all-cause mortality.\n\nSurfaced via the NOVA ultra-processed product tracker, grounded in the Monteiro et al. classification framework (NIH PMC6322572).",
+      "entityIds": [
+        "nissin_foods",
+        "cup_noodles"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-04-25-pesp_bankruptcy_tracker",
+      "date": "2026-04-25",
+      "title": "PE-driven bankruptcies: Joann, Prospect Medical, and Renovo added",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "This run added two private equity firms — Audax and Leonard Green — and three brands they drove into bankruptcy, collectively accounting for 19,000 retail layoffs, 1,500 workers left without final paychecks, and a 16-hospital safety-net system collapsing under extracted dividends. The entries document the playbook: buy, load with debt, extract, exit, collapse.",
+      "body": "Leonard Green & Partners, a Los Angeles PE firm with $85 billion in AUM, acquired Joann Fabrics in 2010 for $1.6 billion and loaded it with $1.1 billion in debt. Joann filed for bankruptcy twice in under a year — March 2024 and January 2025 — before liquidating all 800 stores and laying off 19,000 employees with no severance. Leonard Green also owned Prospect Medical Holdings from 2010 to 2021, during which time it extracted $658 million in dividends (documented by a Senate Budget Committee report), leaving the 16-hospital safety-net system with $2.3 billion in debt. Prospect filed Chapter 11 in January 2025 with more than 1,000 layoffs and over 100,000 creditors including unpaid employees and pensioners.\n\nAudax Private Equity, a Boston firm with $19.5 billion in AUM, built the Renovo home remodeling platform in 2021 by rolling up seven regional contractors and saddling the combined entity with $150 million in debt from BlackRock, Apollo, and Oaktree. Audax exited in 2024. Renovo filed Chapter 7 in October 2025, listing more than $100 million in liabilities against $50,000 in assets. Roughly 1,500 workers were terminated without final paychecks; thousands of homeowners were left with unfinished projects and lost deposits.\n\nSurfaced via the Private Equity Stakeholder Project's bankruptcy tracker (pestakeholder.org/private-equity-bankruptcy/).",
+      "entityIds": [
+        "audax_private_equity",
+        "leonard_green",
+        "joann",
+        "prospect_medical",
+        "renovo"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-04-26-sec_lbo_filings",
+      "date": "2026-04-26",
+      "title": "BlackRock, Saudi PIF, and three debt-loaded acquisitions enter the database",
+      "strategy": "sec_lbo_filings",
+      "strategyLabel": "SEC LBO filings (10-K / Form D)",
+      "value": "extraction",
+      "summary": "This run surfaced two major acquirers — BlackRock and Saudi Arabia's Public Investment Fund — and the targets of their recent leveraged buyouts: Aligned Data Centers, Dayforce, and Electronic Arts. The entries document how debt-financed mega-deals shift companies away from public accountability and onto creditors' balance sheets.",
+      "body": "Saudi Arabia's Public Investment Fund, controlled by Crown Prince Mohammed bin Salman, acquired 93.4% of Electronic Arts in a $55 billion LBO in 2025 — the largest leveraged buyout in recorded history — with $20 billion in JPMorgan-led debt financing. The U.S. Office of the Director of National Intelligence has assessed MBS as having approved the murder of journalist Jamal Khashoggi; no criminal accountability followed. EA, a publicly traded games publisher, now operates under sovereign wealth fund control with a heavy debt load.\n\nBlackRock led a consortium including Microsoft, Nvidia, and sovereign wealth funds to acquire Aligned Data Centers for $40 billion in 2025, with the deal structured to reach $100 billion including debt financing. Thoma Bravo's $12.3 billion LBO of Dayforce — the HR and payroll software company — loaded it with $6 billion in debt (a $5.5 billion term loan plus a $500 million revolver), with loans rated B-/B3, indicating high default risk.\n\nAll three brand entries carry the `extraction_debt_loading` tag alongside the general extraction flag, reflecting the specific mechanism: acquisition capital structures that prioritize financial engineering over operational sustainability. Surfaced via SEC EDGAR LBO filings (sec.gov/edgar).",
+      "entityIds": [
+        "blackrock",
+        "saudi_pif",
+        "aligned_data_centers",
+        "dayforce",
+        "electronic_arts"
+      ],
+      "source": "https://www.sec.gov/edgar/search-and-access"
+    },
+    {
+      "id": "2026-04-27-nyt_dealbook_archive",
+      "date": "2026-04-27",
+      "title": "Retail extraction: Forever 21, Saks, and LifeScan enter the database",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "This run added three firms whose business models center on acquiring and extracting value from distressed or leveraged companies — Authentic Brands Group, NRDC, and Platinum Equity — and three brands that collapsed under the weight of their ownership: Forever 21, Saks Fifth Avenue, and LifeScan. The thread connecting them is the same: debt-loading and real-estate extraction imposed costs workers and creditors ultimately bore.",
+      "body": "Authentic Brands Group bought Forever 21 out of its 2020 bankruptcy for $81 million, then split the company: ABG kept the brand IP and licensed it to an operating entity that bore $1.5 billion in debt. That entity filed a second bankruptcy in March 2025, liquidating 355 stores and laying off 9,200 employees. ABG's model — licensing IP while operators absorb all operational risk — is the throughline of the run.\n\nNRDC, the real-estate-focused PE firm led by Richard Baker, built a portfolio of luxury and mid-market retailers — Lord & Taylor, Hudson's Bay, Saks, Galeria Kaufhof, Neiman Marcus — each of which eventually filed bankruptcy. Baker described his strategy as targeting retailers with valuable real estate and acknowledged that retail itself was \"too tough,\" while real-estate extraction \"is a place where we can make a lot of money.\" Saks Fifth Avenue filed Chapter 11 in January 2026 with $3 billion in debt after Baker's 2024 Neiman Marcus merger was financed by $2.2 billion in junk bonds.\n\nPlatinum Equity acquired LifeScan — the maker of blood glucose monitors for diabetic patients — from Johnson & Johnson in 2018 for $2.1 billion and loaded it with $1.9 billion in debt. LifeScan filed Chapter 11 in July 2025 to eliminate 75% of its $1.7 billion debt burden, handing control to creditors. Surfaced via NYT DealBook coverage of PE acquisitions and dividend recaps (nytimes.com/section/business/dealbook).",
+      "entityIds": [
+        "authentic_brands_group",
+        "nrdc",
+        "platinum_equity",
+        "forever_21",
+        "lifescan",
+        "saks_fifth_avenue"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-04-29-epstein_flight_logs",
+      "date": "2026-04-29",
+      "title": "Epstein Network: Executives at Hyatt, Microsoft, U.S. News",
+      "strategy": "epstein_flight_logs",
+      "strategyLabel": "Epstein flight logs & court filings",
+      "value": "elite_impunity",
+      "summary": "This run added three companies whose senior figures maintained documented relationships with convicted sex offender Jeffrey Epstein, drawing on unsealed DOJ court filings released in January 2026. When you book a Hyatt room or buy a Microsoft product, you are spending with companies whose leadership chose to maintain those ties.",
+      "body": "The unsealed Epstein documents gave us our first systematic look at which corporate leaders kept the relationship alive after Epstein's 2008 conviction. This run surfaced three of them.\n\nHyatt Hotels Corporation's Executive Chairman Thomas Pritzker exchanged more than 20 emails with Epstein between 2010 and 2019 — over a decade of contact post-conviction — and was named in Virginia Giuffre's deposition as one of the men she was trafficked to. Hyatt Hotels as a brand is now flagged accordingly.\n\nAt Microsoft, co-founder Bill Gates met with Epstein multiple times between 2011 and 2014. The DOJ documents show hundreds of email references, scheduled meals, and meetings. Gates continued the relationship even after Melinda French Gates raised concerns in 2013. The Gates Foundation has since acknowledged a review of some employee connections.\n\nU.S. News & World Report, owned by billionaire Mortimer Zuckerman, is the third addition. Zuckerman regularly dined with Epstein at his Manhattan home from at least 2008 through 2015, shared sensitive estate documents with him, and — per the unsealed filings — Epstein used the relationship with Zuckerman to leverage access to others in his network.\n\nSurfaced via the unsealed Epstein court documents (DocumentCloud / DOJ filings, January 2026).",
+      "entityIds": [
+        "hyatt_hotels_corp",
+        "microsoft",
+        "us_news_world_report",
+        "hyatt_hotels"
+      ],
+      "source": "https://www.documentcloud.org/documents/24380582-epstein-documents"
+    },
+    {
+      "id": "2026-05-01-icij_panama_pandora_papers",
+      "date": "2026-05-01",
+      "title": "Offshore Banking: Citi, Nordea, and UBS in the Panama Papers",
+      "strategy": "icij_panama_pandora_papers",
+      "strategyLabel": "ICIJ Panama + Pandora Papers",
+      "value": "elite_impunity",
+      "summary": "This run added three major global banks whose offshore operations are documented in the ICIJ Panama Papers leak, alongside regulatory fines and enforcement actions confirming the underlying conduct. If you bank with any of them, the institution has a documented history of helping wealthy clients hide money from tax authorities.",
+      "body": "The ICIJ Panama Papers database links thousands of shell-company structures to specific financial intermediaries. This run focused on three of the most-connected banks in that database.\n\nUBS had roughly 1,100 offshore entities registered through Mossack Fonseca, making it one of the most prominent names in the leaked documents. That history has a dollar amount: in 2009, UBS paid $780 million to the U.S. DOJ — the largest offshore tax-evasion settlement of its era — for helping wealthy Americans hide assets in secret Swiss accounts. A French court later upheld a separate €1.8 billion fine.\n\nNordea Bank's Luxembourg private banking arm created approximately 400 offshore companies for clients between 2004 and 2014, with 72 named customers appearing in the Panama Papers. The New York State Department of Financial Services launched a correspondent-banking investigation; Nordea settled for $35 million in 2022.\n\nCitigroup Private Bank appears as an offshore intermediary in the ICIJ database. Citi's record extends beyond the Papers: its Mexican subsidiary Banamex admitted enabling a $400 million fraud through fictitious loans in 2014, and in 2023 the Federal Reserve and OCC jointly fined Citi $400 million for longstanding risk-management failures.\n\nSurfaced via the ICIJ Panama and Pandora Papers offshore leaks database (offshoreleaks.icij.org).",
+      "entityIds": [
+        "citigroup",
+        "nordea_bank",
+        "ubs_group",
+        "citi",
+        "nordea",
+        "ubs"
+      ],
+      "source": "https://offshoreleaks.icij.org/"
+    },
+    {
+      "id": "2026-05-02-adjacent_source_discovery_elite_impunity",
+      "date": "2026-05-02",
+      "title": "Opioid Consulting and Sanctions Evasion: McKinsey, Purdue, Standard Chartered",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run added three entities at the intersection of corporate power and regulatory immunity: a consulting firm that helped manufacture the opioid crisis, the pharma company behind OxyContin, and a bank that evaded sanctions across two continents — none of whose executives faced criminal consequences. Understanding the advisory and financial networks behind mass harm is central to what Starbird tracks.",
+      "body": "ProPublica's investigation into McKinsey & Company documented a specific and remarkable proposal: advise Purdue Pharma to target the highest-volume opioid prescribers and pay CVS a rebate of $14,810 for every customer who overdosed or became addicted. McKinsey's own projections anticipated thousands of overdoses among CVS customers under the plan. McKinsey eventually paid nearly $900 million to settle with state attorneys general but admitted no wrongdoing. We added McKinsey — and its separate ICE contract that proposed cuts to detainee food and medical budgets — as both a firm and brand entry.\n\nPurdue Pharma, the Sackler-family pharmaceutical company behind OxyContin, launched the drug in 1996 using clinical claims the company knew to be false. The assertion that fewer than 1% of patients would become addicted was unsupported and later retracted. Purdue pleaded guilty in 2007 and paid $634 million — with no criminal charges against the family members who directed the campaign. OxyContin is now in the database as a brand.\n\nStandard Chartered processed over $250 billion in transactions for entities in Iran, Sudan, Libya, and Myanmar in violation of U.S. sanctions, paid $667 million in 2012, agreed to a deferred prosecution, then continued prohibited conduct and paid a further $1.1 billion in 2019. No individual executives faced criminal charges across either action.\n\nSurfaced via adjacent-source discovery drawing on ProPublica, Senate investigative reporting, and U.S. and UK regulatory enforcement records.",
+      "entityIds": [
+        "mckinsey_company",
+        "purdue_pharma",
+        "standard_chartered",
+        "mckinsey",
+        "oxycontin"
+      ]
+    },
+    {
+      "id": "2026-05-03-ultraprocessed_nova_tracker",
+      "date": "2026-05-03",
+      "title": "Ultra-Processed Breakfasts and Lunches: Cinnamon Toast Crunch, Gatorade, Oscar Mayer",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run added three widely marketed food and beverage brands that are classified as NOVA Group 4 ultra-processed products — the most industrially processed food category — based on the Monteiro et al. classification system published in Public Health Nutrition. These are products positioned as everyday staples and sports nutrition but formulated with industrial additives absent from home kitchens.",
+      "body": "The NOVA classification system distinguishes foods not by nutrients but by the degree of industrial processing. Group 4 products are formulated from extracted or modified food substances combined with additives rarely used by home cooks. This run added three prominent Group 4 brands across breakfast cereal, sports drinks, and packaged meats.\n\nCinnamon Toast Crunch, made by General Mills, contains maltodextrin, trisodium phosphate (an industrial anti-caking agent), soy lecithin, and manufactured natural flavors. A standard serving delivers added sugars in a format that differs substantially from minimally processed whole grain.\n\nGatorade's sports-performance positioning obscures an ingredient list that includes sucrose acetate isobutyrate, glycerol ester of rosin, gum arabic, and artificial Yellow 5 dye — substances with no equivalent in home cooking. These additives drive its NOVA 4 classification regardless of its marketing as hydration for athletes.\n\nOscar Mayer processed meats — bologna, hot dogs, and lunch meat — contain mechanically separated chicken, sodium nitrite, sodium phosphate, corn syrup, and multiple industrial additives. The WHO's International Agency for Research on Cancer has classified processed meats as Group 1 carcinogens based on colorectal cancer risk.\n\nSurfaced via the NOVA ultra-processed food tracker (Monteiro et al., 2019, PMC6322572).",
+      "entityIds": [
+        "cinnamon_toast_crunch",
+        "gatorade",
+        "oscar_mayer"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-05-04-adjacent_source_discovery_elite_impunity",
+      "date": "2026-05-04",
+      "title": "Dark Money and Saudi Influence: Amway, Breitbart, LIV Golf",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run added five entities connected to political influence operations funded by fortunes that have faced little regulatory accountability: the DeVos family's Amway empire, the Mercer-funded Breitbart media platform, and Saudi Arabia's PIF-backed LIV Golf league. The throughline is private wealth shaping public life without consequence.",
+      "body": "Alticor Inc. is the private holding company of the DeVos and Van Andel families, controlling Amway and generating over $8 billion in annual revenue. The FTC's 1979 consent order left Amway's MLM structure fully intact; five decades of pyramid-scheme complaints from participants who lost money followed, while the founding families donated more than $200 million to conservative political causes. Betsy DeVos leveraged a Cabinet appointment as Education Secretary to weaken borrower-defense regulations — policies that had protected students defrauded by for-profit colleges.\n\nBreitbart News received over $10 million from Renaissance Technologies co-CEO Robert Mercer, becoming the flagship of a network of influence operations Mercer funded. That same network bankrolled Cambridge Analytica, which the UK Information Commissioner's Office found had improperly harvested 87 million Facebook profiles for 2016 election targeting. Renaissance Technologies itself has faced a U.S. Senate investigation for using 'basket options' to recharacterize short-term trading gains as long-term capital gains — a tax structure regulators found enabled improper treatment of approximately $34 billion over 14 years.\n\nLIV Golf, backed by Saudi Arabia's Public Investment Fund with over $2 billion in committed capital, is controlled by Crown Prince Mohammed bin Salman — whom the U.S. Office of the Director of National Intelligence assessed as having approved the murder of Washington Post journalist Jamal Khashoggi. No criminal charges have followed.\n\nSurfaced via adjacent-source discovery drawing on OpenSecrets, Senate investigative reporting, UK ICO findings, and the ODNI Khashoggi assessment.",
+      "entityIds": [
+        "alticor_inc",
+        "renaissance_technologies",
+        "amway",
+        "breitbart_news",
+        "liv_golf"
+      ]
+    },
+    {
+      "id": "2026-05-05-peta_cruelty_list",
+      "date": "2026-05-05",
+      "title": "Animal Testing via China Market Entry: Benefit, Gillette, MAC",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run added three cosmetics and personal-care brands that PETA explicitly lists as testing on animals, driven by each brand's decision to sell in mainland China — where government regulators require animal testing for many imported cosmetics. The market access choice is the harm.",
+      "body": "China's pre-market regulatory requirements for imported cosmetics have long functioned as a forcing mechanism: brands that want to sell there must accept animal testing on those products. PETA's 'Does Test on Animals' database documents which brands have made that trade-off. This run added three.\n\nBenefit Cosmetics, acquired by LVMH in 1999, markets itself with playful, consumer-friendly branding. PETA's listing notes the gap between that image and its China-market decision: 'Benefit may use innocent imagery in its marketing, but there's nothing cute about the suffering of animals forced to ingest or be exposed to its products.'\n\nGillette is part of Procter & Gamble's portfolio. P&G conducts or commissions animal testing to satisfy regulatory requirements in markets including China, covering Gillette's shaving, deodorant, and body care lines. Despite P&G's stated goal of working toward eliminating animal testing, the brand remains listed by PETA while the company continues selling in mainland China.\n\nMAC Cosmetics, owned by Estée Lauder since the late 1990s, confirms in its own policy language that it does not test 'except where required by law' — which is the China carve-out that places it on PETA's list. Hundreds of standalone MAC stores globally are supported by this market access decision.\n\nSurfaced via PETA's companies-that-test-on-animals database (peta.org).",
+      "entityIds": [
+        "benefit_cosmetics",
+        "gillette",
+        "mac_cosmetics"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-06-ultraprocessed_nova_tracker",
+      "date": "2026-05-06",
+      "title": "Industrial Meat and Store-Brand Snacks: JBS, Little Debbie, TreeHouse",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run added three food manufacturers and three of their brands, all producing NOVA Group 4 ultra-processed products at massive scale — from chicken nuggets and snack cakes to private-label crackers that stock the shelves of nearly every major American retailer. The scale of distribution makes these among the most-consumed ultra-processed products in the country.",
+      "body": "JBS USA is the wholly owned U.S. subsidiary of the world's largest meat processor by revenue. Its majority-owned subsidiary Pilgrim's Pride produces Ultimate Chicken Nuggets classified as NOVA Group 4: the nuggets are marinated, mechanically formed, tempura-battered, breaded, and par-fried before freezing — a multi-stage industrial process typical of ultra-processed meat products, with ingredients including chicken breast with rib meat, sodium phosphates, and multiple modified starch binders.\n\nMcKee Foods, a family-owned Tennessee bakery, is the maker of Little Debbie — one of the most widely consumed ultra-processed snack brands in the United States. Swiss Rolls, Oatmeal Creme Pies, Cosmic Brownies, and Nutty Bars all contain enriched bleached flour, high-fructose corn syrup, palm oil, artificial flavors, and BHT preservative. BHT is flagged by the Environmental Working Group as a moderate concern additive.\n\nTreeHouse Foods, taken private by European PE firm Investindustrial in early 2026, manufactures store-brand ultra-processed crackers and packaged foods for Walmart, Kroger, Costco, Amazon, Target, and Aldi. The private-label positioning means consumers often don't associate these products with a single manufacturer — but TreeHouse is the industrial source behind a significant share of American store-brand shelf space.\n\nSurfaced via the NOVA ultra-processed food tracker (Monteiro et al., 2019, PMC6322572).",
+      "entityIds": [
+        "jbs_usa",
+        "mckee_foods",
+        "treehouse_foods",
+        "little_debbie",
+        "pilgrims_pride_nuggets",
+        "treehouse_crackers"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-05-07-adjacent_source_discovery_elite_impunity",
+      "date": "2026-05-07",
+      "title": "a16z Network: Insider Trading Claims, CFPB Rollback, Home Equity Fees",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run added three firms and three brands connected to Andreessen Horowitz's portfolio and influence network, where a pattern of regulatory rollback and alleged insider conduct has benefited the firm's financial interests. The CFPB's decision to drop investigations into a16z-backed fintech companies under Trump-era leadership is the connective thread.",
+      "body": "A Delaware court allowed a shareholder lawsuit to proceed against Coinbase directors including CEO Brian Armstrong and board member Marc Andreessen, alleging they used confidential information to sell more than $2.9 billion of stock during the company's April 2021 direct listing — avoiding over $1 billion in losses. Armstrong sold $291.8 million; Andreessen Horowitz sold $118.7 million worth of shares. No charges have been filed.\n\nEarnIn, a cash advance app backed by Andreessen Horowitz with $164 million in funding, was under CFPB investigation for allegedly deceiving roughly 200,000 customers about 'voluntary tips' — the company claimed tips would help other users, but the money went to EarnIn itself. After Trump appointees took control of the CFPB in February 2025, the investigation was halted without resolution. Point Digital Finance, co-founded by Alex Rampell (now a general partner at Andreessen Horowitz) and backed by $246 million in a16z funding, faced a parallel CFPB probe into its home equity contracts — also halted after the agency's leadership change.\n\nThe governance concern running through all three: the same venture firm that funds these companies also funds political influence operations that shaped the regulatory environment in which the investigations were dropped. Across Coinbase, EarnIn, and Point, the pattern is consistent — alleged conduct that benefited a16z-linked insiders, followed by enforcement that did not reach accountability.\n\nSurfaced via adjacent-source discovery drawing on Delaware court filings, CFPB enforcement records, and investigative reporting on the Andreessen Horowitz political network.",
+      "entityIds": [
+        "coinbase_global",
+        "earnin_inc",
+        "point_digital_finance",
+        "coinbase",
+        "earnin",
+        "point_home_equity"
+      ]
+    },
+    {
+      "id": "2026-05-08-pesp_bankruptcy_tracker",
+      "date": "2026-05-08",
+      "title": "PE Debt Killed a Party Store and Two Hospital Systems",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "This run surfaced four entities tied to leveraged-buyout collapses in retail and healthcare — including Party City and two hospital operators whose patients lost care when private equity's debt math failed. For anyone choosing where to spend or bank, these cases illustrate the pattern PESP has been tracking for years.",
+      "body": "Thomas H. Lee Partners acquired Party City for $2.69 billion in 2012 and loaded it with $1.5 billion in debt, leaving the party-supply chain paying $102 million a year in interest with nothing left for stores or e-commerce. Party City filed for bankruptcy in January 2023, briefly emerged, then filed again for liquidation in December 2024, closing all 700 locations.\n\nThe healthcare cases show the same mechanics applied to a more consequential sector. KKR's 2018 acquisition of Envision Healthcare — a physician-staffing company serving emergency departments — was financed with $7 billion in debt, representing more than 70 percent of the deal price. When the debt service became unsustainable, Envision filed in May 2023 with $5.6 billion outstanding, eliminating thousands of physician and medical staff jobs. Cerberus Capital did something similar with Steward Health Care: it bought six Massachusetts hospitals, sold their real estate in a sale-leaseback that extracted $800 million, and left Steward with $6.6 billion in rent obligations. Steward filed for bankruptcy in May 2024 with $9 billion in liabilities, closing six hospitals and laying off over 2,650 workers.\n\nAll four entries were surfaced through the PESP Private Equity Bankruptcy Tracker (pestakeholder.org/private-equity-bankruptcy/).",
+      "entityIds": [
+        "thomas_h_lee_partners",
+        "envision_healthcare",
+        "party_city",
+        "steward_health_care"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-05-09-nyt_dealbook_archive",
+      "date": "2026-05-09",
+      "title": "Restaurant PE Churn: Denny's, Dave's Hot Chicken, and the Franchise Debt Cycle",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "This run added three restaurant brands and two PE firms to the database, tracing how private equity cycles through food chains — buying, debt-loading, and flipping — with consequences for franchisees and workers. NYT DealBook coverage documented each deal.",
+      "body": "TriArtisan Capital Advisors has made a practice of acquiring legacy dining brands and loading them with debt. The firm took TGI Fridays private in 2014 via a $900 million LBO with $670 million in debt — the chain filed for bankruptcy in 2024. Hooters followed in 2025. In January 2026, TriArtisan acquired Denny's for $620 million and added $335 million in debt to the 72-year-old diner chain. The same playbook now threatens Denny's 1,500-plus locations and its franchisees.\n\nRoark Capital, which already owns Subway, Dunkin', Buffalo Wild Wings, Jimmy John's, Sonic, and others, acquired a 75 percent stake in Dave's Hot Chicken in June 2025 for roughly $1 billion. Roark's stated plan is aggressive franchise expansion using whole-business securitization debt — where franchise fees back bond issuances — with a CEO-described \"three-year sprint to IPO\" that signals a quick flip after the brand absorbs the debt load.\n\nAlso added this run: Nothing Bundt Cakes, which KKR acquired from Roark Capital in March 2026 for over $2 billion, continuing the PE churn cycle where brands pass between firms, each round adding leverage. Sources are NYT DealBook deal coverage.",
+      "entityIds": [
+        "roark_capital",
+        "triartisan_capital",
+        "daves_hot_chicken",
+        "dennys",
+        "nothing_bundt_cakes"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-05-10-peta_cruelty_list",
+      "date": "2026-05-10",
+      "title": "Chanel, DHC, and Air Wick: Luxury to Household Products on PETA's Testing List",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run moved from premium cosmetics to everyday home fragrance, adding five entities whose animal-testing exposure traces to the same root cause: selling products in mainland China, where regulators require testing for many imported cosmetics. The sweep crossed a luxury fashion house, a Japanese skincare firm, and a mass-market air freshener brand.",
+      "body": "Chanel — privately owned by the Wertheimer family with $18.7 billion in revenue — sells makeup and fragrances in mainland China where animal testing is required by law for certain imported cosmetics. PETA and Cruelty-Free Kitty both flag it: the brand cannot be considered cruelty-free given that market presence. We added Chanel as both firm and brand.\n\nDHC Corporation, a Japanese health and beauty company originally founded as a translation service in 1972, similarly requires animal testing on certain products sold in China to comply with local regulations. Neither PETA nor Leaping Bunny certifies DHC as cruelty-free as of 2026.\n\nAir Wick, the Reckitt Benckiser air freshener and home fragrance line, rounds out this run on the mass-market end — listed by PETA on its Companies That Do Test on Animals database, with testing conducted directly or through third parties or suppliers. The China market mandate is the common thread across all three parent structures. Data sourced from PETA's companies-that-test list (peta.org/living/beauty/companies-test-animals/).",
+      "entityIds": [
+        "chanel",
+        "dhc",
+        "air_wick"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-11-peta_cruelty_list",
+      "date": "2026-05-11",
+      "title": "Arm & Hammer, Clorox, and Glad: Household Staples With Animal-Testing Carve-Outs",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "Two of America's most recognizable household-product companies — Church & Dwight and The Clorox Company — both carry policies permitting animal testing where required by law, and both appear on PETA's 2026 database. This run maps the parent firms to three brands shoppers encounter in every aisle.",
+      "body": "Church & Dwight, with roughly $5.9 billion in annual revenue, manufactures Arm & Hammer alongside Trojan, OxiClean, and other personal-care lines. The company's stated policy avoids animal testing \"unless required by law or regulation\" — language that explicitly allows testing in jurisdictions that mandate it. PETA lists Church & Dwight on its companies-that-test database accordingly. Arm & Hammer, the brand, holds no third-party cruelty-free certification.\n\nThe Clorox Company, with approximately $7 billion in annual revenue, owns an even wider portfolio: Clorox bleach, Pine-Sol, Formula 409, Glad, Hidden Valley, Brita (Americas), Fresh Step, and others. Clorox's policy mirrors Church & Dwight's — testing is permitted when legally mandated. Both the Clorox brand and Glad (its plastic bags and food-storage line, acquired 1999) carry that exposure.\n\nWhat unites these entries is the policy structure: neither company refuses animal testing categorically; both accept it as a cost of market access in jurisdictions where it is required. Data drawn from PETA's companies-that-test list (peta.org/living/beauty/companies-test-animals/).",
+      "entityIds": [
+        "church_dwight",
+        "clorox",
+        "arm_hammer",
+        "clorox_brand",
+        "glad"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-12-peta_cruelty_list",
+      "date": "2026-05-12",
+      "title": "L'Oreal's Biotherm, Estee Lauder's Bobbi Brown, and French Skincare Brand Caudalie",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run added four entities — two owned by conglomerate parents and one independent French skincare brand — all flagged by PETA for animal-testing compliance tied to Chinese market sales. The pattern is consistent: brands opt into markets that require testing, accepting it as the price of access.",
+      "body": "Biotherm, owned by L'Oreal and sold in stores in mainland China, appears on PETA's animal testing list for 2026. L'Oreal acknowledges testing where required — meaning Chinese authorities conduct tests on Biotherm products as a condition of market entry, with the brand's knowing consent. Bobbi Brown, owned by The Estee Lauder Companies, operates under the same framework: Estee Lauder tests where required by law, including for mainland China retail sales, and multiple sources confirm Bobbi Brown is not cruelty-free certified as a result.\n\nCaudalie is the outlier here in ownership terms — a French skincare brand founded in 1995, known for grape-derived formulations. But the mechanism is identical: Caudalie sells dark spot-correcting products in China, which Chinese authorities classify as \"products with a specific use\" subject to mandatory animal testing for market access. PETA lists Caudalie USA, Inc. on its 2026 database. We added Caudalie as both firm and brand.\n\nThe connective tissue across all four entries is China's cosmetics regulatory regime, not company character — brands across the luxury and independent spectrum face the same tradeoff. Data from PETA's companies-that-test list (peta.org/living/beauty/companies-test-animals/).",
+      "entityIds": [
+        "caudalie",
+        "biotherm",
+        "bobbi_brown"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-13-epstein_flight_logs",
+      "date": "2026-05-13",
+      "title": "Google Founders and Elon Musk Named in Unsealed Epstein Documents",
+      "strategy": "epstein_flight_logs",
+      "strategyLabel": "Epstein flight logs & court filings",
+      "value": "elite_impunity",
+      "summary": "Unsealed DOJ documents released in January 2026 put two of the world's most powerful tech leaders — Google co-founders Sergey Brin and Larry Page, and Tesla/SpaceX CEO Elon Musk — in documented contact with Jeffrey Epstein years after his 2008 conviction. This run added Alphabet, Tesla, and Yucaipa Companies to the database.",
+      "body": "Alphabet, the parent company of Google, was added because court documents from January 2024 allege that Sergey Brin and his then-fiancee Anne Wojcicki visited Epstein's private island, and that Brin emailed Ghislaine Maxwell in 2003 about dinners at Epstein's Manhattan home. The U.S. Virgin Islands also subpoenaed Larry Page in 2023 in connection with JPMorgan's relationship with Epstein.\n\nTesla's entry traces to Elon Musk. DOJ documents show Musk exchanged at least 16 emails with Epstein between 2012 and 2014 — including discussions about visiting Epstein's island via helicopter, and a February 2013 SpaceX facility tour that Epstein attended with three assistants. Despite Musk's public denials of any relationship, the documents reveal direct, repeated contact well after Epstein's 2008 sex-crimes conviction.\n\nYucaipa Companies, the private equity firm controlled by billionaire Ronald Burkle, was added because unsealed court documents name Burkle in Epstein's black book and private flight logs, and Virginia Giuffre's deposition places him among named individuals. Yucaipa controls Soho House, which was also added as a brand. All entries sourced from unsealed Epstein court filings via DocumentCloud (documentcloud.org/documents/24380582-epstein-documents).",
+      "entityIds": [
+        "alphabet_inc",
+        "tesla_inc",
+        "yucaipa_companies",
+        "google",
+        "soho_house",
+        "tesla"
+      ],
+      "source": "https://www.documentcloud.org/documents/24380582-epstein-documents"
+    },
+    {
+      "id": "2026-05-14-peta_cruelty_list",
+      "date": "2026-05-14",
+      "title": "Contact Lenses to Feminine Care: J&J, P&G, and a PE-Owned Skincare Brand",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run surfaced four brands where animal testing connects three different parent structures — Johnson & Johnson, Procter & Gamble, and a private equity firm — spanning contact lenses, skincare, and feminine hygiene products. Each carries PETA's 2026 listing with no cruelty-free certification.",
+      "body": "Acuvue contact lenses, owned by Johnson & Johnson Vision Care, appear on PETA's database because all contact lens brands sold in the U.S. test on animals — primarily rabbits — a practice PETA notes the FDA recommends but does not legally require. Tengram Capital Partners, a middle-market PE firm with roughly $557 million in assets under management, owns Algenist skincare; the brand tests where required by law, including for China sales, and holds no Leaping Bunny or PETA certification as of 2026. We added Tengram as a firm and Algenist as a brand.\n\nAlways, Procter & Gamble's feminine hygiene brand, was also added this run. P&G tests on animals directly, through suppliers, or via third parties, and sells in regions where animal testing is legally mandated — the same disclosure structure that covers Gillette and other P&G lines already in the database.\n\nWhat distinguishes this run from adjacent PETA sweeps is the category breadth: medical devices (contact lenses), prestige skincare (Algenist), and mass-market personal care (Always) all flow back to the same compliance gap — parent companies that choose not to exclude animal-testing markets categorically. Data from PETA's companies-that-test list (peta.org/living/beauty/companies-test-animals/).",
+      "entityIds": [
+        "tengram_capital",
+        "acuvue",
+        "algenist",
+        "always"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-15-sec_lbo_filings",
+      "date": "2026-05-15",
+      "title": "3G Capital Takes Skechers Private With $6.5B in Debt",
+      "strategy": "sec_lbo_filings",
+      "strategyLabel": "SEC LBO filings (10-K / Form D)",
+      "value": "extraction",
+      "summary": "SEC filings from 2025 show a wave of leveraged buyouts pulling consumer brands out of public markets — including the world's third-largest footwear company — and into private ownership structures where debt obligations and cost-cutting patterns are well documented. This run added five entities from those filings.",
+      "body": "3G Capital, the Brazilian-American PE firm behind Kraft Heinz and AB InBev, acquired Skechers in a $9.4 billion LBO in 2025, loading the footwear company with over $6.5 billion in debt from JPMorgan-led financing. 3G's track record at prior acquisitions includes zero-based budgeting and mass layoffs. The high debt load now on Skechers — the third-largest footwear brand globally behind Nike and Adidas — sets the same pressure-cooker conditions the firm has applied elsewhere.\n\nRaceTrac Petroleum, a Georgia-based convenience store and gas station operator, acquired Potbelly for $566 million in October 2025, taking the sandwich chain private after a decade as a public company. The acquisition removes public market transparency from a 445-plus location chain and subjects it to private ownership priorities. While RaceTrac is family-owned rather than a traditional PE firm, the take-private mechanics are the same.\n\nFerrero's $3.1 billion acquisition of WK Kellogg Co in September 2025 brought iconic cereal brands — Frosted Flakes, Froot Loops, Rice Krispies, Special K — under private ownership, delisting the company from NYSE and removing the public accountability that comes with SEC reporting. All entries sourced from SEC EDGAR filings (sec.gov/edgar/search-and-access).",
+      "entityIds": [
+        "3g_capital",
+        "racetrac",
+        "potbelly",
+        "skechers",
+        "wk_kellogg"
+      ],
+      "source": "https://www.sec.gov/edgar/search-and-access"
+    },
+    {
+      "id": "2026-05-16-peta_cruelty_list",
+      "date": "2026-05-16",
+      "title": "J&J's Everyday Brands Hide an Animal-Testing Policy",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "Three household staples — Arm & Hammer, Band-Aid, and Clean & Clear — were added to Starbird after PETA confirmed their parent companies permit animal testing when required by law. All three route through corporate policies that prioritize market access over cruelty-free commitments.",
+      "body": "The May 16 PETA run surfaced three brands that feel far removed from a cosmetics lab but share the same problem: their parent companies explicitly reserve the right to test on animals when regulators demand it.\n\nArm & Hammer, owned by Church & Dwight, carries a policy that allows testing \"when required by law or regulation\" — which in practice means any market that mandates it, including mainland China. Band-Aid and Clean & Clear are both owned by Johnson & Johnson, which PETA documents as testing directly, through suppliers, or via third parties. Band-Aid's harm record also notes that J&J's talc products — manufactured for decades at the same company — were linked to asbestos contamination, adding a broader pattern of product-safety gaps to its profile.\n\nThe connective tissue here is market access: all three brands' parent companies have chosen to sell in jurisdictions that require animal testing rather than exit those markets or restrict product lines. The brands themselves carry no cruelty-free certification from PETA or Leaping Bunny.\n\nEntities were sourced from PETA's companies-that-test database at peta.org.",
+      "entityIds": [
+        "arm_and_hammer",
+        "band_aid",
+        "clean_and_clear"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-17-peta_cruelty_list",
+      "date": "2026-05-17",
+      "title": "LVMH and L'Oréal Luxury Scents That Come at a Cost to Animals",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run added three fragrance brands — Acqua di Parma, Bulgari, and Cacharel — all of which test on animals to satisfy Chinese regulatory requirements. Two flow through LVMH; one through L'Oréal, demonstrating how the same market-access calculus plays out across the luxury tier.",
+      "body": "The May 17 run concentrated on fragrance and luxury beauty, adding three brands whose cruelty-free reputations don't hold up under scrutiny.\n\nAcqua di Parma, the century-old Italian fragrance house acquired by LVMH in 2001, and Bulgari, LVMH's Italian jewelry and fragrance label picked up in 2011, both appear on PETA's animal-testing list because their parent company sells beauty products in mainland China, where imported cosmetics face mandatory regulatory testing. Cacharel takes a parallel path: L'Oréal has manufactured and distributed Cacharel fragrances since 1975 under its Luxe Division, and L'Oréal acknowledges testing where required by law in markets such as China.\n\nIn each case, the brand's historic identity — artisanal, heritage-driven, often marketed as natural or refined — sits in tension with a quiet corporate policy that permits animal testing to preserve distribution in the world's largest cosmetics market. None of the three holds a cruelty-free certification.\n\nEntities were sourced from PETA's companies-that-test database at peta.org.",
+      "entityIds": [
+        "acqua_di_parma",
+        "bulgari",
+        "cacharel"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-18-adjacent_source_discovery_health",
+      "date": "2026-05-18",
+      "title": "Contamination in the Food Chain: Three Small Brands, Real Harm",
+      "strategy": "adjacent_source_discovery_health",
+      "strategyLabel": "Adjacent-source discovery (health)",
+      "value": "health",
+      "summary": "A health-focused source-discovery run surfaced three companies — ByHeart, Fresh & Ready Foods, and Spring & Mulberry — tied to documented food-safety outbreaks ranging from infant botulism to listeria deaths. The cases reveal how contamination risks span brand tiers from PE-backed operations to independent startups.",
+      "body": "The May 18 run used adjacent health-data sources, including FDA warning letters and outbreak trackers, to surface three food companies connected to real contamination events rather than theoretical regulatory risk.\n\nFresh & Ready Foods, a prepared-meal producer owned by Akoya Capital's portfolio company Food Evolution LLC, sits at the most serious end: a multi-year listeria outbreak between December 2023 and September 2024 resulted in ten hospitalizations and one death. An FDA warning letter dated September 2025 documented that environmental samples had tested positive for Listeria monocytogenes at the company's San Fernando, California facility in both 2017 and 2025 — an eight-year gap in which contamination recurred.\n\nByHeart, an independent infant formula manufacturer that became the first new FDA-registered U.S. formula maker in over fifteen years, faced an investigation into a multistate infant botulism outbreak in November 2025. Recalled formula remained on shelves at Target, Walmart, Kroger, and Albertsons weeks after the recall began, prompting FDA warning letters to all four retailers.\n\nSpring & Mulberry, a small date-sweetened chocolate company, expanded a voluntary recall from one product flavor in January 2026 to all twelve product lines by May 2026 after identifying a contaminated date ingredient lot as the probable source of potential salmonella contamination.\n\nData was drawn from FDA warning letters, outbreak databases, and investigative reporting under the adjacent-source discovery (health) strategy.",
+      "entityIds": [
+        "akoya_capital",
+        "byheart",
+        "spring_mulberry",
+        "fresh_ready_foods"
+      ]
+    },
+    {
+      "id": "2026-05-19-littlesis_power_network",
+      "date": "2026-05-19",
+      "title": "Extended Stay America: Blackstone's Political Reach",
+      "strategy": "littlesis_power_network",
+      "strategyLabel": "LittleSis oligarch-network database",
+      "value": "elite_impunity",
+      "summary": "The May 19 LittleSis run added a single brand — Extended Stay America — tied to Blackstone's documented pattern of elite political influence. For any traveler booking an extended stay, the connection points to a firm whose CEO wields outsized power in Washington.",
+      "body": "Sometimes one entity tells a complete story. The May 19 run added Extended Stay America — an 800-location extended-stay hotel chain owned by Blackstone and Starwood Capital Group — based on evidence drawn from LittleSis's mapped oligarch-network database.\n\nThe harm here is not about the hotels themselves. It is about who controls them. Blackstone CEO Stephen Schwarzman, with a net worth documented at over $37 billion, contributed $40 million to Republican causes in 2024 according to LittleSis records, including a reported $5 million to Trump's super PAC in late 2025. His role as a political mediator between business and the Trump administration illustrates the kind of elite influence that Starbird's elite_impunity value is designed to surface: a concentration of wealth that translates directly into policy access unavailable to ordinary consumers.\n\nExtended Stay America carries both extraction and elite_impunity tags — reflecting Blackstone's broader pattern of extractive ownership alongside Schwarzman's documented political influence.\n\nThis entity was sourced from LittleSis's oligarch-network database at littlesis.org.",
+      "entityIds": [
+        "extended_stay_america"
+      ],
+      "source": "https://littlesis.org/"
+    },
+    {
+      "id": "2026-05-20-peta_cruelty_list",
+      "date": "2026-05-20",
+      "title": "P&G and J&J Brands in the Medicine Cabinet That Test on Animals",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "BENGAY, Bounty, and Braun — household staples across pain relief, paper goods, and grooming — were added after PETA confirmed their parent companies permit animal testing where legally required. The run shows how testing policies from two major conglomerates flow across product categories most consumers don't associate with animal-harm concerns.",
+      "body": "The May 20 PETA run moved away from beauty aisles into medicine cabinets and kitchen drawers, adding three brands whose animal-harm connection runs through their conglomerate parents rather than obvious cosmetics categories.\n\nBENGAY, a topical pain-relief brand originally from Pfizer Consumer Healthcare and acquired by Johnson & Johnson in 2006, appears on PETA's animal-testing list because J&J conducts testing directly, through suppliers, or through third parties and sells in markets where testing is legally required. Bounty paper towels and Braun personal-care appliances both share the same root: Procter & Gamble, which acknowledges conducting animal testing to satisfy regulatory requirements in certain markets, including China.\n\nBraun's path to P&G came through the 2005 Gillette acquisition — part of the same deal that brought Gillette's grooming lines under P&G's umbrella and its animal-testing policy. All three brands lack cruelty-free certification from any third-party organization.\n\nEntities were sourced from PETA's companies-that-test database at peta.org.",
+      "entityIds": [
+        "bengay",
+        "bounty",
+        "braun"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-21-nyt_dealbook_archive",
+      "date": "2026-05-21",
+      "title": "Big Lots, Eddie Bauer, At Home: PE Rescues That Became Liquidations",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "A NYT DealBook run added two PE firms and three brands whose stories follow the same arc — acquisition pitched as a turnaround, debt loaded onto the operating entity, then closure and mass layoffs. More than 30,000 retail jobs are documented across these three collapses.",
+      "body": "The May 21 run built out a grim pattern in retail: private equity acquisitions that arrive as rescues and end as liquidations, with workers and franchisees absorbing costs that financial sponsors avoid.\n\nNexus Capital Management acquired Big Lots as stalking-horse bidder in its September 2024 bankruptcy for $760 million, promising to continue operations. Within three months, Nexus announced full liquidation and closure of all remaining stores, laying off a documented 27,700 employees. Court filings cited a heavily leveraged balance sheet that included a sale-leaseback deal that had already stripped away real estate value.\n\nAt Home, the big-box home decor chain, filed Chapter 11 in June 2025 after Hellman & Friedman acquired it in 2021 for $2.8 billion, loading it with $2 billion in debt. When tariffs on Chinese goods reached 145% — affecting 90 percent of At Home's inventory — there was no financial cushion left to absorb the shock. Thirty stores closed.\n\nEddie Bauer presents the sharpest version of the structural problem: Authentic Brands Group holds the brand's IP while SPARC/Catalyst Brands ran the physical stores. When the operating entity filed its third bankruptcy in February 2026 and received zero qualified bids at auction, ABG retained brand rights for licensing while 174 U.S. stores closed. Workers and franchisees bore the downside; the IP owner did not.\n\nEntities were drawn from NYT DealBook coverage of PE acquisitions and liquidations.",
+      "entityIds": [
+        "nexus_capital_management",
+        "sparc_catalyst",
+        "at_home",
+        "big_lots",
+        "eddie_bauer"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-05-22-adjacent_source_discovery_extraction",
+      "date": "2026-05-22",
+      "title": "Toys R Us, Massage Envy, ScionHealth: Three Extraction Templates",
+      "strategy": "adjacent_source_discovery_extraction",
+      "strategyLabel": "Adjacent-source discovery (extraction)",
+      "value": "extraction",
+      "summary": "A watchdog-driven extraction run surfaced four entities — including the canonical Toys R Us LBO — that illustrate how debt-loading, sale-leasebacks, and franchisee squeeze work as distinct but related tools of private equity extraction.",
+      "body": "The May 22 run used financial journalism and watchdog NGO sources to add entities that illustrate three variants of the extraction playbook, each operating on a different victim: retail customers, franchise operators, and hospital patients.\n\nToys R Us is the clearest debt-loading case in the database: KKR, Bain Capital, and Vornado acquired the toy chain in 2005 for $6.6 billion, $5 billion of it debt. The interest burden alone reached $400 million annually, starving the retailer of capital for modernization. By 2017, the company filed bankruptcy and 33,000 workers lost their jobs. The PE consortium extracted $464 million in fees and interest across that period. Vornado Realty Trust, the real-estate arm of the ownership group, was added as a firm for its documented role in that deal.\n\nMassage Envy demonstrates franchisee extraction: after Roark Capital's acquisition in 2012, franchisee EBITDA collapsed from 20 percent to 8 to 9 percent as corporate fees rose. Location count shrank from 1,200 to 1,100 as operators closed unprofitable units. Franchisees publicly called for new management in 2021.\n\nScionHealth, an Apollo-owned hospital system, adds a healthcare dimension: a 2024 sale-leaseback of five long-term acute care hospitals to a REIT generated cash for the operator while locking those facilities into rising rent obligations. Moody's cited Apollo's ownership as a risk factor for patient-unfriendly financial decisions.\n\nEntities were identified through watchdog NGO reports, financial journalism, and academic research under the adjacent-source discovery (extraction) strategy.",
+      "entityIds": [
+        "vornado_realty_trust",
+        "massage_envy",
+        "scionhealth",
+        "toys_r_us"
+      ]
+    },
+    {
+      "id": "2026-05-23-peta_cruelty_list",
+      "date": "2026-05-23",
+      "title": "CeraVe, Cetaphil, NARS: Clinical Skincare That Tests on Animals",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "Four skincare brands — CeraVe, Cetaphil, NARS Cosmetics, and parent firm Galderma — were added after PETA confirmed they test on animals to access the Chinese market. Several of these brands actively market themselves on dermatologist credentials, a framing that sits uneasily alongside their testing policies.",
+      "body": "The May 23 run focused on the dermatology-adjacent skincare tier, adding brands that many consumers trust precisely because they carry clinical or dermatologist-recommended positioning — positioning that doesn't extend to cruelty-free commitments.\n\nGalderma, a Swiss dermatology company now majority-owned by EQT consortium with L'Oréal holding a 20 percent stake, owns Cetaphil and tests on animals where legally required. Cetaphil — the decades-old \"sensitive skin\" staple — is documented by multiple independent cruelty-free organizations, including PETA, Ethical Elephant, and Cruelty-Free Kitty, as not meeting cruelty-free standards due to sales in China where mandated testing applies.\n\nCeraVe, acquired by L'Oréal in 2017 and heavily marketed as dermatologist-developed, tests on animals where required by law and sells in mainland China. PETA has not certified it; L'Oréal acknowledges the practice.\n\nNARS Cosmetics, owned by Shiseido, was cruelty-free from its founding in 1994 until 2017, when it reversed course specifically to enter the Chinese market. PETA lists NARS under companies that test on animals, noting the absence of written assurance from Shiseido that no animal testing occurs.\n\nEntities were sourced from PETA's companies-that-test database at peta.org.",
+      "entityIds": [
+        "galderma",
+        "cerave",
+        "cetaphil",
+        "nars"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-24-epa_tri_toxics_release",
+      "date": "2026-05-24",
+      "title": "PFAS Makers 3M and DuPont Join the Database",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "This run surfaced two of the most consequential polluters in U.S. history — 3M and DuPont — via EPA Toxics Release Inventory data mapping facilities to parent brands. Both manufactured PFAS 'forever chemicals' for decades while aware of health risks, leaving contamination that affects drinking water nationwide.",
+      "body": "3M and DuPont are rarely thought of as consumer brands, but their products sit in kitchens, offices, and medicine cabinets everywhere. This run connects those products to something harder to ignore: decades of deliberate PFAS contamination.\n\n3M manufactured per- and polyfluoroalkyl substances for industrial and consumer use and, according to the evidence, knew about health risks while continuing to discharge. The company agreed to pay $10.3 billion in 2024 to settle PFAS drinking water contamination claims. DuPont produced PFOA — the PFAS compound used in Teflon — and discharged it from multiple New Jersey facilities. New Jersey has since filed a landmark lawsuit over that contamination, and UN human rights experts flagged the company's conduct.\n\nWe added both firms and their consumer-facing brands: 3M the brand (Post-it, Scotch, N95 products) and Corian countertops, which are manufactured by DuPont. The Corian entry makes the chain visible: a kitchen renovation product tied to a company that knowingly poisoned water supplies.\n\nSurfaced via the EPA Toxics Release Inventory.",
+      "entityIds": [
+        "3m",
+        "dupont",
+        "corian"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-05-25-ultraprocessed_nova_tracker",
+      "date": "2026-05-25",
+      "title": "Coca-Cola's Soda Portfolio and Nestlé's Lean Cuisine Added",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three more ultra-processed brands joined the database: Fanta, Sprite, and Lean Cuisine — all NOVA Group 4 products that combine industrial additives with heavy sugar loads or misleading health framing. The run illustrates how both sugary drinks and 'diet' frozen meals fall in the same classification.",
+      "body": "The NOVA Group 4 classification system, developed by Monteiro et al. and published in Public Health Nutrition, identifies products made from extracted or modified food substances plus additives that don't appear in home kitchens. This run added three brands that fit that profile.\n\nFanta and Sprite are both Coca-Cola products. Fanta's U.S. formulation contains petroleum-derived artificial dyes — Yellow 6 and Red 40 — alongside high-fructose corn syrup and 44 grams of sugar per 12-oz serving. Sprite contains 38 grams of sugar per 12-oz serving, exceeding the American Heart Association's daily recommended maximum for adults in a single can. Regular consumption of sugar-sweetened beverages is associated with elevated risk of type 2 diabetes and cardiovascular disease.\n\nLean Cuisine, owned by Nestlé and marketed as a healthy option, is also classified as NOVA Group 4. Despite the branding, these frozen meals contain modified food starch, maltodextrin, disodium inosinate, and sodium benzoate preservatives — an ingredient profile that relies on chemical flavor enhancement rather than whole food.\n\nSurfaced via the Ultra-processed (NOVA 4) product tracker, cross-referenced with the Monteiro et al. NOVA classification system.",
+      "entityIds": [
+        "fanta",
+        "lean_cuisine",
+        "sprite"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-05-28-peta_cruelty_list",
+      "date": "2026-05-28",
+      "title": "Three L'Oréal and Estée Lauder Brands Added for China Testing",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run added Kiehl's, Lancôme, and Origins — all owned by L'Oréal or Estée Lauder — which sell in mainland China where regulatory authorities require animal testing on imported cosmetics. The pattern: parent companies choose China market access over cruelty-free certification.",
+      "body": "Three more prestige skincare brands entered the database this run, all tied to the same structural decision: their parent companies sell in mainland China, where imported cosmetics are subject to mandatory animal testing by regulatory authorities.\n\nKiehl's and Lancôme are both L'Oréal brands. L'Oréal acknowledges it tests where required by law, and its presence in Chinese retail channels means these brands cannot obtain certification from Leaping Bunny or PETA's cruelty-free program. The same logic applies to Origins, an Estée Lauder brand that markets plant-based ingredients while operating in markets that require animal testing for market access.\n\nNone of these brands conduct testing directly — the testing is performed by Chinese regulatory authorities. But each brand's leadership has made a deliberate choice to accept that condition in exchange for access to the world's largest cosmetics market. PETA's database documents that choice.\n\nFor shoppers who prioritize cruelty-free purchasing, these entries make the ownership chain visible: a brand's ingredient story is separate from its testing policy, and the two don't always point in the same direction. Surfaced via PETA's companies-that-test list.",
+      "entityIds": [
+        "kiehls",
+        "lancome",
+        "origins"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-05-29-epa_tri_toxics_release",
+      "date": "2026-05-29",
+      "title": "IFF: The Hidden Polluter Behind Everyday Scents",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "International Flavors & Fragrances — the company whose synthetic compounds appear in thousands of consumer products — ranked among the top U.S. polluters in EPA's 2023 Toxics Release Inventory. This run added IFF as both firm and brand, making visible a supplier most consumers never encounter by name.",
+      "body": "Most people have never heard of International Flavors & Fragrances, but they encounter IFF's work constantly: the company produces synthetic fragrance compounds and flavor ingredients used in perfumes, laundry detergents, processed foods, and personal care products across the market.\n\nIFF ranked eighth among all U.S. parent companies by total waste managed in EPA's 2023 Toxics Release Inventory, with 15 facilities reporting. Fragrance manufacturing involves volatile organic compounds and other industrial chemicals that create both air and water pollution at scale. The company generates approximately $10.9 billion in annual revenue supplying the ingredients that give thousands of brands their scent and taste.\n\nThe significance of this entry is its position in the supply chain. IFF is upstream of most of the brands shoppers see on shelves — it's a B2B supplier whose environmental footprint is distributed across an enormous range of consumer products. Adding IFF to the database makes that connection legible.\n\nSurfaced via the EPA Toxics Release Inventory.",
+      "entityIds": [
+        "iff",
+        "iff_ingredients"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-05-30-ultraprocessed_nova_tracker",
+      "date": "2026-05-30",
+      "title": "Three General Mills Brands Flagged for Additives and Contamination",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Pillsbury, Progresso, and Yoplait — all General Mills brands — were added after EWG Food Scores flagged concerning additives: TBHQ in Pillsbury doughs, BPA from can liners in Progresso soups, and artificial sweeteners in Yoplait light products. All are classified NOVA Group 4.",
+      "body": "This run focused on a single parent company — General Mills — and surfaced three brands carrying different but overlapping harm profiles under the NOVA Group 4 classification.\n\nPillsbury refrigerated dough products contain TBHQ (tert-butylhydroquinone) as a preservative in the vegetable shortening. EWG rates TBHQ as an additive of higher concern in food. Progresso canned soups, meanwhile, carry a separate risk: BPA contamination from can liners. A Consumers Union study found one Progresso variety among the highest BPA-per-serving products tested — a contaminant EWG flags as a concern at moderate levels given its associations with endocrine disruption.\n\nYoplait's harm profile is different again. While yogurt isn't the first food that comes to mind as ultra-processed, Yoplait Light and Protein varieties contain sucralose and acesulfame potassium — artificial sweeteners that WHO's 2023 analysis found provided no long-term weight loss benefit and were associated with a range of potential health harms.\n\nAll three brands share a parent in General Mills and a classification in NOVA Group 4. The range of concerns — preservatives, packaging contamination, synthetic sweeteners — shows how 'ultra-processed' covers more than obvious junk food. Surfaced via the Ultra-processed (NOVA 4) product tracker and EWG Food Scores.",
+      "entityIds": [
+        "pillsbury",
+        "progresso",
+        "yoplait"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-05-31-mercy_for_animals_investigations",
+      "date": "2026-05-31",
+      "title": "Poultry and Dairy Processors Behind KFC, Chipotle Supply Chains",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals undercover investigations documented conditions at facilities operated by George's, Pilgrim's Pride, and Leprino Foods — processors that supply major restaurant and retail chains. This run added six entities across three firms, tracing harm from the farm to the branded menu item.",
+      "body": "Three processors entered the database this run, each documented by Mercy For Animals investigators at the facility level. The investigations connect conditions on the ground to the brands that appear at the point of sale.\n\nGeorge's, a fourth-generation family-owned poultry processor with operations in Arkansas, Missouri, and Virginia, was the subject of a February 2024 MFA investigation at one of its Virginia slaughterhouses. Investigators documented chickens being hastily hung upside down with some not properly rendered unconscious before slaughter. George's supplies Chipotle and Sam's Club, among other major retail accounts.\n\nPilgrim's Pride, majority-owned by Brazilian meat giant JBS S.A., was the subject of an April 2024 investigation at contract farms. Investigators found chickens kept in overcrowded, filthy conditions with workers kicking and throwing birds into cages. Pilgrim's Pride supplies KFC and Popeyes.\n\nLeprino Foods, the largest mozzarella producer in the U.S., was investigated in June 2025 at a supplier dairy farm. Investigators documented calves forcibly separated from their mothers immediately after birth, untreated infections, injuries, and unsanitary conditions. Leprino also supplies Saputo.\n\nAll six entities — three firms and their corresponding brand entries — were added this run. Surfaced via Mercy For Animals investigations.",
+      "entityIds": [
+        "georges",
+        "jbs",
+        "leprino_foods",
+        "pilgrims_pride"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-06-01-nyt_dealbook_archive",
+      "date": "2026-06-01",
+      "title": "Thoma Bravo Loads Two Software Firms With Debt, Merges Them",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "This run added three entities from Thoma Bravo's software acquisition playbook: Calabrio, Verint Systems, and Citrin Cooperman — the latter a PE-to-PE transfer at 15x EBITDA. Together they illustrate debt-loading and fee extraction applied to professional services and enterprise software.",
+      "body": "Thoma Bravo is one of the most active software-focused private equity firms, and this run captures a specific maneuver: buy two enterprise software companies, merge them, and finance the whole thing with leveraged debt.\n\nCalabrio, a workforce management and contact-center analytics platform, was acquired by Thoma Bravo from KKR in April 2021. In November 2025, Thoma Bravo merged Calabrio with newly-acquired Verint Systems — a separate customer experience software company it had taken private in an August 2025 $2 billion all-cash LBO. The combined deal was financed by a $2.7 billion leveraged loan, loading both companies with significant debt obligations under the merged entity.\n\nThe third entry is Citrin Cooperman, an accounting and advisory firm. Blackstone acquired a majority stake for $2 billion in January 2025 from New Mountain Capital, which had held the firm since 2021 — paying roughly $500 million and selling for $2 billion, a 4x return in three years at 15x EBITDA. New Mountain grew the firm through aggressive roll-up acquisitions of smaller accounting practices; Blackstone continues that model at a larger scale.\n\nWhat connects these three entries is the extraction structure: professional service firms and software companies that serve clients directly are being loaded with leverage and passed between PE sponsors, each transfer extracting fees and returns while pushing debt onto the underlying business. Surfaced via the NYT DealBook archive.",
+      "entityIds": [
+        "calabrio",
+        "citrin_cooperman",
+        "verint_systems"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
+    }
+  ]
+}

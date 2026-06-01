@@ -241,7 +241,18 @@ if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
   REFRESHED_BRANDS_PRE=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('refreshed_brands', 0))" 2>/dev/null || echo 0)
   REFRESHED_TOTAL=$((REFRESHED_FIRMS_PRE + REFRESHED_BRANDS_PRE))
 
-  git add static/data.json static/cards/
+  # ── Blog: append one dispatch for this run ────────────────────────────
+  # Authoritative facts (which entities, date, value) come from GROUND_TRUTH;
+  # Claude only contributes prose via tmp/blog-draft.json (best-effort, with a
+  # mechanical fallback inside the script). A failure here must not block the
+  # data commit, so it's tolerant.
+  echo "[starbird-runner] appending blog dispatch…" >> "$LOG_FILE"
+  echo "$GROUND_TRUTH" | python3 "$STARBIRD_DIR/scripts/append-blog-post.py" \
+    --ground-truth - >> "$LOG_FILE" 2>&1 || \
+    echo "[starbird-runner] WARN: blog post append failed" >> "$LOG_FILE"
+  rm -f "$STARBIRD_DIR/tmp/blog-draft.json"
+
+  git add static/data.json static/cards/ static/blog.json
   git commit -m "Runner: $NEW_ENTITIES entity(ies) for $PICKED_STRATEGY
 
 strategy: $PICKED_STRATEGY
