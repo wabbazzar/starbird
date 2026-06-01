@@ -93,6 +93,10 @@
 		</div>
 	</header>
 
+	{#if brand.blurb}
+		<p class="blurb">{brand.blurb}</p>
+	{/if}
+
 	{#if classification !== 'neutral'}
 		<p class="verdict" data-kind={classification}>
 			<span class="verdict-glyph" aria-hidden="true"
@@ -271,6 +275,13 @@
 		line-height: 1.45;
 		padding-top: 8px;
 		border-top: 1px solid var(--border);
+	}
+	.blurb {
+		font-size: 0.8rem;
+		color: var(--ink-muted);
+		line-height: 1.45;
+		margin: 6px 0 0;
+		font-style: italic;
 	}
 	.card-footer {
 		display: flex;

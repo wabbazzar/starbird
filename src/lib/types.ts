@@ -19,6 +19,8 @@ export interface Firm {
 	aum: string;
 	aumVal: number;
 	summary: string;
+	/** Neutral one-line description of what the firm does (≤20 words). */
+	blurb?: string;
 	brands: string[];
 	layoffs: string;
 	notableBk: string;
@@ -37,6 +39,8 @@ export interface Brand {
 	cat: CategoryId;
 	alts: string[];
 	why: string;
+	/** Neutral one-line description of what the brand does (≤20 words). */
+	blurb?: string;
 	harms: QuestId[];
 	aligns: QuestId[];
 	addedAt?: string;

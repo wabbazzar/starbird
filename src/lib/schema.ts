@@ -29,6 +29,10 @@ export const FirmSchema = z.object({
 	aum: z.string().min(1),
 	aumVal: z.number().nonnegative(),
 	summary: z.string().min(1),
+	// Neutral one-line description of what the company does (≤20 words).
+	// Distinct from `summary`, which is the harm narrative. Optional during
+	// backfill; flip to required once all firms carry one.
+	blurb: z.string().min(1).max(220).optional(),
 	brands: z.array(z.string()),
 	layoffs: z.string(),
 	notableBk: z.string(),
@@ -47,6 +51,10 @@ export const BrandSchema = z.object({
 	cat: CategoryIdSchema,
 	alts: z.array(z.string()),
 	why: z.string().min(1),
+	// Neutral one-line description of what the brand does (≤20 words).
+	// Distinct from `why`, which is the harm narrative. Optional during
+	// backfill; flip to required once all brands carry one.
+	blurb: z.string().min(1).max(220).optional(),
 	harms: z.array(QuestIdSchema),
 	aligns: z.array(QuestIdSchema),
 	addedAt: z.string().date().optional()

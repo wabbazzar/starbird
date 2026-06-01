@@ -57,6 +57,10 @@
 		<span class="aum">{firm.aum} AUM</span>
 	</header>
 
+	{#if firm.blurb}
+		<p class="blurb">{firm.blurb}</p>
+	{/if}
+
 	{#if classification !== 'neutral'}
 		<p class="verdict" data-kind={classification}>
 			<span class="verdict-glyph" aria-hidden="true"
@@ -148,6 +152,13 @@
 		color: var(--ink-muted);
 		line-height: 1.5;
 		margin-bottom: 10px;
+	}
+	.blurb {
+		font-size: 0.8rem;
+		color: var(--ink-muted);
+		line-height: 1.45;
+		margin: 6px 0 10px;
+		font-style: italic;
 	}
 	.verdict {
 		display: inline-flex;

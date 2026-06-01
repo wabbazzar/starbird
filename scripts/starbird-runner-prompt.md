@@ -191,6 +191,9 @@ id, name,
 aum: "N/A" if not a financial entity, else dollar display string,
 aumVal: 0 if not a financial entity, else number in $B,
 summary: one-paragraph description ending with the *current* quest context
+blurb: neutral one-line description of what the firm does, ≤20 words, present
+       tense, NO harm language (that lives in `summary`). E.g. for a PE fund:
+       "Private-equity firm; buys companies via leveraged buyouts." Required.
 brands: []  (leave empty; the brand record links to it via ownership)
 layoffs, notableBk: "N/A" if not applicable
 harmScore (0–100, 50=neutral),
@@ -217,6 +220,9 @@ alts: []  (leave empty for now — alternatives for B2B/gov contractors
            are hard to generate and easy to get wrong; the next quest
            iteration can add them)
 why: one-paragraph explanation of the harm. Required.
+blurb: neutral one-line description of what the brand makes/sells/does, ≤20
+       words, present tense, NO harm language (that lives in `why`). E.g.
+       "Remote-desktop and app-virtualization software for enterprise IT." Required.
 harms: ["workers_ice_cooperation"]
 aligns: [],
 addedAt: "YYYY-MM-DD"  // today's date in ISO format (from TIMESTAMP env var)
