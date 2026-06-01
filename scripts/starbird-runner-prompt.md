@@ -319,7 +319,7 @@ If you want to leave a note for yourself about what you tried, you may write `tm
 }
 ```
 
-The launcher will read `tokens_spent` and `cost_usd` from this file as best-effort hints for the scoring formula (since those aren't observable from the data diff). Everything else in this file is ignored. You cannot use this file to inflate your own score — the launcher only pulls token/cost numbers out of it.
+The launcher now reads the **authoritative** cost/usage from the Claude CLI's own JSON result (`total_cost_usd` + `usage`), so you do **not** need to write this file for scoring to work. It is consulted only as a fallback if the CLI result is somehow unavailable. If you do write `cost_usd`, use a valid JSON number (e.g. `0.23`, never `.23`). Everything else in this file is ignored, and you cannot use it to inflate your own score.
 
 ## Rules
 

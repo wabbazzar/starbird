@@ -110,6 +110,13 @@ fi
 echo "[starbird-runner] target=$TARGET_PAIRS budget=\$$BUDGET" >> "$LOG_FILE"
 
 # ── Step 5: Invoke Claude (with retry for transient API errors) ─────────
+# We capture the CLI's JSON result so cost/usage come straight from the
+# harness (authoritative) instead of relying on Claude self-reporting them.
+CLAUDE_OUT="$STARBIRD_DIR/tmp/starbird-runner-claude-output.json"
+CLAUDE_METRICS="$STARBIRD_DIR/tmp/starbird-runner-claude-report.json"
+# Clear stale reports so a run that fails to refresh them can't silently
+# inherit a previous run's (or a malformed) cost figure.
+rm -f "$CLAUDE_OUT" "$CLAUDE_METRICS"
 MAX_RETRIES=2
 RETRY=0
 EXIT=1
@@ -123,11 +130,14 @@ while [ "$RETRY" -le "$MAX_RETRIES" ]; do
     --model "$MODEL" \
     --dangerously-skip-permissions \
     --max-budget-usd "$BUDGET" \
-    --output-format text \
+    --output-format json \
     "$PROMPT" \
-    >> "$LOG_FILE" 2>&1
+    > "$CLAUDE_OUT" 2>> "$LOG_FILE"
   EXIT=$?
   set -e
+  # Mirror the human-readable result into the log for debugging.
+  python3 -c "import json; print(json.load(open('$CLAUDE_OUT')).get('result',''))" \
+    >> "$LOG_FILE" 2>/dev/null || cat "$CLAUDE_OUT" >> "$LOG_FILE" 2>/dev/null
   echo "[starbird-runner] Claude exited with code $EXIT (attempt $((RETRY+1)))" >> "$LOG_FILE"
   if [ "$EXIT" -eq 0 ]; then
     break
@@ -139,14 +149,41 @@ done
 # Claude's self-reported numbers (if any) are ignored here. The only
 # numbers that feed back into strategy scoring are the ones that can be
 # verified against the file on disk.
-TOKENS_HINT=0
-COST_HINT=0
-# If Claude wrote a metrics file with its own estimates, pull the token/cost
-# figures (which we can't verify deterministically) but nothing else.
-CLAUDE_METRICS="$STARBIRD_DIR/tmp/starbird-runner-claude-report.json"
-if [ -f "$CLAUDE_METRICS" ]; then
-  TOKENS_HINT=$(python3 -c "import json,sys; d=json.load(open('$CLAUDE_METRICS')); print(int(d.get('tokens_spent', 0)))" 2>/dev/null || echo 0)
-  COST_HINT=$(python3 -c "import json,sys; d=json.load(open('$CLAUDE_METRICS')); print(float(d.get('cost_usd', 0)))" 2>/dev/null || echo 0)
+# Cost/tokens come from the CLI's JSON result (authoritative: total_cost_usd
+# + usage). If that's somehow unavailable, fall back to Claude's optional
+# self-report file, tolerating leading-dot floats like ".23" that aren't
+# valid JSON. Either way, a parse failure yields 0 loudly in the log below
+# rather than silently — these numbers feed strategy scoring.
+read -r TOKENS_HINT COST_HINT < <(python3 - "$CLAUDE_OUT" "$CLAUDE_METRICS" <<'PY'
+import json, re, sys
+out_path, report_path = sys.argv[1], sys.argv[2]
+tokens, cost = 0, 0.0
+try:
+    d = json.load(open(out_path))
+    cost = float(d.get("total_cost_usd") or 0)
+    u = d.get("usage") or {}
+    tokens = sum(int(u.get(k) or 0) for k in (
+        "input_tokens", "output_tokens",
+        "cache_creation_input_tokens", "cache_read_input_tokens"))
+except Exception:
+    pass
+if cost <= 0:  # fall back to Claude's self-report
+    try:
+        raw = re.sub(r":\s*\.(\d)", r": 0.\1", open(report_path).read())
+        r = json.loads(raw)
+        cost = float(r.get("cost_usd") or 0)
+        tokens = tokens or int(r.get("tokens_spent") or 0)
+    except Exception:
+        pass
+print(tokens, cost)
+PY
+)
+TOKENS_HINT=${TOKENS_HINT:-0}
+COST_HINT=${COST_HINT:-0}
+if python3 -c "import sys; sys.exit(0 if float('$COST_HINT') > 0 else 1)"; then
+  echo "[starbird-runner] cost from CLI: \$$COST_HINT / ${TOKENS_HINT} tokens" >> "$LOG_FILE"
+else
+  echo "[starbird-runner] WARNING: no cost captured (CLI + self-report both empty); logging \$0" >> "$LOG_FILE"
 fi
 
 GROUND_TRUTH=$(python3 "$STARBIRD_DIR/scripts/compute-run-metrics.py" \
