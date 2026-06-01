@@ -13,6 +13,11 @@
 	let { firm, classification, intrinsic, tags }: Props = $props();
 	let showDetails = $state(false);
 
+	// Dedupe holdings: the each block keys on the brand name, so a repeated
+	// name (a data-quality slip from the runner) would otherwise crash the
+	// whole Firms panel with `each_key_duplicate`. Display-only.
+	const holdings = $derived([...new Set(firm.brands)]);
+
 	const verdict = $derived(
 		classification === 'avoid'
 			? 'Conflicts with your values'
@@ -97,7 +102,7 @@
 		<div class="brands">
 			<div class="section-label">Notable holdings</div>
 			<ul>
-				{#each firm.brands as b (b)}
+				{#each holdings as b (b)}
 					<li>{b}</li>
 				{/each}
 			</ul>

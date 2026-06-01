@@ -20,6 +20,7 @@
 		<div class="logo-mark"></div>
 		<span class="name">Starbird</span>
 	</button>
+	<span class="tagline">Shop in line with your values</span>
 	<div class="search">
 		<input
 			type="search"
@@ -137,5 +138,46 @@
 		width: 100%;
 		background: currentColor;
 		border-radius: 1px;
+	}
+	.tagline {
+		display: none;
+	}
+
+	@media (min-width: 1024px) {
+		.topbar {
+			grid-area: header;
+			gap: 16px;
+			padding: 16px 26px;
+		}
+		.logo-mark {
+			width: 38px;
+			height: 38px;
+		}
+		.name {
+			font-size: 1.75rem;
+		}
+		.tagline {
+			display: block;
+			font-family: 'DM Mono', monospace;
+			font-size: 0.66rem;
+			letter-spacing: 0.06em;
+			color: var(--ink-faint);
+			padding-left: 16px;
+			margin-left: 4px;
+			border-left: 1px solid var(--border);
+			white-space: nowrap;
+		}
+		.search {
+			max-width: 420px;
+			margin-left: auto;
+		}
+		.search input {
+			font-size: 0.8rem;
+			padding: 10px 14px;
+		}
+		.menu-btn {
+			width: 38px;
+			height: 38px;
+		}
 	}
 </style>

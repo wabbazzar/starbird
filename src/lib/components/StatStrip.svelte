@@ -63,4 +63,22 @@
 		letter-spacing: 0.1em;
 		margin-top: 3px;
 	}
+
+	@media (min-width: 1024px) {
+		.strip {
+			grid-area: stats;
+			overflow: visible;
+			background: var(--surface);
+		}
+		.item {
+			flex: 1;
+			padding: 12px 26px;
+		}
+		.item:last-child {
+			border-right: none;
+		}
+		.val {
+			font-size: 1.5rem;
+		}
+	}
 </style>

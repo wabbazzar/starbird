@@ -39,6 +39,7 @@
 </script>
 
 <div class="row no-scrollbar">
+	<span class="filter-head">Filter</span>
 	<button
 		type="button"
 		class="chip"
@@ -95,5 +96,36 @@
 		height: 18px;
 		background: var(--border);
 		flex-shrink: 0;
+	}
+	.filter-head {
+		display: none;
+	}
+
+	@media (min-width: 1024px) {
+		.row {
+			grid-area: filter;
+			flex-wrap: wrap;
+			overflow: visible;
+			align-content: start;
+			align-items: flex-start;
+			padding: 6px 14px 16px;
+			border-bottom: none;
+			border-right: 1px solid var(--border);
+		}
+		.filter-head {
+			display: block;
+			width: 100%;
+			font-family: 'DM Mono', monospace;
+			font-size: 0.6rem;
+			text-transform: uppercase;
+			letter-spacing: 0.14em;
+			color: var(--ink-faint);
+			margin-bottom: 2px;
+		}
+		.divider {
+			width: 100%;
+			height: 1px;
+			margin: 4px 0;
+		}
 	}
 </style>

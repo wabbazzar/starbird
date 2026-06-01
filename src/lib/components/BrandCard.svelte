@@ -14,6 +14,10 @@
 	let { brand, classification, intrinsic, tags, firmById }: Props = $props();
 	let showDetails = $state(false);
 
+	// Dedupe alternatives — the each block keys on the string, so a repeated
+	// alt would crash the card with `each_key_duplicate`. Display-only.
+	const alts = $derived([...new Set(brand.alts)]);
+
 	const verdict = $derived(
 		classification === 'avoid'
 			? 'Conflicts with your values'
@@ -118,7 +122,7 @@
 		<div class="alts">
 			<div class="section-label">Alternatives</div>
 			<ul>
-				{#each brand.alts as a (a)}
+				{#each alts as a (a)}
 					<li>{a}</li>
 				{/each}
 			</ul>

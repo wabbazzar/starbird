@@ -36,6 +36,10 @@
 
 	--logo: url('/logo-dark.png');
 	--radius: 12px;
+
+	--shadow-card: 0 1px 2px rgba(0, 0, 0, 0.45);
+	--shadow-card-hover: 0 10px 30px -12px rgba(0, 0, 0, 0.7);
+	--shadow-panel: 0 0 60px rgba(0, 0, 0, 0.35);
 }
 
 :root[data-theme='light'] {
@@ -64,6 +68,10 @@
 	--align-wash: color-mix(in srgb, var(--align) 5%, var(--surface));
 
 	--logo: url('/logo-light.png');
+
+	--shadow-card: 0 1px 2px rgba(20, 20, 20, 0.05);
+	--shadow-card-hover: 0 12px 28px -14px rgba(20, 30, 30, 0.22);
+	--shadow-panel: 0 0 60px rgba(0, 0, 0, 0.07);
 }
 
 /* ============================================================
@@ -117,10 +125,17 @@
 		background: var(--surface);
 		border: 1px solid var(--border);
 		border-radius: var(--radius);
-		transition: border-color 150ms ease;
+		box-shadow: var(--shadow-card);
+		transition: border-color 150ms ease, box-shadow 200ms ease, transform 200ms ease;
 	}
 	.card:hover {
 		border-color: var(--border-strong);
+	}
+	@media (min-width: 1024px) {
+		.card:hover {
+			box-shadow: var(--shadow-card-hover);
+			transform: translateY(-2px);
+		}
 	}
 	.card-avoid {
 		background: var(--avoid-wash);
@@ -234,4 +249,28 @@
 }
 .no-scrollbar {
 	scrollbar-width: none;
+}
+
+/* Themed scrollbar for the main scroll area — the default light/gray
+   track reads as a bright stripe in dark mode. */
+.scroll {
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+.scroll::-webkit-scrollbar {
+	width: 12px;
+}
+.scroll::-webkit-scrollbar-track {
+	background: transparent;
+}
+.scroll::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 999px;
+	border: 3px solid var(--bg);
+	background-clip: padding-box;
+}
+.scroll::-webkit-scrollbar-thumb:hover {
+	background: var(--ink-faint);
+	background-clip: padding-box;
+	border: 3px solid var(--bg);
 }

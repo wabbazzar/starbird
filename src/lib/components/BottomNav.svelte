@@ -80,4 +80,39 @@
 		line-height: 1;
 		display: block;
 	}
+
+	@media (min-width: 1024px) {
+		.nav {
+			grid-area: nav;
+			grid-template-columns: 1fr;
+			align-content: start;
+			gap: 3px;
+			border-top: none;
+			padding: 18px 14px 8px;
+			touch-action: auto;
+		}
+		.btn-nav {
+			flex-direction: row;
+			justify-content: flex-start;
+			gap: 12px;
+			padding: 11px 14px;
+			border-radius: 9px;
+			transition: background-color 150ms ease, color 150ms ease;
+		}
+		.btn-nav:hover {
+			background: var(--surface);
+			color: var(--ink-muted);
+		}
+		.btn-nav.active {
+			background: var(--primary-dim);
+			color: var(--primary);
+		}
+		.icon {
+			font-size: 1.15rem;
+		}
+		.label {
+			font-size: 0.7rem;
+			letter-spacing: 0.1em;
+		}
+	}
 </style>

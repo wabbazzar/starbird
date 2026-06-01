@@ -230,7 +230,7 @@
 		/>
 	{/if}
 
-	<div class="scroll" bind:this={scrollEl} onscroll={onScroll}>
+	<div class="scroll" class:wide-grid={panel === 'brands' || panel === 'firms'} bind:this={scrollEl} onscroll={onScroll}>
 		{#if loading}
 			<p class="empty">Loading…</p>
 		{:else if loadError}
@@ -361,5 +361,57 @@
 	}
 	.scroll-top-btn:active {
 		transform: scale(0.9);
+	}
+
+	/* ============================================================
+	   DESKTOP — sidebar app shell (mobile is untouched below 1024px)
+	   ============================================================ */
+	@media (min-width: 1024px) {
+		.app {
+			max-width: 1280px;
+			margin-inline: auto;
+			border-inline: 1px solid var(--border);
+			box-shadow: var(--shadow-panel);
+			display: grid;
+			grid-template-columns: 248px minmax(0, 1fr);
+			grid-template-rows: auto auto auto 1fr;
+			grid-template-areas:
+				'header header'
+				'stats  stats'
+				'nav    main'
+				'filter main';
+		}
+
+		.scroll {
+			grid-area: main;
+			border-left: 1px solid var(--border);
+			padding: 22px 18px 36px;
+			scrollbar-gutter: stable;
+		}
+		/* Single centered reading column; capped width keeps line length
+		   readable while filling more of the main area than before. */
+		.scroll.wide-grid {
+			display: grid;
+			grid-template-columns: minmax(0, 960px);
+			justify-content: center;
+			gap: 12px;
+			align-content: start;
+		}
+		.wide-grid :global(.card) {
+			margin-bottom: 0;
+		}
+		.wide-grid .count,
+		.wide-grid .empty {
+			grid-column: 1 / -1;
+		}
+		.count {
+			font-size: 0.66rem;
+			margin-bottom: 2px;
+		}
+
+		.scroll-top-btn {
+			bottom: 24px;
+			right: calc((100vw - 1280px) / 2 + 24px);
+		}
 	}
 </style>
