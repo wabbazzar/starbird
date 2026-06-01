@@ -12085,6 +12085,65 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-31"
+    },
+    {
+      "id": "verint_systems",
+      "avoid": "Verint Systems",
+      "ownership": [
+        {
+          "firmId": "thoma_bravo",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Acquired by Thoma Bravo in $2B all-cash LBO in August 2025, immediately merged with portfolio company Calabrio. Deal loaded Verint with significant debt as part of Thoma Bravo's typical extraction playbook. Verint provides customer experience and workforce management software to contact centers and government agencies, including public safety and law enforcement contracts.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-01"
+    },
+    {
+      "id": "citrin_cooperman",
+      "avoid": "Citrin Cooperman",
+      "ownership": [
+        {
+          "firmId": "blackstone",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Blackstone acquired 40-45% majority stake for $2B in January 2025 from New Mountain Capital (PE-to-PE transfer at 15x EBITDA), which had held the firm since 2021. New Mountain extracted a 4x return in just 3 years, selling for $2B what they paid $500M for. Citrin Cooperman is a professional services and accounting firm that grew from $350M to $850M revenue under New Mountain through aggressive roll-up acquisitions.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-01"
+    },
+    {
+      "id": "calabrio",
+      "avoid": "Calabrio",
+      "ownership": [
+        {
+          "firmId": "thoma_bravo",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Acquired by Thoma Bravo from KKR in April 2021. Provides customer experience intelligence and workforce management software (Calabrio ONE suite) for contact centers. In November 2025, Thoma Bravo merged Calabrio with newly-acquired Verint Systems in a $2B deal financed by $2.7B leveraged loan, creating a consolidated customer experience platform under typical PE debt-loading strategy.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-01"
     }
   ]
 }
