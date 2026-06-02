@@ -650,6 +650,32 @@
         "verint_systems"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-06-02-epa_tri_toxics_release",
+      "date": "2026-06-02",
+      "title": "Paint Manufacturers and Pharma Giants: EPA Violations Surface",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "This run surfaces toxic pollution from household paint brands and OTC medicines. Sherwin-Williams, PPG, and Bayer all face documented environmental violations while selling products Americans use daily in their homes and medicine cabinets.",
+      "body": "When you reach for a can of Valspar paint at Lowe's or grab Bayer Aspirin at CVS, you're supporting companies with documented toxic pollution records. This research pass pulled from EPA inspection reports, federal court rulings, and state AG lawsuits to surface three manufacturers whose environmental track records conflict with their consumer-friendly branding.\n\nSherwin-Williams — the nation's largest paint manufacturer — paid a $213,750 EPA settlement in May 2025 after inspectors documented 12 categories of hazardous waste violations at its Winter Haven, Florida facility in March 2023. The violations included improper storage of carcinogenic arsenic, benzene, and cadmium, plus 57 drums of toxic paint waste shipped without required federal hazardous waste manifests. The fine represented 0.00093% of the company's $23 billion annual revenue.\n\nPPG Industries faces even deeper liabilities: a federal judge ruled the paint manufacturer solely liable for decades of chemical spills into the Allegheny River. In 2010, PPG agreed to remove 700,000 tons of toxic waste from a New Jersey brownfield site where it operated a chromium processing plant from 1954 to 1963. California fined PPG $299,000 in 2024 for exceeding air quality standards.\n\nBayer AG — maker of Aspirin, Claritin, Aleve, and Coppertone — reformulated Roundup after $10+ billion in glyphosate litigation. Friends of the Earth's 2024 independent toxicology analysis found the new formulations 45 times more toxic to human health than the prior versions. Massachusetts AG sued Bayer in 2024 over deceptive marketing claims that its pesticides are \"safe\" and \"environmentally friendly\" despite documented risks to bees, pollinators, and human health.",
+      "entityIds": [
+        "bayer",
+        "ppg",
+        "sherwin_williams",
+        "aleve",
+        "bayer_aspirin",
+        "claritin",
+        "coppertone",
+        "dutch_boy",
+        "hgtv_home",
+        "olympic",
+        "ppg_paints",
+        "ppg_pittsburgh_paints",
+        "valspar"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
     }
   ]
 }

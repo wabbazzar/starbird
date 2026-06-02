@@ -5867,6 +5867,83 @@
       ],
       "aligns": [],
       "addedAt": "2026-05-31"
+    },
+    {
+      "id": "sherwin_williams",
+      "name": "Sherwin-Williams",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Sherwin-Williams is the largest paint manufacturer in the United States, headquartered in Cleveland, Ohio, with $23.05 billion in 2023 revenue. The company manufactures and distributes paints, coatings, and related products through over 5,000 company-operated stores and to retailers nationwide. In March 2023, EPA inspectors documented 12 categories of hazardous waste violations at Sherwin-Williams' Winter Haven, Florida facility including improper storage of arsenic, lead, cadmium, benzene, and chromium; 57 drums of toxic paint waste shipped without required federal Uniform Hazardous Waste Manifest; and no documented hazmat training records for warehouse workers. The company paid a $213,750 settlement in May 2025 without admission of wrongdoing — approximately 0.00093% of annual revenue. Tagged environment_general.",
+      "blurb": "Paint and coatings manufacturer selling architectural paints, industrial coatings, and protective finishes to consumers and professionals.",
+      "brands": [
+        "Valspar",
+        "HGTV HOME",
+        "Dutch Boy"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://evilcorporations.com/sherwin-williams-toxic-scandal-epa-public-health-impact/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "bayer",
+      "name": "Bayer",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Bayer AG is a German multinational pharmaceutical and biotechnology company, the world's third-largest consumer health company, with global operations in pharmaceuticals, consumer health, and crop science. Friends of the Earth commissioned independent toxicology analysis in 2024 finding Bayer's new Roundup formulations (post-2024, reformulated after $10+ billion in glyphosate litigation settlements) are 45 times more toxic to human health than the prior glyphosate-based versions, with all four added chemicals posing greater risk of long-term and reproductive health problems than glyphosate based on EPA safety evaluations. Massachusetts AG sued Bayer in 2024 over deceptive marketing claims that pesticide products are 'safe' and 'environmentally friendly' despite known risks to bees, pollinators, and human health from neonicotinoid pesticides. Tagged environment_general.",
+      "blurb": "Pharmaceutical and life sciences company making prescription drugs, over-the-counter medicines, and agricultural chemicals.",
+      "brands": [
+        "Aspirin",
+        "Claritin",
+        "Aleve",
+        "Coppertone"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.thenewlede.org/2024/10/bayers-new-roundup-products-more-toxic-than-prior-formulations-says-new-report/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "environment_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "ppg",
+      "name": "PPG Industries",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "PPG Industries is a Fortune 500 global supplier of paints, coatings, and specialty materials headquartered in Pittsburgh, Pennsylvania. A federal judge ruled PPG solely liable for chemicals it allowed to spill into the Allegheny River over several decades. In November 2010, PPG agreed to remove 700,000 tons of toxic waste from Canal Crossing, a brownfield site in Jersey City, New Jersey where the company operated a chromium processing plant between 1954 and 1963. In January 2022, PPG ranked 81 on the Toxic 100 Water List of the Political Economy Research Institute's index with its facility in Barberton, Ohio. California Air Resources Board fined PPG $299,000 in 2024 for selling paint thinners and aerosol coating products that exceed state air quality requirements. Tagged environment_general.",
+      "blurb": "Global coatings and specialty materials company producing paints, protective finishes, and industrial coatings.",
+      "brands": [
+        "PPG Paints",
+        "PPG Pittsburgh Paints",
+        "Olympic"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.business-humanrights.org/en/latest-news/usa-court-finds-paint-manufacturer-ppg-liable-for-pollution-posing-risk-to-health-environment-in-lawsuit-over-chemicals-spill/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
     }
   ],
   "brands": [
@@ -12720,6 +12797,210 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-01"
+    },
+    {
+      "id": "valspar",
+      "avoid": "Valspar",
+      "ownership": [
+        {
+          "firmId": "sherwin_williams",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Valspar is a major paint brand acquired by Sherwin-Williams in 2017 for $9.3 billion. Parent company Sherwin-Williams was cited by EPA inspectors in March 2023 for 12 categories of hazardous waste violations at its Winter Haven, Florida facility including improper storage of arsenic, lead, cadmium, benzene, and chromium — all carcinogenic or neurotoxic chemicals. Inspectors found 57 drums of toxic paint waste shipped without required federal Uniform Hazardous Waste Manifest and no documented hazmat training for warehouse workers. The company paid a $213,750 settlement in May 2025, representing 0.00093% of $23.05 billion annual revenue, with no admission of wrongdoing.",
+      "blurb": "Paint and primer brand sold at home improvement stores and hardware retailers nationwide.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "hgtv_home",
+      "avoid": "HGTV HOME by Sherwin-Williams",
+      "ownership": [
+        {
+          "firmId": "sherwin_williams",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "HGTV HOME is a paint brand manufactured and distributed by Sherwin-Williams through home improvement retailers. As a Sherwin-Williams Consumer Brands Group product, it is produced by the same parent company cited by EPA inspectors in March 2023 for 12 categories of hazardous waste violations including improper storage of arsenic, lead, cadmium, benzene, and chromium. The EPA documented 57 drums of toxic paint waste shipped without required federal hazardous waste manifests and warehouse workers with no documented hazmat training. Sherwin-Williams paid a $213,750 settlement in May 2025 (0.00093% of annual revenue) with no admission of wrongdoing.",
+      "blurb": "Licensed paint brand for interior and exterior home projects, sold at major home improvement stores.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "dutch_boy",
+      "avoid": "Dutch Boy",
+      "ownership": [
+        {
+          "firmId": "sherwin_williams",
+          "stake": "majority",
+          "since": "1984"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Dutch Boy is a paint brand owned by Sherwin-Williams since 1984. Sherwin-Williams was cited by EPA inspectors in March 2023 for 12 categories of hazardous waste violations at its Winter Haven, Florida facility including improper storage of carcinogenic arsenic, benzene, and cadmium; neurotoxic lead and chromium; and 57 drums of toxic paint waste shipped without required federal Uniform Hazardous Waste Manifest. No warehouse workers had documented hazmat training records. The company paid a $213,750 settlement in May 2025 — 0.00093% of $23.05 billion annual revenue — with no admission of wrongdoing.",
+      "blurb": "Paint brand known for the Twist & Pour paint container, sold at major home improvement retailers.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "bayer_aspirin",
+      "avoid": "Bayer Aspirin",
+      "ownership": [
+        {
+          "firmId": "bayer",
+          "stake": "majority",
+          "since": "1899"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Bayer Aspirin is manufactured by Bayer AG, a company facing sustained environmental and public health scrutiny over its pesticide products. In 2024, Friends of the Earth commissioned independent toxicology analysis finding Bayer's new Roundup formulations (post-2024, reformulated after $10+ billion in glyphosate litigation settlements) are 45 times more toxic to human health than prior glyphosate-based versions. Massachusetts Attorney General sued Bayer in 2024 over deceptive marketing claims that its pesticides are 'safe' and 'environmentally friendly' despite documented risks to bees, pollinators, and human health from neonicotinoid pesticides manufactured and sold by Bayer.",
+      "blurb": "Over-the-counter pain reliever and anti-inflammatory medication, one of the oldest pharmaceutical brands.",
+      "harms": [
+        "environment_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "claritin",
+      "avoid": "Claritin",
+      "ownership": [
+        {
+          "firmId": "bayer",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Claritin is an over-the-counter allergy medication acquired by Bayer in 2014 as part of its $14.2 billion purchase of Merck's consumer health business. Bayer faces environmental and public health scrutiny over its pesticide products — in 2024, independent toxicology analysis commissioned by Friends of the Earth found Bayer's new Roundup formulations are 45 times more toxic to human health than prior glyphosate-based versions. Massachusetts AG sued Bayer in 2024 over deceptive marketing of pesticides as 'safe' despite documented risks to pollinators and humans. Bayer's neonicotinoid pesticides have been linked to birth defects, nervous system damage, and hormone disruption.",
+      "blurb": "Non-drowsy antihistamine for seasonal allergies and hay fever, available in tablets and liquids.",
+      "harms": [
+        "environment_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "aleve",
+      "avoid": "Aleve",
+      "ownership": [
+        {
+          "firmId": "bayer",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Aleve is an over-the-counter pain reliever (naproxen sodium) acquired by Bayer in 2014 from Merck's consumer health business for $14.2 billion. Parent company Bayer faces environmental scrutiny over its pesticide products: Friends of the Earth's 2024 toxicology analysis found Bayer's new Roundup formulations are 45 times more toxic to human health than prior glyphosate-based versions. Massachusetts Attorney General sued Bayer in 2024 over deceptive marketing claims that its pesticides are 'safe' and 'environmentally friendly' despite documented risks to bees, pollinators, and human health from neonicotinoid pesticides. Bayer paid $10+ billion to settle glyphosate litigation.",
+      "blurb": "Long-lasting nonsteroidal anti-inflammatory drug (NSAID) for pain relief and fever reduction.",
+      "harms": [
+        "environment_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "coppertone",
+      "avoid": "Coppertone",
+      "ownership": [
+        {
+          "firmId": "bayer",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Coppertone is a sunscreen brand acquired by Bayer in 2014 as part of its $14.2 billion purchase of Merck's consumer health business. Bayer faces environmental and public health scrutiny over its pesticide products: in 2024, independent toxicology analysis commissioned by Friends of the Earth found Bayer's new Roundup formulations are 45 times more toxic to human health than prior glyphosate-based versions, with all four added chemicals posing greater risk of long-term and reproductive health problems than glyphosate. Massachusetts AG sued Bayer in 2024 over deceptive marketing of pesticides as 'safe' despite documented risks to bees, pollinators, and humans.",
+      "blurb": "Sunscreen and sun protection products for adults and children, sold at drugstores and grocery retailers.",
+      "harms": [
+        "environment_general",
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "ppg_paints",
+      "avoid": "PPG Paints",
+      "ownership": [
+        {
+          "firmId": "ppg",
+          "stake": "majority",
+          "since": "1900"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "PPG Paints is the flagship paint brand of PPG Industries, a company with a documented history of environmental pollution. A federal judge ruled PPG solely liable for chemicals it allowed to spill into the Allegheny River over several decades. In 2010, PPG agreed to remove 700,000 tons of toxic waste from Canal Crossing, a Jersey City brownfield site where it operated a chromium processing plant from 1954 to 1963. In 2022, PPG ranked 81 on the Toxic 100 Water List with its Barberton, Ohio facility. California Air Resources Board fined PPG $299,000 in 2024 for selling paint thinners and aerosol coatings exceeding state air quality requirements.",
+      "blurb": "Architectural and protective paints for residential and commercial applications, sold through independent dealers and company stores.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "ppg_pittsburgh_paints",
+      "avoid": "PPG Pittsburgh Paints",
+      "ownership": [
+        {
+          "firmId": "ppg",
+          "stake": "majority",
+          "since": "1900"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "PPG Pittsburgh Paints is a regional brand owned by PPG Industries. PPG has a documented history of environmental pollution: a federal judge ruled PPG solely liable for chemicals it allowed to spill into the Allegheny River over several decades. In November 2010, PPG agreed to remove 700,000 tons of toxic waste from a Jersey City brownfield site where it operated a chromium processing plant from 1954 to 1963. In 2022, PPG ranked 81 on the Toxic 100 Water List with its Barberton, Ohio facility. California fined PPG $299,000 in 2024 for selling paint thinners and aerosol coatings exceeding air quality requirements.",
+      "blurb": "Regional paint brand serving the mid-Atlantic and Midwest, sold through independent dealers and company stores.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": "olympic",
+      "avoid": "Olympic",
+      "ownership": [
+        {
+          "firmId": "ppg",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Olympic is a paint and stain brand acquired by PPG Industries in 2013 from AkzoNobel's North American architectural coatings business. Parent company PPG has a documented history of environmental pollution: a federal judge ruled PPG solely liable for decades of chemical spills into the Allegheny River. In 2010, PPG agreed to remove 700,000 tons of toxic waste from a Jersey City brownfield site where it operated a chromium processing plant from 1954 to 1963. In 2022, PPG ranked 81 on the Toxic 100 Water List. California fined PPG $299,000 in 2024 for exceeding state air quality requirements.",
+      "blurb": "Paint and exterior wood stain brand sold at major home improvement retailers nationwide.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-02"
     }
   ]
 }
