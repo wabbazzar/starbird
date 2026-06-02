@@ -54,7 +54,9 @@ Strategy scoring is deterministic: `new_entities / cost_usd` over the last 10 ru
 ## Data schema
 
 - `static/data.json` — version 2, firms[] + brands[]
+- `static/blog.json` — per-run runner dispatches; one post per nightly run, appended by `scripts/append-blog-post.py`
 - `src/lib/schema.ts` — zod validation (run at page load + by Guardian)
+- `src/lib/blog.ts` — BlogPost type + zod BlogFileSchema (version + posts[])
 - `src/lib/values.ts` — 6 values (workers, environment, animals, health, extraction, elite_impunity)
 - `src/lib/quests.ts` — 17 quests, each rolls up to one value
 - `src/lib/categories.ts` — 9 categories (tech, food, coffee, retail, health, pets, home, hospitality, finance)
