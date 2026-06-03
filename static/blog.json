@@ -676,6 +676,26 @@
         "valspar"
       ],
       "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-06-03-epa_tri_toxics_release",
+      "date": "2026-06-03",
+      "title": "Paper Mills: Hidden Climate Polluters Behind Everyday Brands",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "This run surfaced paper manufacturers whose consumer brands—Kleenex, Georgia-Pacific, and Smurfit WestRock packaging—are tied to facilities among the nation's top toxic chemical and greenhouse gas emitters according to EPA's 2023 data.",
+      "body": "The paper industry's environmental footprint extends far beyond deforestation. EPA's 2023 Toxics Release Inventory reveals paper mills are among the largest sources of methanol and nitrogen oxide air pollution, with sector emissions reaching 3.3 billion pounds of toxic chemicals nationwide.\n\nSmurfit WestRock's Covington, Virginia mill led all U.S. paper facilities in 2023, releasing 970,084 metric tons of greenhouse gases plus 2,287 tons of nitrogen oxides. The merged company now operates 57 paper mills globally, producing the corrugated boxes that arrive in your Amazon shipments and line retail shelves.\n\nKoch Industries subsidiary Georgia-Pacific manufactures Quilted Northern, Angel Soft, Brawny, and Dixie through mills that contributed one-third of North Carolina's methanol releases in 2021 TRI data. Kimberly-Clark faces a 2024 lawsuit alleging its Kleenex tissue plant released PFAS forever chemicals into Connecticut air and groundwater through smokestacks and paper sludge disposal. The same pulping and bleaching processes that turn wood into soft tissues and strong paper towels generate the toxic chemical releases documented in federal pollution tracking systems.\n\nThese brands occupy the paper goods aisle of every supermarket and the supply closet of every office. The EPA data shows their manufacturing leaves a measurable toxic footprint that contradicts the soft, clean image their advertising conveys.",
+      "entityIds": [
+        "kimberly_clark",
+        "smurfit_westrock",
+        "georgia_pacific",
+        "huggies",
+        "kleenex",
+        "scott_paper",
+        "smurfit_westrock_packaging"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
     }
   ]
 }

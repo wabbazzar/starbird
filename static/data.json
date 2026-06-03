@@ -5944,6 +5944,50 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-02"
+    },
+    {
+      "id": "smurfit_westrock",
+      "name": "Smurfit WestRock",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Smurfit WestRock is a paper and packaging conglomerate formed in July 2024 from the merger of Ireland's Smurfit Kappa and U.S.-based WestRock. The company operates 500+ packaging facilities and 57 paper mills globally. Its Covington, Virginia mill was identified as the nation's top climate polluter among large paper mills in 2023, releasing 970,084 metric tons of greenhouse gases according to EPA data. The mill also led all U.S. paper mills in nitrogen oxide (NOx) emissions with 2,287 tons in 2023, per an Environmental Integrity Project analysis. Paper manufacturing facilities collectively accounted for significant methanol releases—a flammable toxic chemical—with sector releases primarily going to air in EPA's 2023 Toxics Release Inventory data.",
+      "blurb": "Manufactures corrugated boxes, paperboard, and paper-based packaging for consumer and industrial markets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://royalexaminer.com/decades-old-paper-mill-in-covington-named-nations-top-climate-polluter-in-new-report/",
+      "cats": [
+        "retail",
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
+    },
+    {
+      "id": "kimberly_clark",
+      "name": "Kimberly-Clark",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Kimberly-Clark is a global personal care and consumer tissue corporation producing brands including Kleenex, Scott, Huggies, and Kotex. In 2024, Connecticut residents filed a lawsuit alleging the company's New Milford tissue plant released PFAS 'forever chemicals' into the air via smokestacks and into groundwater via paper sludge dumped at a nearby landfill. Historical pollution issues include wastewater from papermaking dumped directly into waterways beginning in the 1930s, with dioxins from chlorine bleaching and sulfate liquor from pulping processes. Paper manufacturing facilities like Kimberly-Clark's were among sectors accounting for the largest air releases of TRI chemicals in 2023, particularly methanol, according to EPA data.",
+      "blurb": "Produces personal care products including facial tissues, toilet paper, diapers, and feminine hygiene products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.nbcnews.com/health/health-news/lawsuit-kleenex-maker-kimberly-clark-pfas-forever-chemicals-rcna141268",
+      "cats": [
+        "home",
+        "health"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
     }
   ],
   "brands": [
@@ -13001,6 +13045,106 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-02"
+    },
+    {
+      "id": "georgia_pacific",
+      "avoid": "Georgia-Pacific",
+      "ownership": [
+        {
+          "firmId": "koch_industries",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Georgia-Pacific, a Koch Industries subsidiary since 2005, produces consumer paper products including Quilted Northern, Angel Soft, Brawny, Dixie, and Sparkle. The company's paper mills are significant sources of toxic air pollution. Paper manufacturing facilities like Georgia-Pacific's accounted for one-third of all methanol releases in North Carolina's 2021 TRI data—methanol being a flammable toxic chemical that EPA identified as among the most commonly released to air in 2023. The paper products sector, including Georgia-Pacific facilities, was among the largest contributors to air releases of TRI chemicals in 2023 according to EPA's Toxics Release Inventory.",
+      "blurb": "Manufactures consumer paper products including toilet paper, paper towels, napkins, and disposable plates.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
+    },
+    {
+      "id": "smurfit_westrock_packaging",
+      "avoid": "Smurfit WestRock",
+      "ownership": [
+        {
+          "firmId": "smurfit_westrock",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Smurfit WestRock packaging is ubiquitous in retail—the company produces corrugated boxes, paperboard containers, and e-commerce packaging for consumer goods. Its Covington, Virginia paper mill was the top climate polluter among U.S. paper mills in 2023, releasing 970,084 metric tons of greenhouse gases per EPA data—the Environmental Integrity Project estimates actual emissions at 115 million tons when biogenic fuel exclusions are corrected. The mill also led all paper facilities in nitrogen oxide (NOx) pollution with 2,287 tons in 2023. Consumers encounter Smurfit WestRock packaging on products from Amazon shipments to retail shelf displays.",
+      "blurb": "Produces cardboard boxes, corrugated containers, and paper-based packaging for retail and e-commerce.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
+    },
+    {
+      "id": "kleenex",
+      "avoid": "Kleenex",
+      "ownership": [
+        {
+          "firmId": "kimberly_clark",
+          "stake": "majority",
+          "since": "1924"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Kleenex facial tissues are manufactured by Kimberly-Clark at facilities including the New Milford, Connecticut plant, which faces a 2024 lawsuit alleging PFAS 'forever chemicals' releases into air and groundwater. The lawsuit claims PFAS are released via smokestacks and may contaminate water through paper sludge disposal at a nearby landfill. Kimberly-Clark's paper manufacturing operations are part of a sector that EPA identified as producing significant air releases of methanol and other TRI chemicals in 2023. Historical Kimberly-Clark mills dumped wastewater directly into waterways with dioxins from chlorine bleaching processes.",
+      "blurb": "Facial tissue brand manufactured from wood pulp at paper mills.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
+    },
+    {
+      "id": "scott_paper",
+      "avoid": "Scott",
+      "ownership": [
+        {
+          "firmId": "kimberly_clark",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Scott toilet paper and paper towels are produced by Kimberly-Clark, which faces environmental violations at multiple facilities. Connecticut residents sued in 2024 alleging the company's tissue plant released PFAS contamination. Paper manufacturing operations like those producing Scott products were among the largest sources of toxic air releases in EPA's 2023 TRI data, particularly methanol emissions. The paper products sector's environmental footprint includes both air pollution from mill smokestacks and water contamination from pulping and bleaching chemical processes.",
+      "blurb": "Toilet paper and paper towel brand made from processed wood pulp.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
+    },
+    {
+      "id": "huggies",
+      "avoid": "Huggies",
+      "ownership": [
+        {
+          "firmId": "kimberly_clark",
+          "stake": "majority",
+          "since": "1978"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Huggies diapers are manufactured by Kimberly-Clark using paper pulp processed at facilities facing pollution allegations. The 2024 Connecticut lawsuit against Kimberly-Clark's tissue plant alleges PFAS releases that contaminated local air and groundwater. Kimberly-Clark's paper manufacturing operations contribute to sector-wide toxic chemical releases documented in EPA's 2023 TRI data. Historical facilities produced dioxin contamination from chlorine bleaching and wastewater discharge. The company's pulp and paper processing underpins all its brands including Huggies.",
+      "blurb": "Disposable diaper brand made with paper pulp and absorbent materials.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-03"
     }
   ]
 }
