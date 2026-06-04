@@ -4,8 +4,8 @@
 
 	let { data } = $props();
 
-	const ogImage = `https://wabbazzar.com/starbird/cards/${data.id}.png`;
-	const cardUrl = `https://wabbazzar.com/starbird/card/${data.id}/`;
+	const ogImage = `https://starbird42.com/cards/${data.id}.png`;
+	const cardUrl = `https://starbird42.com/card/${data.id}/`;
 	const appUrl = `${base}/#${data.id}`;
 
 	// Redirect browser to the main app, with the entry id in the hash so
@@ -22,6 +22,8 @@
 	<meta property="og:title" content={data.title} />
 	<meta property="og:description" content={data.description} />
 	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content={cardUrl} />
 	<meta property="og:site_name" content="Starbird" />
 	<meta name="twitter:card" content="summary_large_image" />

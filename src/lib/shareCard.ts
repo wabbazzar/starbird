@@ -242,7 +242,7 @@ export async function renderShareCard(opts: ShareCardOpts): Promise<Blob> {
 	// ── Footer ─────────────────────────────────────────────────────
 	// Intentionally blank — the platform unfurl already shows the URL
 	// outside the image, and we want the brand identity (Starbird) to
-	// dominate over the host (wabbazzar.com) inside the artwork.
+	// dominate over the host (starbird42.com) inside the artwork.
 
 	// ── Export ──────────────────────────────────────────────────────
 	return new Promise<Blob>((resolve, reject) => {

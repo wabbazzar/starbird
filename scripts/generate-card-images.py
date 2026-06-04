@@ -8,6 +8,7 @@ Run: python3 scripts/generate-card-images.py
 Re-run whenever data.json changes (the Guardian can trigger this).
 """
 import json
+import math
 import pathlib
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
@@ -16,6 +17,8 @@ REPO = pathlib.Path(__file__).resolve().parent.parent
 DATA = REPO / "static" / "data.json"
 OUT = REPO / "static" / "cards"
 LOGO = REPO / "static" / "logo-dark.png"
+LOGO_LIGHT = REPO / "static" / "logo-light.png"
+FONTS = pathlib.Path(__file__).resolve().parent / "fonts"
 
 W, H = 1200, 630
 
@@ -170,103 +173,164 @@ def render_card(
     return img
 
 
+def _site_font(filename, size, fallback, variation_axes=None):
+    """Load a vendored site font (scripts/fonts/), falling back to a
+    system DejaVu face so the generator still runs on a bare box."""
+    path = FONTS / filename
+    try:
+        if path.exists():
+            f = ImageFont.truetype(str(path), size)
+            if variation_axes:
+                try:
+                    f.set_variation_by_axes(variation_axes)
+                except Exception:
+                    pass
+            return f
+        return ImageFont.truetype(fallback, size)
+    except Exception:
+        return ImageFont.load_default()
+
+
+def _sparkle(draw, cx, cy, r, fill):
+    """Four-point sparkle (concave diamond)."""
+    s = r * 0.28
+    draw.polygon(
+        [
+            (cx, cy - r), (cx + s, cy - s), (cx + r, cy), (cx + s, cy + s),
+            (cx, cy + r), (cx - s, cy + s), (cx - r, cy), (cx - s, cy - s),
+        ],
+        fill=fill,
+    )
+
+
+def _star_outline(draw, cx, cy, r, color, width=3):
+    """Five-point star outline, like the 2pizza confetti stars."""
+    pts = []
+    for i in range(10):
+        rad = r if i % 2 == 0 else r * 0.42
+        ang = math.radians(-90 + i * 36)
+        pts.append((cx + rad * math.cos(ang), cy + rad * math.sin(ang)))
+    draw.polygon(pts, outline=color, width=width)
+
+
 def render_default(stats):
-    """Default OG image used when the homepage URL is shared. Shows the
-    Starbird wordmark + tagline + the six value pillars + a live stat
-    line, all on the same dark surface used by per-entry cards."""
-    img = Image.new("RGB", (W, H), BG)
+    """Default OG image used when the homepage URL is shared.
+    Bold poster layout: deep-teal field with star confetti, a big
+    cream badge holding the logo on the left, and the wordmark +
+    tagline + live stat line on the right."""
+    # Palette — deep teal field from the site's theme-color, with the
+    # logo's cyan and gold doing the accent work.
+    FIELD = (10, 74, 82)        # #0a4a52 — site theme-color
+    FIELD_DEEP = (6, 52, 58)    # vignette / shadow tone
+    CREAM = (240, 235, 227)     # #f0ebe3 — site ink
+    GOLD = (232, 168, 62)       # #e8a83e
+    CYAN = (95, 196, 208)       # #5fc4d0
+    CONFETTI = (28, 98, 107)    # quiet star outlines
+    CONFETTI_BRIGHT = (44, 122, 132)
+
+    img = Image.new("RGB", (W, H), FIELD)
     draw = ImageDraw.Draw(img)
 
-    # Dark hero panel — same surface treatment as a per-entry card.
-    draw.rounded_rectangle([32, 32, W - 32, H - 32], radius=14, fill=SURFACE)
+    # Subtle vertical gradient so the field doesn't read flat.
+    for y in range(H):
+        t = y / H
+        r = int(FIELD[0] + (FIELD_DEEP[0] - FIELD[0]) * t * 0.55)
+        g = int(FIELD[1] + (FIELD_DEEP[1] - FIELD[1]) * t * 0.55)
+        b = int(FIELD[2] + (FIELD_DEEP[2] - FIELD[2]) * t * 0.55)
+        draw.line([(0, y), (W, y)], fill=(r, g, b))
 
-    # Logo + STARBIRD wordmark, centered as a unit
-    try:
-        title_font = ImageFont.truetype(
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 96
-        )
-        tagline_font = ImageFont.truetype(
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 26
-        )
-        chip_font = ImageFont.truetype(
-            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", 22
-        )
-        stat_font = ImageFont.truetype(
-            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", 18
-        )
-    except Exception:
-        title_font = tagline_font = chip_font = stat_font = ImageFont.load_default()
-
-    logo = None
-    if LOGO.exists():
-        logo = Image.open(LOGO).convert("RGBA").resize((96, 96), Image.LANCZOS)
-
-    title_text = "STARBIRD"
-    title_w = int(draw.textlength(title_text, font=title_font))
-    block_w = (96 + 24 if logo else 0) + title_w
-    block_x = (W - block_w) // 2
-    title_y = 110
-
-    if logo:
-        img.paste(logo, (block_x, title_y), logo)
-        block_x += 96 + 24
-    draw.text((block_x, title_y + 4), title_text, fill=INK, font=title_font)
-
-    # Tagline, centered below the title
-    tagline = "Shop in line with your values."
-    tag_w = draw.textlength(tagline, font=tagline_font)
-    draw.text(((W - tag_w) // 2, 240), tagline, fill=INK_MUTED, font=tagline_font)
-
-    sub = "Track which brands align — and which don't."
-    sub_w = draw.textlength(sub, font=tagline_font)
-    draw.text(((W - sub_w) // 2, 278), sub, fill=INK_FAINT, font=tagline_font)
-
-    # Six value chips, two rows × three columns, centered as a block
-    chips = [
-        ("◆", "Workers"),
-        ("◇", "Environment"),
-        ("○", "Animals"),
-        ("△", "Health"),
-        ("▣", "Extraction"),
-        ("▲", "Elite impunity"),
+    # Star confetti — fixed positions (deterministic output), denser at
+    # the edges so the text stays readable.
+    outline_stars = [
+        (60, 60, 16), (300, 40, 10), (700, 36, 12), (1020, 52, 15),
+        (1150, 160, 11), (40, 300, 10), (1160, 330, 13), (60, 560, 13),
+        (330, 590, 10), (760, 588, 11), (1080, 568, 15), (560, 50, 9),
     ]
-    chip_h = 40
-    chip_pad_x = 16
-    chip_gap = 12
+    for cx, cy, r in outline_stars:
+        _star_outline(draw, cx, cy, r, CONFETTI_BRIGHT, width=3)
+    sparkles = [
+        (180, 110, 7, CONFETTI_BRIGHT), (880, 80, 8, GOLD),
+        (1120, 240, 6, CONFETTI_BRIGHT), (140, 480, 8, GOLD),
+        (480, 600, 6, CONFETTI_BRIGHT), (940, 600, 7, GOLD),
+        (420, 90, 6, CONFETTI_BRIGHT), (1170, 460, 7, CONFETTI_BRIGHT),
+        (90, 180, 5, CONFETTI_BRIGHT), (640, 610, 5, CONFETTI_BRIGHT),
+    ]
+    for cx, cy, r, col in sparkles:
+        _sparkle(draw, cx, cy, r, col)
+    for cx, cy in [(250, 560), (980, 130), (30, 420), (1185, 60), (600, 95)]:
+        draw.ellipse([cx - 3, cy - 3, cx + 3, cy + 3], fill=CONFETTI)
 
-    def chip_width(icon, label):
-        return int(draw.textlength(f"{icon}  {label}", font=chip_font)) + 2 * chip_pad_x
-
-    rows = [chips[:3], chips[3:]]
-    row_y = 360
-    for row in rows:
-        row_w = sum(chip_width(i, l) for i, l in row) + chip_gap * (len(row) - 1)
-        x = (W - row_w) // 2
-        for icon, label in row:
-            cw = chip_width(icon, label)
-            draw.rounded_rectangle(
-                [x, row_y, x + cw, row_y + chip_h],
-                radius=20,
-                fill=(31, 31, 31),
-                outline=(60, 60, 60),
-                width=1,
+    # --- Left: big cream badge with the logo ------------------------------
+    badge = 330
+    bx, by = 88, (H - badge) // 2
+    # Drop shadow, then cream card with a heavy deep-teal border.
+    draw.rounded_rectangle(
+        [bx + 10, by + 12, bx + badge + 10, by + badge + 12],
+        radius=56, fill=FIELD_DEEP,
+    )
+    draw.rounded_rectangle(
+        [bx, by, bx + badge, by + badge],
+        radius=56, fill=CREAM, outline=FIELD_DEEP, width=8,
+    )
+    # Corner rivets, echoing the badge furniture on the 2pizza card.
+    for dx in (34, badge - 34):
+        for dy in (34, badge - 34):
+            draw.ellipse(
+                [bx + dx - 5, by + dy - 5, bx + dx + 5, by + dy + 5],
+                fill=(208, 200, 188),
             )
-            draw.text(
-                (x + chip_pad_x, row_y + 7),
-                f"{icon}  {label}",
-                fill=INK_MUTED,
-                font=chip_font,
-            )
-            x += cw + chip_gap
-        row_y += chip_h + chip_gap
+    # The light-theme logo has dark-teal strokes — right for a cream badge.
+    logo_src = LOGO_LIGHT if LOGO_LIGHT.exists() else LOGO
+    if logo_src.exists():
+        # The logo art has generous transparent padding baked in, so
+        # render it larger than the badge interior would suggest.
+        logo = Image.open(logo_src).convert("RGBA")
+        logo = logo.resize((306, 306), Image.LANCZOS)
+        img.paste(logo, (bx + (badge - 306) // 2, by + (badge - 306) // 2), logo)
 
-    # Stat strip near the bottom — live data, regenerated on every run
+    # --- Right: type stack -------------------------------------------------
+    tx = 505
+    mono = _site_font(
+        "DMMono-Medium.ttf", 26,
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    )
+    display = _site_font(
+        "BebasNeue-Regular.ttf", 148,
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    )
+    body = _site_font(
+        "DMSans-Medium.ttf", 33,
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        variation_axes=[14, 500],
+    )
+    stat_mono = _site_font(
+        "DMMono-Medium.ttf", 22,
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    )
+
+    # Site URL eyebrow
+    draw.text((tx, 92), "// STARBIRD42.COM", fill=GOLD, font=mono)
+
+    # Headline — Bebas Neue, gold with a deep-teal drop shadow.
+    ty = 130
+    for line in ("SHOP YOUR", "VALUES."):
+        draw.text((tx + 5, ty + 6), line, fill=FIELD_DEEP, font=display)
+        draw.text((tx, ty), line, fill=GOLD, font=display)
+        ty += 138
+
+    # Tagline
+    ty += 18
+    for line in ("Every brand scored against the firms",
+                 "that own it. The receipts are linked."):
+        draw.text((tx, ty), line, fill=CREAM, font=body)
+        ty += 44
+
+    # Live stat line — regenerated nightly with the data.
     stat_text = (
         f"{stats['brands']} brands · {stats['firms']} firms · "
-        f"{stats['aum']} combined AUM tracked"
+        f"{stats['aum']} AUM tracked"
     )
-    stat_w = draw.textlength(stat_text, font=stat_font)
-    draw.text(((W - stat_w) // 2, H - 80), stat_text, fill=INK_FAINT, font=stat_font)
+    draw.text((tx, ty + 22), stat_text, fill=CYAN, font=stat_mono)
 
     return img
 

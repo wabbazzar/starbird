@@ -34,7 +34,7 @@
 
 	async function share(e: MouseEvent) {
 		e.stopPropagation();
-		const cardUrl = `https://wabbazzar.com/starbird/card/${firm.id}/`;
+		const cardUrl = `https://starbird42.com/card/${firm.id}/`;
 
 		try {
 			if (navigator.share) {

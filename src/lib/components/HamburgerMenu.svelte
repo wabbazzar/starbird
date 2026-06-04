@@ -10,7 +10,7 @@
 
 	let { open, onclose, oneditValues }: Props = $props();
 
-	const SHARE_URL = 'https://wabbazzar.com/starbird/';
+	const SHARE_URL = 'https://starbird42.com/';
 
 	let copied = $state(false);
 

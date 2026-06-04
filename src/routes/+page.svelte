@@ -222,12 +222,15 @@
 	<meta property="og:site_name" content="Starbird" />
 	<meta property="og:title" content="Starbird" />
 	<meta property="og:description" content="Shop in line with your values. Track which brands align — and which don't." />
-	<meta property="og:image" content="https://wabbazzar.com/starbird/cards/_default.png" />
-	<meta property="og:url" content="https://wabbazzar.com/starbird/" />
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:title" content="Starbird" />
-	<meta property="twitter:description" content="Shop in line with your values. Track which brands align — and which don't." />
-	<meta property="twitter:image" content="https://wabbazzar.com/starbird/cards/_default.png" />
+	<meta property="og:image" content="https://starbird42.com/cards/_default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content="Starbird — shop your values" />
+	<meta property="og:url" content="https://starbird42.com/" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Starbird" />
+	<meta name="twitter:description" content="Shop in line with your values. Track which brands align — and which don't." />
+	<meta name="twitter:image" content="https://starbird42.com/cards/_default.png" />
 </svelte:head>
 
 <div class="app">
