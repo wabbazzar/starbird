@@ -8,7 +8,6 @@ Run: python3 scripts/generate-card-images.py
 Re-run whenever data.json changes (the Guardian can trigger this).
 """
 import json
-import math
 import pathlib
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
@@ -191,33 +190,11 @@ def _site_font(filename, size, fallback, variation_axes=None):
         return ImageFont.load_default()
 
 
-def _sparkle(draw, cx, cy, r, fill):
-    """Four-point sparkle (concave diamond)."""
-    s = r * 0.28
-    draw.polygon(
-        [
-            (cx, cy - r), (cx + s, cy - s), (cx + r, cy), (cx + s, cy + s),
-            (cx, cy + r), (cx - s, cy + s), (cx - r, cy), (cx - s, cy - s),
-        ],
-        fill=fill,
-    )
-
-
-def _star_outline(draw, cx, cy, r, color, width=3):
-    """Five-point star outline, like the 2pizza confetti stars."""
-    pts = []
-    for i in range(10):
-        rad = r if i % 2 == 0 else r * 0.42
-        ang = math.radians(-90 + i * 36)
-        pts.append((cx + rad * math.cos(ang), cy + rad * math.sin(ang)))
-    draw.polygon(pts, outline=color, width=width)
-
-
 def render_default(stats):
     """Default OG image used when the homepage URL is shared.
-    Bold poster layout: deep-teal field with star confetti, a big
-    cream badge holding the logo on the left, and the wordmark +
-    tagline + live stat line on the right."""
+    Bold poster layout: deep-teal field, a big cream badge holding
+    the logo on the left, and the wordmark + tagline + live stat
+    line on the right."""
     # Palette — deep teal field from the site's theme-color, with the
     # logo's cyan and gold doing the accent work.
     FIELD = (10, 74, 82)        # #0a4a52 — site theme-color
@@ -225,8 +202,6 @@ def render_default(stats):
     CREAM = (240, 235, 227)     # #f0ebe3 — site ink
     GOLD = (232, 168, 62)       # #e8a83e
     CYAN = (95, 196, 208)       # #5fc4d0
-    CONFETTI = (28, 98, 107)    # quiet star outlines
-    CONFETTI_BRIGHT = (44, 122, 132)
 
     img = Image.new("RGB", (W, H), FIELD)
     draw = ImageDraw.Draw(img)
@@ -238,27 +213,6 @@ def render_default(stats):
         g = int(FIELD[1] + (FIELD_DEEP[1] - FIELD[1]) * t * 0.55)
         b = int(FIELD[2] + (FIELD_DEEP[2] - FIELD[2]) * t * 0.55)
         draw.line([(0, y), (W, y)], fill=(r, g, b))
-
-    # Star confetti — fixed positions (deterministic output), denser at
-    # the edges so the text stays readable.
-    outline_stars = [
-        (60, 60, 16), (300, 40, 10), (700, 36, 12), (1020, 52, 15),
-        (1150, 160, 11), (40, 300, 10), (1160, 330, 13), (60, 560, 13),
-        (330, 590, 10), (760, 588, 11), (1080, 568, 15), (560, 50, 9),
-    ]
-    for cx, cy, r in outline_stars:
-        _star_outline(draw, cx, cy, r, CONFETTI_BRIGHT, width=3)
-    sparkles = [
-        (180, 110, 7, CONFETTI_BRIGHT), (880, 80, 8, GOLD),
-        (1120, 240, 6, CONFETTI_BRIGHT), (140, 480, 8, GOLD),
-        (480, 600, 6, CONFETTI_BRIGHT), (940, 600, 7, GOLD),
-        (420, 90, 6, CONFETTI_BRIGHT), (1170, 460, 7, CONFETTI_BRIGHT),
-        (90, 180, 5, CONFETTI_BRIGHT), (640, 610, 5, CONFETTI_BRIGHT),
-    ]
-    for cx, cy, r, col in sparkles:
-        _sparkle(draw, cx, cy, r, col)
-    for cx, cy in [(250, 560), (980, 130), (30, 420), (1185, 60), (600, 95)]:
-        draw.ellipse([cx - 3, cy - 3, cx + 3, cy + 3], fill=CONFETTI)
 
     # --- Left: big cream badge with the logo ------------------------------
     badge = 330
@@ -309,7 +263,7 @@ def render_default(stats):
     )
 
     # Site URL eyebrow
-    draw.text((tx, 92), "// STARBIRD42.COM", fill=GOLD, font=mono)
+    draw.text((tx, 92), "STARBIRD42.COM", fill=GOLD, font=mono)
 
     # Headline — Bebas Neue, gold with a deep-teal drop shadow.
     ty = 130
