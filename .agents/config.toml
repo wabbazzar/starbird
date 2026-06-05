@@ -96,6 +96,21 @@ timeout_sec   = 15
 # JSON would look healthy.
 post_check    = "npx tsx scripts/validate-data.mjs --from-stdin"
 
+# Success heartbeat: the daily 07:05 runner must COMPLETE cleanly, not just
+# start. 2026-06-04/05: cron fired but the script died 4s in (auto-updater
+# GC'd its pinned claude binary; the PATH fallback failed under cron's bare
+# PATH) — invisible to the cron-fire ageSec check, which only goes stale at
+# 10x interval (10 days for a daily job). This check reads the runner's own
+# last-run log and fires when the success marker is missing or the log is
+# older than max_age_hours. grace_hours keeps an in-progress run (marker
+# not written yet) from false-positiving.
+[[medic.freshness]]
+name          = "starbird-runner-daily"
+log           = "tmp/starbird-runner-last-run.log"
+success_regex = '\[starbird-runner\] Done\. exit=0'
+max_age_hours = 30
+grace_hours   = 2
+
 [scribe]
 # Doc curator. Starbird's docs surface is small (CLAUDE.md + the
 # ticket-tracking docs/ folder), so scope is correspondingly narrow.

@@ -10,7 +10,7 @@
 # say in scoring itself. Ground-truth metrics are computed from a data.json
 # before/after diff, not from Claude's self-report.
 
-set -euo pipefail
+set -Eeuo pipefail  # -E: ERR trap (below) fires inside functions/subshells too
 
 export WABBAZZAR_SOURCE="${WABBAZZAR_SOURCE:-system}"
 
@@ -27,6 +27,29 @@ mkdir -p tmp
 
 JOB_START=$(date +%s)
 [ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.start mode="$MODE" || true
+
+# Die loudly. Without this, any `set -e` exit is silent: no notify, no
+# job.end event, nothing for medic to detect. That's exactly how the
+# 2026-06-04/05 runs vanished (pinned claude binary GC'd by the updater,
+# then the PATH fallback died under cron's bare PATH).
+fatal() {
+  local code=$1 where=$2
+  trap - ERR
+  echo "[starbird-runner] FATAL: aborted at $where (exit $code)" >> "$LOG_FILE"
+  [ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.end \
+    mode="$MODE" status="fail" exit_code="$code" \
+    duration_s="$(( $(date +%s) - JOB_START ))" reason="$where" || true
+  [ -x "$NOTIFY" ] && "$NOTIFY" "Starbird Runner FAILED — $MODE" \
+    "Aborted at $where (exit $code). Log tail:
+$(tail -15 "$LOG_FILE" 2>/dev/null)" || true
+  exit "$code"
+}
+# bash fires ERR traps even where the script deliberately disabled errexit
+# (the claude retry loop runs under `set +e` and handles failures itself) —
+# so only die when -e is actually on. Without the guard, a budget-capped
+# claude exit aborts the whole run instead of flowing into retry/metrics
+# (observed 2026-06-05 on the first run with this trap).
+trap 'case "$-" in *e*) fatal $? "line $LINENO";; esac' ERR
 
 echo "[starbird-runner] Starting $MODE run at $(date)" > "$LOG_FILE"
 
@@ -55,8 +78,7 @@ if [ -n "${FORCE_STRATEGY:-}" ]; then
 else
   PICKED_STRATEGY="$(python3 "$STARBIRD_DIR/scripts/pick-strategy.py" 2>>"$LOG_FILE")"
   if [ -z "$PICKED_STRATEGY" ]; then
-    echo "[starbird-runner] FATAL: strategy picker returned empty" >> "$LOG_FILE"
-    exit 1
+    fatal 1 "strategy picker returned empty"
   fi
   echo "[starbird-runner] picked strategy: $PICKED_STRATEGY" >> "$LOG_FILE"
 fi
@@ -84,18 +106,19 @@ given. Execute the strategy above and only that strategy.)"
 
 MODEL="sonnet"
 
-# Pin the Claude Code binary. The auto-updated 2.1.123 ships a regression
-# that throws "API Error: 400 due to tool use concurrency issues" on the
-# runner's tool-heavy research prompt — reproduced 3/3 retries on
-# 2026-04-30. 2.1.122 is the last version that ran the runner cleanly
-# (yesterday, 2026-04-29). Override with `CLAUDE_BIN=...` if you need to
-# test a different version. Revisit + drop this pin once Anthropic ships
-# a fix on a newer version.
-CLAUDE_BIN="${CLAUDE_BIN:-/home/wabbazzar/.local/share/claude/versions/2.1.122}"
+# Claude Code binary. Was pinned to versions/2.1.122 (2026-04-30, for a
+# tool-concurrency regression in 2.1.123), but the auto-updater GC'd that
+# version on 2026-06-04 and the script died silently for two days. No more
+# version pins: use the updater-maintained ~/.local/bin/claude symlink,
+# fall back to PATH, and fail loudly if neither resolves (cron's bare PATH
+# has no ~/.local/bin). Override with `CLAUDE_BIN=...` for testing.
+CLAUDE_BIN="${CLAUDE_BIN:-/home/wabbazzar/.local/bin/claude}"
 if [ ! -x "$CLAUDE_BIN" ]; then
-  echo "[starbird-runner] FATAL: pinned claude binary not found at $CLAUDE_BIN" >> "$LOG_FILE"
-  echo "[starbird-runner] falling back to system claude on PATH" >> "$LOG_FILE"
-  CLAUDE_BIN="$(command -v claude)"
+  echo "[starbird-runner] WARN: $CLAUDE_BIN not executable, trying PATH" >> "$LOG_FILE"
+  CLAUDE_BIN="$(command -v claude || true)"
+fi
+if [ -z "$CLAUDE_BIN" ] || [ ! -x "$CLAUDE_BIN" ]; then
+  fatal 1 "no claude binary found"
 fi
 echo "[starbird-runner] using claude binary: $CLAUDE_BIN ($("$CLAUDE_BIN" --version 2>/dev/null | head -1))" >> "$LOG_FILE"
 
@@ -225,6 +248,9 @@ if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
       "$NOTIFY" "Starbird Runner BLOCKED — schema validation" \
         "Strategy $PICKED_STRATEGY produced data.json that fails DataFileSchema. Diff left uncommitted in $STARBIRD_DIR. See $LOG_FILE."
     fi
+    [ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.end \
+      mode="$MODE" status="fail" exit_code=1 \
+      duration_s="$(( $(date +%s) - JOB_START ))" reason="schema validation failed" || true
     exit 1
   fi
 

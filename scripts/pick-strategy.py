@@ -23,7 +23,7 @@ import json
 import pathlib
 import random
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 SCORES_FILE = REPO / "tmp" / "starbird-runner-strategy-scores.json"
@@ -47,7 +47,7 @@ def pick(scores_payload):
             return sid, "exploration"
 
     # Epsilon-greedy with date-seeded RNG, survivors only
-    seed = datetime.utcnow().strftime("%Y%m%d")
+    seed = datetime.now(timezone.utc).strftime("%Y%m%d")
     rng = random.Random(seed)
     if rng.random() < EPSILON:
         return rng.choice(order), "epsilon_random"
