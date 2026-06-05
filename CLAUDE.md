@@ -34,7 +34,7 @@ Cron entries (still active):
 - **7:05 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes
 
 Systemd timers (agent infrastructure, installed 2026-05-19):
-- **Every 10 min (quiet hours 01:00–05:00)** — Medic (`starbird-medic.timer`) — live-data probe
+- **Every 10 min around the clock (skips 01:00–04:59 while the other agents run)** — Medic (`starbird-medic.timer`) — live-data probe + runner success heartbeat
 - **1:00 AM daily** — Scribe (`starbird-scribe.timer`) — doc refresh
 - **3:30 AM daily** — Augur (`starbird-augur.timer`) — nightly incident triage
 - **4:30 AM daily** — Guardian (`starbird-guardian.timer`) — full daily audit
