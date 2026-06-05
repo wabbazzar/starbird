@@ -696,6 +696,24 @@
         "smurfit_westrock_packaging"
       ],
       "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-06-05-nyt_dealbook_archive",
+      "date": "2026-06-05",
+      "title": "Gym Chains, Money Transfers, and the LBO Debt Cycle",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "This run traced three consumer-facing brands — a budget gym chain, a fitness rollup, and a global remittance network — now carrying private equity acquisition debt that consumers will ultimately pay down through higher fees, reduced service, or eventual closures.",
+      "body": "Private equity's gym sector playbook has a predictable shape: lever up a chain, grow via debt-financed expansion, then sell to the next firm — which levers up again. Leonard Green & Partners followed that script in April 2025 when it acquired a majority stake in Crunch Fitness from TPG Growth. TPG had already tripled Crunch's footprint to 500 locations and 3 million members via leveraged expansion; Leonard Green now inherits a debt-loaded chain, adding it to a portfolio already marked by the bankruptcy of Joann (2025, 19,000 jobs lost) and The Container Store (2024).\n\nTSG Consumer Partners followed the same logic in a parallel fitness deal. In August 2025, TSG closed its acquisition of EōS Fitness — a 175-location budget chain serving 1.5 million members at $9.99/month — financing the purchase with a unitranche facility from Golub Capital that loaded EōS's balance sheet with LBO debt. The budget-gym sector has seen this structure collapse before: Gold's Gym, 24 Hour Fitness, and Town Sports International all went bankrupt under PE debt in 2020 alone.\n\nThe third deal operates in a different sector but the same extraction logic. Madison Dearborn Partners completed a $1.8 billion take-private of MoneyGram International in June 2023 at $11 per share, delisting the company from NASDAQ. MoneyGram serves roughly 150 million consumers across 135 countries — primarily immigrant workers sending remittances home. Removing it from public markets eliminates the accountability that constrained fee increases and strategy shifts when the company was publicly traded.\n\nWhat connects all three: debt placed on companies that serve working-class consumers. Gym members who depend on $10-a-month access, and families who depend on affordable remittance fees, are the ones who absorb the cost when PE firms need to service acquisition debt or exit at a profit.",
+      "entityIds": [
+        "madison_dearborn_partners",
+        "tsg_consumer_partners",
+        "crunch_fitness",
+        "eos_fitness",
+        "moneygram"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }
