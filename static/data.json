@@ -6081,6 +6081,27 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-05"
+    },
+    {
+      "id": "burberry_group",
+      "name": "Burberry Group plc",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Burberry Group plc is a British luxury fashion and accessories house founded in 1856, publicly traded on the London Stock Exchange (BRBY.L). Burberry sells beauty and fragrance products in mainland China, where Chinese law requires animal testing for imported cosmetics. PETA lists Burberry on its companies-that-do-test database, noting the brand may conduct testing directly or outsource it to third parties to comply with local regulations. By choosing to enter the Chinese market, Burberry pays for animal testing as a condition of market access. Source: PETA's Beauty Without Bunnies database (crueltyfree.peta.org/profile/burberry/).",
+      "blurb": "British luxury fashion house selling clothing, leather goods, fragrance, and beauty products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://crueltyfree.peta.org/profile/burberry/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-06"
     }
   ],
   "brands": [
@@ -13338,6 +13359,66 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-05"
+    },
+    {
+      "id": "opi",
+      "avoid": "OPI",
+      "ownership": [
+        {
+          "firmId": "coty",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "OPI nail polish was removed from PETA's Ultimate Cruelty-Free List after Coty, Inc.\u2014which acquired OPI in 2010\u2014abandoned OPI's policy against animal testing and began selling in mainland China, where animal testing for imported cosmetics is legally required under Chinese regulations. PETA states OPI \"abandoned its policy against tests on animals and was selling in China.\" Source: PETA's Beauty Without Bunnies database (peta.org/lifestyle/personal-care-fashion/beauty-brands-that-you-thought-were-cruelty-free-but-arent/).",
+      "blurb": "Nail polish and nail care brand selling lacquers, treatments, and salon tools.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-06"
+    },
+    {
+      "id": "clairol",
+      "avoid": "Clairol",
+      "ownership": [
+        {
+          "firmId": "coty",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Clairol hair color products\u2014including Nice 'n Easy and Natural Instincts\u2014have been owned by Coty Inc. since 2016, when Coty acquired them as part of a Procter & Gamble beauty brand portfolio deal. Coty tests on animals where required by local regulations, including in mainland China, and PETA lists Clairol on its Beauty Without Bunnies companies-that-do-test database, noting the brand sells in regions where animal testing is legally mandated. Source: PETA's Beauty Without Bunnies database (crueltyfree.peta.org/profile/clairol/).",
+      "blurb": "Hair color brand selling at-home permanent and semi-permanent dye kits.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-06"
+    },
+    {
+      "id": "burberry",
+      "avoid": "Burberry",
+      "ownership": [
+        {
+          "firmId": "burberry_group",
+          "stake": "majority",
+          "since": "1856"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Burberry sells beauty and fragrance products in mainland China, where Chinese regulatory requirements mandate animal testing on imported cosmetics. PETA lists Burberry on its Beauty Without Bunnies companies-that-do-test database, noting the brand may conduct testing directly, via suppliers, or outsource it to comply with local regulations. By maintaining a Chinese market presence for cosmetics, Burberry pays for or commissions animal testing. Source: PETA's Beauty Without Bunnies database (crueltyfree.peta.org/profile/burberry/).",
+      "blurb": "British luxury fashion and beauty brand known for trench coats, fragrances, and accessories.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-06"
     }
   ]
 }

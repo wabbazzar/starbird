@@ -714,6 +714,23 @@
         "moneygram"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-06-06-peta_cruelty_list",
+      "date": "2026-06-06",
+      "title": "Nail Polish, Hair Dye, and Luxury Fashion — All Still Testing on Animals",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "This run surfaces three consumer brands that appear on PETA's Beauty Without Bunnies companies-that-do-test list — OPI, Clairol, and Burberry — all linked to animal testing driven by requirements in the Chinese cosmetics market.",
+      "body": "OPI, one of the most widely used professional nail polish brands, was removed from PETA's Cruelty-Free List after its parent company Coty, Inc. abandoned OPI's longstanding no-testing policy and expanded sales into mainland China. China has historically required animal testing for imported cosmetics, and Coty's decision to enter that market brought OPI into the testing pipeline. PETA's statement is direct: OPI \"abandoned its policy against tests on animals and was selling in China.\"\n\nClairol, the hair color brand behind Nice 'n Easy and Natural Instincts, joined Coty's portfolio in 2016 as part of Coty's acquisition of a Procter & Gamble beauty brand package. Coty tests on animals where required by local regulations, and PETA lists Clairol on the same companies-that-do-test database — noting the brand sells in regions where animal testing is legally mandated.\n\nBurberry is a different kind of addition. Unlike OPI and Clairol, Burberry Group plc is an independent publicly traded luxury fashion house, not a Coty subsidiary. But its decision to sell beauty and fragrance products in mainland China carries the same practical consequence: Chinese regulations require animal testing on imported cosmetics, and Burberry opts in. PETA documents this directly on the Burberry profile in the Beauty Without Bunnies database.\n\nThe throughline across all three is market access. These brands chose or inherited the Chinese cosmetics market, and China's import regulations made animal testing the cost of entry. All three remain on PETA's current do-test list, sourced from crueltyfree.peta.org.",
+      "entityIds": [
+        "burberry_group",
+        "burberry",
+        "clairol",
+        "opi"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
     }
   ]
 }
