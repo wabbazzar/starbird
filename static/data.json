@@ -6102,6 +6102,63 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-06"
+    },
+    {
+      "id": "dow_inc",
+      "name": "Dow Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Dow Inc. is a global materials science company headquartered in Midland, Michigan, operating the largest integrated chemical facility in the Western Hemisphere at Freeport, Texas. The Environmental Integrity Project's 2024 'Plastic's Toxic River' report identified Dow's Freeport plant as the worst industrial wastewater polluter in the United States, releasing more than 800 grams of dioxins and 3.3 million pounds of nitrogen into the Brazos River in 2022. Nearby communities face an estimated cancer risk 40 times higher than the EPA's one-in-a-million benchmark. The University of Massachusetts PERI Toxic 100 Air Polluters Index (2024 report, based on 2022 EPA TRI data) ranks Dow Inc. fifth among all U.S. corporations for chronic human health risk from toxic air releases. Between 2018 and 2022, Dow's Freeport complex violated federal wastewater limits more than 20 times, according to Texas Commission on Environmental Quality records.",
+      "blurb": "Global materials science company making performance plastics, industrial intermediates, silicones, and coatings.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.houstonpublicmedia.org/articles/news/2024/11/18/506151/new-report-dow-freeport-chemical-plant-tops-wastewater-polluting-charts/",
+      "cats": [],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-07"
+    },
+    {
+      "id": "lyondellbasell",
+      "name": "LyondellBasell Industries",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "LyondellBasell Industries N.V. is one of the world's largest plastics and chemical manufacturers, operating a 4,000-acre Channelview Complex near Houston that is among the largest petrochemical facilities on the Gulf Coast. The University of Massachusetts PERI Toxic 100 Air Polluters Index (2024 report, based on 2022 EPA TRI data) ranks LyondellBasell first among all U.S. corporations for chronic human health risk from toxic air releases. An Inside Climate News analysis of EPA TRI data found that LyondellBasell's Channelview complex is one of three facilities responsible for 60 percent of all industrial chemical air emissions in the Houston region and is the region's single largest source of ethylene oxide, a known human carcinogen. Three LyondellBasell U.S. subsidiaries paid a $3.4 million civil penalty and agreed to $50 million in facility upgrades to settle EPA allegations they violated the Clean Air Act at six petrochemical plants in Texas and Iowa. The EPA flagged environmental justice concerns at LyondellBasell's Channelview facilities for excess cancer risk and respiratory hazard in the surrounding community.",
+      "blurb": "Global plastics and chemical company making polyethylene and polypropylene resins, intermediates, and fuels.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://insideclimatenews.org/news/30072024/three-facilities-contribute-half-of-houston-chemical-air-pollution/",
+      "cats": [],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-07"
+    },
+    {
+      "id": "huntsman",
+      "name": "Huntsman Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Huntsman Corporation is a U.S.-based specialty chemicals company headquartered in The Woodlands, Texas, and the world's largest producer of methylene diphenyl diisocyanate (MDI), the principal chemical in polyurethane foams used in mattresses, furniture, and building insulation. The University of Massachusetts PERI Toxic 100 Air Polluters Index (2024 report, based on 2022 EPA TRI data) ranks Huntsman third among all U.S. corporations for chronic health risk from toxic air releases, and second in the companion Toxic 100 Water Polluters Index. At Huntsman's Geismar, Louisiana facility (operated by subsidiary Rubicon LLC), approximately 130 workers reported illness from 25 toxic chemical releases attributable to 56 equipment failures over a ten-year period; a 2019 inspection found 158 overdue safety checks. Air quality near Geismar measured PM2.5 at 57 micrograms per cubic meter, nearly five times the EPA national standard of 12, and cancer risk from air toxics reached 49 per million people versus the agency's benchmark of 1 per million. In 2002, Huntsman managers were imprisoned and the company paid a $9.45 million fine for illegal pollutant releases at its Port Arthur, Texas facility.",
+      "blurb": "Global specialty chemicals manufacturer producing polyurethane MDI, performance products, and textile chemicals.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 75,
+      "source": "https://www.corpwatch.org/cancer-alley-huntsman-profile",
+      "cats": [],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-07"
     }
   ],
   "brands": [
@@ -13419,6 +13476,66 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-06"
+    },
+    {
+      "id": "styrofoam",
+      "avoid": "STYROFOAM",
+      "ownership": [
+        {
+          "firmId": "dow_inc",
+          "stake": "majority",
+          "since": "1948"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "STYROFOAM brand extruded polystyrene foam insulation is a product of Dow Inc., which the University of Massachusetts PERI Toxic 100 Air Polluters Index (2024, based on 2022 EPA TRI data) ranks fifth among all U.S. corporations for chronic human health risk from toxic air releases. Dow's Freeport, Texas complex was identified as the worst industrial wastewater polluter in the U.S. by the Environmental Integrity Project's 2024 'Plastic's Toxic River' report. Dow discharged more than 800 grams of dioxins and 3.3 million pounds of nitrogen into the Brazos River in 2022, while census blocks adjacent to the Freeport plant face estimated cancer risks 40 times higher than the EPA's benchmark.",
+      "blurb": "Extruded polystyrene foam insulation boards and shapes sold at hardware stores for home construction.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-07"
+    },
+    {
+      "id": "lyondellbasell",
+      "avoid": "LyondellBasell",
+      "ownership": [
+        {
+          "firmId": "lyondellbasell",
+          "stake": "majority",
+          "since": "2007"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "LyondellBasell is the world's largest producer of polypropylene and polyethylene resins, the base plastics in most consumer packaging, food containers, and household goods. The University of Massachusetts PERI Toxic 100 Air Polluters Index (2024, based on 2022 EPA TRI data) ranks LyondellBasell first among all U.S. corporations for chronic human health risk from toxic air releases. Its 4,000-acre Channelview, Texas complex is one of three facilities generating 60 percent of Houston's industrial chemical air pollution and is the region's leading source of ethylene oxide, a known human carcinogen. Three LyondellBasell subsidiaries paid a $3.4 million EPA civil penalty and committed $50 million in upgrades to resolve Clean Air Act violations at six U.S. chemical plants.",
+      "blurb": "Makes polyethylene and polypropylene resins used in consumer packaging, food containers, and household goods.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-07"
+    },
+    {
+      "id": "huntsman",
+      "avoid": "Huntsman",
+      "ownership": [
+        {
+          "firmId": "huntsman",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Huntsman Corporation makes the methylene diphenyl diisocyanate (MDI) used to produce polyurethane foam found in most mattresses, furniture cushions, and spray-foam home insulation. The University of Massachusetts PERI Toxic 100 ranks Huntsman third in air pollution and second in water pollution (2022 data) for chronic human health risk among all U.S. corporations. At Huntsman's Geismar, Louisiana facility, around 130 workers were sickened by 25 documented toxic releases over a decade; air quality near the plant measured nearly five times the federal PM2.5 standard, with cancer risk 49 times the EPA benchmark. In 2002, Huntsman paid a $9.45 million criminal fine and saw managers imprisoned for illegal pollutant releases at its Port Arthur, Texas plant.",
+      "blurb": "Specialty chemicals company whose MDI is used in polyurethane foam for mattresses, furniture, and home insulation.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-07"
     }
   ]
 }

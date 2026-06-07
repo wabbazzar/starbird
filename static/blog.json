@@ -731,6 +731,23 @@
         "opi"
       ],
       "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-06-07-epa_tri_toxics_release",
+      "date": "2026-06-07",
+      "title": "Plastic's Toxic River: The Chemical Giants Poisoning Your Watershed",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "Three of America's largest chemical manufacturers — ranked by EPA data as the country's worst air and water polluters — make the foam insulation, plastic packaging, and mattress materials in your home. This run surfaces them from the EPA Toxics Release Inventory and the PERI Toxic 100 rankings.",
+      "body": "The EPA's Toxics Release Inventory tracks tens of thousands of industrial facilities, but a handful of chemical giants dwarf the rest in risk to human health. This run drew from the University of Massachusetts PERI Toxic 100 Air Polluters Index (2024 edition, based on 2022 TRI data), which weights releases by their toxicity and proximity to people — not just raw pounds emitted.\n\nLyondellBasell, the world's largest maker of polyethylene and polypropylene resins, ranks first nationally for chronic health risk from toxic air releases. Its 4,000-acre Channelview complex near Houston is one of three facilities responsible for 60 percent of the region's industrial chemical air pollution, and the single largest local source of ethylene oxide, a known carcinogen. Three of its subsidiaries settled Clean Air Act violations with a $3.4 million penalty and a $50 million remediation commitment.\n\nDow Inc.'s Freeport, Texas complex — the largest integrated chemical facility in the Western Hemisphere — earned a different distinction: the Environmental Integrity Project named it the worst industrial wastewater polluter in the United States. Dow discharged more than 800 grams of dioxins and 3.3 million pounds of nitrogen into the Brazos River in 2022. Cancer risk in adjacent census blocks runs 40 times higher than the EPA's benchmark. STYROFOAM brand insulation, the consumer face of Dow's operations, is sold at hardware stores across the country.\n\nHuntsman Corporation ranks third in air and second in water on the same PERI index. Its MDI chemicals are the backbone of polyurethane foam — the material in most mattresses, sofas, and spray-foam insulation. At Huntsman's Geismar, Louisiana facility, around 130 workers were sickened by 25 toxic releases over a decade. Air quality near the plant measured nearly five times the federal PM2.5 standard, with cancer risk 49 times the EPA limit. In 2002, managers were imprisoned and the company fined $9.45 million for illegal releases at its Port Arthur, Texas plant.",
+      "entityIds": [
+        "dow_inc",
+        "huntsman",
+        "lyondellbasell",
+        "styrofoam"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
     }
   ]
 }
