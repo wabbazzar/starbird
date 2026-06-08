@@ -30,7 +30,7 @@
 	let cat = $state('all');
 	let search = $state('');
 	let matchOnly = $state(false);
-	let sortKey = $state<'harm' | 'date'>('harm');
+	let sortKey = $state<'harm' | 'date'>('date');
 	let sortDir = $state<'desc' | 'asc'>('desc');
 	let showOnboarding = $state(false);
 	let showEditValues = $state(false);
