@@ -748,6 +748,21 @@
         "styrofoam"
       ],
       "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-06-08-mijente_no_tech_for_ice",
+      "date": "2026-06-08",
+      "title": "The Platforms Behind the Deportation Machine",
+      "strategy": "mijente_no_tech_for_ice",
+      "strategyLabel": "Mijente No Tech for ICE tracker",
+      "value": "workers",
+      "summary": "This run surfaces two tech giants — Salesforce and GitHub — whose products have quietly underpinned ICE's enforcement apparatus, from enterprise CRM to developer tooling, while also documenting the specific border-surveillance contracts that tie Anduril's AI towers to real-time migrant apprehension.",
+      "body": "Most people think of ICE contractors as specialist detention firms or surveillance startups. This run shows how mainstream enterprise software quietly fills the same role. Salesforce has held active contracts with both CBP and ICE across three administrations, and in October 2025 it pitched its Agentforce AI platform to the Trump White House as a tool that could help ICE \"triple its staff\" — the same platform its own employees demanded the company pull back in early 2026.\n\nGitHub's involvement is smaller in dollar terms — a $200,000 Enterprise Server contract renewed in 2019 — but notable for the internal response it triggered. More than 150 employees signed an open letter asking the company to walk away; five resigned when CEO Nat Friedman declined, offering a charitable donation as a substitute for cancellation. The developer community then had to contend with the irony of a company changing its default branch name while keeping its ICE contract intact.\n\nAnduril's Sentry tower network, already in the database for its Thiel-network ties, turns out to be one of the most concretely documented pieces of CBP infrastructure: $25 million in July 2020, $36 million more in September, and up to $250 million under the broader DHS virtual border wall program. By 2023, 290 AI-powered towers lined the US-Mexico border, feeding real-time detections to Anduril's Lattice platform for use by border agents making apprehension decisions. The ACLU has argued the network pushes migrants toward more dangerous crossing routes rather than deterring crossings.\n\nTaken together, these entries illustrate a recurring pattern: a company's general-purpose software or infrastructure gets quietly repurposed for immigration enforcement, often far from public view until employees push back or an investigative report surfaces the contract.",
+      "entityIds": [
+        "salesforce",
+        "github"
+      ],
+      "source": "https://notechforice.com/"
     }
   ]
 }

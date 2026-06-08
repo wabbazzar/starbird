@@ -2624,7 +2624,7 @@
       "name": "Anduril Industries",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Anduril Industries is a defense technology company founded in 2017 by Palmer Luckey (creator of Oculus VR) and backed by Peter Thiel's Founders Fund. Anduril develops autonomous weapons, surveillance towers, and AI-driven border monitoring systems. Its Lattice AI platform is deployed along the US-Mexico border for immigration enforcement surveillance. LittleSis documents the company's ties to the Thiel network of political donors who have funded campaigns to weaken democratic oversight of surveillance and weapons technology, while Anduril has received over $1.5 billion in Pentagon contracts with limited public accountability for the autonomous lethality decisions built into its systems.",
+      "summary": "Anduril Industries is a defense technology company founded in 2017 by Palmer Luckey (creator of Oculus VR) and backed by Peter Thiel's Founders Fund. Anduril develops autonomous weapons, surveillance towers, and AI-driven border monitoring systems. Its Lattice AI platform is deployed along the US-Mexico border for immigration enforcement surveillance. LittleSis documents the company's ties to the Thiel network of political donors who have funded campaigns to weaken democratic oversight of surveillance and weapons technology, while Anduril has received over $1.5 billion in Pentagon contracts with limited public accountability for the autonomous lethality decisions built into its systems. CBP awarded Anduril a $25 million contract in July 2020 for Sentry surveillance towers and an additional $36 million in September 2020; a broader DHS award of up to $250 million was granted for the virtual border wall program. By 2023, 290 Sentry towers were installed along the US-Mexico border, feeding real-time AI detections to Lattice for use by border agents in migrant apprehension. The ACLU and civil rights groups argue the towers push migrants toward more dangerous crossing routes. (Source: Wikipedia/Anduril Industries)",
       "blurb": "Defense technology company building autonomous systems, sensors, drones, and AI software for military applications.",
       "brands": [
         "Anduril Industries"
@@ -2637,10 +2637,11 @@
         "tech"
       ],
       "harms": [
-        "elite_impunity_general"
+        "elite_impunity_general",
+        "workers_ice_cooperation"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-06-08"
     },
     {
       "id": "iac_interactivecorp",
@@ -6159,6 +6160,27 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-07"
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Salesforce is a San Francisco-based enterprise CRM and cloud software company. It has maintained contracts with U.S. Customs and Border Protection (CBP) and Immigration and Customs Enforcement (ICE) across the Obama, Biden, and Trump administrations. In October 2025, Salesforce pitched its Agentforce AI platform to the Trump administration, proposing ways it \"could help ICE triple its staff\" to support mass deportation operations. At the company's February 2026 annual kickoff, CEO Marc Benioff made jokes about ICE agents monitoring international employees; employees subsequently circulated letters demanding the company \"denounce ICE and halt the sale of Agentforce infrastructure to the agency.\" In 2018, the immigrant-advocacy nonprofit RAICES rejected a $250,000 Salesforce donation, citing its immigration enforcement contracts as incompatible with RAICES's mission.",
+      "blurb": "Cloud-based CRM and enterprise software for sales, service, and marketing.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://en.wikipedia.org/wiki/Salesforce",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-08"
     }
   ],
   "brands": [
@@ -9136,13 +9158,14 @@
       ],
       "cat": "tech",
       "alts": [],
-      "why": "Anduril Industries, backed by Peter Thiel's Founders Fund, has secured over $1.5 billion in Pentagon contracts for autonomous weapons and surveillance systems with limited public oversight of its AI-driven lethality decisions. Its Lattice border surveillance platform is deployed at the US-Mexico border for immigration enforcement. LittleSis documents Anduril's position within the Thiel political network, whose members have funded efforts to weaken democratic oversight of AI weapons, funded election denialism, and secured government contracts through political access rather than competitive merit \u2014 part of a broader pattern of private defense tech firms concentrating power outside normal accountability structures.",
+      "why": "Anduril Industries, backed by Peter Thiel's Founders Fund, has secured over $1.5 billion in Pentagon contracts for autonomous weapons and surveillance systems with limited public oversight of its AI-driven lethality decisions. Its Lattice border surveillance platform is deployed at the US-Mexico border for immigration enforcement. LittleSis documents Anduril's position within the Thiel political network, whose members have funded efforts to weaken democratic oversight of AI weapons, funded election denialism, and secured government contracts through political access rather than competitive merit \u2014 part of a broader pattern of private defense tech firms concentrating power outside normal accountability structures. CBP awarded Anduril a $25 million contract in July 2020 for Sentry surveillance towers and an additional $36 million in September 2020; up to $250 million was awarded by DHS for the virtual border wall program. By 2023, 290 Sentry towers lined the US-Mexico border, sending AI-classified detections to Lattice to support real-time migrant apprehension by border agents. The ACLU argues the network pushes migrants toward more dangerous crossing routes.",
       "blurb": "Defense technology company building autonomous drones, surveillance towers, and AI-driven military systems.",
       "harms": [
-        "elite_impunity_general"
+        "elite_impunity_general",
+        "workers_ice_cooperation"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11"
+      "addedAt": "2026-06-08"
     },
     {
       "id": "angi",
@@ -13536,6 +13559,46 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-07"
+    },
+    {
+      "id": "salesforce",
+      "avoid": "Salesforce",
+      "ownership": [
+        {
+          "firmId": "salesforce",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Salesforce has maintained contracts with U.S. Customs and Border Protection (CBP) and ICE across multiple administrations. In October 2025, Salesforce pitched its Agentforce AI platform to Trump administration officials, proposing ways the tool \"could help ICE triple its staff\" to support mass deportation operations. At the company's February 2026 annual kickoff, CEO Marc Benioff joked about ICE agents monitoring the room; employees circulated letters demanding Salesforce \"denounce ICE and halt the sale of Agentforce infrastructure to the agency.\" In 2018, the nonprofit RAICES rejected a $250,000 Salesforce donation because \"accepting funds from a company supporting immigration enforcement conflicted with its mission.\"",
+      "blurb": "Cloud-based CRM and enterprise software for sales teams, customer service, and marketing.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-08"
+    },
+    {
+      "id": "github",
+      "avoid": "GitHub",
+      "ownership": [
+        {
+          "firmId": "microsoft",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "GitHub, acquired by Microsoft in 2018, held a $200,000 contract with ICE for GitHub Enterprise Server \u2014 the on-premises version of its developer platform \u2014 and renewed it in 2019 despite internal opposition. At least 150 GitHub employees signed an open letter demanding cancellation; five workers resigned in protest. CEO Nat Friedman declined to cancel the contract, pledging instead a $500,000 donation to nonprofits supporting immigrant communities. Critics renewed calls to drop the contract in June 2020, arguing the company's branch-naming changes were performative activism that sidestepped the core issue.",
+      "blurb": "Developer platform for version control, code collaboration, and open-source project hosting.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-08"
     }
   ]
 }
