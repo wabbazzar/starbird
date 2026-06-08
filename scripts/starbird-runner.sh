@@ -254,13 +254,6 @@ if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
     exit 1
   fi
 
-  # Regenerate share card PNGs so newly-added entities get an OG image.
-  # The script is idempotent and overwrites all cards deterministically;
-  # `git add static/cards/` only stages files that actually changed.
-  echo "[starbird-runner] regenerating share card PNGs…" >> "$LOG_FILE"
-  python3 "$STARBIRD_DIR/scripts/generate-card-images.py" >> "$LOG_FILE" 2>&1 || \
-    echo "[starbird-runner] WARN: card image generation failed" >> "$LOG_FILE"
-
   # Refresh counts come from compute-run-metrics.py — used in both the
   # commit message and the Signal notification so updates are visible.
   REFRESHED_FIRMS_PRE=$(echo "$GROUND_TRUTH" | python3 -c "import json,sys; print(json.load(sys.stdin).get('refreshed_firms', 0))" 2>/dev/null || echo 0)
@@ -278,7 +271,15 @@ if [ "$MODE" = "daily" ] && [ "$NEW_ENTITIES" -gt 0 ]; then
     echo "[starbird-runner] WARN: blog post append failed" >> "$LOG_FILE"
   rm -f "$STARBIRD_DIR/tmp/blog-draft.json"
 
-  git add static/data.json static/cards/ static/blog.json
+  # Regenerate share OG PNGs so newly-added entities and the new blog
+  # dispatch each get an image. Runs after the blog append so the post
+  # written above is included. The script is idempotent and overwrites
+  # deterministically; `git add` only stages files that actually changed.
+  echo "[starbird-runner] regenerating share OG PNGs…" >> "$LOG_FILE"
+  python3 "$STARBIRD_DIR/scripts/generate-card-images.py" >> "$LOG_FILE" 2>&1 || \
+    echo "[starbird-runner] WARN: card image generation failed" >> "$LOG_FILE"
+
+  git add static/data.json static/cards/ static/posts/ static/blog.json
   git commit -m "Runner: $NEW_ENTITIES entity(ies) for $PICKED_STRATEGY
 
 strategy: $PICKED_STRATEGY

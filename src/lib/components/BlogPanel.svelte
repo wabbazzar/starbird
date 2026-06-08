@@ -32,6 +32,22 @@
 		return body.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
 	}
 
+	// Share a single dispatch. Mirrors the brand/firm card share: the URL
+	// points at the prerendered /blog/<id>/ page, which carries OG meta tags
+	// for rich unfurls and redirects humans to the post in the app.
+	async function share(post: BlogPost) {
+		const url = `https://starbird42.com/blog/${post.id}/`;
+		try {
+			if (navigator.share) {
+				await navigator.share({ url });
+			} else {
+				await navigator.clipboard.writeText(url);
+			}
+		} catch {
+			// User cancelled
+		}
+	}
+
 	function prettyDate(iso: string): string {
 		// iso is YYYY-MM-DD; build a UTC date so the day doesn't shift by tz.
 		const [y, mo, d] = iso.split('-').map(Number);
@@ -48,7 +64,7 @@
 <div class="blog">
 	<div class="count">{ordered.length} dispatches from the research runner</div>
 	{#each ordered as post (post.id)}
-		<article class="post">
+		<article class="post" id="post-{post.id}">
 			<header class="post-head">
 				<time datetime={post.date}>{prettyDate(post.date)}</time>
 				<ValueChip id={post.value as ValueId} />
@@ -76,9 +92,14 @@
 			{/if}
 			<div class="source-row">
 				<span class="strategy">{post.strategyLabel}</span>
-				{#if post.source}
-					<a class="src" href={post.source} target="_blank" rel="noopener noreferrer">source ↗</a>
-				{/if}
+				<div class="actions">
+					{#if post.source}
+						<a class="src" href={post.source} target="_blank" rel="noopener noreferrer">source ↗</a>
+					{/if}
+					<button type="button" class="share-btn" onclick={() => share(post)}>
+						<span aria-hidden="true">◈</span> Share
+					</button>
+				</div>
 			</div>
 		</article>
 	{/each}
@@ -194,5 +215,32 @@
 	}
 	.src:hover {
 		text-decoration: underline;
+	}
+	.actions {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	.share-btn {
+		flex-shrink: 0;
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 5px 12px;
+		border-radius: 8px;
+		border: 1px solid var(--border);
+		background: var(--surface-2);
+		color: var(--primary);
+		font-family: 'DM Mono', monospace;
+		font-size: 0.62rem;
+		cursor: pointer;
+		transition: all 150ms ease;
+	}
+	.share-btn:hover {
+		border-color: var(--primary);
+		background: var(--primary-dim);
+	}
+	.share-btn:active {
+		transform: scale(0.96);
 	}
 </style>

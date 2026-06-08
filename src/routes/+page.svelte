@@ -88,7 +88,13 @@
 		}
 	});
 
-	async function loadBlog() {
+	// Deduped so a post deep-link and the onMount call share one fetch.
+	let blogReq: Promise<void> | null = null;
+	function loadBlog(): Promise<void> {
+		if (!blogReq) blogReq = fetchBlog();
+		return blogReq;
+	}
+	async function fetchBlog() {
 		try {
 			const resp = await fetch(`${base}/blog.json?v=${__BUILD_ID__}`);
 			if (!resp.ok) return;
@@ -124,16 +130,38 @@
 	}
 
 	/**
-	 * If the user landed via /card/<id>/ (which redirects to /#<id>),
-	 * jump to the matching brand or firm card. Resets filters first
-	 * so the target isn't hidden by an active category or match-only
-	 * toggle. Switches panel based on whether the id is a firm or
-	 * a brand.
+	 * Navigate to a blog dispatch by id: open the blog panel, then scroll
+	 * + highlight. Mirrors goToEntity. Used by the /blog/<id>/ deep-link.
+	 */
+	async function goToPost(id: string) {
+		if (!posts.some((p) => p.id === id)) return;
+		panel = 'blog';
+		// Wait for Svelte to render the blog panel, then scroll.
+		await new Promise((r) => requestAnimationFrame(() => r(null)));
+		await new Promise((r) => requestAnimationFrame(() => r(null)));
+		const el = document.getElementById(`post-${id}`);
+		if (el) {
+			el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			el.classList.add('card-deep-linked');
+			setTimeout(() => el.classList.remove('card-deep-linked'), 1800);
+		}
+	}
+
+	/**
+	 * If the user landed via /card/<id>/ (which redirects to /#<id>) or
+	 * /blog/<id>/ (which redirects to /#post-<id>), jump to the matching
+	 * card or dispatch. Resets filters first so the target isn't hidden by
+	 * an active category or match-only toggle. Switches panel to match.
 	 */
 	async function deepLinkToHash() {
-		const id = decodeURIComponent(location.hash.replace(/^#/, ''));
-		if (!id) return;
-		await goToEntity(id);
+		const raw = decodeURIComponent(location.hash.replace(/^#/, ''));
+		if (!raw) return;
+		if (raw.startsWith('post-')) {
+			await loadBlog();
+			await goToPost(raw.slice('post-'.length));
+		} else {
+			await goToEntity(raw);
+		}
 	}
 
 	/**

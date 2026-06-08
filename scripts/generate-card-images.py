@@ -10,11 +10,14 @@ Re-run whenever data.json changes (the Guardian can trigger this).
 import json
 import pathlib
 import textwrap
+from datetime import date
 from PIL import Image, ImageDraw, ImageFont
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 DATA = REPO / "static" / "data.json"
+BLOG = REPO / "static" / "blog.json"
 OUT = REPO / "static" / "cards"
+POSTS_OUT = REPO / "static" / "posts"
 LOGO = REPO / "static" / "logo-dark.png"
 LOGO_LIGHT = REPO / "static" / "logo-light.png"
 FONTS = pathlib.Path(__file__).resolve().parent / "fonts"
@@ -43,6 +46,27 @@ QUEST_TO_VALUE = {
     "elite_impunity_general": "Elite impunity", "elite_impunity_epstein_network": "Elite impunity",
     "elite_impunity_positive": "Elite impunity",
 }
+
+
+# ValueId → display label, mirrors src/lib/values.ts. Used for blog dispatch
+# OG images, where each post rolls up to exactly one value.
+VALUE_LABELS = {
+    "workers": "Workers",
+    "environment": "Environment",
+    "animals": "Animals",
+    "health": "Health",
+    "extraction": "Extraction",
+    "elite_impunity": "Elite impunity",
+}
+
+
+def pretty_date(iso):
+    """YYYY-MM-DD → 'June 8, 2026'. Falls back to the raw string."""
+    try:
+        y, m, d = (int(x) for x in iso.split("-"))
+        return date(y, m, d).strftime("%B %-d, %Y")
+    except Exception:
+        return iso
 
 
 def card_intent(harms, aligns):
@@ -168,6 +192,67 @@ def render_card(
     if footer_extra:
         draw.text((W - 56 - draw.textlength(footer_extra, font=FONT_URL), H - 56),
                   footer_extra, fill=INK_FAINT, font=FONT_URL)
+
+    return img
+
+
+def render_post(title, date_label, value_label, summary, strategy_label):
+    """OG image for a blog dispatch. Shares the dark card chrome with
+    render_card but leads with the headline + date and uses the site's
+    primary teal as the accent (dispatches aren't a verdict)."""
+    accent = PRIMARY
+    img = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(img)
+
+    # Card surface + left accent stripe
+    draw.rounded_rectangle([32, 68, W - 32, H - 36], radius=14, fill=SURFACE)
+    draw.rectangle([32, 82, 37, H - 50], fill=accent)
+
+    # Logo + STARBIRD header
+    logo = load_logo()
+    if logo:
+        img.paste(logo, (48, 12), logo)
+    draw.text((100, 18), "STARBIRD", fill=INK, font=FONT_TITLE)
+
+    cx, cy = 56, 90
+
+    # Eyebrow: DISPATCH · date
+    draw.text((cx, cy), f"DISPATCH · {date_label.upper()}", fill=accent, font=FONT_SMALL)
+    cy += 32
+
+    # Headline (wrapped, up to 3 lines)
+    for line in textwrap.fill(title, width=46).split("\n")[:3]:
+        draw.text((cx, cy), line, fill=INK, font=FONT_NAME)
+        cy += 42
+    cy += 8
+
+    # Value chip — teal pill, matching the card chip treatment
+    if value_label:
+        tw = int(draw.textlength(value_label, font=FONT_CHIP))
+        chip_w, chip_h = tw + 20, 26
+        chip = Image.new("RGBA", (chip_w, chip_h), (0, 0, 0, 0))
+        ImageDraw.Draw(chip).rounded_rectangle(
+            [0, 0, chip_w - 1, chip_h - 1], radius=12,
+            fill=(95, 196, 208, 40), outline=accent,
+        )
+        img.paste(chip, (cx, cy), chip.split()[3])
+        draw.text((cx + 10, cy + 4), value_label, fill=accent, font=FONT_CHIP)
+        cy += chip_h + 16
+
+    # Divider
+    draw.line([(cx, cy - 6), (W - 56, cy - 6)], fill="#333333", width=1)
+    cy += 4
+
+    # Summary (wrapped, up to 5 lines)
+    for line in textwrap.fill(summary[:340], width=92).split("\n")[:5]:
+        draw.text((cx, cy + 2), line, fill=INK_MUTED, font=FONT_TEXT)
+        cy += 24
+
+    # Footer — strategy label, right-aligned
+    if strategy_label:
+        ft = strategy_label.upper()
+        draw.text((W - 56 - draw.textlength(ft, font=FONT_URL), H - 56),
+                  ft, fill=INK_FAINT, font=FONT_URL)
 
     return img
 
@@ -353,7 +438,26 @@ def main():
     default_img.save(OUT / "_default.png")
     count += 1
 
-    print(f"generated {count} card images in {OUT}")
+    # Blog dispatch OG images — one per post in blog.json. Mirrors the card
+    # images, but driven by the blog file and written to static/posts/.
+    posts = 0
+    if BLOG.exists():
+        POSTS_OUT.mkdir(parents=True, exist_ok=True)
+        blog = json.loads(BLOG.read_text())
+        for p in blog.get("posts", []):
+            if not p.get("id"):
+                continue
+            img = render_post(
+                title=p.get("title", ""),
+                date_label=pretty_date(p.get("date", "")),
+                value_label=VALUE_LABELS.get(p.get("value", ""), p.get("value", "")),
+                summary=p.get("summary", ""),
+                strategy_label=p.get("strategyLabel", ""),
+            )
+            img.save(POSTS_OUT / f"{p['id']}.png")
+            posts += 1
+
+    print(f"generated {count} card images in {OUT}, {posts} post images in {POSTS_OUT}")
 
 
 if __name__ == "__main__":
