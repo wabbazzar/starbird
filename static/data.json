@@ -6181,6 +6181,69 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-08"
+    },
+    {
+      "id": "westlake_corporation",
+      "name": "Westlake Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Westlake Corporation is one of North America's largest producers of polyvinyl chloride (PVC), chlor-alkali chemicals, and downstream PVC building products. The company's Louisiana manufacturing complex has had documented releases of benzene, chloroform, ethylene dichloride, hydrogen chloride, and vinyl chloride \u2014 a known human carcinogen. In 2024, the EPA announced that emissions of ethylene dichloride (EDC) from Westlake's Calvert City, Kentucky facility were driving elevated cancer risk for nearby residents, identifying it as the main source of EDC emissions in the area. The company also experienced multiple industrial explosions at its Sulphur and Westlake, Louisiana plants in 2021\u20132022, triggering shelter-in-place orders.",
+      "blurb": "Manufactures PVC, chlor-alkali chemicals, and vinyl building products including siding and windows.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 73,
+      "source": "https://en.wikipedia.org/wiki/Westlake_Corporation",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-09"
+    },
+    {
+      "id": "sylvamo_corporation",
+      "name": "Sylvamo Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Sylvamo Corporation, spun off from International Paper in October 2021, is a major global producer of printing and writing papers. The company operates kraft paper mills in Franklin, Virginia; Georgetown, South Carolina; and Selma, Alabama. The kraft pulping process inherently generates methanol and total reduced sulfur (TRS) compounds \u2014 including hydrogen sulfide and methyl mercaptan \u2014 as chemical byproducts, making kraft mills consistent reporters to the EPA's Toxics Release Inventory. These TRS releases create strong odors and pose respiratory risks to neighboring communities. Sylvamo's mills are among the largest industrial air emission sources in their respective states.",
+      "blurb": "Global producer of printing and writing papers; operates kraft paper mills in the United States and internationally.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.sylvamo.com",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-09"
+    },
+    {
+      "id": "rpm_international",
+      "name": "RPM International",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "RPM International is an American manufacturer of specialty coatings, sealants, and building materials with 118 manufacturing facilities worldwide. Production of solvent-based paints, coatings, and adhesives involves organic solvents including toluene, xylene, and methylene chloride \u2014 chemicals reportable under the EPA's Toxics Release Inventory for their volatile organic compound (VOC) and hazardous air pollutant releases. RPM's subsidiaries, including Rust-Oleum and DAP Products, operate industrial-scale coating and sealant manufacturing with associated VOC emissions at facilities across the United States.",
+      "blurb": "Manufactures specialty coatings, sealants, and building materials sold under consumer and professional brand names.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://en.wikipedia.org/wiki/RPM_International",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-09"
     }
   ],
   "brands": [
@@ -13599,6 +13662,66 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-08"
+    },
+    {
+      "id": "royal_building_products",
+      "avoid": "Royal Building Products",
+      "ownership": [
+        {
+          "firmId": "westlake_corporation",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Royal Building Products is the vinyl building products division of Westlake Corporation, one of North America's largest PVC manufacturers. Westlake's Louisiana and Kentucky production facilities have documented releases of vinyl chloride (an IARC Group 1 human carcinogen), ethylene dichloride, benzene, and chloroform. In 2024, the EPA determined that EDC emissions from Westlake's Calvert City, KY facility were driving elevated cancer risk in surrounding neighborhoods, identifying it as the main source of those emissions in the area. Purchasing Royal vinyl siding, trim, or windows supports Westlake's PVC manufacturing operations \u2014 some of the most significant sources of carcinogenic air pollutants in their operating regions.",
+      "blurb": "PVC vinyl siding, trim, window profiles, decking, and fencing for residential and commercial construction.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-09"
+    },
+    {
+      "id": "hammermill_paper",
+      "avoid": "Hammermill",
+      "ownership": [
+        {
+          "firmId": "sylvamo_corporation",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Hammermill is the leading North American copy and printer paper brand manufactured by Sylvamo Corporation, which operates kraft paper mills in Virginia, South Carolina, and Alabama. The kraft pulping process releases methanol and total reduced sulfur (TRS) chemicals \u2014 including hydrogen sulfide and methyl mercaptan \u2014 as inherent chemical byproducts, making Sylvamo's mills consistent reporters to the EPA's Toxics Release Inventory. TRS releases cause persistent odor impacts and respiratory concerns for communities near these mills, which are among the largest industrial air emission facilities in their states.",
+      "blurb": "Office copy and printer paper sold at retail and office supply stores; leading North American printing paper brand.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-09"
+    },
+    {
+      "id": "rust_oleum",
+      "avoid": "Rust-Oleum",
+      "ownership": [
+        {
+          "firmId": "rpm_international",
+          "stake": "majority",
+          "since": "1994"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Rust-Oleum is a leading consumer and professional paint and coating brand owned by RPM International, which operates 118 manufacturing facilities producing specialty coatings, sealants, and adhesives. Manufacturing these solvent-based products releases volatile organic compounds (VOCs) \u2014 including toluene, xylene, and methylene chloride \u2014 reportable to the EPA's Toxics Release Inventory as hazardous air pollutants. RPM's coating manufacturing facilities emit these chemicals during production, contributing to air quality concerns in communities near their plants.",
+      "blurb": "Consumer and professional spray paints, coatings, and specialty products for home, auto, and industrial use.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-09"
     }
   ]
 }

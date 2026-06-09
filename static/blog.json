@@ -763,6 +763,25 @@
         "github"
       ],
       "source": "https://notechforice.com/"
+    },
+    {
+      "id": "2026-06-09-epa_tri_toxics_release",
+      "date": "2026-06-09",
+      "title": "PVC Siding, Office Paper, and Spray Paint: Three More Toxic Releasers",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "This run surfaced three industrial manufacturers — a PVC giant, a paper company, and a coatings maker — whose consumer-facing brands are found at every Home Depot, office supply store, and hardware aisle, even as their factories rank among the EPA's top toxic chemical reporters.",
+      "body": "Westlake Corporation is one of North America's largest PVC manufacturers, and their Louisiana chemical complex has documented releases of vinyl chloride, ethylene dichloride, benzene, and chloroform. In 2024 the EPA singled out Westlake's Calvert City, Kentucky facility as driving elevated cancer risk in surrounding neighborhoods — identifying it as the area's main source of ethylene dichloride emissions. Their building products arm, Royal Building Products, sells vinyl siding, window profiles, trim, and decking at major retailers, making it a direct consumer link to that chemical production chain.\n\nSylvamo Corporation spun out of International Paper in 2021 and now runs kraft paper mills in Virginia, South Carolina, and Alabama under consumer-familiar brands like Hammermill and HP Papers. Kraft pulping is an inherently chemical-intensive process: it releases methanol and a family of sulfur compounds — hydrogen sulfide, methyl mercaptan — known as total reduced sulfur (TRS). These gases create persistent odor impacts and air quality concerns for communities near the mills, which are among the largest industrial emitters in their states. Buying a ream of Hammermill paper at Staples funds those mills.\n\nRPM International manufactures Rust-Oleum paints, DAP caulks, and Varathane wood finishes across 118 production facilities worldwide. Solvent-based coatings manufacturing releases volatile organic compounds — toluene, xylene, methylene chloride — that are reportable to the EPA's Toxics Release Inventory as hazardous air pollutants. The household convenience of a spray can of Rust-Oleum represents the downstream face of industrial solvent operations at scale.",
+      "entityIds": [
+        "rpm_international",
+        "sylvamo_corporation",
+        "westlake_corporation",
+        "hammermill_paper",
+        "royal_building_products",
+        "rust_oleum"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
     }
   ]
 }
