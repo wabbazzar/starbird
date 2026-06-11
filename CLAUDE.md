@@ -72,4 +72,4 @@ Every harm tag on a brand or firm MUST have corresponding evidence in the `why` 
 
 ## Deploy
 
-Push to main → GitHub Actions build + deploy to GitHub Pages (custom domain: `starbird42.com`). The push also fires the Guardian hook locally.
+Push to main → GitHub Actions build + deploy to GitHub Pages (custom domain: `starbird42.com`).
