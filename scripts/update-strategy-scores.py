@@ -38,12 +38,12 @@ WINDOW = 10  # number of recent runs per strategy to score over
 # Target entries per value system. When a value hits this count, its
 # strategies stop getting scored upward and the bandit moves on.
 TARGETS_PER_VALUE = {
-    "workers": 100,
-    "environment": 100,
-    "animals": 100,
-    "health": 100,
-    "extraction": 100,
-    "elite_impunity": 100,
+    "workers": 150,
+    "environment": 150,
+    "animals": 150,
+    "health": 150,
+    "extraction": 150,
+    "elite_impunity": 150,
 }
 
 # Strategy registry. Each strategy knows which value it contributes to.
