@@ -6244,6 +6244,69 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-09"
+    },
+    {
+      "id": "apple_inc",
+      "name": "Apple Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Apple Inc. is the world's largest technology company by market capitalization, known for the iPhone, Mac, and App Store. The Paradise Papers (2017, ICIJ) revealed Apple restructured three Irish subsidiaries\u2014Apple Sales International, Apple Operations International, and Apple Operations Europe\u2014relocating the first two to Jersey after US Senate scrutiny exposed its previous 'Double Irish' tax arrangement. Apple Sales International alone generated over $120 billion in profits over five years (nearly 60% of Apple's worldwide earnings) while paying minimal tax. By 2017, Apple had accumulated $252 billion in offshore earnings through these structures. Appleby, the Bermuda law firm at the center of the Paradise Papers leak, facilitated the restructuring. The arrangement represents systemic elite impunity: the world's most profitable company used bespoke legal engineering to avoid public tax obligations that apply to ordinary businesses.",
+      "blurb": "Designs and sells iPhones, Macs, iPads, and runs the App Store and Apple services ecosystem.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.icij.org/investigations/paradise-papers/apples-secret-offshore-island-hop-revealed-by-paradise-papers-leak-icij/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-12"
+    },
+    {
+      "id": "nike_inc",
+      "name": "Nike, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Nike, Inc. is the world's largest athletic footwear and apparel company, headquartered in Beaverton, Oregon. The Paradise Papers (2017, ICIJ) revealed that Nike transferred approximately $1 billion annually to a Bermuda subsidiary tax-free, disguised as 'intra-group royalty fees' for the Swoosh trademark and other intellectual property. Nike's IP rights could be traced to a five-story office block in Bermuda occupied by Appleby and Estera\u2014the law firm at the center of the Paradise Papers leak. Dutch tax authorities granted Nike a private 'tax ruling' that EU Competition Chief Margrethe Vestager found 'ignored economic reality,' determining that Nike paid too little tax in the Netherlands for 14 consecutive years and potentially owed over $1 billion in back taxes. Vestager found it inappropriate to classify the Bermuda unit as 'entrepreneurial' while Nike's Dutch workforce exceeded 9,000 employees (13% of its global staff).",
+      "blurb": "Designs and sells athletic footwear, apparel, and sports equipment under the Nike and Jordan brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.icij.org/investigations/paradise-papers/nikes-sweetheart-dutch-tax-deal-ignored-economic-reality-eu-says/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-12"
+    },
+    {
+      "id": "uber_technologies",
+      "name": "Uber Technologies, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Uber Technologies, Inc. operates the world's largest ride-hailing and food delivery platform. The Paradise Papers (2017, ICIJ) revealed that Uber routed profits through Bermuda to avoid taxes, with the core taxi-hailing app intellectual property traced to a Bermuda office block occupied by Appleby and Estera. A Dutch subsidiary later purchased the IP from the Bermuda shell company using a $16 billion intra-company loan from Uber's Singapore unit. The Uber Files (2022, ICIJ)\u2014a separate leak of 124,000 internal documents\u2014revealed that Uber's leadership, including then-CEO Travis Kalanick, authorized the use of a 'kill switch' to cut off data access during law enforcement raids in multiple countries, and that Uber conducted secret lobbying campaigns with heads of state, including private messages to then-French Economy Minister Emmanuel Macron, to undermine local taxi regulations.",
+      "blurb": "Operates ride-hailing, food delivery (Uber Eats), and freight logistics platforms globally.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://www.icij.org/investigations/uber-files/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-12"
     }
   ],
   "brands": [
@@ -13722,6 +13785,66 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-09"
+    },
+    {
+      "id": "apple",
+      "avoid": "Apple",
+      "ownership": [
+        {
+          "firmId": "apple_inc",
+          "stake": "majority",
+          "since": "1976"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "The Paradise Papers (2017, ICIJ) revealed Apple restructured its Irish subsidiaries\u2014including Apple Sales International and Apple Operations International\u2014into Jersey-registered entities to shelter over $252 billion in offshore profits. Apple Sales International alone generated $120+ billion in profits over five years (nearly 60% of worldwide earnings) while paying minimal tax. Appleby, the Bermuda law firm at the center of the Paradise Papers leak, helped engineer the restructuring after a 2013 US Senate hearing exposed Apple's prior 'Double Irish' tax arrangement. The structure is a documented example of elite impunity: the most profitable company in history crafted bespoke legal arrangements, with the assistance of offshore specialists, to avoid public tax contributions that apply to smaller competitors.",
+      "blurb": "Makes iPhones, Macs, iPads, and Apple Watches; runs the App Store, iCloud, and Apple services.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-12"
+    },
+    {
+      "id": "nike",
+      "avoid": "Nike",
+      "ownership": [
+        {
+          "firmId": "nike_inc",
+          "stake": "majority",
+          "since": "1964"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "The Paradise Papers (2017, ICIJ) revealed Nike transferred approximately $1 billion annually to a Bermuda shell company as tax-free 'royalty fees' for its Swoosh trademark and other IP. The IP rights could be traced to a five-story Bermuda office block occupied by offshore law firm Appleby. Dutch authorities granted Nike a secret 'tax ruling' that EU Competition Chief Margrethe Vestager determined 'ignored economic reality,' finding Nike paid too little tax in the Netherlands for 14 consecutive years\u2014a potential back-tax liability of over $1 billion. Vestager noted the absurdity of classifying the empty Bermuda unit as the 'entrepreneurial' entity while Nike's Dutch workforce exceeded 9,000 employees.",
+      "blurb": "Sells athletic footwear, apparel, and equipment under the Nike Swoosh and Air Jordan brands.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-12"
+    },
+    {
+      "id": "uber",
+      "avoid": "Uber",
+      "ownership": [
+        {
+          "firmId": "uber_technologies",
+          "stake": "majority",
+          "since": "2009"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "The Paradise Papers (2017, ICIJ) revealed Uber routed profits through Bermuda to avoid taxes; the core taxi-hailing app IP was traceable to a Bermuda shell registered with Appleby, and a Dutch subsidiary later acquired it via a $16 billion intra-company loan from Uber's Singapore unit. The Uber Files (2022, ICIJ)\u2014a separate leak of 124,000 internal documents\u2014revealed that CEO Travis Kalanick authorized a 'kill switch' to block law enforcement data access during raids in multiple countries, and that Uber lobbied heads of state through covert channels, including private messages to then-French Economy Minister Emmanuel Macron to suppress local taxi regulations. Uber has also faced persistent litigation over misclassifying hundreds of thousands of drivers as contractors to avoid employment benefits.",
+      "blurb": "Provides ride-hailing and Uber Eats food delivery through a global app-based platform.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-12"
     }
   ]
 }

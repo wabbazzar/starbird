@@ -782,6 +782,25 @@
         "rust_oleum"
       ],
       "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-06-12-icij_panama_pandora_papers",
+      "date": "2026-06-12",
+      "title": "The Offshore Paper Trail: Apple, Nike, and Uber in the ICIJ Leaks",
+      "strategy": "icij_panama_pandora_papers",
+      "strategyLabel": "ICIJ Panama + Pandora Papers",
+      "value": "elite_impunity",
+      "summary": "Three brands you interact with every day—Apple, Nike, and Uber—appear in ICIJ investigations showing they used offshore shell structures to avoid billions in taxes and, in Uber's case, obstruct law enforcement. The leaks document elite impunity in its most institutionalized form: legal engineering that exempts the powerful from rules everyone else must follow.",
+      "body": "The Paradise Papers (2017) and the Uber Files (2022) are among the largest journalism collaborations in history. Produced by the International Consortium of Investigative Journalists from leaked documents totaling millions of files, they document how the world's wealthiest corporations used offshore law firms—especially Appleby, based in Bermuda—to park intellectual property in shell companies and route profits through jurisdictions with little or no tax.\n\nApple restructured three Irish subsidiaries after a 2013 US Senate hearing exposed its 'Double Irish' arrangement. Two of them—Apple Sales International and Apple Operations International—were relocated to Jersey, where they generated over $120 billion in profits across five years (nearly 60% of Apple's worldwide earnings) while paying minimal tax. By 2017, Apple had accumulated $252 billion in offshore earnings through these structures. The same Appleby office block that housed Apple's arrangements also held Nike's.\n\nNike transferred roughly $1 billion per year to a Bermuda shell as tax-free royalty payments for the Swoosh trademark. Dutch tax authorities had granted Nike a private 'tax ruling' to bless this structure. When EU Competition Chief Margrethe Vestager investigated, she found the arrangement 'ignored economic reality': Nike's Dutch workforce exceeded 9,000 employees—13% of its global staff—while the Bermuda unit held no employees at all. She determined Nike had paid too little tax in the Netherlands for 14 consecutive years, a potential liability of over $1 billion in back taxes.\n\nUber's offshore story added a darker dimension. The Paradise Papers traced Uber's taxi-hailing app IP to the same Bermuda office block; a Dutch subsidiary later bought that IP through a $16 billion intra-company loan from Uber's Singapore unit. The Uber Files then revealed that CEO Travis Kalanick authorized a 'kill switch' to cut off law enforcement data access during raids in France, the Netherlands, Belgium, India, and Romania—an explicit effort to obstruct regulators on multiple continents. Together, these three cases illustrate how offshore structures are not incidental to elite impunity; they are the mechanism.",
+      "entityIds": [
+        "apple_inc",
+        "nike_inc",
+        "uber_technologies",
+        "apple",
+        "nike",
+        "uber"
+      ],
+      "source": "https://offshoreleaks.icij.org/"
     }
   ]
 }
