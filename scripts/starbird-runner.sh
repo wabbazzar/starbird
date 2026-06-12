@@ -76,9 +76,27 @@ if [ -n "${FORCE_STRATEGY:-}" ]; then
   PICKED_STRATEGY="$FORCE_STRATEGY"
   echo "[starbird-runner] FORCED strategy override: $PICKED_STRATEGY" >> "$LOG_FILE"
 else
+  # The picker exits 3 as a deliberate "research loop complete" sentinel when
+  # all values have hit their target (see pick-strategy.py). That is a SUCCESS
+  # state, not a failure — but under `set -e` the failing command substitution
+  # would trip the ERR trap and get mis-reported as FATAL (observed 2026-06-10,
+  # when all 6 values reached 100). Capture the exit code with -e off so we can
+  # branch on it explicitly.
+  set +e
   PICKED_STRATEGY="$(python3 "$STARBIRD_DIR/scripts/pick-strategy.py" 2>>"$LOG_FILE")"
-  if [ -z "$PICKED_STRATEGY" ]; then
-    fatal 1 "strategy picker returned empty"
+  pick_rc=$?
+  set -e
+  if [ "$pick_rc" -eq 3 ]; then
+    echo "[starbird-runner] all values complete — nothing to research, exiting clean" >> "$LOG_FILE"
+    [ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.end \
+      mode="$MODE" status="ok" exit_code="0" \
+      duration_s="$(( $(date +%s) - JOB_START ))" reason="all_values_complete" || true
+    [ -x "$NOTIFY" ] && "$NOTIFY" "Starbird Runner — complete" \
+      "All 6 values have reached their target. No research needed this run." || true
+    exit 0
+  fi
+  if [ "$pick_rc" -ne 0 ] || [ -z "$PICKED_STRATEGY" ]; then
+    fatal "$pick_rc" "strategy picker returned empty (exit $pick_rc)"
   fi
   echo "[starbird-runner] picked strategy: $PICKED_STRATEGY" >> "$LOG_FILE"
 fi
