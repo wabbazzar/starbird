@@ -801,6 +801,25 @@
         "uber"
       ],
       "source": "https://offshoreleaks.icij.org/"
+    },
+    {
+      "id": "2026-06-13-icij_panama_pandora_papers",
+      "date": "2026-06-13",
+      "title": "Offshore Empires: Three Companies Named in the ICIJ Leaks",
+      "strategy": "icij_panama_pandora_papers",
+      "strategyLabel": "ICIJ Panama + Pandora Papers",
+      "value": "elite_impunity",
+      "summary": "From an Indian billionaire who declared bankruptcy while hiding assets offshore, to a Russia-sanctioned defense conglomerate and an oil company linked to a journalist's murder — this run surfaces corporate actors whose owners used financial secrecy to escape accountability.",
+      "body": "The ICIJ's Pandora Papers named over 100 billionaires and their offshore networks. One entry is Anil Ambani, once ranked the sixth richest person on earth. In February 2020 he stood before a UK court and declared his net worth was zero, owing $716 million to Chinese state banks he had defaulted on. Later that same year the Pandora Papers documented his offshore shell companies. A Mumbai court had already found him in criminal contempt for failing to repay Reliance Communications's debt to Ericsson — his brother Mukesh paid the bill to prevent his jailing. His Reliance Power subsidiary, India's largest private electricity generator, is the consumer-facing arm of this offshore concealment pattern.\n\nRostec Corporation is Russia's answer to Lockheed Martin — except it also makes Lada cars. Founded by Putin decree in 2007, the company is run by Sergei Chemezov, a former KGB officer personally sanctioned by the EU and the US after Russia's 2014 Ukraine intervention. The OCCRP's Pandora Papers investigation documented how Chemezov's relatives were enriched through offshore shell companies while the corporation itself received taxpayer-backed contracts worth billions. Rostec owns AvtoVAZ, whose Lada brand is sold across Russia and Eastern Europe — a consumer brand backed by a sanctioned, opacity-cloaked state apparatus.\n\nSOCAR, Azerbaijan's state oil company, may be the starkest case. Transparency International ranked it dead last among 44 major oil companies for anti-corruption practices in 2011. Two subsidiaries embezzled $1.7 billion from a BP contract. The company secretly funded US Congressional trips and made illegal payments to Germany's CDU party. In 2017, SOCAR's Maltese chief was arrested as a main suspect in the murder of investigative journalist Daphne Caruana Galizia. The Aliyev family, who control SOCAR and Azerbaijan itself, appeared in the 2021 Pandora Papers with offshore shell companies holding over £66 million in UK real estate — including property gifted to an 11-year-old. SOCAR Energy now operates 160+ fuel stations in Switzerland alone, plus stations in Turkey, Romania, Georgia, and Ukraine.",
+      "entityIds": [
+        "adag",
+        "rostec",
+        "socar",
+        "lada",
+        "reliance_power",
+        "socar_energy"
+      ],
+      "source": "https://offshoreleaks.icij.org/"
     }
   ]
 }
