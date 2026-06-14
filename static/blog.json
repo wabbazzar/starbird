@@ -820,6 +820,24 @@
         "socar_energy"
       ],
       "source": "https://offshoreleaks.icij.org/"
+    },
+    {
+      "id": "2026-06-14-sec_lbo_filings",
+      "date": "2026-06-14",
+      "title": "Debt-Loading Playbooks: Three PE Firms Strip Consumer Brands",
+      "strategy": "sec_lbo_filings",
+      "strategyLabel": "SEC LBO filings (10-K / Form D)",
+      "value": "extraction",
+      "summary": "This run traced how Clearlake Capital, Butterfly Equity, and Apollo Global use leveraged buyout debt to extract value from pet food, grocery, and photo-products brands — leaving each company financially fragile years after acquisition.",
+      "body": "Clearlake Capital Group acquired WellPet — the maker of Wellness Natural Pet Food, Old Mother Hubbard dog biscuits, Whimzees dental chews, and Eagle Pack — in November 2020, financing the $1.7 billion deal with $985 million in term loans. That meant nearly 60 cents of every acquisition dollar was loaded onto the pet food company as debt from day one. By June 2025 the structure had buckled: S&P downgraded Wellness Pet Company's credit citing \"very high leverage\" and \"deeply distressed debt trading levels,\" and first-lien lenders accepted 80 cents on the dollar in a distressed exchange. Clearlake had to inject $100 million in new cash just to push maturities out to 2029.\n\nBolthouse Farms tells a similar story with a longer arc. Campbell Soup paid $1.55 billion for the fresh carrot and juice brand in 2012, only to sell it to food-focused PE firm Butterfly Equity in 2019 for $510 million — a 67% haircut that reflected years of PE-driven pressure at Campbell forcing a distressed exit. Under Butterfly, Bolthouse was carved into two separate companies in May 2024 via \"separate debt recapitalizations,\" loading fresh leverage onto each successor entity. The brand consumers find in the produce aisle is now two companies with separate debt stacks.\n\nApollo Global Management's 2019 acquisition of Shutterfly followed the same script at larger scale. Apollo paid a $2.7 billion enterprise value but financed $2 billion with leveraged debt — debt markets were so skeptical that underwriting banks had to buy $280 million of bonds themselves after failing to place them with outside investors. Six years later Shutterfly carries $2.4 billion in gross debt, posted an EBITDA loss of $19.7 million in Q1 2026, and needed an emergency $2 billion refinancing from General Atlantic to avoid a maturity cliff in 2026–2027.\n\nAll three acquisitions appear in recent SEC filings and credit-market disclosures. The pattern is identical: load acquisition debt onto the target, harvest fees, and leave the brand's balance sheet to absorb the consequence — whether that's a distressed exchange, a company split, or a multi-year liquidity crisis.",
+      "entityIds": [
+        "butterfly_equity",
+        "clearlake_capital",
+        "bolthouse_farms",
+        "shutterfly",
+        "wellness_pet_company"
+      ],
+      "source": "https://www.sec.gov/edgar/search-and-access"
     }
   ]
 }
