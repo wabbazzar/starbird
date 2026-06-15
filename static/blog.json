@@ -838,6 +838,23 @@
         "wellness_pet_company"
       ],
       "source": "https://www.sec.gov/edgar/search-and-access"
+    },
+    {
+      "id": "2026-06-15-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-15",
+      "title": "Media Consolidation and Elite Impunity: Sinclair, iHeart, Nexstar",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaced three broadcast giants whose concentrated ownership and financial engineering have systematically eroded local journalism while insulating executives from accountability. Knowing who owns the airwaves matters when you're deciding where to spend.",
+      "body": "Three names dominate US broadcast media — Sinclair Broadcast Group, iHeartMedia, and Nexstar Media Group — and all three have leveraged their scale to avoid the accountability they nominally impose on others. Sinclair, the second-largest TV station group, received the largest civil penalty in FCC history at the time: a $48 million fine in May 2020 after regulators found it used shell companies (Cunningham Broadcasting) to exceed ownership caps and made material misrepresentations during its attempt to buy Tribune Media. From 2017 to 2019, Sinclair required all 185+ of its local stations to air mandatory political commentary from Boris Epshteyn, a former Trump campaign aide, embedding centralized partisan content inside what viewers assumed was local news.\n\niHeartMedia's story is a textbook case of private equity extraction. Bain Capital and Thomas H. Lee Partners took Clear Channel private in a $17.9 billion LBO in 2008, loading the company with more than $20 billion in debt. Ten years later the broadcaster filed for Chapter 11 — one of the largest media bankruptcies in US history — while the PE sponsors broke even through management fees and deep-discount debt purchases. The 860+ radio stations that survived the bankruptcy now operate under consolidated syndication, replacing local journalists with national feeds and presenting the appearance of local programming without the accountability.\n\nNexstar Media Group, now the largest local TV operator in the country with 200 stations, launched NewsNation as a national cable channel while CEO Perry Sook collected over $40 million in compensation in 2022 — the highest of any Dallas–Fort Worth executive — and $35.9 million in 2024. When workers at Nexstar's Rochester, NY station WROC voted to unionize in 2023, the company refused to recognize the union and contested the vote in court. All three companies have used scale and political access to shape the rules governing their own industries, a pattern the FCC enforcement record makes plain.",
+      "entityIds": [
+        "iheartmedia",
+        "nexstar_media_group",
+        "sinclair_broadcast_group",
+        "iheartradio",
+        "newsnation"
+      ]
     }
   ]
 }

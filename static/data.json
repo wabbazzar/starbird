@@ -6420,6 +6420,70 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-14"
+    },
+    {
+      "id": "sinclair_broadcast_group",
+      "name": "Sinclair Broadcast Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Sinclair Broadcast Group, based in Hunt Valley, Maryland, is the second-largest television station operator in the United States with approximately 185 stations reaching roughly 40% of US television households. Controlled by David D. Smith and his brothers through a dual-class stock structure, Sinclair received the largest civil penalty in FCC history at the time (May 2020) \u2014 a $48 million fine \u2014 after regulators found the company used shell companies (Cunningham Broadcasting) to circumvent FCC media ownership limits and made material misrepresentations during its attempt to acquire Tribune Media for $3.9 billion. The FCC order also found that 64 Sinclair stations aired paid sponsored content as local news more than 1,400 times without disclosure. From 2017 to December 2019, Sinclair required all its local stations to air 'must-run' political commentary segments hosted by Boris Epshteyn, a former Trump campaign and White House aide, centralizing partisan propaganda across nominally independent local news outlets.",
+      "blurb": "Television broadcasting company operating approximately 185 local TV stations across the United States.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://www.npr.org/2020/05/07/851783937/fcc-fines-sinclair-record-48-million-for-deceptive-bid-for-tribune-stations",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-15"
+    },
+    {
+      "id": "iheartmedia",
+      "name": "iHeartMedia",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "iHeartMedia (formerly Clear Channel Communications) is the largest commercial radio broadcaster in the United States, operating over 860 stations. In 2008, Bain Capital and Thomas H. Lee Partners took Clear Channel private in a leveraged buyout valued at approximately $17.9 billion, loading the company with $20+ billion in total debt. The company filed for Chapter 11 bankruptcy in March 2018 carrying roughly $20.6 billion in debt \u2014 one of the largest media bankruptcies in US history. Despite the bankruptcy, the PE sponsors broke even by purchasing company debt at deep discounts and extracting management fees over the decade-long holding period, while creditors absorbed the losses. The company reorganized and re-emerged publicly in 2019. iHeartMedia's ownership of over 860 radio stations under consolidated programmatic syndication has hollowed out local radio journalism while maintaining the appearance of local reach.",
+      "blurb": "Largest US commercial radio broadcaster operating over 860 stations and the iHeartRadio streaming platform.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Filed Chapter 11 bankruptcy March 2018 with ~$20.6B in debt after 2008 LBO by Bain Capital and Thomas H. Lee Partners",
+      "harmScore": 75,
+      "source": "https://www.npr.org/sections/thetwo-way/2018/03/15/593868390/iheartmedia-turns-the-dial-to-bankruptcy",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-15"
+    },
+    {
+      "id": "nexstar_media_group",
+      "name": "Nexstar Media Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Nexstar Media Group, based in Irving, Texas, is the largest local television broadcaster in the United States with approximately 200 stations across 116 markets, reaching about 68% of US television households. CEO Perry Sook earned over $40 million in 2022 \u2014 the highest compensation of any executive in the Dallas\u2013Fort Worth area \u2014 and $35.9 million in 2024, while the company simultaneously reduced local newsroom staffing through automation and layoffs. In 2023, workers at Nexstar's Rochester, NY station WROC voted to unionize, but Nexstar refused to recognize the union and contested the vote in court, according to the NewsGuild-CWA. Nexstar acquired WGN America as part of its $4.1 billion Tribune Media purchase and rebranded it as NewsNation in 2021. Nexstar has lobbied aggressively to weaken FCC media ownership rules to enable further consolidation.",
+      "blurb": "Largest US local TV broadcaster operating approximately 200 stations and the NewsNation national cable channel.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://www.texasmonthly.com/news-politics/perry-sook-nexstar-tegna-merger-fcc/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-15"
     }
   ],
   "brands": [
@@ -14085,6 +14149,67 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-14"
+    },
+    {
+      "id": "sinclair_broadcast_group",
+      "avoid": "Sinclair Broadcast Group",
+      "ownership": [
+        {
+          "firmId": "sinclair_broadcast_group",
+          "stake": "majority",
+          "since": "1971"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Sinclair Broadcast Group's 185+ local TV stations serve as vehicles for centralized political messaging dressed as local news. The FCC fined Sinclair a record $48 million in May 2020 \u2014 the largest civil penalty in the agency's then-86-year history \u2014 after finding the company used Cunningham Broadcasting shell entities to exceed FCC ownership caps and made material misrepresentations during its $3.9 billion Tribune Media bid. From 2017 to December 2019, all Sinclair stations were required to air 'must-run' commentary from Boris Epshteyn, a former Trump campaign and White House aide, propagandizing for Trump administration policies inside nominally independent local newscasts. The same FCC order documented that 64 Sinclair stations aired paid sponsored content as local news more than 1,400 times without any disclosure, according to NPR and the FCC order.",
+      "blurb": "Local television broadcasting brand operating over 185 stations across US markets.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-15"
+    },
+    {
+      "id": "iheartradio",
+      "avoid": "iHeartRadio",
+      "ownership": [
+        {
+          "firmId": "iheartmedia",
+          "stake": "majority",
+          "since": "2008"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "iHeartRadio is the streaming and on-air brand of iHeartMedia, the largest US radio operator. iHeartMedia's 2008 leveraged buyout by Bain Capital and Thomas H. Lee Partners saddled Clear Channel with over $20 billion in debt, culminating in a March 2018 Chapter 11 bankruptcy \u2014 one of the largest media bankruptcies in US history. The PE sponsors broke even by extracting management fees and buying distressed debt at steep discounts, while creditors bore the losses. iHeartMedia operates 860+ radio stations using centralized syndication that reduces local journalism while maintaining the impression of local presence, concentrating political and cultural programming reach under a single ownership umbrella with minimal community accountability.",
+      "blurb": "Streaming radio platform and on-air brand of iHeartMedia's 860+ commercial radio stations.",
+      "harms": [
+        "elite_impunity_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-15"
+    },
+    {
+      "id": "newsnation",
+      "avoid": "NewsNation",
+      "ownership": [
+        {
+          "firmId": "nexstar_media_group",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "NewsNation is Nexstar Media Group's national cable news channel, launched in 2021 after Nexstar acquired WGN America as part of its $4.1 billion Tribune Media purchase. Nexstar's CEO Perry Sook earned over $40 million in 2022 \u2014 the highest executive compensation in the Dallas\u2013Fort Worth area \u2014 and $35.9 million in 2024, while local newsroom staff across Nexstar's 200 stations has been reduced through automation and layoffs. In 2023, workers at Nexstar's Rochester, NY station WROC voted to unionize, but Nexstar refused to recognize the union and contested the vote in court according to the NewsGuild-CWA, reflecting a pattern of prioritizing executive enrichment over workers and local journalism. Nexstar controls stations reaching approximately 68% of US TV households.",
+      "blurb": "National cable news channel owned by Nexstar Media Group, launched in 2021 on WGN America.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-15"
     }
   ]
 }
