@@ -855,6 +855,25 @@
         "iheartradio",
         "newsnation"
       ]
+    },
+    {
+      "id": "2026-06-16-ultraprocessed_nova_tracker",
+      "date": "2026-06-16",
+      "title": "Fast Food's Ultra-Processed Playbook: McDonald's, Taco Bell, Burger King",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run mapped three of the world's largest fast food chains onto the NOVA Group 4 ultra-processed framework — documenting the specific industrial additives in their most iconic products and what that classification means for daily exposure.",
+      "body": "Most consumers associate ultra-processed food with the snack aisle, but the NOVA classification system — developed by Carlos Monteiro's group at the University of São Paulo and published in Public Health Nutrition — explicitly includes fast food restaurants as NOVA Group 4 producers. The defining features aren't calories or fat: they're the industrial additives that make standardized global menus possible.\n\nMcDonald's french fries, served to roughly 69 million people daily across 100+ countries, contain sodium acid pyrophosphate (prevents graying after frying), dimethylpolysiloxane (a silicone antifoam in the frying oil), and 'natural beef flavoring' derived from hydrolyzed wheat and hydrolyzed milk. None of these appear in potatoes cooked at home. Chicken McNuggets add sodium phosphates, modified food starch, and autolyzed yeast extract — a flavor amplifier derived from spent brewer's yeast rather than any whole ingredient.\n\nTaco Bell's Nacho Cheese Doritos Locos Taco shell — one of the best-selling fast food products in U.S. history — contains Red 40, Yellow 5, and Yellow 6, all rated 'Avoid' by the Center for Science in the Public Interest following a 2007 Lancet study linking these dyes to hyperactivity in children. The EU requires a warning label on any food containing them. Taco Bell's Seasoned Beef openly lists isolated oat product, cellulose, maltodextrin, and autolyzed yeast extract alongside the meat.\n\nBurger King's Whopper bun adds DATEM (a dough conditioner CSPI rates 'Certain people should avoid' pending adequate safety evidence), calcium propionate (same 'Certain people should avoid' rating, with a controlled study linking it to behavioral effects in children), and high-fructose corn syrup. Taken together, these three chains — McDonald's, Taco Bell under Yum! Brands, and Burger King under Restaurant Brands International — serve an estimated 150+ million U.S. customers each week, making them collectively one of the largest sources of ultra-processed food exposure in the American diet.",
+      "entityIds": [
+        "mcdonalds_corporation",
+        "restaurant_brands_international",
+        "yum_brands",
+        "burger_king",
+        "mcdonalds",
+        "taco_bell"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
