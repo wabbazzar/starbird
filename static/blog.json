@@ -874,6 +874,23 @@
         "taco_bell"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-06-17-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-17",
+      "title": "Billionaires Above the Law: Three Documented Cases of Elite Impunity",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaces three firms whose leadership either purchased access to the highest court in the land, stole billions from customers while buying political protection, or committed massive fraud with regulatory complicity — and largely escaped accountability.",
+      "body": "Crow Holdings, the Dallas real estate empire of billionaire Harlan Crow, spent more than two decades lavishing undisclosed luxury gifts on Supreme Court Justice Clarence Thomas: private jet travel, superyacht cruises, week-long stays at a private Adirondacks resort, and a quiet real estate deal involving Thomas's family property. ProPublica's 2023 investigation documented the pattern. Senate investigators found additional private jet flights. Crow rebuffed Senate Finance Committee requests for a full accounting. Neither man faces criminal charges.\n\nFTX, the crypto exchange founded by Sam Bankman-Fried, grew to a $32 billion valuation before its 2022 collapse revealed that roughly $8 billion in customer funds had been siphoned to cover losses at affiliated hedge fund Alameda Research. What makes this an elite-impunity story is the mechanism: FTX insiders made $230 million in political donations to buy regulatory access, with Bankman-Fried meeting privately with the SEC chair in March 2022 while simultaneously lobbying Congress for legislation that would have benefited FTX. The donations bought time. Customers were eventually frozen out; SBF was convicted in November 2023 and sentenced to 25 years.\n\nWirecard AG was Germany's most valuable fintech — a DAX-listed payments company with a €24 billion market cap — until June 2020, when it admitted €1.9 billion in reported cash assets didn't exist. The deeper scandal is what happened before the collapse: Germany's financial regulator BaFin received whistleblower tips in early 2019 and filed criminal complaints against Financial Times journalists and short-sellers who raised alarms, rather than investigating Wirecard itself. When the fraud finally surfaced, COO Jan Marsalek fled to Russia by private jet with FSB assistance. He now lives in Moscow under a false identity, per joint reporting by Der Spiegel, PBS Frontline, and ZDF in 2025.\n\nThe connective tissue across all three: institutional access used as a shield. Crow's philanthropy gave him a seat at Thomas's table. SBF's donations gave him regulators' ears. Wirecard's national-champion status gave it a regulator willing to suppress critics. The source for this run is ProPublica's ongoing Clarence Thomas coverage, SDNY prosecution records, and the 2025 Marsalek investigative consortium — all naming the specific mechanisms that let wealth and influence substitute for accountability.",
+      "entityIds": [
+        "crow_holdings",
+        "ftx_trading",
+        "wirecard_ag",
+        "ftx",
+        "wirecard"
+      ]
     }
   ]
 }
