@@ -891,6 +891,22 @@
         "ftx",
         "wirecard"
       ]
+    },
+    {
+      "id": "2026-06-18-nyt_dealbook_archive",
+      "date": "2026-06-18",
+      "title": "The Restaurant and Retail Extraction Playbook: Subway, Family Dollar, Hooters",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "Three iconic American chains — a sandwich giant, a discount retailer, and a sports bar — share the same underlying story: private equity acquisitions that loaded operating companies with debt, extracted value upward, and left workers and communities to absorb the losses.",
+      "body": "Roark Capital's $9.55 billion acquisition of Subway in August 2023 was the largest quick-service restaurant deal in history. What made headlines as a valuation milestone was, in structural terms, a debt transfer: Roark financed the purchase through leveraged obligations that must now be serviced by Subway's franchisee network — a base already weakened by years of store closures and declining unit economics. Roark applies the same securitization model across its Inspire Brands and Focus Brands subsidiaries, packaging franchise royalty streams as bond collateral while the operating companies carry the load.\n\nFamily Dollar's trajectory illustrates what happens further down the extraction chain. Dollar Tree paid $8.5 billion for the discount retailer in 2015; after a decade of failed integration, it sold the chain to Sycamore Partners in 2024 for roughly $1 billion. Sycamore — the firm behind Nine West's 2018 bankruptcy — promptly announced the closure of approximately 600 Family Dollar stores. For low-income and rural communities where Family Dollar functioned as a primary affordable-goods retailer, these closures aren't just a business metric; they remove access to everyday necessities.\n\nHooters of America, owned by TriArtisan Capital Advisors, filed Chapter 11 in May 2024 after abruptly shuttering roughly 44 corporate locations in April — with minimal advance notice to the workers staffing them. TriArtisan had previously driven TGI Fridays through the same cycle, and is currently deploying the debt-and-securitize model at Denny's following a January 2026 acquisition. The pattern across all three firms is consistent: acquire a legacy consumer brand, extract value through fees and refinancings, and exit as the debt burden becomes unsustainable.",
+      "entityIds": [
+        "family_dollar",
+        "hooters",
+        "subway"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }

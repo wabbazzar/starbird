@@ -203,7 +203,8 @@
       "brands": [
         "Staples",
         "Hot Topic",
-        "Walgreens"
+        "Walgreens",
+        "Family Dollar"
       ],
       "layoffs": "Thousands in retail closures",
       "notableBk": "Nine West (2018)",
@@ -5107,7 +5108,8 @@
       "summary": "Atlanta-based PE firm owning Subway ($9.6B LBO 2023), Dave's Hot Chicken ($1B acquisition June 2025), Dunkin', Baskin-Robbins, Buffalo Wild Wings, Jimmy John's, Arby's, Sonic, Cinnabon, and others. Roark took Dave's Hot Chicken private in June 2025 with a 75% stake for ~$1B, planning rapid expansion using the franchise securitization debt model where franchise fees back whole business securitization loans.",
       "blurb": "Private-equity firm investing in franchise and multi-unit consumer and restaurant brands.",
       "brands": [
-        "Dave's Hot Chicken"
+        "Dave's Hot Chicken",
+        "Subway"
       ],
       "layoffs": "Portfolio-wide, especially in post-acquisition integration",
       "notableBk": "N/A",
@@ -5130,7 +5132,8 @@
       "summary": "New York-based PE firm that acquired Denny's for $620M in January 2026, loading it with $335M in debt. TriArtisan owns P.F. Chang's, and previously drove TGI Fridays and Hooters into bankruptcy (2024-2025). Acquired TGI Fridays in 2014 via $900M LBO, loading $670M debt onto the chain before its 2024 bankruptcy. Pattern: acquire legacy dining brands, debt-load them, then extract value through sale-leaseback deals and management fees.",
       "blurb": "Private-equity advisory firm investing in restaurant and consumer businesses.",
       "brands": [
-        "Denny's"
+        "Denny's",
+        "Hooters"
       ],
       "layoffs": "Thousands across TGI Fridays and Hooters bankruptcies",
       "notableBk": "TGI Fridays (2024), Hooters (2025)",
@@ -14456,6 +14459,67 @@
       ],
       "aligns": [],
       "addedAt": "2026-06-17"
+    },
+    {
+      "id": "subway",
+      "avoid": "Subway",
+      "ownership": [
+        {
+          "firmId": "roark_capital",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Roark Capital acquired Subway in August 2023 for approximately $9.55 billion \u2014 the largest quick-service restaurant transaction in history at that time \u2014 financing the purchase through leveraged debt. Roark's standard approach across its restaurant portfolio uses whole-business securitization, packaging franchise royalty streams as bond collateral and loading the operating company with debt obligations that must be serviced from franchisee fees. Subway entered the deal with a decade of store count decline (closing over 7,000 U.S. locations between 2015 and 2020) and a franchisee base under financial stress; the added debt burden constrains the company's ability to invest in franchisee support or menu development. Roark has applied the same debt-and-extract model to Arby's, Sonic, Buffalo Wild Wings, Jimmy John's, and Dunkin' within its Inspire Brands subsidiary.",
+      "blurb": "Fast-food sandwich chain with over 37,000 locations worldwide.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-18"
+    },
+    {
+      "id": "family_dollar",
+      "avoid": "Family Dollar",
+      "ownership": [
+        {
+          "firmId": "sycamore_partners",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Dollar Tree sold Family Dollar to Sycamore Partners in 2024 for approximately $1 billion \u2014 a fraction of the $8.5 billion Dollar Tree paid for the chain in 2015. Following the acquisition, Sycamore announced the closure of approximately 600 Family Dollar stores, displacing thousands of workers who staffed locations that served as primary affordable-goods retailers for low-income and rural communities. Sycamore Partners is a retail-stripping specialist whose prior investments include Nine West (driven to bankruptcy 2018), Talbots, Hot Topic, and Staples. The Family Dollar deal follows Sycamore's documented playbook: acquire distressed retail at steep discount, cut the store count, extract remaining asset and real estate value, and position for a profitable exit at workers' and communities' expense.",
+      "blurb": "Discount variety store chain serving low-income and rural communities across the U.S.",
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-18"
+    },
+    {
+      "id": "hooters",
+      "avoid": "Hooters",
+      "ownership": [
+        {
+          "firmId": "triartisan_capital",
+          "stake": "majority"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "TriArtisan Capital Advisors acquired a controlling stake in Hooters of America and operated the chain using a debt-financed model consistent with its approach to TGI Fridays and Denny's. In April 2024, Hooters abruptly closed approximately 44 company-owned locations with little advance notice to workers, triggering mass layoffs at those sites. In May 2024, Hooters of America filed Chapter 11 bankruptcy. The collapse fits TriArtisan's documented pattern: acquire legacy restaurant brands, load them with debt through LBO or securitization structures, extract value through management fees and refinancings, and exit as the debt burden renders the company insolvent. Workers at closed locations lost jobs; the broader franchise network faced operational uncertainty during bankruptcy proceedings.",
+      "blurb": "Casual-dining sports bar chain known for wings and its servers' uniforms.",
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-18"
     }
   ]
 }
