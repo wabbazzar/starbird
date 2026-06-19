@@ -907,6 +907,22 @@
         "subway"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-06-19-ultraprocessed_nova_tracker",
+      "date": "2026-06-19",
+      "title": "The Ultra-Processed Aisle: Twinkies, Ritz, and Lay's",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run surfaced three of America's most iconic NOVA Group 4 ultra-processed snack brands — Twinkies, Ritz Crackers, and Lay's — and traced the industrial formulation decisions behind their palatability engineering. If you buy these regularly, you're funding the companies that make ultra-processing the default American snack.",
+      "body": "The NOVA classification system, published by Monteiro et al. in 2019, defines Group 4 foods by a simple rule: they're made primarily from industrial ingredients and additives — emulsifiers, color stabilizers, flavor enhancers, preservatives — that have no home-kitchen equivalent. This run catalogued three ubiquitous products that sit squarely in that category.\n\nTwinkies arrived at J.M. Smucker's portfolio in November 2023 when the company paid $5.6 billion to acquire Hostess Brands. A single Twinkie serving packs 27g of added sugar from corn syrup alongside polysorbate 60, sorbic acid, and DATEM — stabilizers and emulsifiers that give the cake its characteristic shelf stability and texture. The 2019 NIH ultra-processed diet trial (Hall et al., Cell Metabolism) found participants assigned to ultra-processed diets ate an average of 500 calories more per day and gained weight, with engineered palatability identified as the mechanism.\n\nRitz Crackers, a Mondelēz International staple since the 2012 Kraft Foods split, carry TBHQ — a synthetic antioxidant preservative that the Center for Science in the Public Interest rates 'Caution' in its Chemical Cuisine database, citing animal tumor data. Five crackers deliver 160mg of sodium and four grams of refined fat, with palm oil and bleached enriched flour as the base. Mondelēz reported roughly $9 billion in biscuit revenue in 2023, with Ritz among its biggest North American earners.\n\nLay's closes the trio. Frito-Lay has been a wholly owned PepsiCo subsidiary since 1965, and the Lay's line generated a significant share of the division's $23 billion in 2023 North American net revenue. The chips use monosodium glutamate and nucleotide enhancers (disodium inosinate, disodium guanylate) that amplify savory perception beyond what any single whole food can deliver — classic palatability engineering. High-temperature frying of starchy slices also produces acrylamide, which the FDA has flagged as a potential human carcinogen based on animal studies.",
+      "entityIds": [
+        "lays",
+        "ritz_crackers",
+        "twinkies"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
