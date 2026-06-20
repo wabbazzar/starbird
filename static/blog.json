@@ -923,6 +923,23 @@
         "twinkies"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-06-20-cruelty_free_international_db",
+      "date": "2026-06-20",
+      "title": "Daily Basics That Still Test on Animals",
+      "strategy": "cruelty_free_international_db",
+      "strategyLabel": "Cruelty Free International database",
+      "value": "animals",
+      "summary": "Three brands you likely reach for every morning — a face wash, a razor, and a bar of soap — are owned by companies that continue to test on animals. Here's who's behind them.",
+      "body": "Bioré pore strips and facial cleansers sit on shelves at Target and Walmart, marketed as simple, dermatologist-friendly skincare. What isn't on the label: Bioré is owned by Kao Corporation, a Tokyo-based consumer goods giant that openly states it 'complies with regulations' around animal testing. That compliance includes mainland China, where imported cosmetics have historically been subject to mandatory pre-market animal testing. Kao holds no Leaping Bunny or PETA cruelty-free certification, and cruelty-free watchdog Ethical Elephant documents the brand as not cruelty-free on that basis.\n\nIn the shaving aisle, Schick is owned by Edgewell Personal Care — the same company behind Banana Boat and Hawaiian Tropic. Edgewell's own published policy states it 'only performs animal testing on products where required to do so by law, or where no acceptable alternative exists.' That explicit carve-out is enough to disqualify Schick from Leaping Bunny or PETA certification standards. Edgewell has never obtained cruelty-free certification for any of its brands.\n\nAt the kitchen sink, Dial soap — America's most-recognized antibacterial hand soap brand — is part of Henkel AG's personal care portfolio since Henkel's $2.9 billion acquisition of The Dial Corporation in 2004. Henkel, the German conglomerate that also owns Schwarzkopf hair color, appears on PETA's companies-that-test list and has not obtained Leaping Bunny certification. Dial's 'clean hands' positioning doesn't extend to a clean animal testing policy.\n\nAll three brands share the same structural logic: a parent company that sells globally, tests where regulations require it, and lets the individual brand's marketing say nothing about it. The alternatives in each category are plentiful — from e.l.f. and Pacifica in skincare to Billie and Harry's in shaving to method and Mrs. Meyer's in household care, all Leaping Bunny certified.",
+      "entityIds": [
+        "kao_corporation",
+        "biore",
+        "dial",
+        "schick"
+      ],
+      "source": "https://crueltyfreeinternational.org/"
     }
   ]
 }

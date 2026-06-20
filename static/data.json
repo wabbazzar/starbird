@@ -1979,7 +1979,8 @@
       "blurb": "Personal-care company making shaving, grooming, sun-care, and feminine-care products under various brands.",
       "brands": [
         "Banana Boat",
-        "Hawaiian Tropic"
+        "Hawaiian Tropic",
+        "Schick"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2147,7 +2148,8 @@
       "summary": "Henkel is a German multinational consumer goods company headquartered in Düsseldorf, owning hair care brand Schwarzkopf, Dial soap, Purex, Right Guard, and industrial adhesives. Henkel sells products in mainland China and tests on animals where required by law. Despite rhetoric about reducing animal testing, Henkel has not achieved cruelty-free certification and remains on PETA's companies-that-test list. Tagged under animals_general for continued animal testing practices in regulated markets.",
       "blurb": "Consumer and industrial company making adhesives, laundry detergents, and beauty-care products sold worldwide.",
       "brands": [
-        "Schwarzkopf"
+        "Schwarzkopf",
+        "Dial"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -9242,6 +9244,38 @@
           "sourceUrl": "https://www.themoscowtimes.com/2025/09/17/fugitive-wirecard-executive-living-in-moscow-under-false-identity-investigation-reveals-a90543"
         }
       ]
+    },
+    {
+      "id": "kao_corporation",
+      "name": "Kao Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Kao Corporation is a Japanese consumer goods company headquartered in Tokyo, founded in 1887, with global annual sales exceeding ¥1.5 trillion (~$10B USD). Kao markets personal care, hair care, and household products under brands including Bioré, John Frieda, and Jergens. Kao states it 'complies with regulations' around animal testing — meaning the company conducts or commissions animal testing when required by law, including to meet pre-market testing requirements for imported cosmetics sold in mainland China. Kao is not certified cruelty-free by Leaping Bunny (Cruelty Free International) or PETA, and is documented by multiple cruelty-free watchdog organizations as not cruelty-free due to its China market presence and testing policy.",
+      "blurb": "Japanese consumer goods company making personal-care, hair-care, and household products sold globally.",
+      "brands": [
+        "Bioré",
+        "John Frieda",
+        "Jergens"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://ethicalelephant.com/is-biore-cruelty-free-vegan/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Kao states it 'complies with regulations' around animal testing, meaning the company conducts or commissions animal testing when required by law, including to meet pre-market testing requirements for imported cosmetics sold in mainland China. Kao is not certified cruelty-free by Leaping Bunny (Cruelty Free International) or PETA.",
+          "sourceUrl": "https://ethicalelephant.com/is-biore-cruelty-free-vegan/"
+        }
+      ],
+      "addedAt": "2026-06-20"
     }
   ],
   "brands": [
@@ -20616,6 +20650,88 @@
           "text": "Lay's potato chips, sold by Frito-Lay (a wholly owned PepsiCo subsidiary since 1965), are classified as NOVA Group 4 ultra-processed food (Monteiro et al., 2019, PMC6322572). The product is formulated with industrial flavorings (monosodium glutamate in some varieties), artificial flavors, disodium inosinate, and disodium guanylate — nucleotide flavor enhancers not found in home cooking. A standard 1-ounce serving of Lay's Classic contains 160mg of sodium and 10g of fat from refined vegetable oils processed at high temperature, which promotes acrylamide formation; the FDA has identified acrylamide in fried starchy foods as a potential human carcinogen based on animal studies."
         }
       ]
+    },
+    {
+      "id": "biore",
+      "avoid": "Bioré",
+      "ownership": [
+        {
+          "firmId": "kao_corporation",
+          "stake": "majority",
+          "since": "1980"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Bioré is a Kao Corporation skincare brand best known for pore strips and facial cleansers, sold across the United States, Japan, and mainland China. Kao states it 'complies with regulations' around animal testing — meaning the company conducts or commissions animal testing when required by law. By selling Bioré products in mainland China, Kao must comply with Chinese regulations that have historically required pre-market animal testing for imported cosmetics. Bioré is not certified cruelty-free by Leaping Bunny or PETA, and is documented by Ethical Elephant and other cruelty-free watchdog organizations as not cruelty-free because Kao allows third-party animal testing on its behalf.",
+      "blurb": "Skincare brand making pore strips, facial cleansers, toners, and UV sunscreen products.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Kao states it 'complies with regulations' around animal testing, meaning it conducts or commissions animal testing when required by law. By selling Bioré in mainland China, Kao must comply with Chinese regulations that have historically required pre-market animal testing for imported cosmetics. Bioré is not certified cruelty-free by Leaping Bunny or PETA.",
+          "sourceUrl": "https://ethicalelephant.com/is-biore-cruelty-free-vegan/"
+        }
+      ],
+      "addedAt": "2026-06-20"
+    },
+    {
+      "id": "schick",
+      "avoid": "Schick",
+      "ownership": [
+        {
+          "firmId": "edgewell_personal_care",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Schick is a leading razor and shaving products brand owned by Edgewell Personal Care since its spin-off from Energizer Holdings in 2015. Edgewell's published animal testing policy states it 'only performs animal testing on products where required to do so by law, or where no acceptable alternative exists to assess the safety of a product for consumer use.' This policy explicitly permits animal testing under certain conditions, which disqualifies Schick from Leaping Bunny or PETA cruelty-free certification. Schick is not certified cruelty-free by any major animal welfare organization.",
+      "blurb": "Razor and shaving products brand selling disposable and cartridge razors, blades, and shave gels.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Edgewell's published policy states it 'only performs animal testing on products where required to do so by law, or where no acceptable alternative exists.' This explicitly permits animal testing under certain conditions, disqualifying Schick from Leaping Bunny or PETA cruelty-free certification. Schick is not certified cruelty-free by any major animal welfare organization.",
+          "sourceUrl": "https://www.crueltyfreekitty.com/brands/schiek/"
+        }
+      ],
+      "addedAt": "2026-06-20"
+    },
+    {
+      "id": "dial",
+      "avoid": "Dial",
+      "ownership": [
+        {
+          "firmId": "henkel",
+          "stake": "majority",
+          "since": "2004"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Dial is a hand soap and body wash brand owned by Henkel AG & Co. KGaA since Henkel's $2.9 billion acquisition of The Dial Corporation in 2004. Henkel tests on animals where required by local regulations and appears on PETA's list of companies that test on animals. Henkel has not achieved Leaping Bunny cruelty-free certification from Cruelty Free International, and sells personal care products in markets including mainland China that have historically mandated animal testing for imported cosmetics. Purchasing Dial products supports Henkel's ongoing animal testing practices across its personal care portfolio.",
+      "blurb": "Antibacterial hand soap and body wash brand sold in bar, liquid, and foaming formulas.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Dial is owned by Henkel AG, which tests on animals where required by local regulations and appears on PETA's list of companies that test on animals. Henkel has not achieved Leaping Bunny cruelty-free certification and sells products in markets including mainland China subject to historical animal testing requirements.",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/companies-do-test/"
+        }
+      ],
+      "addedAt": "2026-06-20"
     }
   ]
 }
