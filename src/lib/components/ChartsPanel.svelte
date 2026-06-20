@@ -3,6 +3,7 @@
 	import type { ValueId } from '$lib/values';
 	import { VALUES } from '$lib/values';
 	import { QUEST_BY_ID } from '$lib/quests';
+	import { brandImpactScore } from '$lib/ranking';
 
 	type Props = { firms: Firm[]; brands: Brand[] };
 	let { firms, brands }: Props = $props();
@@ -51,18 +52,12 @@
 	const maxValueCount = $derived(Math.max(...byValue.map((v) => v.count), 1));
 
 	// ── Chart 2: top brands by impact ──────────────────────────────────
-	// A brand's impact = max(harmScore) across its ownership.firmId refs.
-	// Same formula as the sort on the Brands panel, so the chart mirrors
-	// what a user sees when they scroll the top of the list.
-	function brandImpact(b: Brand): number {
-		const owners = b.ownership
-			.map((o) => firmById.get(o.firmId)?.harmScore ?? 0)
-			.filter((s) => s > 0);
-		return owners.length ? Math.max(...owners) : 0;
-	}
+	// Uses the SHARED brandImpactScore (with the 5-pt PE inheritance discount)
+	// so this chart's ordering matches the Brands list exactly — previously it
+	// re-implemented the formula WITHOUT the discount and could disagree.
 	const topBrands = $derived(
 		[...brands]
-			.map((b) => ({ brand: b, score: brandImpact(b) }))
+			.map((b) => ({ brand: b, score: brandImpactScore(b, firmById) }))
 			.sort((a, b) => b.score - a.score)
 			.slice(0, TOP_N)
 	);

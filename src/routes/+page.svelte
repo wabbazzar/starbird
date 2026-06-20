@@ -4,6 +4,7 @@
 	import { userValues, hasOnboarded } from '$lib/stores/userValues';
 	import { classify, intrinsicKind, valueTags, type Brand, type Firm } from '$lib/types';
 	import { DataFileSchema } from '$lib/schema';
+	import { indexFirms, buildBrandScoreIndex } from '$lib/ranking';
 
 	import TopBar from '$lib/components/TopBar.svelte';
 	import StatStrip from '$lib/components/StatStrip.svelte';
@@ -28,7 +29,12 @@
 
 	let panel = $state<Panel>('brands');
 	let cat = $state('all');
+	// `searchInput` is bound to the TopBar (updates every keystroke); `search`
+	// is the debounced copy the filters actually run against, so typing doesn't
+	// re-filter + re-sort the whole list on every character at ~1800 entities.
+	let searchInput = $state('');
 	let search = $state('');
+	let searchTimer: ReturnType<typeof setTimeout> | undefined;
 	let matchOnly = $state(false);
 	let sortKey = $state<'harm' | 'date'>('date');
 	let sortDir = $state<'desc' | 'asc'>('desc');
@@ -36,8 +42,32 @@
 	let showEditValues = $state(false);
 	let menuOpen = $state(false);
 
+	// Progressive rendering: only the first `*Limit` cards of each filtered list
+	// are mounted, so initial paint never eagerly builds ~1800 rich cards. The
+	// limit grows as the user nears the bottom (onScroll) and is bumped to cover
+	// a deep-linked target (goToEntity). Reset on any filter/sort/panel change.
+	const PAGE = 60;
+	let brandLimit = $state(PAGE);
+	let firmLimit = $state(PAGE);
+	function resetPaging() {
+		brandLimit = PAGE;
+		firmLimit = PAGE;
+	}
+
+	function onSearchInput(v: string) {
+		searchInput = v;
+		clearTimeout(searchTimer);
+		searchTimer = setTimeout(() => {
+			search = v;
+			resetPaging();
+		}, 150);
+	}
+
 	// firmId → Firm index for O(1) ownership lookup from BrandCard
-	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
+	const firmById = $derived(indexFirms(firms));
+	// Precompute each brand's impact score ONCE per dataset rather than inside
+	// the sort comparator + search filter on every keystroke.
+	const brandScores = $derived(buildBrandScoreIndex(brands, firmById));
 
 	// Sort entries by addedAt date; missing dates are pushed to the end
 	// regardless of direction so unstamped entries don't dominate either pole.
@@ -59,7 +89,14 @@
 		scrollEl?.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 	function onScroll() {
-		showScrollBtn = (scrollEl?.scrollTop ?? 0) > 300;
+		const el = scrollEl;
+		if (!el) return;
+		showScrollBtn = el.scrollTop > 300;
+		// Within ~600px of the bottom, reveal the next page of the active list.
+		if (el.scrollHeight - el.scrollTop - el.clientHeight < 600) {
+			if (panel === 'brands' && brandLimit < filteredBrands.length) brandLimit += PAGE;
+			else if (panel === 'firms' && firmLimit < filteredFirms.length) firmLimit += PAGE;
+		}
 	}
 
 	onMount(async () => {
@@ -118,6 +155,15 @@
 		cat = 'all';
 		matchOnly = false;
 		panel = isFirm ? 'firms' : 'brands';
+		// Ensure the progressive-render window covers the target, otherwise a
+		// deep-linked entity beyond the first page wouldn't be mounted to scroll to.
+		if (isFirm) {
+			const i = filteredFirms.findIndex((f) => f.id === id);
+			if (i >= 0) firmLimit = Math.max(firmLimit, i + 5);
+		} else {
+			const i = filteredBrands.findIndex((b) => b.id === id);
+			if (i >= 0) brandLimit = Math.max(brandLimit, i + 5);
+		}
 		// Wait for Svelte to re-render the (now unfiltered) list, then scroll.
 		await new Promise((r) => requestAnimationFrame(() => r(null)));
 		await new Promise((r) => requestAnimationFrame(() => r(null)));
@@ -164,26 +210,9 @@
 		}
 	}
 
-	/**
-	 * Highest-impact first: sort by the parent firm's harmScore descending.
-	 * PE-owned brands (firm.aumVal > 0) get a 5-point inheritance discount
-	 * so active perpetrators outrank PE victims. Self-owned brands (aumVal 0)
-	 * use the raw score. Tiebreakers:
-	 *   1. brands with a non-empty `why` (a proxy for evidence presence)
-	 *   2. insertion order (stable — newest additions fall below older ones
-	 *      at the same impact level, so the existing top doesn't shuffle on
-	 *      every runner pass)
-	 */
-	function brandImpactScore(b: Brand): number {
-		let best = 0;
-		for (const o of b.ownership) {
-			const firm = firmById.get(o.firmId);
-			if (!firm || !firm.harmScore) continue;
-			const discount = firm.aumVal > 0 ? 5 : 0;
-			best = Math.max(best, firm.harmScore - discount);
-		}
-		return best;
-	}
+	// Brand impact (PE-discounted max owner harmScore) is precomputed into
+	// `brandScores` once per dataset; see src/lib/ranking.ts for the formula.
+	const scoreOf = (b: Brand) => brandScores.get(b.id) ?? 0;
 
 	const filteredBrands = $derived.by(() => {
 		const q = search.trim().toLowerCase();
@@ -208,10 +237,10 @@
 					const d = compareByDate(a, b);
 					if (d !== 0) return d;
 					// Tiebreaker: harm impact within the same date, descending
-					return brandImpactScore(b) - brandImpactScore(a);
+					return scoreOf(b) - scoreOf(a);
 				}
-				const sa = brandImpactScore(a);
-				const sb = brandImpactScore(b);
+				const sa = scoreOf(a);
+				const sb = scoreOf(b);
 				if (sb !== sa) return sortDir === 'desc' ? sb - sa : sa - sb;
 				const ea = a.why && a.why.length > 20 ? 1 : 0;
 				const eb = b.why && b.why.length > 20 ? 1 : 0;
@@ -243,6 +272,10 @@
 				return sortDir === 'desc' ? b.harmScore - a.harmScore : a.harmScore - b.harmScore;
 			});
 	});
+
+	// Windowed slices actually mounted to the DOM (see PAGE / *Limit above).
+	const visibleBrands = $derived(filteredBrands.slice(0, brandLimit));
+	const visibleFirms = $derived(filteredFirms.slice(0, firmLimit));
 </script>
 
 <svelte:head>
@@ -263,9 +296,9 @@
 
 <div class="app">
 	<TopBar
-		searchTerm={search}
+		searchTerm={searchInput}
 		{menuOpen}
-		onsearch={(v) => (search = v)}
+		onsearch={onSearchInput}
 		onmenu={() => (menuOpen = !menuOpen)}
 		onscrolltop={scrollToTop}
 	/>
@@ -273,9 +306,15 @@
 	{#if panel === 'brands' || panel === 'firms'}
 		<FilterRow
 			activeCat={cat}
-			onchange={(id) => (cat = id)}
+			onchange={(id) => {
+				cat = id;
+				resetPaging();
+			}}
 			{matchOnly}
-			ontoggleMatch={() => (matchOnly = !matchOnly)}
+			ontoggleMatch={() => {
+				matchOnly = !matchOnly;
+				resetPaging();
+			}}
 			{sortKey}
 			{sortDir}
 			onsort={(key) => {
@@ -284,6 +323,7 @@
 				} else {
 					sortKey = key;
 				}
+				resetPaging();
 			}}
 		/>
 	{/if}
@@ -298,7 +338,7 @@
 				<p class="empty">No brands match. Try widening your filter.</p>
 			{:else}
 				<div class="count">{filteredBrands.length} brands</div>
-				{#each filteredBrands as b (b.id)}
+				{#each visibleBrands as b (b.id)}
 					{@const c = classify(b.harms, b.aligns, $userValues)}
 					{@const intrinsic = intrinsicKind(b.harms, b.aligns)}
 					{@const t = valueTags(b.harms, b.aligns, $userValues)}
@@ -310,17 +350,24 @@
 						{firmById}
 					/>
 				{/each}
+				{#if visibleBrands.length < filteredBrands.length}
+					<div class="count more">Showing {visibleBrands.length} of {filteredBrands.length} — scroll for more</div>
+				{/if}
 			{/if}
 		{:else if panel === 'firms'}
 			{#if filteredFirms.length === 0}
 				<p class="empty">No firms match.</p>
 			{:else}
-				{#each filteredFirms as f (f.id)}
+				<div class="count">{filteredFirms.length} firms</div>
+				{#each visibleFirms as f (f.id)}
 					{@const c = classify(f.harms, f.aligns, $userValues)}
 					{@const intrinsic = intrinsicKind(f.harms, f.aligns)}
 					{@const t = valueTags(f.harms, f.aligns, $userValues)}
 					<FirmCard firm={f} classification={c.kind} {intrinsic} tags={t} />
 				{/each}
+				{#if visibleFirms.length < filteredFirms.length}
+					<div class="count more">Showing {visibleFirms.length} of {filteredFirms.length} — scroll for more</div>
+				{/if}
 			{/if}
 		{:else if panel === 'charts'}
 			<ChartsPanel {firms} {brands} />
@@ -335,7 +382,13 @@
 		{/if}
 	</div>
 
-	<BottomNav active={panel} onchange={(p) => (panel = p)} />
+	<BottomNav
+		active={panel}
+		onchange={(p) => {
+			panel = p;
+			resetPaging();
+		}}
+	/>
 
 	{#if showScrollBtn}
 		<button
@@ -392,6 +445,11 @@
 		margin-bottom: 8px;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
+	}
+	.count.more {
+		margin-top: 10px;
+		margin-bottom: 4px;
+		text-align: center;
 	}
 	.empty {
 		text-align: center;

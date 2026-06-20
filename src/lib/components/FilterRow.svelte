@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { CATEGORIES } from '$lib/categories';
 	type Cat = { id: string; label: string };
 	type SortKey = 'harm' | 'date';
 	type SortDir = 'desc' | 'asc';
@@ -24,18 +25,9 @@
 
 	const arrow = $derived(sortDir === 'desc' ? '↓' : '↑');
 
-	const CATS: Cat[] = [
-		{ id: 'all', label: 'All' },
-		{ id: 'tech', label: 'Tech' },
-		{ id: 'food', label: 'Fast Food' },
-		{ id: 'coffee', label: 'Coffee' },
-		{ id: 'retail', label: 'Retail' },
-		{ id: 'health', label: 'Health' },
-		{ id: 'pets', label: 'Pets' },
-		{ id: 'home', label: 'Home' },
-		{ id: 'hospitality', label: 'Hotels' },
-		{ id: 'finance', label: 'Services' }
-	];
+	// Sourced from the categories.ts single source of truth so the filter
+	// chips can never drift from the category definitions used everywhere else.
+	const CATS: Cat[] = [{ id: 'all', label: 'All' }, ...CATEGORIES.map((c) => ({ id: c.id, label: c.label }))];
 </script>
 
 <div class="row no-scrollbar">
