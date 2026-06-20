@@ -13,6 +13,26 @@ export interface Ownership {
 	until?: string; // set when stake is 'former' or 'post_bankrupt'
 }
 
+export type AmountKind =
+	| 'fine'
+	| 'settlement'
+	| 'debt'
+	| 'fees'
+	| 'revenue'
+	| 'deal'
+	| 'donation';
+
+/** One addressable evidence unit decomposed from the prose summary/why. */
+export interface Evidence {
+	tag: QuestId;
+	text: string;
+	date?: string;
+	amountUsd?: number;
+	amountKind?: AmountKind;
+	actor?: string;
+	sourceUrl?: string;
+}
+
 export interface Firm {
 	id: string;
 	name: string;
@@ -29,6 +49,7 @@ export interface Firm {
 	cats: CategoryId[];
 	harms: QuestId[];
 	aligns: QuestId[];
+	evidence?: Evidence[];
 	addedAt?: string;
 }
 
@@ -43,6 +64,7 @@ export interface Brand {
 	blurb?: string;
 	harms: QuestId[];
 	aligns: QuestId[];
+	evidence?: Evidence[];
 	addedAt?: string;
 }
 

@@ -90,6 +90,29 @@ def compute(before: dict, after: dict) -> dict:
             connected += 1
     graph_connectivity = (connected / considered) if considered > 0 else 0.0
 
+    # Tag -> evidence linkage: among new/refreshed entities that carry a
+    # structured evidence[] array, the fraction of their harm/align tags that
+    # have a matching evidence.tag. Makes the "tags need evidence" rule
+    # measurable per-tag (not just "why is non-empty"). Entities without an
+    # evidence[] array yet are excluded so legacy records don't skew it.
+    linked = 0
+    tag_total = 0
+    touched = [
+        (after_firms[i] for i in (new_firm_ids | refreshed_firm_ids)),
+        (after_brands[i] for i in (new_brand_ids | refreshed_brand_ids)),
+    ]
+    for group in touched:
+        for ent in group:
+            ev = ent.get("evidence")
+            if not isinstance(ev, list):
+                continue
+            ev_tags = {e.get("tag") for e in ev}
+            for tag in list(ent.get("harms", [])) + list(ent.get("aligns", [])):
+                tag_total += 1
+                if tag in ev_tags:
+                    linked += 1
+    tag_evidence_linkage = (linked / tag_total) if tag_total > 0 else 1.0
+
     return {
         "new_firms": len(new_firm_ids),
         "new_brands": len(new_brand_ids),
@@ -97,6 +120,7 @@ def compute(before: dict, after: dict) -> dict:
         "refreshed_firms": len(refreshed_firm_ids),
         "refreshed_brands": len(refreshed_brand_ids),
         "evidence_coverage": round(evidence_coverage, 4),
+        "tag_evidence_linkage": round(tag_evidence_linkage, 4),
         "graph_connectivity": round(graph_connectivity, 4),
         "new_firm_ids": sorted(new_firm_ids),
         "new_brand_ids": sorted(new_brand_ids),

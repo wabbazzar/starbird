@@ -23,6 +23,24 @@ export const OwnershipSchema = z.object({
 	until: z.string().optional()
 });
 
+// A single addressable evidence unit decomposed from the prose `summary`/`why`.
+// Optional & additive (data version stays 2): existing records validate
+// unchanged. `tag` links the unit to a specific harm/align chip so the "tags
+// need evidence" rule becomes machine-checkable, and the typed fields power
+// timeline (date), cost-of-harm (amountUsd/amountKind), regulator-facet
+// (actor), and per-claim source (sourceUrl) visuals.
+export const EvidenceSchema = z.object({
+	tag: QuestIdSchema,
+	text: z.string().min(1),
+	date: z.string().optional(),
+	amountUsd: z.number().nonnegative().optional(),
+	amountKind: z
+		.enum(['fine', 'settlement', 'debt', 'fees', 'revenue', 'deal', 'donation'])
+		.optional(),
+	actor: z.string().optional(),
+	sourceUrl: z.string().url().optional()
+});
+
 export const FirmSchema = z.object({
 	id: SlugIdSchema,
 	name: z.string().min(1),
@@ -41,6 +59,7 @@ export const FirmSchema = z.object({
 	cats: z.array(CategoryIdSchema),
 	harms: z.array(QuestIdSchema),
 	aligns: z.array(QuestIdSchema),
+	evidence: z.array(EvidenceSchema).optional(),
 	addedAt: z.string().date().optional()
 });
 
@@ -57,6 +76,7 @@ export const BrandSchema = z.object({
 	blurb: z.string().min(1).max(220).optional(),
 	harms: z.array(QuestIdSchema),
 	aligns: z.array(QuestIdSchema),
+	evidence: z.array(EvidenceSchema).optional(),
 	addedAt: z.string().date().optional()
 });
 

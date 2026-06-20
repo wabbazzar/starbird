@@ -229,6 +229,17 @@ source (URL to best evidence),
 cats: [],
 harms: ["workers_ice_cooperation"],  // plus any prior harms if updating
 aligns: [],
+evidence: [   // one entry per tag in harms[]+aligns[]; mirrors the summary
+  {
+    tag: "workers_ice_cooperation",  // MUST be a tag present in harms/aligns
+    text: "the sentence from `summary` that justifies this tag",
+    date: "2025-03",        // optional: when the incident occurred (YYYY or YYYY-MM-DD)
+    amountUsd: 137000000,    // optional: dollar figure if the claim has one
+    amountKind: "settlement",// optional: fine|settlement|debt|fees|revenue|deal|donation
+    actor: "NLRB",          // optional: regulator/court/agency named
+    sourceUrl: "https://..." // optional: source for THIS claim
+  }
+],
 addedAt: "YYYY-MM-DD"  // today's date in ISO format (from TIMESTAMP env var)
 ```
 
@@ -253,6 +264,7 @@ blurb: neutral one-line description of what the brand makes/sells/does, ≤20
        "Remote-desktop and app-virtualization software for enterprise IT." Required.
 harms: ["workers_ice_cooperation"]
 aligns: [],
+evidence: [{ tag: "workers_ice_cooperation", text: "the sentence from `why` that justifies this tag", date, amountUsd, amountKind, actor, sourceUrl }],  // one per tag; optional fields where the claim supports them
 addedAt: "YYYY-MM-DD"  // today's date in ISO format (from TIMESTAMP env var)
 ```
 
@@ -287,9 +299,15 @@ Rules:
    appended text must include:
    - A concrete factual claim (numbers, dates, or named incidents)
    - A source (named publication, database, or URL)
-5. If you cannot find specific evidence for the new tag on this entry,
+5. **ALSO append a matching `evidence[]` entry** for the new tag:
+   `{ tag, text }` at minimum, plus `date`, `amountUsd`, `amountKind`,
+   `actor`, `sourceUrl` wherever the claim you just wrote supports them.
+   The `text` should be the sentence(s) you appended to `why`/`summary`, so
+   the prose and the structured unit are written together and can't drift.
+   `tag_evidence_linkage` in the metrics now measures this per-tag.
+6. If you cannot find specific evidence for the new tag on this entry,
    **do not add the tag**. An unsupported tag is worse than a missing one.
-6. If you update an existing entry, also update its `addedAt` field to
+7. If you update an existing entry, also update its `addedAt` field to
    today's date so the Date sort surfaces it as recently touched.
 
 Example — adding `health_general` to an existing fast-food brand:
