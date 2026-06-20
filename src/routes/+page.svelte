@@ -38,6 +38,18 @@
 	let matchOnly = $state(false);
 	let sortKey = $state<'harm' | 'date'>('date');
 	let sortDir = $state<'desc' | 'asc'>('desc');
+	// Harm-score band drill-down, set by clicking a histogram bucket on the
+	// charts panel. Applies only to the firms list.
+	let scoreBand = $state<{ min: number; max: number } | null>(null);
+	function selectScoreBand(min: number, max: number) {
+		scoreBand = { min, max };
+		cat = 'all';
+		matchOnly = false;
+		sortKey = 'harm';
+		sortDir = 'desc';
+		panel = 'firms';
+		resetPaging();
+	}
 	let showOnboarding = $state(false);
 	let showEditValues = $state(false);
 	let menuOpen = $state(false);
@@ -59,6 +71,7 @@
 		clearTimeout(searchTimer);
 		searchTimer = setTimeout(() => {
 			search = v;
+			scoreBand = null;
 			resetPaging();
 		}, 150);
 	}
@@ -253,6 +266,8 @@
 		return firms
 			.filter((f) => {
 				if (cat !== 'all' && !f.cats.includes(cat as never)) return false;
+				if (scoreBand && (f.harmScore < scoreBand.min || f.harmScore > scoreBand.max))
+					return false;
 				if (q) {
 					const hay = [f.name, f.summary, ...f.brands].join(' ').toLowerCase();
 					if (!hay.includes(q)) return false;
@@ -308,6 +323,7 @@
 			activeCat={cat}
 			onchange={(id) => {
 				cat = id;
+				scoreBand = null;
 				resetPaging();
 			}}
 			{matchOnly}
@@ -355,6 +371,12 @@
 				{/if}
 			{/if}
 		{:else if panel === 'firms'}
+			{#if scoreBand}
+				<div class="band-banner">
+					Harm score {scoreBand.min}–{scoreBand.max}
+					<button type="button" onclick={() => { scoreBand = null; resetPaging(); }}>clear ✕</button>
+				</div>
+			{/if}
 			{#if filteredFirms.length === 0}
 				<p class="empty">No firms match.</p>
 			{:else}
@@ -370,7 +392,7 @@
 				{/if}
 			{/if}
 		{:else if panel === 'charts'}
-			<ChartsPanel {firms} {brands} />
+			<ChartsPanel {firms} {brands} onselectband={selectScoreBand} />
 		{:else if panel === 'blog'}
 			{#if posts.length === 0}
 				<p class="empty">No dispatches yet. The nightly runner posts here after each run.</p>
@@ -450,6 +472,27 @@
 		margin-top: 10px;
 		margin-bottom: 4px;
 		text-align: center;
+	}
+	.band-banner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+		background: var(--surface-2);
+		border: 1px solid var(--border);
+		border-radius: 8px;
+		padding: 6px 10px;
+		margin-bottom: 8px;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.7rem;
+		color: var(--ink-muted);
+	}
+	.band-banner button {
+		background: none;
+		border: none;
+		color: var(--primary);
+		cursor: pointer;
+		font: inherit;
 	}
 	.empty {
 		text-align: center;

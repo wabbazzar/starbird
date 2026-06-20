@@ -3,15 +3,34 @@
 	import type { ValueId } from '$lib/values';
 	import { VALUES } from '$lib/values';
 	import { QUEST_BY_ID } from '$lib/quests';
-	import { brandImpactScore } from '$lib/ranking';
+	import { brandImpactScore, indexFirms } from '$lib/ranking';
+	import { CATEGORIES, type CategoryId } from '$lib/categories';
+	import HarmHistogram from './HarmHistogram.svelte';
+	import CategoryValueHeatmap from './CategoryValueHeatmap.svelte';
 
-	type Props = { firms: Firm[]; brands: Brand[] };
-	let { firms, brands }: Props = $props();
+	type Props = {
+		firms: Firm[];
+		brands: Brand[];
+		/** Drill from the histogram into firms in a score band. */
+		onselectband?: (min: number, max: number) => void;
+	};
+	let { firms, brands, onselectband }: Props = $props();
 
 	const TOP_N = 20;
 
+	// Leaderboard scope: 'all' or a single category. A single global top-N
+	// represents a shrinking slice as the dataset grows, so let the user ask
+	// "worst in <category>".
+	let scope = $state<CategoryId | 'all'>('all');
+	const scopedFirms = $derived(
+		scope === 'all' ? firms : firms.filter((f) => f.cats.includes(scope as CategoryId))
+	);
+	const scopedBrands = $derived(
+		scope === 'all' ? brands : brands.filter((b) => b.cat === scope)
+	);
+
 	// Index firms for O(1) lookup from brand.ownership
-	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
+	const firmById = $derived(indexFirms(firms));
 
 	// ── Chart 1: unique entity count per value system ──────────────────
 	// Counts each entity once per value, deduping self-owned firm+brand
@@ -56,7 +75,7 @@
 	// so this chart's ordering matches the Brands list exactly — previously it
 	// re-implemented the formula WITHOUT the discount and could disagree.
 	const topBrands = $derived(
-		[...brands]
+		[...scopedBrands]
 			.map((b) => ({ brand: b, score: brandImpactScore(b, firmById) }))
 			.sort((a, b) => b.score - a.score)
 			.slice(0, TOP_N)
@@ -65,7 +84,7 @@
 
 	// ── Chart 3: AUM (elongated from 10 → 20) ──────────────────────────
 	const byAum = $derived(
-		[...firms]
+		[...scopedFirms]
 			.filter((f) => f.aumVal > 0)
 			.sort((a, b) => b.aumVal - a.aumVal)
 			.slice(0, TOP_N)
@@ -74,10 +93,24 @@
 
 	// ── Chart 4: Harm Score (elongated from 10 → 20) ───────────────────
 	const byHarm = $derived(
-		[...firms].sort((a, b) => b.harmScore - a.harmScore).slice(0, TOP_N)
+		[...scopedFirms].sort((a, b) => b.harmScore - a.harmScore).slice(0, TOP_N)
 	);
 	const maxHarm = $derived(Math.max(...byHarm.map((f) => f.harmScore), 1));
 </script>
+
+<HarmHistogram {firms} onselect={onselectband} />
+
+<CategoryValueHeatmap {firms} {brands} />
+
+<div class="scope-bar">
+	<label for="scope">Leaderboard scope</label>
+	<select id="scope" bind:value={scope}>
+		<option value="all">All categories</option>
+		{#each CATEGORIES as c (c.id)}
+			<option value={c.id}>{c.label}</option>
+		{/each}
+	</select>
+</div>
 
 <section class="block">
 	<div class="section-label">// Coverage — Unique entities per value system</div>
@@ -154,6 +187,28 @@
 		border-radius: var(--radius);
 		padding: 14px 16px;
 		margin-bottom: 12px;
+	}
+	.scope-bar {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin-bottom: 12px;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.62rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: var(--ink-faint);
+	}
+	.scope-bar select {
+		font-family: inherit;
+		font-size: 0.72rem;
+		padding: 4px 8px;
+		border-radius: 6px;
+		border: 1px solid var(--border);
+		background: var(--surface);
+		color: var(--ink);
+		text-transform: none;
+		letter-spacing: 0;
 	}
 	.chart {
 		margin-top: 10px;
