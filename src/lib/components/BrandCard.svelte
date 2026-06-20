@@ -2,6 +2,7 @@
 	import type { Brand, Firm, Classification, OwnershipStake, ValueTag } from '$lib/types';
 	import { VALUE_BY_ID } from '$lib/values';
 	import ValueChip from './ValueChip.svelte';
+	import EvidenceList from './EvidenceList.svelte';
 
 	type Props = {
 		brand: Brand;
@@ -132,6 +133,9 @@
 	<p class="why">{brand.why}</p>
 
 	{#if showDetails}
+		{#if brand.evidence && brand.evidence.length > 0}
+			<EvidenceList evidence={brand.evidence} />
+		{/if}
 		<div class="card-footer">
 			<div class="sources">
 				{#each sources as s (s.url)}

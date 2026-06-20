@@ -3,14 +3,44 @@
 	import type { ValueId } from '$lib/values';
 	import { VALUES } from '$lib/values';
 	import { QUEST_BY_ID } from '$lib/quests';
+	import { brandImpactScore, indexFirms } from '$lib/ranking';
+	import { CATEGORIES, type CategoryId } from '$lib/categories';
+	import { costOfHarm } from '$lib/aggregations';
+	import HarmHistogram from './HarmHistogram.svelte';
+	import CategoryValueHeatmap from './CategoryValueHeatmap.svelte';
+	import AumTreemap from './AumTreemap.svelte';
+	import FirmHubRanking from './FirmHubRanking.svelte';
 
-	type Props = { firms: Firm[]; brands: Brand[] };
-	let { firms, brands }: Props = $props();
+	type Props = {
+		firms: Firm[];
+		brands: Brand[];
+		/** Drill from the histogram into firms in a score band. */
+		onselectband?: (min: number, max: number) => void;
+		/** Jump to a brand/firm card (from the ownership-hub trees). */
+		onselectentity?: (id: string) => void;
+	};
+	let { firms, brands, onselectband, onselectentity }: Props = $props();
 
 	const TOP_N = 20;
 
+	// Leaderboard scope: 'all' or a single category. A single global top-N
+	// represents a shrinking slice as the dataset grows, so let the user ask
+	// "worst in <category>".
+	let scope = $state<CategoryId | 'all'>('all');
+	const scopedFirms = $derived(
+		scope === 'all' ? firms : firms.filter((f) => f.cats.includes(scope as CategoryId))
+	);
+	const scopedBrands = $derived(
+		scope === 'all' ? brands : brands.filter((b) => b.cat === scope)
+	);
+
+	const fmtUsd = (n: number) =>
+		n >= 1e9 ? `$${(n / 1e9).toFixed(1)}B` : n >= 1e6 ? `$${(n / 1e6).toFixed(0)}M` : `$${n}`;
+	const costRows = $derived(costOfHarm(scopedFirms, 15));
+	const maxCost = $derived(Math.max(...costRows.map((c) => c.usd), 1));
+
 	// Index firms for O(1) lookup from brand.ownership
-	const firmById = $derived(new Map(firms.map((f) => [f.id, f])));
+	const firmById = $derived(indexFirms(firms));
 
 	// ── Chart 1: unique entity count per value system ──────────────────
 	// Counts each entity once per value, deduping self-owned firm+brand
@@ -51,38 +81,39 @@
 	const maxValueCount = $derived(Math.max(...byValue.map((v) => v.count), 1));
 
 	// ── Chart 2: top brands by impact ──────────────────────────────────
-	// A brand's impact = max(harmScore) across its ownership.firmId refs.
-	// Same formula as the sort on the Brands panel, so the chart mirrors
-	// what a user sees when they scroll the top of the list.
-	function brandImpact(b: Brand): number {
-		const owners = b.ownership
-			.map((o) => firmById.get(o.firmId)?.harmScore ?? 0)
-			.filter((s) => s > 0);
-		return owners.length ? Math.max(...owners) : 0;
-	}
+	// Uses the SHARED brandImpactScore (with the 5-pt PE inheritance discount)
+	// so this chart's ordering matches the Brands list exactly — previously it
+	// re-implemented the formula WITHOUT the discount and could disagree.
 	const topBrands = $derived(
-		[...brands]
-			.map((b) => ({ brand: b, score: brandImpact(b) }))
+		[...scopedBrands]
+			.map((b) => ({ brand: b, score: brandImpactScore(b, firmById) }))
 			.sort((a, b) => b.score - a.score)
 			.slice(0, TOP_N)
 	);
 	const maxBrandImpact = $derived(Math.max(...topBrands.map((b) => b.score), 1));
 
-	// ── Chart 3: AUM (elongated from 10 → 20) ──────────────────────────
-	const byAum = $derived(
-		[...firms]
-			.filter((f) => f.aumVal > 0)
-			.sort((a, b) => b.aumVal - a.aumVal)
-			.slice(0, TOP_N)
-	);
-	const maxAum = $derived(Math.max(...byAum.map((f) => f.aumVal), 1));
+	// ── Chart 3: AUM is now an area-encoded treemap (AumTreemap.svelte) ──
 
 	// ── Chart 4: Harm Score (elongated from 10 → 20) ───────────────────
 	const byHarm = $derived(
-		[...firms].sort((a, b) => b.harmScore - a.harmScore).slice(0, TOP_N)
+		[...scopedFirms].sort((a, b) => b.harmScore - a.harmScore).slice(0, TOP_N)
 	);
 	const maxHarm = $derived(Math.max(...byHarm.map((f) => f.harmScore), 1));
 </script>
+
+<HarmHistogram {firms} onselect={onselectband} />
+
+<CategoryValueHeatmap {firms} {brands} />
+
+<div class="scope-bar">
+	<label for="scope">Leaderboard scope</label>
+	<select id="scope" bind:value={scope}>
+		<option value="all">All categories</option>
+		{#each CATEGORIES as c (c.id)}
+			<option value={c.id}>{c.label}</option>
+		{/each}
+	</select>
+</div>
 
 <section class="block">
 	<div class="section-label">// Coverage — Unique entities per value system</div>
@@ -122,20 +153,27 @@
 	</div>
 </section>
 
-<section class="block">
-	<div class="section-label">// AUM — Assets under management ($B), top {TOP_N}</div>
-	<div class="chart">
-		{#each byAum as f (f.id)}
-			<div class="row">
-				<div class="name">{f.name}</div>
-				<div class="bar-wrap">
-					<div class="bar" style="width: {(f.aumVal / maxAum) * 100}%"></div>
+<AumTreemap firms={scopedFirms} />
+
+<FirmHubRanking firms={scopedFirms} brands={scopedBrands} onselect={onselectentity} />
+
+{#if costRows.length > 0}
+	<section class="block">
+		<div class="section-label">// Cost of harm — fines + settlements per firm (from evidence)</div>
+		<p class="caption">Summed from structured evidence amounts. Only firms with documented penalties appear.</p>
+		<div class="chart">
+			{#each costRows as c (c.id)}
+				<div class="row">
+					<div class="name">{c.name}</div>
+					<div class="bar-wrap">
+						<div class="bar bar-harm" style="width: {(c.usd / maxCost) * 100}%"></div>
+					</div>
+					<div class="val">{fmtUsd(c.usd)}</div>
 				</div>
-				<div class="val">${f.aumVal}B</div>
-			</div>
-		{/each}
-	</div>
-</section>
+			{/each}
+		</div>
+	</section>
+{/if}
 
 <section class="block">
 	<div class="section-label">// Harm score — Top {TOP_N} firms (0–100)</div>
@@ -159,6 +197,33 @@
 		border-radius: var(--radius);
 		padding: 14px 16px;
 		margin-bottom: 12px;
+	}
+	.scope-bar {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin-bottom: 12px;
+		font-family: 'DM Mono', monospace;
+		font-size: 0.62rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: var(--ink-faint);
+	}
+	.scope-bar select {
+		font-family: inherit;
+		font-size: 0.72rem;
+		padding: 4px 8px;
+		border-radius: 6px;
+		border: 1px solid var(--border);
+		background: var(--surface);
+		color: var(--ink);
+		text-transform: none;
+		letter-spacing: 0;
+	}
+	.caption {
+		font-size: 0.72rem;
+		color: var(--ink-faint);
+		margin: 6px 0 4px;
 	}
 	.chart {
 		margin-top: 10px;
