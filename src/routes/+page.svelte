@@ -392,7 +392,7 @@
 				{/if}
 			{/if}
 		{:else if panel === 'charts'}
-			<ChartsPanel {firms} {brands} onselectband={selectScoreBand} />
+			<ChartsPanel {firms} {brands} onselectband={selectScoreBand} onselectentity={goToEntity} />
 		{:else if panel === 'blog'}
 			{#if posts.length === 0}
 				<p class="empty">No dispatches yet. The nightly runner posts here after each run.</p>

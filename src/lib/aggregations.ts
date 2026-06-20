@@ -130,6 +130,136 @@ export function categoryValueHeatmap(
 	};
 }
 
+export interface TreemapRect<T> {
+	item: T;
+	x: number;
+	y: number;
+	w: number;
+	h: number;
+}
+
+/**
+ * Squarified treemap layout (Bruls et al.). Lays `items` (each with a positive
+ * `value`) into a width×height box as non-overlapping rectangles whose AREAS
+ * are proportional to value — so magnitude reads honestly, unlike a bar chart
+ * which compresses the long tail. Items with value <= 0 are dropped.
+ */
+export function squarify<T extends { value: number }>(
+	items: T[],
+	width: number,
+	height: number
+): TreemapRect<T>[] {
+	const positive = items.filter((i) => i.value > 0).sort((a, b) => b.value - a.value);
+	const total = positive.reduce((s, i) => s + i.value, 0);
+	if (total <= 0 || width <= 0 || height <= 0) return [];
+
+	const scaled = positive.map((item) => ({ item, area: (item.value / total) * width * height }));
+	const out: TreemapRect<T>[] = [];
+	let free = { x: 0, y: 0, w: width, h: height };
+
+	const worst = (row: { area: number }[], side: number) => {
+		const sum = row.reduce((s, r) => s + r.area, 0);
+		const max = Math.max(...row.map((r) => r.area));
+		const min = Math.min(...row.map((r) => r.area));
+		const s2 = sum * sum;
+		const side2 = side * side;
+		return Math.max((side2 * max) / s2, s2 / (side2 * min));
+	};
+
+	const layoutRow = (row: { item: T; area: number }[]) => {
+		const sum = row.reduce((s, r) => s + r.area, 0);
+		const horizontal = free.w >= free.h; // lay the row along the shorter side
+		if (horizontal) {
+			const colW = sum / free.h;
+			let cy = free.y;
+			for (const r of row) {
+				const cellH = r.area / colW;
+				out.push({ item: r.item, x: free.x, y: cy, w: colW, h: cellH });
+				cy += cellH;
+			}
+			free = { x: free.x + colW, y: free.y, w: free.w - colW, h: free.h };
+		} else {
+			const rowH = sum / free.w;
+			let cx = free.x;
+			for (const r of row) {
+				const cellW = r.area / rowH;
+				out.push({ item: r.item, x: cx, y: free.y, w: cellW, h: rowH });
+				cx += cellW;
+			}
+			free = { x: free.x, y: free.y + rowH, w: free.w, h: free.h - rowH };
+		}
+	};
+
+	let row: { item: T; area: number }[] = [];
+	for (const cell of scaled) {
+		const side = Math.min(free.w, free.h);
+		if (row.length === 0 || worst(row, side) >= worst([...row, cell], side)) {
+			row.push(cell);
+		} else {
+			layoutRow(row);
+			row = [cell];
+		}
+	}
+	if (row.length) layoutRow(row);
+	return out;
+}
+
+export interface FirmHub {
+	id: string;
+	name: string;
+	brandCount: number;
+	aumVal: number;
+	harmScore: number;
+}
+
+/** Firms ranked by how many brands they own (ownership fan-out). */
+export function firmHubs(firms: Firm[], brands: Brand[], topN = 20): FirmHub[] {
+	const counts = new Map<string, number>();
+	for (const b of brands) {
+		for (const o of b.ownership) counts.set(o.firmId, (counts.get(o.firmId) ?? 0) + 1);
+	}
+	const byId = new Map(firms.map((f) => [f.id, f]));
+	return [...counts.entries()]
+		.map(([id, brandCount]) => {
+			const f = byId.get(id);
+			return {
+				id,
+				name: f?.name ?? id,
+				brandCount,
+				aumVal: f?.aumVal ?? 0,
+				harmScore: f?.harmScore ?? 0
+			};
+		})
+		.sort((a, b) => b.brandCount - a.brandCount)
+		.slice(0, topN);
+}
+
+export interface CostRow {
+	id: string;
+	name: string;
+	usd: number;
+}
+
+/**
+ * Cost-of-harm leaderboard from the structured evidence[]: sum of penalty-type
+ * dollar amounts (fines + settlements) per firm. Powered entirely by the
+ * Phase 3 backfill — impossible before evidence was structured.
+ */
+export function costOfHarm(firms: Firm[], topN = 15): CostRow[] {
+	const penaltyKinds = new Set(['fine', 'settlement']);
+	return firms
+		.map((f) => ({
+			id: f.id,
+			name: f.name,
+			usd: (f.evidence ?? [])
+				.filter((e) => e.amountUsd && e.amountKind && penaltyKinds.has(e.amountKind))
+				.reduce((s, e) => s + (e.amountUsd ?? 0), 0)
+		}))
+		.filter((r) => r.usd > 0)
+		.sort((a, b) => b.usd - a.usd)
+		.slice(0, topN);
+}
+
 export interface LeaderRow {
 	id: string;
 	name: string;

@@ -2,7 +2,10 @@ import { describe, it, expect } from 'vitest';
 import {
 	harmHistogram,
 	categoryValueHeatmap,
-	firmLeaderboard
+	firmLeaderboard,
+	squarify,
+	firmHubs,
+	costOfHarm
 } from '$lib/aggregations';
 import { DataFileSchema } from '$lib/schema';
 import { VALUES } from '$lib/values';
@@ -66,5 +69,57 @@ describe('firmLeaderboard', () => {
 		const board = firmLeaderboard(realFirms, 'tech', 50);
 		const techIds = new Set(realFirms.filter((f) => f.cats.includes('tech')).map((f) => f.id));
 		for (const row of board) expect(techIds.has(row.id)).toBe(true);
+	});
+});
+
+describe('squarify treemap', () => {
+	it('rects stay within bounds and areas are proportional to value', () => {
+		const items = [{ value: 50 }, { value: 30 }, { value: 20 }];
+		const W = 100,
+			H = 100;
+		const rects = squarify(items, W, H);
+		expect(rects.length).toBe(3);
+		const totalArea = items.reduce((s, i) => s + i.value, 0);
+		for (const r of rects) {
+			expect(r.x).toBeGreaterThanOrEqual(-1e-6);
+			expect(r.y).toBeGreaterThanOrEqual(-1e-6);
+			expect(r.x + r.w).toBeLessThanOrEqual(W + 1e-6);
+			expect(r.y + r.h).toBeLessThanOrEqual(H + 1e-6);
+			const expectedArea = (r.item.value / totalArea) * W * H;
+			expect(r.w * r.h).toBeCloseTo(expectedArea, 4);
+		}
+	});
+	it('covers the whole area (sum of rect areas == box area)', () => {
+		const rects = squarify([{ value: 3 }, { value: 1 }, { value: 1 }, { value: 5 }], 200, 120);
+		const sum = rects.reduce((s, r) => s + r.w * r.h, 0);
+		expect(sum).toBeCloseTo(200 * 120, 2);
+	});
+	it('drops non-positive values and handles empty input', () => {
+		expect(squarify([{ value: 0 }, { value: -5 }], 100, 100)).toEqual([]);
+		expect(squarify([], 100, 100)).toEqual([]);
+	});
+});
+
+describe('firmHubs', () => {
+	it('ranks firms by owned-brand count, descending', () => {
+		const hubs = firmHubs(realFirms, realBrands, 10);
+		expect(hubs.length).toBeLessThanOrEqual(10);
+		for (let i = 1; i < hubs.length; i++) {
+			expect(hubs[i - 1].brandCount).toBeGreaterThanOrEqual(hubs[i].brandCount);
+		}
+		// total brand-count across all hubs cannot exceed total ownership edges
+		const edges = realBrands.reduce((s, b) => s + b.ownership.length, 0);
+		const counted = firmHubs(realFirms, realBrands, 9999).reduce((s, h) => s + h.brandCount, 0);
+		expect(counted).toBe(edges);
+	});
+});
+
+describe('costOfHarm', () => {
+	it('sums only fine/settlement amounts and sorts descending', () => {
+		const rows = costOfHarm(realFirms, 15);
+		for (let i = 1; i < rows.length; i++) {
+			expect(rows[i - 1].usd).toBeGreaterThanOrEqual(rows[i].usd);
+		}
+		for (const r of rows) expect(r.usd).toBeGreaterThan(0);
 	});
 });
