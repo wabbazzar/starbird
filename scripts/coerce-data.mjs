@@ -40,8 +40,13 @@ if (typeof data.version !== 'number') {
 	fixes++;
 }
 
+// Stake variants the runner writes that aren't in the OwnershipSchema enum.
+// Documented in project block hotfixes de6d777, 8b69ec6, 577bc80, f8df056.
+const IP_OWNER_VARIANTS = ['IP owner', 'licensee', 'trademark holder'];
+
 for (const [bi, brand] of (data.brands ?? []).entries()) {
 	for (const [oi, own] of (brand.ownership ?? []).entries()) {
+		// Numeric since/until → string
 		for (const field of ['since', 'until']) {
 			if (typeof own[field] === 'number') {
 				const before = own[field];
@@ -51,6 +56,41 @@ for (const [bi, brand] of (data.brands ?? []).entries()) {
 				);
 				fixes++;
 			}
+		}
+
+		// "self-owned" → "majority" (self-owned brands use stake:"majority" per schema)
+		if (own.stake === 'self-owned') {
+			own.stake = 'majority';
+			console.error(
+				`coerce-data: brands[${bi}].ownership[${oi}].stake: "self-owned" → "majority"`
+			);
+			fixes++;
+		}
+
+		// "majority (YYYY-YYYY)" → stake:"former", until:"YYYY" (end year)
+		// Runner encodes ended relationships as free-text stake; schema uses former+until.
+		const rangeMatch =
+			typeof own.stake === 'string' && own.stake.match(/^majority\s*\((\d{4})-(\d{4})\)$/);
+		if (rangeMatch) {
+			const [, startYear, endYear] = rangeMatch;
+			if (!own.since) own.since = startYear;
+			own.until = endYear;
+			own.stake = 'former';
+			console.error(
+				`coerce-data: brands[${bi}].ownership[${oi}].stake: "${own.stake}" → "former", until:"${endYear}"`
+			);
+			fixes++;
+		}
+
+		// "IP owner" / "licensee" / "trademark holder" → "post_bankrupt"
+		// Used for brand-revival entities where original co went bankrupt and IP was sold.
+		if (typeof own.stake === 'string' && IP_OWNER_VARIANTS.includes(own.stake)) {
+			const before = own.stake;
+			own.stake = 'post_bankrupt';
+			console.error(
+				`coerce-data: brands[${bi}].ownership[${oi}].stake: "${before}" → "post_bankrupt"`
+			);
+			fixes++;
 		}
 	}
 }
