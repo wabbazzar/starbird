@@ -70,6 +70,22 @@ When sorted by harm impact, brands rank by the max `harmScore` of their parent f
 
 Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. When the runner adds a new tag to an existing entry, it must also append evidence text. A tag without evidence is a data quality violation. The Guardian checklist enforces this.
 
+## `/shop` skill
+
+`/shop <what you want>` shops on your behalf without steering you toward
+companies misaligned with the six values. Committed at
+`.claude/commands/shop.md`; shared logic in `scripts/shop-lib.mjs` (reuses
+`brandImpactScore()` + the harm buckets). Two tiers:
+
+- **Tier 1 (offline):** vet candidates against `static/data.json`. Safe = absent
+  **or** `harmScore < 40`; `40–79` → find an alternative; `≥ 80` → hard block.
+- **Tier 2 (web):** research unknowns via built-in `WebSearch`, cache profiles to
+  the gitignored `tmp/shop-candidates.json`, keep searching until a clean pick.
+
+Recommends + buy-link only — no checkout/payment. New profiles reach canonical
+`data.json` by PR only (human-reviewed), never auto-write. Zero setup for
+cloners: no API keys, just `git clone` → `/shop`. Design: `docs/tickets/shop-skill.md`.
+
 ## Deploy
 
 Push to main → GitHub Actions build + deploy to GitHub Pages (custom domain: `starbird42.com`).
