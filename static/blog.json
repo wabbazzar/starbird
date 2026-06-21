@@ -940,6 +940,21 @@
         "schick"
       ],
       "source": "https://crueltyfreeinternational.org/"
+    },
+    {
+      "id": "2026-06-21-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-21",
+      "title": "For Hire: The Private Firms That Help the Powerful Escape Accountability",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaces three companies at the heart of the commercial impunity industry — NSO Group, Black Cube, and Psy-Group — each selling surveillance, intimidation, or disinformation as a service to clients wealthy enough to afford it.",
+      "body": "The most durable form of elite impunity isn't a corrupt judge or a political connection — it's a privatized market of firms that do the dirty work for you. This run drew on adjacent investigative sources including Ronan Farrow's New Yorker reporting, the Amnesty International–led Pegasus Project, Senate Intelligence Committee records, and Canadian court filings to identify three companies that built their business models around helping the powerful avoid accountability.\n\nNSO Group is the most globally consequential of the three. The Israeli spyware firm's Pegasus tool was sold to at least a dozen authoritarian governments and used to surveil journalists, lawyers, and opposition figures. Saudi agents used it to monitor associates of Jamal Khashoggi before his murder in 2018. The Pegasus Project identified 50,000 potential targets across 50 countries. When Meta (WhatsApp) finally got its day in court, a jury awarded $168 million in damages in May 2025 — but NSO's founders faced no criminal charges in Israel, and the company simply changed owners and kept operating.\n\nBlack Cube runs the same impunity playbook at the individual scale. The Tel Aviv-based firm deploys former Mossad operatives under false identities to gather compromising material on whoever its clients want silenced. Harvey Weinstein paid them to send a fake women's-rights advocate to record Rose McGowan before the #MeToo story broke. Toronto hedge fund Catalyst Capital paid roughly $11 million CAD to run 'Project Maple Tree' — a campaign to entrap and discredit the Ontario judge who had ruled against them in a business dispute. The clients change; the method doesn't.\n\nPsy-Group, which disbanded in 2018 after Mueller investigators began scrutinizing it, represents the election-interference end of the market. Its founder Joel Zamel pitched a social media manipulation campaign to Donald Trump Jr. and Gulf-state intermediary George Nader at Trump Tower in August 2016; Nader paid Zamel up to $2 million after the election. Psy-Group also signed a partnership with Cambridge Analytica and ran disinformation operations for unnamed Gulf-state clients. When the spotlight found them, the firm simply closed — and no one was charged.",
+      "entityIds": [
+        "black_cube",
+        "nso_group",
+        "psy_group"
+      ]
     }
   ]
 }

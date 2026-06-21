@@ -9276,6 +9276,99 @@
         }
       ],
       "addedAt": "2026-06-20"
+    },
+    {
+      "id": "nso_group",
+      "name": "NSO Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "NSO Group Technologies is an Israeli cybersurveillance firm and developer of the Pegasus spyware, capable of silently exfiltrating all data from a target smartphone without user interaction. The company was purchased by U.S. private equity firm Francisco Partners for $130 million in 2014, then reacquired by its co-founders with backing from London private equity fund Novalpina Capital at approximately a $1 billion valuation in 2019. NSO sold Pegasus to at least a dozen authoritarian governments including Saudi Arabia—whose agents used it to surveil associates of journalist Jamal Khashoggi before his 2018 murder—as well as the UAE, Mexico, Bahrain, and Morocco, targeting journalists, lawyers, and opposition politicians. WhatsApp (Meta) sued NSO in October 2019 for deploying Pegasus to hack approximately 1,400 users, and a jury awarded Meta $168 million in damages in May 2025. The U.S. Department of Commerce added NSO to its Entity List in November 2021, citing actions contrary to U.S. national security interests. Despite widespread documented harms enabling authoritarian surveillance of dissidents and journalists, NSO's principals faced no criminal prosecution in Israel.",
+      "blurb": "Develops and licenses Pegasus spyware to government clients for smartphone surveillance.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 88,
+      "source": "https://en.wikipedia.org/wiki/NSO_Group",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "NSO's Pegasus spyware was used by Saudi Arabia to surveil Jamal Khashoggi's associates before his 2018 murder; the Pegasus Project (July 2021) identified 50,000 potential surveillance targets; a Meta jury awarded $168 million in damages against NSO in May 2025 for hacking ~1,400 WhatsApp users; the U.S. Department of Commerce blacklisted NSO in November 2021. NSO's principals faced no criminal accountability in Israel.",
+          "date": "2021-11",
+          "amountUsd": 168000000,
+          "amountKind": "settlement",
+          "actor": "U.S. Department of Commerce",
+          "sourceUrl": "https://en.wikipedia.org/wiki/NSO_Group"
+        }
+      ],
+      "addedAt": "2026-06-21"
+    },
+    {
+      "id": "black_cube",
+      "name": "Black Cube",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Black Cube is an Israeli private intelligence firm founded in 2010 by former Israeli military intelligence officers Avi Yanus and Dan Zorella, with an advisory board that has included former Mossad directors Meir Dagan and Efraim Halevy. The firm operates as a for-hire corporate espionage service, deploying operatives under false identities to surveil, record, and discredit targets on behalf of wealthy clients. The firm gained international notoriety in November 2017 when Ronan Farrow's New Yorker investigation revealed Harvey Weinstein paid Black Cube to deploy an 'army of spies'—including agents posing as women's-rights advocates—to record and discredit his sexual-assault accusers and the journalists covering them, including Rose McGowan. Canadian litigation records (Globe and Mail, June 2021) disclosed 'Project Maple Tree': Toronto hedge fund Catalyst Capital paid approximately $11 million CAD for Black Cube to run an operation designed to entrap and discredit Ontario Justice Frank Newbould after he ruled against Catalyst in a business dispute. The firm has also documented political-opposition surveillance operations for former Congo President Joseph Kabila.",
+      "blurb": "Private corporate intelligence firm providing undercover investigations, litigation support, and opposition research.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 83,
+      "source": "https://en.wikipedia.org/wiki/Black_Cube",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Harvey Weinstein paid Black Cube to deploy operatives posing as women's-rights advocates to record and discredit his sexual-assault accusers and journalists before the #MeToo story broke (Ronan Farrow, New Yorker, November 2017); Catalyst Capital paid Black Cube approximately $11 million CAD for 'Project Maple Tree' to entrap Ontario Justice Frank Newbould after an unfavorable ruling (Globe and Mail, June 2021).",
+          "date": "2017-11",
+          "actor": "Harvey Weinstein / Catalyst Capital",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Black_Cube"
+        }
+      ],
+      "addedAt": "2026-06-21"
+    },
+    {
+      "id": "psy_group",
+      "name": "Psy-Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Psy-Group was an Israeli private intelligence and influence-operations firm founded on December 22, 2014, employing primarily former Israeli military intelligence officers. The firm specialized in social media manipulation, fake-persona creation, honey traps, and bespoke political disinformation campaigns for government and corporate clients. On August 3, 2016, Psy-Group owner Joel Zamel met Donald Trump Jr., UAE intermediary George Nader, and Blackwater founder Erik Prince at Trump Tower to pitch a social media manipulation campaign against Hillary Clinton. After Trump won the election, Nader paid Zamel up to $2 million. Mueller's investigators scrutinized Psy-Group's ties to the Trump campaign and to Saudi and UAE-aligned influence operations. Psy-Group also signed a partnership agreement with Cambridge Analytica in December 2016 and ran 'Project Butterfly,' an anti-BDS disinformation campaign. The firm operated through layered offshore accounts including Cyprus-based IOCO and Swiss-managed entities to obscure ownership. Psy-Group shut down in 2018 after its operations were exposed, with no criminal accountability for its principals.",
+      "blurb": "Private intelligence firm that created fake social media personas and conducted political influence operations.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 82,
+      "source": "https://en.wikipedia.org/wiki/Psy-Group",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Psy-Group owner Joel Zamel pitched social media election manipulation to Donald Trump Jr. and Gulf-state intermediary George Nader at Trump Tower on August 3, 2016; Nader paid Zamel up to $2 million after Trump's election; the firm was investigated by Special Counsel Mueller for Gulf-state and Trump-campaign ties; it shut down in 2018 without criminal consequences for its principals.",
+          "date": "2016-08",
+          "amountUsd": 2000000,
+          "amountKind": "fees",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Psy-Group"
+        }
+      ],
+      "addedAt": "2026-06-21"
     }
   ],
   "brands": [
@@ -20732,6 +20825,96 @@
         }
       ],
       "addedAt": "2026-06-20"
+    },
+    {
+      "id": "nso_group",
+      "avoid": "NSO Group",
+      "ownership": [
+        {
+          "firmId": "nso_group",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "NSO Group created Pegasus spyware, sold to at least a dozen authoritarian governments and used to target journalists, lawyers, human rights defenders, and opposition politicians worldwide. Saudi Arabia used Pegasus to surveil associates of journalist Jamal Khashoggi before his murder in October 2018. The Pegasus Project investigation (Amnesty International and Forbidden Stories, July 2021) identified 50,000 potential surveillance targets across 50 countries. Meta (WhatsApp) won a jury verdict of $168 million in damages in May 2025 for NSO's deployment of Pegasus against approximately 1,400 WhatsApp users. The U.S. Department of Commerce blacklisted NSO in November 2021 for actions contrary to U.S. national security and foreign policy interests. Despite these findings, NSO's leadership faced no criminal prosecution in Israel, exemplifying the impunity that the surveillance-for-hire industry operates under.",
+      "blurb": "Develops and licenses Pegasus smartphone spyware to government intelligence and law-enforcement agencies.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "NSO's Pegasus spyware enabled Saudi surveillance of Jamal Khashoggi's associates before his 2018 murder; the Pegasus Project (July 2021) identified 50,000 targets across 50 countries; Meta won a $168 million jury verdict against NSO in May 2025 for hacking ~1,400 WhatsApp users; NSO was U.S.-blacklisted in November 2021 with no criminal accountability for its principals.",
+          "date": "2021-11",
+          "amountUsd": 168000000,
+          "amountKind": "settlement",
+          "actor": "U.S. Department of Commerce",
+          "sourceUrl": "https://en.wikipedia.org/wiki/NSO_Group"
+        }
+      ],
+      "addedAt": "2026-06-21"
+    },
+    {
+      "id": "black_cube",
+      "avoid": "Black Cube",
+      "ownership": [
+        {
+          "firmId": "black_cube",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Black Cube is a for-hire private intelligence firm structurally designed to help the powerful silence critics and evade accountability. Harvey Weinstein paid the firm to deploy agents posing as women's-rights advocates to covertly record and discredit his sexual-assault accusers and the journalists covering them, exposed by Ronan Farrow in the New Yorker in November 2017. In Canada, hedge fund Catalyst Capital paid approximately $11 million CAD for Black Cube's 'Project Maple Tree,' an operation to entrap and compromise Ontario Justice Frank Newbould after he ruled against Catalyst in a business dispute (Globe and Mail, June 2021). In 2015, former Congo President Joseph Kabila engaged the firm to surveil political opponents in 'Operation Coltan.' Black Cube's business model—deploying former Mossad operatives under false identities against judges, journalists, and accusers—is a commercial infrastructure for elite impunity.",
+      "blurb": "Private intelligence firm providing undercover investigations and opposition research for corporate and government clients.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Harvey Weinstein paid Black Cube to deploy agents posing as women's-rights advocates to discredit his sexual-assault accusers before the #MeToo story broke (New Yorker, November 2017); Catalyst Capital paid ~$11 million CAD for 'Project Maple Tree' to entrap Ontario Justice Newbould after an unfavorable ruling (Globe and Mail, June 2021).",
+          "date": "2017-11",
+          "actor": "Harvey Weinstein / Catalyst Capital",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Black_Cube"
+        }
+      ],
+      "addedAt": "2026-06-21"
+    },
+    {
+      "id": "psy_group",
+      "avoid": "Psy-Group",
+      "ownership": [
+        {
+          "firmId": "psy_group",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Psy-Group was an Israeli influence-operations firm that commercialized election interference, creating fake social media personas, running honey traps, and designing disinformation campaigns for governments and political campaigns. On August 3, 2016, owner Joel Zamel pitched a social media manipulation campaign to Donald Trump Jr. and UAE intermediary George Nader at Trump Tower; Nader paid Zamel up to $2 million after Trump won the election. Special Counsel Robert Mueller investigated Psy-Group's ties to the Trump campaign and Saudi and UAE influence operations (Senate Intelligence Committee Volume 5). Psy-Group also partnered with Cambridge Analytica in December 2016 and ran 'Project Butterfly,' a disinformation campaign targeting BDS advocates. The firm operated through layered offshore accounts in Cyprus and Switzerland to obscure its money flows. Psy-Group shut down in 2018 after public exposure, with no criminal accountability for its principals—a textbook example of the impunity enjoyed by the private influence-operations industry.",
+      "blurb": "Private intelligence firm offering fake social media personas and political influence operations to government and corporate clients.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Psy-Group pitched social media manipulation to the Trump campaign and Gulf-state intermediaries at Trump Tower on August 3, 2016; George Nader paid Psy-Group founder Joel Zamel up to $2 million post-election; Mueller investigated its Gulf-state and campaign ties; the firm shut down in 2018 without criminal consequences for its principals.",
+          "date": "2016-08",
+          "amountUsd": 2000000,
+          "amountKind": "fees",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Psy-Group"
+        }
+      ],
+      "addedAt": "2026-06-21"
     }
   ]
 }
