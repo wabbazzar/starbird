@@ -64,7 +64,7 @@ Strategy scoring is deterministic: `new_entities / cost_usd` over the last 10 ru
 
 ## Brand ranking: 5-point inheritance discount
 
-When sorted by harm impact, brands rank by the max `harmScore` of their parent firm(s), but PE-owned brands get a **5-point inheritance discount** (firm `aumVal > 0` = PE fund). Self-owned brands (`aumVal` = 0, e.g. Palantir, Clearview AI, ExxonMobil) use the raw score. This prevents a brand that is merely a *victim* of PE over-leveraging (e.g. The Container Store via Leonard Green at 97) from outranking a brand that is itself the harmful actor (e.g. Palantir at 98). The discount is applied in `brandImpactScore()` in `src/routes/+page.svelte` and is display-only — it does not change the stored `harmScore` in `data.json`.
+When sorted by harm impact, brands rank by the max `harmScore` of their parent firm(s), but PE-owned brands get a **5-point inheritance discount** (firm `aumVal > 0` = PE fund). Self-owned brands (`aumVal` = 0, e.g. Palantir, Clearview AI, ExxonMobil) use the raw score. This prevents a brand that is merely a *victim* of PE over-leveraging (e.g. The Container Store via Leonard Green at 97) from outranking a brand that is itself the harmful actor (e.g. Palantir at 98). The discount is applied in `brandImpactScore()` in `src/lib/ranking.ts` and is display-only — it does not change the stored `harmScore` in `data.json`.
 
 ## Key rule: tags need evidence
 
