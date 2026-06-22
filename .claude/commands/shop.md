@@ -26,6 +26,13 @@ query may name a specific brand/product or describe a need + constraints
   State the block reason instead.
 - **Vet + recommend only.** No cart automation, no checkout, no payment, no
   stored credentials. End with buy-link(s); the human checks out.
+- **Vet the whole buy path, not just the product.** A clean product bought
+  through a flagged retailer is still a flagged purchase. The retailer you hand
+  back in a buy-link must clear the same threshold as the product (≥ 80 = never;
+  40–79 = find a cleaner storefront). A clean product sold *only* through a
+  flagged retailer is surfaced with the retailer flagged — never as a bare
+  buy-link that launders the harm. Amazon, for example, scores Severe; do not
+  route a clean item through it.
 - **Never auto-write `static/data.json`.** Tier-2 profiles go to the gitignored
   local cache. Promotion to the canonical DB is PR-only and human-reviewed.
 - **Tags need evidence.** Any harm tag you record for a profile must cite a
@@ -76,9 +83,17 @@ specific brand, that's just it (plus a couple of obvious peers in case it's
 flagged). For a generic need ("running shoes", "5000psi cement"), use your own
 knowledge to name the 4–8 brands a person would actually choose between.
 
+**Also enumerate the buy path.** A purchase is the product *and* the storefront
+that sells it. List the realistic retailers/marketplaces that stock the item
+(e.g. Ace Hardware, Home Depot, Lowe's, Amazon, the manufacturer's own
+"where to buy"). These get vetted in Step 1 right alongside the product brands —
+a recommendation isn't complete until both legs clear the threshold.
+
 ### Step 1 — Tier 1: vet against the database (offline, always first)
 
-Run `resolve` on every candidate. For each:
+Run `resolve` on every candidate — **both the product brands and the retailers
+from Step 0** (retailers live in the same `firms[]`/`brands[]` DB, e.g. Amazon,
+Ace Hardware). For each:
 
 - **NOT IN DB** → provisionally safe. If the user wants real assurance (or you
   have nothing left that's confirmed clean), send it to Tier 2; otherwise you
@@ -160,11 +175,18 @@ only — label unknowns "unverified" rather than guessing.
 Give the user:
 
 - **The pick(s)** that satisfy their constraints (quantity, budget, specs),
-  each with a one-line "why it's clean" and a **buy-link** (manufacturer or a
-  major retailer's product page). They check out themselves.
+  each with a one-line "why it's clean" and a **buy-link**. The buy-link's
+  **retailer must itself have cleared Step 1** (`< 40`, or NOT-IN-DB labeled
+  "unverified"). Prefer a verified-clean storefront over a merely-unverified one,
+  and a manufacturer's own store / "where to buy" over a flagged marketplace.
+  If the only stockist you can find is flagged (`≥ 40`), say so plainly and hand
+  back the manufacturer page or a "find a local clean retailer" note instead of
+  the flagged link — never the bare flagged buy-link.
 - **What you avoided and why** — name the flagged brand, its parent firm, score,
   and bucket, so the recommendation is auditable.
-- **Confidence label** per pick: *verified clean* vs *no data, assumed safe*.
+- **Confidence label** per pick, for **both legs** — product and retailer:
+  *verified clean* vs *no data, assumed safe*. State the buy path's verdict, not
+  just the product's (e.g. "Quikrete 5000 — clean; via Ace Hardware — clean").
 
 ### Step 4 — Offer promotion (optional, never automatic)
 
