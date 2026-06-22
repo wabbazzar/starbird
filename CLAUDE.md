@@ -82,6 +82,11 @@ companies misaligned with the six values. Committed at
 - **Tier 2 (web):** research unknowns via built-in `WebSearch`, cache profiles to
   the gitignored `tmp/shop-candidates.json`, keep searching until a clean pick.
 
+The **whole buy path is vetted, not just the product**: the retailer behind each
+buy-link is `resolve`d like any other candidate, so a clean item is never routed
+through a flagged storefront (e.g. Amazon, Severe) — it gets a clean retailer or
+the manufacturer's page instead.
+
 Recommends + buy-link only — no checkout/payment. New profiles reach canonical
 `data.json` by PR only (human-reviewed), never auto-write. Zero setup for
 cloners: no API keys, just `git clone` → `/shop`. Design: `docs/tickets/shop-skill.md`.

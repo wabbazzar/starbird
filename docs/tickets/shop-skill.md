@@ -119,9 +119,15 @@ Tier 2 (web, only for the unknowns + replacing Brooks):
   New Balance → researched: privately held, no PE, clean      → score 12  ✓ cached
   Allbirds    → researched: public, B-Corp, no harms found    → score 8   ✓ cached
 
+Buy path (retailers vetted the same way):
+  Amazon      → in DB, harmScore 65 (Severe)                  → AVOID checkout
+  Ace Hardware→ in DB, harmScore 7 (Minimal)                  → OK
+  newbalance.com / allbirds.com (manufacturer)               → OK
+
 Recommendation: New Balance or Allbirds
   Avoided: Brooks (Berkshire Hathaway, harmScore 62 — Severe)
-  Buy: newbalance.com/... | allbirds.com/...   (you check out)
+  Buy (clean path): newbalance.com/... | allbirds.com/...    (you check out)
+  Not via Amazon (Severe) even though the shoe is clean.
 
 Add the 2 new profiles to the canonical DB? [opens a PR] (y/N)
 ```
@@ -161,6 +167,13 @@ A cloner must get a working `/shop` from `git clone` alone:
 
 - **Never recommend a brand scoring `≥ 80`**, even on direct request —
   state the block reason instead.
+- **Vet the whole buy path, not just the product.** The purchase is the product
+  *and* the storefront that sells it; both legs must clear the threshold. The
+  retailer behind a buy-link is `resolve`d like any other candidate. A clean
+  product sold only through a flagged retailer (e.g. Amazon, Severe) is surfaced
+  with the retailer flagged — never as a bare buy-link that launders the harm
+  through an un-vetted checkout. Prefer a verified-clean storefront, then an
+  unverified one (labeled), then the manufacturer's own "where to buy."
 - **No checkout, no payment, no stored credentials** in v1. The skill
   hands back a buy-link; the human transacts.
 - **Never auto-commit to `static/data.json`.** Promotion is PR-only and
@@ -187,6 +200,11 @@ A cloner must get a working `/shop` from `git clone` alone:
       reports the space exhausted).
 - [ ] A brand scoring `≥ 80` is never recommended, even when named
       directly.
+- [ ] The buy path is vetted, not just the product: the retailer behind every
+      buy-link is `resolve`d, and a clean product whose only stockist is flagged
+      (e.g. Amazon at Severe) is surfaced with the retailer flagged + a clean
+      storefront / manufacturer page substituted — never a bare flagged
+      buy-link. The confidence label reports both legs (product + retailer).
 - [ ] Tier 1 runs with the network disabled (offline) and still produces
       a verdict for in-DB brands.
 - [ ] `tmp/shop-candidates.json` is gitignored; no `/shop` run mutates
