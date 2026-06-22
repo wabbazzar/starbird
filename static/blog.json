@@ -955,6 +955,23 @@
         "nso_group",
         "psy_group"
       ]
+    },
+    {
+      "id": "2026-06-22-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-22",
+      "title": "Private Jets, Grocery Dividends, and Chip Empires",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three documented cases where private capital used access to state power to escape the accountability that applies to everyone else — a hedge fund that shaped Supreme Court outcomes relevant to its own cases, a PE firm whose CEO became Deputy Secretary of Defense while extracting billions from a grocery chain during record food inflation, and a Japanese tech giant that traded investment pledges to presidents for blocked mergers made suddenly approvable.",
+      "body": "Paul Singer's Elliott Management is a case study in using wealth to rewrite the rules. In 2008, Singer flew Supreme Court Justice Samuel Alito on a private jet to an undisclosed luxury Alaska fishing vacation. Alito did not disclose the trip or recuse himself from at least ten subsequent Elliott cases — including the 2014 ruling that sided with Elliott in its Argentina sovereign debt dispute. Elliott had previously seized Argentina's naval training ship ARA Libertad in a Ghanaian harbor in 2012, impounding it as collateral for defaulted bonds. Elliott now owns Barnes & Noble, acquired for $683 million in 2019.\n\nCerberus Capital Management's Steve Feinberg chaired the President's Intelligence Advisory Board from 2018 to 2021 and was confirmed as Deputy Secretary of Defense in March 2025 — all while Cerberus managed a stake in Albertsons, the second-largest U.S. supermarket chain. In October 2022, as grocery prices hit their highest point in 40 years (up 11.2% year-over-year), Albertsons paid a $4 billion special dividend that routed approximately $1 billion to Cerberus. Senator Elizabeth Warren and others wrote to urge the payout be paused; a federal judge temporarily blocked it during merger review. The combination of Pentagon access and grocery-chain extraction in a single executive is not coincidence — it is a structural feature of how elite impunity operates.\n\nSoftBank's Masayoshi Son developed a repeatable tactic: show up at Trump Tower after an election win and pledge tens of billions in U.S. investment. He did it in December 2016 (pledging $50 billion, 50,000 jobs) and again in December 2024 ($100 billion). The 2016 pledge coincided with SoftBank's need to get the Sprint-T-Mobile merger approved — a deal prior administrations had blocked on antitrust grounds. Trump's DOJ and FCC approved it in 2020. SoftBank's Vision Fund, which helped finance the $32 billion Arm Holdings acquisition, accepted $45 billion from Saudi Arabia's MBS-controlled PIF — the same sovereign wealth fund whose principal ordered the murder of journalist Jamal Khashoggi in 2018. Arm's chip architecture runs virtually every smartphone and an increasing share of the world's servers.\n\nThe thread connecting all three: capital large enough to make regulatory outcomes negotiable. A hedge fund that influences its own Supreme Court cases. A PE CEO simultaneously inside the Pentagon and inside the grocery aisle. A tech holding company that treats presidential transition pledges as a merger-approval mechanism. These are not scandals — they are the system working as designed for those with sufficient scale.",
+      "entityIds": [
+        "elliott_management",
+        "softbank_group",
+        "albertsons",
+        "arm_holdings",
+        "barnes_and_noble"
+      ]
     }
   ]
 }
