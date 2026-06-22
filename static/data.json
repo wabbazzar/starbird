@@ -9369,6 +9369,136 @@
         }
       ],
       "addedAt": "2026-06-21"
+    },
+    {
+      "id": "quikrete_companies",
+      "name": "The Quikrete Companies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "blurb": "Largest U.S. manufacturer of packaged concrete, cement, and mortar mixes.",
+      "summary": "Privately held by the Winchester family (Forbes estimates ~100% ownership, family worth ~$18B), so there is no private-equity asset-stripping or public-market pressure in its structure. The harm exposure is the cement sector's inherent climate footprint — cement and concrete production is among the most CO2-intensive industrial activities (roughly 8% of global emissions) — and Quikrete has not committed to tracked 2030/2050 climate targets. No formal EPA/OSHA enforcement record surfaced in research; worker reviews cite hard, dusty conditions and mandatory overtime (anecdotal, not a sourced violation, so not tagged). Tagged environment_general.",
+      "brands": [
+        "Quikrete"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 18,
+      "source": "https://ditchcarbon.com/organizations/the-quikrete-companies-llc",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Cement/concrete manufacturing is among the most CO2-intensive industrial activities (the sector is roughly 8% of global emissions). Quikrete has not publicly committed to tracked 2030 or 2050 climate goals.",
+          "sourceUrl": "https://ditchcarbon.com/organizations/the-quikrete-companies-llc"
+        }
+      ]
+    },
+    {
+      "id": "crh_plc",
+      "name": "CRH plc",
+      "aum": "N/A",
+      "aumVal": 0,
+      "blurb": "Publicly traded Irish building-materials group; cement, aggregates, and concrete products.",
+      "summary": "Publicly traded global building-materials conglomerate. Owns the Sakrete and Amerimix bagged-concrete brands through its Oldcastle APG division (Sakrete acquired via the 2009 Bonsal American purchase). Harm exposure is the cement sector's inherent CO2-intensive footprint at large scale; no standout corporate scandal surfaced in research. Tagged environment_general.",
+      "brands": [
+        "Sakrete",
+        "Amerimix"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 28,
+      "source": "https://www.sakrete.com/about-sakrete/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "CRH is one of the world's largest cement/aggregates producers; bagged-concrete brand Sakrete sits under its Oldcastle APG division. Cement production is among the most CO2-intensive industrial activities (sector ~8% of global emissions).",
+          "sourceUrl": "https://www.sakrete.com/about-sakrete/"
+        }
+      ]
+    },
+    {
+      "id": "holcim_group",
+      "name": "Holcim Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "blurb": "Swiss-based global cement and building-materials producer; owns the Lafarge brand.",
+      "summary": "Global cement producer; acquired Lafarge in 2015. In October 2022 the Lafarge subsidiary pleaded guilty in U.S. federal court to conspiring to provide material support to ISIS and the al-Nusrah Front — the first time a corporation was charged with material support to foreign terrorist organizations — paying roughly $10.24M to terror groups and intermediaries (2013–2014) to keep a Syrian cement plant operating, and agreeing to a $777.8M fine. A Paris court separately convicted the Lafarge unit in 2026 of financing terrorism and breaching EU sanctions. Tagged elite_impunity_general.",
+      "brands": [
+        "Lafarge",
+        "Holcim"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 74,
+      "source": "https://www.justice.gov/archives/opa/pr/lafarge-pleads-guilty-conspiring-provide-material-support-foreign-terrorist-organizations",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Lafarge pleaded guilty (US DOJ, Oct 2022) to conspiring to provide material support to ISIS and al-Nusrah — the first corporation ever so charged — paying ~$10.24M to terror groups 2013–2014 to keep a Syrian plant running, and agreeing to a $777.8M fine. A Paris court reconvicted the unit in 2026 for financing terrorism and breaching EU sanctions.",
+          "date": "2022",
+          "amountUsd": 777800000,
+          "amountKind": "fine",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.justice.gov/archives/opa/pr/lafarge-pleads-guilty-conspiring-provide-material-support-foreign-terrorist-organizations"
+        }
+      ]
+    },
+    {
+      "id": "cemex_sab",
+      "name": "CEMEX",
+      "aum": "N/A",
+      "aumVal": 0,
+      "blurb": "Publicly traded Mexican multinational producing cement, aggregates, and ready-mix concrete.",
+      "summary": "Publicly traded Mexican multinational cement producer. The Good Jobs First Violation Tracker records roughly $54.2M in penalties across 691 violation records since 2000. In July 2016 the EPA and DOJ announced a Clean Air Act settlement covering five U.S. plants (Alabama, Kentucky, Tennessee, Texas): a $1.69M civil penalty plus ~$10M in emissions controls for NOx/SO2 modifications made without proper permits. Coal-fired kilns emit mercury, dioxin, and smog-forming pollution. Tagged environment_general.",
+      "brands": [
+        "Cemex"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://violationtracker.goodjobsfirst.org/parent/cemex",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "~$54.2M in penalties across 691 violation records since 2000 (Good Jobs First Violation Tracker). 2016 EPA/DOJ Clean Air Act settlement across five plants: $1.69M civil penalty plus ~$10M controls for unpermitted NOx/SO2 modifications; coal-fired kilns emit mercury and dioxin.",
+          "date": "2016",
+          "amountUsd": 1690000,
+          "amountKind": "settlement",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://violationtracker.goodjobsfirst.org/parent/cemex"
+        }
+      ]
     }
   ],
   "brands": [
@@ -20915,6 +21045,128 @@
         }
       ],
       "addedAt": "2026-06-21"
+    },
+    {
+      "id": "quikrete",
+      "avoid": "Quikrete",
+      "ownership": [
+        {
+          "firmId": "quikrete_companies",
+          "stake": "majority",
+          "since": "1940"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "blurb": "Bagged concrete, cement, and mortar mixes for DIY and trade, incl. Quikrete 5000 (5000 psi).",
+      "why": "Quikrete is the largest U.S. maker of packaged concrete, privately held by the Winchester family — no private-equity asset-stripping and no public-market pressure in its ownership. Its harm exposure is the cement sector's inherent climate footprint (cement/concrete is roughly 8% of global CO2 emissions), and Quikrete has not committed to tracked climate targets. No formal environmental or labor enforcement record surfaced in research, making it the lowest-harm option among major bagged-concrete brands.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Cement/concrete manufacturing is among the most CO2-intensive industrial activities (sector ~8% of global emissions); Quikrete has not publicly committed to tracked 2030/2050 climate goals.",
+          "sourceUrl": "https://ditchcarbon.com/organizations/the-quikrete-companies-llc"
+        }
+      ]
+    },
+    {
+      "id": "sakrete",
+      "avoid": "Sakrete",
+      "ownership": [
+        {
+          "firmId": "crh_plc",
+          "stake": "majority",
+          "since": "2009"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "blurb": "Bagged concrete and mortar mixes, incl. Sakrete 5000 Plus (5000 psi); owned by CRH via Oldcastle APG.",
+      "why": "Sakrete is a major bagged-concrete brand owned by CRH plc, a publicly traded global building-materials conglomerate, via its Oldcastle APG division. Harm exposure is the cement sector's inherent CO2-intensive footprint at large scale; no standout corporate scandal surfaced. One notch above Quikrete only because its parent is a large public conglomerate rather than a private family firm — still well within the safe-to-buy range.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Owned by CRH plc through Oldcastle APG. Cement production is among the most CO2-intensive industrial activities (sector ~8% of global emissions).",
+          "sourceUrl": "https://www.sakrete.com/about-sakrete/"
+        }
+      ]
+    },
+    {
+      "id": "lafarge",
+      "avoid": "Lafarge",
+      "ownership": [
+        {
+          "firmId": "holcim_group",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "home",
+      "alts": [
+        "Quikrete 5000",
+        "Sakrete 5000 Plus"
+      ],
+      "blurb": "Cement and building-materials brand owned by Holcim Group.",
+      "why": "Lafarge, owned by Holcim Group since 2015, pleaded guilty in U.S. federal court in October 2022 to conspiring to provide material support to ISIS and the al-Nusrah Front — the first corporation ever charged with material support to foreign terrorist organizations — paying roughly $10.24M to terror groups (2013–2014) to keep a Syrian cement plant operating, and agreeing to a $777.8M fine. A Paris court reconvicted the Lafarge unit in 2026 for financing terrorism and breaching EU sanctions.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Lafarge pleaded guilty (US DOJ, Oct 2022) to providing material support to ISIS/al-Nusrah — first corporation ever so charged — ~$10.24M paid 2013–2014, $777.8M fine; reconvicted by a Paris court in 2026 for financing terrorism and breaching EU sanctions.",
+          "date": "2022",
+          "amountUsd": 777800000,
+          "amountKind": "fine",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.justice.gov/archives/opa/pr/lafarge-pleads-guilty-conspiring-provide-material-support-foreign-terrorist-organizations"
+        }
+      ]
+    },
+    {
+      "id": "cemex",
+      "avoid": "Cemex",
+      "ownership": [
+        {
+          "firmId": "cemex_sab",
+          "stake": "majority",
+          "since": "1906"
+        }
+      ],
+      "cat": "home",
+      "alts": [
+        "Quikrete 5000",
+        "Sakrete 5000 Plus"
+      ],
+      "blurb": "Cement, aggregates, and ready-mix concrete from CEMEX, a Mexican multinational.",
+      "why": "Cemex, the publicly traded Mexican cement multinational, has accumulated roughly $54.2M in penalties across 691 violation records since 2000 (Good Jobs First Violation Tracker). A 2016 EPA/DOJ Clean Air Act settlement covering five U.S. plants required a $1.69M civil penalty plus ~$10M in controls for unpermitted NOx/SO2 modifications, and its coal-fired kilns emit mercury, dioxin, and smog-forming pollution.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-21",
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "~$54.2M across 691 violation records since 2000 (Violation Tracker); 2016 EPA/DOJ Clean Air Act settlement across five plants ($1.69M penalty + ~$10M controls) for unpermitted NOx/SO2 modifications; coal-fired kilns emit mercury and dioxin.",
+          "date": "2016",
+          "amountUsd": 1690000,
+          "amountKind": "settlement",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://violationtracker.goodjobsfirst.org/parent/cemex"
+        }
+      ]
     }
   ]
 }
