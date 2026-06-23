@@ -972,6 +972,21 @@
         "arm_holdings",
         "barnes_and_noble"
       ]
+    },
+    {
+      "id": "2026-06-23-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-23",
+      "title": "Revolving Doors and Impact Fraud: Three PE Giants Join the Database",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaced The Carlyle Group, TPG Capital, and Andreessen Horowitz — three firms whose most striking harms aren't just what they do to portfolio companies, but how their owners use elite networks to avoid accountability for doing it.",
+      "body": "The Carlyle Group is a lesson in how Washington and Wall Street blur into a single system. Secretary of State James Baker III simultaneously served as a Carlyle equity partner and U.S. Special Presidential Envoy on Iraqi Debt Relief, negotiating $57 billion in debt settlements while the firm held a $1 billion Kuwait investment tied to those same flows — a conflict documented by The Nation. When that wasn't enough, Carlyle funneled $13 million to a political fixer to steer $730 million in New York pension funds its way, settling for $20 million with no executive prosecutions. The nursing home operator HCR ManorCare tells the consumer side: Carlyle extracted $1.3 billion before the company's 2018 bankruptcy, after which a Washington Post investigation found a 29% rise in serious health-code violations and documented patient deaths from understaffing.\n\nTPG Capital's elite-impunity story has a sharper irony. Bill McGlashan co-founded TPG's Rise Fund — explicitly marketed as impact investing for ethical outcomes — and was arrested in March 2019 for paying $50,000 through Rick Singer's sham charity to guarantee his son a USC admission. He pled guilty in 2021 to wire fraud. Meanwhile, TPG's 2004 acquisition of IASIS Healthcare loaded the hospital chain with $3 billion in debt. After TPG sold IASIS to Steward Health Care in 2017, Steward filed the largest hospital bankruptcy in U.S. history in 2024, closing six hospitals and laying off over 2,650 workers — a chain of harm traced back through the original leveraged deal by OCCRP investigators.\n\nAndreessen Horowitz (a16z) is the newest entrant on the elite-impunity value, and its mechanism is the most direct: in July 2024, co-founders Marc Andreessen and Ben Horowitz publicly endorsed Trump and channeled funds into the Fairshake PAC, a pro-crypto super PAC that raised approximately $170 million from the crypto industry for the 2024 cycle. Their stated reason was cryptocurrency regulation under Biden. Andreessen spoke at the Republican National Convention in Milwaukee. Fairshake then spent $40+ million in congressional primaries to remove incumbents who supported consumer-protective oversight of crypto markets. The investment thesis and the political spending were indistinguishable.\n\nAll three sources from this run are worth noting: the Revolving Door Project (therevolvingdoorproject.org) documents the Carlyle-to-government pipeline in granular detail; OCCRP's Steward Healthcare investigation traces the IASIS debt chain through to patient harm; and OpenSecrets FEC data makes the Fairshake contributions machine-readable. Each is a durable source that can anchor future runs on the elite-impunity value.",
+      "entityIds": [
+        "andreessen_horowitz",
+        "carlyle_group",
+        "tpg_capital"
+      ]
     }
   ]
 }
