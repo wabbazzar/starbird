@@ -987,6 +987,22 @@
         "carlyle_group",
         "tpg_capital"
       ]
+    },
+    {
+      "id": "2026-06-24-ultraprocessed_nova_tracker",
+      "date": "2026-06-24",
+      "title": "Three Ubiquitous Ultra-Processed Staples and the Evidence Against Them",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run surfaced three of the most consumed ultra-processed brands in American households — Pepsi, M&M's, and Coffee-Mate — each classified as NOVA Group 4 and backed by documented regulatory and scientific findings about their ingredients.",
+      "body": "This run focused on NOVA Group 4 ultra-processed products owned by conglomerates already in the Starbird database. NOVA Group 4 is the classification developed by researchers at the University of São Paulo to describe foods assembled from industrial ingredients — corn syrups, synthetic dyes, emulsifiers, stabilizers — that have no unprocessed-food equivalent. The three brands added this run sit at the intersection of ubiquity and documented harm.\n\nPepsi-Cola, owned by PepsiCo, contains 41 grams of added sugar per 12-oz can — exceeding the American Heart Association's entire daily recommended limit for women. Its caramel color (Class IV) produces 4-methylimidazole (4-MEI) as a manufacturing byproduct, a compound the International Agency for Research on Cancer classifies as possibly carcinogenic to humans. A 2015 peer-reviewed study published in PLOS ONE found that tested Pepsi products expose consumers to 4-MEI at levels above California's one-in-10,000 cancer risk threshold — the same threshold that triggers Proposition 65 warnings.\n\nM&M's, from privately-held Mars Inc., use synthetic petroleum-derived food dyes — Red 40, Yellow 5, and Yellow 6 — in their US formulation that are classified differently in Europe. Since 2010, EU rules require any food containing these dyes to carry the warning \"may have an adverse effect on activity and attention in children.\" Mars reformulated M&M's with natural colors for European markets. In 2016, under public pressure, Mars pledged to remove artificial colors from US products within five years. The Center for Science in the Public Interest documented in February 2021 that Mars had quietly abandoned that commitment.\n\nCoffee-Mate, Nestlé USA's top-selling creamer brand, leads with corn syrup solids as its primary ingredient, followed by coconut and palm kernel oils, emulsifiers, and artificial flavor. The EWG Food Scores database rates it poorly on both nutrition and ingredient grounds. Mono- and diglycerides — present in the formula as emulsifiers — can carry residual trans fats that are legally exempt from label disclosure, meaning consumers may be ingesting trans fat without knowing it. Together, these three products illustrate how industrial food formulation has turned everyday pantry staples into something nutritionally distant from the ingredients they nominally resemble.",
+      "entityIds": [
+        "coffee_mate",
+        "mms",
+        "pepsi"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
