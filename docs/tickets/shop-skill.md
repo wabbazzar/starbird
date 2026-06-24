@@ -3,7 +3,7 @@
 **Created:** 2026-06-21
 **Owner:** Wesley
 **Assignee:** (unassigned)
-**Status:** Design — approved decisions locked, ready to implement
+**Status:** Shipped — `/shop` skill implemented in c946f7e (initial skill + shop-lib.mjs) and 1c0dfa8 (full buy-path vetting); merged to main 2026-06-21
 
 ---
 

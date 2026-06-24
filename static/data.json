@@ -9568,6 +9568,215 @@
         }
       ],
       "addedAt": "2026-06-22"
+    },
+    {
+      "id": "home_depot",
+      "name": "The Home Depot",
+      "aum": "N/A",
+      "aumVal": 0,
+      "blurb": "Largest U.S. home-improvement retailer; tools, building materials, appliances, and garden goods.",
+      "summary": "Largest U.S. home-improvement retailer (publicly traded, NYSE: HD). In February 2024 the NLRB ruled Home Depot broke federal labor law by interfering with workers' Section 7 rights when it forced out an employee who wore 'BLM' on their apron. During a 2022 unionization drive at a Philadelphia store, organizers filed an NLRB complaint alleging union-busting (surveillance, interrogations, flooding the store with managers); lead organizer Vince Quiles was terminated in 2023 after being interviewed about the effort. Separately, co-founder Bernie Marcus was a billionaire Republican megadonor \u2014 pouring more than $7M into Trump's 2016 run, $10.7M into pro-Trump PACs for 2020, and funding DeSantis and other right-wing campaigns before leaving the board in 2022 and dying in November 2024. Tagged workers_general and elite_impunity_general.",
+      "brands": [
+        "The Home Depot"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 48,
+      "source": "https://www.cnn.com/2024/02/21/business/home-depot-broke-labor-law-by-firing-an-employee-with-blm-on-apron-nlrb-rules/index.html",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "workers_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-23",
+      "evidence": [
+        {
+          "tag": "workers_general",
+          "text": "In February 2024 the NLRB ruled Home Depot broke federal labor law by interfering with an employee's Section 7 rights, forcing out a worker who wore 'BLM' on their apron. During a 2022 union drive at a Philadelphia store, organizers filed an NLRB complaint alleging union-busting; lead organizer Vince Quiles was terminated in 2023.",
+          "date": "2024",
+          "actor": "NLRB",
+          "sourceUrl": "https://www.cnn.com/2024/02/21/business/home-depot-broke-labor-law-by-firing-an-employee-with-blm-on-apron-nlrb-rules/index.html"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "Co-founder Bernie Marcus, a billionaire Republican megadonor, gave more than $7M to Trump's 2016 presidential run and $10.7M to pro-Trump PACs for 2020, plus donations to DeSantis and other right-wing campaigns. He left the board in 2022 and died in November 2024.",
+          "date": "2020",
+          "amountUsd": 10700000,
+          "amountKind": "donation",
+          "actor": "Bernie Marcus",
+          "sourceUrl": "https://www.cnn.com/2024/11/05/business/home-depot-bernie-marcus-death"
+        }
+      ]
+    },
+    {
+      "id": "lowes",
+      "name": "Lowe's Companies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "blurb": "Second-largest U.S. home-improvement retailer; tools, appliances, lumber, and building materials.",
+      "summary": "Second-largest U.S. home-improvement retailer (publicly traded, NYSE: LOW). In 2019, under CEO Marvin Ellison, Lowe's laid off thousands of workers \u2014 assemblers, maintenance staff, and janitors \u2014 outsourcing the roles to third parties and offering roughly two weeks of 'transition' pay with no severance, even for employees of more than a decade, while having announced a $10B stock buyback in December 2018. In December 2025 the EPA and DOJ secured a $12.5M civil penalty against Lowe's Home Centers for violations of the federal Lead Renovation, Repair, and Painting (RRP) Rule: widespread noncompliance across more than 250 renovation jobs in 23 states (2019\u20132021), including uncertified contractors and inadequate containment of lead dust in pre-1978 homes. Tagged workers_mass_layoffs and environment_general.",
+      "brands": [
+        "Lowe's"
+      ],
+      "layoffs": "Thousands (2019, outsourced; no severance)",
+      "notableBk": "N/A",
+      "harmScore": 56,
+      "source": "https://www.epa.gov/newsreleases/lowes-home-centers-pay-125m-penalty-lead-paint-violations-during-home-renovations",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "workers_mass_layoffs",
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-23",
+      "evidence": [
+        {
+          "tag": "workers_mass_layoffs",
+          "text": "In 2019 Lowe's laid off thousands of assemblers, maintenance staff, and janitors, outsourcing the roles to third parties and offering ~two weeks 'transition' pay with no severance \u2014 while having announced a $10B stock buyback in December 2018.",
+          "date": "2019",
+          "amountUsd": 10000000000,
+          "amountKind": "fees",
+          "sourceUrl": "https://www.cbsnews.com/news/lowes-layoffs-2019-retailer-spent-billions-on-share-buybacks-zero-on-severance-for-laid-off-workers/"
+        },
+        {
+          "tag": "environment_general",
+          "text": "December 2025 EPA/DOJ settlement: $12.5M civil penalty for violations of the federal Lead RRP Rule across more than 250 renovation jobs in 23 states (2019\u20132021) \u2014 uncertified contractors and inadequate containment of lead dust in pre-1978 homes.",
+          "date": "2025",
+          "amountUsd": 12500000,
+          "amountKind": "settlement",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://www.epa.gov/newsreleases/lowes-home-centers-pay-125m-penalty-lead-paint-violations-during-home-renovations"
+        }
+      ]
+    },
+    {
+      "id": "carlyle_group",
+      "name": "The Carlyle Group",
+      "aum": "$435B",
+      "aumVal": 435,
+      "summary": "Global private equity firm with extensively documented revolving-door capture of regulatory agencies. Secretary of State James Baker III served simultaneously as Carlyle equity partner and U.S. Special Envoy on Iraqi Debt Relief (2003\u20132004), negotiating $57 billion in Iraqi debt while Carlyle held a $1 billion Kuwait investment tied to those same transfers \u2014 a conflict documented by The Nation (2004). FCC Chairman Julius Genachowski joined as Carlyle managing director in 2014 to lead telecom buyouts in the sector he had just regulated. In 2010 Carlyle paid a $20 million settlement after funneling $13+ million to political fixer Hank Morris to secure $730+ million in New York State pension allocations; no executives were prosecuted (ABC News, Private Equity International). Nursing home operator HCR ManorCare filed bankruptcy in 2018 after Carlyle extracted $1.3 billion; a Washington Post investigation found a 29% rise in serious health-code violations and documented patient deaths from understaffing post-acquisition. Hawaiian Telcom was loaded with $1.2 billion in new debt after Carlyle's acquisition; 10,000+ customers were overbilled, the company lost 21% of subscribers, and entered bankruptcy in 2008 with roughly 1,000 layoffs and $2.3 million in executive bonuses approved three days before filing.",
+      "blurb": "Global alternative-asset manager specializing in leveraged buyouts across defense, healthcare, telecom, and consumer sectors.",
+      "brands": [],
+      "layoffs": "Thousands across portfolio including HCR ManorCare, Hawaiian Telcom, Philadelphia Energy Solutions",
+      "notableBk": "HCR ManorCare (2018), Hawaiian Telcom (2008)",
+      "harmScore": 82,
+      "source": "https://littlesis.org/news/of-buddies-and-buyouts-carlyle-groups-revolving-door/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general",
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Secretary of State James Baker III served simultaneously as Carlyle equity partner and U.S. Special Envoy on Iraqi Debt Relief, a direct conflict of interest documented by The Nation (2004). In 2010, Carlyle paid a $20 million settlement after funneling $13+ million to political fixer Hank Morris to secure $730+ million in NY pension allocations; no executives were prosecuted.",
+          "date": "2010",
+          "amountUsd": 20000000,
+          "amountKind": "settlement",
+          "actor": "NY Attorney General",
+          "sourceUrl": "https://www.thenation.com/article/archive/james-bakers-double-life/"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "Carlyle extracted $1.3 billion from HCR ManorCare before the nursing home chain filed bankruptcy in 2018; a Washington Post investigation linked the cost-cutting to a 29% rise in health violations and documented patient deaths from understaffing.",
+          "date": "2018",
+          "amountUsd": 1300000000,
+          "amountKind": "fees",
+          "sourceUrl": "https://wallstreetonparade.com/2020/05/the-feds-chair-and-vice-chair-got-rich-at-carlyle-group-a-private-equity-fund-with-a-string-of-bankruptcies-and-job-losses/"
+        },
+        {
+          "tag": "workers_general",
+          "text": "Hawaiian Telcom was loaded with $1.2 billion in debt post-acquisition, overbilled 10,000+ customers, lost 21% of subscribers, and entered bankruptcy in 2008 with roughly 1,000 layoffs; management approved $2.3 million in executive bonuses three days before filing.",
+          "date": "2008",
+          "amountUsd": 1200000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://stopthecap.com/2010/01/12/dressing-up-the-pig-hawaiian-telcoms-journey-from-verizon-to-bankruptcy-is-a-familiar-tale/"
+        }
+      ],
+      "addedAt": "2026-06-23"
+    },
+    {
+      "id": "tpg_capital",
+      "name": "TPG Capital",
+      "aum": "$222B",
+      "aumVal": 222,
+      "summary": "Global alternative-asset management firm founded in 1992 by David Bonderman and James Coulter. Bill McGlashan, co-founder of TPG's Rise Fund (marketed as an impact-investing vehicle) and head of TPG Growth, was arrested in March 2019 as part of Operation Varsity Blues \u2014 the largest college admissions fraud prosecution in U.S. history. McGlashan paid $50,000 through Rick Singer's sham charity Key Worldwide Foundation to guarantee his son's admission to USC while publicly positioning the Rise Fund on ethical principles. He pled guilty in 2021 to wire fraud and honest services mail fraud conspiracy; TPG fired him following his arrest (U.S. Department of Justice, 2021). TPG's 2004 acquisition of IASIS Healthcare loaded the hospital chain with over $3 billion in debt; TPG sold it to Steward Health Care in 2017. Steward subsequently filed the largest hospital bankruptcy in U.S. history in 2024, closing six hospitals and laying off more than 2,650 workers. Federal investigators seized Steward founder Ralph de la Torre's phone in November 2024 (OCCRP, 2024; PESP).",
+      "blurb": "Global alternative-asset manager focused on private equity, growth equity, and impact investing across healthcare, technology, and consumer sectors.",
+      "brands": [],
+      "layoffs": "2,650+ via Steward Health Care chain (downstream from IASIS sale)",
+      "notableBk": "IASIS Healthcare (collapsed via Steward, 2024)",
+      "harmScore": 74,
+      "source": "https://www.occrp.org/en/investigation/how-private-equity-and-an-ambitious-landlord-put-steward-healthcare-on-life-support",
+      "cats": [
+        "finance",
+        "health"
+      ],
+      "harms": [
+        "elite_impunity_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Bill McGlashan, co-founder of TPG's Rise Fund impact vehicle, was arrested in March 2019 in Operation Varsity Blues and pled guilty in 2021 to wire fraud for paying $50,000 through Rick Singer's sham charity to guarantee his son's USC admission \u2014 while running a fund marketed on ethical criteria.",
+          "date": "2021",
+          "amountUsd": 50000,
+          "amountKind": "donation",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://pitchbook.com/news/articles/tpg-growth-head-suspended-in-wake-of-college-admissions-scandal"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "TPG's 2004 IASIS Healthcare acquisition loaded the operator with over $3 billion in debt; after TPG sold to Steward Health Care in 2017, Steward filed the largest hospital bankruptcy in U.S. history in 2024, closing six hospitals and laying off 2,650+ workers.",
+          "date": "2024",
+          "amountUsd": 3000000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.occrp.org/en/investigation/how-private-equity-and-an-ambitious-landlord-put-steward-healthcare-on-life-support"
+        }
+      ],
+      "addedAt": "2026-06-23"
+    },
+    {
+      "id": "andreessen_horowitz",
+      "name": "Andreessen Horowitz",
+      "aum": "$35B",
+      "aumVal": 35,
+      "summary": "Prominent Silicon Valley venture-capital firm founded in 2009 by Marc Andreessen and Ben Horowitz, with roughly $35 billion in assets under management across tech, crypto, bio, and growth funds. In July 2024, Andreessen and Horowitz publicly endorsed Donald Trump and directed substantial capital toward the Fairshake PAC \u2014 a pro-cryptocurrency super PAC that raised approximately $170 million from the crypto industry for the 2024 election cycle \u2014 explicitly citing federal cryptocurrency regulation as their motivation (NYT, July 2024; OpenSecrets). Andreessen spoke at the Republican National Convention in Milwaukee in July 2024. Fairshake spent over $40 million in 2024 congressional primaries to defeat incumbents the crypto industry viewed as hostile to deregulation, including successfully ousting Rep. Katie Porter in California. The firm's a16z crypto arm holds stakes in dozens of cryptocurrency projects; directing political spending to reshape the regulatory environment protecting those investments is a documented use of billionaire-class wealth to circumvent democratic accountability.",
+      "blurb": "Silicon Valley venture-capital firm investing in technology, cryptocurrency, biotech, and growth-stage companies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://www.opensecrets.org/political-action-committees-pacs/fairshake/C00835959/summary/2024",
+      "cats": [
+        "tech",
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In July 2024, co-founders Marc Andreessen and Ben Horowitz endorsed Trump and directed funding to the Fairshake PAC \u2014 a pro-crypto super PAC that raised ~$170 million in the 2024 cycle \u2014 explicitly to reshape cryptocurrency regulation benefiting their portfolio. Andreessen spoke at the Republican National Convention in Milwaukee. Fairshake spent $40+ million in congressional primaries to defeat candidates hostile to crypto deregulation.",
+          "date": "2024-07",
+          "amountUsd": 170000000,
+          "amountKind": "donation",
+          "sourceUrl": "https://www.opensecrets.org/political-action-committees-pacs/fairshake/C00835959/summary/2024"
+        }
+      ],
+      "addedAt": "2026-06-23"
     }
   ],
   "brands": [
@@ -21334,6 +21543,212 @@
         }
       ],
       "addedAt": "2026-06-22"
+    },
+    {
+      "id": "home_depot_brand",
+      "avoid": "The Home Depot",
+      "ownership": [
+        {
+          "firmId": "home_depot",
+          "stake": "majority",
+          "since": "1978"
+        }
+      ],
+      "cat": "home",
+      "alts": [
+        "Ace Hardware",
+        "Local independent hardware stores",
+        "True Value"
+      ],
+      "blurb": "Big-box home-improvement chain selling tools, lumber, appliances, and building supplies.",
+      "why": "The Home Depot was found by the NLRB in February 2024 to have broken federal labor law by forcing out a worker who wore 'BLM' on their apron, and faced a 2022 NLRB union-busting complaint at a Philadelphia store where the lead organizer was fired in 2023. Co-founder Bernie Marcus was a billionaire Republican megadonor \u2014 over $7M to Trump's 2016 run and $10.7M to pro-Trump PACs for 2020, plus DeSantis and other right-wing campaigns \u2014 before leaving the board in 2022 and dying in November 2024. As a checkout path it scores Significant; prefer a member-owned cooperative like Ace Hardware.",
+      "harms": [
+        "workers_general",
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-23",
+      "evidence": [
+        {
+          "tag": "workers_general",
+          "text": "NLRB ruled (Feb 2024) Home Depot broke federal labor law forcing out a worker who wore 'BLM' on their apron; 2022 Philadelphia union-busting complaint, organizer Vince Quiles fired 2023.",
+          "date": "2024",
+          "actor": "NLRB",
+          "sourceUrl": "https://www.cnn.com/2024/02/21/business/home-depot-broke-labor-law-by-firing-an-employee-with-blm-on-apron-nlrb-rules/index.html"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "Co-founder Bernie Marcus, billionaire Republican megadonor: >$7M to Trump 2016, $10.7M to pro-Trump PACs (2020), plus DeSantis and other right-wing campaigns. Left the board 2022; died Nov 2024.",
+          "date": "2020",
+          "amountUsd": 10700000,
+          "amountKind": "donation",
+          "actor": "Bernie Marcus",
+          "sourceUrl": "https://www.cnn.com/2024/11/05/business/home-depot-bernie-marcus-death"
+        }
+      ]
+    },
+    {
+      "id": "lowes_brand",
+      "avoid": "Lowe's",
+      "ownership": [
+        {
+          "firmId": "lowes",
+          "stake": "majority",
+          "since": "1921"
+        }
+      ],
+      "cat": "home",
+      "alts": [
+        "Ace Hardware",
+        "Local independent hardware stores",
+        "True Value"
+      ],
+      "blurb": "Big-box home-improvement chain selling tools, appliances, lumber, and garden supplies.",
+      "why": "Lowe's laid off thousands of assemblers, maintenance staff, and janitors in 2019 \u2014 outsourcing the roles and offering ~two weeks 'transition' pay with no severance \u2014 after announcing a $10B stock buyback in December 2018. In December 2025 the EPA/DOJ secured a $12.5M civil penalty for violations of the federal Lead RRP Rule across more than 250 renovation jobs in 23 states (2019\u20132021), including uncertified contractors and inadequate containment of lead dust in pre-1978 homes. As a checkout path it scores Significant; prefer a member-owned cooperative like Ace Hardware.",
+      "harms": [
+        "workers_mass_layoffs",
+        "environment_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-06-23",
+      "evidence": [
+        {
+          "tag": "workers_mass_layoffs",
+          "text": "2019: thousands of assemblers/maintenance/janitors laid off and outsourced, ~two weeks 'transition' pay, no severance \u2014 after a $10B stock buyback announced Dec 2018.",
+          "date": "2019",
+          "amountUsd": 10000000000,
+          "amountKind": "fees",
+          "sourceUrl": "https://www.cbsnews.com/news/lowes-layoffs-2019-retailer-spent-billions-on-share-buybacks-zero-on-severance-for-laid-off-workers/"
+        },
+        {
+          "tag": "environment_general",
+          "text": "Dec 2025 EPA/DOJ settlement: $12.5M penalty for Lead RRP Rule violations across 250+ jobs in 23 states (2019\u20132021) \u2014 uncertified contractors, inadequate lead-dust containment in pre-1978 homes.",
+          "date": "2025",
+          "amountUsd": 12500000,
+          "amountKind": "settlement",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://www.epa.gov/newsreleases/lowes-home-centers-pay-125m-penalty-lead-paint-violations-during-home-renovations"
+        }
+      ]
+    },
+    {
+      "id": "carlyle_group",
+      "avoid": "The Carlyle Group",
+      "ownership": [
+        {
+          "firmId": "carlyle_group",
+          "stake": "majority",
+          "since": "1987"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Carlyle's revolving door with government is among the most documented in American finance: Secretary of State James Baker III simultaneously served as Carlyle equity partner and U.S. Special Envoy on Iraqi Debt Relief, negotiating $57 billion in Iraqi debt while Carlyle profited \u2014 a direct conflict reported by The Nation (2004). A 2010 pay-to-play settlement cost Carlyle $20 million after it paid $13+ million to a political fixer to steer NY pension funds its way; no executives faced prosecution. When Carlyle controlled HCR ManorCare, it extracted $1.3 billion before the nursing home chain filed bankruptcy in 2018; a Washington Post investigation linked cost-cutting to a 29% rise in health violations and patient deaths from understaffing. Hawaiian Telcom was buried under $1.2 billion in new debt, overbilled 10,000+ customers, and filed bankruptcy in 2008.",
+      "blurb": "Global private equity firm buying companies via leveraged buyouts across healthcare, telecom, defense, and consumer sectors.",
+      "harms": [
+        "elite_impunity_general",
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Secretary of State James Baker III simultaneously served as Carlyle equity partner and U.S. Special Envoy on Iraqi Debt Relief \u2014 a direct conflict of interest. Carlyle paid a $20 million settlement in 2010 after paying $13+ million to a political fixer to steer NY pension funds its way; no executives were prosecuted.",
+          "date": "2010",
+          "amountUsd": 20000000,
+          "amountKind": "settlement",
+          "actor": "NY Attorney General",
+          "sourceUrl": "https://www.thenation.com/article/archive/james-bakers-double-life/"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "Carlyle extracted $1.3 billion from HCR ManorCare before the nursing home chain filed bankruptcy in 2018; a Washington Post investigation linked cost-cutting to a 29% rise in health violations and patient deaths from understaffing.",
+          "date": "2018",
+          "amountUsd": 1300000000,
+          "amountKind": "fees",
+          "sourceUrl": "https://wallstreetonparade.com/2020/05/the-feds-chair-and-vice-chair-got-rich-at-carlyle-group-a-private-equity-fund-with-a-string-of-bankruptcies-and-job-losses/"
+        },
+        {
+          "tag": "workers_general",
+          "text": "Hawaiian Telcom was loaded with $1.2 billion in debt post-acquisition, overbilled 10,000+ customers, lost 21% of subscribers, and entered bankruptcy in 2008 with roughly 1,000 layoffs.",
+          "date": "2008",
+          "amountUsd": 1200000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://stopthecap.com/2010/01/12/dressing-up-the-pig-hawaiian-telcoms-journey-from-verizon-to-bankruptcy-is-a-familiar-tale/"
+        }
+      ],
+      "addedAt": "2026-06-23"
+    },
+    {
+      "id": "tpg_capital",
+      "avoid": "TPG Capital",
+      "ownership": [
+        {
+          "firmId": "tpg_capital",
+          "stake": "majority",
+          "since": "1992"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Bill McGlashan, co-founder of TPG's Rise Fund \u2014 marketed publicly as impact investing for ethical outcomes \u2014 was arrested in March 2019 in Operation Varsity Blues, the largest college admissions fraud case in U.S. history. He paid $50,000 through Rick Singer's sham charity to guarantee his son's admission to USC while positioning the Rise Fund on ethical principles. McGlashan pled guilty in 2021 to wire fraud and honest services mail fraud conspiracy; TPG fired him (DOJ, 2021). TPG's acquisition of IASIS Healthcare loaded the hospital chain with over $3 billion in debt before selling to Steward Health Care in 2017; Steward filed the largest hospital bankruptcy in U.S. history in 2024, closing six hospitals and laying off more than 2,650 workers (OCCRP, 2024).",
+      "blurb": "Global private equity and impact-investing firm managing buyouts across healthcare, technology, and consumer sectors.",
+      "harms": [
+        "elite_impunity_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Bill McGlashan, co-founder of TPG Rise Fund, paid $50,000 through Rick Singer's sham charity to guarantee his son's USC admission while running an impact-investing fund; pled guilty in 2021 to wire fraud and honest services mail fraud conspiracy.",
+          "date": "2021",
+          "amountUsd": 50000,
+          "amountKind": "donation",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://pitchbook.com/news/articles/tpg-growth-head-suspended-in-wake-of-college-admissions-scandal"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "TPG's IASIS Healthcare acquisition loaded the hospital chain with over $3 billion in debt before the sale to Steward Health Care (2017); Steward filed the largest U.S. hospital bankruptcy in 2024, closing six hospitals and laying off 2,650+ workers.",
+          "date": "2024",
+          "amountUsd": 3000000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.occrp.org/en/investigation/how-private-equity-and-an-ambitious-landlord-put-steward-healthcare-on-life-support"
+        }
+      ],
+      "addedAt": "2026-06-23"
+    },
+    {
+      "id": "andreessen_horowitz",
+      "avoid": "Andreessen Horowitz (a16z)",
+      "ownership": [
+        {
+          "firmId": "andreessen_horowitz",
+          "stake": "majority",
+          "since": "2009"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "In July 2024 co-founders Marc Andreessen and Ben Horowitz publicly endorsed Trump and channeled funding to the Fairshake PAC \u2014 a pro-cryptocurrency super PAC that raised approximately $170 million from the crypto industry across the 2024 election cycle \u2014 explicitly to reshape federal cryptocurrency regulation protecting their portfolio. Andreessen spoke at the Republican National Convention in Milwaukee (July 2024). Fairshake spent over $40 million in 2024 congressional primaries to defeat incumbents with anti-deregulation records, successfully ousting candidates including Rep. Katie Porter. This was a publicly acknowledged use of billionaire-class wealth to buy favorable regulation, documented by The New York Times, OpenSecrets, and FEC filings.",
+      "blurb": "Silicon Valley venture-capital firm investing in technology, cryptocurrency, biotech, and growth-stage companies globally.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Co-founders Andreessen and Horowitz directed funding to the Fairshake PAC (~$170 million raised across the 2024 cycle) explicitly to reshape crypto regulation protecting their portfolio; Andreessen spoke at the RNC. Fairshake spent $40+ million in primaries to defeat anti-crypto-deregulation incumbents.",
+          "date": "2024-07",
+          "amountUsd": 170000000,
+          "amountKind": "donation",
+          "sourceUrl": "https://www.opensecrets.org/political-action-committees-pacs/fairshake/C00835959/summary/2024"
+        }
+      ],
+      "addedAt": "2026-06-23"
     }
   ]
 }
