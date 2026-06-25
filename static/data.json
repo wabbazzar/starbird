@@ -9780,6 +9780,37 @@
         }
       ],
       "addedAt": "2026-06-23"
+    },
+    {
+      "id": "kellanova",
+      "name": "Kellanova",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Kellanova was spun off from The Kellogg Company in August 2023, inheriting the global snack portfolio: Pringles, Cheez-It, Pop-Tarts, Eggo, RXBAR, and NutriGrain. The company reported net sales of more than $13 billion in 2023. Mars, Incorporated agreed to acquire Kellanova in August 2024 for $35.9 billion ($83.50 per share) and completed the acquisition on December 11, 2025, creating a combined snacking business projected to generate around $36 billion in annual revenues. Kellanova's flagship Pringles brand is classified as NOVA Group 4 ultra-processed by Open Food Facts, containing modified food starch, dextrose, maltodextrin, mono- and diglycerides of fatty acids (E471), and the flavor enhancers disodium guanylate and disodium inosinate — industrial additives not found in home cooking.",
+      "blurb": "Snack food company; makes Pringles, Cheez-It, and Pop-Tarts; wholly owned by Mars since 2025.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.mars.com/news-and-stories/press-releases-statements/mars-completes-acquisition-of-kellanova",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kellanova's flagship Pringles brand is classified as NOVA Group 4 ultra-processed by Open Food Facts, containing modified food starch, dextrose, maltodextrin, mono- and diglycerides of fatty acids (E471), and the flavor enhancers disodium guanylate and disodium inosinate — industrial additives not found in home cooking.",
+          "date": "2025-12",
+          "amountUsd": 35900000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.mars.com/news-and-stories/press-releases-statements/mars-completes-acquisition-of-kellanova"
+        }
+      ],
+      "addedAt": "2026-06-25"
     }
   ],
   "brands": [
@@ -21838,6 +21869,89 @@
         }
       ],
       "addedAt": "2026-06-24"
+    },
+    {
+      "id": "pringles",
+      "avoid": "Pringles",
+      "ownership": [
+        {
+          "firmId": "kellanova",
+          "stake": "majority",
+          "since": "1975"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Pringles potato crisps are classified as NOVA Group 4 ultra-processed by Open Food Facts, containing modified food starch, dextrose, maltodextrin, mono- and diglycerides of fatty acids (E471), and the flavor enhancers disodium guanylate and disodium inosinate — industrial additives absent from home cooking. Kellanova (now wholly owned by Mars since December 2025 after a $35.9 billion acquisition) generates around $36 billion in combined annual snack revenues, making it one of the largest ultra-processed food businesses globally.",
+      "blurb": "Stackable potato-based crisps sold in a distinctive cylindrical canister.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Pringles potato crisps are classified as NOVA Group 4 ultra-processed by Open Food Facts, containing modified food starch, dextrose, maltodextrin, mono- and diglycerides of fatty acids (E471), and the flavor enhancers disodium guanylate and disodium inosinate — industrial additives absent from home cooking.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0038000845246/pringles-original"
+        }
+      ],
+      "addedAt": "2026-06-25"
+    },
+    {
+      "id": "reddi_whip",
+      "avoid": "Reddi Whip",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "1948"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Reddi Whip is a NOVA Group 4 ultra-processed whipped topping containing cream, water, sugar, corn syrup, nonfat milk, mono- and diglycerides, carrageenan, and artificial flavors — a significantly more complex formulation than home-made whipped cream. Conagra's Reddi Whip was cited by name in a 2024 San Francisco lawsuit targeting ultra-processed food brands for public health harms. Carrageenan, the seaweed-derived stabilizer used in Reddi Whip, is listed by CSPI's Chemical Cuisine as an additive \"certain people should avoid\" due to potential gastrointestinal effects.",
+      "blurb": "Pressurized whipped cream topping dispensed from a nitrous oxide spray can.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Reddi Whip is a NOVA Group 4 ultra-processed whipped topping containing cream, water, sugar, corn syrup, nonfat milk, mono- and diglycerides, carrageenan, and artificial flavors — far more industrial than home-made whipped cream. Conagra's Reddi Whip was cited by name in a 2024 San Francisco lawsuit targeting ultra-processed food brands.",
+          "date": "2024",
+          "sourceUrl": "https://www.meatpoultry.com/articles/32816-san-francisco-targets-upf-brands-with-a-new-lawsuit"
+        }
+      ],
+      "addedAt": "2026-06-25"
+    },
+    {
+      "id": "frosted_flakes",
+      "avoid": "Frosted Flakes",
+      "ownership": [
+        {
+          "firmId": "wk_kellogg_co",
+          "stake": "majority",
+          "since": "1952"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kellogg's Frosted Flakes is classified as a NOVA Group 4 ultra-processed cereal by EWG's Food Scores database. A 2020 study published in Nutrients (NCBI PMC7285198) found that 59% of commercial breakfast cereals qualify as NOVA 4, with ultra-processed cereals averaging 23.1 g/100g sugar versus 11.6 g/100g for minimally processed options. Frosted Flakes contains 12g of added sugar per 37g serving — 64% more than the average cold cereal — and the FDA has determined the product no longer qualifies for its updated \"healthy\" labeling standard due to excess added sugars.",
+      "blurb": "Sugar-coated corn flake cereal marketed to children under the Tony the Tiger mascot.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "A 2020 NCBI study (PMC7285198) found 59% of commercial breakfast cereals qualify as NOVA 4 ultra-processed; ultra-processed cereals averaged 23.1 g/100g sugar vs. 11.6 g/100g for minimally processed. Frosted Flakes packs 12g added sugar per 37g serving — 64% above the average cold cereal — and the FDA determined it no longer qualifies for its updated 'healthy' labeling standard.",
+          "date": "2020",
+          "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7285198/"
+        }
+      ],
+      "addedAt": "2026-06-25"
     }
   ]
 }

@@ -1003,6 +1003,23 @@
         "pepsi"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-06-25-ultraprocessed_nova_tracker",
+      "date": "2026-06-25",
+      "title": "Pringles, Reddi Whip, and Frosted Flakes: NOVA 4 at Scale",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three household staples — Pringles, Reddi Whip, and Frosted Flakes — are classified as NOVA Group 4 ultra-processed foods, their ingredient lists loaded with industrial additives that would never appear in a home kitchen.",
+      "body": "This run followed the ultra-processed food trail into three product categories where industrial additives replace simple cooking. The NOVA classification system, established in peer-reviewed literature (NCBI PMC6322572), defines Group 4 foods by the presence of substances like emulsifiers, flavor enhancers, and stabilizers that signal industrial manufacture rather than culinary preparation.\n\nPringles, now owned by Kellanova — itself acquired by Mars for $35.9 billion in December 2025 — contains modified food starch, dextrose, maltodextrin, mono- and diglycerides of fatty acids (E471), and the paired flavor enhancers disodium guanylate and disodium inosinate. Open Food Facts classifies Pringles as NOVA 4. Kellanova joins the database as a new firm entry, sitting between Mars (the ultimate owner) and the snack brands it inherited from the 2023 Kellogg split.\n\nConagra's Reddi Whip takes a similar path: what could be heavy cream and air becomes a pressurized mixture of cream, corn syrup, carrageenan, and artificial flavors. San Francisco's 2024 lawsuit naming ultra-processed food brands called Reddi Whip out specifically. Carrageenan — a seaweed-derived industrial stabilizer — is flagged by CSPI's Chemical Cuisine as one to avoid for people with gastrointestinal sensitivity.\n\nFrosted Flakes completes the trio. A 2020 NCBI study (PMC7285198) found 59% of commercial breakfast cereals fall into NOVA 4, with ultra-processed varieties averaging 23.1 g/100g sugar versus 11.6 g/100g for minimally processed ones. Frosted Flakes packs 12g of added sugar per 37g serving — 64% above the cold-cereal average — enough that the FDA determined it no longer qualifies under its updated \"healthy\" labeling standard.",
+      "entityIds": [
+        "kellanova",
+        "frosted_flakes",
+        "pringles",
+        "reddi_whip"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
