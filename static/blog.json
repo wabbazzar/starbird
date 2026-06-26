@@ -1020,6 +1020,23 @@
         "reddi_whip"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-06-26-nyt_dealbook_archive",
+      "date": "2026-06-26",
+      "title": "PE Extraction Playbook: Hospitals, Wineries, and Diners",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "This run traced how private equity turns trusted consumer brands—family restaurants, women's health diagnostics, and luxury wine—into extraction vehicles through secondary sales, debt loading, and take-private delisting.",
+      "body": "Bob Evans Restaurants has served Midwest breakfast since 1948, but its future is now shaped by two successive private-equity owners. Golden Gate Capital bought the chain for $565 million in 2017 under pressure from activist investor Sandell, then spent nine years shrinking it from ~540 to ~400 locations—while also saddling Red Lobster with a sale-leaseback that contributed to that chain's 2024 bankruptcy. In February 2026, Golden Gate sold Bob Evans to 4x4 Capital, a newer consumer-focused PE firm, extending unbroken private-equity control without any return to public accountability.\n\nHologic is a different kind of story. The company's Genius 3D Mammography systems and molecular diagnostic tests are embedded in the breast-cancer screening infrastructure used by millions of American women. Blackstone and TPG took Hologic private in February 2026 for $18.3 billion, financing the deal with $12.25 billion in new debt—roughly 14× the company's annual EBITDA. S&P immediately placed Hologic's investment-grade BBB rating on CreditWatch Negative. When the world's largest private-equity firms load a women's health company with this much debt, the pressure to cut costs flows directly into R&D budgets and capital equipment cycles.\n\nThe Duckhorn Portfolio—home to Duckhorn Vineyards, Decoy, Sonoma-Cutrer, and Kosta Browne—represents a third pattern: a premium consumer brand taken private to remove the discipline of quarterly public reporting. Butterfly Equity completed the $1.95 billion NYSE delisting in December 2024, funded by Farm Credit System debt. Butterfly's prior food-sector holdings show the same cost-extraction playbook.\n\nThe connective tissue across all three: private equity acquires brands that consumers trust, removes public-market accountability, and restructures the balance sheet in ways that prioritize investor returns over product quality, workforce stability, and long-term brand health.",
+      "entityIds": [
+        "4x4_capital",
+        "bob_evans_restaurants",
+        "duckhorn_portfolio",
+        "hologic"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }
