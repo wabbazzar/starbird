@@ -9841,6 +9841,108 @@
         }
       ],
       "addedAt": "2026-06-26"
+    },
+    {
+      "id": "scl_group",
+      "name": "SCL Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "SCL Group (Strategic Communication Laboratories) was a British behavioural research and strategic communications company that operated as the parent of Cambridge Analytica. SCL ran psychological influence operations for political campaigns and governments in over 50 countries. Its subsidiary Cambridge Analytica harvested personal data from approximately 87 million Facebook users without consent \u2014 obtained via Aleksandr Kogan's personality quiz app \u2014 and used that data to build voter profiles for micro-targeted political advertising, including for the 2016 US presidential election and the Brexit campaign. In March 2018, Channel 4 filmed SCL executives Alexander Nix and Mark Turnbull boasting about using bribery, honey traps, and sex workers to entrap politicians and swing elections. UK ICO convicted SCL Elections Ltd of breaching the Data Protection Act; the FTC reached a consent order with CEO Alexander Nix imposing 20-year restrictions on his business practices and requiring destruction of all improperly obtained data. Both SCL Group and Cambridge Analytica dissolved in 2018 rather than face full accountability \u2014 exemplifying elite impunity for firms that compromised democratic elections across dozens of countries.",
+      "blurb": "Political consulting firm running psychological influence and voter-profiling operations across 50+ countries.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 88,
+      "source": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Channel 4 filmed SCL executives in March 2018 boasting about using bribery, honey traps, and sex workers to entrap politicians and swing elections across 50+ countries; UK ICO convicted SCL Elections Ltd under the Data Protection Act and the FTC imposed 20-year business restrictions on CEO Alexander Nix, yet both companies dissolved without criminal prosecution rather than face full accountability.",
+          "date": "2018-03",
+          "actor": "FTC / UK ICO",
+          "sourceUrl": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter"
+        }
+      ],
+      "addedAt": "2026-06-27"
+    },
+    {
+      "id": "abraaj_group",
+      "name": "Abraaj Group",
+      "aum": "$14 billion",
+      "aumVal": 14,
+      "summary": "The Abraaj Group was a Dubai-based private equity firm and once the largest buyout fund manager in the Middle East, North Africa, and South Asia, managing nearly $14 billion in assets. Founder and CEO Arif Naqvi cultivated an image as a philanthropic impact investor, signing the Giving Pledge and partnering with institutions including the Bill & Melinda Gates Foundation, which invested in Abraaj's $1 billion healthcare fund. In 2018, the Gates Foundation and other investors commissioned an audit after raising concerns about missing money; the audit revealed that Abraaj had commingled investor funds and misappropriated at least hundreds of millions of dollars to disguise liquidity shortfalls and for personal benefit, while inflating fund values by more than half a billion dollars to attract new investors. Abraaj was forced into liquidation in June 2018. In April 2019, the U.S. Department of Justice arrested Naqvi in the UK and charged him with wire fraud, securities fraud, and money laundering; the SEC filed parallel civil charges. Naqvi was not expelled from the Giving Pledge until December 2024 \u2014 six years after the fraud became public \u2014 illustrating how philanthropic status within elite networks confers sustained impunity.",
+      "blurb": "Dubai-based private equity firm investing in emerging markets across health, education, and infrastructure sectors.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Liquidated 2018",
+      "harmScore": 87,
+      "source": "https://www.sec.gov/files/litigation/complaints/2019/comp24449-amended.pdf",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Founder Arif Naqvi used philanthropic cover \u2014 including the Giving Pledge and partnership with the Gates Foundation \u2014 to mask misappropriation of at least hundreds of millions of dollars in investor funds; he was not expelled from the Giving Pledge until December 2024, six years after the fraud became public, exemplifying elite-network impunity.",
+          "date": "2019-04",
+          "actor": "US DOJ / SEC",
+          "sourceUrl": "https://www.sec.gov/files/litigation/complaints/2019/comp24449-amended.pdf"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "Abraaj inflated fund values by more than half a billion dollars and commingled investor capital \u2014 including from the $1B Gates Foundation healthcare fund \u2014 to cover liquidity shortfalls before collapsing into liquidation in June 2018.",
+          "date": "2018-06",
+          "amountUsd": 500000000,
+          "amountKind": "deal",
+          "actor": "Bill & Melinda Gates Foundation / investors",
+          "sourceUrl": "https://www.cnbc.com/2019/04/12/top-abraaj-executives-arrested-on-us-fraud-charges.html"
+        }
+      ],
+      "addedAt": "2026-06-27"
+    },
+    {
+      "id": "raiffeisen_bank_international",
+      "name": "Raiffeisen Bank International AG",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Raiffeisen Bank International AG (RBI) is an Austrian banking group and one of the largest commercial banks in Central and Eastern Europe, headquartered in Vienna. Following Russia's full-scale invasion of Ukraine on February 24, 2022, RBI stood out among Western financial institutions by continuing to operate its large Russian subsidiary, ZAO Raiffeisenbank, and refusing to exit the market. An OCCRP and Paper Trail Media investigation found that RBI sent 189 cash shipments totaling $10 billion to Russia in early 2022, including 10 shipments that arrived on or after the date of the invasion. RBI's Russian subsidiary thereby became the dominant channel for Russian clients to move money after other major Western banks withdrew. As of January 2025, RBI's investment arm Raiffeisen Capital held approximately 31.7 billion rubles ($365 million) in sanctioned Russian entities, including Sberbank and the state energy giant Gazprom. In 2024, the US Treasury issued a direct warning to RBI over a planned \u20ac1.35 billion stake transfer linked to sanctioned oligarch Oleg Deripaska; RBI abandoned the deal only after the warning. Despite sustained pressure from OCCRP, BankTrack, and the B4Ukraine coalition, RBI continued to serve as the premier financial lifeline for Russia's sanctioned economy, operating with impunity inside the Western financial system.",
+      "blurb": "Austrian commercial bank operating retail and corporate banking across Central and Eastern Europe including Russia.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://www.occrp.org/en/scoop/western-banks-sent-billions-in-cash-to-russia-on-eve-of-ukraine-invasion-data-shows",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "An OCCRP and Paper Trail Media investigation found RBI sent 189 cash shipments totaling $10 billion to Russia in early 2022 \u2014 including 10 shipments after the February 24 invasion began \u2014 and as of 2025 its subsidiary held $365 million in sanctioned Russian entities (Sberbank, Gazprom), with a \u20ac1.35B Deripaska-linked deal abandoned only after US Treasury pressure.",
+          "date": "2022-02",
+          "amountUsd": 10000000000,
+          "amountKind": "deal",
+          "actor": "OCCRP / US Treasury",
+          "sourceUrl": "https://www.occrp.org/en/scoop/western-banks-sent-billions-in-cash-to-russia-on-eve-of-ukraine-invasion-data-shows"
+        }
+      ],
+      "addedAt": "2026-06-27"
     }
   ],
   "brands": [
@@ -22087,6 +22189,105 @@
         }
       ],
       "addedAt": "2026-06-26"
+    },
+    {
+      "id": "cambridge_analytica",
+      "avoid": "Cambridge Analytica",
+      "ownership": [
+        {
+          "firmId": "scl_group",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Cambridge Analytica, a subsidiary of SCL Group, harvested personal data from approximately 87 million Facebook users without their consent through a personality quiz app built by researcher Aleksandr Kogan. The firm used these psychological profiles for micro-targeted political advertising \u2014 most notably for the 2016 Trump presidential campaign and the Brexit campaign. In March 2018, undercover Channel 4 footage showed Cambridge Analytica CEO Alexander Nix and Managing Director Mark Turnbull boasting about deploying bribery, honey traps, and entrapment operations to swing elections worldwide. The FTC reached a consent order with Nix imposing 20-year restrictions on his business practices and ordering destruction of all improperly collected data. Cambridge Analytica dissolved in May 2018 without facing criminal conviction \u2014 a textbook case of elite impunity, in which a firm that compromised democratic elections across dozens of countries closed up shop rather than face a criminal reckoning.",
+      "blurb": "Political data analytics firm providing psychographic voter profiling and micro-targeted campaign advertising.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Cambridge Analytica harvested data from 87 million Facebook users without consent and, according to Channel 4's March 2018 undercover investigation, deployed bribery and honey traps to influence elections; the company dissolved in May 2018 without facing criminal prosecution, with the FTC imposing only 20-year business restrictions on its CEO.",
+          "date": "2018-05",
+          "actor": "FTC",
+          "sourceUrl": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter"
+        }
+      ],
+      "addedAt": "2026-06-27"
+    },
+    {
+      "id": "abraaj_group",
+      "avoid": "Abraaj Group",
+      "ownership": [
+        {
+          "firmId": "abraaj_group",
+          "stake": "majority",
+          "since": "2002"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Abraaj Group, once the world's largest emerging-markets private equity fund with nearly $14 billion in assets under management, was exposed in 2018 as a vehicle for large-scale investor fraud. Founder Arif Naqvi and senior executives misappropriated at least hundreds of millions of dollars from investor accounts \u2014 including money from the Bill & Melinda Gates Foundation's $1 billion healthcare fund \u2014 using it to cover liquidity shortfalls and for personal benefit, while inflating portfolio valuations by more than half a billion dollars to attract new capital. Naqvi had cultivated elite status as a philanthropist and Giving Pledge signatory, affording him extraordinary access and trust that insulated him from scrutiny for years. The firm was forced into liquidation in June 2018; Naqvi was arrested in the UK in April 2019 on US wire fraud, securities fraud, and money laundering charges, with the SEC filing parallel civil charges. He was not expelled from the Giving Pledge until December 2024, six years after the fraud became public, underscoring how philanthropic affiliation within elite networks functions as a shield against accountability.",
+      "blurb": "Emerging-markets private equity fund investing in healthcare, education, and infrastructure in developing economies.",
+      "harms": [
+        "elite_impunity_general",
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Arif Naqvi used Giving Pledge membership and partnership with the Gates Foundation to shield the firm from investor scrutiny for years; he was not expelled from the Giving Pledge until December 2024 \u2014 six years after the fraud became public and after US DOJ/SEC charges were filed.",
+          "date": "2019-04",
+          "actor": "US DOJ / SEC",
+          "sourceUrl": "https://www.sec.gov/files/litigation/complaints/2019/comp24449-amended.pdf"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "Abraaj commingled and misappropriated at least hundreds of millions of dollars in investor funds, inflated valuations by over $500 million, and collapsed into liquidation in 2018, causing losses to development-focused investors including the Bill & Melinda Gates Foundation.",
+          "date": "2018-06",
+          "amountUsd": 500000000,
+          "amountKind": "deal",
+          "actor": "investors",
+          "sourceUrl": "https://www.cnbc.com/2019/04/12/top-abraaj-executives-arrested-on-us-fraud-charges.html"
+        }
+      ],
+      "addedAt": "2026-06-27"
+    },
+    {
+      "id": "raiffeisen",
+      "avoid": "Raiffeisen Bank",
+      "ownership": [
+        {
+          "firmId": "raiffeisen_bank_international",
+          "stake": "majority",
+          "since": "1927"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Raiffeisen Bank is the flagship retail banking brand of Raiffeisen Bank International AG (RBI), one of the largest banks in Central and Eastern Europe. After Russia's full-scale invasion of Ukraine in February 2022, RBI's Russian subsidiary remained open as virtually all other major Western banks withdrew. An OCCRP and Paper Trail Media investigation found that RBI sent $10 billion in cash to Russia across 189 shipments in early 2022 \u2014 10 of which arrived on or after February 24, the date of the invasion \u2014 making it by far the largest Western mover of cash into Russia at that time. As of early 2025, RBI's investment arm still held approximately $365 million in sanctioned Russian entities, including Sberbank and state-owned energy giant Gazprom. In 2024, the US Treasury issued a public warning to RBI over a planned \u20ac1.35 billion deal tied to sanctioned oligarch Oleg Deripaska; the deal was abandoned only after the warning. Despite relentless pressure from OCCRP, BankTrack, and the B4Ukraine coalition, RBI continued processing Russian financial flows years into the war, effectively providing cover for sanctioned oligarchs and the Russian state within the Western financial system.",
+      "blurb": "Retail and commercial banking brand serving millions of customers across Central and Eastern Europe.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Raiffeisen Bank sent $10 billion in cash to Russia across 189 shipments in early 2022 \u2014 including shipments after the Ukraine invasion \u2014 and as of 2025 held $365 million in sanctioned Russian entities; a \u20ac1.35B deal with sanctioned oligarch Deripaska was dropped only after direct US Treasury intervention, per OCCRP.",
+          "date": "2022-02",
+          "amountUsd": 10000000000,
+          "amountKind": "deal",
+          "actor": "OCCRP / US Treasury",
+          "sourceUrl": "https://www.occrp.org/en/scoop/western-banks-sent-billions-in-cash-to-russia-on-eve-of-ukraine-invasion-data-shows"
+        }
+      ],
+      "addedAt": "2026-06-27"
     }
   ]
 }

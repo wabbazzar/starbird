@@ -1037,6 +1037,23 @@
         "hologic"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-06-27-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-27",
+      "title": "Election Hackers, Fraud Philanthropists, and Russia's Banker",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaced three overlooked elite-impunity cases: a political data firm that compromised democracies across 50 countries, a PE philanthropist who stole from the Gates Foundation's healthcare fund, and an Austrian bank that kept shipping billions to Moscow after the invasion began.",
+      "body": "Cambridge Analytica is remembered as a scandal, but SCL Group — its London parent — ran psychological influence operations across 50+ countries for years, largely under the radar. In March 2018, Channel 4 footage caught SCL executives boasting about deploying bribery and honey traps to swing elections. The UK ICO convicted SCL Elections under the Data Protection Act; the FTC issued 20-year business restrictions against CEO Alexander Nix. Yet neither company faced criminal prosecution — they simply dissolved. The firm that compromised elections from the US to Kenya closed shop and walked away.\n\nAbraaj Group looked different on paper: a $14 billion impact-investment fund whose founder Arif Naqvi had signed the Giving Pledge alongside Bill Gates. That philanthropic credibility — and the Gates Foundation's own $1 billion healthcare fund parked with Abraaj — was exactly what masked the fraud. When investors finally commissioned an audit in 2018, they found hundreds of millions misappropriated and valuations inflated by more than half a billion dollars. The firm liquidated. Naqvi was arrested in 2019 on US wire-fraud and money-laundering charges. He wasn't expelled from the Giving Pledge until December 2024, six years after the fraud became public.\n\nThe third entity, Raiffeisen Bank International, never collapsed — and that's the point. Austria's largest bank with a Russian presence sent $10 billion in cash to Moscow across 189 shipments in early 2022, per an OCCRP and Paper Trail Media investigation. Ten of those shipments arrived after Russian tanks crossed the Ukrainian border on February 24. As of early 2025, RBI's investment arm still held $365 million in sanctioned Russian entities, including Sberbank and Gazprom. A deal with sanctioned oligarch Oleg Deripaska was abandoned only after the US Treasury issued a public warning. RBI stayed open, stayed profitable, and stayed in Russia while nearly every other Western bank left.\n\nThe new source surfaced this run: OCCRP (occrp.org), which produced the cash-shipment investigation alongside Der Standard and Paper Trail Media. OCCRP's structured investigative archive covers oligarch networks, sanctions evasion, and financial crime across dozens of jurisdictions and is a strong candidate for a dedicated elite-impunity strategy.",
+      "entityIds": [
+        "abraaj_group",
+        "raiffeisen_bank_international",
+        "scl_group",
+        "cambridge_analytica",
+        "raiffeisen"
+      ]
     }
   ]
 }
