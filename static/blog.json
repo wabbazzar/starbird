@@ -1054,6 +1054,21 @@
         "cambridge_analytica",
         "raiffeisen"
       ]
+    },
+    {
+      "id": "2026-06-28-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-28",
+      "title": "Secret Networks, Captured Auditors, and the Credit Bureau Nobody Charged",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaced three firms whose documented elite impunity runs from a leaked billionaire power network to a Big Four auditor that cheated its own regulator to a credit bureau whose executives walked free after exposing half of America.",
+      "body": "Peter Thiel built Palantir — already in Starbird — but he also built something less visible: a private network called Dialog, co-founded in 2006 with data entrepreneur Auren Hoffman, that convenes senators, Trump administration officials, NATO commanders, and the founders of the country's largest surveillance and data-broker companies. In June 2026, a hacktivist exposed a website directory containing names, phone numbers, birthdates, and emergency contacts for 222 registrants. The leak didn't reveal wrongdoing — it revealed a structure: elite tech, political, and military power coordinated entirely off the public record. That structure also shapes government contracting. In 2025, budget language for border surveillance towers was written to specifications only Anduril could meet — Anduril being the largest investment Founders Fund has ever made ($1 billion of a $2.5 billion Series G in June 2025).\n\nKPMG is one of the four firms the world trusts to certify that corporations' books are honest. In June 2019, the SEC found that KPMG partners had stolen confidential inspection schedules from their own regulator, the PCAOB, then altered prior audit work to look cleaner before those inspections arrived. The firm also ran a systematic exam-cheating operation, allowing audit professionals to manipulate a test server until they passed with fewer than 25% of questions answered correctly. The SEC called the conduct 'astonishing.' KPMG paid $50 million. No partner was criminally charged. The pattern repeated abroad: KPMG South Africa was found to have provided audit and tax services that helped the Gupta family launder funds stolen from a government agricultural scheme — money used to pay for a lavish wedding — during the state-capture era under President Zuma.\n\nEquifax doesn't sell you a product. It sells you. The company collected Social Security numbers, birth dates, and credit card data on 147.9 million Americans — 56% of the U.S. adult population — and then failed to patch a known server vulnerability for more than two months. When the breach was finally disclosed in September 2017, CEO Richard Smith retired with a compensation package potentially worth $90 million. The FBI opened a criminal investigation. The company paid $575 million to settle FTC, CFPB, and state claims, the largest FTC data-security settlement in history at the time. No executive was ever charged. The lesson the breach left behind is the same one that runs through all three of this run's entries: at a certain scale and with sufficient connection, accountability becomes optional.",
+      "entityIds": [
+        "equifax",
+        "founders_fund",
+        "kpmg"
+      ]
     }
   ]
 }
