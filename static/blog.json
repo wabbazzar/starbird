@@ -1069,6 +1069,25 @@
         "founders_fund",
         "kpmg"
       ]
+    },
+    {
+      "id": "2026-06-29-ultraprocessed_nova_tracker",
+      "date": "2026-06-29",
+      "title": "Energy Drinks and Gummy Bears: Tracking NOVA 4 Brands",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run surfaces Monster Energy, Red Bull, and Haribo Gold Bears as documented NOVA Group 4 ultra-processed products—each built on industrial formulations that public health researchers have linked to cardiovascular events, hyperactivity, and metabolic harm.",
+      "body": "Energy drinks are the most visible face of ultra-processed food design. Monster Energy and Red Bull share the same architectural playbook: take caffeine, pair it with synthetic taurine and glucuronolactone that don't appear in any kitchen, add glucose syrups, artificial flavors, and preservatives, then market the result aggressively to adolescents. A 2023 comprehensive review in PMC (PMC10535526) documented nine cardiac arrests linked to energy drink consumption—three of them fatal—along with seizures, acute hepatitis, and renal injury. The researchers concluded that \"stricter limits\" are needed than those applied to plain caffeine, and that long-term effects remain unknown. Monster alone contains 54 grams of added sugar in a single 16 oz can, exceeding the American Heart Association's full daily recommended limit for men.\n\nThe two companies sit at very different points in the corporate landscape. Monster Beverage Corporation is publicly traded (NASDAQ: MNST), with The Coca-Cola Company holding a ~20.9% stake and serving as its global distributor after a $2.15 billion deal in 2015—though Monster Beverage Corp remains the parent. Red Bull GmbH is Austrian and fully private, selling 12.7 billion cans in 2024 and reporting record revenue of €11.2 billion. Neither discloses the long-term health liability embedded in those volumes.\n\nHaribo Gold Bears operate in a different register—candy rather than performance—but the concern is structural. The U.S. formulation contains synthetic dyes Red 40 and Blue 1 that CSPI rates \"avoid\" for links to hyperactivity in children. Haribo removed these dyes from its European Goldbären after EU regulators required on-pack warnings stating the product \"may have an adverse effect on activity and attention in children.\" American consumers get the same product without equivalent disclosure. EWG Food Scores rates U.S. Haribo Gold Bears at 7 out of 10 (moderate health concerns) and classifies them as an unhealthy ultra-processed food, with 47% sugar by weight and 4 teaspoons of added sugar per serving.\n\nAll three brands share the same underlying logic: industrial ingredients assembled to maximize palatability and consumption while externalizing health costs onto consumers who often don't know what's in the can or the bag. The NOVA Group 4 classification—developed by Monteiro et al. at the University of São Paulo—exists precisely to make that pattern visible.",
+      "entityIds": [
+        "haribo_gmbh",
+        "monster_beverage_corp",
+        "red_bull_gmbh",
+        "haribo_gold_bears",
+        "monster_energy",
+        "red_bull"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

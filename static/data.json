@@ -10036,6 +10036,94 @@
         }
       ],
       "addedAt": "2026-06-28"
+    },
+    {
+      "id": "monster_beverage_corp",
+      "name": "Monster Beverage Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Monster Beverage Corporation (NASDAQ: MNST) manufactures and markets Monster Energy drinks and related beverage brands, reporting $8.29 billion in net sales for fiscal year 2025. The flagship Monster Energy is a NOVA Group 4 ultra-processed product—each 16 oz can contains 54 grams of sugar (exceeding the American Heart Association's entire daily recommended limit for men), 160 mg of caffeine, synthetic taurine, guarana extract, ginseng extract, maltodextrin, artificial flavors, and preservatives sodium benzoate and potassium sorbate, none of which appear in minimally processed foods. The FDA received adverse event reports linking Monster Energy to five deaths between 2009 and 2013, prompting congressional scrutiny. A 2023 comprehensive review (Nowak et al., PMC10535526) documented nine energy drink–associated cardiac arrests, three of them fatal, and found 'a robust correlation between the caffeine levels in energy drinks and adverse health and safety consequences,' recommending restrictions on minors' access. The Coca-Cola Company holds approximately 20.9% of Monster's outstanding shares and serves as its global distribution partner.",
+      "blurb": "Energy beverage manufacturer; makes Monster Energy and related caffeinated drink brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10535526/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Monster Energy (16 oz) contains 54 g of sugar, 160 mg of caffeine, synthetic taurine, and preservatives—a NOVA Group 4 ultra-processed formulation; the FDA received adverse event reports linking it to five deaths between 2009 and 2013, and a 2023 comprehensive review documented nine energy drink–associated cardiac arrests, three fatal.",
+          "date": "2023",
+          "actor": "FDA",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10535526/"
+        }
+      ],
+      "addedAt": "2026-06-29"
+    },
+    {
+      "id": "red_bull_gmbh",
+      "name": "Red Bull GmbH",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Red Bull GmbH is an Austrian private company founded in 1984, headquartered in Fuschl am See, Salzburg, that manufactures and markets the Red Bull energy drink. The company sold 12.7 billion cans globally in 2024, generating record revenue of €11.2 billion ($11.7 billion). Each 250 ml Red Bull can contains 80 mg of caffeine, 1,000 mg of synthetic taurine, 600 mg of glucuronolactone, sucrose, glucose, and artificial flavors—an industrial formulation classifying it as NOVA Group 4 ultra-processed under Monteiro et al. (2018) criteria. A 2023 comprehensive review (PMC10535526) found energy drink consumption—at volumes consistent with Red Bull marketing to adolescents and young adults—associated with cardiac arrhythmias, seizures, acute hepatitis, and renal injury. The review concluded that 'stricter limits on the consumption of these beverages than for caffeine' are needed and that 'long-term effects are not yet known,' calling for restrictions on minors' access.",
+      "blurb": "Austrian energy drink manufacturer; produces and markets Red Bull energy drinks worldwide.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10535526/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Each 250 ml Red Bull contains 80 mg caffeine, 1,000 mg synthetic taurine, glucuronolactone, and artificial flavors—NOVA Group 4 ultra-processed; a 2023 review found energy drink consumption associated with cardiac arrhythmias, seizures, acute hepatitis, and renal injury, recommending stricter limits and restrictions on minors' access.",
+          "date": "2023",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10535526/"
+        }
+      ],
+      "addedAt": "2026-06-29"
+    },
+    {
+      "id": "haribo_gmbh",
+      "name": "Haribo GmbH & Co. KG",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Haribo GmbH & Co. KG is a German private confectionery company founded in Bonn in 1920 by Hans Riegel, now headquartered in Grafschaft, Germany, with approximately 8,500 employees and an estimated $2.9 billion in annual revenue. Its flagship Haribo Gold Bears are rated 7 out of 10 (moderate health concerns) on EWG Food Scores and classified as an 'unhealthy ultra-processed food,' containing glucose syrup, sugar, gelatin, dextrose, citric acid, and artificial flavors. In U.S. market formulations, the product also includes synthetic dyes Red 40 and Blue 1—dyes rated 'avoid' by CSPI (Center for Science in the Public Interest) due to links to hyperactivity in children and potential carcinogenicity. Haribo's European formulations removed these synthetic dyes after EU regulations required on-pack warning labels ('may have an adverse effect on activity and attention in children'), while U.S. products continue to use them without equivalent consumer warnings.",
+      "blurb": "German private confectionery company; makes gummy candy including Gold Bears (Goldbären).",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 54,
+      "source": "https://www.ewg.org/foodscores/products/042238302211-HariboGoldBearsGoldBearsGummiCandyOriginalOriginal/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Haribo Gold Bears score 7/10 (moderate concerns) on EWG Food Scores and are classified as 'unhealthy ultra-processed food'; U.S. versions contain synthetic dyes Red 40 and Blue 1—rated 'avoid' by CSPI for hyperactivity links in children—which Haribo removed from European products after EU regulators required on-pack warnings.",
+          "actor": "EWG",
+          "sourceUrl": "https://www.ewg.org/foodscores/products/042238302211-HariboGoldBearsGoldBearsGummiCandyOriginalOriginal/"
+        }
+      ],
+      "addedAt": "2026-06-29"
     }
   ],
   "brands": [
@@ -22471,6 +22559,91 @@
         }
       ],
       "addedAt": "2026-06-28"
+    },
+    {
+      "id": "monster_energy",
+      "avoid": "Monster Energy",
+      "ownership": [
+        {
+          "firmId": "monster_beverage_corp",
+          "stake": "majority",
+          "since": "1997"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Monster Energy is a NOVA Group 4 ultra-processed energy drink. Each 16 oz can contains 54 grams of added sugar—exceeding the American Heart Association's full daily recommended limit for men (36 g) and women (25 g)—along with 160 mg of caffeine, synthetic taurine, guarana seed extract, maltodextrin, artificial flavors, and the preservatives sodium benzoate and potassium sorbate. The FDA received adverse event reports linking Monster Energy to five deaths between 2009 and 2013. A 2023 comprehensive review (Nowak et al., PMC10535526) documented nine energy drink–associated cardiac arrests—three of them fatal—and neurological events including seizures and psychotic episodes, concluding that 'stricter limits on the consumption of these beverages than for caffeine' are necessary and recommending restrictions on minors' access.",
+      "blurb": "High-caffeine energy drink with synthetic taurine, B vitamins, and artificial flavors.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Each 16 oz Monster Energy can contains 54 g of added sugar (above the AHA's full daily recommended limit), 160 mg of caffeine, synthetic taurine, and artificial flavors—NOVA Group 4 ultra-processed; the FDA linked it to five deaths in adverse event reports (2009–2013), and a 2023 review documented nine energy drink–associated cardiac arrests, three fatal.",
+          "date": "2013",
+          "actor": "FDA",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10535526/"
+        }
+      ],
+      "addedAt": "2026-06-29"
+    },
+    {
+      "id": "red_bull",
+      "avoid": "Red Bull",
+      "ownership": [
+        {
+          "firmId": "red_bull_gmbh",
+          "stake": "majority",
+          "since": "1987"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Red Bull is a NOVA Group 4 ultra-processed energy drink sold in 175 countries—12.7 billion cans in 2024. Each 250 ml can contains 80 mg of caffeine, 1,000 mg of synthetic taurine, 600 mg of glucuronolactone, sucrose, glucose, and artificial flavors, none of which occur in minimally processed foods, meeting the Monteiro et al. (2018) criteria for NOVA Group 4 classification. A 2023 comprehensive review (PMC10535526) found energy drink consumption at volumes consistent with Red Bull marketing associated with cardiac arrhythmias, seizures, acute hepatitis, and renal injury. The researchers concluded that 'long-term effects are not yet known' and called for 'stricter limits on the consumption of these beverages than for caffeine,' with particular concern for the adolescent and young-adult demographic that Red Bull explicitly targets in its marketing.",
+      "blurb": "Carbonated energy drink with caffeine, synthetic taurine, and sugar; sold in 175 countries.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Each 250 ml Red Bull contains 80 mg caffeine, 1,000 mg synthetic taurine, glucuronolactone, and artificial flavors—NOVA Group 4 ultra-processed; a 2023 review found energy drink consumption linked to cardiac arrhythmias, seizures, acute hepatitis, and renal injury, recommending stricter limits and restrictions on minors' access.",
+          "date": "2023",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10535526/"
+        }
+      ],
+      "addedAt": "2026-06-29"
+    },
+    {
+      "id": "haribo_gold_bears",
+      "avoid": "Haribo Gold Bears",
+      "ownership": [
+        {
+          "firmId": "haribo_gmbh",
+          "stake": "majority",
+          "since": "1922"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Haribo Gold Bears are rated 7 out of 10 (moderate health concerns) on EWG Food Scores and classified as an 'unhealthy ultra-processed food,' containing glucose syrup, sugar, gelatin, dextrose, and citric acid—with 47% sugar by weight and 4 teaspoons of added sugar per serving. In U.S. market formulations, they also contain synthetic dyes Red 40 and Blue 1, rated 'avoid' by CSPI (Center for Science in the Public Interest) for links to hyperactivity in children and potential carcinogenicity. Haribo reformulated its European Goldbären to remove synthetic dyes after EU regulators required on-pack warnings stating the product 'may have an adverse effect on activity and attention in children'—but U.S. products continue to use the synthetic dyes without equivalent warnings.",
+      "blurb": "Gummy candy made with glucose syrup, gelatin, and—in U.S. formulations—synthetic dyes Red 40 and Blue 1.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Haribo Gold Bears score 7/10 on EWG Food Scores ('unhealthy ultra-processed food') with 47% sugar by weight; U.S. versions contain synthetic dyes Red 40 and Blue 1—rated 'avoid' by CSPI for hyperactivity links—which Haribo removed from European products after EU regulators required on-pack warnings about effects on children's activity and attention.",
+          "actor": "EWG",
+          "sourceUrl": "https://www.ewg.org/foodscores/products/042238302211-HariboGoldBearsGoldBearsGummiCandyOriginalOriginal/"
+        }
+      ],
+      "addedAt": "2026-06-29"
     }
   ]
 }
