@@ -1088,6 +1088,23 @@
         "red_bull"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-06-30-adjacent_source_discovery_elite_impunity",
+      "date": "2026-06-30",
+      "title": "Toxic waste, dark money, and offshore auction houses",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaced three elite-impunity actors using new investigative sources — Global Witness, OpenSecrets, and the ICIJ Pandora Papers — tracing how money and power shield corporations from accountability across commodities trading, financial markets, and luxury retail.",
+      "body": "Trafigura Group's story is the starkest. In 2006, the company chartered a tanker to offload 500 tonnes of toxic petrochemical waste near Abidjan, Ivory Coast — a decision internal emails show Trafigura made knowingly. More than 100,000 people reported health effects and at least 15 deaths were attributed to the dumping. The company settled with the Ivorian government for $198 million with no admission of wrongdoing; a Dutch criminal court imposed only a €1 million fine on the firm with no executives imprisoned. In 2023, Trafigura Beheer BV pleaded guilty in US federal court to bribing Brazilian Petrobras officials and paid $134.9 million — a fine dwarfed by the profits the bribed contracts generated.\n\nCitadel Securities is the market-making arm of Ken Griffin's Citadel LLC, handling roughly one in four U.S. retail equity trades through payment-for-order-flow arrangements with brokers. During the January 2021 GameStop short squeeze, Citadel LLC invested $2.75 billion in Melvin Capital on January 25; the following day, Robinhood — which routes a large share of its retail orders to Citadel Securities — halted purchases of GameStop and related meme stocks. House Financial Services Committee hearings raised the conflict of interest but produced no regulatory consequences. Griffin has since donated over $300 million to Republican causes, including sustained lobbying against SEC proposals that would have directly curtailed Citadel Securities' business model.\n\nSotheby's rounds out the picture. The 277-year-old auction house was taken private in 2019 when billionaire Patrick Drahi paid approximately $3.7 billion through BidFair USA Inc., removing it from public shareholder accountability. Drahi also owns Altice USA (Optimum/Suddenlink). ICIJ's 2021 Pandora Papers documented his management of both Altice and Sotheby's through interlocking British Virgin Islands shell companies while residing in Switzerland to minimise personal tax liability. Together these three entities sketch the elite-impunity network as it actually works: toxic liability absorbed by settlement, market power shielded by political spending, and wealth concentrated in offshore structures that outpace the regulators chasing them.",
+      "entityIds": [
+        "citadel_llc",
+        "trafigura_group",
+        "citadel_securities",
+        "sothebys",
+        "trafigura"
+      ]
     }
   ]
 }
