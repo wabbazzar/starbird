@@ -1105,6 +1105,22 @@
         "sothebys",
         "trafigura"
       ]
+    },
+    {
+      "id": "2026-07-01-ultraprocessed_nova_tracker",
+      "date": "2026-07-01",
+      "title": "Three pantry staples, one NOVA Group 4 profile",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Kraft Mac & Cheese, Cap'n Crunch, and Cocoa Puffs all trace back to a handful of food conglomerates and share the same ultra-processed formula: refined grains, isolated proteins or industrial emulsifiers, and synthetic dyes standing in for real ingredients.",
+      "body": "Three of the most recognizable boxes in the American pantry turn out to be owned by three different giants — Kraft Heinz, PepsiCo, and General Mills — but built from the same playbook. Kraft Mac & Cheese hasn't relied on real aged cheddar for its color since a 1990s reformulation; the orange comes from Yellow 5 and Yellow 6, synthetic dyes the EU requires to carry a child-hyperactivity warning, recombined with sodium phosphate and sodium alginate emulsifiers rather than dairy.\n\nCap'n Crunch and Cocoa Puffs tell a nearly identical sugar story. A 2020 peer-reviewed analysis of commercial breakfast cereals found ultra-processed varieties average 23.1g of sugar per 100g — roughly double the 11.6g/100g seen in merely processed cereals. Cap'n Crunch's own nutrition label backs that up: 290mg of sodium and 16g of added sugar in a single cup, alongside Yellow 5, Yellow 6, and the preservative BHT. Cocoa Puffs lands in the same range at 130mg sodium and 12g of added sugar per serving.\n\nNone of these products are hiding their ingredient lists — they're printed on the box. What connects them is a processing pattern that shows up across every major food conglomerate's flagship products: refined grains as a base, added sugar well above unprocessed baselines, and industrial additives (emulsifiers, synthetic dyes, preservatives) doing work that a home kitchen simply wouldn't need.",
+      "entityIds": [
+        "capn_crunch",
+        "cocoa_puffs",
+        "kraft_mac_and_cheese"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
