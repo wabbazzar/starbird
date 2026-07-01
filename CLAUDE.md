@@ -31,7 +31,7 @@ TARGET_PAIRS=10 MAX_ITERATIONS=25 MAX_SPEND_USD=120 bash scripts/run-until-full.
 ## Cron schedule (installed on wabbazzar-ice)
 
 Cron entries (still active):
-- **7:05 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes
+- **5:00 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes. *(Note: `scripts/cron-install.sh` currently emits `5 7 * * *` / 7:05 AM — the live crontab and the install script have drifted; reconcile with `crontab -e` or update the script before the next reinstall.)*
 
 Systemd timers (agent infrastructure, installed 2026-05-19):
 - **Every 10 min around the clock (skips 01:00–04:59 while the other agents run)** — Medic (`starbird-medic.timer`) — live-data probe + runner success heartbeat
