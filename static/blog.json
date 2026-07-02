@@ -1121,6 +1121,22 @@
         "kraft_mac_and_cheese"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-07-02-nyt_dealbook_archive",
+      "date": "2026-07-02",
+      "title": "The same debt playbook, three different industries",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "A diner chain, a drive-in, and a power utility all just got bought by the same kind of investor betting on debt to do the work equity used to.",
+      "body": "P.F. Chang's has been quietly \"debt-burdened\" since 2019, when TriArtisan Capital and Paulson & Co. bought it with more than $675 million in debt taken out at par — the same sponsor now running Denny's, and the firm whose earlier buyouts sent TGI Fridays and Hooters into bankruptcy. Sonic Drive-In sits inside a similar structure: Roark Capital's Inspire Brands, which absorbed Sonic in 2018 and has kept adding leverage ever since, now carries a 6.4x net debt-to-EBITDA ratio, per S&P Global — well past what public investors would tolerate from a restaurant company, all invisible to the customers ordering slushes at the window.\n\nThe pattern scales up, too. In June 2026, AES Corporation's shareholders approved a $10.7 billion buyout led by BlackRock's Global Infrastructure Partners and EQT. The fund is targeting 15-20% annual returns on a utility that generates power for millions of households — nearly double what publicly traded utilities have returned over the past decade, according to the Private Equity Stakeholder Project. The same deal would more than double BlackRock's fossil-fuel power plant holdings, adding seven coal plants to the portfolio.\n\nWhat connects a fried-rice chain, a fast-food drive-in, and an electric utility is the financing, not the industry: buy the cash flow, borrow against it, and let the underlying business absorb the risk. Indiana state representative Cherrish Pryor put it plainly about AES: customers have \"battled skyrocketing prices and declining service\" for years, and selling to private equity \"will only make it worse.\"",
+      "entityIds": [
+        "aes_corporation",
+        "pf_changs",
+        "sonic_drive_in"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }

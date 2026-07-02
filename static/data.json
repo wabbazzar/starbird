@@ -6332,10 +6332,11 @@
       "name": "BlackRock",
       "aum": "$10T+",
       "aumVal": 10000,
-      "summary": "World's largest asset manager. Led $40B acquisition of Aligned Data Centers (2025) via AI Infrastructure Partnership consortium including Microsoft, Nvidia, MGX, and sovereign wealth funds. Deal structured with significant debt leverage targeting $100B total including debt financing.",
+      "summary": "World's largest asset manager. Led $40B acquisition of Aligned Data Centers (2025) via AI Infrastructure Partnership consortium including Microsoft, Nvidia, MGX, and sovereign wealth funds. Deal structured with significant debt leverage targeting $100B total including debt financing. In June 2026, AES Corporation stockholders approved a $10.7B buyout (about $33.4B enterprise value including debt) led by BlackRock's Global Infrastructure Partners and EQT; the Private Equity Stakeholder Project noted the deal would more than double BlackRock's fossil-fuel power plant holdings to over 50 plants across 11 countries.",
       "blurb": "World's largest asset manager, offering index funds, ETFs, and the Aladdin investment platform.",
       "brands": [
-        "Aligned Data Centers"
+        "Aligned Data Centers",
+        "AES Corporation"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -6349,7 +6350,7 @@
         "extraction_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-26",
+      "addedAt": "2026-07-02",
       "evidence": [
         {
           "tag": "extraction_general",
@@ -6358,6 +6359,15 @@
           "amountUsd": 40000000000,
           "amountKind": "deal",
           "sourceUrl": "https://www.datacenterfrontier.com/hyperscale/article/55323360/blackrock-led-consortium-to-acquire-aligned-data-centers-in-40-billion-ai-infrastructure-deal"
+        },
+        {
+          "tag": "extraction_general",
+          "text": "In June 2026, AES Corporation stockholders approved a $10.7B buyout (about $33.4B enterprise value including debt) led by BlackRock's Global Infrastructure Partners and EQT; the deal would more than double BlackRock's fossil-fuel power plant holdings to over 50 plants across 11 countries, adding seven coal plants.",
+          "date": "2026-06",
+          "amountUsd": 10700000000,
+          "amountKind": "deal",
+          "actor": "Private Equity Stakeholder Project",
+          "sourceUrl": "https://pestakeholder.org/news/emboldened-blackrock-pursues-another-utility-acquisition-with-aes-deal/"
         }
       ]
     },
@@ -22898,6 +22908,111 @@
         }
       ],
       "addedAt": "2026-07-01"
+    },
+    {
+      "id": "pf_changs",
+      "avoid": "P.F. Chang's",
+      "ownership": [
+        {
+          "firmId": "triartisan_capital",
+          "stake": "majority",
+          "since": "2019"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Sold to TriArtisan Capital Advisors and Paulson & Co. in a 2019 deal that closed with more than $675 million of total debt taken out at par, including a $317 million first-lien term loan, $25 million of revolver borrowings, and $28 million of secured notes provided by the sponsor itself, prompting FSR Magazine to label the chain \"debt-burdened\" at closing. The same TriArtisan playbook of acquiring legacy dining brands and loading them with sponsor-provided debt later drove TGI Fridays and Hooters into bankruptcy.",
+      "blurb": "Casual-dining chain serving Chinese-American food, known for lettuce wraps and dan dan noodles.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Sold to TriArtisan Capital Advisors and Paulson & Co. in a 2019 deal that closed with more than $675 million of total debt taken out at par, prompting FSR Magazine to label the chain \"debt-burdened\" at closing.",
+          "date": "2019-03",
+          "sourceUrl": "https://www.fsrmagazine.com/feature/debt-burdened-pf-changs-reportedly-sold/"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "P.F. Chang's liabilities included about $375 million of secured debt including $5 million of capital leases, a $317 million first-lien term loan, $25 million of revolver borrowings and $28 million of secured notes provided by the sponsor.",
+          "date": "2019-03",
+          "amountUsd": 675000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2019-01-10/p-f-chang-s-said-to-be-sold-to-triartisan-capital-and-paulson"
+        }
+      ],
+      "addedAt": "2026-07-02"
+    },
+    {
+      "id": "sonic_drive_in",
+      "avoid": "Sonic Drive-In",
+      "ownership": [
+        {
+          "firmId": "roark_capital",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Acquired by Roark Capital's Inspire Brands for $2.3 billion in 2018, folding Sonic into a platform that has since piled on debt through a string of leveraged buyouts (Jimmy John's 2019, Dunkin' Brands 2020 for $11.3B). S&P Global put Inspire Brands' net debt-to-EBITDA at 6.4x, well above what public-market investors typically accept for restaurant companies, leaving Sonic's franchisees inside a heavily leveraged corporate structure with no public disclosure.",
+      "blurb": "Drive-in fast-food chain known for carhop service and slushes.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Acquired by Roark Capital's Inspire Brands for $2.3 billion in 2018, folding Sonic into a platform that has since piled on debt through a string of leveraged buyouts (Jimmy John's 2019, Dunkin' Brands 2020 for $11.3B).",
+          "date": "2018",
+          "amountUsd": 2300000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://inspirebrands.com/sonic-corp-acquired-inspire-brands-2-3-billion-transaction/"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "S&P Global put Inspire Brands' net debt-to-EBITDA at 6.4x, well above what public-market investors typically accept for restaurant companies, leaving Sonic's franchisees inside a heavily leveraged corporate structure with no public disclosure.",
+          "actor": "S&P Global",
+          "sourceUrl": "https://www.restaurantbusinessonline.com/financing/inspire-brands-completes-its-113b-acquisition-dunkin"
+        }
+      ],
+      "addedAt": "2026-07-02"
+    },
+    {
+      "id": "aes_corporation",
+      "avoid": "AES Corporation",
+      "ownership": [
+        {
+          "firmId": "blackrock",
+          "stake": "majority",
+          "since": "2026"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Stockholders approved a $10.7 billion buyout (about $33.4B enterprise value including assumed debt) by a consortium led by BlackRock's Global Infrastructure Partners and EQT in June 2026, with CalPERS and Qatar Investment Authority as co-investors. The Private Equity Stakeholder Project flagged that the acquisition fund targets 15-20% annual returns, well above the 10.99% publicly-traded U.S. utilities generated over the past decade, and that the deal would more than double BlackRock's fossil-fuel power plant holdings to over 50 plants across 11 countries, adding seven coal plants. Indiana state representative Cherrish Pryor said of AES Indiana customers: \"For years, AES customers have battled skyrocketing prices and declining service... Selling to private equity will only make it worse.\"",
+      "blurb": "Global power-generation and utility company serving millions of electricity customers.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Stockholders approved a $10.7 billion buyout (about $33.4B enterprise value including assumed debt) by a consortium led by BlackRock's Global Infrastructure Partners and EQT in June 2026. The Private Equity Stakeholder Project flagged that the acquisition fund targets 15-20% annual returns, well above the 10.99% publicly-traded U.S. utilities generated over the past decade.",
+          "date": "2026-06",
+          "amountUsd": 10700000000,
+          "amountKind": "deal",
+          "actor": "Private Equity Stakeholder Project",
+          "sourceUrl": "https://pestakeholder.org/news/emboldened-blackrock-pursues-another-utility-acquisition-with-aes-deal/"
+        }
+      ],
+      "addedAt": "2026-07-02"
     }
   ]
 }
