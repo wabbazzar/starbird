@@ -10205,6 +10205,118 @@
         }
       ],
       "addedAt": "2026-06-30"
+    },
+    {
+      "id": "reynolds_and_reynolds",
+      "name": "Reynolds and Reynolds Co.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Reynolds and Reynolds is an Ohio-based provider of dealer-management software and F&I services for car dealerships, taken private in 2006 by Robert Brockman's Universal Computer Systems. In September 2020 the DOJ indicted Brockman on 39 counts for orchestrating a roughly $2 billion, two-decade scheme to hide investment income from the IRS through offshore entities in Bermuda and Nevis. Brockman died in August 2022 before his case went to trial, having been ruled mentally incompetent, so no criminal conviction was ever entered. In December 2025, his heirs settled with the IRS for $750 million ($456 million in back taxes plus $294 million in penalties) — the largest tax fraud resolution involving an individual in US history, reached without any criminal accountability.",
+      "blurb": "Auto-dealer management software and finance/insurance services for car dealerships.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://en.wikipedia.org/wiki/Robert_Brockman",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "DOJ indicted CEO Robert Brockman in September 2020 for hiding roughly $2 billion in income via offshore entities in Bermuda and Nevis; he died in August 2022 before trial with no criminal conviction, and in December 2025 his heirs settled with the IRS for $750 million — the largest individual tax fraud resolution in US history, reached with zero criminal accountability.",
+          "date": "2025-12",
+          "amountUsd": 750000000,
+          "amountKind": "settlement",
+          "actor": "Internal Revenue Service",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Brockman"
+        }
+      ],
+      "addedAt": "2026-07-03"
+    },
+    {
+      "id": "adani_group",
+      "name": "Adani Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Adani Group is an Indian multinational conglomerate founded and chaired by Gautam Adani, spanning ports, power generation, coal mining, airports, and media. In November 2024 the US DOJ indicted Gautam and Sagar Adani on charges of orchestrating a $265 million bribery scheme to secure Indian solar energy contracts while concealing it from US investors. In May 2026 the DOJ dropped the criminal fraud charges after Adani pledged a $10 billion investment in the United States; the SEC separately settled its civil case, with Gautam and Sagar Adani paying civil penalties of $6 million and $12 million respectively without admitting wrongdoing. Separately, in August 2022 Adani Group's AMG Media Networks launched a hostile takeover of NDTV, one of India's last major news broadcasters critical of the Modi government; by December 2022 founders Prannoy and Radhika Roy had sold their remaining stake.",
+      "blurb": "Indian multinational conglomerate operating ports, power, coal, airports, and media businesses.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 88,
+      "source": "https://www.aljazeera.com/economy/2026/5/18/us-drops-fraud-charges-after-billionaire-adani-pledges-10bn-investment",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In May 2026 the DOJ dropped its $265 million bribery fraud indictment against Gautam and Sagar Adani after Adani pledged a $10 billion US investment; the SEC settled its parallel civil case for $18 million combined without any admission of wrongdoing.",
+          "date": "2026-05",
+          "amountUsd": 10000000000,
+          "amountKind": "deal",
+          "actor": "US Department of Justice",
+          "sourceUrl": "https://www.aljazeera.com/economy/2026/5/18/us-drops-fraud-charges-after-billionaire-adani-pledges-10bn-investment"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "Adani Group's AMG Media Networks executed a hostile takeover of NDTV starting August 2022, buying a 29% stake and tendering $61.77 million for 26% more without input from NDTV's founders; by December 2022 the Roy family sold their remaining stake, ending the independence of one of India's few government-critical news networks.",
+          "date": "2022-12",
+          "amountUsd": 61770000,
+          "amountKind": "deal",
+          "sourceUrl": "https://edition.cnn.com/2022/08/24/media/adani-ndtv-channel-takeover-bid-hnk-intl/index.html"
+        }
+      ],
+      "addedAt": "2026-07-03"
+    },
+    {
+      "id": "intuit_inc",
+      "name": "Intuit Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Intuit Inc. makes TurboTax, QuickBooks, and Credit Karma. In May 2022, Intuit agreed to a $141 million multistate settlement, led by New York AG Letitia James with all 50 states and DC signing on, after finding the company deceptively steered an estimated 4.4 million low-income taxpayers who qualified for the IRS's genuinely free Free File program into paid TurboTax products between 2016 and 2018. One month before Donald Trump's second inauguration, Intuit contributed $1 million to his inauguration committee. In 2025, Intuit spent a record $3.9 million on federal lobbying and, together with H&R Block, helped push congressional Republicans to kill the IRS's free Direct File pilot program despite strong user satisfaction; Direct File was discontinued that year.",
+      "blurb": "Financial software company; makes TurboTax, QuickBooks, and Credit Karma.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 75,
+      "source": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-distribution-141-million-settlement-millions",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Intuit paid $141 million in a May 2022 multistate settlement after all 50 states and DC found it deceptively steered roughly 4.4 million low-income taxpayers eligible for the IRS's free Free File program into paid TurboTax products from 2016-2018.",
+          "date": "2022-05",
+          "amountUsd": 141000000,
+          "amountKind": "settlement",
+          "actor": "State Attorneys General (led by NY AG Letitia James)",
+          "sourceUrl": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-distribution-141-million-settlement-millions"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "One month before Trump's second inauguration, Intuit donated $1 million to his inauguration committee; in 2025 the company spent a record $3.9 million lobbying, helping kill the IRS's free Direct File program that year despite strong user satisfaction.",
+          "date": "2025",
+          "amountUsd": 3900000,
+          "amountKind": "fees",
+          "sourceUrl": "https://www.opensecrets.org/news/2026/04/intuit-and-hr-block-set-lobbying-records-the-year-direct-file-died"
+        }
+      ],
+      "addedAt": "2026-07-03"
     }
   ],
   "brands": [
@@ -23013,6 +23125,106 @@
         }
       ],
       "addedAt": "2026-07-02"
+    },
+    {
+      "id": "reynolds_and_reynolds",
+      "avoid": "Reynolds and Reynolds",
+      "ownership": [
+        {
+          "firmId": "reynolds_and_reynolds",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Reynolds and Reynolds sells dealer-management software and finance/insurance services to car dealerships nationwide. Its longtime CEO, Robert Brockman, was indicted by the DOJ in September 2020 for a roughly $2 billion, two-decade scheme to hide investment income from the IRS via offshore entities in Bermuda and Nevis — then the largest individual tax fraud case in US history. Brockman died in August 2022, ruled mentally incompetent before trial, so he was never criminally convicted. In December 2025, his heirs settled with the IRS for $750 million, closing the case without anyone facing criminal accountability.",
+      "blurb": "Auto-dealer management software and finance/insurance services for car dealerships.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "CEO Robert Brockman was indicted in September 2020 for hiding roughly $2 billion in income via offshore entities in Bermuda and Nevis; he died in August 2022 before trial with no criminal conviction, and in December 2025 his heirs settled with the IRS for $750 million — the largest individual tax fraud resolution in US history, reached with zero criminal accountability.",
+          "date": "2025-12",
+          "amountUsd": 750000000,
+          "amountKind": "settlement",
+          "actor": "Internal Revenue Service",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Brockman"
+        }
+      ],
+      "addedAt": "2026-07-03"
+    },
+    {
+      "id": "ndtv",
+      "avoid": "NDTV",
+      "ownership": [
+        {
+          "firmId": "adani_group",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "NDTV (New Delhi Television) was one of India's few major news broadcasters that reported consistently critically on the Modi government. In August 2022, Adani Group's AMG Media Networks launched a hostile takeover, indirectly acquiring a 29% stake by buying out a shareholder's loans and tendering $61.77 million for another 26% without input from NDTV's founders. By December 2022, founders Prannoy and Radhika Roy sold their remaining stake to Adani Group, and senior executive editor Ravish Kumar resigned rather than continue under the new ownership. Press-freedom monitors flagged the deal as part of a broader consolidation of Indian media under owners aligned with Prime Minister Modi, given Gautam Adani's close personal and business ties to Modi.",
+      "blurb": "Indian 24-hour news television network.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Adani's AMG Media Networks executed a hostile takeover of NDTV in August-December 2022, acquiring a 29% stake plus a $61.77 million tender for 26% more without founder consent; senior editor Ravish Kumar resigned rather than continue under the new, Modi-aligned ownership.",
+          "date": "2022-12",
+          "amountUsd": 61770000,
+          "amountKind": "deal",
+          "sourceUrl": "https://edition.cnn.com/2022/08/24/media/adani-ndtv-channel-takeover-bid-hnk-intl/index.html"
+        }
+      ],
+      "addedAt": "2026-07-03"
+    },
+    {
+      "id": "turbotax",
+      "avoid": "TurboTax",
+      "ownership": [
+        {
+          "firmId": "intuit_inc",
+          "stake": "majority",
+          "since": "1993"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "TurboTax is Intuit's tax-preparation software and the dominant player in the US tax-prep market. In May 2022, Intuit paid $141 million in a multistate settlement after all 50 state attorneys general and DC found it had deceptively advertised 'free' filing while steering an estimated 4.4 million low-income taxpayers who qualified for the IRS's actually-free Free File program into paid TurboTax products between 2016 and 2018, including hiding the free version from search engines. Intuit spent a record $3.9 million lobbying in 2025 and donated $1 million to Trump's second inauguration, helping push through the death of the IRS's competing free Direct File pilot that year despite strong user satisfaction, preserving TurboTax's paid-filing business model.",
+      "blurb": "Tax-preparation software for individual filers.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Intuit paid $141 million in a May 2022 multistate settlement after all 50 states and DC found it deceptively steered roughly 4.4 million low-income taxpayers eligible for the IRS's free Free File program into paid TurboTax products from 2016-2018.",
+          "date": "2022-05",
+          "amountUsd": 141000000,
+          "amountKind": "settlement",
+          "actor": "State Attorneys General (led by NY AG Letitia James)",
+          "sourceUrl": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-distribution-141-million-settlement-millions"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "One month before Trump's second inauguration, Intuit donated $1 million to his inauguration committee; in 2025 the company spent a record $3.9 million lobbying, helping kill the IRS's free Direct File program that year despite strong user satisfaction.",
+          "date": "2025",
+          "amountUsd": 3900000,
+          "amountKind": "fees",
+          "sourceUrl": "https://www.opensecrets.org/news/2026/04/intuit-and-hr-block-set-lobbying-records-the-year-direct-file-died"
+        }
+      ],
+      "addedAt": "2026-07-03"
     }
   ]
 }

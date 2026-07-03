@@ -1137,6 +1137,23 @@
         "sonic_drive_in"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-07-03-adjacent_source_discovery_elite_impunity",
+      "date": "2026-07-03",
+      "title": "When the case gets dropped: tax software, an auto-software CEO, and a media takeover",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three very different companies show the same pattern — real, well-documented wrongdoing that never produced a real consequence, because the person or company involved had enough leverage to make the problem go away.",
+      "body": "Robert Brockman ran Reynolds and Reynolds, the dealer-management software backbone of thousands of car dealerships, while hiding roughly $2 billion in income offshore for two decades. He was indicted in 2020 on 39 counts. He died in 2022, ruled too mentally impaired to stand trial. In December 2025, his heirs quietly settled with the IRS for $750 million — the largest individual tax fraud case in U.S. history, closed without a single criminal conviction.\n\nIntuit's TurboTax took a different route to impunity: it paid $141 million in 2022 for deceiving millions of low-income filers out of a free tax-filing option they were already entitled to. Rather than change course, Intuit donated $1 million to the 2025 presidential inauguration and spent a record $3.9 million lobbying that same year — help that lined up neatly with Congress killing the IRS's free Direct File pilot, the actual free alternative TurboTax had been burying in search results.\n\nAdani Group shows what leverage buys at a larger scale. U.S. prosecutors indicted Gautam Adani in 2024 over a $265 million bribery scheme; in May 2026 they dropped it after Adani pledged $10 billion in U.S. investment, with the SEC settling separately for a fraction of that sum and no admission of guilt. Adani's media arm had already taken over NDTV, one of India's last major broadcasters willing to criticize the government, in a 2022 hostile takeover.\n\nNone of these outcomes required breaking any new law to look bad — they just required enough money and leverage to make the existing ones optional.",
+      "entityIds": [
+        "adani_group",
+        "intuit_inc",
+        "reynolds_and_reynolds",
+        "ndtv",
+        "turbotax"
+      ]
     }
   ]
 }
