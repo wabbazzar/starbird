@@ -2665,7 +2665,8 @@
         "Cheetos",
         "Mountain Dew",
         "Gatorade",
-        "Pepsi"
+        "Pepsi",
+        "Tostitos"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2699,7 +2700,9 @@
         "Lunchables",
         "Velveeta",
         "Kool-Aid",
-        "Oscar Mayer"
+        "Oscar Mayer",
+        "Jell-O",
+        "Capri Sun"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -23225,6 +23228,92 @@
         }
       ],
       "addedAt": "2026-07-03"
+    },
+    {
+      "id": "jell_o",
+      "avoid": "Jell-O",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Jell-O gelatin and pudding products rely on artificial food dyes for their color — strawberry flavor is colored with Red 40, grape with Red 40 plus Blue 1, and apricot with Yellow 6 — additives flagged in EWG's Food Scores database as ultra-processed, NOVA Group 4 ingredients. In 2025 Kraft Heinz confirmed it will remove synthetic dyes from Jell-O and the rest of its US portfolio by 2027, effectively conceding the additive burden of its existing formulations.",
+      "blurb": "Powdered gelatin dessert and pudding mix brand.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Jell-O gelatin and pudding products rely on artificial food dyes for their color — strawberry flavor is colored with Red 40, grape with Red 40 plus Blue 1, and apricot with Yellow 6 — additives flagged in EWG's Food Scores database as ultra-processed, NOVA Group 4 ingredients. In 2025 Kraft Heinz confirmed it will remove synthetic dyes from Jell-O and the rest of its US portfolio by 2027.",
+          "date": "2025",
+          "actor": "Kraft Heinz",
+          "sourceUrl": "https://finance.yahoo.com/news/kraft-heinz-to-remove-artificial-colors-from-jell-o-and-kool-aid-among-other-brands-by-2027-110054957.html"
+        }
+      ],
+      "addedAt": "2026-07-04"
+    },
+    {
+      "id": "capri_sun",
+      "avoid": "Capri Sun",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1991"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Capri Sun was sued in 2007 by a Florida consumer, backed by the Center for Science in the Public Interest, for labeling its juice drinks 'All Natural' while sweetening them with high-fructose corn syrup; Kraft dropped the 'All Natural' claim to settle the case. In 2015 Kraft reformulated the original recipe to replace high-fructose corn syrup with cane sugar after further litigation over 'unnatural ingredients' like citric acid and 'natural flavor.' Capri Sun remains a sugar-sweetened beverage carrying the flavoring and stabilizing additives characteristic of NOVA Group 4 ultra-processed foods.",
+      "blurb": "Single-serve juice drink pouches marketed to kids; Kraft Heinz holds the North American license.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Capri Sun was sued in 2007 by a Florida consumer, backed by the Center for Science in the Public Interest, for labeling its juice drinks 'All Natural' while sweetening them with high-fructose corn syrup; Kraft dropped the 'All Natural' claim to settle the case, and in 2015 reformulated the original recipe to replace HFCS with cane sugar after further litigation over 'unnatural ingredients.'",
+          "date": "2007",
+          "actor": "Center for Science in the Public Interest",
+          "sourceUrl": "https://www.nbcnews.com/id/wbna16529979"
+        }
+      ],
+      "addedAt": "2026-07-04"
+    },
+    {
+      "id": "tostitos",
+      "avoid": "Tostitos",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1979"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Tostitos illustrates the range of processing within one brand: plain corn-oil-and-salt chips sit in NOVA's lower processed tiers, but the Tostitos Queso Blanco dip line contains modified corn starch, maltodextrin, monosodium glutamate, disodium inosinate, disodium guanylate, sodium hexametaphosphate, and DATEM — a combination of flavor enhancers and stabilizing additives that food-processing researchers classify as NOVA Group 4 ultra-processed. PepsiCo's Frito-Lay division markets the chips and dip together as a single Tostitos product line.",
+      "blurb": "Tortilla chip and dip brand made by Frito-Lay, a PepsiCo subsidiary.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "The Tostitos Queso Blanco dip line contains modified corn starch, maltodextrin, monosodium glutamate, disodium inosinate, disodium guanylate, sodium hexametaphosphate, and DATEM — a combination of flavor enhancers and stabilizing additives that food-processing researchers and EWG's Food Scores database classify as NOVA Group 4 ultra-processed.",
+          "actor": "EWG",
+          "sourceUrl": "https://www.ewg.org/foodscores/products/028400668729-TostitosQuesoBlancoDipMedium/"
+        }
+      ],
+      "addedAt": "2026-07-04"
     }
   ]
 }

@@ -1154,6 +1154,22 @@
         "ndtv",
         "turbotax"
       ]
+    },
+    {
+      "id": "2026-07-04-ultraprocessed_nova_tracker",
+      "date": "2026-07-04",
+      "title": "One brand, two processing tiers: what NOVA misses on the label",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three familiar kitchen staples — a gelatin dessert, a juice pouch, and a chip-and-dip combo — show how ultra-processing hides inside brands that look wholesome, not just inside obvious junk food.",
+      "body": "Jell-O's bright colors come from Red 40, Blue 1, and Yellow 6 — the same synthetic dyes Kraft Heinz has now promised to strip from its US lineup by 2027, an admission that the additive load was worth fixing. Capri Sun has been here before: a 2007 lawsuit backed by the Center for Science in the Public Interest forced Kraft to drop an 'All Natural' claim while the drink was sweetened with high-fructose corn syrup, and a 2015 reformulation swapped in cane sugar only after more litigation over the ingredient list.\n\nTostitos shows the split most clearly. The plain corn-oil-and-salt chips sit low on the NOVA processing scale, but the companion Queso Blanco dip is a different product entirely — modified corn starch, maltodextrin, MSG, disodium inosinate and guanylate, sodium hexametaphosphate, DATEM. Marketed side by side as one brand, the chip and the dip land in different NOVA tiers.\n\nAll three sit inside conglomerates already in this database — Kraft Heinz and PepsiCo — a reminder that ultra-processing isn't a fringe category. It's baked into flagship products from the biggest names in the pantry, dressed up as a snack aisle staple or a lunchbox treat.",
+      "entityIds": [
+        "capri_sun",
+        "jell_o",
+        "tostitos"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
