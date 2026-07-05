@@ -1803,7 +1803,9 @@
         "Gillette",
         "Always",
         "Bounty",
-        "Braun"
+        "Braun",
+        "Head & Shoulders",
+        "Pantene"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -2353,7 +2355,8 @@
         "Acuvue",
         "Clean & Clear",
         "Band-Aid",
-        "BENGAY"
+        "BENGAY",
+        "OGX"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -23314,6 +23317,93 @@
         }
       ],
       "addedAt": "2026-07-04"
+    },
+    {
+      "id": "head_shoulders",
+      "avoid": "Head & Shoulders",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1961"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Head & Shoulders is a Procter & Gamble anti-dandruff shampoo brand sold in mainland China, where cosmetics have historically been subject to government-mandated animal testing. PETA's Ultimate Cruelty-Free List classifies Head & Shoulders as a brand that 'does test on animals,' noting P&G brands in this category may be tested directly, through suppliers, or as a condition of sale in markets that require it.",
+      "blurb": "Anti-dandruff shampoo and scalp-care brand.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Head & Shoulders is a Procter & Gamble anti-dandruff shampoo brand sold in mainland China, where cosmetics have historically been subject to government-mandated animal testing. PETA's Ultimate Cruelty-Free List classifies Head & Shoulders as a brand that 'does test on animals,' noting P&G brands in this category may be tested directly, through suppliers, or as a condition of sale in markets that require it.",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/company/head-shoulders-procter-gamble/"
+        }
+      ],
+      "addedAt": "2026-07-05"
+    },
+    {
+      "id": "pantene",
+      "avoid": "Pantene",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Pantene, a Procter & Gamble haircare brand, is listed on PETA's Ultimate Cruelty-Free List as a company that does test on animals. Pantene's own marketing describes cruelty-free practices in some regions, but the brand is sold throughout mainland China, a market PETA cites when categorizing P&G brands as tested directly, by suppliers, or as a condition of sale.",
+      "blurb": "Mass-market shampoo, conditioner, and haircare product line.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Pantene, a Procter & Gamble haircare brand, is listed on PETA's Ultimate Cruelty-Free List as a company that does test on animals. Pantene's own marketing describes cruelty-free practices in some regions, but the brand is sold throughout mainland China, a market PETA cites when categorizing P&G brands as tested directly, by suppliers, or as a condition of sale.",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/company/pantene-procter-gamble/"
+        }
+      ],
+      "addedAt": "2026-07-05"
+    },
+    {
+      "id": "ogx",
+      "avoid": "OGX",
+      "ownership": [
+        {
+          "firmId": "johnson_and_johnson",
+          "stake": "majority",
+          "since": "2016"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "OGX (formerly marketed as Organix) was previously recognized as cruelty-free, but PETA removed it from its cruelty-free list in 2015 after the brand expanded sales into mainland China, where animal testing has been mandated for cosmetics. Johnson & Johnson acquired OGX's parent company, Vogue International, for $3.3 billion in 2016, bringing the brand into a corporate portfolio PETA lists among companies that test on animals.",
+      "blurb": "Shampoo, conditioner, and haircare line sold under the OGX/Organix name.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "OGX (formerly marketed as Organix) was previously recognized as cruelty-free, but PETA removed it from its cruelty-free list in 2015 after the brand expanded sales into mainland China, where animal testing has been mandated for cosmetics. Johnson & Johnson acquired OGX's parent company, Vogue International, for $3.3 billion in 2016, bringing the brand into a corporate portfolio PETA lists among companies that test on animals.",
+          "date": "2016",
+          "amountUsd": 3300000000,
+          "amountKind": "deal",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/company/ogx-organix/"
+        }
+      ],
+      "addedAt": "2026-07-05"
     }
   ]
 }

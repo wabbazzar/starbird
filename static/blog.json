@@ -1170,6 +1170,22 @@
         "tostitos"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-07-05-peta_cruelty_list",
+      "date": "2026-07-05",
+      "title": "Three familiar shampoo aisle names, one animal-testing loophole",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "Head & Shoulders, Pantene, and OGX all read as everyday drugstore brands, but PETA lists all three as brands that still test on animals — mostly because they're sold in mainland China, where cosmetic products have historically required it.",
+      "body": "Head & Shoulders and Pantene both roll up to Procter & Gamble, already flagged in this database for animal testing at the corporate level. PETA's Ultimate Cruelty-Free List names both brands specifically as brands that 'do test on animals,' whether through P&G's own labs, its suppliers, or as the price of admission to markets like mainland China that have mandated it.\n\nOGX has a more pointed history. PETA once listed it as cruelty-free — until 2015, when the brand (then Organix) expanded into mainland China and PETA pulled it from the approved list. A year later, in 2016, Johnson & Johnson bought OGX's parent company, Vogue International, for $3.3 billion, folding a once cruelty-free name into a conglomerate that PETA already lists as testing on animals.\n\nThe throughline across all three: a shampoo bottle sitting on a US shelf can carry a testing history that has nothing to do with US law and everything to do with a company's choice to sell in a market that still requires it. None of the three brands existed in this database before today; all three now sit under parent firms — P&G and J&J — that were already flagged for the same practice.",
+      "entityIds": [
+        "head_shoulders",
+        "ogx",
+        "pantene"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
     }
   ]
 }
