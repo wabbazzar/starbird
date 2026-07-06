@@ -1186,6 +1186,23 @@
         "pantene"
       ],
       "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-07-06-pesp_bankruptcy_tracker",
+      "date": "2026-07-06",
+      "title": "Three department-store bankruptcies, one financial-engineering playbook",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "J.Crew, Sears, and Neiman Marcus all collapsed under buyout debt their owners loaded onto them — and in two cases, kept extracting value from the wreckage.",
+      "body": "This run traced the same private-equity playbook across three household retail names. TPG Capital and Leonard Green & Partners took J.Crew private in a $3 billion 2011 buyout; the debt from that deal stood at $1.7 billion when J.Crew filed Chapter 11 in May 2020, by which point the two firms had already collected $765.9 million in fees and debt-funded dividends.\n\nSears tells a similar story with an added twist. Eddie Lampert's ESL Investments merged Kmart with Sears in 2005, then in 2015 split off 235 of the chain's best store properties into a REIT, Seritage Growth Properties, in a $2.7 billion sale-leaseback — leaving Sears paying rent on real estate it once owned while Lampert's fund held a 43.5% stake in the new landlord. Sears Holdings' workforce fell from roughly 317,000 employees in 2005 to 68,000 by its October 2018 bankruptcy filing.\n\nNeiman Marcus shows the same debt burden paired with a disputed asset transfer. Ares Management and CPPIB's $6.2 billion 2013 buyout put about $4.65 billion in debt on the retailer; in 2018, still carrying that load, the two firms moved the profitable MyTheresa e-commerce unit out of the company as a dividend to themselves. Creditor Marble Ridge Capital sued, calling it a fraudulent transfer of roughly $1 billion in assets, ahead of Neiman Marcus's May 2020 bankruptcy filing.\n\nDifferent owners, different decades, same mechanism: load the acquisition debt onto the target, pull value out through fees, rent, or spun-off assets, and let the operating company absorb the collapse.",
+      "entityIds": [
+        "esl_investments",
+        "j_crew",
+        "neiman_marcus",
+        "sears"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
     }
   ]
 }

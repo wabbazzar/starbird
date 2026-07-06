@@ -188,11 +188,12 @@
       "name": "Leonard Green & Partners",
       "aum": "$70B",
       "aumVal": 70,
-      "summary": "Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure. Serially over-leverages retail and healthcare.",
+      "summary": "Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure. Serially over-leverages retail and healthcare. Leonard Green's 2011 leveraged buyout of J.Crew (with TPG Capital) left the retailer carrying $1.7 billion in debt when it filed Chapter 11 in May 2020; the two firms had collected $765.9 million in fees and debt-funded dividends over the course of their ownership (PESP; Americans for Financial Reform).",
       "blurb": "Private-equity firm investing in consumer, retail, healthcare, and services companies through buyouts.",
       "brands": [
         "The Container Store",
-        "Crunch Fitness"
+        "Crunch Fitness",
+        "J.Crew"
       ],
       "layoffs": "19,000+ (Joann alone in 2025)",
       "notableBk": "Joann (2025), Container Store (2024)",
@@ -205,10 +206,11 @@
       "harms": [
         "workers_general",
         "extraction_general",
-        "health_general"
+        "health_general",
+        "extraction_debt_loading"
       ],
       "aligns": [],
-      "addedAt": "2026-06-05",
+      "addedAt": "2026-07-06",
       "evidence": [
         {
           "tag": "workers_general",
@@ -222,6 +224,14 @@
         {
           "tag": "health_general",
           "text": "Directly responsible for Joann collapse (19,000 laid off 2025), Container Store bankruptcy (Dec 2024), and Prospect Medical failure."
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Leonard Green's 2011 leveraged buyout of J.Crew (with TPG Capital) left the retailer carrying $1.7 billion in debt when it filed Chapter 11 in May 2020; the two firms had collected $765.9 million in fees and debt-funded dividends over the course of their ownership.",
+          "date": "2020-05",
+          "amountUsd": 1700000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://pestakeholder.org/news/leonard-green-and-tpg-led-owner-group-collected-765-million-in-fees-and-dividends-from-bankrupt-retailer-j-crew-2/"
         }
       ]
     },
@@ -282,10 +292,11 @@
       "name": "Ares Management",
       "aum": "$450B",
       "aumVal": 450,
-      "summary": "Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity.",
+      "summary": "Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity. Ares (with CPPIB) bought Neiman Marcus in a $6.2 billion 2013 LBO that put roughly $4.65 billion in debt on the retailer; in 2018 the two firms transferred the profitable MyTheresa unit out of the company as a dividend to themselves, which creditor Marble Ridge Capital sued over as a fraudulent transfer of about $1 billion in assets ahead of Neiman Marcus's May 2020 bankruptcy (Globe and Mail; PR Newswire).",
       "blurb": "Alternative-asset manager investing in credit, private equity, and real estate across consumer and retail businesses.",
       "brands": [
-        "Guitar Center"
+        "Guitar Center",
+        "Neiman Marcus"
       ],
       "layoffs": "10,800+ (99 Cents Only, 2024)",
       "notableBk": "99 Cents Only (2024), Guitar Center (2020)",
@@ -297,10 +308,11 @@
       ],
       "harms": [
         "workers_general",
-        "extraction_general"
+        "extraction_general",
+        "extraction_debt_loading"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-07-06",
       "evidence": [
         {
           "tag": "workers_general",
@@ -311,6 +323,14 @@
           "text": "Co-acquired 99 Cents Only via LBO, loaded it with $775M debt, closed 371 stores, laid off 10,800 workers. Also owns Guitar Center post-bankruptcy after converting its own debt to equity.",
           "amountUsd": 775000000,
           "amountKind": "debt"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Ares (with CPPIB) bought Neiman Marcus in a $6.2 billion 2013 LBO that put roughly $4.65 billion in debt on the retailer; in 2018 the two firms transferred the profitable MyTheresa unit out of the company as a dividend to themselves, which creditor Marble Ridge Capital sued over as a fraudulent transfer of about $1 billion in assets ahead of Neiman Marcus's May 2020 bankruptcy.",
+          "date": "2020-05",
+          "amountUsd": 4650000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.theglobeandmail.com/report-on-business/streetwise/after-its-shopping-spree-at-us-luxury-retailer-neiman-marcus-cppib-is-left-holding-the-bag/article37678127/"
         }
       ]
     },
@@ -9728,9 +9748,11 @@
       "name": "TPG Capital",
       "aum": "$222B",
       "aumVal": 222,
-      "summary": "Global alternative-asset management firm founded in 1992 by David Bonderman and James Coulter. Bill McGlashan, co-founder of TPG's Rise Fund (marketed as an impact-investing vehicle) and head of TPG Growth, was arrested in March 2019 as part of Operation Varsity Blues — the largest college admissions fraud prosecution in U.S. history. McGlashan paid $50,000 through Rick Singer's sham charity Key Worldwide Foundation to guarantee his son's admission to USC while publicly positioning the Rise Fund on ethical principles. He pled guilty in 2021 to wire fraud and honest services mail fraud conspiracy; TPG fired him following his arrest (U.S. Department of Justice, 2021). TPG's 2004 acquisition of IASIS Healthcare loaded the hospital chain with over $3 billion in debt; TPG sold it to Steward Health Care in 2017. Steward subsequently filed the largest hospital bankruptcy in U.S. history in 2024, closing six hospitals and laying off more than 2,650 workers. Federal investigators seized Steward founder Ralph de la Torre's phone in November 2024 (OCCRP, 2024; PESP).",
+      "summary": "Global alternative-asset management firm founded in 1992 by David Bonderman and James Coulter. Bill McGlashan, co-founder of TPG's Rise Fund (marketed as an impact-investing vehicle) and head of TPG Growth, was arrested in March 2019 as part of Operation Varsity Blues — the largest college admissions fraud prosecution in U.S. history. McGlashan paid $50,000 through Rick Singer's sham charity Key Worldwide Foundation to guarantee his son's admission to USC while publicly positioning the Rise Fund on ethical principles. He pled guilty in 2021 to wire fraud and honest services mail fraud conspiracy; TPG fired him following his arrest (U.S. Department of Justice, 2021). TPG's 2004 acquisition of IASIS Healthcare loaded the hospital chain with over $3 billion in debt; TPG sold it to Steward Health Care in 2017. Steward subsequently filed the largest hospital bankruptcy in U.S. history in 2024, closing six hospitals and laying off more than 2,650 workers. Federal investigators seized Steward founder Ralph de la Torre's phone in November 2024 (OCCRP, 2024; PESP). TPG's 2011 leveraged buyout of J.Crew (with Leonard Green & Partners) loaded the retailer with debt that stood at $1.7 billion when J.Crew filed Chapter 11 in May 2020, becoming the first major retailer to collapse in the pandemic; the firms had paid themselves $765.9 million in fees and dividends over the course of their ownership (PESP; Americans for Financial Reform).",
       "blurb": "Global alternative-asset manager focused on private equity, growth equity, and impact investing across healthcare, technology, and consumer sectors.",
-      "brands": [],
+      "brands": [
+        "J.Crew"
+      ],
       "layoffs": "2,650+ via Steward Health Care chain (downstream from IASIS sale)",
       "notableBk": "IASIS Healthcare (collapsed via Steward, 2024)",
       "harmScore": 74,
@@ -9741,7 +9763,8 @@
       ],
       "harms": [
         "elite_impunity_general",
-        "extraction_general"
+        "extraction_general",
+        "extraction_debt_loading"
       ],
       "aligns": [],
       "evidence": [
@@ -9761,9 +9784,17 @@
           "amountUsd": 3000000000,
           "amountKind": "debt",
           "sourceUrl": "https://www.occrp.org/en/investigation/how-private-equity-and-an-ambitious-landlord-put-steward-healthcare-on-life-support"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "TPG's 2011 leveraged buyout of J.Crew (with Leonard Green & Partners) loaded the retailer with debt that stood at $1.7 billion when J.Crew filed Chapter 11 in May 2020; the firms had paid themselves $765.9 million in fees and dividends over the course of their ownership.",
+          "date": "2020-05",
+          "amountUsd": 1700000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://pestakeholder.org/news/leonard-green-and-tpg-led-owner-group-collected-765-million-in-fees-and-dividends-from-bankrupt-retailer-j-crew-2/"
         }
       ],
-      "addedAt": "2026-06-23"
+      "addedAt": "2026-07-06"
     },
     {
       "id": "andreessen_horowitz",
@@ -10323,6 +10354,41 @@
         }
       ],
       "addedAt": "2026-07-03"
+    },
+    {
+      "id": "esl_investments",
+      "name": "ESL Investments",
+      "aum": "$1.3B",
+      "aumVal": 1.3,
+      "summary": "Hedge fund founded and run by Eddie Lampert. ESL peaked at $15.5 billion in assets under management in 2006 before shrinking to roughly $1.3 billion, a fund now composed largely of Lampert's own money invested in Sears stock, Sears debt, and Sears spin-offs (Institutional Investor, 2019). Lampert used ESL to acquire Kmart out of its 2002 bankruptcy, then merged it with Sears in 2005 to form Sears Holdings, which he ran as chairman and eventually CEO. In 2015, Lampert spun off 235 of Sears Holdings' most profitable store properties into a separate REIT, Seritage Growth Properties, in a $2.7 billion sale-leaseback deal; ESL held a 43.5% stake in Seritage while Sears was left paying Seritage roughly $349 million in rent on stores it had previously owned outright. Sears Holdings' workforce fell from about 317,000 employees in 2005 to about 68,000 by the time it filed Chapter 11 bankruptcy in October 2018 (Fortune). Lampert's ESL then bought the surviving Sears and Kmart stores out of bankruptcy through a new entity, Transformco, in 2019, keeping Lampert in control of what remained.",
+      "blurb": "Hedge fund historically concentrated in Sears Holdings stock, debt, and real-estate spin-offs.",
+      "brands": [
+        "Sears",
+        "Kmart"
+      ],
+      "layoffs": "Sears Holdings workforce fell from ~317,000 employees (2005) to ~68,000 at its October 2018 bankruptcy filing",
+      "notableBk": "Sears Holdings Corp. (Chapter 11, October 2018)",
+      "harmScore": 88,
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/",
+      "cats": [
+        "retail",
+        "finance"
+      ],
+      "harms": [
+        "extraction_sale_leaseback"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_sale_leaseback",
+          "text": "In 2015, Lampert spun off 235 of Sears Holdings' most profitable store properties into a separate REIT, Seritage Growth Properties, in a $2.7 billion sale-leaseback deal; ESL held a 43.5% stake in Seritage while Sears was left paying Seritage roughly $349 million in rent on stores it had previously owned outright.",
+          "date": "2015",
+          "amountUsd": 2700000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.institutionalinvestor.com/article/2bsxn8l0u5yr6zhelmhog/corner-office/eddie-lampert-shattered-sears-sullied-his-reputation-and-lost-billions-of-dollars-or-did-he"
+        }
+      ],
+      "addedAt": "2026-07-06"
     }
   ],
   "brands": [
@@ -23404,6 +23470,110 @@
         }
       ],
       "addedAt": "2026-07-05"
+    },
+    {
+      "id": "j_crew",
+      "avoid": "J.Crew",
+      "ownership": [
+        {
+          "firmId": "tpg_capital",
+          "stake": "former",
+          "since": "2011"
+        },
+        {
+          "firmId": "leonard_green_and_partners",
+          "stake": "former",
+          "since": "2011"
+        }
+      ],
+      "cat": "retail",
+      "alts": [
+        "Uniqlo (public)",
+        "Independent local apparel retailers"
+      ],
+      "why": "TPG Capital and Leonard Green & Partners took J.Crew private in a $3 billion leveraged buyout in 2011. The debt from that deal stood at $1.7 billion when J.Crew filed for Chapter 11 bankruptcy on May 4, 2020, becoming the first major retailer to collapse in the COVID-19 pandemic. Over the course of their ownership, TPG and Leonard Green paid themselves $765.9 million in management fees and debt-funded dividends while the company struggled under the buyout debt (Private Equity Stakeholder Project; Americans for Financial Reform).",
+      "blurb": "Apparel and accessories retailer selling preppy-style clothing in stores and online.",
+      "harms": [
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_debt_loading",
+          "text": "The debt from TPG and Leonard Green’s 2011 leveraged buyout stood at $1.7 billion when J.Crew filed for Chapter 11 in May 2020; the two firms had paid themselves $765.9 million in fees and debt-funded dividends since acquiring the company.",
+          "date": "2020-05",
+          "amountUsd": 1700000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://pestakeholder.org/news/leonard-green-and-tpg-led-owner-group-collected-765-million-in-fees-and-dividends-from-bankrupt-retailer-j-crew-2/"
+        }
+      ],
+      "addedAt": "2026-07-06"
+    },
+    {
+      "id": "sears",
+      "avoid": "Sears",
+      "ownership": [
+        {
+          "firmId": "esl_investments",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "retail",
+      "alts": [
+        "Costco (membership warehouse)",
+        "Independent hardware and appliance retailers"
+      ],
+      "why": "Eddie Lampert's ESL Investments merged Kmart with Sears in 2005 and ran the combined Sears Holdings. In 2015, Lampert split off 235 of Sears's most profitable store properties into a REIT called Seritage Growth Properties in a $2.7 billion sale-leaseback deal, leaving Sears paying rent on stores it once owned outright while ESL held a 43.5% stake in the new landlord. Sears Holdings' workforce shrank from about 317,000 employees in 2005 to about 68,000 by its October 2018 Chapter 11 filing (Fortune).",
+      "blurb": "Department store chain selling appliances, apparel, tools, and home goods.",
+      "harms": [
+        "extraction_sale_leaseback"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_sale_leaseback",
+          "text": "In 2015, Lampert split off 235 of Sears's most profitable store properties into a REIT called Seritage Growth Properties in a $2.7 billion sale-leaseback deal, leaving Sears paying rent on stores it once owned outright while ESL held a 43.5% stake in the new landlord.",
+          "date": "2015",
+          "amountUsd": 2700000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.institutionalinvestor.com/article/2bsxn8l0u5yr6zhelmhog/corner-office/eddie-lampert-shattered-sears-sullied-his-reputation-and-lost-billions-of-dollars-or-did-he"
+        }
+      ],
+      "addedAt": "2026-07-06"
+    },
+    {
+      "id": "neiman_marcus",
+      "avoid": "Neiman Marcus",
+      "ownership": [
+        {
+          "firmId": "ares_management",
+          "stake": "former",
+          "since": "2013"
+        }
+      ],
+      "cat": "retail",
+      "alts": [
+        "Nordstrom (public)",
+        "Independent luxury boutiques"
+      ],
+      "why": "Ares Management and the Canada Pension Plan Investment Board bought Neiman Marcus in a $6.2 billion leveraged buyout completed in October 2013, contributing $1.55 billion in cash and placing roughly $4.65 billion in debt on the retailer's balance sheet. In 2018, with the company still carrying that debt, Ares and CPPIB moved the profitable MyTheresa e-commerce unit out of Neiman Marcus and into their own hands as a dividend; creditor Marble Ridge Capital sued, calling it a fraudulent transfer of roughly $1 billion in assets. Neiman Marcus filed for Chapter 11 bankruptcy in May 2020, and in July 2020 Ares and CPPIB settled the fraudulent-conveyance claims by contributing MyTheresa shares and $10 million cash to a creditor trust.",
+      "blurb": "Luxury department store chain selling designer apparel, accessories, and beauty products.",
+      "harms": [
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Ares and CPPIB's 2013 buyout placed roughly $4.65 billion in debt on Neiman Marcus; still carrying that debt in 2018, the two firms transferred the profitable MyTheresa unit out of the company as a dividend to themselves, a move creditor Marble Ridge Capital sued over as a fraudulent transfer of about $1 billion in assets, ahead of Neiman Marcus's May 2020 bankruptcy filing.",
+          "date": "2020-05",
+          "amountUsd": 4650000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.theglobeandmail.com/report-on-business/streetwise/after-its-shopping-spree-at-us-luxury-retailer-neiman-marcus-cppib-is-left-holding-the-bag/article37678127/"
+        }
+      ],
+      "addedAt": "2026-07-06"
     }
   ]
 }
