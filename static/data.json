@@ -10389,6 +10389,127 @@
         }
       ],
       "addedAt": "2026-07-06"
+    },
+    {
+      "id": "whp_global",
+      "name": "WHP Global",
+      "aum": "$1.6B valuation",
+      "aumVal": 1.6,
+      "summary": "Brand-management platform founded 2019 with Oaktree Capital Management backing, later taking a $375M equity investment from Ares Management at a $1.6B valuation (2023). Business model buys distressed retail brands out of bankruptcy for their trademark value, then licenses the name to franchisees and closes owned stores. Led the consortium (with Simon Property Group, Brookfield Properties, and Centennial) that bought Express out of Chapter 11 in 2024 for $174M, closing roughly 95 of Express's 500+ stores in the process.",
+      "blurb": "Private-equity-backed brand-management firm that buys distressed retail trademarks and licenses them out.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A (acquires companies out of bankruptcy rather than filing itself)",
+      "harmScore": 70,
+      "source": "https://www.retaildive.com/news/express-bonobos-acquired-bankruptcy-simon-brookfield-centennial-whp-global/719103/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Business model buys distressed retail brands out of bankruptcy for their trademark value, then licenses the name to franchisees and closes owned stores. Led the consortium (with Simon Property Group, Brookfield Properties, and Centennial) that bought Express out of Chapter 11 in 2024 for $174M, closing roughly 95 of Express's 500+ stores in the process.",
+          "date": "2024-04",
+          "amountUsd": 174000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.retaildive.com/news/express-bonobos-acquired-bankruptcy-simon-brookfield-centennial-whp-global/719103/"
+        }
+      ],
+      "addedAt": "2026-07-07"
+    },
+    {
+      "id": "formation_capital",
+      "name": "Formation Capital",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Private equity firm that, with JER Partners, acquired Genesis HealthCare in a $1.7B leveraged buyout in 2007, financed in part with debt carried on Genesis's own books. In 2011, Formation directed Genesis to sell 147 nursing facilities to Health Care REIT (now Welltower) for $2.4B, converting Genesis from a property owner to a rent-paying tenant. Genesis filed for Chapter 11 in July 2025 carrying more than $2.3B in debt, and U.S. Senators Warren, Blumenthal, Welch, and Goodlander opened an investigation into the bankruptcy's impact on nursing home and assisted-living residents.",
+      "blurb": "Private-equity firm specializing in leveraged buyouts of skilled-nursing and senior-care operators.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Genesis HealthCare (2025)",
+      "harmScore": 88,
+      "source": "https://pestakeholder.org/news/genesis-healthcare-files-for-bankruptcy/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "extraction_general",
+        "extraction_sale_leaseback",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Private equity firm that, with JER Partners, acquired Genesis HealthCare in a $1.7B leveraged buyout in 2007, financed in part with debt carried on Genesis's own books.",
+          "date": "2007",
+          "amountUsd": 1700000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://pestakeholder.org/news/genesis-healthcare-files-for-bankruptcy/"
+        },
+        {
+          "tag": "extraction_sale_leaseback",
+          "text": "In 2011, Formation directed Genesis to sell 147 nursing facilities to Health Care REIT (now Welltower) for $2.4B, converting Genesis from a property owner to a rent-paying tenant.",
+          "date": "2011",
+          "amountUsd": 2400000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://pestakeholder.org/news/genesis-healthcare-files-for-bankruptcy/"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Genesis filed for Chapter 11 in July 2025 carrying more than $2.3B in debt, and U.S. Senators Warren, Blumenthal, Welch, and Goodlander opened an investigation into the bankruptcy's impact on nursing home and assisted-living residents.",
+          "date": "2025-07",
+          "amountUsd": 2300000000,
+          "amountKind": "debt",
+          "actor": "U.S. Senate",
+          "sourceUrl": "https://www.warren.senate.gov/newsroom/press-releases/warren-blumenthal-welch-goodlander-investigate-genesis-healthcare-private-equity-bankruptcy-and-its-impact-on-nursing-home-assisted-living-residents-across-the-country"
+        }
+      ],
+      "addedAt": "2026-07-07"
+    },
+    {
+      "id": "clayton_dubilier_and_rice",
+      "name": "Clayton, Dubilier & Rice",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Private equity firm that, with Leonard Green & Partners, acquired David's Bridal in a roughly $1.05B leveraged buyout in 2012. The debt load from that deal drove two Chapter 11 filings in five years: a prepackaged bankruptcy in November 2018 that shed $450M in debt and handed ownership to lenders, and a second filing in April 2023 that led to 9,326 layoffs over four months.",
+      "blurb": "Private-equity firm that runs leveraged buyouts across retail, industrials, and healthcare.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "David's Bridal (2018, 2023)",
+      "harmScore": 82,
+      "source": "https://www.npr.org/2023/04/17/1170505714/davids-bridal-has-filed-for-bankruptcy-again",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Private equity firm that, with Leonard Green & Partners, acquired David's Bridal in a roughly $1.05B leveraged buyout in 2012.",
+          "date": "2012",
+          "amountUsd": 1050000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.cnbc.com/2018/11/19/davids-bridal-files-for-bankruptcy-protection.html"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "The debt load from that deal drove two Chapter 11 filings in five years: a prepackaged bankruptcy in November 2018 that shed $450M in debt and handed ownership to lenders, and a second filing in April 2023 that led to 9,326 layoffs over four months.",
+          "date": "2023-04",
+          "amountUsd": 450000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.npr.org/2023/04/17/1170505714/davids-bridal-has-filed-for-bankruptcy-again"
+        }
+      ],
+      "addedAt": "2026-07-07"
     }
   ],
   "brands": [
@@ -23574,6 +23695,130 @@
         }
       ],
       "addedAt": "2026-07-06"
+    },
+    {
+      "id": "express",
+      "avoid": "Express",
+      "ownership": [
+        {
+          "firmId": "whp_global",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Express filed for Chapter 11 in April 2024 and closed nearly 100 of its more than 500 stores. A consortium led by WHP Global — alongside mall landlords Simon Property Group, Brookfield Properties, and Centennial — bought Express's brand and remaining stores out of bankruptcy for $174M through a new joint venture, Phoenix Retail, folding the chain into WHP's licensed-trademark portfolio.",
+      "blurb": "Mall-based apparel retailer selling contemporary clothing for men and women.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Express filed for Chapter 11 in April 2024 and closed nearly 100 of its more than 500 stores. A consortium led by WHP Global — alongside mall landlords Simon Property Group, Brookfield Properties, and Centennial — bought Express's brand and remaining stores out of bankruptcy for $174M through a new joint venture, Phoenix Retail, folding the chain into WHP's licensed-trademark portfolio.",
+          "date": "2024-04",
+          "amountUsd": 174000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.retaildive.com/news/express-bonobos-acquired-bankruptcy-simon-brookfield-centennial-whp-global/719103/"
+        }
+      ],
+      "addedAt": "2026-07-07"
+    },
+    {
+      "id": "genesis_healthcare",
+      "avoid": "Genesis HealthCare",
+      "ownership": [
+        {
+          "firmId": "formation_capital",
+          "stake": "former",
+          "since": "2007",
+          "until": "2025"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Once the largest skilled-nursing operator in the U.S., Genesis HealthCare was taken private in a $1.7B leveraged buyout by Formation Capital and JER Partners in 2007. A 2011 sale-leaseback of 147 facilities to Health Care REIT (now Welltower) for $2.4B stripped Genesis of the real estate it operated on, converting it into a rent-paying tenant. Genesis filed for Chapter 11 in July 2025 with more than $2.3B in debt and faced hundreds of lawsuits alleging malpractice and wrongful death, prompting a formal Senate investigation into the bankruptcy's effect on residents.",
+      "blurb": "Skilled-nursing and assisted-living operator running facilities across 18 states.",
+      "harms": [
+        "extraction_general",
+        "extraction_sale_leaseback",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Once the largest skilled-nursing operator in the U.S., Genesis HealthCare was taken private in a $1.7B leveraged buyout by Formation Capital and JER Partners in 2007.",
+          "date": "2007",
+          "amountUsd": 1700000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://pestakeholder.org/news/genesis-healthcare-files-for-bankruptcy/"
+        },
+        {
+          "tag": "extraction_sale_leaseback",
+          "text": "A 2011 sale-leaseback of 147 facilities to Health Care REIT (now Welltower) for $2.4B stripped Genesis of the real estate it operated on, converting it into a rent-paying tenant.",
+          "date": "2011",
+          "amountUsd": 2400000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://pestakeholder.org/news/genesis-healthcare-files-for-bankruptcy/"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Genesis filed for Chapter 11 in July 2025 with more than $2.3B in debt and faced hundreds of lawsuits alleging malpractice and wrongful death, prompting a formal Senate investigation into the bankruptcy's effect on residents.",
+          "date": "2025-07",
+          "amountUsd": 2300000000,
+          "amountKind": "debt",
+          "actor": "U.S. Senate",
+          "sourceUrl": "https://www.warren.senate.gov/newsroom/press-releases/warren-blumenthal-welch-goodlander-investigate-genesis-healthcare-private-equity-bankruptcy-and-its-impact-on-nursing-home-assisted-living-residents-across-the-country"
+        }
+      ],
+      "addedAt": "2026-07-07"
+    },
+    {
+      "id": "davids_bridal",
+      "avoid": "David's Bridal",
+      "ownership": [
+        {
+          "firmId": "clayton_dubilier_and_rice",
+          "stake": "majority",
+          "since": "2012"
+        },
+        {
+          "firmId": "leonard_green_and_partners",
+          "stake": "minority",
+          "since": "2012"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Clayton, Dubilier & Rice and Leonard Green & Partners took David's Bridal private in a roughly $1.05B leveraged buyout in 2012. The debt from that deal drove the wedding retailer into Chapter 11 twice in five years: a prepackaged bankruptcy in November 2018 that shed $450M in debt and transferred ownership to lenders, and a second filing in April 2023 that resulted in 9,326 layoffs over four months.",
+      "blurb": "Wedding-dress and bridal-party retailer operating stores across North America.",
+      "harms": [
+        "extraction_general",
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Clayton, Dubilier & Rice and Leonard Green & Partners took David's Bridal private in a roughly $1.05B leveraged buyout in 2012.",
+          "date": "2012",
+          "amountUsd": 1050000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.cnbc.com/2018/11/19/davids-bridal-files-for-bankruptcy-protection.html"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "The debt from that deal drove the wedding retailer into Chapter 11 twice in five years: a prepackaged bankruptcy in November 2018 that shed $450M in debt and transferred ownership to lenders, and a second filing in April 2023 that resulted in 9,326 layoffs over four months.",
+          "date": "2023-04",
+          "amountUsd": 450000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.npr.org/2023/04/17/1170505714/davids-bridal-has-filed-for-bankruptcy-again"
+        }
+      ],
+      "addedAt": "2026-07-07"
     }
   ]
 }

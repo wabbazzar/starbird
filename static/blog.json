@@ -1203,6 +1203,25 @@
         "sears"
       ],
       "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-07-07-nyt_dealbook_archive",
+      "date": "2026-07-07",
+      "title": "Same playbook, three sectors: retail, weddings, and nursing homes",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "This run traces one private-equity script — buy with borrowed money, extract value, let the company absorb the debt — across a mall clothing chain, a bridal retailer, and a nursing-home operator.",
+      "body": "WHP Global runs a different kind of extraction than most PE shops in this dataset: it doesn't buy operating companies, it buys their trademarks out of bankruptcy. When Express collapsed under its own retail troubles in 2024, a WHP-led consortium (with mall landlords Simon, Brookfield, and Centennial) picked up the brand and remaining stores for $174 million, closing nearly 100 locations and folding the name into a licensing portfolio rather than rebuilding the retailer.\n\nDavid's Bridal shows the more familiar version. Clayton, Dubilier & Rice and Leonard Green & Partners took the chain private in a $1.05 billion leveraged buyout in 2012, and the debt from that deal has never really gone away — it drove two separate Chapter 11 filings in five years, the second one costing 9,326 workers their jobs over four months in 2023.\n\nGenesis HealthCare is the starkest case. Formation Capital and JER Partners bought the nursing-home operator in a $1.7 billion LBO in 2007, then in 2011 sold off 147 of its facilities in a sale-leaseback that turned Genesis from a property owner into a rent-paying tenant on buildings it used to own. By the time Genesis filed for bankruptcy in July 2025, it carried $2.3 billion in debt and hundreds of malpractice and wrongful-death lawsuits — serious enough that four U.S. Senators opened a formal investigation into what the collapse means for the residents still living in its facilities.",
+      "entityIds": [
+        "clayton_dubilier_and_rice",
+        "formation_capital",
+        "whp_global",
+        "davids_bridal",
+        "express",
+        "genesis_healthcare"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }
