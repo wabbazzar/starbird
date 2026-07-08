@@ -1222,6 +1222,22 @@
         "genesis_healthcare"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-07-08-peta_cruelty_list",
+      "date": "2026-07-08",
+      "title": "Three fragrance and skincare brands PETA flags for animal testing",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "Guerlain, Clearasil, and Aramis all appear on PETA's 'Does Test on Animals' database, tracing back to LVMH, Reckitt Benckiser, and Estée Lauder — three conglomerates already flagged for the same practice.",
+      "body": "PETA's cruelty-free database lists three more household-name brands as testing on animals: Guerlain, Clearasil, and Aramis. None hold PETA or Leaping Bunny certification.\n\nGuerlain, a Paris perfume house LVMH acquired in 1994, sells into mainland China, where regulators require animal testing on certain imported cosmetics before they can reach shelves. LVMH told Ethical Consumer in 2023 that its products undergo this testing for 'registration purposes' — a market-access tradeoff the company has chosen to keep making.\n\nAramis tells a similar story from a different conglomerate. The men's fragrance line, built in-house by Estée Lauder in 1964, is sold in countries — again including China — where cosmetics testing on animals is a legal requirement. Estée Lauder says it doesn't perform the testing itself, but PETA notes the company still pays to have it done on its behalf for that market.\n\nClearasil, the acne brand Reckitt Benckiser picked up through its 2006 purchase of Boots Healthcare International, rounds out the trio. PETA's listing states plainly that Reckitt tests on animals directly, through suppliers, or by outsourcing to third parties. Three different parent companies, three different product categories, the same underlying calculation: cruelty-free certification is optional when a big enough market says otherwise.",
+      "entityIds": [
+        "aramis",
+        "clearasil",
+        "guerlain"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
     }
   ]
 }

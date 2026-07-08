@@ -23819,6 +23819,91 @@
         }
       ],
       "addedAt": "2026-07-07"
+    },
+    {
+      "id": "guerlain",
+      "avoid": "Guerlain",
+      "ownership": [
+        {
+          "firmId": "lvmh",
+          "stake": "majority",
+          "since": "1994"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Guerlain, acquired by LVMH in 1994, is a French luxury perfume and cosmetics house. PETA lists Guerlain on its 'Does Test on Animals' database. Guerlain markets its products in mainland China, where authorities require certain imported cosmetics to be tested on animals; LVMH confirmed to Ethical Consumer in 2023 that its products are tested on animals in China for 'registration purposes.' Guerlain is not certified cruelty-free by PETA or Leaping Bunny.",
+      "blurb": "French luxury perfume and cosmetics house making fragrances, skincare, and makeup.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "PETA lists Guerlain on its 'Does Test on Animals' database. Guerlain markets its products in mainland China, where authorities require certain imported cosmetics to be tested on animals; LVMH confirmed to Ethical Consumer in 2023 that its products are tested on animals in China for 'registration purposes.'",
+          "date": "2023",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/company/guerlain/"
+        }
+      ],
+      "addedAt": "2026-07-08"
+    },
+    {
+      "id": "clearasil",
+      "avoid": "Clearasil",
+      "ownership": [
+        {
+          "firmId": "reckitt",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Clearasil, an acne-treatment brand owned by Reckitt Benckiser since Reckitt's 2006 acquisition of Boots Healthcare International, is listed by PETA on its 'Does Test on Animals' database. PETA states Clearasil 'does test on animals,' conducting testing directly, through suppliers, or via third-party outsourcing. Clearasil is not certified cruelty-free by PETA or Leaping Bunny.",
+      "blurb": "Acne-treatment brand making topical creams, pads, and face washes.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "PETA lists Clearasil on its 'Does Test on Animals' database, stating the brand 'does test on animals,' conducting testing directly, through suppliers, or via third-party outsourcing.",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/company/clearasil-reckitt-benckiser/"
+        }
+      ],
+      "addedAt": "2026-07-08"
+    },
+    {
+      "id": "aramis",
+      "avoid": "Aramis",
+      "ownership": [
+        {
+          "firmId": "estee_lauder",
+          "stake": "majority",
+          "since": "1964"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Aramis, a men's fragrance brand created by Estée Lauder in 1964, is listed by PETA on its 'Does Test on Animals' database. Estée Lauder acknowledges its brands are sold in countries, including China, where animal testing on cosmetics is required by law, and PETA states the company pays to have products tested on animals for the Chinese market. Aramis is not certified cruelty-free by PETA or Leaping Bunny.",
+      "blurb": "Men's fragrance and grooming brand making colognes, aftershaves, and skincare.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "PETA lists Aramis on its 'Does Test on Animals' database. Estée Lauder acknowledges its brands are sold in countries, including China, where animal testing on cosmetics is required by law, and PETA states the company pays to have products tested on animals for the Chinese market.",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/company/aramis-estee-lauder/"
+        }
+      ],
+      "addedAt": "2026-07-08"
     }
   ]
 }
