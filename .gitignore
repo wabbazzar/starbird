@@ -21,3 +21,6 @@ tmp/
 
 # Augur worktree staging area
 .worktrees/
+
+# Augur feedback inbox (Signal "tell starbird to ..." -> nightly triage)
+/data/
