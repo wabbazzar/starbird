@@ -1238,6 +1238,21 @@
         "guerlain"
       ],
       "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-07-09-adjacent_source_discovery_elite_impunity",
+      "date": "2026-07-09",
+      "title": "Sanctioned mining companies show how elite impunity gets financed",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "U.S. Treasury sanctions records tie three mining and metals firms directly to a billionaire accused of looting Congo, an oligarch's sanctions-evasion network, and Wagner Group's mercenary war chest.",
+      "body": "Some of the clearest evidence of elite impunity isn't hidden in a leak — it's sitting in the U.S. Treasury's own sanctions announcements. This run mined that public record, cross-checked against investigative reporting from Global Witness, OCCRP, and The Sentry, for companies whose owners already have a federal paper trail.\n\nFleurette Group, the Israeli holding structure billionaire Dan Gertler used to broker mining and oil deals in the Democratic Republic of Congo, was hit with Global Magnitsky sanctions in 2017 after Treasury and a Global Witness/PPLAAF investigation traced $1.36 billion in DRC revenue lost to underpriced, Gertler-linked asset sales. Metalloinvest, Russia's largest iron ore producer, spent a year shielded from sanctions on its 49%-owner Alisher Usmanov by its ownership structure — until OFAC and the UK closed that loophole directly in April 2023.\n\nThe starkest case is Midas Ressources, a Central African Republic gold-mining company Treasury identified as controlled by Wagner Group founder Yevgeniy Prigozhin. Midas holds mining rights to a gold deposit worth over $1 billion and, per Treasury, worked alongside Wagner fighters to keep CAR officials from inspecting the site — financing The Sentry's 2025 reporting ties directly to Wagner's mercenary operations across the Sahel.\n\nAll three follow the same pattern: ownership structures built specifically to complicate accountability, unwound only when regulators name the entities, not just the individuals.",
+      "entityIds": [
+        "fleurette_group",
+        "metalloinvest",
+        "midas_ressources"
+      ]
     }
   ]
 }

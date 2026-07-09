@@ -10510,6 +10510,106 @@
         }
       ],
       "addedAt": "2026-07-07"
+    },
+    {
+      "id": "fleurette_group",
+      "name": "Fleurette Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Fleurette Group is the Israeli mining and investment holding structure built by billionaire Dan Gertler to control mining and oil concessions in the Democratic Republic of Congo. In December 2017, the U.S. Treasury sanctioned Gertler and designated fourteen Fleurette-linked entities — including Ventora Development Sasu, Fleurette Properties, and Fleurette Africa Resources I B.V. — under the Global Magnitsky Act for using his close ties to former DRC President Joseph Kabila to act as a required middleman for foreign companies seeking Congolese mining and oil deals. Treasury and a Global Witness/PPLAAF joint investigation documented the DRC losing more than $1.36 billion in revenue between 2010 and 2012 alone from mining assets systematically underpriced and sold through Gertler-linked offshore shells. Flagged under elite_impunity_general.",
+      "blurb": "Israeli-owned mining and oil investment holding group operating concessions in the Democratic Republic of Congo.",
+      "brands": [
+        "Fleurette Group"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 85,
+      "source": "https://home.treasury.gov/news/press-releases/sm0417",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2017, the U.S. Treasury sanctioned Gertler and designated fourteen Fleurette-linked entities — including Ventora Development Sasu, Fleurette Properties, and Fleurette Africa Resources I B.V. — under the Global Magnitsky Act. Treasury and a Global Witness/PPLAAF joint investigation documented the DRC losing more than $1.36 billion in revenue between 2010 and 2012 alone from mining assets systematically underpriced and sold through Gertler-linked offshore shells.",
+          "date": "2017-12",
+          "amountUsd": 1360000000,
+          "amountKind": "deal",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/sm0417"
+        }
+      ],
+      "addedAt": "2026-07-09"
+    },
+    {
+      "id": "metalloinvest",
+      "name": "Metalloinvest",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Metalloinvest is Russia's largest iron ore producer and a leading global supplier of hot briquetted iron (HBI), majority-owned through USM Holdings by Russian-Uzbek billionaire Alisher Usmanov. On April 12, 2023, OFAC and the UK jointly sanctioned Metalloinvest and dozens of other USM-linked entities and executives — including senior managers Nazim Efendiev, Vakhtang Kocharov, and Valery Kazikaev — as part of a coordinated action targeting Usmanov's 'facilitation network,' after determining his minority-stake structuring (49% of USM's parent) had shielded the conglomerate from the sanctions placed on Usmanov personally in March 2022. OFAC's April 2023 action also revoked the general license that had previously exempted USM-linked entities. Flagged under elite_impunity_general.",
+      "blurb": "Russian iron ore mining and steel-feedstock conglomerate producing hot briquetted iron for global steelmakers.",
+      "brands": [
+        "Metalloinvest"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 75,
+      "source": "https://home.treasury.gov/news/press-releases/jy1402",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On April 12, 2023, OFAC and the UK jointly sanctioned Metalloinvest and dozens of other USM-linked entities and executives as part of a coordinated action targeting Alisher Usmanov's 'facilitation network,' after determining his minority-stake structuring (49% of USM's parent) had shielded the conglomerate from the sanctions placed on Usmanov personally in March 2022.",
+          "date": "2023-04",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1402"
+        }
+      ],
+      "addedAt": "2026-07-09"
+    },
+    {
+      "id": "midas_ressources",
+      "name": "Midas Ressources SARLU",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Midas Ressources SARLU is a Central African Republic-based mining company that U.S. Treasury investigators identified as owned or controlled by Wagner Group founder Yevgeniy Prigozhin. On June 27, 2023, OFAC sanctioned Midas along with Diamville and OOO DM under Executive Order 14024. Midas holds the preferential mining allowance for the CAR's Ndassima gold deposit — assessed by Treasury to contain gold worth more than $1 billion — and, working alongside Wagner forces, blocked CAR government officials from inspecting the mine. Treasury identified the operation as key to financing Wagner's mercenary operations in the CAR and beyond, which The Sentry's August 2025 'Mercenary Meltdown' investigation documented as part of a broader pattern of Wagner self-funding through resource extraction across the Sahel. Flagged under elite_impunity_general.",
+      "blurb": "Central African Republic gold mining company holding rights to the Ndassima deposit.",
+      "brands": [
+        "Midas Ressources"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 90,
+      "source": "https://home.treasury.gov/news/press-releases/jy1581",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On June 27, 2023, OFAC sanctioned Midas Ressources SARLU under Executive Order 14024 as owned or controlled by Wagner Group founder Yevgeniy Prigozhin. Midas holds the preferential mining allowance for the CAR's Ndassima gold deposit, assessed by Treasury to contain gold worth more than $1 billion, and worked alongside Wagner forces to block CAR government officials from inspecting the mine.",
+          "date": "2023-06",
+          "amountUsd": 1000000000,
+          "amountKind": "revenue",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1581"
+        }
+      ],
+      "addedAt": "2026-07-09"
     }
   ],
   "brands": [
@@ -23904,6 +24004,96 @@
         }
       ],
       "addedAt": "2026-07-08"
+    },
+    {
+      "id": "fleurette_group",
+      "avoid": "Fleurette Group",
+      "ownership": [
+        {
+          "firmId": "fleurette_group",
+          "stake": "majority",
+          "since": "2000"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Fleurette Group, Dan Gertler's Israeli mining and investment holding structure, was designated by the U.S. Treasury in December 2017 under the Global Magnitsky Act for corruption — fourteen Fleurette-linked entities, including Ventora Development Sasu and Fleurette Africa Resources I B.V., were named for their role in Gertler acting as a required middleman for foreign companies seeking DRC mining and oil deals, trading on his personal friendship with former President Joseph Kabila. A joint Global Witness/PPLAAF investigation documented the DRC losing more than $1.36 billion in revenue between 2010 and 2012 alone from mining assets underpriced and routed through Gertler-linked offshore shells.",
+      "blurb": "Israeli-owned mining and oil investment holding group operating concessions in the Democratic Republic of Congo.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The U.S. Treasury designated fourteen Fleurette-linked entities in December 2017 under the Global Magnitsky Act for corruption. A joint Global Witness/PPLAAF investigation documented the DRC losing more than $1.36 billion in revenue between 2010 and 2012 alone from mining assets underpriced and routed through Gertler-linked offshore shells.",
+          "date": "2017-12",
+          "amountUsd": 1360000000,
+          "amountKind": "deal",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/sm0417"
+        }
+      ],
+      "addedAt": "2026-07-09"
+    },
+    {
+      "id": "metalloinvest",
+      "avoid": "Metalloinvest",
+      "ownership": [
+        {
+          "firmId": "metalloinvest",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Metalloinvest, Russia's largest iron ore producer, is majority-owned through USM Holdings by Russian-Uzbek billionaire Alisher Usmanov. On April 12, 2023, OFAC and the UK jointly sanctioned Metalloinvest directly, closing a loophole that had let Usmanov's 49%-stake structuring shield the company from the personal sanctions imposed on him in March 2022. The coordinated action also designated senior Metalloinvest managers Nazim Efendiev, Vakhtang Kocharov, and Valery Kazikaev as part of Usmanov's broader sanctions-evasion 'facilitation network.'",
+      "blurb": "Russian iron ore mining and steel-feedstock conglomerate producing hot briquetted iron for global steelmakers.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On April 12, 2023, OFAC and the UK jointly sanctioned Metalloinvest directly, closing a loophole that had let Usmanov's 49%-stake structuring shield the company from the personal sanctions imposed on him in March 2022. The action also designated senior Metalloinvest managers as part of Usmanov's sanctions-evasion 'facilitation network.'",
+          "date": "2023-04",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1402"
+        }
+      ],
+      "addedAt": "2026-07-09"
+    },
+    {
+      "id": "midas_ressources",
+      "avoid": "Midas Ressources",
+      "ownership": [
+        {
+          "firmId": "midas_ressources",
+          "stake": "majority"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Midas Ressources SARLU is a Central African Republic gold mining company that U.S. Treasury investigators identified as owned or controlled by Wagner Group founder Yevgeniy Prigozhin. OFAC sanctioned Midas on June 27, 2023 under Executive Order 14024 alongside Diamville and OOO DM. Midas holds the preferential mining allowance for the CAR's Ndassima gold deposit — gold Treasury assessed at over $1 billion — and, working with Wagner forces, blocked CAR government officials from inspecting the mine, which Treasury identified as key to financing Wagner's mercenary operations. The Sentry's August 2025 'Mercenary Meltdown' report documented this resource-extraction financing pattern continuing across Wagner's operations in the Sahel.",
+      "blurb": "Central African Republic gold mining company holding rights to the Ndassima deposit.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "OFAC sanctioned Midas on June 27, 2023 under Executive Order 14024 as owned or controlled by Wagner Group founder Yevgeniy Prigozhin. Midas holds the preferential mining allowance for the CAR's Ndassima gold deposit, gold Treasury assessed at over $1 billion, and worked with Wagner forces to block CAR government officials from inspecting the mine — financing that Treasury identified as key to Wagner's mercenary operations.",
+          "date": "2023-06",
+          "amountUsd": 1000000000,
+          "amountKind": "revenue",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1581"
+        }
+      ],
+      "addedAt": "2026-07-09"
     }
   ]
 }
