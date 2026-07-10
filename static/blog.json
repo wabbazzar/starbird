@@ -1253,6 +1253,21 @@
         "metalloinvest",
         "midas_ressources"
       ]
+    },
+    {
+      "id": "2026-07-10-adjacent_source_discovery_elite_impunity",
+      "date": "2026-07-10",
+      "title": "The sanctions-evasion trade: a VC firm, a bank, and a family office",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run traces three financial firms that turned sanctioned Russian wealth into a business line — a Silicon Valley VC fined a record $216 million, a private bank whose plot to sabotage Qatar's currency cost it its license, and the wealth advisor that ran the unfreezing operation between them.",
+      "body": "GVA Capital looked like an ordinary Silicon Valley venture firm, quietly channeling a $20 million stake in self-driving car company Luminar. OFAC's 2025 investigation found the money belonged to sanctioned oligarch Suleiman Kerimov the whole time, routed in after his 2018 designation, with GVA's founders flying to his French estate to lock in the deal and then stonewalling federal subpoenas for over two years. The $216 million penalty was the maximum the law allows.\n\nBanque Havilland ran a parallel playbook out of Luxembourg. Leaked emails from OCCRP's Rotenberg Files show the bank quietly banking the family of sanctioned oligarch Boris Rotenberg while his own accounts sat frozen elsewhere — the same year its London desk was drafting a plan, internally titled 'setting fire to the neighbour's house,' to manipulate Qatar's currency on behalf of a Gulf rival. Regulators eventually caught up: a £10 million FCA fine, then a full license revocation in 2024.\n\nThe connective tissue is Alvarium Investments, then trading as LJ Partnership. The same leaked emails show it ran 'Project Sun,' a paid operation to get Rotenberg's frozen Societe Generale accounts unfrozen and to broker his family's introduction to Banque Havilland — the enabler's enabler, billing roughly £120,000 for the service.\n\nNone of these firms are household names, which is exactly the point: sanctions evasion runs on unglamorous intermediaries who never touch the sanctioned assets directly.",
+      "entityIds": [
+        "alvarium_investments",
+        "banque_havilland",
+        "gva_capital"
+      ]
     }
   ]
 }
