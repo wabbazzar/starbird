@@ -1268,6 +1268,22 @@
         "banque_havilland",
         "gva_capital"
       ]
+    },
+    {
+      "id": "2026-07-11-ultraprocessed_nova_tracker",
+      "date": "2026-07-11",
+      "title": "Three kids' cereal and drink aisle staples, same NOVA playbook",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Trix, Minute Maid, and Nesquik each hit the NOVA Group 4 markers for ultra-processing while marketing themselves as fun, healthy, or both — the sugar and additive math tells a different story.",
+      "body": "General Mills' Trix, Coca-Cola's Minute Maid juice boxes, and Nestlé's Nesquik chocolate powder sit at three different price points and shelves, but they share a formula: build the product from refined sugar, synthetic flavor, and industrial additives rather than whole ingredients, then market it toward kids or as a healthy choice.\n\nTrix carries 64% more sugar per serving than the average cold cereal and colors itself with Red 40, Yellow 6, and Blue 1 — dyes California will ban from school food starting in 2027, and that CSPI's Chemical Cuisine flags for links to childhood hyperactivity. Minute Maid goes further on the marketing side: a 2023 class-action complaint that a federal court allowed to proceed alleges its juice boxes are labeled \"Good for You!\" despite 19-21 grams of free sugar making up nearly all of their calories. Nesquik's original chocolate powder is straightforward ultra-processing — sugar is the first ingredient, followed by alkali-processed cocoa, carrageenan, and artificial flavor, packing 12 grams of sugar into a 60-calorie serving.\n\nNone of these are hidden ingredients lists — they're on the box. The pattern worth naming is how consistently the same handful of conglomerates (General Mills, Coca-Cola, Nestlé) reach for the same NOVA Group 4 toolkit — added sugar plus synthetic color, flavor, or stabilizer — across completely different product categories.",
+      "entityIds": [
+        "minute_maid",
+        "nesquik",
+        "trix"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
