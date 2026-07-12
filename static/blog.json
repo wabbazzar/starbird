@@ -1284,6 +1284,22 @@
         "trix"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-07-12-nyt_dealbook_archive",
+      "date": "2026-07-12",
+      "title": "The dividend recap machine: how PE pays itself with debt",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "Three Blackstone- and Golden Gate-backed companies show the same move: load the balance sheet with debt, hand the cash to the owners, leave the company (and the people who rely on it) holding the risk.",
+      "body": "Private equity doesn't need to sell a company to cash out of it. A dividend recapitalization lets the owner borrow against the portfolio company and pocket the proceeds directly — no exit required. IntraFi, the deposit-network utility used by three-quarters of U.S. banks, has done this seven times in three years for Blackstone and Warburg Pincus, most recently in May 2026. Ensemble Health Partners, the hospital billing and collections firm 51%-owned by Golden Gate Capital, funded a $1.05 billion payout to its owners in January 2026 through a $4.7 billion debt raise — one of the largest such deals since 2025 began.\n\nTeamHealth shows where this pattern can lead. Blackstone's 2017 buyout put the emergency-room staffing firm roughly $5 billion in debt, a load it's still renegotiating with creditors nearly a decade later. None of these companies are consumer brands people choose day to day — they're the invisible infrastructure behind bank deposits, hospital bills, and ER staffing. That's precisely why the debt they carry is easy to miss and hard to escape: patients and depositors have no say in who owns the plumbing.\n\nThe throughline is simple: the debt sits on the operating company, the cash goes to the fund, and the risk of a maturity wall or a bankruptcy stays with the business and the people depending on it.",
+      "entityIds": [
+        "ensemble_health_partners",
+        "intrafi",
+        "teamhealth"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }

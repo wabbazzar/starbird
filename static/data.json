@@ -6,13 +6,15 @@
       "name": "Blackstone",
       "aum": "$1T+",
       "aumVal": 1000,
-      "summary": "World's largest PE firm. Owns Jersey Mike's, Great Wolf Lodge, Tropical Smoothie. Notorious for sale-leaseback strategies that extract real estate and saddle companies with above-market rents. CEO Stephen Schwarzman (net worth $37+ billion) is documented by LittleSis as a leading political donor—$40 million to Republican causes in 2024, including $5 million to Trump's super PAC in late 2025—and served as a key mediator in Trump administration disputes, wielding outsized elite influence.",
+      "summary": "World's largest PE firm. Owns Jersey Mike's, Great Wolf Lodge, Tropical Smoothie. Notorious for sale-leaseback strategies that extract real estate and saddle companies with above-market rents. CEO Stephen Schwarzman (net worth $37+ billion) is documented by LittleSis as a leading political donor—$40 million to Republican causes in 2024, including $5 million to Trump's super PAC in late 2025—and served as a key mediator in Trump administration disputes, wielding outsized elite influence. Blackstone-owned TeamHealth and IntraFi illustrate the debt-loading pattern beyond real estate: TeamHealth carries roughly $5 billion in debt from Blackstone's 2017 $6.1 billion take-private buyout, and IntraFi has funded seven dividend recapitalizations to pay Blackstone and Warburg Pincus since 2019, most recently in May 2026.",
       "blurb": "Global private-equity and alternative-asset manager investing across real estate, credit, infrastructure, and corporate buyouts.",
       "brands": [
         "Jersey Mike's",
         "Tropical Smoothie Café",
         "Great Wolf Lodge",
-        "Extended Stay America"
+        "Extended Stay America",
+        "TeamHealth",
+        "IntraFi"
       ],
       "layoffs": "Portfolio-wide, ongoing",
       "notableBk": "Multiple retail portfolio bankruptcies",
@@ -26,10 +28,11 @@
       "harms": [
         "workers_general",
         "extraction_general",
-        "elite_impunity_general"
+        "elite_impunity_general",
+        "extraction_debt_loading"
       ],
       "aligns": [],
-      "addedAt": "2026-05-19",
+      "addedAt": "2026-07-12",
       "evidence": [
         {
           "tag": "workers_general",
@@ -44,6 +47,14 @@
           "text": "CEO Stephen Schwarzman (net worth $37+ billion) is documented by LittleSis as a leading political donor—$40 million to Republican causes in 2024, including $5 million to Trump's super PAC in late 2025—and served as a key mediator in Trump administration disputes, wielding outsized elite influence.",
           "amountUsd": 40000000,
           "amountKind": "donation"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "TeamHealth carries roughly $5 billion in debt from Blackstone's 2017 $6.1 billion take-private buyout, and IntraFi has funded seven dividend recapitalizations to pay Blackstone and Warburg Pincus since 2019, most recently in May 2026.",
+          "date": "2026-05",
+          "amountUsd": 6100000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://www.business-standard.com/markets/news/private-equity-firms-tap-hot-loan-market-to-pay-themselves-via-debt-deals-126062100082_1.html"
         }
       ]
     },
@@ -806,10 +817,11 @@
       "name": "Golden Gate Capital",
       "aum": "$19B",
       "aumVal": 19,
-      "summary": "Former owner of Red Lobster. Engineered sale-leaseback that stripped real estate and pushed rents above market, directly contributing to Red Lobster's 2024 bankruptcy.",
+      "summary": "Former owner of Red Lobster. Engineered sale-leaseback that stripped real estate and pushed rents above market, directly contributing to Red Lobster's 2024 bankruptcy. Golden Gate also holds a 51% stake in Ensemble Health Partners, a hospital revenue-cycle management firm; in January 2026 Ensemble funded a $1.05 billion cash payout to its owners through a $4.7 billion dividend recapitalization, the fourth-largest such debt-funded payout since the start of 2025.",
       "blurb": "Private-equity firm investing in consumer, retail, food, and restaurant businesses.",
       "brands": [
-        "Red Lobster"
+        "Red Lobster",
+        "Ensemble Health Partners"
       ],
       "layoffs": "36,000 affected (Red Lobster 2024)",
       "notableBk": "Red Lobster (2024)",
@@ -821,10 +833,11 @@
       "harms": [
         "workers_general",
         "extraction_general",
-        "extraction_sale_leaseback"
+        "extraction_sale_leaseback",
+        "extraction_debt_loading"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-07-12",
       "evidence": [
         {
           "tag": "workers_general",
@@ -840,6 +853,14 @@
           "tag": "extraction_sale_leaseback",
           "text": "Engineered sale-leaseback that stripped real estate and pushed rents above market, directly contributing to Red Lobster's 2024 bankruptcy.",
           "date": "2024"
+        },
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Golden Gate holds a 51% stake in Ensemble Health Partners; in January 2026 Ensemble funded a $1.05 billion cash payout to its owners through a $4.7 billion dividend recapitalization, the fourth-largest such debt-funded payout since the start of 2025.",
+          "date": "2026-01",
+          "amountUsd": 4700000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://pitchbook.com/news/articles/ensemble-rcm-lines-up-4-4b-syndicated-loan-backing-recap-dividend-to-pe-sponsors"
         }
       ]
     },
@@ -24382,6 +24403,96 @@
         }
       ],
       "addedAt": "2026-07-11"
+    },
+    {
+      "id": "intrafi",
+      "avoid": "IntraFi",
+      "ownership": [
+        {
+          "firmId": "blackstone",
+          "stake": "majority",
+          "since": "2019"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "IntraFi (formerly Promontory Interfinancial Network) runs a deposit-placement network used by roughly three-quarters of U.S. banks and thrifts. Blackstone acquired the company for $2.5 billion in 2019 and brought in Warburg Pincus as a joint owner in 2022. Since then the owners have funded seven dividend recapitalizations in three years, most recently in May 2026, paying themselves via leveraged loans rather than company earnings.",
+      "blurb": "Deposit-placement network letting banks spread customer deposits across FDIC insurance limits.",
+      "harms": [
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Blackstone acquired IntraFi for $2.5 billion in 2019, bringing in Warburg Pincus as joint owner in 2022; the two firms have since funded seven dividend recapitalizations in three years, most recently in May 2026, paying themselves via leveraged loans rather than company profit.",
+          "date": "2026-05",
+          "amountUsd": 2500000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.business-standard.com/markets/news/private-equity-firms-tap-hot-loan-market-to-pay-themselves-via-debt-deals-126062100082_1.html"
+        }
+      ],
+      "addedAt": "2026-07-12"
+    },
+    {
+      "id": "ensemble_health_partners",
+      "avoid": "Ensemble Health Partners",
+      "ownership": [
+        {
+          "firmId": "golden_gate_capital",
+          "stake": "majority",
+          "since": "2019"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Ensemble Health Partners handles outsourced revenue-cycle management — billing, collections, and claims processing — for hospitals and health systems. Golden Gate Capital bought a 51% stake in 2019. In January 2026 the company funded a $1.05 billion cash distribution to its private-equity owners through a $4.7 billion dividend recapitalization, the fourth-largest dividend recap by debt size since the start of 2025, loading debt onto a company hospitals depend on to get paid.",
+      "blurb": "Outsourced revenue-cycle management — billing, collections, claims processing — for hospitals.",
+      "harms": [
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Golden Gate Capital bought a 51% stake in Ensemble in 2019. In January 2026 the company funded a $1.05 billion cash distribution to its private-equity owners through a $4.7 billion dividend recapitalization, the fourth-largest dividend recap by debt size since the start of 2025.",
+          "date": "2026-01",
+          "amountUsd": 4700000000,
+          "amountKind": "debt",
+          "sourceUrl": "https://pitchbook.com/news/articles/ensemble-rcm-lines-up-4-4b-syndicated-loan-backing-recap-dividend-to-pe-sponsors"
+        }
+      ],
+      "addedAt": "2026-07-12"
+    },
+    {
+      "id": "teamhealth",
+      "avoid": "TeamHealth",
+      "ownership": [
+        {
+          "firmId": "blackstone",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "TeamHealth staffs physicians and advanced-practice clinicians in hospital emergency rooms nationwide. Blackstone acquired the company in a $6.1 billion take-private deal completed in February 2017, loading roughly $5 billion in debt onto its balance sheet — debt the company has since had to renegotiate with creditors including PIMCO and Ares Management ahead of looming loan maturities.",
+      "blurb": "Staffs physicians and clinicians in hospital emergency rooms and other care settings nationwide.",
+      "harms": [
+        "extraction_debt_loading"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_debt_loading",
+          "text": "Blackstone acquired TeamHealth in a $6.1 billion take-private deal completed in February 2017, taking on debt that by 2023 had grown to roughly $5 billion, now being renegotiated with creditors including PIMCO and Ares Management ahead of looming loan maturities.",
+          "date": "2017-02",
+          "amountUsd": 6100000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/teamhealth-completes-previously-announced-transaction-with-blackstone-cdpq-psp-investments-and-nps-and-becomes-a-private-company-300402609.html"
+        }
+      ],
+      "addedAt": "2026-07-12"
     }
   ]
 }
