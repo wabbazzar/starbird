@@ -1300,6 +1300,22 @@
         "teamhealth"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-07-13-usaspending_ice_contracts",
+      "date": "2026-07-13",
+      "title": "Three more names on ICE's vendor list: L3Harris, GDIT, Dell",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "USAspending.gov contract records surface three Fortune 500 companies quietly supplying ICE's enforcement machine — from phone-tracking hardware to the background checks on its own agents.",
+      "body": "L3Harris Technologies holds a $4.4M ICE contract, first awarded in 2022, to supply cell-site simulators — the IMSI-catchers commonly called Stingrays — that trick a target's phone into connecting to a fake tower so agents can pinpoint its location. This isn't new territory for the company: predecessor firms L3 and Harris have held at least $154.2M in CBP and ICE contracts since 2010.\n\nGeneral Dynamics' IT-services arm, GDIT, runs a $9.6M Blanket Purchase Agreement to conduct background investigations on ICE personnel and contractors, and has separately worked on DHS's Visa Lifecycle Vetting Initiative — the staffing and vetting infrastructure that keeps the agency's workforce running.\n\nDell rounds out the group with an $18.8M contract, awarded April 2025, to license Microsoft enterprise software for the office of ICE's chief information officer. Individually these look like routine federal IT deals. Together they show how deeply ordinary vendor relationships — phones, staffing, software licenses — are woven into ICE's day-to-day operations, not just its headline surveillance contracts.\n\nAll three figures come from Fortune's June 2025 review of Fortune 500 companies with active ICE contracts, cross-referenced against USAspending.gov award records.",
+      "entityIds": [
+        "dell_technologies",
+        "general_dynamics",
+        "l3harris_technologies"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

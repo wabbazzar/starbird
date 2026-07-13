@@ -10735,6 +10735,102 @@
         }
       ],
       "addedAt": "2026-07-10"
+    },
+    {
+      "id": "l3harris_technologies",
+      "name": "L3Harris Technologies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Defense and technology contractor that manufactures cell-site simulators (IMSI-catchers, commonly called Stingrays) and related surveillance hardware for military, intelligence, and law enforcement customers. Holds a $4.4M ICE contract, first awarded in 2022, to supply \"equipment to determine the location of targeted mobile handsets to investigate crimes and threats\" — cell-site simulators that trick phones into connecting to a fake tower so agents can pinpoint a device's location. Predecessor companies L3 and Harris have contracted with CBP and ICE since the early 2000s, totaling at least $154.2M between 2010 and 2023.",
+      "blurb": "Defense and communications technology company; makes radios, sensors, and surveillance hardware for government and military customers.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Holds a $4.4M ICE contract, first awarded in 2022, to supply cell-site simulators (IMSI-catchers/\"Stingrays\") that trick phones into connecting to a fake tower so agents can pinpoint a device's location; predecessor companies L3 and Harris have held at least $154.2M in CBP/ICE contracts between 2010 and 2023.",
+          "date": "2022",
+          "amountUsd": 4400000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-07-13"
+    },
+    {
+      "id": "general_dynamics",
+      "name": "General Dynamics",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Aerospace and defense conglomerate whose IT-services arm, General Dynamics Information Technology (GDIT), holds a $9.6M ICE contract (expiring June 2025) to conduct background investigations on ICE personnel and contractors under a Blanket Purchase Agreement. GDIT has also worked on DHS/ICE's Visa Lifecycle Vetting Initiative, helping vet and staff the agency's enforcement workforce.",
+      "blurb": "Aerospace and defense company; builds combat vehicles, ships, and business jets, and provides IT services through its GDIT subsidiary.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "GDIT holds a $9.6M ICE contract (expiring June 2025) to conduct background investigations on ICE personnel and contractors, and has separately worked on DHS/ICE's Visa Lifecycle Vetting Initiative.",
+          "date": "2025-06",
+          "amountUsd": 9600000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-07-13"
+    },
+    {
+      "id": "dell_technologies",
+      "name": "Dell Technologies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Computer hardware and IT company whose federal unit, Dell Federal Systems, holds an $18.8M ICE contract awarded April 2025 to supply Microsoft enterprise software licenses supporting the office of ICE's chief information officer, expiring spring 2026. The company separately won a $9.7B Pentagon software-licensing deal in 2026.",
+      "blurb": "Computer hardware and IT company; sells PCs, servers, storage, and enterprise software licensing to businesses and governments.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Dell Federal Systems holds an $18.8M ICE contract, awarded April 2025 and expiring spring 2026, to supply Microsoft enterprise software licenses supporting the office of ICE's chief information officer.",
+          "date": "2025-04",
+          "amountUsd": 18800000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-07-13"
     }
   ],
   "brands": [
@@ -24493,6 +24589,98 @@
         }
       ],
       "addedAt": "2026-07-12"
+    },
+    {
+      "id": "l3harris_technologies",
+      "avoid": "L3Harris Technologies",
+      "ownership": [
+        {
+          "firmId": "l3harris_technologies",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "L3Harris makes cell-site simulators (IMSI-catchers, commonly called Stingrays) and other surveillance hardware sold to military, intelligence, and law enforcement customers. It holds a $4.4M ICE contract, first awarded in 2022, to supply \"equipment to determine the location of targeted mobile handsets to investigate crimes and threats\" — devices that trick phones into connecting to a fake tower so agents can pinpoint a device's location. Predecessor companies L3 and Harris have contracted with CBP and ICE since the early 2000s, totaling at least $154.2M between 2010 and 2023.",
+      "blurb": "Defense and communications technology company; makes radios, sensors, and surveillance hardware for government and military customers.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Holds a $4.4M ICE contract, first awarded in 2022, to supply cell-site simulators (IMSI-catchers/\"Stingrays\") that trick phones into connecting to a fake tower so agents can pinpoint a device's location; predecessor companies L3 and Harris have held at least $154.2M in CBP/ICE contracts between 2010 and 2023.",
+          "date": "2022",
+          "amountUsd": 4400000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-07-13"
+    },
+    {
+      "id": "general_dynamics",
+      "avoid": "General Dynamics",
+      "ownership": [
+        {
+          "firmId": "general_dynamics",
+          "stake": "majority"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "General Dynamics' IT-services arm, General Dynamics Information Technology (GDIT), holds a $9.6M ICE contract (expiring June 2025) to conduct background investigations on ICE personnel and contractors under a Blanket Purchase Agreement. GDIT has also worked on DHS/ICE's Visa Lifecycle Vetting Initiative, helping vet and staff the agency's enforcement workforce.",
+      "blurb": "Aerospace and defense company; builds combat vehicles, ships, and business jets, and provides IT services through its GDIT subsidiary.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "GDIT holds a $9.6M ICE contract (expiring June 2025) to conduct background investigations on ICE personnel and contractors, and has separately worked on DHS/ICE's Visa Lifecycle Vetting Initiative.",
+          "date": "2025-06",
+          "amountUsd": 9600000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-07-13"
+    },
+    {
+      "id": "dell_technologies",
+      "avoid": "Dell Technologies",
+      "ownership": [
+        {
+          "firmId": "dell_technologies",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Dell Technologies' federal unit, Dell Federal Systems, holds an $18.8M ICE contract awarded April 2025 to supply Microsoft enterprise software licenses supporting the office of ICE's chief information officer, expiring spring 2026. The company separately won a $9.7B Pentagon software-licensing deal in 2026.",
+      "blurb": "Computer hardware and IT company; sells PCs, servers, storage, and enterprise software licensing to businesses and governments.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Dell Federal Systems holds an $18.8M ICE contract, awarded April 2025 and expiring spring 2026, to supply Microsoft enterprise software licenses supporting the office of ICE's chief information officer.",
+          "date": "2025-04",
+          "amountUsd": 18800000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-07-13"
     }
   ]
 }
