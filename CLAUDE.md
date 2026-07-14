@@ -10,7 +10,7 @@ The research runner (`scripts/starbird-runner.sh`) has several env vars:
 
 | Variable | Default | Purpose |
 |----------|---------|---------|
-| `TARGET_PAIRS` | 3 | Number of firm+brand pairs per run. Budget scales automatically ($0.50/pair + $0.50 overhead). |
+| `TARGET_PAIRS` | 3 | Number of firm+brand pairs per run. Budget scales automatically ($0.50/pair + $0.50 overhead); daily mode has a $4.00 floor, dry-run does not. |
 | `FORCE_STRATEGY` | (unset) | Override the deterministic strategy picker. When set, the runner skips `pick-strategy.py` and uses this strategy ID verbatim. Useful for testing or manually directing research at a specific value/source. |
 | `MAX_ITERATIONS` | 40 | For `run-until-full.sh` only. Hard cap on loop iterations. |
 | `MAX_SPEND_USD` | 150 | For `run-until-full.sh` only. Hard cap on total spend across all iterations. |
