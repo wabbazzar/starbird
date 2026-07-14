@@ -1316,6 +1316,22 @@
         "l3harris_technologies"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-14-usaspending_ice_contracts",
+      "date": "2026-07-14",
+      "title": "Three private contractors moving ICE's money and its detainees",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "A look at USASpending.gov's ICE contract data surfaces the firms actually running deportation logistics: a family-owned transport broker, a decades-old charter airline, and a Montreal security giant now staffing 'Alligator Alcatraz.'",
+      "body": "Behind every ICE arrest is a supply chain of private contractors, and USASpending.gov shows where the money goes. MVM, Inc., a Virginia firm founded by a former Secret Service agent, has built a $1.1 billion cumulative contract portfolio moving detainees and unaccompanied migrant children between facilities — work OpenSecrets ties to the Marquez family's status as major Trump donors. A 2018 Reveal investigation found MVM once housed migrant children overnight in a Phoenix office with no kitchen.\n\nCSI Aviation has run ICE's deportation flights since the Reagan era, but its revenue tells the story of the current crackdown: from $363.9 million under the last year of the Biden administration to $1.23 billion in Trump's first year back, including a $562 million charter contract and a separate no-bid award worth up to $219 million.\n\nGardaWorld, the world's largest privately-owned security company, is newer to ICE work but moving fast. Its U.S. subsidiary was cleared to bid up to $138 million on emergency detention contracts, won up to $704 million to convert an Arizona warehouse into a detention facility, and already staffs the 'Alligator Alcatraz' camp in the Florida Everglades — prompting Amnesty International Canada to warn the company risks complicity in human rights violations.\n\nThree different business models — transport, aviation, security — converging on the same buyer. Detention isn't a single contract; it's an assembly line, and these three run different stations on it.",
+      "entityIds": [
+        "csi_aviation",
+        "gardaworld",
+        "mvm_inc"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

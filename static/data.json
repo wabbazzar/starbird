@@ -10831,6 +10831,102 @@
         }
       ],
       "addedAt": "2026-07-13"
+    },
+    {
+      "id": "mvm_inc",
+      "name": "MVM, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "MVM, Inc. is an Ashburn, Virginia-based private contractor founded in 1979 by former Secret Service agent Dario O. Marquez Jr., providing transportation, escort, and detention-support services to federal law enforcement agencies. Since Kevin Marquez acquired the company from his father in 2015, MVM has built one of ICE's largest cumulative contract portfolios: $1.1 billion in total obligated contracts, including $145.1 million in new 2025 awards, for ground and air transport of detainees and unaccompanied migrant children between ICE and CBP facilities. OpenSecrets reported in March 2026 that the Marquez family are major Trump donors who are \"reaping billions in ICE contracts.\" A 2018 investigation by the podcast Reveal found MVM temporarily housed migrant children overnight in a Phoenix office with no kitchen and only a few toilets.",
+      "blurb": "Private transportation and escort contractor for federal law-enforcement and immigration agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 84,
+      "source": "https://www.opensecrets.org/news/2026/03/some-major-trump-donors-are-now-reaping-billions-in-ice-contracts/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "MVM holds one of ICE's largest cumulative contract portfolios — $1.1 billion in total obligated contracts, including $145.1 million in new 2025 awards — for ground and air transport of detainees and unaccompanied migrant children. OpenSecrets reported in March 2026 that the Marquez family, MVM's owners, are major Trump donors reaping billions in ICE contracts. A 2018 Reveal investigation found MVM temporarily housed migrant children overnight in a Phoenix office with no kitchen and only a few toilets.",
+          "date": "2025",
+          "amountUsd": 1100000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.opensecrets.org/news/2026/03/some-major-trump-donors-are-now-reaping-billions-in-ice-contracts/"
+        }
+      ],
+      "addedAt": "2026-07-14"
+    },
+    {
+      "id": "csi_aviation",
+      "name": "CSI Aviation, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "CSI Aviation, Inc. is a charter aviation broker founded in 1979 by retired Marine Corps colonel Allen Weh, headquartered in Killeen, Texas with a major operating base in Albuquerque, New Mexico. CSI has managed ICE Air Operations flight contracts across multiple presidential administrations, receiving over $1.6 billion in cumulative ICE contracts. Its ICE-related contract revenue surged from $363.9 million in the final year of the Biden administration to $1.23 billion in Trump's first year back in office, including a $562 million contract for daily scheduled large-aircraft and high-risk charter flights supporting ICE enforcement and removal operations, plus a separate no-bid contract of up to $219 million (March-August 2025, extendable to February 2026). CSI is the leading operator of deportation flights removing immigrants from the United States.",
+      "blurb": "Charter aviation broker arranging deportation, medical-evacuation, and government flight services.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 83,
+      "source": "https://www.pogo.org/investigates/meet-the-ice-contractor-running-deportation-flights",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "CSI's ICE-related contract revenue surged from $363.9 million in the final year of the Biden administration to $1.23 billion in Trump's first year back in office, including a $562 million contract for daily scheduled large-aircraft and high-risk charter flights supporting ICE enforcement and removal operations, plus a separate no-bid contract of up to $219 million (March-August 2025). CSI is the leading operator of deportation flights removing immigrants from the United States.",
+          "date": "2025",
+          "amountUsd": 1230000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.pogo.org/investigates/meet-the-ice-contractor-running-deportation-flights"
+        }
+      ],
+      "addedAt": "2026-07-14"
+    },
+    {
+      "id": "gardaworld",
+      "name": "GardaWorld",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "GardaWorld is a Montreal-based private security conglomerate founded in 1995 by Stephan Cretier, now the world's largest privately-owned security services company, operating in the U.S. through its Virginia-based subsidiary GardaWorld Federal Services. In 2025 GardaWorld Federal Services was cleared to bid up to $138 million on ICE emergency detention contracts, won a contract worth $313 million (up to $704 million if all options are exercised) to convert a warehouse in Surprise, Arizona into an ICE detention facility, and provided armed security and correctional staff at the 'Alligator Alcatraz' detention camp in Ochopee, Florida. Amnesty International Canada's secretary-general warned that by providing services related to mass detention, GardaWorld 'risks contributing to or being complicit in widespread human rights violations.'",
+      "blurb": "Private security and detention-facility staffing company operating government contracts internationally.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 87,
+      "source": "https://www.theglobeandmail.com/world/article-canadian-gardaworld-immigration-emergency-detention-services-ice/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "GardaWorld Federal Services was cleared to bid up to $138 million on ICE emergency detention contracts and won a contract worth $313 million (up to $704 million if all options are exercised) to convert a warehouse in Surprise, Arizona into an ICE detention facility, while also staffing the 'Alligator Alcatraz' detention camp in Ochopee, Florida. Amnesty International Canada's secretary-general warned the company 'risks contributing to or being complicit in widespread human rights violations.'",
+          "date": "2025",
+          "amountUsd": 704000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.theglobeandmail.com/world/article-canadian-gardaworld-immigration-emergency-detention-services-ice/"
+        }
+      ],
+      "addedAt": "2026-07-14"
     }
   ],
   "brands": [
@@ -24681,6 +24777,99 @@
         }
       ],
       "addedAt": "2026-07-13"
+    },
+    {
+      "id": "mvm_inc",
+      "avoid": "MVM, Inc.",
+      "ownership": [
+        {
+          "firmId": "mvm_inc",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "MVM, Inc. is a Virginia-based contractor founded in 1979 that has built one of ICE's largest cumulative contract portfolios — $1.1 billion in total obligated contracts, including $145.1 million in new 2025 awards — for ground and air transport of detainees and unaccompanied migrant children between ICE and CBP facilities. OpenSecrets reported in March 2026 that the Marquez family, who have owned MVM since Kevin Marquez acquired it from his father in 2015, are major Trump donors who are \"reaping billions in ICE contracts.\" A 2018 Reveal investigation found MVM temporarily housed migrant children overnight in a Phoenix office with no kitchen and only a few toilets.",
+      "blurb": "Private transportation and escort contractor for federal law-enforcement and immigration agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "MVM holds one of ICE's largest cumulative contract portfolios — $1.1 billion in total obligated contracts, including $145.1 million in new 2025 awards — for ground and air transport of detainees and unaccompanied migrant children. OpenSecrets reported in March 2026 that the Marquez family, MVM's owners, are major Trump donors reaping billions in ICE contracts. A 2018 Reveal investigation found MVM temporarily housed migrant children overnight in a Phoenix office with no kitchen and only a few toilets.",
+          "date": "2025",
+          "amountUsd": 1100000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.opensecrets.org/news/2026/03/some-major-trump-donors-are-now-reaping-billions-in-ice-contracts/"
+        }
+      ],
+      "addedAt": "2026-07-14"
+    },
+    {
+      "id": "csi_aviation",
+      "avoid": "CSI Aviation",
+      "ownership": [
+        {
+          "firmId": "csi_aviation",
+          "stake": "majority",
+          "since": "1979"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "CSI Aviation is a charter aviation broker founded in 1979 that has managed ICE Air Operations flight contracts across multiple presidential administrations, receiving over $1.6 billion in cumulative ICE contracts. Its ICE-related contract revenue surged from $363.9 million in the final year of the Biden administration to $1.23 billion in Trump's first year back in office, including a $562 million contract for daily scheduled large-aircraft and high-risk charter flights supporting ICE enforcement and removal operations, plus a separate no-bid contract of up to $219 million. CSI is the leading operator of deportation flights removing immigrants from the United States.",
+      "blurb": "Charter aviation broker arranging deportation, medical-evacuation, and government flight services.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "CSI's ICE-related contract revenue surged from $363.9 million in the final year of the Biden administration to $1.23 billion in Trump's first year back in office, including a $562 million contract for daily scheduled large-aircraft and high-risk charter flights supporting ICE enforcement and removal operations, plus a separate no-bid contract of up to $219 million (March-August 2025). CSI is the leading operator of deportation flights removing immigrants from the United States.",
+          "date": "2025",
+          "amountUsd": 1230000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.pogo.org/investigates/meet-the-ice-contractor-running-deportation-flights"
+        }
+      ],
+      "addedAt": "2026-07-14"
+    },
+    {
+      "id": "gardaworld",
+      "avoid": "GardaWorld",
+      "ownership": [
+        {
+          "firmId": "gardaworld",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "GardaWorld is a Montreal-based private security conglomerate, the world's largest privately-owned security services company, operating in the U.S. through its Virginia-based subsidiary GardaWorld Federal Services. In 2025 GardaWorld Federal Services was cleared to bid up to $138 million on ICE emergency detention contracts, won a contract worth $313 million (up to $704 million if all options are exercised) to convert a warehouse in Surprise, Arizona into an ICE detention facility, and provided armed security and correctional staff at the 'Alligator Alcatraz' detention camp in Ochopee, Florida. Amnesty International Canada's secretary-general warned that by providing services related to mass detention, GardaWorld 'risks contributing to or being complicit in widespread human rights violations.'",
+      "blurb": "Private security and detention-facility staffing company operating government contracts internationally.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "GardaWorld Federal Services was cleared to bid up to $138 million on ICE emergency detention contracts and won a contract worth $313 million (up to $704 million if all options are exercised) to convert a warehouse in Surprise, Arizona into an ICE detention facility, while also staffing the 'Alligator Alcatraz' detention camp in Ochopee, Florida. Amnesty International Canada's secretary-general warned the company 'risks contributing to or being complicit in widespread human rights violations.'",
+          "date": "2025",
+          "amountUsd": 704000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.theglobeandmail.com/world/article-canadian-gardaworld-immigration-emergency-detention-services-ice/"
+        }
+      ],
+      "addedAt": "2026-07-14"
     }
   ]
 }
