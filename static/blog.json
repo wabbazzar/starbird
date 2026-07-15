@@ -1332,6 +1332,22 @@
         "mvm_inc"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-15-usaspending_ice_contracts",
+      "date": "2026-07-15",
+      "title": "ICE's newest contractors: a warehouse, an iris, a phone",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Three companies most people have never heard of now hold ICE contracts — one is retrofitting a Maryland warehouse into a detention center, one scans irises, one tracks phones in real time without a warrant.",
+      "body": "KVG, LLC had never touched an immigrant detention contract before 2026. The Gettysburg, Pennsylvania defense-logistics firm won a $113 million sole-source award to convert an ICE-owned warehouse in Williamsport, Maryland into a facility built to eventually hold 1,500 people. A federal judge has already ordered construction paused twice — once because the state says ICE skipped required environmental review near a tributary that feeds the Potomac and hosts endangered species.\n\nMeanwhile ICE's biometric reach kept expanding. BI2 Technologies' iris-scanning contract jumped from $4.6 million to $25.1 million in a single year, buying 1,570 handheld scanners and round-the-clock access to a database built on more than 5 million booking records — officers can now match a face to a name from 10 to 15 inches away with a smartphone.\n\nAnd in Nebraska, PenLink sells the kind of tracking DHS would otherwise need a warrant for: real-time phone location, scraped open-source intelligence, and live interception of calls and texts. ICE's relationship with PenLink started at $2.3 million last September and has already grown past $5 million, with a ceiling as high as $8.3 million. The ACLU and EFF have both called out these commercial-data contracts as an end-run around the Fourth Amendment.\n\nNone of these three companies are household names. That's the pattern with this administration's enforcement buildout — the money increasingly goes to small, specialized vendors rather than the familiar giants.",
+      "entityIds": [
+        "bi2_technologies",
+        "kvg_llc",
+        "penlink"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

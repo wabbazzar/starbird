@@ -10927,6 +10927,102 @@
         }
       ],
       "addedAt": "2026-07-14"
+    },
+    {
+      "id": "kvg_llc",
+      "name": "KVG, LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "KVG, LLC is a Gettysburg, Pennsylvania-based defense logistics and construction contractor founded in 2013 by a former Marine, with prior work supplying military logistics support including industrial 3D printers for the Ukraine conflict. In 2026 ICE awarded KVG a $113 million sole-source contract — the company's first-ever immigrant detention contract — to retrofit an ICE-owned warehouse in Williamsport, Washington County, Maryland into a detention facility initially holding 542 people, with capacity to expand toward 1,500. A federal judge ordered a two-week halt on construction after Maryland argued ICE bought the warehouse without required environmental reviews near Sample Run, a tributary feeding the Potomac River that is habitat for state-designated endangered species.",
+      "blurb": "Defense logistics and construction contractor supporting military and federal facility projects.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 84,
+      "source": "https://thedailyrecord.com/2026/03/09/ice-warehouse-detention-contracts-untested-firms/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In 2026 ICE awarded KVG a $113 million sole-source contract — the company's first-ever immigrant detention contract — to retrofit an ICE-owned warehouse in Williamsport, Maryland into a detention facility initially holding 542 people, with capacity to expand toward 1,500. A federal judge ordered a two-week halt on construction after Maryland argued ICE bought the warehouse without required environmental reviews near a tributary feeding the Potomac River that is habitat for state-designated endangered species.",
+          "date": "2026-03",
+          "amountUsd": 113000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://thedailyrecord.com/2026/03/09/ice-warehouse-detention-contracts-untested-firms/"
+        }
+      ],
+      "addedAt": "2026-07-15"
+    },
+    {
+      "id": "bi2_technologies",
+      "name": "BI2 Technologies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "BI2 Technologies is a Massachusetts-based biometric identification company that sells iris-scanning hardware and software to law enforcement. In May 2026 ICE finalized a $25.1 million no-bid contract — up from $4.6 million the prior year — for licenses to BI2's Inmate Identification and Recognition System (IRIS) and Mobile Offender Recognition & Information (MORIS) app, plus 1,570 handheld iris-scanning devices deployed nationwide. The contract gives ICE 24/7 electronic access to iris records across an unlimited number of users and devices, checked against a database built from more than 5 million criminal booking records, letting officers scan a person's iris from 10-15 inches away with a smartphone.",
+      "blurb": "Sells iris-scanning biometric hardware and identity-verification software to law enforcement.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 86,
+      "source": "https://fedscoop.com/dhs-ice-agents-biometrics-contract-iris-recognition/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In May 2026 ICE finalized a $25.1 million no-bid contract — up from $4.6 million the prior year — for licenses to BI2's Inmate Identification and Recognition System (IRIS) and Mobile Offender Recognition & Information (MORIS) app, plus 1,570 handheld iris-scanning devices deployed nationwide. The contract gives ICE 24/7 electronic access to iris records across an unlimited number of users and devices, checked against a database built from more than 5 million criminal booking records.",
+          "date": "2026-05",
+          "amountUsd": 25100000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fedscoop.com/dhs-ice-agents-biometrics-contract-iris-recognition/"
+        }
+      ],
+      "addedAt": "2026-07-15"
+    },
+    {
+      "id": "penlink",
+      "name": "PenLink",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "PenLink is a Lincoln, Nebraska-based surveillance technology company that sells law-enforcement agencies real-time phone tracking and open-source intelligence tools. ICE signed a $2.3 million no-bid contract with PenLink in September 2025 for Tangles and Webloc, tools that scrape internet activity and let officers track a phone's real-time location without a warrant, then supplemented it with a $2.9 million contract (potential value $8.3 million) in April 2026 for access to the PenLink PLX system, which intercepts and aggregates live phone calls, texts, and web communications. The ACLU and EFF have both flagged PenLink's ICE contracts as a way for DHS to circumvent Fourth Amendment warrant requirements by buying commercially available location data.",
+      "blurb": "Sells phone-location tracking and communications-interception surveillance software to law enforcement.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 85,
+      "source": "https://prismreports.org/2026/04/29/dhs-surveillance-location-data-penlink-plx/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE signed a $2.3 million no-bid contract with PenLink in September 2025 for Tangles and Webloc, tools that scrape internet activity and let officers track a phone's real-time location without a warrant, then supplemented it with a $2.9 million contract (potential value $8.3 million) in April 2026 for access to the PenLink PLX system, which intercepts and aggregates live phone calls, texts, and web communications. The ACLU and EFF have both flagged PenLink's ICE contracts as a way for DHS to circumvent Fourth Amendment warrant requirements.",
+          "date": "2026-04",
+          "amountUsd": 2900000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://prismreports.org/2026/04/29/dhs-surveillance-location-data-penlink-plx/"
+        }
+      ],
+      "addedAt": "2026-07-15"
     }
   ],
   "brands": [
@@ -24870,6 +24966,99 @@
         }
       ],
       "addedAt": "2026-07-14"
+    },
+    {
+      "id": "kvg_llc",
+      "avoid": "KVG, LLC",
+      "ownership": [
+        {
+          "firmId": "kvg_llc",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "KVG, LLC is a Gettysburg, Pennsylvania-based defense logistics and construction contractor with no prior experience in immigrant detention. In 2026 ICE awarded KVG a $113 million sole-source contract — its first-ever immigrant detention contract — to retrofit an ICE-owned warehouse in Williamsport, Washington County, Maryland into a detention facility initially holding 542 people, with capacity to expand toward 1,500. A federal judge ordered a two-week halt on construction after Maryland argued ICE bought the warehouse without required environmental reviews near Sample Run, a tributary feeding the Potomac River that is habitat for state-designated endangered species.",
+      "blurb": "Defense logistics and construction contractor supporting military and federal facility projects.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In 2026 ICE awarded KVG a $113 million sole-source contract — its first-ever immigrant detention contract — to retrofit an ICE-owned warehouse in Williamsport, Maryland into a detention facility initially holding 542 people, with capacity to expand toward 1,500. A federal judge ordered a two-week halt on construction after Maryland argued ICE bought the warehouse without required environmental reviews near a tributary feeding the Potomac River that is habitat for state-designated endangered species.",
+          "date": "2026-03",
+          "amountUsd": 113000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://thedailyrecord.com/2026/03/09/ice-warehouse-detention-contracts-untested-firms/"
+        }
+      ],
+      "addedAt": "2026-07-15"
+    },
+    {
+      "id": "bi2_technologies",
+      "avoid": "BI2 Technologies",
+      "ownership": [
+        {
+          "firmId": "bi2_technologies",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "BI2 Technologies is a Massachusetts-based biometric identification company that sells iris-scanning hardware and software to law enforcement. In May 2026 ICE finalized a $25.1 million no-bid contract — up from $4.6 million the prior year — for licenses to BI2's Inmate Identification and Recognition System (IRIS) and Mobile Offender Recognition & Information (MORIS) app, plus 1,570 handheld iris-scanning devices deployed nationwide. The contract gives ICE 24/7 electronic access to iris records across an unlimited number of users and devices, checked against a database built from more than 5 million criminal booking records, letting officers scan a person's iris from 10-15 inches away with a smartphone.",
+      "blurb": "Sells iris-scanning biometric hardware and identity-verification software to law enforcement.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In May 2026 ICE finalized a $25.1 million no-bid contract — up from $4.6 million the prior year — for licenses to BI2's Inmate Identification and Recognition System (IRIS) and Mobile Offender Recognition & Information (MORIS) app, plus 1,570 handheld iris-scanning devices deployed nationwide. The contract gives ICE 24/7 electronic access to iris records across an unlimited number of users and devices, checked against a database built from more than 5 million criminal booking records.",
+          "date": "2026-05",
+          "amountUsd": 25100000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fedscoop.com/dhs-ice-agents-biometrics-contract-iris-recognition/"
+        }
+      ],
+      "addedAt": "2026-07-15"
+    },
+    {
+      "id": "penlink",
+      "avoid": "PenLink",
+      "ownership": [
+        {
+          "firmId": "penlink",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "PenLink is a Lincoln, Nebraska-based surveillance technology company that sells law-enforcement agencies real-time phone tracking and open-source intelligence tools. ICE signed a $2.3 million no-bid contract with PenLink in September 2025 for Tangles and Webloc, tools that scrape internet activity and let officers track a phone's real-time location without a warrant, then supplemented it with a $2.9 million contract (potential value $8.3 million) in April 2026 for access to the PenLink PLX system, which intercepts and aggregates live phone calls, texts, and web communications. The ACLU and EFF have both flagged PenLink's ICE contracts as a way for DHS to circumvent Fourth Amendment warrant requirements by buying commercially available location data.",
+      "blurb": "Sells phone-location tracking and communications-interception surveillance software to law enforcement.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE signed a $2.3 million no-bid contract with PenLink in September 2025 for Tangles and Webloc, tools that scrape internet activity and let officers track a phone's real-time location without a warrant, then supplemented it with a $2.9 million contract (potential value $8.3 million) in April 2026 for access to the PenLink PLX system, which intercepts and aggregates live phone calls, texts, and web communications. The ACLU and EFF have both flagged PenLink's ICE contracts as a way for DHS to circumvent Fourth Amendment warrant requirements.",
+          "date": "2026-04",
+          "amountUsd": 2900000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://prismreports.org/2026/04/29/dhs-surveillance-location-data-penlink-plx/"
+        }
+      ],
+      "addedAt": "2026-07-15"
     }
   ]
 }
