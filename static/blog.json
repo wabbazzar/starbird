@@ -1348,6 +1348,23 @@
         "penlink"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-16-usaspending_ice_contracts",
+      "date": "2026-07-16",
+      "title": "The ICE Air pipeline: an untested contractor, a defiant airline, a boycotted budget carrier",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Federal spending records surface three very different companies now profiting from immigration enforcement — a small Virginia contractor with no detention experience, the charter airline flying most deportation flights, and a budget carrier that quit after nine months of protest.",
+      "body": "Acquisition Logistics, a Henrico County, Virginia firm with just $48 million in prior federal contracting history, was handed a $1.3 billion Army/DHS contract in July 2025 to build and run a 5,000-bed tent camp at Fort Bliss. A worker died two days after operations began, an internal ICE report logged 60 violations in the first 50 days, and three detainees died over the following months — one ruled a homicide. DHS terminated the contract in March 2026.\n\nGlobal Crossing Airlines' GlobalX has become the workhorse of ICE Air, flying roughly 80% of removal flights and clearing over $246 million in 2025 revenue as a CSI Aviation subcontractor. In March 2025 it kept flying Venezuelan detainees to a Salvadoran prison after a federal judge verbally ordered the planes turned around — a defiance that drew a contempt investigation. A ProPublica investigation the same year found flight attendants alarmed that shackled detainees couldn't be safely evacuated in an emergency.\n\nAvelo Airlines took the opposite path. The Connecticut budget carrier signed on for ICE charter flights out of Mesa, Arizona in March 2025, then faced a sustained boycott — over 32,000 petition signatures and recurring protests at its New Haven hub — before walking away from the contract in January 2026, citing costs that outweighed the revenue.\n\nTogether they trace the shape of the deportation economy: contractors racing into detention work without the experience to run it safely, and airlines weighing reputational risk against government revenue in real time.",
+      "entityIds": [
+        "acquisition_logistics",
+        "avelo_airlines",
+        "global_crossing_airlines",
+        "globalx"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
