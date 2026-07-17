@@ -1365,6 +1365,22 @@
         "globalx"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-17-usaspending_ice_contracts",
+      "date": "2026-07-17",
+      "title": "The vendors behind ICE's ad campaigns, arms, and AI surveillance",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traced federal contract dollars to three very different kinds of ICE vendor: an ad firm with a conflict of interest, a tactical-gear supplier, and an AI surveillance startup accused of faking its own credentials.",
+      "body": "Not every company profiting from immigration enforcement builds detention centers. People Who Think, LLC picked up a $77 million no-bid DHS contract in February 2025 to write ad copy warning immigrants to self-deport 'or we will hunt you down' — part of a $220 million campaign awarded without competitive bidding under a 'national emergency' justification. Reporting from NBC News and ProPublica found the firm's managing partner had a prior working relationship with Secretary Noem's chief adviser, prompting a Senate records demand.\n\nQuantico Tactical, a North Carolina gear supplier, shows the harm at street level: more than 50 contracts worth up to $19.3 million with ICE and Border Patrol for FY2025-2026, including nearly triple the prior year's pepper spray and tear gas sales and a single $10 million firearms order.\n\nEdge Ops LLC sits at the technology end. It won a $12 million sole-source contract to build 'Project SAFE HAVEN,' an AI tool mapping immigrants' daily routines for a task force designed by Stephen Miller — then, per The Lever, was caught using a stock photo for its lead scientist and claiming a partnership that didn't exist.\n\nTogether they're a reminder that the ICE enforcement build-out runs on ordinary vendor contracts — media buys, procurement catalogs, software licenses — not just detention beds.",
+      "entityIds": [
+        "edge_ops",
+        "people_who_think",
+        "quantico_tactical"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
