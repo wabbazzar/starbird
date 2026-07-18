@@ -1381,6 +1381,22 @@
         "quantico_tactical"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-18-usaspending_ice_contracts",
+      "date": "2026-07-18",
+      "title": "The IT shop behind ICE's biometric database, and the labs inside its jails",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "A dive into federal contract data surfaces three companies most people wouldn't guess are propping up immigration enforcement: a software vendor, a wireless carrier, and a diagnostics lab.",
+      "body": "ICE's deportation machine runs on unglamorous plumbing. Dev Technology Group, a Virginia IT shop most people have never heard of, is the primary contractor behind the Enforcement Integrated Database — the biometric system ICE agents use to track detainees and share their data with CBP and Mexican government counterparts. It holds a five-year DHS ICE contract worth up to $340 million, plus smaller task orders for HR software and student-visa tracking.\n\nWidePoint Corporation supplies the physical hardware for that enforcement apparatus: an $81.8 million task order to manage the mobile devices, including iPads, that ICE field agents carry. That contract sits inside a $500 million DHS-wide vehicle WidePoint just expanded into a $3.1 billion, decade-long award covering all of DHS.\n\nThen there's Labcorp — a name most people recognize from a routine blood draw — which holds a federal contract worth up to $21.4 million to run laboratory services inside ICE detention facilities in North Carolina. It's one piece of a broader pattern: a Facing South investigation of USASpending.gov records found North Carolina vendors alone pulling in $61.7 to $77.9 million from Border Patrol and ICE contracts in fiscal years 2025-2026.\n\nNone of these three set out to build an immigration enforcement system. But the database, the devices, and the detention-center labs are the infrastructure that makes mass deportation operationally possible — and federal contract records make the money trail traceable.",
+      "entityIds": [
+        "dev_technology_group",
+        "labcorp",
+        "widepoint"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

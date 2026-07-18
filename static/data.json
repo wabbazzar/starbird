@@ -11214,6 +11214,99 @@
         }
       ],
       "addedAt": "2026-07-17"
+    },
+    {
+      "id": "dev_technology_group",
+      "name": "Dev Technology Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Dev Technology Group is a Sterling, Virginia-based government IT contractor specializing in Agile software development, biometrics, and identity-management systems. It is the primary contractor for DHS's Enforcement Integrated Database (EID), the biometric system ICE Enforcement and Removal Operations agents use to track detainees and share data with CBP and Mexican government entities, and holds a five-year, up to $340 million DHS ICE IDIQ contract (SWIFT) plus task orders including an $81.9 million Human Resources Suite of Micro Applications order and a $63.6 million SEVIS student-visa tracking support contract.",
+      "blurb": "Government IT contractor building software, biometrics, and identity-management systems for federal agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 80,
+      "source": "https://investigate.afsc.org/company/dev-technology",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "It is the primary contractor for DHS's Enforcement Integrated Database (EID), the biometric system ICE Enforcement and Removal Operations agents use to track detainees and share data with CBP and Mexican government entities, and holds a five-year, up to $340 million DHS ICE IDIQ contract (SWIFT) plus task orders including an $81.9 million Human Resources Suite of Micro Applications order and a $63.6 million SEVIS student-visa tracking support contract.",
+          "amountUsd": 340000000,
+          "amountKind": "deal",
+          "actor": "DHS/ICE",
+          "sourceUrl": "https://devtechnology.com/blog/dev-technology-group-awarded-spot-on-340m-dhs-ice-idiq/"
+        }
+      ],
+      "addedAt": "2026-07-18"
+    },
+    {
+      "id": "widepoint",
+      "name": "WidePoint Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "WidePoint Corporation (NYSE American: WYY) is a Virginia-based provider of mobile-device management, identity, and cybersecurity services to federal agencies. Its Integrated Solutions Corp subsidiary holds an $81.8 million task order to provide Cellular Wireless Managed Services to Immigration and Customs Enforcement, supplying and managing the mobile devices — including iPads — that ICE uses for field operations. That task order sits inside a larger $500 million DHS-wide CWMS 2.0 contract vehicle, which WidePoint parlayed in June 2026 into a $3.1 billion, 10-year CWMS 3.0 award covering all of DHS including ICE.",
+      "blurb": "Provides mobile-device management, identity, and cybersecurity services to federal agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 64,
+      "source": "https://www.executivebiz.com/articles/widepoint-secures-86m-in-dhs-wireless-cellular-support-task-orders",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Its Integrated Solutions Corp subsidiary holds an $81.8 million task order to provide Cellular Wireless Managed Services to Immigration and Customs Enforcement, supplying and managing the mobile devices — including iPads — that ICE uses for field operations.",
+          "amountUsd": 81800000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.executivebiz.com/articles/widepoint-secures-86m-in-dhs-wireless-cellular-support-task-orders"
+        }
+      ],
+      "addedAt": "2026-07-18"
+    },
+    {
+      "id": "labcorp",
+      "name": "Laboratory Corporation of America Holdings (Labcorp)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Labcorp (NYSE: LH) is one of the largest clinical laboratory and diagnostics companies in the US. Its Burlington, North Carolina lab holds a federal contract worth up to $21.4 million to provide laboratory services inside ICE detention facilities, one of a wave of Border Patrol and ICE contracts identified in North Carolina alone worth $61.7-77.9 million, per a Facing South (Institute for Southern Studies) investigation of USASpending.gov contract data covering fiscal years 2025-2026.",
+      "blurb": "Clinical laboratory and diagnostics company offering blood testing, drug testing, and lab services.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Its Burlington, North Carolina lab holds a federal contract worth up to $21.4 million to provide laboratory services inside ICE detention facilities, one of a wave of Border Patrol and ICE contracts identified in North Carolina alone worth $61.7-77.9 million, per a Facing South investigation of USASpending.gov contract data.",
+          "amountUsd": 21400000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-18"
     }
   ],
   "brands": [
@@ -25435,6 +25528,93 @@
         }
       ],
       "addedAt": "2026-07-17"
+    },
+    {
+      "id": "dev_technology_group",
+      "avoid": "Dev Technology Group",
+      "ownership": [
+        {
+          "firmId": "dev_technology_group",
+          "stake": "majority"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Dev Technology Group is the primary contractor behind DHS's Enforcement Integrated Database (EID), the biometric system that ICE Enforcement and Removal Operations agents use to track detainees and share their data with CBP and Mexican government entities. The company holds a five-year, up to $340 million DHS ICE IDIQ contract, plus task orders including an $81.9 million Human Resources Suite of Micro Applications order and a $63.6 million SEVIS student-visa tracking support contract, per federal contract records and reporting from Mijente's ICE tech-vendor investigation.",
+      "blurb": "Government IT contractor building software, biometrics, and identity-management systems for federal agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Dev Technology Group is the primary contractor behind DHS's Enforcement Integrated Database (EID), the biometric system that ICE Enforcement and Removal Operations agents use to track detainees and share their data with CBP and Mexican government entities. The company holds a five-year, up to $340 million DHS ICE IDIQ contract, plus task orders including an $81.9 million Human Resources Suite of Micro Applications order and a $63.6 million SEVIS student-visa tracking support contract.",
+          "amountUsd": 340000000,
+          "amountKind": "deal",
+          "actor": "DHS/ICE",
+          "sourceUrl": "https://investigate.afsc.org/company/dev-technology"
+        }
+      ],
+      "addedAt": "2026-07-18"
+    },
+    {
+      "id": "widepoint",
+      "avoid": "WidePoint",
+      "ownership": [
+        {
+          "firmId": "widepoint",
+          "stake": "majority"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "WidePoint's Integrated Solutions Corp subsidiary holds an $81.8 million task order to supply and manage the mobile devices — including iPads — that ICE field agents use, under DHS's Cellular Wireless Managed Services program. That task order sits inside a larger $500 million CWMS 2.0 contract vehicle, which WidePoint expanded in June 2026 into a $3.1 billion, 10-year CWMS 3.0 award covering all of DHS including ICE.",
+      "blurb": "Provides mobile-device management, identity, and cybersecurity services to federal agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "WidePoint's Integrated Solutions Corp subsidiary holds an $81.8 million task order to supply and manage the mobile devices — including iPads — that ICE field agents use, under DHS's Cellular Wireless Managed Services program.",
+          "amountUsd": 81800000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.executivebiz.com/articles/widepoint-secures-86m-in-dhs-wireless-cellular-support-task-orders"
+        }
+      ],
+      "addedAt": "2026-07-18"
+    },
+    {
+      "id": "labcorp",
+      "avoid": "Labcorp",
+      "ownership": [
+        {
+          "firmId": "labcorp",
+          "stake": "majority"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Labcorp's Burlington, North Carolina lab holds a federal contract worth up to $21.4 million to provide laboratory services inside ICE detention facilities, embedding a familiar consumer diagnostics brand inside the detention system. The contract was one of a wave of Border Patrol and ICE contracts identified in North Carolina alone worth $61.7-77.9 million, per a Facing South investigation of USASpending.gov contract data covering fiscal years 2025-2026.",
+      "blurb": "Clinical laboratory and diagnostics company offering blood testing, drug testing, and lab services.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Labcorp's Burlington, North Carolina lab holds a federal contract worth up to $21.4 million to provide laboratory services inside ICE detention facilities, one of a wave of Border Patrol and ICE contracts identified in North Carolina alone worth $61.7-77.9 million, per a Facing South investigation of USASpending.gov contract data.",
+          "amountUsd": 21400000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-18"
     }
   ]
 }
