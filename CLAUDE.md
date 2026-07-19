@@ -68,7 +68,7 @@ When sorted by harm impact, brands rank by the max `harmScore` of their parent f
 
 ## Key rule: tags need evidence
 
-Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. When the runner adds a new tag to an existing entry, it must also append evidence text. A tag without evidence is a data quality violation. The Guardian checklist enforces this.
+Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. When the runner adds a new tag to an existing entry, it must also append evidence text. A tag without evidence is a data quality violation. The Guardian checklist runs a daily sampling check for this (`scripts/check-evidence-coverage.py`), but that script is not yet written — see `.agents/guardian.md` step 4 — so today it's enforced by the runner prompt's own rules, not yet by an automated gate.
 
 ## `/shop` skill
 
