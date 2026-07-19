@@ -1397,6 +1397,22 @@
         "widepoint"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-19-usaspending_ice_contracts",
+      "date": "2026-07-19",
+      "title": "The vendors behind ICE's biometrics, housing, and hardware",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Three publicly traded contractors — a border-biometrics software giant, a modular-housing operator, and a Taser and body-camera maker — show how ICE's enforcement buildout runs through ordinary-looking government contractors.",
+      "body": "Leidos runs the software layer travelers pass through at the border: a Blanket Purchase Agreement worth roughly $960M with CBP covers traveler-processing and vetting software, biometric capture devices, and document readers, on top of facial-recognition capabilities the company already supplies to the agency. It is the kind of contract that rarely makes headlines because it looks like ordinary federal IT work, even as it builds the infrastructure that screens and tracks people at the border.\n\nTarget Hospitality supplies the physical space. In March 2025 the modular-housing company signed a five-year lease with CoreCivic to reactivate its South Texas assets at Dilley, a deal expected to generate over $246M in revenue through 2030 for a facility used to detain immigrants. Two months later it landed a seat on a $4.0B DHS/ICE strategic sourcing vehicle set up specifically to support the enforcement buildout ordered by the January 2025 immigration executive orders — positioning it to keep winning detention-housing work through 2027.\n\nAxon Enterprise equips the agents themselves. It holds a DHS body-camera and software contract worth up to $370M, and during the current administration has picked up $16.7M in DHS obligations, including a $5M ICE order for body cameras placed in March 2026.\n\nNone of these three are prison operators or immigration specialists — they're a software vendor, a housing lessor, and a hardware maker whose other customers are ordinary police departments and businesses. That's exactly what makes ICE's contractor base hard to see: the enforcement apparatus is built out of firms that look, on paper, like anyone else's vendor.",
+      "entityIds": [
+        "axon_enterprise",
+        "leidos",
+        "target_hospitality"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
