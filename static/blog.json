@@ -1413,6 +1413,22 @@
         "target_hospitality"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-20-usaspending_ice_contracts",
+      "date": "2026-07-20",
+      "title": "The middle layer of ICE Air: brokers, guards, and IT vendors",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run surfaces three contractors that keep ICE's deportation and detention machinery running behind the scenes — a flight broker, a transportation-and-guard firm, and a detention-systems IT vendor — each with a documented federal contract and a documented problem.",
+      "body": "Classic Air Charter has brokered ICE's deportation flight logistics since 2017, previously under a contract worth nearly $885 million. It's also been caught shortchanging the people who make those flights run: in January 2021 the U.S. Department of Labor found the company failed to pass required wage terms down to a security subcontractor, leaving Louisiana-based guards on ICE flights shorted more than $140,000 in owed pay.\n\nISS Action Inc, a small Florida-based security and transportation contractor, has pulled in more than $100 million over three years from CBP for ground transportation and guard duty, plus a separate ICE contract for emergency detention services. In 2022 one of its guards was sued for allegedly sexually assaulting a minor in CBP custody in McAllen, Texas — a reminder that the workers doing the physical custody work are often subcontracted out with little public accountability.\n\nAcuity International shows the less visible side of the enforcement buildout: a five-year contract, won jointly with Kalani Consulting as KCI-Acuity, to maintain the internal systems ICE's own oversight office uses to audit its detention facilities. By late 2025 Acuity was also advertising warden and guard positions in Portland and Newport, Oregon, for a detention facility that didn't exist yet — hiring ahead of the contract award.\n\nTogether these three show how much of ICE's expansion runs through a layer of brokers and subcontractors rather than agency staff directly — a structure that spreads accountability thin exactly where it matters most.",
+      "entityIds": [
+        "acuity_international",
+        "classic_air_charter",
+        "iss_action_inc"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

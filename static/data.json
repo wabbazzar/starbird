@@ -11402,6 +11402,123 @@
 				}
 			],
 			"addedAt": "2026-07-19"
+		},
+		{
+			"id": "classic_air_charter",
+			"name": "Classic Air Charter",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Classic Air Charter is a Florida-based aviation broker that has managed ICE Air Operations deportation flight logistics since 2017, previously holding a contract worth nearly $885 million (2017-2023) to arrange charter flights removing immigrants from the United States. In January 2021, the U.S. Department of Labor's Wage and Hour Division found that Classic Air failed to include required wage and benefit terms in its subcontract with an aviation security firm, leaving Louisiana-based security guards working ICE deportation flights shorted more than $140,000 in owed pay.",
+			"blurb": "Aviation charter broker that arranges and manages deportation flight logistics for federal agencies.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 82,
+			"source": "https://www.pogo.org/investigates/meet-the-ice-contractor-running-deportation-flights",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "Classic Air Charter held a nearly $885 million ICE contract (2017-2023) brokering the agency's daily deportation flights.",
+					"date": "2017",
+					"amountUsd": 885000000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://www.pogo.org/investigates/meet-the-ice-contractor-running-deportation-flights"
+				},
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "In January 2021 the U.S. Department of Labor's Wage and Hour Division found Classic Air failed to include required wage and benefit terms in its subcontract with an aviation security firm, leaving Louisiana-based guards working ICE deportation flights shorted more than $140,000 in owed pay.",
+					"date": "2021-01",
+					"amountUsd": 140000,
+					"amountKind": "settlement",
+					"actor": "U.S. Department of Labor Wage and Hour Division",
+					"sourceUrl": "https://capitalandmain.com/classic-air-a-link-in-the-international-deportation-chain-forced-to-pay-back-wages-to-workers-0112"
+				}
+			],
+			"addedAt": "2026-07-20"
+		},
+		{
+			"id": "iss_action_inc",
+			"name": "ISS Action Inc",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "ISS Action Inc is a Punta Gorda, Florida-based private security and transportation contractor that has received more than $100 million over three years from U.S. Customs and Border Protection for ground transportation and guard services, and has separately been awarded an ICE contract for emergency detention and related services. In 2022 a lawsuit accused one of the company's guards of sexually assaulting a minor while in CBP custody in McAllen, Texas; ISS Action denied the allegations in court filings.",
+			"blurb": "Private security contractor providing detainee transportation and guard services to federal agencies.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 83,
+			"source": "https://www.levernews.com/how-ice-is-outsourcing-mass-deportations/",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "ISS Action has received more than $100 million over three years from CBP for ground transportation and guard services, plus a separate ICE contract for emergency detention and related services.",
+					"date": "2025",
+					"amountUsd": 100000000,
+					"amountKind": "deal",
+					"actor": "CBP/ICE",
+					"sourceUrl": "https://www.levernews.com/how-ice-is-outsourcing-mass-deportations/"
+				},
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "A 2022 lawsuit accused an ISS Action guard of sexually assaulting a minor while in CBP custody in McAllen, Texas; the company denied the allegations in legal filings.",
+					"date": "2022",
+					"actor": "McAllen, Texas lawsuit",
+					"sourceUrl": "https://www.levernews.com/how-ice-is-outsourcing-mass-deportations/"
+				}
+			],
+			"addedAt": "2026-07-20"
+		},
+		{
+			"id": "acuity_international",
+			"name": "Acuity International",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Acuity International, operating jointly with Kalani Consulting as KCI-Acuity, was awarded a five-year ICE contract in April 2024 to sustain and modernize the detention-oversight systems used by ICE's Office of Detention Oversight and External Reviews and Analysis Unit. In late 2025 Acuity began advertising warden, security-manager, and guard positions in Portland and Newport, Oregon for a planned ICE immigration detention facility, contingent on a successful contract award.",
+			"blurb": "Federal services contractor providing detention-facility operations, oversight IT systems, and case-management support.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 78,
+			"source": "https://myacuity.com/kciacuity-wins-ice-business/",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "KCI-Acuity, a joint venture of Kalani Consulting and Acuity International, won a five-year ICE contract in April 2024 to sustain and modernize inspection and auditing systems used at ICE detention facilities.",
+					"date": "2024-04",
+					"actor": "ICE Office of Professional Responsibility",
+					"sourceUrl": "https://myacuity.com/kciacuity-wins-ice-business/"
+				},
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "In December 2025 Acuity International posted job listings for warden, security-manager, and guard positions in Portland and Newport, Oregon for a planned ICE detention facility, contingent on a successful contract award.",
+					"date": "2025-12",
+					"actor": "ICE",
+					"sourceUrl": "https://www.opb.org/article/2025/12/05/federal-contractor-job-postings-advertise-possible-ice-detention-center-portland-newport/"
+				}
+			],
+			"addedAt": "2026-07-20"
 		}
 	],
 	"brands": [
@@ -25802,6 +25919,120 @@
 				}
 			],
 			"addedAt": "2026-07-19"
+		},
+		{
+			"id": "classic_air_charter",
+			"avoid": "Classic Air Charter",
+			"ownership": [
+				{
+					"firmId": "classic_air_charter",
+					"stake": "majority",
+					"since": "2017"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Classic Air Charter is a Florida-based aviation broker that has managed ICE Air Operations deportation flight logistics since 2017, previously holding a contract worth nearly $885 million (2017-2023) to arrange charter flights removing immigrants from the United States. In January 2021, the U.S. Department of Labor's Wage and Hour Division found that Classic Air failed to include required wage and benefit terms in its subcontract with an aviation security firm, leaving Louisiana-based security guards working ICE deportation flights shorted more than $140,000 in owed pay.",
+			"blurb": "Aviation charter broker that arranges and manages deportation flight logistics for federal agencies.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "Classic Air Charter held a nearly $885 million ICE contract (2017-2023) brokering the agency's daily deportation flights.",
+					"date": "2017",
+					"amountUsd": 885000000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://www.pogo.org/investigates/meet-the-ice-contractor-running-deportation-flights"
+				},
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "In January 2021 the U.S. Department of Labor's Wage and Hour Division found Classic Air failed to include required wage and benefit terms in its subcontract with an aviation security firm, leaving Louisiana-based guards working ICE deportation flights shorted more than $140,000 in owed pay.",
+					"date": "2021-01",
+					"amountUsd": 140000,
+					"amountKind": "settlement",
+					"actor": "U.S. Department of Labor Wage and Hour Division",
+					"sourceUrl": "https://capitalandmain.com/classic-air-a-link-in-the-international-deportation-chain-forced-to-pay-back-wages-to-workers-0112"
+				}
+			],
+			"addedAt": "2026-07-20"
+		},
+		{
+			"id": "iss_action_inc",
+			"avoid": "ISS Action Inc",
+			"ownership": [
+				{
+					"firmId": "iss_action_inc",
+					"stake": "majority",
+					"since": "2003"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "ISS Action Inc is a Punta Gorda, Florida-based private security and transportation contractor that has received more than $100 million over three years from U.S. Customs and Border Protection for ground transportation and guard services, and has separately been awarded an ICE contract for emergency detention and related services. In 2022 a lawsuit accused one of the company's guards of sexually assaulting a minor while in CBP custody in McAllen, Texas; ISS Action denied the allegations in court filings.",
+			"blurb": "Private security contractor providing detainee transportation and guard services to federal agencies.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "ISS Action has received more than $100 million over three years from CBP for ground transportation and guard services, plus a separate ICE contract for emergency detention and related services.",
+					"date": "2025",
+					"amountUsd": 100000000,
+					"amountKind": "deal",
+					"actor": "CBP/ICE",
+					"sourceUrl": "https://www.levernews.com/how-ice-is-outsourcing-mass-deportations/"
+				},
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "A 2022 lawsuit accused an ISS Action guard of sexually assaulting a minor while in CBP custody in McAllen, Texas; the company denied the allegations in legal filings.",
+					"date": "2022",
+					"actor": "McAllen, Texas lawsuit",
+					"sourceUrl": "https://www.levernews.com/how-ice-is-outsourcing-mass-deportations/"
+				}
+			],
+			"addedAt": "2026-07-20"
+		},
+		{
+			"id": "acuity_international",
+			"avoid": "Acuity International",
+			"ownership": [
+				{
+					"firmId": "acuity_international",
+					"stake": "majority",
+					"since": "2024"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Acuity International, operating jointly with Kalani Consulting as KCI-Acuity, was awarded a five-year ICE contract in April 2024 to sustain and modernize the detention-oversight systems used by ICE's Office of Detention Oversight and External Reviews and Analysis Unit. In late 2025 Acuity began advertising warden, security-manager, and guard positions in Portland and Newport, Oregon for a planned ICE immigration detention facility, contingent on a successful contract award.",
+			"blurb": "Federal services contractor providing detention-facility operations, oversight IT systems, and case-management support.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "KCI-Acuity, a joint venture of Kalani Consulting and Acuity International, won a five-year ICE contract in April 2024 to sustain and modernize inspection and auditing systems used at ICE detention facilities.",
+					"date": "2024-04",
+					"actor": "ICE Office of Professional Responsibility",
+					"sourceUrl": "https://myacuity.com/kciacuity-wins-ice-business/"
+				},
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "In December 2025 Acuity International posted job listings for warden, security-manager, and guard positions in Portland and Newport, Oregon for a planned ICE detention facility, contingent on a successful contract award.",
+					"date": "2025-12",
+					"actor": "ICE",
+					"sourceUrl": "https://www.opb.org/article/2025/12/05/federal-contractor-job-postings-advertise-possible-ice-detention-center-portland-newport/"
+				}
+			],
+			"addedAt": "2026-07-20"
 		}
 	]
 }
