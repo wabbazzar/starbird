@@ -1429,6 +1429,23 @@
         "iss_action_inc"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-21-usaspending_ice_contracts",
+      "date": "2026-07-21",
+      "title": "The companies that feed, house, and nickel-and-dime ICE detainees",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Three new entries trace the food and commissary side of immigration detention — a private-equity-owned commissary vendor, a Fortune 500 food-service giant, and a private prison operator that just bought its way into Arizona.",
+      "body": "Detention doesn't run on guards alone. This run surfaces the vendors behind the meal trays and commissary shelves: Aramark supplies food at CoreCivic's West Tennessee Detention Facility and won a 2015 contract to feed a New Jersey detention center at $1.46 a meal, though it insists it holds no direct ICE contract — just subcontracts through the facility operator. TKC Holdings, built by H.I.G. Capital's acquisitions of Trinity Services Group (2012) and Keefe Group (2016), runs the Keefe Commissary Network that supplies California's Imperial Regional Detention Facility.\n\nThat commissary relationship turned visible in July 2026, when detainees at CoreCivic-run California City and Golden State Annex launched an open-ended boycott after Keefe quietly raised prices — prompting California lawmakers to introduce legislation targeting commissary price gouging at ICE facilities specifically.\n\nThe third addition, Management & Training Corporation, is more direct: the Centerville, Utah company is the third-largest private prison operator in the country and runs five ICE facilities outright, including a 15-year contract at Imperial Regional. In 2025 it bought a shuttered Arizona prison for $15 million, and by early 2026 ICE had issued a sole-source notice to fill it with up to 513 detainees.\n\nTogether they show how detention economics extend past the facility operator — into who profits from what detainees eat and buy while inside.",
+      "entityIds": [
+        "aramark",
+        "hig_capital",
+        "management_training_corporation",
+        "tkc_holdings"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

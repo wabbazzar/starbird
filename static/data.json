@@ -11519,6 +11519,99 @@
 				}
 			],
 			"addedAt": "2026-07-20"
+		},
+		{
+			"id": "hig_capital",
+			"name": "H.I.G. Capital",
+			"aum": "$74B",
+			"aumVal": 74,
+			"summary": "Miami-based private equity firm founded in 1993 with $74 billion in equity capital under management, focused on lower middle-market buyouts across services and manufacturing. Owns TKC Holdings, the prison and detention commissary and food-service conglomerate formed from its 2012 acquisition of Trinity Services Group and 2016 acquisition of Keefe Group. TKC's Keefe Commissary Network supplies the Imperial Regional Detention Facility in California, and in July 2026 detainees at CoreCivic-run California City and Golden State Annex facilities launched an open-ended commissary boycott after Keefe passed on unannounced mid-2026 price increases; California lawmakers introduced legislation that same month specifically targeting commissary price gouging at ICE detention facilities.",
+			"blurb": "Private-equity firm; buys mid-market companies via leveraged buyouts across services and manufacturing.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 80,
+			"source": "https://www.dailykos.com/stories/2026/7/17/800070722/news/california-lawmakers-target-price-gouging-at-ice-detention-facilities/",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "TKC's Keefe Commissary Network supplies the Imperial Regional Detention Facility in California, and in July 2026 detainees at CoreCivic-run California City and Golden State Annex facilities launched an open-ended commissary boycott after Keefe passed on unannounced mid-2026 price increases; California lawmakers introduced legislation that same month specifically targeting commissary price gouging at ICE detention facilities.",
+					"date": "2026-07",
+					"actor": "California legislature",
+					"sourceUrl": "https://www.dailykos.com/stories/2026/7/17/800070722/news/california-lawmakers-target-price-gouging-at-ice-detention-facilities/"
+				}
+			],
+			"addedAt": "2026-07-21"
+		},
+		{
+			"id": "aramark",
+			"name": "Aramark",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Philadelphia-based Fortune 500 food-service and facilities company (NYSE: ARMK) founded in 1936, serving corrections, healthcare, education, and business clients across North America and 14 other countries. Provides food services inside immigration detention via subcontracts with private prison operators: Aramark supplied food at CoreCivic's West Tennessee Detention Facility, an ICE facility, and won a 2015 contract to feed detainees at a New Jersey detention center budgeted at $1.46 per meal. Aramark states it holds no direct contract with ICE or DHS, subcontracting instead through the facility operator.",
+			"blurb": "Food-service and facilities-management company serving corrections, healthcare, education, and business clients.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"source": "https://www.cbc.ca/news/canada/ice-us-detention-profit-9.7231679",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "Aramark supplied food at CoreCivic's West Tennessee Detention Facility, an ICE facility, and won a 2015 contract to feed detainees at a New Jersey detention center budgeted at $1.46 per meal.",
+					"date": "2015",
+					"amountUsd": 1.46,
+					"amountKind": "fees",
+					"sourceUrl": "https://www.cbc.ca/news/canada/ice-us-detention-profit-9.7231679"
+				}
+			],
+			"addedAt": "2026-07-21"
+		},
+		{
+			"id": "management_training_corporation",
+			"name": "Management & Training Corporation",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Privately held company founded in 1981 and headquartered in Centerville, Utah; the third-largest private operator of adult correctional facilities in the U.S. and the Department of Labor's largest Job Corps operator, employing more than 8,000 people. MTC operates five ICE detention facilities — one each in California and New Mexico and three in Texas — including the Imperial Regional Detention Center in California under a 15-year ICE contract. In 2025 MTC purchased a shuttered private prison in Marana, Arizona for $15 million, and in early 2026 ICE published a sole-source notice to award MTC a contract to detain up to 513 people there for its Phoenix Field Office.",
+			"blurb": "Private operator of correctional facilities, immigration detention centers, and Job Corps training centers.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 85,
+			"source": "https://azmirror.com/2026/02/27/ice-plans-to-reopen-marana-private-prison-as-513-bed-immigration-detention-center/",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "MTC operates five ICE detention facilities — one each in California and New Mexico and three in Texas — including the Imperial Regional Detention Center in California under a 15-year ICE contract. In 2025 MTC purchased a shuttered private prison in Marana, Arizona for $15 million, and in early 2026 ICE published a sole-source notice to award MTC a contract to detain up to 513 people there for its Phoenix Field Office.",
+					"date": "2026-02",
+					"amountUsd": 15000000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://azmirror.com/2026/02/27/ice-plans-to-reopen-marana-private-prison-as-513-bed-immigration-detention-center/"
+				}
+			],
+			"addedAt": "2026-07-21"
 		}
 	],
 	"brands": [
@@ -26033,6 +26126,96 @@
 				}
 			],
 			"addedAt": "2026-07-20"
+		},
+		{
+			"id": "tkc_holdings",
+			"avoid": "TKC Holdings / Keefe Group",
+			"ownership": [
+				{
+					"firmId": "hig_capital",
+					"stake": "majority",
+					"since": "2016"
+				}
+			],
+			"cat": "retail",
+			"alts": [],
+			"why": "TKC Holdings, formed by H.I.G. Capital's 2012 acquisition of Trinity Services Group and 2016 acquisition of Keefe Group, is the dominant commissary and food vendor inside U.S. prisons, jails, and ICE detention facilities. Its Keefe Commissary Network supplies the Imperial Regional Detention Facility in California, and in July 2026 detainees at CoreCivic-run California City and Golden State Annex ICE facilities launched an open-ended boycott of Keefe's commissary after it passed on unannounced mid-2026 price increases; California lawmakers introduced legislation that same month targeting commissary price gouging specifically at ICE detention facilities.",
+			"blurb": "Commissary and food-service supplier to prisons, jails, and immigration detention facilities.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "Its Keefe Commissary Network supplies the Imperial Regional Detention Facility in California, and in July 2026 detainees at CoreCivic-run California City and Golden State Annex ICE facilities launched an open-ended boycott of Keefe's commissary after it passed on unannounced mid-2026 price increases; California lawmakers introduced legislation that same month targeting commissary price gouging specifically at ICE detention facilities.",
+					"date": "2026-07",
+					"actor": "California legislature",
+					"sourceUrl": "https://www.dailykos.com/stories/2026/7/17/800070722/news/california-lawmakers-target-price-gouging-at-ice-detention-facilities/"
+				}
+			],
+			"addedAt": "2026-07-21"
+		},
+		{
+			"id": "aramark",
+			"avoid": "Aramark",
+			"ownership": [
+				{
+					"firmId": "aramark",
+					"stake": "majority",
+					"since": "1936"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Aramark provides food services inside U.S. immigration detention via subcontracts with private prison operators. It supplied food at CoreCivic's West Tennessee Detention Facility, an ICE facility, and won a 2015 contract to feed detainees at a New Jersey detention center budgeted at $1.46 per meal; a 2018 ICE inspection report noted nearly all detainees complained about the food's soy-heavy recipes, small portions, and lack of variety. Aramark states it holds no direct contract with ICE or DHS, subcontracting instead through the facility operator.",
+			"blurb": "Food-service and facilities-management company serving corrections, healthcare, education, and business clients.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "It supplied food at CoreCivic's West Tennessee Detention Facility, an ICE facility, and won a 2015 contract to feed detainees at a New Jersey detention center budgeted at $1.46 per meal; a 2018 ICE inspection report noted nearly all detainees complained about the food's soy-heavy recipes, small portions, and lack of variety.",
+					"date": "2015",
+					"amountUsd": 1.46,
+					"amountKind": "fees",
+					"sourceUrl": "https://www.cbc.ca/news/canada/ice-us-detention-profit-9.7231679"
+				}
+			],
+			"addedAt": "2026-07-21"
+		},
+		{
+			"id": "management_training_corporation",
+			"avoid": "Management & Training Corporation",
+			"ownership": [
+				{
+					"firmId": "management_training_corporation",
+					"stake": "majority",
+					"since": "1981"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "MTC is the third-largest private operator of adult correctional facilities in the U.S. and runs five ICE detention facilities — one each in California and New Mexico and three in Texas — including the Imperial Regional Detention Center in California under a 15-year ICE contract. In 2025 MTC purchased a shuttered private prison in Marana, Arizona for $15 million, and in early 2026 ICE published a sole-source notice to award MTC a contract to detain up to 513 people there for its Phoenix Field Office.",
+			"blurb": "Private operator of correctional facilities, immigration detention centers, and Job Corps training centers.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "MTC runs five ICE detention facilities — one each in California and New Mexico and three in Texas — including the Imperial Regional Detention Center in California under a 15-year ICE contract. In 2025 MTC purchased a shuttered private prison in Marana, Arizona for $15 million, and in early 2026 ICE published a sole-source notice to award MTC a contract to detain up to 513 people there for its Phoenix Field Office.",
+					"date": "2026-02",
+					"amountUsd": 15000000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://azmirror.com/2026/02/27/ice-plans-to-reopen-marana-private-prison-as-513-bed-immigration-detention-center/"
+				}
+			],
+			"addedAt": "2026-07-21"
 		}
 	]
 }
