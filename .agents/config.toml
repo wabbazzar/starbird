@@ -14,7 +14,7 @@ dev_port      = 5173
 # by scripts/install-quartet.sh. Override the installer defaults here so
 # the schedule lives with the project, not in the installer.
 #
-# House rule for starbird: scribe/augur/guardian fire between 01:00–05:00
+# House rule for starbird: scribe/helldiver/proctor fire between 01:00–05:00
 # local so their notifications don't land while Wesley is awake. Medic is
 # the exception — it scans around the clock (every 10 min) so failures are
 # caught within a tick, not at the next quiet-hours window; it just skips
