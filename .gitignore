@@ -13,6 +13,9 @@ vite.config.ts.timestamp-*
 # Runtime state — not source
 .claude/scheduled_tasks.lock
 .claude/settings.local.json
+
+# Local symlinks to shared skill sources outside this repo (machine-local paths)
+.claude/skills/
 scripts/__pycache__/
 **/__pycache__/
 
