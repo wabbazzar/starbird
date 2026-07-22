@@ -126,3 +126,10 @@ allow_prose_rewrites  = true
 allow_file_moves      = true
 forbid_file_deletion  = true
 forbid_ticket_creation = true
+
+[names]
+design = "mentat"
+build = "helldiver"
+release = "proctor"
+medic = "suk"
+scribe = "chronicler"
