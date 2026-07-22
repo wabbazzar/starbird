@@ -18,25 +18,35 @@ window. Fix source 5 so files older than the window are excluded from the
 summary. Do not touch medic's incident-detection logic
 (`agents/medic/runner.sh`).
 
-## Context / pointers (verified 2026-07-22)
+## Context / pointers (verified 2026-07-22; repo path corrected same day, see note)
 
-- **The bug, exact location:** `~/code/guardian-quartet/agents/design/collectors.sh`,
+- **The bug, exact location:** `agents/design/collectors.sh`,
   function `collect_signals()`, lines 129–149 (comment header: `# --- (5)
   medic incident files under tmp/ ---`). It globs
   `find "$project_dir/tmp" -maxdepth 1 -type f -name '*incident*.json'` with
   no `-mtime` bound and no comparison against each file's own `detected_at`
   field. Sources 2–4 (events, fyi, usage) are all bounded by the `days` param
   via `_read_events`; source 5 is not.
-- **This is shared infra, not starbird-local.** The file lives in
-  `~/code/guardian-quartet` (remote `git@github.com:wabbazzar/shipyard.git`),
-  used by every project's design loop on this host, not just starbird's.
-  `systemctl --user cat starbird-mentat.service` shows `ExecStart=/bin/bash
-  /home/wabbazzar/code/guardian-quartet/agents/design/runner.sh ...` — the
-  live unit execs the dev checkout's `main` directly, no pinned/packaged copy
-  and no redeploy step. A separate deployed copy exists at
-  `~/code/wabbazzar-ice/packs/guardian-quartet/agents/` but **does not even
-  contain an `agents/design/` directory** as of this writing — confirms the
-  design role runs only from the dev checkout today.
+- **This is shared infra, not starbird-local — and the live checkout path
+  moved during this ticket's own lifetime.** Earlier the same day
+  (2026-07-22), `systemctl --user cat starbird-mentat.service` showed
+  `ExecStart=.../code/guardian-quartet/agents/design/runner.sh`. On
+  close-out check (same day, later), **every** `starbird-*.service` unit —
+  suk, chronicler, helldiver, proctor, mentat — now execs out of
+  `/home/wabbazzar/code/shipyard/agents/<role>/runner.sh` instead (per
+  `agents: bake [names] spacetime theme block (shipyard rename)`, this
+  repo's own history). **Build the fix in `~/code/shipyard`, not
+  `~/code/guardian-quartet`.** The two are separate local clones of the same
+  remote (`git@github.com:wabbazzar/shipyard.git`) and were byte-identical
+  at `b88d74e` when checked — `guardian-quartet` is a stale duplicate no
+  live unit points at; don't bother updating it too, but don't be surprised
+  it exists. Before starting Phase 1, re-run `systemctl --user cat
+  starbird-mentat.service | grep ExecStart` once more — this path has
+  already drifted once mid-ticket, so treat it as re-verify-before-build,
+  not a fact to inherit.
+- No pinned/packaged deploy copy is in play: the live unit execs the dev
+  checkout's `main` directly, no redeploy step — a merge to that repo's
+  `main` is fleet-live at the next timer fire.
 - **`collect_signals()` already receives a `days` window** (default 7;
   `agents/design/runner.sh` invokes `collectors.sh --project "$PROJECT_DIR"
   --json` with no `--days` override, so production runs at the default).
@@ -65,7 +75,7 @@ summary. Do not touch medic's incident-detection logic
   event-stream line (`medic.incident.opened`) for its incident coverage — it
   never creates a `tmp/*incident*.json` fixture, so it currently proves
   nothing about this collector path either before or after this fix.
-- **guardian-quartet has no `docs/tickets/`** (it tracks work via its own
+- **shipyard (this checkout) has no `docs/tickets/`** (it tracks work via its own
   "deck"/phase commit convention — see `git log --oneline`, e.g. `feat: D-L15
   incident reroute + retire build side-door + ...`). The code fix there lands
   as a plain commit on a branch, not a new ticket file in that repo.
@@ -84,7 +94,7 @@ summary. Do not touch medic's incident-detection logic
 | 2 | The fix **filters**, it does not delete or move any file. `collectors.sh` stays read-only per its own header contract. |
 | 3 | The emitted shape of `sources.medic_incidents` (`{count, examples}`) is unchanged — nothing downstream (mentat's prompt assembly in `agents/design/runner.sh` / `role.md`) needs to change. |
 | 4 | No new CLI flag or config key — reuse the existing `days` parameter already threaded through `collect_signals()`. |
-| 5 | Work happens on a branch in `~/code/guardian-quartet` (per the merge-is-live hazard in `.agents/gates.md`), verified there, then merged to `main`. |
+| 5 | Work happens on a branch in `~/code/shipyard` (per the merge-is-live hazard in `.agents/gates.md`), verified there, then merged to `main`. |
 
 ### Open, with default (builder proceeds, records the choice in the Ledger)
 
@@ -102,9 +112,9 @@ collector's filtering logic.
 
 ## Phases
 
-### Phase 1 — Fix + self-test coverage in `guardian-quartet` (branch)
+### Phase 1 — Fix + self-test coverage in `shipyard` (branch)
 
-**Slice:** In `~/code/guardian-quartet`, on a new branch (e.g.
+**Slice:** In `~/code/shipyard`, on a new branch (e.g.
 `fix/design-collector-stale-incidents`):
 
 1. In `agents/design/collectors.sh`, source-5 block (lines 129–149): bound
@@ -124,7 +134,7 @@ collector's filtering logic.
   exit 0, including the new stale/fresh incident assertions actually
   executing (not skipped).
 - Manual real-world check against starbird's live stale files (read-only,
-  no starbird changes needed): `QUARTET_DIR=~/code/guardian-quartet
+  no starbird changes needed): `QUARTET_DIR=~/code/shipyard
   QUARTET_EVENTS_DIR=~/code/wabbazzar-ice/data/events bash
   agents/design/collectors.sh --project /home/wabbazzar/code/starbird --json
   | jq .sources.medic_incidents` must show `count: 0` (all 9 existing
@@ -147,7 +157,7 @@ touching one, `bash -n` clean on both touched scripts, diff scoped to
 
 ### Phase 2 — Merge and confirm live behavior
 
-**Slice:** Merge the branch to `main` in `~/code/guardian-quartet` (this is
+**Slice:** Merge the branch to `main` in `~/code/shipyard` (this is
 the merge-is-live hazard from `.agents/gates.md` — confirm Phase 1's
 verification is solid before merging, since it takes effect for every
 project's design loop at the next timer fire, not just starbird's).
@@ -168,7 +178,7 @@ project's design loop at the next timer fire, not just starbird's).
   event; if the run's own logic sends one, that's pre-existing behavior, not
   something this ticket changes.
 
-**DoD:** `main` in guardian-quartet contains the fix, a real
+**DoD:** `main` in shipyard contains the fix, a real
 `starbird-mentat` run after merge completes with `job.end status=ok`, and
 the acceptance criterion below is independently confirmed against starbird's
 real `tmp/`.
