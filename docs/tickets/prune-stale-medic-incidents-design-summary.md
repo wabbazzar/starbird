@@ -3,7 +3,7 @@
 **Created:** 2026-07-22
 **Owner:** Wesley
 **Assignee:** (unassigned)
-**Status:** Ready for build
+**Status:** Shipped (2026-07-22) — fix merged to `main` in `~/code/shipyard` (44b60c0, merge 327487f); verified live via `starbird-mentat.service` manual fire, `job.end status=ok`. Local `main` is 2 commits ahead of `origin/main` on shipyard — not pushed yet, no push requested.
 **Refs:** mentat:starbird:51f4f505 (approved via Daily Dispatch)
 
 ---
@@ -199,8 +199,48 @@ real `tmp/`.
 
 ## Ledger
 
-_(builder appends: plan notes, commit hash per phase, any deferred item, per
-phase, as it lands)_
+**Phase 1 (2026-07-22):** Repo path re-verified before build per the ticket's
+own instruction — `starbird-mentat.service` ExecStart pointed at
+`~/code/shipyard` (not `guardian-quartet`, confirming the drift noted in
+Context). Branch `fix/design-collector-stale-incidents` in `~/code/shipyard`.
+Bounded source-5's `find` by `-mtime "-$days"` (Decision 1's default: mtime,
+not `detected_at`). Added self-test coverage: stale (40-day-old) + fresh
+incident fixtures, asserted via `--collect-only` that only the fresh one
+survives. `bash -n` clean on both files. `--self-test`: `self-test OK: 2
+proposals written, 2 design.proposal.opened events, cap<=3 held, stale
+incident excluded`. Manual check against starbird's real `tmp/` (9 files,
+all 40+ days stale): `count: 0` before, `count: 1` after touching one file's
+mtime into the window, mtime restored exactly afterward. `git diff --stat`
+confirmed scope: only `agents/design/collectors.sh` +
+`agents/design/runner.sh` touched; zero diff under `agents/medic/`. Commit
+`44b60c0`.
+
+Note: the `~/code/shipyard` working tree had unrelated uncommitted changes
+in `agents/release/critic-watch.sh`, and — observed again after this
+phase — also in `agents/build/runner.sh` and `agents/medic/runner.sh`
+(a role-name-templating change, `${DISPLAY^}` replacing hardcoded
+"Augur"/"Medic" strings, unrelated to this ticket and presumably a
+concurrent in-progress edit on the same shared checkout). None of these
+were touched, staged, or committed by this ticket — `git add` was scoped
+explicitly to the two files above, never `-A`.
+
+**Phase 2 (2026-07-22):** Merged branch to `main` in `~/code/shipyard`
+(merge commit `327487f`, `--no-ff`). Fired `starbird-mentat.service`
+manually (`systemctl --user start`) rather than waiting for `OnCalendar`.
+`systemctl --user list-timers` confirmed the manual fire didn't disturb the
+next scheduled run (still 2026-07-23 05:00). Event stream
+(`~/code/wabbazzar-ice/data/events/2026-07-22.jsonl`) shows `job.start` →
+`design.proposal.opened` (1 new proposal, unrelated to this fix) →
+`job.end status=ok duration_s=40`. Result file
+(`tmp/starbird-mentat-result.json`) written cleanly. No unexpected
+notification fired (a normal completing run isn't page-worthy; nothing in
+this fix changes that).
+
+**Not done / explicit deferral:** `~/code/shipyard`'s local `main` was not
+pushed to `origin/main` (2 commits ahead). Pushing wasn't part of the
+approved item's ask, and the checkout has unrelated concurrent edits in
+flight (see note above) — pushing seemed like a separate decision, not this
+ticket's to make silently. Flag to Wesley if a push is wanted.
 
 ---
 
