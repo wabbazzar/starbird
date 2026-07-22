@@ -31,15 +31,16 @@ TARGET_PAIRS=10 MAX_ITERATIONS=25 MAX_SPEND_USD=120 bash scripts/run-until-full.
 ## Cron schedule (installed on wabbazzar-ice)
 
 Cron entries (still active):
-- **5:00 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes. *(Note: `scripts/cron-install.sh` currently emits `5 7 * * *` / 7:05 AM — the live crontab and the install script have drifted; reconcile with `crontab -e` or update the script before the next reinstall.)*
+- **5:00 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes. Invoked via the shared `wabbazzar-ice/scripts/cron-run.sh` wrapper, not directly. *(Note: `scripts/cron-install.sh` still prints a standalone `5 7 * * *` / 7:05 AM line — that script has not been reconciled with the live crontab entry or the cron-run.sh wrapper; don't paste its output verbatim.)*
 
-Systemd timers (agent infrastructure, installed 2026-05-19):
-- **Every 10 min around the clock (skips 01:00–04:59 while the other agents run)** — Medic (`starbird-medic.timer`) — live-data probe + runner success heartbeat
-- **1:00 AM daily** — Scribe (`starbird-scribe.timer`) — doc refresh
-- **3:30 AM daily** — Augur (`starbird-augur.timer`) — nightly incident triage
-- **4:30 AM daily** — Guardian (`starbird-guardian.timer`) — full daily audit
+Systemd timers (agent infrastructure; renamed to the shipyard/spacetime theme, see `51e5da0`/`7a2d1b3`): the old guardian/augur/medic/scribe names are gone — units are now named for the role, not the old quartet:
+- **1:00 AM daily** — Scribe (`starbird-chronicler.timer`) — doc refresh (this agent)
+- **3:30 AM daily** — Build (`starbird-helldiver.timer`) — nightly user-feedback triage + autonomous fixer (old "Augur")
+- **4:30 AM daily** — Release (`starbird-proctor.timer`) — daily tests + typecheck + data audit + build (old "Guardian")
+- **5:00 AM daily** — Design (`starbird-mentat.timer`) — pre-build design/architecture pass (new; no predecessor)
+- **Every 10 min, hours 00 and 05–23 (skips 01:00–04:59 while the other agents run)** — Medic (`starbird-suk.timer`) — failure-triggered triage / live-data probe + runner success heartbeat
 
-Reinstall cron: `bash scripts/cron-install.sh`. Check timers: `systemctl --user list-timers | grep starbird`.
+Check timers: `systemctl --user list-timers | grep starbird`.
 
 ## Strategy bank
 
