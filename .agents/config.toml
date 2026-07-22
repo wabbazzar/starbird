@@ -34,7 +34,7 @@ data         = "static/data.json"
 result_dir   = "tmp"
 worktree_dir = ".worktrees"
 
-[guardian]
+[release]
 # Identical to the gate the runner already invokes. Re-running it inside
 # guardian gives us pre-commit-gate equivalent enforcement on any commit,
 # not just runner commits — covering the case where a human edit drops
@@ -46,7 +46,7 @@ build_cmd    = "npm run build"
 budget_hook  = 0.50   # fast pre-commit / hook mode
 budget_daily = 2.00   # daily deep-audit mode
 
-[augur]
+[build]
 # Augur is allowed to touch the runner prompt + runner script + the new
 # data-coercion shim (see docs/tickets/install-guardian-augur-medic.md
 # for the proposed shim). Schema.ts and data.json itself are off-limits
@@ -83,7 +83,7 @@ poll_interval_sec    = 600
 sync_to_augur        = true
 daily_escalation_cap = 3
 restart_systemd      = false   # starbird has no systemd surface to restart
-augur_can_merge      = false   # one-actor project; human stays in the merge loop
+can_merge      = false   # one-actor project; human stays in the merge loop
 
 # Liveness probe: fetch the deployed data.json and try to parse it
 # against the schema. If the live site is serving zod-invalid data
@@ -169,7 +169,7 @@ runner, agents, gates, scribe, data, ui, scripts, docs) — no conventional-comm
 type(scope) format. \
 src/lib/schema.ts is the contract and static/data.json is the runner's territory \
 — tickets fix the runner/coercion shim, never hand-edit data.json (mirrors the \
-[augur] forbidden_paths). \
+[build] forbidden_paths). \
 Every harm tag needs evidence in `why` (brands) / `summary` (firms) — a ticket \
 touching tags must keep the evidence rule intact. \
 Deploy is adapter-static to GitHub Pages; there is no server process — phases \
