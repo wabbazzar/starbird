@@ -1446,6 +1446,22 @@
         "tkc_holdings"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-22-usaspending_ice_contracts",
+      "date": "2026-07-22",
+      "title": "Three ICE contractors most people have never heard of",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "A tent-and-toilet company, a founder-owned intelligence shop, and an Alaska Native Corporation subsidiary all landed nine-figure-or-larger ICE contracts this year — proof that the money behind mass detention runs through firms with no consumer-facing name at all.",
+      "body": "This run traced federal contract awards back to three companies that most shoppers will never encounter directly, yet all now do paid work for ICE. Deployed Resources, LLC built its business on tents and toilets for concerts and disaster response before landing a $3.8 billion award in April 2025 to run a tent detention camp at Fort Bliss — the first use of a U.S. military base for mass immigrant detention. ProPublica reported the deal was cancelled \"for convenience\" just three days later, with a follow-on contract for the same site going to Acquisition Logistics.\n\nAkima Infrastructure Protection sits inside a different structure entirely: it's a subsidiary of Akima, LLC, an Alaska Native Corporation holding company, whose federal 8(a) status lets it win sole-source awards. DHS gave it up to $685.5 million to run detention operations — transport, food service, banking — at ICE's Krome facility in Miami, a site Alaska Public Media reported has brought both revenue and internal controversy to the Alaska Native community behind it.\n\nSOS International (SOSi), a Reston, Virginia intelligence integrator founded and still owned by Sosi Setian, took a smaller but more direct role: a $6.95 million DHS contract for \"skip tracing\" — using data to find immigrants who've moved or missed check-ins so they can be located for deportation.\n\nNone of these three sell a product you'd recognize on a shelf. That's the throughline: ICE's expanding budget increasingly runs through logistics, facilities, and data firms operating one level removed from public view.",
+      "entityIds": [
+        "akima_infrastructure_protection",
+        "deployed_resources",
+        "sos_international"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
