@@ -134,3 +134,44 @@ build = "helldiver"
 release = "proctor"
 medic = "suk"
 scribe = "chronicler"
+
+[write_ticket]
+# Read before drafting: root context + the verification-gate surface the
+# ticket's phases must name. scripts/starbird-runner-prompt.md matters for
+# any runner/strategy-bank work (3 parallel files must stay in sync — see
+# CLAUDE.md §Strategy bank).
+context_files   = [
+  "CLAUDE.md",
+  ".agents/gates.md",
+  "scripts/starbird-runner-prompt.md",
+]
+ticket_dir      = "docs/tickets/"
+scan_dirs       = ["docs/tickets/", "docs/tickets/archive/"]
+types           = ["feature", "bug", "refactor", "chore", "docs", "test"]
+id_width        = 3
+# Filename: docs/tickets/XXX_<type>_<short_description>.md. Pre-existing
+# tickets (shop-skill.md, prune-stale-medic-incidents-design-summary.md,
+# archive/install-guardian-augur-medic.md) predate numbering — leave them;
+# numbering starts at 001 for new tickets.
+point_scale     = [1, 2, 3, 5, 8]
+phase_point_cap = 5
+viewport        = "390x844"   # PWA (static/manifest.webmanifest); UI phases verify mobile-first
+test_cmds       = [
+  "npx vitest run",
+  "npx svelte-check --threshold error",
+  "npx tsx scripts/validate-data.mjs",
+  "npx tsx scripts/dq-check.mjs",
+  "npm run build",
+]
+house_rules     = """
+Commit style matches git history: `area: imperative description` (areas seen: \
+runner, agents, gates, scribe, data, ui, scripts, docs) — no conventional-commit \
+type(scope) format. \
+src/lib/schema.ts is the contract and static/data.json is the runner's territory \
+— tickets fix the runner/coercion shim, never hand-edit data.json (mirrors the \
+[augur] forbidden_paths). \
+Every harm tag needs evidence in `why` (brands) / `summary` (firms) — a ticket \
+touching tags must keep the evidence rule intact. \
+Deploy is adapter-static to GitHub Pages; there is no server process — phases \
+verify via the gate classes in .agents/gates.md, and `npm run preview` serves \
+only the BUILT output (rebuild before checking)."""
