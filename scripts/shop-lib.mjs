@@ -18,7 +18,7 @@
 //
 // Tier 1 (DB vetting) is fully offline — it only reads static/data.json.
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { brandImpactScore, indexFirms } from '../src/lib/ranking.ts';
@@ -28,6 +28,24 @@ import data from '../static/data.json' with { type: 'json' };
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(HERE, '..', 'static', 'data.json');
 const CACHE_PATH = join(HERE, '..', 'tmp', 'shop-candidates.json');
+const USAGE_DIR = join(HERE, '..', 'data', 'usage');
+
+// Aggregate, no-PII usage signal for agents/design/collectors.sh source 4
+// (data/usage/*.jsonl) — see docs/tickets/usage-beacon-privacy-respecting.md.
+// One line per resolved /shop candidate: {ts, action:"shop_resolve", path:tier}.
+// `path` is the verdict tier (ok/avoid/block/unknown), never the candidate
+// name — this file feeds aggregate counts, not per-query detail. Best-effort:
+// a write failure must never break the skill.
+export function logUsageEvent(action, path) {
+	try {
+		mkdirSync(USAGE_DIR, { recursive: true });
+		const day = new Date().toISOString().slice(0, 10);
+		const line = JSON.stringify({ ts: new Date().toISOString(), action, path });
+		appendFileSync(join(USAGE_DIR, `${day}.jsonl`), line + '\n');
+	} catch {
+		// best-effort only
+	}
+}
 
 // ── Locked thresholds (see docs/tickets/shop-skill.md, decision #2) ──────────
 // Safe to buy  = absent from DB, OR present with harmScore < 40.
@@ -259,6 +277,7 @@ const [cmd, ...rest] = process.argv.slice(2);
 if (cmd === 'resolve') {
 	const names = rest.filter((a) => a !== '--json');
 	const results = names.map(resolve);
+	for (const r of results) logUsageEvent('shop_resolve', r.tier);
 	if (rest.includes('--json')) {
 		console.log(JSON.stringify(results, null, 2));
 	} else {
