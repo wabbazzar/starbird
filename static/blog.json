@@ -1462,6 +1462,23 @@
         "sos_international"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-23-usaspending_ice_contracts",
+      "date": "2026-07-23",
+      "title": "ICE's surveillance stack keeps growing: crypto tracing, phone-hacking, and spyware",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Three federal contract vendors show ICE building out its digital investigations toolkit beyond facial recognition and location data — into blockchain forensics, phone extraction, and encrypted-app spyware.",
+      "body": "TRM Labs, a blockchain intelligence firm, is set to receive a sole-source ICE contract worth $50M to $100M for cryptocurrency tracing and blockchain analytics work at Homeland Security Investigations' Cyber Disruption Center, running through mid-2027. It's part of a broader federal push into crypto forensics for immigration and financial-crime enforcement alike.\n\nMagnet Forensics, now a Thoma Bravo portfolio company after its 2023 merger with Grayshift, makes GrayKey — software that unlocks and extracts data from seized smartphones. HSI signed a new $3M GrayKey licensing contract in September 2025, on top of a separate $5M deal from 2024, giving agents an established pipeline for pulling data off phones.\n\nMost striking is Paragon Solutions, an Israeli spyware maker acquired by US private-equity firm AE Industrial Partners for up to $900M in December 2024. Its Graphite tool can penetrate encrypted messaging apps like WhatsApp, Telegram, and Signal. HSI's $2M contract for Graphite was paused for a compliance review, resumed, then closed out in January 2026 after lawmakers raised concerns it could be turned on immigrants and ICE critics.\n\nTogether these three vendors sketch a pattern: ICE isn't just buying more data, it's buying deeper access — into crypto wallets, locked phones, and encrypted conversations.",
+      "entityIds": [
+        "ae_industrial_partners",
+        "trm_labs",
+        "magnet_forensics",
+        "paragon_solutions"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

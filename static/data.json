@@ -636,7 +636,8 @@
       "brands": [
         "Anaplan",
         "SolarWinds (Thoma Bravo stake)",
-        "Dayforce"
+        "Dayforce",
+        "Magnet Forensics"
       ],
       "layoffs": "300–500+ at Anaplan; waves at Proofpoint",
       "notableBk": "No bankruptcy; destructive cost-cutting pattern",
@@ -11708,6 +11709,74 @@
         }
       ],
       "addedAt": "2026-07-22"
+    },
+    {
+      "id": "trm_labs",
+      "name": "TRM Labs",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Blockchain intelligence company providing cryptocurrency transaction tracing and forensics tools to government and financial-sector clients. DHS/ICE issued a sole-source notice of intent in 2026 to award TRM Labs a contract worth $50M-$100M for analytical support to the Homeland Security Task Force's National Coordination Center Cyber Disruption Center, running through July 2027, per GovCon Wire.",
+      "blurb": "Blockchain analytics and cryptocurrency forensics software for investigators.",
+      "brands": [
+        "TRM Labs"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 74,
+      "source": "https://www.govconwire.com/articles/ice-homeland-security-task-force-sole-source-trm-labs",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "DHS/ICE issued a sole-source notice of intent in 2026 to award TRM Labs a contract worth $50M-$100M for analytical support to the Homeland Security Task Force's National Coordination Center Cyber Disruption Center, running through July 2027, per GovCon Wire.",
+          "date": "2026",
+          "amountUsd": 100000000,
+          "amountKind": "deal",
+          "actor": "ICE Homeland Security Investigations",
+          "sourceUrl": "https://www.govconwire.com/articles/ice-homeland-security-task-force-sole-source-trm-labs"
+        }
+      ],
+      "addedAt": "2026-07-23"
+    },
+    {
+      "id": "ae_industrial_partners",
+      "name": "AE Industrial Partners",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "US private-equity firm. Acquired Israeli spyware maker Paragon Solutions in December 2024 for up to $900M. Paragon's Graphite spyware, capable of penetrating encrypted apps like WhatsApp, Telegram, and Signal, was the subject of a $2M contract with ICE's Homeland Security Investigations first signed in late 2024; the deal was paused pending a compliance review, resumed, and closed out January 20, 2026 amid congressional concern the tool could be used against immigrants and government critics, per NPR and the Immigration Policy Tracking Project.",
+      "blurb": "Private-equity firm investing in aerospace, defense, and government-services companies.",
+      "brands": [
+        "Paragon Solutions"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.npr.org/2026/05/22/nx-s1-5831577/dhs-ice-spyware-paragon",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Paragon's Graphite spyware, capable of penetrating encrypted apps like WhatsApp, Telegram, and Signal, was the subject of a $2M contract with ICE's Homeland Security Investigations first signed in late 2024; the deal was paused pending a compliance review, resumed, and closed out January 20, 2026 amid congressional concern the tool could be used against immigrants and government critics, per NPR.",
+          "date": "2024",
+          "amountUsd": 2000000,
+          "amountKind": "deal",
+          "actor": "ICE Homeland Security Investigations",
+          "sourceUrl": "https://www.npr.org/2026/05/22/nx-s1-5831577/dhs-ice-spyware-paragon"
+        }
+      ],
+      "addedAt": "2026-07-23"
     }
   ],
   "brands": [
@@ -26405,6 +26474,99 @@
         }
       ],
       "addedAt": "2026-07-22"
+    },
+    {
+      "id": "trm_labs",
+      "avoid": "TRM Labs",
+      "ownership": [
+        {
+          "firmId": "trm_labs",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "TRM Labs sells blockchain-tracing and crypto-forensics tools used by federal law enforcement. DHS/ICE issued a 2026 sole-source notice of intent to award TRM Labs $50M-$100M for analytical support to the Homeland Security Task Force's Cyber Disruption Center, running through July 2027, per GovCon Wire.",
+      "blurb": "Blockchain analytics and cryptocurrency forensics software for investigators.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "DHS/ICE issued a 2026 sole-source notice of intent to award TRM Labs $50M-$100M for analytical support to the Homeland Security Task Force's Cyber Disruption Center, running through July 2027, per GovCon Wire.",
+          "date": "2026",
+          "amountUsd": 100000000,
+          "amountKind": "deal",
+          "actor": "ICE Homeland Security Investigations",
+          "sourceUrl": "https://www.govconwire.com/articles/ice-homeland-security-task-force-sole-source-trm-labs"
+        }
+      ],
+      "addedAt": "2026-07-23"
+    },
+    {
+      "id": "magnet_forensics",
+      "avoid": "Magnet Forensics",
+      "ownership": [
+        {
+          "firmId": "thoma_bravo",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Magnet Forensics (merged with Grayshift after Thoma Bravo's 2023 buyout) makes GrayKey, phone-hacking software that unlocks and extracts data from smartphones. ICE's Homeland Security Investigations signed a new $3M contract for GrayKey licenses in September 2025 to \"recover digital evidence, process multiple devices, and generate forensic reports,\" per TechCrunch, on top of a separate $5M GrayKey contract ICE signed in 2024.",
+      "blurb": "Digital forensics software (GrayKey) that unlocks and extracts data from smartphones.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE's Homeland Security Investigations signed a new $3M contract for GrayKey phone-hacking licenses in September 2025 to recover digital evidence and generate forensic reports, per TechCrunch, on top of a separate $5M GrayKey contract ICE signed in 2024.",
+          "date": "2025-09",
+          "amountUsd": 3000000,
+          "amountKind": "deal",
+          "actor": "ICE Homeland Security Investigations",
+          "sourceUrl": "https://techcrunch.com/2025/09/18/ice-unit-signs-new-3-million-contract-for-phone-hacking-tech/"
+        }
+      ],
+      "addedAt": "2026-07-23"
+    },
+    {
+      "id": "paragon_solutions",
+      "avoid": "Paragon Solutions",
+      "ownership": [
+        {
+          "firmId": "ae_industrial_partners",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Paragon Solutions makes Graphite, spyware capable of penetrating encrypted messaging apps like WhatsApp, Telegram, and Signal. ICE's Homeland Security Investigations signed a $2M contract for Graphite in late 2024; the deal was paused for a compliance review, resumed, and closed out January 20, 2026 amid congressional concern the spyware could be used against immigrants and critics of ICE, per NPR and the Immigration Policy Tracking Project.",
+      "blurb": "Israeli-founded spyware maker; sells the Graphite phone-surveillance tool.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE's Homeland Security Investigations signed a $2M contract for Paragon's Graphite spyware in late 2024; the deal was paused for a compliance review, resumed, and closed out January 20, 2026 amid congressional concern the tool could be used against immigrants and critics of ICE, per NPR.",
+          "date": "2024",
+          "amountUsd": 2000000,
+          "amountKind": "deal",
+          "actor": "ICE Homeland Security Investigations",
+          "sourceUrl": "https://www.npr.org/2026/05/22/nx-s1-5831577/dhs-ice-spyware-paragon"
+        }
+      ],
+      "addedAt": "2026-07-23"
     }
   ]
 }
