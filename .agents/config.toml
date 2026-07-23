@@ -171,3 +171,12 @@ touching tags must keep the evidence rule intact. \
 Deploy is adapter-static to GitHub Pages; there is no server process — phases \
 verify via the gate classes in .agents/gates.md, and `npm run preview` serves \
 only the BUILT output (rebuild before checking)."""
+
+[[medic.checks]]
+# Crew-install drift: doctor audits what this install owns (units, foreign
+# drop-ins, retired config keys, dead hooks, skill symlinks). Read-only, <1s.
+# Notify-only — remediation is uninstall+reinstall or a stamped ticket, never
+# a medic reflex.
+name        = "crew-install-drift"
+cmd         = 'bash "$QUARTET_DIR/install.sh" --doctor --project .'
+timeout_sec = 30
