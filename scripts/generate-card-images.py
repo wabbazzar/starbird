@@ -5,7 +5,7 @@ Each image is a 1200x630 PNG matching the Starbird dark theme.
 Output: static/cards/{id}.png
 
 Run: python3 scripts/generate-card-images.py
-Re-run whenever data.json changes (the Guardian can trigger this).
+Re-run whenever data.json changes (the release battery can trigger this).
 """
 import json
 import pathlib

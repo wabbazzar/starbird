@@ -54,11 +54,11 @@ trap 'case "$-" in *e*) fatal $? "line $LINENO";; esac' ERR
 echo "[starbird-runner] Starting $MODE run at $(date)" > "$LOG_FILE"
 
 # ── Self-repair: ensure .worktrees/ is gitignored ───────────────────────
-# The augur runner aborts when `git status --porcelain` shows '?? .worktrees/'.
+# The build runner aborts when `git status --porcelain` shows '?? .worktrees/'.
 # Commit the fix in any mode — this is a one-time structural repair, not data,
-# so it must land before augur's 03:30 timer fires regardless of runner mode.
+# so it must land before build's 03:30 timer fires regardless of runner mode.
 if ! grep -qxF '.worktrees/' .gitignore 2>/dev/null; then
-  printf '\n# Augur worktree staging area\n.worktrees/\n' >> .gitignore
+  printf '\n# Build-agent worktree staging area\n.worktrees/\n' >> .gitignore
   echo "[starbird-runner] patched .gitignore: added .worktrees/" >> "$LOG_FILE"
   git add .gitignore
   git commit -m "chore: gitignore .worktrees/ (runner self-repair)

@@ -1,7 +1,7 @@
-# Augur — starbird project block
+# Build — starbird project block
 
-This file is concatenated AFTER `agents/augur/role.md` (live/dry-run
-mode) or `agents/augur/incident-role.md` (incident mode). The role
+This file is concatenated AFTER `agents/build/role.md` (live/dry-run
+mode) or `agents/build/incident-role.md` (incident mode). The role
 files cover generic protocol (worktree discipline, PR rules,
 result-JSON schema). Below is starbird-specific: feedback sources,
 triage criteria, and the dominant fixable failure mode.
@@ -91,8 +91,8 @@ of truth. Highlights worth restating:
 - `src/lib/schema.ts` — the schema is the contract; if data fails
   it, fix the data-producer (the runner), not the schema
 - `static/data.json` — only the runner or a human writes data;
-  augur fixes the runner or the coercion shim, never the data
-  directly
+  the build agent fixes the runner or the coercion shim, never the
+  data directly
 - `.agents/**` — you do not get to redefine your own role
 - `.github/workflows/**` — deploy pipeline is human-only
 

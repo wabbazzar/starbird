@@ -1,7 +1,7 @@
 # starbird agent install config
-# Read by /home/wabbazzar/code/wabbazzar-ice/agents/{guardian,augur,medic,scribe}/runner.sh
+# Read by ~/code/shipyard/agents/{release,build,medic,scribe}/runner.sh
 # via the shared lib/load-config.sh path. Project-specific knobs only;
-# generic agent code stays in the wabbazzar-ice repo's agents/.
+# generic agent code stays in the shipyard repo's agents/.
 
 project_name  = "starbird"
 project_dir   = "/home/wabbazzar/code/starbird"
@@ -23,33 +23,32 @@ dev_port      = 5173
 # failures showed intraday detection earns its keep.)
 scribe   = "*-*-* 01:00:00"
 medic    = "*-*-* 00,05..23:00/10:00"
-augur    = "*-*-* 03:30:00"
-guardian = "*-*-* 04:30:00"
+build    = "*-*-* 03:30:00"
+release  = "*-*-* 04:30:00"
 
 [paths]
 # data.json is the source of truth and the recurring failure surface.
-# Surfaced separately so guardian can deep-audit it without scanning
-# the rest of the repo.
+# Surfaced separately so the release agent can deep-audit it without
+# scanning the rest of the repo.
 data         = "static/data.json"
 result_dir   = "tmp"
 worktree_dir = ".worktrees"
 
 [release]
 # Identical to the gate the runner already invokes. Re-running it inside
-# guardian gives us pre-commit-gate equivalent enforcement on any commit,
-# not just runner commits — covering the case where a human edit drops
-# bad data in.
+# the release agent gives us pre-commit-gate equivalent enforcement on any
+# commit, not just runner commits — covering the case where a human edit
+# drops bad data in.
 test_cmd     = "npx vitest run"
 typecheck    = "npx svelte-check --threshold error"
 data_audit   = "npx tsx scripts/validate-data.mjs"
 build_cmd    = "npm run build"
-budget_hook  = 0.50   # fast pre-commit / hook mode
-budget_daily = 2.00   # daily deep-audit mode
 
 [build]
-# Augur is allowed to touch the runner prompt + runner script + the new
-# data-coercion shim (see docs/tickets/install-guardian-augur-medic.md
-# for the proposed shim). Schema.ts and data.json itself are off-limits
+# The build agent is allowed to touch the runner prompt + runner script +
+# the new data-coercion shim (see
+# docs/tickets/archive/install-guardian-augur-medic.md for the proposed
+# shim). Schema.ts and data.json itself are off-limits
 # — schema is the contract and data is the runner's territory.
 in_scope_paths = [
   "src/lib/**",
@@ -68,19 +67,17 @@ in_scope_paths = [
 ]
 forbidden_paths = [
   "src/lib/schema.ts",        # schema is the contract — data conforms to it, not vice versa
-  "static/data.json",         # only runner or human writes data; augur fixes the runner, not the data
+  "static/data.json",         # only runner or human writes data; build fixes the runner, not the data
   "static/cards/**",          # generated artifacts
   "static/manifest.webmanifest",
   ".agents/**",
   ".github/workflows/**",
 ]
-budget          = 5.00
-budget_incident = 8.00
 wall_clock_sec  = 1800
 
 [medic]
 poll_interval_sec    = 600
-sync_to_augur        = true
+sync_to_build        = true
 daily_escalation_cap = 3
 restart_systemd      = false   # starbird has no systemd surface to restart
 can_merge      = false   # one-actor project; human stays in the merge loop
@@ -117,7 +114,6 @@ grace_hours   = 2
 # Doc curator. Starbird's docs surface is small (CLAUDE.md + the
 # ticket-tracking docs/ folder), so scope is correspondingly narrow.
 content_paths = ["CLAUDE.md", "docs/"]
-budget                = 3.00
 wall_clock_sec        = 900
 commit_message_prefix = "scribe: nightly refresh"
 auto_commit           = true

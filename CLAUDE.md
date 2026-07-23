@@ -33,10 +33,10 @@ TARGET_PAIRS=10 MAX_ITERATIONS=25 MAX_SPEND_USD=120 bash scripts/run-until-full.
 Cron entries (still active):
 - **5:00 AM daily** — Runner (`scripts/starbird-runner.sh`), daily mode — auto-commits + pushes. Invoked via the shared `wabbazzar-ice/scripts/cron-run.sh` wrapper, not directly. *(Note: `scripts/cron-install.sh` still prints a standalone `5 7 * * *` / 7:05 AM line — that script has not been reconciled with the live crontab entry or the cron-run.sh wrapper; don't paste its output verbatim.)*
 
-Systemd timers (agent infrastructure; renamed to the shipyard/spacetime theme, see `51e5da0`/`7a2d1b3`): the old guardian/augur/medic/scribe names are gone — units are now named for the role, not the old quartet:
+Systemd timers (agent infrastructure; renamed to the shipyard/spacetime theme, see `51e5da0`/`7a2d1b3`): the pre-rename display names are gone — units are named for the spacetime theme:
 - **1:00 AM daily** — Scribe (`starbird-chronicler.timer`) — doc refresh (this agent)
-- **3:30 AM daily** — Build (`starbird-helldiver.timer`) — nightly user-feedback triage + autonomous fixer (old "Augur")
-- **4:30 AM daily** — Release (`starbird-proctor.timer`) — daily tests + typecheck + data audit + build (old "Guardian")
+- **3:30 AM daily** — Build (`starbird-helldiver.timer`) — nightly user-feedback triage + autonomous fixer
+- **4:30 AM daily** — Release (`starbird-proctor.timer`) — daily tests + typecheck + data audit + build
 - **5:00 AM daily** — Design (`starbird-mentat.timer`) — pre-build design/architecture pass (new; no predecessor)
 - **Every 10 min, hours 00 and 05–23 (skips 01:00–04:59 while the other agents run)** — Medic (`starbird-suk.timer`) — failure-triggered triage / live-data probe + runner success heartbeat
 
@@ -56,7 +56,7 @@ Strategy scoring is deterministic: `new_entities / cost_usd` over the last 10 ru
 
 - `static/data.json` — version 2, firms[] + brands[]
 - `static/blog.json` — per-run runner dispatches; one post per nightly run, appended by `scripts/append-blog-post.py`
-- `src/lib/schema.ts` — zod validation (run at page load + by Guardian)
+- `src/lib/schema.ts` — zod validation (run at page load + by the release battery)
 - `src/lib/blog.ts` — BlogPost type + zod BlogFileSchema (version + posts[])
 - `src/lib/values.ts` — 6 values (workers, environment, animals, health, extraction, elite_impunity)
 - `src/lib/quests.ts` — 17 quests, each rolls up to one value
@@ -69,7 +69,7 @@ When sorted by harm impact, brands rank by the max `harmScore` of their parent f
 
 ## Key rule: tags need evidence
 
-Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. When the runner adds a new tag to an existing entry, it must also append evidence text. A tag without evidence is a data quality violation. The Guardian checklist runs a daily sampling check for this (`scripts/check-evidence-coverage.py`), but that script is not yet written — see `.agents/guardian.md` step 4 — so today it's enforced by the runner prompt's own rules, not yet by an automated gate.
+Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. When the runner adds a new tag to an existing entry, it must also append evidence text. A tag without evidence is a data quality violation. The release-battery checklist runs a daily sampling check for this (`scripts/check-evidence-coverage.py`), but that script is not yet written — see `.agents/release.md` step 4 — so today it's enforced by the runner prompt's own rules, not yet by an automated gate.
 
 ## `/shop` skill
 

@@ -1,6 +1,6 @@
-# Guardian — starbird project block
+# Release — starbird project block
 
-This file is concatenated AFTER `agents/guardian/role.md`. The role file
+This file is concatenated AFTER `agents/release/role.md`. The role file
 covers the generic protocol (modes, hard rules, result-JSON schema,
 fail→medic handoff). Below is starbird-specific: the actual checks to
 run, the special-case data handling, and the project-specific result
@@ -12,7 +12,7 @@ periodically writes `static/data.json` with shapes that fail
 of strings, and free-text `stake` values like `"self-owned"`,
 `"IP owner"`, or `"majority (2010-2021)"` that aren't in the
 ownership enum. This has happened four times in three weeks. The
-runner already has a pre-commit gate, but guardian is the second
+runner already has a pre-commit gate, but the release agent is the second
 layer of defense — pre-merge + nightly deep-audit.
 
 ---
@@ -43,8 +43,8 @@ or 1 with a list of `path: message` lines on failure.
 On failure:
 - Record `{"dataSchema": {"ok": false, "issues": [...]}}` in the result JSON.
 - In **hook mode**: do not attempt to fix. Fail fast. The runner's
-  own gate should have caught this — guardian is here for the case
-  where a human commit slipped past or the schema itself changed.
+  own gate should have caught this — the release agent is here for the
+  case where a human commit slipped past or the schema itself changed.
 - In **daily mode**: attempt a coercion fix. The known-recoverable
   cases are:
   1. `since` or `until` as integer → stringify (`2010` → `"2010"`)
@@ -57,8 +57,8 @@ On failure:
      `stake: "post_bankrupt"` (per the Forever 21 precedent on
      2026-04-29)
   Any other invalid stake or unknown shape: report, do not attempt.
-  See `docs/tickets/install-guardian-augur-medic.md` for the
-  proposed standalone coercion shim that augur should build.
+  See `docs/tickets/archive/install-guardian-augur-medic.md` for the
+  proposed standalone coercion shim that the build agent should build.
 
 ## Step 3: Build + adapter-static sanity (daily only)
 
@@ -82,8 +82,8 @@ python3 scripts/check-evidence-coverage.py 2>&1   # TODO: write this
 ```
 
 If the script doesn't exist yet, skip this step and note `evidenceCoverage:
-"skipped — script not implemented"` in the result JSON. Augur should
-build it (see ticket).
+"skipped — script not implemented"` in the result JSON. The build agent
+should build it (see ticket).
 
 ## Step 5: Stale-source audit (daily only)
 

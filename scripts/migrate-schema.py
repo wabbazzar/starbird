@@ -7,7 +7,7 @@ Reads:  static/data.json  (expects v1 shape — no version field, old brand.owne
 Writes: static/data.json  (v2 shape — IDs, Ownership[], QuestId tags)
 
 This is idempotent to a point: if the file is already v2, it aborts.
-Kept in-repo for reproducibility and so Guardian can re-run the check.
+Kept in-repo for reproducibility and so the release battery can re-run the check.
 """
 import json
 import pathlib

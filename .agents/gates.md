@@ -39,15 +39,15 @@ Timers/units run on this machine (hostname `wabbazzar-ice`, same box this repo
 is checked out on) under `~/.config/systemd/user/starbird-*.{service,timer}`.
 Current units (verified 2026-07-22 via `systemctl --user list-timers | grep
 starbird`): `starbird-suk` (medic, every 10 min), `starbird-chronicler`
-(scribe, 01:00), `starbird-helldiver` (build/augur, 03:30), `starbird-proctor`
-(release/guardian, 04:30), `starbird-mentat` (design, 05:00). After any unit
+(scribe, 01:00), `starbird-helldiver` (build, 03:30), `starbird-proctor`
+(release, 04:30), `starbird-mentat` (design, 05:00). After any unit
 file change: `systemctl --user daemon-reload`, then `list-timers` shows the
 expected next fire, then start the service once
 (`systemctl --user start <unit>`) and confirm the observable outcome — a
 `job.end` line in `$QUARTET_EVENTS_DIR/$(date +%F).jsonl`, `journalctl --user
 -u <unit>`, or the project's stated probe. Never wait for `OnCalendar`.
 Note: `starbird-mentat.service`'s `ExecStart` invokes
-`/home/wabbazzar/code/guardian-quartet/agents/design/runner.sh` directly (the
+`/home/wabbazzar/code/shipyard/agents/design/runner.sh` directly (the
 dev checkout, not a packaged/pinned copy) — editing that sibling repo's
 `main` branch is live for the next timer fire with no redeploy step.
 
@@ -76,7 +76,7 @@ don't spam the owner from a loop.
 
 | Repo | Gate command | Hazard |
 |---|---|---|
-| `~/code/guardian-quartet` (agent infra shared by every project on this host; remote `git@github.com:wabbazzar/shipyard.git`) | `bash -n <script>`; `bash agents/design/runner.sh --self-test` for design-loop changes; no repo-wide CI visible from here — verification is manual per touched script | **merge-is-live**: `starbird-mentat.service` (and every other project's equivalent unit) execs scripts straight out of this checkout's `main` — a merge here is fleet-live at the next timer fire for every project using the quartet, not just starbird. Work on a branch, verify there, then merge. |
+| `~/code/shipyard` (agent infra shared by every project on this host; remote `git@github.com:wabbazzar/shipyard.git`) | `bash -n <script>`; `bash agents/design/runner.sh --self-test` for design-loop changes; no repo-wide CI visible from here — verification is manual per touched script | **merge-is-live**: `starbird-mentat.service` (and every other project's equivalent unit) execs scripts straight out of this checkout's `main` — a merge here is fleet-live at the next timer fire for every project using the quartet, not just starbird. Work on a branch, verify there, then merge. |
 | `~/code/wabbazzar-ice` | n/a for read-only use (`$QUARTET_NOTIFY_CMD`, `$QUARTET_EVENTS_DIR` are consumed, not usually edited by starbird tickets) | only touch if a ticket explicitly changes the notify wrapper or event schema — rare; treat as its own live-system change if so |
 
 ### Live-system changes (firewall / cron / containers / packages)  — APPLIES: no

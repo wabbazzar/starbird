@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Guardian check: verify the harm score rubric is internally consistent
+Release-battery check: verify the harm score rubric is internally consistent
 and that every firm in static/data.json lands in exactly one defined
-bucket. Run as a preflight in scripts/starbird-guardian-prompt.md.
+bucket. Run as a preflight by the release battery (see .agents/release.md).
 
 The rubric is the single source of truth at src/lib/harm-score-rubric.json.
 If the rubric and the About page drift apart, that's caught by svelte-check
@@ -15,7 +15,7 @@ This script catches the other two failure modes:
      a runner produces a score of 100 but the top bucket ends at 94)
 
 Exit 0 on success. Exit 1 on any failure with a specific error message
-the Guardian can surface in its notification.
+the release battery can surface in its notification.
 """
 import json
 import pathlib

@@ -7,7 +7,7 @@ below is starbird-specific judgment that the role can't have.
 ## Surfaces this project actually has
 
 - **Runners** (always present): `starbird-runner.{service,timer}` (07:05
-  daily research pass), `starbird-guardian.{service,timer}` (06:15 daily
+  daily research pass), `starbird-proctor.{service,timer}` (daily
   deep audit), plus any `starbird-*` entries in `ops.json`. Failed or
   stale units are yours to triage.
 - **Chats** — NONE. Starbird has no in-app chat surface. The chat-source
@@ -19,7 +19,7 @@ below is starbird-specific judgment that the role can't have.
 
 ## Project-specific classification cues
 
-### Runner schema-gate failures — REGRESSION, escalate to augur
+### Runner schema-gate failures — REGRESSION, escalate to build
 
 The dominant failure mode. Signature in
 `tmp/starbird-runner-last-run.log`:
@@ -34,15 +34,16 @@ schema FAILED — N issue(s):
 ```
 
 Classify as **regression** with `route = "scripts/coerce-data-shapes.mjs"`.
-Augur is in scope to build the coercion shim (see
-`.agents/augur.md` "Dominant failure mode"). If the shim already
+The build agent is in scope to build the coercion shim (see
+`.agents/build.md` "Dominant failure mode"). If the shim already
 exists and is being bypassed, that's an upgrade to **forbidden**
-(someone disabled the gate) — notify hard, do not escalate to augur.
+(someone disabled the gate) — notify hard, do not escalate to build.
 
 After two consecutive schema-gate failures within 48 hours on the
 same shape (e.g. integer-since on two different runs), treat as
-**high-priority regression** and bump the augur incident budget per
-the rules in `agents/medic/role.md`.
+**high-priority regression** — with token caps there is no per-incident
+budget to bump; flag the recurrence prominently in the escalation so
+the build agent prioritizes it.
 
 ### Runner "API Error: 400 due to tool use concurrency issues" — INFRA / transient
 
@@ -65,10 +66,10 @@ That's higher severity than a runner-failure because:
 - Runner failures stay in the working tree and don't affect users.
 - Live-data failures mean the pre-commit gate was bypassed somehow.
 
-Classify as **regression** and escalate to augur with the failing
+Classify as **regression** and escalate to build with the failing
 record IDs in the hypothesis. If the build itself is failing on
-GitHub Pages, that's **infra** and notify-hard — augur cannot fix
-GitHub Actions per `forbidden_paths`.
+GitHub Pages, that's **infra** and notify-hard — the build agent cannot
+fix GitHub Actions per `forbidden_paths`.
 
 ### GitHub Pages deploy failure — INFRA
 
@@ -88,7 +89,7 @@ prerender check, which is **regression** routed at `svelte.config.js`.
 If `npm run build` fails with a duplicate-id error or missing
 firmId reference, but `scripts/validate-data.mjs` passes — that's
 a gap in the schema: zod's per-record `superRefine` should be
-catching duplicates but might be missing a case. Augur in scope:
+catching duplicates but might be missing a case. The build agent is in scope:
 tighten `src/lib/schema.ts`'s cross-reference checks (this is the
 ONE legitimate reason to edit schema.ts; ratify with the human first
 via PR review).
@@ -96,11 +97,11 @@ via PR review).
 ## Hypothesis-writing tips for this codebase
 
 - Always include the failing IDs (e.g. `brands[291] byheart`,
-  `brands[293] spring_mulberry`) — augur uses these to locate the
+  `brands[293] spring_mulberry`) — the build agent uses these to locate the
   exact records in `static/data.json`.
 - Reference the prior hotfix commit shas (`de6d777`, `8b69ec6`,
   `577bc80`, `f8df056`) when classifying recurring schema breaks —
-  pattern recognition helps augur scope the fix.
+  pattern recognition helps the build agent scope the fix.
 - Mention whether the build pipeline ALSO failed (gh runs) or just
   the local gate. A green build with a red gate means the gate is
   doing its job and the failure is contained.
@@ -112,5 +113,5 @@ via PR review).
   runner's job and the human's editorial role. You only triage
   shape/structure failures.
 - The runner's strategy scoring (`scripts/update-strategy-scores.py`).
-- UI bugs — those route to augur via the standard triage flow if
+- UI bugs — those route to build via the standard triage flow if
   the human reports them; not your monitoring scope.
