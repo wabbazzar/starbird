@@ -11777,6 +11777,94 @@
         }
       ],
       "addedAt": "2026-07-23"
+    },
+    {
+      "id": "family_endeavors",
+      "name": "Family Endeavors (Endeavors)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "San Antonio nonprofit, founded in the 1960s to serve veterans and the homeless, that became a major immigration-detention contractor after hiring former ICE deputy assistant director Andrew Lorenzen-Strait in 2021. Months later ICE awarded it an $87 million sole-source contract to house migrant families in hotels; a DHS review found the agency spent roughly $17 million on hotel space and services at six hotels that sat largely unused between April and June 2021. Endeavors separately won a sole-source federal contract worth over $300 million (up to $529 million at full payout) to build and run the Pecos Emergency Influx Center for unaccompanied children in Texas. In 2025 DOGE and HHS terminated an $18 million-per-month Endeavors contract after finding the Pecos facility sitting empty.",
+      "blurb": "Nonprofit social-services provider; runs migrant shelter and hotel-housing contracts.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://sanantonioreport.org/endeavors-migrant-detention-pecos/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE awarded Endeavors an $87 million sole-source contract to house migrant families in hotels in 2021; a DHS review found roughly $17 million was spent on six hotels that sat largely unused between April and June 2021. Endeavors also won a sole-source federal contract worth over $300 million (up to $529 million at full payout) for the Pecos Emergency Influx Center, hired months after ICE deputy assistant director Andrew Lorenzen-Strait joined the nonprofit.",
+          "date": "2021-03",
+          "amountUsd": 87000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.hstoday.us/subject-matter-areas/border-security/ice-signs-86-9-million-contract-with-endeavors-for-short-term-migrant-care/"
+        }
+      ],
+      "addedAt": "2026-07-24"
+    },
+    {
+      "id": "southwest_key_programs",
+      "name": "Southwest Key Programs",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Texas-based nonprofit founded in 1987 that operates shelter facilities for unaccompanied immigrant minors across California, Arizona, and Texas, and is the largest housing provider for unaccompanied children in the U.S., drawing more than $5.5 billion in federal contracts since 2014. In July 2024 the U.S. Department of Justice sued Southwest Key alleging over 100 incidents of sexual abuse or harassment at its shelters, some dating back to 2015. CFO Melody Chung (2017 salary $1 million) and CEO Juan Sánchez (2017 salary $1.5 million) both resigned in early 2019 following a New York Times investigation into the organization's finances and oversight failures.",
+      "blurb": "Nonprofit operator of shelters for unaccompanied immigrant children.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "source": "https://en.wikipedia.org/wiki/Southwest_Key",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Southwest Key has drawn more than $5.5 billion in federal contracts since 2014 to detain and shelter unaccompanied immigrant children. In July 2024 the DOJ sued the organization alleging over 100 incidents of sexual abuse or harassment at its facilities, some dating back to 2015, and its CFO and CEO both resigned in early 2019 following a New York Times investigation into financial and oversight failures.",
+          "date": "2024-07",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Southwest_Key"
+        }
+      ],
+      "addedAt": "2026-07-24"
+    },
+    {
+      "id": "bcfs_health_and_human_services",
+      "name": "BCFS Health and Human Services",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "San Antonio-based nonprofit contracted by the federal government to run emergency shelters for unaccompanied migrant children, including the Carrizo Springs, Texas \"man camp\" facility under a contract worth up to $300.8 million (with an initial $50 million payment for the first 60 days). The facility operated for less than a month (June 30–July 25, 2019) despite the contract running through January, at an estimated cost of $750–800 per child per day. A 2018 HHS Office of Inspector General report found BCFS failed to properly document the care and release of 13.7% of children it released to sponsors in 2015.",
+      "blurb": "Nonprofit operator of emergency shelters for migrant children.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 64,
+      "source": "https://www.cbsnews.com/news/carrizo-springs-texas-man-camp-holding-facility-for-migrant-children-opens-with-possible-300-million-contract/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "BCFS was awarded a federal contract worth up to $300.8 million to run the Carrizo Springs, Texas emergency shelter for migrant children, with an initial $50 million payment for the first 60 days; the facility ran for less than a month (June 30–July 25, 2019) at an estimated $750-800 per child per day. A 2018 HHS Office of Inspector General report found BCFS failed to properly document the care and release of 13.7% of children released to sponsors in 2015.",
+          "date": "2019-07",
+          "amountUsd": 300800000,
+          "amountKind": "deal",
+          "actor": "HHS Office of Inspector General",
+          "sourceUrl": "https://www.cbsnews.com/news/carrizo-springs-texas-man-camp-holding-facility-for-migrant-children-opens-with-possible-300-million-contract/"
+        }
+      ],
+      "addedAt": "2026-07-24"
     }
   ],
   "brands": [
@@ -26567,6 +26655,97 @@
         }
       ],
       "addedAt": "2026-07-23"
+    },
+    {
+      "id": "family_endeavors",
+      "avoid": "Endeavors",
+      "ownership": [
+        {
+          "firmId": "family_endeavors",
+          "stake": "majority",
+          "since": "1969"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Endeavors won an $87 million sole-source ICE contract in 2021 to house migrant families in hotels, months after hiring former ICE deputy assistant director Andrew Lorenzen-Strait — a hire that drew scrutiny for potential conflict of interest. A DHS review found roughly $17 million of that contract was spent on hotel space and services at six hotels that sat largely unused between April and June 2021. Endeavors also won a sole-source federal award worth over $300 million (up to $529 million at full payout) to run the Pecos Emergency Influx Center, which DOGE and HHS terminated in 2025 after finding the facility empty while Endeavors was paid roughly $18 million a month to operate it.",
+      "blurb": "Nonprofit social-services provider; runs migrant shelter and hotel-housing contracts.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Endeavors won an $87 million sole-source ICE contract in 2021 to house migrant families in hotels, months after hiring former ICE deputy assistant director Andrew Lorenzen-Strait; a DHS review found roughly $17 million was spent on six hotels that sat largely unused between April and June 2021. Its sole-source Pecos Emergency Influx Center contract (worth up to $529 million) was terminated by DOGE and HHS in 2025 after the facility was found sitting empty while Endeavors was paid roughly $18 million a month.",
+          "date": "2021-03",
+          "amountUsd": 87000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.hstoday.us/subject-matter-areas/border-security/ice-signs-86-9-million-contract-with-endeavors-for-short-term-migrant-care/"
+        }
+      ],
+      "addedAt": "2026-07-24"
+    },
+    {
+      "id": "southwest_key_programs",
+      "avoid": "Southwest Key Programs",
+      "ownership": [
+        {
+          "firmId": "southwest_key_programs",
+          "stake": "majority",
+          "since": "1987"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Southwest Key is the largest housing provider for unaccompanied immigrant children in the U.S., drawing more than $5.5 billion in federal contracts since 2014. In July 2024 the U.S. Department of Justice sued the organization alleging over 100 incidents of sexual abuse or harassment at its shelters, some dating back to 2015. Its CFO (2017 salary $1 million) and CEO (2017 salary $1.5 million) both resigned in early 2019 after a New York Times investigation exposed financial and oversight failures.",
+      "blurb": "Nonprofit operator of shelters for unaccompanied immigrant children.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Southwest Key has drawn more than $5.5 billion in federal contracts since 2014 to shelter unaccompanied immigrant children. In July 2024 the DOJ sued the organization alleging over 100 incidents of sexual abuse or harassment at its facilities, some dating back to 2015, and its CFO and CEO both resigned in early 2019 following a New York Times investigation into financial and oversight failures.",
+          "date": "2024-07",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Southwest_Key"
+        }
+      ],
+      "addedAt": "2026-07-24"
+    },
+    {
+      "id": "bcfs_health_and_human_services",
+      "avoid": "BCFS Health and Human Services",
+      "ownership": [
+        {
+          "firmId": "bcfs_health_and_human_services",
+          "stake": "majority",
+          "since": "1944"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "BCFS was awarded a federal contract worth up to $300.8 million to run the Carrizo Springs, Texas emergency shelter for migrant children in 2019, with an initial $50 million payment for just the first 60 days. The facility operated for less than a month (June 30–July 25, 2019) despite the contract running through January, at an estimated cost of $750-800 per child per day. A 2018 HHS Office of Inspector General report found BCFS failed to properly document the care and release of 13.7% of children it released to sponsors in 2015.",
+      "blurb": "Nonprofit operator of emergency shelters for migrant children.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "BCFS was awarded a federal contract worth up to $300.8 million to run the Carrizo Springs shelter, with an initial $50 million payment for the first 60 days; the facility ran for less than a month (June 30-July 25, 2019) at an estimated $750-800 per child per day. A 2018 HHS Office of Inspector General report found BCFS failed to properly document the care and release of 13.7% of children released to sponsors in 2015.",
+          "date": "2019-07",
+          "amountUsd": 300800000,
+          "amountKind": "deal",
+          "actor": "HHS Office of Inspector General",
+          "sourceUrl": "https://www.cbsnews.com/news/carrizo-springs-texas-man-camp-holding-facility-for-migrant-children-opens-with-possible-300-million-contract/"
+        }
+      ],
+      "addedAt": "2026-07-24"
     }
   ]
 }

@@ -1479,6 +1479,22 @@
         "paragon_solutions"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-24-usaspending_ice_contracts",
+      "date": "2026-07-24",
+      "title": "The nonprofits ICE hired to do detention's dirty work",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Three nonprofits built their federal-contracting business on housing detained migrant families and children — and each has been caught wasting taxpayer money or worse while doing it.",
+      "body": "It's tempting to assume the immigration-detention supply chain is all private-prison operators and defense contractors. It isn't. This run surfaces three nonprofits — Endeavors, Southwest Key Programs, and BCFS Health and Human Services — that have collectively drawn well over $5.8 billion in federal contracts to house detained migrants and unaccompanied children, and each has a documented record of failing the people in its care.\n\nEndeavors is the clearest case of access buying contracts: months after hiring a former ICE deputy assistant director, it landed an $87 million sole-source deal to house migrant families in hotels — $17 million of which a DHS review found was spent on hotels that sat largely empty. Its follow-on Pecos, Texas facility contract, worth up to $529 million, was still being paid out at $18 million a month when DOGE and HHS found the building empty in 2025 and cut it off.\n\nSouthwest Key and BCFS show what happens once the money is flowing. Southwest Key, the largest shelter operator for unaccompanied children in the country, is now facing a DOJ lawsuit over more than 100 alleged incidents of sexual abuse or harassment dating back to 2015 — while its CFO and CEO were pulling seven-figure salaries. BCFS's Carrizo Springs facility ran for less than a month on a contract worth up to $300.8 million, after a prior HHS audit found the group couldn't properly document what happened to over 13% of the children it released.\n\nThe throughline isn't ideology — these are nonprofits, not private-equity roll-ups — it's that detention is a growth business regardless of who's running it, and oversight hasn't kept pace with the money.",
+      "entityIds": [
+        "bcfs_health_and_human_services",
+        "family_endeavors",
+        "southwest_key_programs"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
