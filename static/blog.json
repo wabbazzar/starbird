@@ -1495,6 +1495,22 @@
         "southwest_key_programs"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-25-usaspending_ice_contracts",
+      "date": "2026-07-25",
+      "title": "The IT vendors and the NASCAR dealer building ICE's back office",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Three federal contractors — a Maryland systems integrator, a CBP travel-program manager, and a NASCAR team's manufacturing arm — show how ICE's expansion runs on companies most people have never heard of.",
+      "body": "ICE's growth isn't only visible in detention beds and buses. It also runs through IT contracts most people never see. Tribalco, a Bethesda-based systems integrator, landed a $164.7 million ICE award in April 2026 for communications and technology infrastructure — one of the largest single tech contracts the agency has issued. TMC-TELESOLV, a small North Carolina consulting firm, holds up to $14.8 million to run Customs and Border Protection's Trusted Traveler Program, one piece of the $61.7 million in current Border Patrol and ICE work spread across dozens of North Carolina vendors.\n\nThen there's the contract that reads more like a favor than a procurement. In August 2025, ICE paid Hendrick Motorsports Technical Solutions — the advanced-manufacturing arm of Rick Hendrick's NASCAR racing empire — $2.25 million for 25 Chevrolet Tahoes, justified as \"unusual and compelling urgency\" and awarded without competitive bidding. Hendrick is a major Republican donor whose name has surfaced in past pardon controversies.\n\nNone of these companies build detention centers or hold detainees directly. What they show is how deep the contractor layer goes: IT vendors, consulting shops, and a race-team spinoff, all billing the same enforcement buildout, often through no-bid or lightly-scrutinized awards.",
+      "entityIds": [
+        "hendrick_motorsports_technical_solutions",
+        "tmc_telesolv",
+        "tribalco"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

@@ -11865,6 +11865,102 @@
         }
       ],
       "addedAt": "2026-07-24"
+    },
+    {
+      "id": "tribalco",
+      "name": "Tribalco, LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Tribalco, LLC is a Bethesda, Maryland-based IT systems integrator that describes itself as delivering \"IT services, critical communications solutions, and warfighter survival systems\" for government and defense clients. On April 16, 2026, U.S. Immigration and Customs Enforcement awarded Tribalco a $164,715,297.71 federal contract for IT and communications services, one of the largest single ICE technology awards on record, according to federal contract-tracking outlet Intelligence360 citing USAspending.gov data.",
+      "blurb": "IT systems integrator providing communications and technology infrastructure to federal agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 74,
+      "source": "https://www.intelligence360.news/tribalco-llc-has-been-awarded-a-164715297-71-federal-contract-with-the-u-s-immigration-and-customs-enforcement/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "On April 16, 2026, ICE awarded Tribalco a $164,715,297.71 federal contract for IT and communications services, one of the largest single ICE technology awards on record.",
+          "date": "2026-04-16",
+          "amountUsd": 164715297,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.intelligence360.news/tribalco-llc-has-been-awarded-a-164715297-71-federal-contract-with-the-u-s-immigration-and-customs-enforcement/"
+        }
+      ],
+      "addedAt": "2026-07-25"
+    },
+    {
+      "id": "hendrick_motorsports_technical_solutions",
+      "name": "Hendrick Motorsports Technical Solutions",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Hendrick Motorsports Technical Solutions is the advanced-manufacturing arm of NASCAR's Hendrick Motorsports, owned by Republican mega-donor Rick Hendrick. In August 2025, ICE awarded the company a $2.25 million sole-source, no-bid contract for 25 Chevrolet Tahoe SUVs (roughly $90,000 per vehicle), citing \"unusual and compelling urgency\" to put vehicles \"on the streets immediately\" for enforcement operations and recruitment, according to contract documents reported by Zeteo (2025-08-27) and corroborated by WCNC and EssentiallySports. The award bypassed standard competitive bidding and existing federal vehicle purchasing programs.",
+      "blurb": "Advanced-manufacturing division of a NASCAR racing team, also supplies vehicles to government fleets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://zeteo.com/p/ice-no-bid-contract-republican-donor-fraud-history",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE awarded the company a $2.25 million sole-source, no-bid contract for 25 Chevrolet Tahoe SUVs in August 2025, citing \"unusual and compelling urgency,\" bypassing standard competitive bidding.",
+          "date": "2025-08-27",
+          "amountUsd": 2250000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://zeteo.com/p/ice-no-bid-contract-republican-donor-fraud-history"
+        }
+      ],
+      "addedAt": "2026-07-25"
+    },
+    {
+      "id": "tmc_telesolv",
+      "name": "TMC-TELESOLV",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "TMC-TELESOLV is a Battleboro, North Carolina-based small business (also operating as TeleSolv Consulting) specializing in computer systems design and administrative management consulting for federal clients. Investigative outlet Facing South reported (2025-12) that the company holds a federal contract worth up to $14.8 million to manage Customs and Border Protection's Trusted Traveler Program, part of a broader $61.7 million in current North Carolina-based Border Patrol and ICE contracting identified in the report.",
+      "blurb": "IT and administrative-management consulting firm serving federal agency clients.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "source": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "TMC-TELESOLV holds a federal contract worth up to $14.8 million to manage CBP's Trusted Traveler Program, reported by Facing South in December 2025 as part of North Carolina's $61.7 million in current Border Patrol and ICE contracting.",
+          "date": "2025-12",
+          "amountUsd": 14800000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-25"
     }
   ],
   "brands": [
@@ -26746,6 +26842,99 @@
         }
       ],
       "addedAt": "2026-07-24"
+    },
+    {
+      "id": "tribalco",
+      "avoid": "Tribalco",
+      "ownership": [
+        {
+          "firmId": "tribalco",
+          "stake": "majority",
+          "since": "1994"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Tribalco, LLC is a systems integrator that builds and maintains IT and communications infrastructure for federal agencies, including a $164,715,297.71 contract awarded by ICE on April 16, 2026 for IT and communications services — one of the largest single technology awards ICE has made, per Intelligence360's review of USAspending.gov records.",
+      "blurb": "IT services and communications-technology integrator for government agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE awarded Tribalco a $164,715,297.71 contract on April 16, 2026 for IT and communications services, one of the largest single technology awards ICE has made.",
+          "date": "2026-04-16",
+          "amountUsd": 164715297,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.intelligence360.news/tribalco-llc-has-been-awarded-a-164715297-71-federal-contract-with-the-u-s-immigration-and-customs-enforcement/"
+        }
+      ],
+      "addedAt": "2026-07-25"
+    },
+    {
+      "id": "hendrick_motorsports_technical_solutions",
+      "avoid": "Hendrick Motorsports Technical Solutions",
+      "ownership": [
+        {
+          "firmId": "hendrick_motorsports_technical_solutions",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "This advanced-manufacturing arm of Rick Hendrick's NASCAR racing empire sold 25 Chevrolet Tahoe SUVs to ICE for $2.25 million in a no-bid, sole-source deal in August 2025, justified by ICE as \"unusual and compelling urgency\" to get vehicles onto the streets for enforcement operations, bypassing normal competitive bidding and federal vehicle purchasing programs (Zeteo, 2025-08-27).",
+      "blurb": "Advanced-manufacturing division of a NASCAR racing team that also supplies vehicles to government fleets.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "The company sold 25 Chevrolet Tahoe SUVs to ICE for $2.25 million in a no-bid, sole-source deal in August 2025, justified as \"unusual and compelling urgency,\" bypassing normal competitive bidding.",
+          "date": "2025-08-27",
+          "amountUsd": 2250000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://zeteo.com/p/ice-no-bid-contract-republican-donor-fraud-history"
+        }
+      ],
+      "addedAt": "2026-07-25"
+    },
+    {
+      "id": "tmc_telesolv",
+      "avoid": "TMC-TELESOLV",
+      "ownership": [
+        {
+          "firmId": "tmc_telesolv",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "TMC-TELESOLV holds a federal contract worth up to $14.8 million to manage Customs and Border Protection's Trusted Traveler Program, one of dozens of North Carolina-based firms sharing $61.7 million in current Border Patrol and ICE contracts identified by investigative outlet Facing South in December 2025.",
+      "blurb": "IT and administrative-management consulting firm serving federal agency clients.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "TMC-TELESOLV holds a federal contract worth up to $14.8 million to manage CBP's Trusted Traveler Program, part of $61.7 million in current North Carolina-based Border Patrol and ICE contracting reported by Facing South in December 2025.",
+          "date": "2025-12",
+          "amountUsd": 14800000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-25"
     }
   ]
 }
