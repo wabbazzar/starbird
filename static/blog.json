@@ -1511,6 +1511,22 @@
         "tribalco"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-26-usaspending_ice_contracts",
+      "date": "2026-07-26",
+      "title": "The smaller vendors behind the ICE detention buildout",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Beyond the billion-dollar detention operators, a tier of local construction, drone, and vehicle suppliers is quietly cashing in on the same enforcement surge — and their contracts are just as traceable.",
+      "body": "The headlines go to GEO Group and CoreCivic, but federal spending data shows the ICE and CBP buildout runs through a much longer vendor list. Lemoine Disaster Recovery, a Lafayette, Louisiana construction firm best known for hurricane recovery work, picked up a contract worth up to $83.8 million to build an emergency ICE detention facility — one of several fast-tracked construction awards funneled to Louisiana firms as the state's detention capacity expands.\n\nSmaller equipment vendors tell the same story at a different scale. Duncan-Parnell, a Charlotte surveying and mapping company, sold Customs and Border Protection $5 million in drones as part of an expanding aerial surveillance program. MacGyver Solutions, a North Carolina powersports dealer, has supplied CBP with Polaris and Yamaha ATVs for field operations, building on an earlier award for nearly 100 all-terrain vehicles.\n\nNone of these three had a prior public profile as immigration enforcement contractors. They're regional firms — construction, surveying, powersports — that found a growth market in federal detention and border spending. The throughline is what USASpending.gov data keeps surfacing: enforcement infrastructure isn't just the big detention operators, it's every local vendor in the supply chain underneath them.",
+      "entityIds": [
+        "duncan_parnell",
+        "lemoine_disaster_recovery",
+        "macgyver_solutions"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

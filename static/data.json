@@ -11961,6 +11961,99 @@
         }
       ],
       "addedAt": "2026-07-25"
+    },
+    {
+      "id": "lemoine_disaster_recovery",
+      "name": "Lemoine Disaster Recovery, LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Lemoine Disaster Recovery, LLC is a Lafayette, Louisiana-based construction and disaster-services firm registered with the federal government since 2017. In late 2025, DHS awarded the company a contract worth up to $83.8 million to build an emergency ICE detention facility in Louisiana, one of several no-bid or fast-tracked construction awards made to Louisiana firms as part of the state's expanding detention buildout, according to Facing South's analysis of USASpending.gov data (republished by Truthout).",
+      "blurb": "Construction and disaster-recovery contractor for government and commercial clients.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 83,
+      "source": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "DHS awarded Lemoine Disaster Recovery a contract worth up to $83.8 million to build an emergency ICE detention facility in Louisiana, per Facing South's analysis of USASpending.gov data.",
+          "amountUsd": 83800000,
+          "amountKind": "deal",
+          "actor": "DHS",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-26"
+    },
+    {
+      "id": "duncan_parnell",
+      "name": "Duncan-Parnell, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Duncan-Parnell, Inc. is a Charlotte, North Carolina-based surveying and geospatial equipment dealer that sells drones and mapping technology. In fiscal 2025-2026, Customs and Border Protection awarded the company a $5 million contract for drones, part of the buildout of what reporting has described as an expansive DHS aerial surveillance program, according to Facing South's analysis of USASpending.gov data (republished by Truthout).",
+      "blurb": "Surveying, mapping, and drone equipment dealer serving commercial and government clients.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "CBP awarded Duncan-Parnell a $5 million contract for drones as part of DHS's aerial surveillance buildout, per Facing South's analysis of USASpending.gov data.",
+          "amountUsd": 5000000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-26"
+    },
+    {
+      "id": "macgyver_solutions",
+      "name": "MacGyver Solutions, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "MacGyver Solutions, Inc. is a North Carolina-based, service-disabled-veteran-owned powersports dealer supplying Polaris and Yamaha off-road vehicles to military and government agencies. Customs and Border Protection has contracted with the company for up to $2.2 million in Polaris and Yamaha ATVs and utility vehicles for field operations, building on an earlier ~$900,000 CBP award for nearly 100 Sportsman ATVs, according to Facing South's analysis of USASpending.gov data (republished by Truthout).",
+      "blurb": "Powersports dealer supplying ATVs and utility vehicles to government and military agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "CBP contracted with MacGyver Solutions for up to $2.2 million in Polaris and Yamaha ATVs and utility vehicles for field operations, per Facing South's analysis of USASpending.gov data.",
+          "amountUsd": 2200000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-26"
     }
   ],
   "brands": [
@@ -26935,6 +27028,96 @@
         }
       ],
       "addedAt": "2026-07-25"
+    },
+    {
+      "id": "lemoine_disaster_recovery",
+      "avoid": "Lemoine Disaster Recovery",
+      "ownership": [
+        {
+          "firmId": "lemoine_disaster_recovery",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Lemoine Disaster Recovery, a Lafayette, Louisiana construction firm, was awarded a DHS contract worth up to $83.8 million to build an emergency ICE detention facility, part of a wave of fast-tracked detention construction awards to Louisiana firms reported by Facing South (republished by Truthout) using USASpending.gov data.",
+      "blurb": "Construction and disaster-recovery contractor for government and commercial clients.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "DHS awarded Lemoine Disaster Recovery a contract worth up to $83.8 million to build an emergency ICE detention facility in Louisiana, per Facing South's analysis of USASpending.gov data.",
+          "amountUsd": 83800000,
+          "amountKind": "deal",
+          "actor": "DHS",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-26"
+    },
+    {
+      "id": "duncan_parnell",
+      "avoid": "Duncan-Parnell",
+      "ownership": [
+        {
+          "firmId": "duncan_parnell",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Duncan-Parnell, a Charlotte, NC surveying and drone equipment dealer, sold CBP $5 million in drones as part of DHS's expanding aerial surveillance program, per Facing South's analysis of USASpending.gov data (republished by Truthout).",
+      "blurb": "Surveying, mapping, and drone equipment dealer serving commercial and government clients.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "CBP awarded Duncan-Parnell a $5 million contract for drones as part of DHS's aerial surveillance buildout, per Facing South's analysis of USASpending.gov data.",
+          "amountUsd": 5000000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-26"
+    },
+    {
+      "id": "macgyver_solutions",
+      "avoid": "MacGyver Solutions",
+      "ownership": [
+        {
+          "firmId": "macgyver_solutions",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "MacGyver Solutions, a North Carolina powersports dealer, supplied CBP with up to $2.2 million in Polaris and Yamaha ATVs and utility vehicles for field operations, building on an earlier ~$900,000 CBP ATV award, per Facing South's analysis of USASpending.gov data (republished by Truthout).",
+      "blurb": "Powersports dealer supplying ATVs and utility vehicles to government and military agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "CBP contracted with MacGyver Solutions for up to $2.2 million in Polaris and Yamaha ATVs and utility vehicles for field operations, per Facing South's analysis of USASpending.gov data.",
+          "amountUsd": 2200000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-07-26"
     }
   ]
 }
