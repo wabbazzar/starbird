@@ -3,7 +3,7 @@
 **Created:** 2026-07-23
 **Owner:** Wesley
 **Assignee:** (unassigned)
-**Status:** Drafted, NOT hardened for autonomous build — one open decision blocks Phase 2 (see below)
+**Status:** Phase 1 shipped (`a796aec`, 2026-07-23) — `/shop` emits `shop_resolve` usage lines, verified via `collectors.sh` aggregation. Phase 2 (browser beacon) still blocked on Open Decision #1 (see below).
 **Refs:** mentat:starbird:278e642d (approved via Daily Dispatch)
 
 ---
@@ -124,10 +124,13 @@ beacon) is where the real design work is, and it's gated on this answer.
 
 ## Status
 
-Not executed. Phase 1 is small and buildable without any infrastructure
-decision; Phase 2 requires Wesley to answer Open Decision #1 (expose a new
-public endpoint on wabbazzar-ice, yes/no + abuse posture) before it can be
-hardened into an autonomous build — that's a live, outward-facing change
-this project's gate contract explicitly reserves for a human, not a default.
-Queued rather than built end-to-end. Recommend: confirm Decision #1, then
-re-run through polish-ticket for the full phased/verified build.
+Phase 1 shipped (`a796aec`, 2026-07-23) — `/shop`'s `resolve()` appends a
+`shop_resolve` line to `data/usage/*.jsonl` per candidate resolution;
+verified end-to-end against `agents/design/collectors.sh`'s usage
+aggregation (source 4). Phase 2 (the browser-side `+layout.svelte` beacon
+for page/brand/firm views) is still queued — it requires Wesley to answer
+Open Decision #1 (expose a new public endpoint on wabbazzar-ice, yes/no +
+abuse posture) before it can be hardened into an autonomous build, since
+that's a live, outward-facing change this project's gate contract
+explicitly reserves for a human. Recommend: confirm Decision #1, then
+re-run Phase 2 through polish-ticket for the full phased/verified build.
