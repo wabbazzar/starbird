@@ -1527,6 +1527,24 @@
         "macgyver_solutions"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-27-usaspending_ice_contracts",
+      "date": "2026-07-27",
+      "title": "The ICE supply chain runs through security, staffing, and radio towers",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traces three federal contractors whose work for ICE and Border Patrol goes well beyond the detention centers themselves — a security conglomerate moving detainees, a staffing firm placing clinicians inside facilities, and a communications vendor wiring up Border Patrol's radio network.",
+      "body": "G4S Secure Solutions, now part of Warburg Pincus-backed Allied Universal, has quietly built one of the largest detainee-transport books in the federal contracting world: roughly $1.05 billion in CBP and ICE work since 2008, moving people between ICE Enforcement and Removal Operations field offices in Los Angeles, Phoenix, San Francisco, and San Antonio.\n\nInside the facilities themselves, Jackson Healthcare Government Services holds a $2.62 billion ceiling contract to staff medical, dental, nursing, and pharmacy positions across ICE detention sites — a five-year deal that survived a competitor's GAO bid protest in 2024, keeping the incumbent in place.\n\nAnd behind the scenes, Smyrna, Georgia-based Commdex supplies the land mobile radio towers and tactical communications gear that keep Border Patrol operations connected, part of up to $6 billion in 2025-2026 contract value and a DHS TacCom II award spanning CBP, ICE, and the Coast Guard.\n\nNone of these three companies runs a detention center. Together they move detainees, staff the clinics inside the wire, and build the radio network that coordinates enforcement — the less visible infrastructure that makes mass detention operationally possible.",
+      "entityIds": [
+        "allied_universal",
+        "commdex",
+        "jackson_healthcare",
+        "g4s_secure_solutions",
+        "jackson_healthcare_government_services"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

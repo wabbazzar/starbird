@@ -12054,6 +12054,102 @@
         }
       ],
       "addedAt": "2026-07-26"
+    },
+    {
+      "id": "allied_universal",
+      "name": "Allied Universal",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Allied Universal is a Warburg Pincus-backed private security conglomerate headquartered in Santa Ana, California. In 2021 it acquired UK-based G4S, which operates in the U.S. as G4S Secure Solutions (USA) Inc. and holds long-running federal detainee-transportation contracts. Between 2008 and August 2024, G4S's contracts with CBP and ICE totaled roughly $1.05 billion, covering armed transport of detained immigrants to detention facilities and between ICE Enforcement and Removal Operations field offices in cities including Los Angeles, Phoenix, San Francisco, and San Antonio, per federal procurement records reviewed by the American Friends Service Committee's Investigate project.",
+      "blurb": "Private security, staffing, and detention-transport services conglomerate.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 81,
+      "source": "https://investigate.afsc.org/company/g4s",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Between 2008 and August 2024, G4S's contracts with CBP and ICE totaled roughly $1.05 billion, covering armed transport of detained immigrants to detention facilities and between ICE Enforcement and Removal Operations field offices in cities including Los Angeles, Phoenix, San Francisco, and San Antonio, per federal procurement records reviewed by the American Friends Service Committee's Investigate project.",
+          "date": "2024-08",
+          "amountUsd": 1050000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://investigate.afsc.org/company/g4s"
+        }
+      ],
+      "addedAt": "2026-07-27"
+    },
+    {
+      "id": "jackson_healthcare",
+      "name": "Jackson Healthcare",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Jackson Healthcare is a privately held, Alpharetta, Georgia-based healthcare staffing company founded by Richard L. Jackson. Its subsidiary, Jackson Healthcare Government Services, holds an ICE Enforcement and Removal Operations indefinite-delivery contract (award 70CDCR23D00000008, effective August 31, 2023) with a ceiling value of $2.62 billion to supply medical, dental, nursing, radiology, pharmacy, and records-management staff at ICE detention facilities nationwide, per federal procurement records and a 2024 GAO bid-protest decision.",
+      "blurb": "Healthcare staffing company placing clinical personnel with hospitals and government agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 63,
+      "source": "https://www.gao.gov/products/b-420759.5",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Its subsidiary, Jackson Healthcare Government Services, holds an ICE Enforcement and Removal Operations indefinite-delivery contract (award 70CDCR23D00000008, effective August 31, 2023) with a ceiling value of $2.62 billion to supply medical, dental, nursing, radiology, pharmacy, and records-management staff at ICE detention facilities nationwide, per federal procurement records and a 2024 GAO bid-protest decision.",
+          "date": "2023-08",
+          "amountUsd": 2620000000,
+          "amountKind": "deal",
+          "actor": "ICE Enforcement and Removal Operations",
+          "sourceUrl": "https://www.gao.gov/products/b-420759.5"
+        }
+      ],
+      "addedAt": "2026-07-27"
+    },
+    {
+      "id": "commdex",
+      "name": "Commdex",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Commdex is a privately held communications and information-technology company based in Smyrna, Georgia. Per a January 2026 Facing South analysis of federal procurement data, Commdex holds five 2025-2026 contracts worth up to $6 billion to supply land mobile radio towers, antenna and cellular maintenance, and tactical communications equipment for U.S. Border Patrol, and is one of nine companies awarded both technical categories under the DHS TacCom II IDIQ contract vehicle, which covers communications equipment and services for CBP, ICE, and the U.S. Coast Guard.",
+      "blurb": "Communications and IT infrastructure vendor selling radio, tower, and network equipment.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 64,
+      "source": "https://www.facingsouth.org/2026/01/georgia-companies-poised-bring-10-billion-ice-and-border-patrol-contracts",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Commdex holds five 2025-2026 contracts worth up to $6 billion to supply land mobile radio towers, antenna and cellular maintenance, and tactical communications equipment for U.S. Border Patrol, and is one of nine companies awarded both technical categories under the DHS TacCom II IDIQ contract vehicle, which covers communications equipment and services for CBP, ICE, and the U.S. Coast Guard.",
+          "date": "2026-01",
+          "amountUsd": 6000000000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2026/01/georgia-companies-poised-bring-10-billion-ice-and-border-patrol-contracts"
+        }
+      ],
+      "addedAt": "2026-07-27"
     }
   ],
   "brands": [
@@ -27118,6 +27214,99 @@
         }
       ],
       "addedAt": "2026-07-26"
+    },
+    {
+      "id": "g4s_secure_solutions",
+      "avoid": "G4S Secure Solutions",
+      "ownership": [
+        {
+          "firmId": "allied_universal",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "G4S Secure Solutions (USA) Inc., acquired by Warburg Pincus-backed Allied Universal in 2021, transports detained immigrants for ICE and CBP. Between 2008 and August 2024 its federal detention-transport contracts totaled roughly $1.05 billion, including armed detainee transport between ICE Enforcement and Removal Operations field offices in Los Angeles, Phoenix, San Francisco, and San Antonio, per the American Friends Service Committee's Investigate project.",
+      "blurb": "Contract security firm providing detainee transport and guard services.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Between 2008 and August 2024 its federal detention-transport contracts totaled roughly $1.05 billion, including armed detainee transport between ICE Enforcement and Removal Operations field offices in Los Angeles, Phoenix, San Francisco, and San Antonio, per the American Friends Service Committee's Investigate project.",
+          "date": "2024-08",
+          "amountUsd": 1050000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://investigate.afsc.org/company/g4s"
+        }
+      ],
+      "addedAt": "2026-07-27"
+    },
+    {
+      "id": "jackson_healthcare_government_services",
+      "avoid": "Jackson Healthcare Government Services",
+      "ownership": [
+        {
+          "firmId": "jackson_healthcare",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Jackson Healthcare Government Services holds an ICE Enforcement and Removal Operations indefinite-delivery contract (award 70CDCR23D00000008, effective August 31, 2023) with a ceiling value of $2.62 billion to place medical, dental, nursing, radiology, and pharmacy staff at ICE detention facilities nationwide. A competitor's bid protest challenging the award was rejected by the GAO in 2024, leaving the contract in place.",
+      "blurb": "Staffing agency placing clinical and administrative healthcare workers with government agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Jackson Healthcare Government Services holds an ICE Enforcement and Removal Operations indefinite-delivery contract (award 70CDCR23D00000008, effective August 31, 2023) with a ceiling value of $2.62 billion to place medical, dental, nursing, radiology, and pharmacy staff at ICE detention facilities nationwide. A competitor's bid protest challenging the award was rejected by the GAO in 2024, leaving the contract in place.",
+          "date": "2023-08",
+          "amountUsd": 2620000000,
+          "amountKind": "deal",
+          "actor": "ICE Enforcement and Removal Operations",
+          "sourceUrl": "https://www.gao.gov/products/b-420759.5"
+        }
+      ],
+      "addedAt": "2026-07-27"
+    },
+    {
+      "id": "commdex",
+      "avoid": "Commdex",
+      "ownership": [
+        {
+          "firmId": "commdex",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Commdex, a Smyrna, Georgia communications vendor, holds five 2025-2026 contracts worth up to $6 billion to supply land mobile radio towers, antenna maintenance, and tactical communications equipment for U.S. Border Patrol, and is one of nine companies awarded both technical categories under the DHS TacCom II contract vehicle covering CBP, ICE, and Coast Guard communications, per a January 2026 Facing South analysis of federal procurement data.",
+      "blurb": "Sells and maintains radio towers, antennas, and tactical communications equipment.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Commdex holds five 2025-2026 contracts worth up to $6 billion to supply land mobile radio towers, antenna maintenance, and tactical communications equipment for U.S. Border Patrol, and is one of nine companies awarded both technical categories under the DHS TacCom II contract vehicle covering CBP, ICE, and Coast Guard communications, per a January 2026 Facing South analysis of federal procurement data.",
+          "date": "2026-01",
+          "amountUsd": 6000000000,
+          "amountKind": "deal",
+          "actor": "CBP",
+          "sourceUrl": "https://www.facingsouth.org/2026/01/georgia-companies-poised-bring-10-billion-ice-and-border-patrol-contracts"
+        }
+      ],
+      "addedAt": "2026-07-27"
     }
   ]
 }
