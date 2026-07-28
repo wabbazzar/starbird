@@ -34,6 +34,9 @@ data         = "static/data.json"
 result_dir   = "tmp"
 worktree_dir = ".worktrees"
 
+[notify]
+signal_level = "actionable"
+
 [release]
 # Identical to the gate the runner already invokes. Re-running it inside
 # the release agent gives us pre-commit-gate equivalent enforcement on any
