@@ -47,7 +47,7 @@ build_cmd    = "npm run build"
 [build]
 # The build agent is allowed to touch the runner prompt + runner script +
 # the new data-coercion shim (see
-# docs/tickets/archive/install-guardian-augur-medic.md for the proposed
+# docs/tickets/complete/install-guardian-augur-medic.md for the proposed
 # shim). Schema.ts and data.json itself are off-limits
 # — schema is the contract and data is the runner's territory.
 in_scope_paths = [
@@ -141,8 +141,11 @@ context_files   = [
   ".agents/gates.md",
   "scripts/starbird-runner-prompt.md",
 ]
-ticket_dir      = "docs/tickets/"
-scan_dirs       = ["docs/tickets/", "docs/tickets/archive/"]
+ticket_dir      = "docs/tickets/pending"
+archive_dir     = "docs/tickets/complete"
+backlog_dir     = "docs/tickets/freezer"
+scan_dirs       = ["docs/tickets/pending", "docs/tickets/complete", "docs/tickets/freezer"]
+lifecycle_dirs  = true
 types           = ["feature", "bug", "refactor", "chore", "docs", "test"]
 id_width        = 3
 # Filename: docs/tickets/XXX_<type>_<short_description>.md. Pre-existing

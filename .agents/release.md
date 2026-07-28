@@ -57,7 +57,7 @@ On failure:
      `stake: "post_bankrupt"` (per the Forever 21 precedent on
      2026-04-29)
   Any other invalid stake or unknown shape: report, do not attempt.
-  See `docs/tickets/archive/install-guardian-augur-medic.md` for the
+  See `docs/tickets/complete/install-guardian-augur-medic.md` for the
   proposed standalone coercion shim that the build agent should build.
 
 ## Step 3: Build + adapter-static sanity (daily only)

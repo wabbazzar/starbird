@@ -49,7 +49,7 @@ The single most important doc to keep accurate. Slug table:
 | Runner levers table           | surgical  | env-var reads in `scripts/starbird-runner.sh`            |
 | Cron schedule on wabbazzar-ice| surgical  | `crontab -l` excerpt + the new systemd timers            |
 | Strategy bank section         | rewrite   | `scripts/update-strategy-scores.py` STRATEGIES list + `scripts/labels.py` STRATEGY_LABELS — when these drift from the prose. |
-| Legacy release-check pattern  | rewrite   | superseded by the shipyard crew — see ticket `docs/tickets/archive/install-guardian-augur-medic.md`. If the legacy standalone check script has been removed, drop this section. |
+| Legacy release-check pattern  | rewrite   | superseded by the shipyard crew — see ticket `docs/tickets/complete/install-guardian-augur-medic.md`. If the legacy standalone check script has been removed, drop this section. |
 | Data schema section           | surgical  | `src/lib/schema.ts` field list                            |
 | Brand ranking section         | surgical  | `brandImpactScore()` in `src/routes/+page.svelte`         |
 | Key rule (tags need evidence) | surgical  | enforced in `scripts/starbird-runner-prompt.md`           |
@@ -59,15 +59,15 @@ The single most important doc to keep accurate. Slug table:
 
 Reconcile ticket `Status:` fields against reality.
 
-- `docs/tickets/archive/install-guardian-augur-medic.md` — Status currently
+- `docs/tickets/complete/install-guardian-augur-medic.md` — Status currently
   reads "Ready to install — bindings written, awaiting wire-up".
   As of the first release/medic green run, advance to
   "Installed — three of four agents green, scribe + build still
   failing first-run gates (see ticket body for follow-ups)".
   When all four agents are green for 7 consecutive days, advance
-  to "Complete — close ticket and `git mv` to `docs/tickets/archive/`".
+  to "Complete — close ticket and `git mv` to `docs/tickets/complete/`".
 
-If `docs/tickets/archive/` doesn't exist yet, create it (single
+If `docs/tickets/complete/` doesn't exist yet, create it (single
 empty `.gitkeep` is fine).
 
 ## Hard prohibitions (additive to config.toml content_paths)
