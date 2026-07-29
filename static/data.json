@@ -12150,6 +12150,102 @@
         }
       ],
       "addedAt": "2026-07-27"
+    },
+    {
+      "id": "base_international",
+      "name": "Base International Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Base International Inc. is a Florida-based construction/labor subcontractor owned by Nathan Albers that worked on Camp East Montana, the ICE tent detention camp at Fort Bliss, Texas built under Acquisition Logistics' $1.3 billion contract. On July 21, 2025, Base International employee Hector Gonzalez, 38, was crushed to death by falling composite beams during a forklift unloading operation at the site. OSHA cited the company for exposing workers to struck-by hazards from unstable elevated loads, proposing an $11,585 penalty that Base International is contesting.",
+      "blurb": "Construction and labor-staffing subcontractor for government and detention-facility projects.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 82,
+      "source": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "On July 21, 2025, Base International employee Hector Gonzalez, 38, was crushed to death by falling composite beams during a forklift unloading operation at Camp East Montana. OSHA cited the company for exposing workers to struck-by hazards from unstable elevated loads, proposing an $11,585 penalty that Base International is contesting.",
+          "date": "2025-07",
+          "amountUsd": 11585,
+          "amountKind": "fine",
+          "actor": "OSHA",
+          "sourceUrl": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html"
+        }
+      ],
+      "addedAt": "2026-07-29"
+    },
+    {
+      "id": "jmj_production_services",
+      "name": "JMJ Production Services",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "JMJ Production Services, an Austin, Texas staffing/production subcontractor founded and led by Juan Munoz, worked alongside Base International on the construction of Camp East Montana, the ICE detention camp at Fort Bliss, Texas built under Acquisition Logistics' $1.3 billion contract. After the July 21, 2025 death of worker Hector Gonzalez, OSHA cited JMJ for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; the company settled with OSHA for $15,000 in February 2026.",
+      "blurb": "Staffing and production-services contractor supplying labor to construction and government sites.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "After the July 21, 2025 death of worker Hector Gonzalez at Camp East Montana, OSHA cited JMJ for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; the company settled with OSHA for $15,000 in February 2026.",
+          "date": "2026-02",
+          "amountUsd": 15000,
+          "amountKind": "settlement",
+          "actor": "OSHA",
+          "sourceUrl": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html"
+        }
+      ],
+      "addedAt": "2026-07-29"
+    },
+    {
+      "id": "fulfillment_personnel_services",
+      "name": "Fulfillment Personnel Services",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Fulfillment Personnel Services, a Mobile, Alabama staffing subcontractor, supplied labor for the construction of Camp East Montana, the ICE detention camp at Fort Bliss, Texas built under Acquisition Logistics' $1.3 billion contract. Following the July 21, 2025 death of worker Hector Gonzalez, OSHA cited the company for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; Fulfillment Personnel Services settled with OSHA for $15,000 in February 2026.",
+      "blurb": "Staffing and personnel-supply firm serving construction and government contract sites.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Following the July 21, 2025 death of worker Hector Gonzalez at Camp East Montana, OSHA cited the company for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; Fulfillment Personnel Services settled with OSHA for $15,000 in February 2026.",
+          "date": "2026-02",
+          "amountUsd": 15000,
+          "amountKind": "settlement",
+          "actor": "OSHA",
+          "sourceUrl": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html"
+        }
+      ],
+      "addedAt": "2026-07-29"
     }
   ],
   "brands": [
@@ -27307,6 +27403,99 @@
         }
       ],
       "addedAt": "2026-07-27"
+    },
+    {
+      "id": "base_international",
+      "avoid": "Base International",
+      "ownership": [
+        {
+          "firmId": "base_international",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Base International, a Florida construction/labor subcontractor owned by Nathan Albers, worked on Camp East Montana, the ICE tent detention camp at Fort Bliss, Texas. On July 21, 2025, its employee Hector Gonzalez, 38, was crushed to death by falling composite beams during a forklift unloading operation. OSHA cited the company for exposing workers to struck-by hazards from unstable elevated loads, proposing an $11,585 penalty the company is contesting.",
+      "blurb": "Construction and labor-staffing subcontractor for government and detention-facility projects.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "On July 21, 2025, Base International employee Hector Gonzalez, 38, was crushed to death by falling composite beams during a forklift unloading operation at Camp East Montana. OSHA cited the company for exposing workers to struck-by hazards from unstable elevated loads, proposing an $11,585 penalty that Base International is contesting.",
+          "date": "2025-07",
+          "amountUsd": 11585,
+          "amountKind": "fine",
+          "actor": "OSHA",
+          "sourceUrl": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html"
+        }
+      ],
+      "addedAt": "2026-07-29"
+    },
+    {
+      "id": "jmj_production_services",
+      "avoid": "JMJ Production Services",
+      "ownership": [
+        {
+          "firmId": "jmj_production_services",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "JMJ Production Services, an Austin, Texas staffing subcontractor led by Juan Munoz, worked on Camp East Montana, the ICE detention camp at Fort Bliss, Texas. After the July 21, 2025 death of worker Hector Gonzalez, OSHA cited JMJ for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; the company settled with OSHA for $15,000 in February 2026.",
+      "blurb": "Staffing and production-services contractor supplying labor to construction and government sites.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "After the July 21, 2025 death of worker Hector Gonzalez at Camp East Montana, OSHA cited JMJ for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; the company settled with OSHA for $15,000 in February 2026.",
+          "date": "2026-02",
+          "amountUsd": 15000,
+          "amountKind": "settlement",
+          "actor": "OSHA",
+          "sourceUrl": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html"
+        }
+      ],
+      "addedAt": "2026-07-29"
+    },
+    {
+      "id": "fulfillment_personnel_services",
+      "avoid": "Fulfillment Personnel Services",
+      "ownership": [
+        {
+          "firmId": "fulfillment_personnel_services",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Fulfillment Personnel Services, a Mobile, Alabama staffing subcontractor, supplied labor for the construction of Camp East Montana, the ICE detention camp at Fort Bliss, Texas. Following the July 21, 2025 death of worker Hector Gonzalez, OSHA cited the company for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; it settled with OSHA for $15,000 in February 2026.",
+      "blurb": "Staffing and personnel-supply firm serving construction and government contract sites.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Following the July 21, 2025 death of worker Hector Gonzalez at Camp East Montana, OSHA cited the company for struck-by hazards and for failing to ensure its employees were certified to operate powered industrial trucks; Fulfillment Personnel Services settled with OSHA for $15,000 in February 2026.",
+          "date": "2026-02",
+          "amountUsd": 15000,
+          "amountKind": "settlement",
+          "actor": "OSHA",
+          "sourceUrl": "https://www.military.com/daily-news/2026/04/13/3-contractors-cited-violations-death-of-worker-building-major-ice-detention-camp.html"
+        }
+      ],
+      "addedAt": "2026-07-29"
     }
   ]
 }

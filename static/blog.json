@@ -1545,6 +1545,22 @@
         "jackson_healthcare_government_services"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-29-usaspending_ice_contracts",
+      "date": "2026-07-29",
+      "title": "The subcontractors underneath ICE's billion-dollar tent camp",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Behind Camp East Montana's headline prime contractor sit smaller staffing and construction firms who did the physical build — and paid the price when it went wrong.",
+      "body": "When ICE's Fort Bliss tent camp made news, the story usually stopped at Acquisition Logistics, the firm holding the $1.3 billion prime contract. But the people actually assembling the site were subcontractors: Base International, a Florida labor firm owned by Nathan Albers, and two smaller staffing outfits, JMJ Production Services of Austin and Fulfillment Personnel Services of Mobile, Alabama.\n\nOn July 21, 2025, just two days after work began, Base International employee Hector Gonzalez, 38, was crushed to death when stacked composite beams fell during a forklift unloading operation. OSHA's subsequent investigation cited all three companies for struck-by hazards from unstable elevated loads, and cited JMJ and Fulfillment specifically for letting uncertified workers operate powered industrial trucks.\n\nThe penalties were modest against the scale of the contract: JMJ and Fulfillment each settled for $15,000 in February 2026, while Base International is still contesting its $11,585 citation. None of that changed who built the camp, or that a worker died doing it — a pattern familiar from other rushed federal buildouts, where the prime contractor gets the headline and the subcontractors absorb the risk.",
+      "entityIds": [
+        "base_international",
+        "fulfillment_personnel_services",
+        "jmj_production_services"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
