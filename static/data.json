@@ -27496,6 +27496,91 @@
         }
       ],
       "addedAt": "2026-07-29"
+    },
+    {
+      "id": "kraft_singles",
+      "avoid": "Kraft Singles",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1965"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kraft Singles cannot legally be labeled \"cheese\" — the FDA forced Kraft to rebrand it \"pasteurized prepared cheese product\" after a 2002 formulation change swapped in milk protein concentrate, an additive not permitted in real process cheese, and the product still contains under 51% actual cheese by weight, filled out with whey, emulsifying salts (sodium phosphate, calcium phosphate), and stabilizers. The Environmental Working Group's Food Scores database flags it as an \"unhealthy ultra-processed food,\" meeting its combined nutrition-concern and NOVA group-4 processing thresholds.",
+      "blurb": "Individually wrapped processed cheese slices for sandwiches and burgers.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kraft Singles cannot legally be labeled \"cheese\" — the FDA forced Kraft to rebrand it \"pasteurized prepared cheese product\" after a 2002 formulation change swapped in milk protein concentrate, an additive not permitted in real process cheese, and the product still contains under 51% actual cheese by weight, filled out with whey, emulsifying salts (sodium phosphate, calcium phosphate), and stabilizers. The Environmental Working Group's Food Scores database flags it as an \"unhealthy ultra-processed food,\" meeting its combined nutrition-concern and NOVA group-4 processing thresholds.",
+          "date": "2002",
+          "actor": "FDA",
+          "sourceUrl": "https://www.ewg.org/foodscores/products/021000604715-KraftSinglesPasteurizedPreparedCheeseProductAmerican/"
+        }
+      ],
+      "addedAt": "2026-07-30"
+    },
+    {
+      "id": "banquet",
+      "avoid": "Banquet",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "1980"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Banquet frozen dinners are a textbook NOVA group-4 product: reconstituted meat components, industrial starches, and flavor-additive systems assembled into a pre-prepared frozen dish rather than cooked from whole ingredients. Nutrition-science literature on NOVA classification specifically cites frozen pre-prepared meals like these as leading contributors to sodium intake among ultra-processed food categories, with individual entrees regularly exceeding 700-1,000 mg of sodium per serving.",
+      "blurb": "Low-cost frozen dinners, pot pies, and meal kits sold in grocery freezer aisles.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Banquet frozen dinners are a textbook NOVA group-4 product: reconstituted meat components, industrial starches, and flavor-additive systems assembled into a pre-prepared frozen dish rather than cooked from whole ingredients. Nutrition-science literature on NOVA classification specifically cites frozen pre-prepared meals like these as leading contributors to sodium intake among ultra-processed food categories, with individual entrees regularly exceeding 700-1,000 mg of sodium per serving.",
+          "amountKind": "fees",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Banquet_Foods"
+        }
+      ],
+      "addedAt": "2026-07-30"
+    },
+    {
+      "id": "hamburger_helper",
+      "avoid": "Hamburger Helper",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1971"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hamburger Helper's boxed dry mix is built from enriched wheat pasta, modified corn starch, maltodextrin, hydrolyzed corn/soy/wheat protein, monosodium glutamate, and dried processed cheese powders — additive markers the NOVA system uses to define ultra-processed foods. A single dry-mix serving carries 600-700 mg of sodium before milk and meat are added, and the Environmental Working Group scores the product 6/10 with sodium content per serving reaching as high as 1,461 mg in some varieties.",
+      "blurb": "Boxed dry pasta-and-seasoning mixes meant to be cooked with ground beef.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Hamburger Helper's boxed dry mix is built from enriched wheat pasta, modified corn starch, maltodextrin, hydrolyzed corn/soy/wheat protein, monosodium glutamate, and dried processed cheese powders — additive markers the NOVA system uses to define ultra-processed foods. A single dry-mix serving carries 600-700 mg of sodium before milk and meat are added, and the Environmental Working Group scores the product 6/10 with sodium content per serving reaching as high as 1,461 mg in some varieties.",
+          "amountKind": "fees",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0016000417519/hamburger-helper-lasagna-hamburger-helper-general-mills"
+        }
+      ],
+      "addedAt": "2026-07-30"
     }
   ]
 }

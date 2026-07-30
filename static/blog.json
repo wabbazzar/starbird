@@ -1561,6 +1561,22 @@
         "jmj_production_services"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-07-30-ultraprocessed_nova_tracker",
+      "date": "2026-07-30",
+      "title": "The boxed-and-frozen aisle, decoded by NOVA",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three grocery staples from three different Big Food conglomerates share the same industrial DNA: reconstituted, additive-heavy, and legally distinct from the whole foods they're standing in for.",
+      "body": "Kraft Singles can't be called cheese. After a 2002 FDA warning over a formulation swap, Kraft had to rebrand it \"pasteurized prepared cheese product\" — it's under 51% actual cheese, propped up with whey and emulsifying salts. EWG's Food Scores database flags it outright as an unhealthy ultra-processed food.\n\nConagra's Banquet frozen dinners and General Mills' Hamburger Helper tell the same story from different aisles. Banquet assembles reconstituted meat and industrial starches into a pre-prepared frozen dish — the exact category NOVA researchers point to as a leading source of sodium in the American diet. Hamburger Helper's dry mix leans on modified corn starch, maltodextrin, hydrolyzed protein, and MSG; a single serving carries 600-700 mg of sodium before you've added the meat.\n\nNone of these three companies compete with each other, but they've converged on the same formulation playbook: strip out the ingredient that used to define the product, replace it with cheaper industrial substitutes, and let the label do the rest of the work. That's the throughline NOVA classification exists to make visible.",
+      "entityIds": [
+        "banquet",
+        "hamburger_helper",
+        "kraft_singles"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
