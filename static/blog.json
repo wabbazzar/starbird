@@ -1577,6 +1577,23 @@
         "kraft_singles"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-07-31-adjacent_source_discovery_elite_impunity",
+      "date": "2026-07-31",
+      "title": "The sanctions-evasion middlemen who keep oligarch money moving",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three new entries trace how Russian-linked wealth stays liquid after Western sanctions hit: a telecom carrier shielded inside a billionaire's holding structure, a payments broker moving up to $1 billion a day, and a shell company that bought a foreign bank to launder war funding.",
+      "body": "Alisher Usmanov's USM Holdings shows the classic dodge: keep your personal stake just under 50% so operating companies like mobile carrier MegaFon technically escape sanctions aimed at you. It worked until April 2023, when OFAC and the UK closed the loophole directly, naming MegaFon PAO by name and cutting off the general license that had let the group keep operating.\n\nWhen structuring doesn't work, some networks just buy the infrastructure outright. Altair Holding SA, a Luxembourg shell linked to alleged TGR Group chief George Rossi, purchased 75% of Kyrgyzstan's Keremet Bank on Christmas Day 2024. UK investigators later found Keremet was routing payments for Russian state bank Promsvyazbank to companies supporting Russia's military-industrial base — Altair was sanctioned in August 2025.\n\nUnderneath both sits the plumbing: SCS Consulting, a Russia-facing payments intermediary owned by Aleksandr Maksimkin, who also chairs an inter-governmental committee on cross-border payments with Russia's allies. A 2026 undercover investigation found SCS moving up to $1 billion a day, including a documented shipment disguised through Turkey to reach Germany.\n\nNone of these three had faced comprehensive sanctions before their exposure — each kept moving money for months or years after the initial 2022 sanctions wave by finding a structural gap. The throughline: enforcement is reactive, and the gap always gets found by journalists first.",
+      "entityIds": [
+        "altair_holding_sa",
+        "scs_consulting",
+        "usm_holdings",
+        "keremet_bank",
+        "megafon"
+      ]
     }
   ]
 }

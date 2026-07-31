@@ -12246,6 +12246,102 @@
         }
       ],
       "addedAt": "2026-07-29"
+    },
+    {
+      "id": "usm_holdings",
+      "name": "USM Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "USM Holdings (Holdingovaya Kompaniya Metalloinvest AO's parent structure) is the Russian conglomerate through which billionaire Alisher Usmanov controls Metalloinvest, MegaFon, Udokan Copper, and Akkermann Cement, holding a 49% stake structured to keep his personal March 2022 sanctions from automatically blocking the group's operating companies. On April 12, 2023, OFAC and the UK jointly sanctioned the USM holding structure itself and revoked the general license (issuing a wind-down-only General License 62) that had shielded MegaFon PAO, USM Telecom LLC, and Akkermann Cement from the sanctions imposed on Usmanov personally, finding the minority-stake structuring was a deliberate facilitation mechanism for his 'business empire.'",
+      "blurb": "Russian diversified holding company spanning mining, telecom, and cement, controlled by billionaire Alisher Usmanov.",
+      "brands": [
+        "MegaFon"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 76,
+      "source": "https://home.treasury.gov/news/press-releases/jy1402",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On April 12, 2023, OFAC and the UK jointly sanctioned the USM holding structure itself and revoked the general license (issuing a wind-down-only General License 62) that had shielded MegaFon PAO, USM Telecom LLC, and Akkermann Cement from the sanctions imposed on Usmanov personally, finding the minority-stake structuring was a deliberate facilitation mechanism for his 'business empire.'",
+          "date": "2023-04",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1402"
+        }
+      ],
+      "addedAt": "2026-07-31"
+    },
+    {
+      "id": "scs_consulting",
+      "name": "SCS Consulting",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "SCS Consulting is a Russia-facing payments intermediary owned by Aleksandr Maksimkin, who also chairs an inter-governmental committee on cross-border payments between Russia and allied states. A year-long undercover investigation by SourceMaterial (published 2026) found SCS processes up to $1 billion a day in international transfers (averaging roughly $20 million) to route sanctioned trade around the international banking system, including a documented December 2025 transaction moving 1.5 million for a lorry shipment from Germany to Russia disguised via Turkey.",
+      "blurb": "Russia-facing international payments and cross-border transfer processing firm.",
+      "brands": [
+        "SCS Consulting"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 74,
+      "source": "https://www.source-material.org/russia-sanctions-kremlin-backed-payments-agents/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "A year-long undercover investigation by SourceMaterial (published 2026) found SCS processes up to $1 billion a day in international transfers (averaging roughly $20 million) to route sanctioned trade around the international banking system, including a documented December 2025 transaction moving 1.5 million for a lorry shipment from Germany to Russia disguised via Turkey.",
+          "date": "2025-12",
+          "actor": "SourceMaterial",
+          "sourceUrl": "https://www.source-material.org/russia-sanctions-kremlin-backed-payments-agents/"
+        }
+      ],
+      "addedAt": "2026-07-31"
+    },
+    {
+      "id": "altair_holding_sa",
+      "name": "Altair Holding SA",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Altair Holding SA is a Luxembourg-registered holding company linked to George Rossi, alleged head of the TGR Group money-laundering network. Altair purchased a 75% stake in Kyrgyzstan's Keremet Bank on December 25, 2024, and the UK's National Crime Agency (Operation Destabilise) found Keremet subsequently facilitated cross-border payments on behalf of Russian state-owned Promsvyazbank, supporting companies tied to Russia's military-industrial base. The UK government designated Altair Holding SA under the Russia sanctions regime on August 20, 2025, for exploiting Kyrgyz financial systems and crypto networks to move sanctioned funds.",
+      "blurb": "Luxembourg holding company that acquires stakes in foreign banks and payment networks.",
+      "brands": [
+        "Keremet Bank"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://www.nationalcrimeagency.gov.uk/news/operation-destabilise-nca-exposes-billion-dollar-money-laundering-network-that-purchased-bank-to-fund-russian-war-effort",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The UK government designated Altair Holding SA under the Russia sanctions regime on August 20, 2025, for exploiting Kyrgyz financial systems and crypto networks to move sanctioned funds, after Altair's Keremet Bank was found to facilitate cross-border payments for Russian state-owned Promsvyazbank supporting companies tied to Russia's military-industrial base.",
+          "date": "2025-08-20",
+          "actor": "UK Government (OFSI)",
+          "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/operation-destabilise-nca-exposes-billion-dollar-money-laundering-network-that-purchased-bank-to-fund-russian-war-effort"
+        }
+      ],
+      "addedAt": "2026-07-31"
     }
   ],
   "brands": [
@@ -27581,6 +27677,93 @@
         }
       ],
       "addedAt": "2026-07-30"
+    },
+    {
+      "id": "megafon",
+      "avoid": "MegaFon",
+      "ownership": [
+        {
+          "firmId": "usm_holdings",
+          "stake": "majority",
+          "since": "2002"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "MegaFon PAO is Russia's second-largest mobile carrier, controlled by billionaire Alisher Usmanov through the USM Holdings structure. On April 12, 2023, OFAC named MegaFon PAO specifically in its revocation of the general license that had shielded USM-linked telecom and cement assets from the sanctions already imposed on Usmanov personally, finding the group's 49%-stake structuring was designed to keep operating companies like MegaFon out of reach of his personal sanctions.",
+      "blurb": "Major Russian mobile network operator providing wireless and internet service.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On April 12, 2023, OFAC named MegaFon PAO specifically in its revocation of the general license that had shielded USM-linked telecom and cement assets from the sanctions already imposed on Usmanov personally, finding the group's 49%-stake structuring was designed to keep operating companies like MegaFon out of reach of his personal sanctions.",
+          "date": "2023-04",
+          "actor": "OFAC",
+          "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1402"
+        }
+      ],
+      "addedAt": "2026-07-31"
+    },
+    {
+      "id": "scs_consulting",
+      "avoid": "SCS Consulting",
+      "ownership": [
+        {
+          "firmId": "scs_consulting",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "SCS Consulting, owned by Aleksandr Maksimkin, is an international payments intermediary that SourceMaterial's 2026 undercover investigation found processes up to $1 billion a day in transfers to move sanctioned Russian trade around the global banking system. Reporters documented a December 2025 transaction of 1.5 million euros disguising a Germany-to-Russia lorry shipment by routing it through Turkey.",
+      "blurb": "International payments processing and cross-border transfer intermediary.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Reporters documented a December 2025 transaction of 1.5 million euros disguising a Germany-to-Russia lorry shipment by routing it through Turkey.",
+          "date": "2025-12",
+          "actor": "SourceMaterial",
+          "sourceUrl": "https://www.source-material.org/russia-sanctions-kremlin-backed-payments-agents/"
+        }
+      ],
+      "addedAt": "2026-07-31"
+    },
+    {
+      "id": "keremet_bank",
+      "avoid": "Keremet Bank",
+      "ownership": [
+        {
+          "firmId": "altair_holding_sa",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Keremet Bank is a Kyrgyzstan-based bank whose 75% stake was acquired by Altair Holding SA on December 25, 2024. The UK National Crime Agency's Operation Destabilise found Keremet subsequently facilitated cross-border payments on behalf of Russian state-owned Promsvyazbank, supporting companies tied to Russia's military-industrial base, leading the UK to sanction the bank's parent, Altair Holding SA, on August 20, 2025.",
+      "blurb": "Commercial bank based in Kyrgyzstan offering retail and business banking services.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The UK National Crime Agency's Operation Destabilise found Keremet subsequently facilitated cross-border payments on behalf of Russian state-owned Promsvyazbank, supporting companies tied to Russia's military-industrial base, leading the UK to sanction the bank's parent, Altair Holding SA, on August 20, 2025.",
+          "date": "2025-08-20",
+          "actor": "UK NCA / OFSI",
+          "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/operation-destabilise-nca-exposes-billion-dollar-money-laundering-network-that-purchased-bank-to-fund-russian-war-effort"
+        }
+      ],
+      "addedAt": "2026-07-31"
     }
   ]
 }
