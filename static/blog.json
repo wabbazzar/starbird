@@ -1594,6 +1594,22 @@
         "keremet_bank",
         "megafon"
       ]
+    },
+    {
+      "id": "2026-08-01-ultraprocessed_nova_tracker",
+      "date": "2026-08-01",
+      "title": "Three household snack brands, one industrial formula",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Cheez-It, Wheat Thins, and Ruffles are all NOVA Group 4 ultra-processed foods — their own manufacturers' ingredient labels show why.",
+      "body": "Cheez-It, Wheat Thins, and Ruffles sit in three different pantries across three different conglomerates — Kellanova, Mondelez, and PepsiCo — but their ingredient panels tell the same story. Each relies on additives with no home-kitchen equivalent: TBHQ preserving the oil in Cheez-It, calcium phosphate leavening in Wheat Thins, and MSG plus artificial colors (Yellow 5, Yellow 6) flavoring Ruffles' cheddar and sour cream line. That's the defining marker of NOVA Group 4 in the peer-reviewed ultra-processed food classification literature: industrial formulations built from isolated ingredients and cosmetic additives, not foods you'd recognize from a kitchen.\n\nSodium adds up fast across all three. A single 42g pouch of Cheez-It carries 320mg, a 16-cracker Wheat Thins serving carries 200mg, and a 28g bag of Ruffles carries roughly 180mg — modest per-serving numbers that compound quickly given how these snacks are actually eaten.\n\nNone of this is hidden. Every ingredient and additive cited here comes straight from Kellanova, Mondelez, and PepsiCo's own SmartLabel disclosures. The harm isn't a secret formula — it's a business model built on shelf-stable, flavor-engineered snacks sold at scale.",
+      "entityIds": [
+        "cheez_it",
+        "ruffles",
+        "wheat_thins"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
