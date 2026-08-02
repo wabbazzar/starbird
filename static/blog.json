@@ -1610,6 +1610,23 @@
         "wheat_thins"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-08-02-pesp_bankruptcy_tracker",
+      "date": "2026-08-02",
+      "title": "Three more debt-loaded buyouts that ended in bankruptcy court",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "This run tracks the 2025 wave of PE-backed Chapter 11 filings: an edtech merger, an auto-parts rollup, and a meatpacking sanitation contractor with a child-labor scandal in its wake.",
+      "body": "Veritas Capital's 2021 merger of Blackboard and Anthology loaded the combined edtech company with $1.625B in debt. Anthology skipped interest payments through late 2024 and early 2025, watched EBITDA collapse from $33M to $4M, and filed Chapter 11 in September 2025 after a sale process fell apart.\n\nKKR built Marelli the same way: a $4.5B buyout of Calsonic Kansei in 2017, a $6.5B buyout of Magneti Marelli in 2019, merged into roughly $11.5B of acquisition debt. The combined auto-parts supplier filed Chapter 11 in June 2025 carrying $4.9B in liabilities, most of it financial debt, and needed $1.1B in debtor-in-possession financing just to keep running.\n\nBlackstone's Packers Sanitation Services (now Fortrex) took a different route to the same place. After a 2023 Department of Labor investigation found over 100 children illegally cleaning meatpacking plants overnight, the company lost business and revenue fell 14.5% year-over-year by mid-2025. By October it had missed a debt payment and was negotiating a debt-for-equity handover to lenders.\n\nDifferent sectors, same shape: leverage a company up during the buyout, then let the debt service — not the underlying business — decide whether it survives a downturn.",
+      "entityIds": [
+        "veritas_capital",
+        "anthology",
+        "fortrex",
+        "marelli"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
     }
   ]
 }

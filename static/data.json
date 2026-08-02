@@ -12346,6 +12346,35 @@
 				}
 			],
 			"addedAt": "2026-07-31"
+		},
+		{
+			"id": "veritas_capital",
+			"name": "Veritas Capital",
+			"aum": "$44B",
+			"aumVal": 44,
+			"summary": "Private-equity firm specializing in leveraged buyouts of technology and services companies, particularly in education, healthcare, and government sectors. Its 2021 merger of Blackboard and Anthology loaded the combined edtech company with $1.625B in debt; Anthology skipped interest payments in late 2024 and early 2025 and filed for Chapter 11 bankruptcy in September 2025 after a failed sale process, with EBITDA collapsing from $33M to $4M between FY2023 and FY2025, per Bloomberg and PESP reporting.",
+			"blurb": "Private-equity firm; buys technology and services companies via leveraged buyouts.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "Anthology (edtech, formerly Blackboard) — Chapter 11, September 2025",
+			"harmScore": 68,
+			"source": "https://www.bloomberg.com/news/articles/2025-09-30/veritas-backed-software-provider-anthology-files-for-bankruptcy",
+			"cats": [],
+			"harms": [
+				"extraction_debt_loading"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_debt_loading",
+					"text": "Its 2021 merger of Blackboard and Anthology loaded the combined edtech company with $1.625B in debt; Anthology skipped interest payments in late 2024 and early 2025 and filed for Chapter 11 bankruptcy in September 2025 after a failed sale process, with EBITDA collapsing from $33M to $4M between FY2023 and FY2025, per Bloomberg and PESP reporting.",
+					"date": "2025-09",
+					"amountUsd": 1625000000,
+					"amountKind": "debt",
+					"sourceUrl": "https://www.bloomberg.com/news/articles/2025-09-30/veritas-backed-software-provider-anthology-files-for-bankruptcy"
+				}
+			],
+			"addedAt": "2026-08-02"
 		}
 	],
 	"brands": [
@@ -27849,6 +27878,105 @@
 				}
 			],
 			"addedAt": "2026-08-01"
+		},
+		{
+			"id": "anthology",
+			"avoid": "Anthology",
+			"ownership": [
+				{
+					"firmId": "veritas_capital",
+					"stake": "majority",
+					"since": "2021"
+				}
+			],
+			"cat": "tech",
+			"alts": [],
+			"why": "Anthology, the education-software company that owns Blackboard, filed for Chapter 11 bankruptcy in September 2025 in the Southern District of Texas, listing $1B–$10B in liabilities. The debt burden traces to Veritas Capital's 2021 merger of Blackboard and Anthology, which saddled the combined company with $1.625B in debt; revenue fell $80M and EBITDA dropped from $33M to $4M between FY2023 and FY2025 as the company skipped interest payments while pursuing a failed sale process, per Bloomberg and PESP reporting.",
+			"blurb": "Higher-education software platform (Blackboard learning management system).",
+			"harms": [
+				"extraction_debt_loading"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_debt_loading",
+					"text": "The debt burden traces to Veritas Capital's 2021 merger of Blackboard and Anthology, which saddled the combined company with $1.625B in debt; revenue fell $80M and EBITDA dropped from $33M to $4M between FY2023 and FY2025 as the company skipped interest payments while pursuing a failed sale process, per Bloomberg and PESP reporting.",
+					"date": "2025-09",
+					"amountUsd": 1625000000,
+					"amountKind": "debt",
+					"sourceUrl": "https://www.bloomberg.com/news/articles/2025-09-30/veritas-backed-software-provider-anthology-files-for-bankruptcy"
+				}
+			],
+			"addedAt": "2026-08-02"
+		},
+		{
+			"id": "marelli",
+			"avoid": "Marelli",
+			"ownership": [
+				{
+					"firmId": "kkr",
+					"stake": "majority",
+					"since": "2019"
+				}
+			],
+			"cat": "tech",
+			"alts": [],
+			"why": "Marelli, the auto-parts supplier KKR built by merging Calsonic Kansei ($4.5B, 2017) and Magneti Marelli ($6.5B, 2019) into roughly $11.5B of combined debt-funded acquisitions, filed for Chapter 11 bankruptcy on June 11, 2025 in Delaware with approximately $4.9B in total liabilities, most of it financial debt. The company secured $1.1B in debtor-in-possession financing to keep operating while creditors representing about 80% of the debt executed a restructuring support agreement, per Davis Polk and Financier Worldwide reporting.",
+			"blurb": "Automotive parts supplier — lighting, powertrain, and electronics systems.",
+			"harms": [
+				"extraction_debt_loading"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_debt_loading",
+					"text": "Marelli, the auto-parts supplier KKR built by merging Calsonic Kansei ($4.5B, 2017) and Magneti Marelli ($6.5B, 2019) into roughly $11.5B of combined debt-funded acquisitions, filed for Chapter 11 bankruptcy on June 11, 2025 in Delaware with approximately $4.9B in total liabilities, most of it financial debt.",
+					"date": "2025-06",
+					"amountUsd": 4900000000,
+					"amountKind": "debt",
+					"sourceUrl": "https://www.davispolk.com/experience/marelli-prearranged-chapter-11-filing-and-restructuring-support-agreement"
+				}
+			],
+			"addedAt": "2026-08-02"
+		},
+		{
+			"id": "fortrex",
+			"avoid": "Fortrex (Packers Sanitation Services)",
+			"ownership": [
+				{
+					"firmId": "blackstone",
+					"stake": "majority",
+					"since": "2018"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Packers Sanitation Services (rebranded Fortrex), Blackstone's meatpacking-plant sanitation contractor, paid a $1.5M Department of Labor penalty in February 2023 after federal investigators found more than 100 children, some as young as 13, illegally employed in hazardous overnight cleaning jobs across 13 facilities in eight states. The fallout continued into 2025: revenue dropped 14.5% year-over-year in Q2 2025 tied to lost business from the scandal, and by October 2025 the company missed a debt payment and entered lender talks over a debt-for-equity restructuring, per CreditSights and PESP reporting.",
+			"blurb": "Contract sanitation and cleaning services for meat and poultry processing plants.",
+			"harms": [
+				"workers_general",
+				"extraction_debt_loading"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_general",
+					"text": "Packers Sanitation Services (rebranded Fortrex), Blackstone's meatpacking-plant sanitation contractor, paid a $1.5M Department of Labor penalty in February 2023 after federal investigators found more than 100 children, some as young as 13, illegally employed in hazardous overnight cleaning jobs across 13 facilities in eight states.",
+					"date": "2023-02",
+					"amountUsd": 1500000,
+					"amountKind": "fine",
+					"actor": "US Department of Labor",
+					"sourceUrl": "https://www.bloomberg.com/news/articles/2023-10-04/blackstone-s-slaughterhouse-blacklist-puts-svp-trades-in-limbo"
+				},
+				{
+					"tag": "extraction_debt_loading",
+					"text": "The fallout continued into 2025: revenue dropped 14.5% year-over-year in Q2 2025 tied to lost business from the scandal, and by October 2025 the company missed a debt payment and entered lender talks over a debt-for-equity restructuring, per CreditSights and PESP reporting.",
+					"date": "2025-10",
+					"amountKind": "debt",
+					"sourceUrl": "https://know.creditsights.com/insights/us-special-situations-packers-sanitation-lenders-in-talks-to-take-over-equity-as-negotiations-turn-to-potential-bankruptcy/"
+				}
+			],
+			"addedAt": "2026-08-02"
 		}
 	]
 }
