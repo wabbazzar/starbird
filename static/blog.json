@@ -1627,6 +1627,24 @@
         "marelli"
       ],
       "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-08-03-usaspending_ice_contracts",
+      "date": "2026-08-03",
+      "title": "The IT giant, the ANC shell, and the data broker chasing ICE money",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traces three very different companies into the same federal contract pipeline: a French IT conglomerate, an Alaska Native Corporation subsidiary, and a scrappy Austin data broker, all now paid to help ICE find and track people.",
+      "body": "Capgemini, one of the world's largest IT consulting groups, might seem an unlikely name on an ICE contractor list. But its U.S. subsidiary, Capgemini Government Solutions, took the largest of ICE's 13 skip-tracing awards in December 2025 — a deal worth up to $365 million over two years to locate immigrants with deportation orders. The contract set off enough backlash in France that Capgemini announced plans to sell the subsidiary.\n\nChenega Defense & Aerospace Solutions shows a different route into the same pipeline. As a subsidiary of Chenega Corporation, an Alaska Native Corporation, it can win federal work without open competition under SBA set-aside rules. In April 2026 it picked up an ICE/DHS contract to supply Penlink PLX — software that intercepts and analyzes phone calls, texts, and internet activity for the Homeland Security Task Force.\n\nWhooster is smaller still: an Austin, Texas investigative-data startup founded in 2013, aggregating arrest records, corporate filings, and phone data from 150-plus countries. ICE's Homeland Security Investigations arm has quietly renewed its contract for foreign telephone subscriber data heading into fiscal 2026.\n\nThree companies, three sizes, three ownership structures — all now line items in the same enforcement infrastructure.",
+      "entityIds": [
+        "capgemini",
+        "chenega_corporation",
+        "whooster",
+        "capgemini_government_solutions",
+        "chenega_defense_aerospace_solutions"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
