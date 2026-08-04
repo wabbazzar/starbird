@@ -28160,6 +28160,89 @@
         }
       ],
       "addedAt": "2026-08-03"
+    },
+    {
+      "id": "totinos",
+      "avoid": "Totino's",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1975"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Totino's Pizza Rolls, made by General Mills, are classified as NOVA Group 4 ultra-processed food, per NOVA-based scoring platforms including EWG Food Scores and Open Food Facts. EWG's database flags Totino's Pizza Rolls for containing four additives on its list of ingredients of concern: TBHQ (tert-Butylhydroquinone), titanium dioxide, sodium nitrite, and BHA — a synthetic antioxidant restricted in the EU. The product's ingredient list includes imitation mozzarella cheese and heavily reformulated pizza toppings rather than whole-food ingredients, consistent with NOVA's definition of industrial formulations designed for shelf stability and palatability rather than nutrition.",
+      "blurb": "Frozen snack brand making pizza rolls and other microwavable appetizers.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-08-04",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "EWG's database flags Totino's Pizza Rolls for containing four additives on its list of ingredients of concern: TBHQ (tert-Butylhydroquinone), titanium dioxide, sodium nitrite, and BHA — a synthetic antioxidant restricted in the EU.",
+          "actor": "EWG",
+          "sourceUrl": "https://www.ewg.org/foodscores/products/042800109521-TotinosPizzaRollsCombinationSausagePepperoniSeasonedPorkChickenandBeefPizzaToppingPizzainaGoldenCrustSnacksCombination/"
+        }
+      ]
+    },
+    {
+      "id": "skittles",
+      "avoid": "Skittles",
+      "ownership": [
+        {
+          "firmId": "mars_inc",
+          "stake": "majority",
+          "since": "1974"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Skittles, made by Mars, contain five of the seven most common synthetic food dyes — Red 40, Yellow 5, Yellow 6, Blue 1, and Blue 2 — plus the whitening agent titanium dioxide, according to CSPI testing that found Skittles Original carries 33.3 mg of synthetic dye per serving, among the highest of any candy tested. CSPI's Chemical Cuisine database rates synthetic dyes 'Avoid,' citing links to hyperactivity in children, and Mars publicly pledged in 2016 to remove artificial colors from its full food portfolio within five years but abandoned that commitment for its candy and snack lines in 2021, keeping synthetic dyes in Skittles even as it removed them from dinnertime products.",
+      "blurb": "Fruit-flavored chewy candy brand.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-08-04",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Skittles Original carries 33.3 mg of synthetic dye per serving (Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2), among the highest of any candy tested by CSPI, plus titanium dioxide; CSPI rates synthetic dyes \"Avoid\" for links to hyperactivity in children. Mars pledged in 2016 to remove artificial colors from its full portfolio within five years but abandoned that commitment for candy and snacks in 2021.",
+          "actor": "CSPI",
+          "sourceUrl": "https://www.cspi.org/chemical-cuisine/artificial-colorings-synthetic-food-dyes"
+        }
+      ]
+    },
+    {
+      "id": "kit_kat",
+      "avoid": "Kit Kat",
+      "ownership": [
+        {
+          "firmId": "nestle_usa",
+          "stake": "majority",
+          "since": "1988"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kit Kat, made by Nestlé, is classified as NOVA Group 4 ultra-processed based on its ingredient profile: sugar, wheat flour, whole milk powder, cocoa mass, cocoa butter, multiple forms of vegetable fat (palm, shea, palm kernel, sal), whey product, skimmed milk powder, an emulsifier (lecithins), glucose syrup, and butterfat combined into an industrial formulation rather than a whole-food product, per ingredient data compiled by Open Food Facts. The bar's reliance on palm and palm kernel oil ties it to the deforestation and labor concerns associated with unsustainably sourced palm oil in confectionery supply chains.",
+      "blurb": "Wafer chocolate candy bar brand.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-08-04",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kit Kat ingredients include sugar, wheat flour, whole milk powder, cocoa mass, cocoa butter, multiple forms of vegetable fat (palm, shea, palm kernel, sal), whey product, skimmed milk powder, an emulsifier (lecithins), and glucose syrup — an industrial formulation consistent with NOVA Group 4 ultra-processed classification.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0034000087662/kit-kat-snack-size-nestle-kitkat"
+        }
+      ]
     }
   ]
 }

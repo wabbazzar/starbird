@@ -1645,6 +1645,22 @@
         "chenega_defense_aerospace_solutions"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-04-ultraprocessed_nova_tracker",
+      "date": "2026-08-04",
+      "title": "Three ultra-processed household names, one shared design",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Totino's, Skittles, and Kit Kat sit in different aisles but share the same NOVA Group 4 playbook: industrial reformulation, synthetic additives, and ingredients chosen for shelf life over nutrition.",
+      "body": "Totino's Pizza Rolls, owned by General Mills, carry four additives EWG flags as ingredients of concern — TBHQ, titanium dioxide, sodium nitrite, and BHA — inside a filling built from imitation cheese and reformulated toppings rather than whole-food ingredients.\n\nSkittles, made by Mars, layer five synthetic dyes (Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2) plus titanium dioxide into a single serving — CSPI measured 33.3 mg of dye per serving, among the highest of any candy tested. Mars promised in 2016 to drop artificial colors company-wide within five years, then walked that back for its candy and snack lines in 2021.\n\nKit Kat, made by Nestlé, swaps whole ingredients for an engineered stack of sugar, multiple industrial vegetable fats (palm, shea, palm kernel, sal), whey product, and lecithin emulsifiers — the same formulation pattern NOVA researchers use to define ultra-processing.\n\nThree different conglomerates, three different product categories, one common thread: reformulate for cost and shelf stability, then market the result as food.",
+      "entityIds": [
+        "kit_kat",
+        "skittles",
+        "totinos"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
