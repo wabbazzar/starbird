@@ -12465,6 +12465,94 @@
         }
       ],
       "addedAt": "2026-08-03"
+    },
+    {
+      "id": "gulf_south_research_group",
+      "name": "Gulf South Research Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Baton Rouge, Louisiana-based environmental consulting and engineering firm. Gulf South Research Group holds ICE and CBP contracts worth up to $21.6 million for environmental assessments and site planning tied to border wall construction, per a December 2025 Facing South investigation into companies profiting from the Trump administration's border enforcement buildout.",
+      "blurb": "Environmental consulting and engineering firm providing site assessments for infrastructure projects.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Gulf South Research Group holds ICE and CBP contracts worth up to $21.6 million for environmental assessments and site planning tied to border wall construction, per a December 2025 Facing South investigation.",
+          "amountUsd": 21600000,
+          "amountKind": "deal",
+          "date": "2025-12",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-08-05"
+    },
+    {
+      "id": "caduceus_healthcare",
+      "name": "Caduceus Healthcare Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Atlanta, Georgia-based federal contractor providing emergency management and medical staffing services to government agencies including DHS, FEMA, HHS, DoD, and VA. Caduceus Healthcare holds four ICE and Border Patrol contracts worth up to $161.6 million for 'site coordination, emergency detention, and related services' at immigration detention centers, per a January 2026 Facing South investigation and confirmed via public USAspending.gov award records.",
+      "blurb": "Federal contractor providing emergency management and medical staffing services to government agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.facingsouth.org/2026/01/georgia-companies-poised-bring-10-billion-ice-and-border-patrol-contracts",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Caduceus Healthcare holds four ICE and Border Patrol contracts worth up to $161.6 million for 'site coordination, emergency detention, and related services' at immigration detention centers, per a January 2026 Facing South investigation, with individual awards confirmed on USAspending.gov.",
+          "amountUsd": 161600000,
+          "amountKind": "deal",
+          "date": "2026-01",
+          "sourceUrl": "https://www.facingsouth.org/2026/01/georgia-companies-poised-bring-10-billion-ice-and-border-patrol-contracts"
+        }
+      ],
+      "addedAt": "2026-08-05"
+    },
+    {
+      "id": "glock",
+      "name": "Glock",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Austrian-founded firearms manufacturer whose U.S. subsidiary, Glock Inc., is the sole vendor on a Customs and Border Protection IDIQ contract used to arm ICE field agents. ICE placed orders worth nearly $1.6 million for Glock 19 9mm pistols and accessories in 2025 with no competitive bidding, while Border Patrol separately signed a 10-year, $85 million contract to refit its duty handguns with Glock Gen 5 pistols — pushing Glock's total DHS contract revenue to $8.3 million in 2025, more than the previous four years combined, per CBP's official announcement and reporting by LAist and USA Carry.",
+      "blurb": "Austrian firearms manufacturer best known for polymer-framed semi-automatic pistols.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 64,
+      "source": "https://www.cbp.gov/newsroom/national-media-release/cbp-awards-contract-duty-handguns",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "ICE placed orders worth nearly $1.6 million for Glock 19 9mm pistols and accessories in 2025 with no competitive bidding under an existing CBP IDIQ contract, while Border Patrol signed a separate 10-year, $85 million contract for Glock Gen 5 duty pistols, pushing Glock's total 2025 DHS contract revenue to $8.3 million.",
+          "amountUsd": 8300000,
+          "amountKind": "deal",
+          "date": "2025",
+          "actor": "CBP",
+          "sourceUrl": "https://www.cbp.gov/newsroom/national-media-release/cbp-awards-contract-duty-handguns"
+        }
+      ],
+      "addedAt": "2026-08-05"
     }
   ],
   "brands": [
@@ -28243,6 +28331,97 @@
           "sourceUrl": "https://world.openfoodfacts.org/product/0034000087662/kit-kat-snack-size-nestle-kitkat"
         }
       ]
+    },
+    {
+      "id": "gulf_south_research_group",
+      "avoid": "Gulf South Research Group",
+      "ownership": [
+        {
+          "firmId": "gulf_south_research_group",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Gulf South Research Group holds ICE and CBP contracts worth up to $21.6 million for environmental assessments and site planning tied to border wall construction, per a December 2025 Facing South investigation into companies profiting from the Trump administration's border enforcement buildout.",
+      "blurb": "Environmental consulting and engineering firm providing site assessments for infrastructure projects.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Gulf South Research Group holds ICE and CBP contracts worth up to $21.6 million for environmental assessments and site planning tied to border wall construction, per a December 2025 Facing South investigation.",
+          "amountUsd": 21600000,
+          "amountKind": "deal",
+          "date": "2025-12",
+          "sourceUrl": "https://www.facingsouth.org/2025/12/whos-making-big-money-border-patrol-and-ice-contracts"
+        }
+      ],
+      "addedAt": "2026-08-05"
+    },
+    {
+      "id": "caduceus_healthcare",
+      "avoid": "Caduceus Healthcare",
+      "ownership": [
+        {
+          "firmId": "caduceus_healthcare",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Caduceus Healthcare holds four ICE and Border Patrol contracts worth up to $161.6 million for 'site coordination, emergency detention, and related services' at immigration detention centers, per a January 2026 Facing South investigation and confirmed via public USAspending.gov award records.",
+      "blurb": "Federal contractor providing emergency management and medical staffing services to government agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Caduceus Healthcare holds four ICE and Border Patrol contracts worth up to $161.6 million for 'site coordination, emergency detention, and related services' at immigration detention centers, per a January 2026 Facing South investigation, with individual awards confirmed on USAspending.gov.",
+          "amountUsd": 161600000,
+          "amountKind": "deal",
+          "date": "2026-01",
+          "sourceUrl": "https://www.facingsouth.org/2026/01/georgia-companies-poised-bring-10-billion-ice-and-border-patrol-contracts"
+        }
+      ],
+      "addedAt": "2026-08-05"
+    },
+    {
+      "id": "glock",
+      "avoid": "Glock",
+      "ownership": [
+        {
+          "firmId": "glock",
+          "stake": "majority",
+          "since": "1963"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Glock Inc., the U.S. subsidiary of the Austrian firearms maker, is the sole vendor on a CBP IDIQ contract used to arm ICE field agents with Glock 19 9mm pistols — nearly $1.6 million in no-bid ICE orders in 2025 — while Border Patrol separately signed a 10-year, $85 million contract for Glock Gen 5 duty pistols, pushing Glock's total 2025 DHS contract revenue to $8.3 million, more than the previous four years combined.",
+      "blurb": "Austrian firearms manufacturer best known for polymer-framed semi-automatic pistols.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Glock Inc. is the sole vendor on a CBP IDIQ contract used to arm ICE field agents with Glock 19 9mm pistols — nearly $1.6 million in no-bid ICE orders in 2025 — while Border Patrol signed a separate 10-year, $85 million contract for Glock Gen 5 duty pistols, pushing Glock's total 2025 DHS contract revenue to $8.3 million.",
+          "amountUsd": 8300000,
+          "amountKind": "deal",
+          "date": "2025",
+          "actor": "CBP",
+          "sourceUrl": "https://www.cbp.gov/newsroom/national-media-release/cbp-awards-contract-duty-handguns"
+        }
+      ],
+      "addedAt": "2026-08-05"
     }
   ]
 }

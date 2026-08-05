@@ -1661,6 +1661,22 @@
         "totinos"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-08-05-usaspending_ice_contracts",
+      "date": "2026-08-05",
+      "title": "The everyday vendors behind ICE's spending surge",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "Federal contract records show ICE's enforcement buildout runs on unglamorous middle-tier vendors — an environmental consultancy, a medical staffing firm, and a gun maker you've heard of — not just the household-name defense primes.",
+      "body": "Gulf South Research Group, a Baton Rouge environmental engineering firm, holds up to $21.6 million in ICE and CBP contracts for the site assessments and environmental clearances that precede border wall construction — the kind of technical paperwork that makes enforcement infrastructure possible without ever showing up in a headline about detention.\n\nCaduceus Healthcare, an Atlanta-based federal contractor built on FEMA and VA emergency-management work, has pivoted hard into immigration enforcement: four contracts worth up to $161.6 million for site coordination and 'emergency detention' services at ICE and Border Patrol facilities, confirmed against public USAspending.gov award records.\n\nAnd then there's Glock. The Austrian pistol maker's U.S. subsidiary is the sole, no-bid vendor on a CBP contract arming ICE field agents with Glock 19s, while Border Patrol separately signed a 10-year, $85 million deal for Glock Gen 5 duty pistols — pushing Glock's 2025 DHS revenue to $8.3 million, more than the prior four years combined.\n\nNone of these three is a name most people would associate with immigration enforcement. That's the pattern this run surfaces: the contractor base behind ICE's 69% year-over-year spending jump isn't concentrated in a few famous primes — it's spread across consultancies, staffing firms, and consumer brands that most buyers never think to check.",
+      "entityIds": [
+        "caduceus_healthcare",
+        "glock",
+        "gulf_south_research_group"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
