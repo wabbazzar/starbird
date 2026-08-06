@@ -20,7 +20,8 @@ import path from 'node:path';
 import url from 'node:url';
 
 const here = path.dirname(url.fileURLToPath(import.meta.url));
-const dataPath = path.resolve(here, '..', 'static', 'data.json');
+// DATA_PATH env var allows tests to point at a temp file without touching static/data.json
+const dataPath = process.env.DATA_PATH ?? path.resolve(here, '..', 'static', 'data.json');
 
 const raw = fs.readFileSync(dataPath, 'utf8');
 let data = JSON.parse(raw);
@@ -42,6 +43,7 @@ if (typeof data.version !== 'number') {
 
 for (const [bi, brand] of (data.brands ?? []).entries()) {
 	for (const [oi, own] of (brand.ownership ?? []).entries()) {
+		// Numeric since/until → string (e.g. 2017 → "2017")
 		for (const field of ['since', 'until']) {
 			if (typeof own[field] === 'number') {
 				const before = own[field];
@@ -51,6 +53,36 @@ for (const [bi, brand] of (data.brands ?? []).entries()) {
 				);
 				fixes++;
 			}
+		}
+
+		// stake: "self-owned" → "majority"
+		// Self-owned actors are recorded as majority-stake ownership of a firm with aumVal:0.
+		if (own.stake === 'self-owned') {
+			own.stake = 'majority';
+			console.error(`coerce-data: brands[${bi}].ownership[${oi}].stake: "self-owned" → "majority"`);
+			fixes++;
+		}
+
+		// stake: "majority (YYYY-YYYY)" → stake:"former", until:"YYYY" (end year)
+		const rangeMatch = typeof own.stake === 'string' && own.stake.match(/^majority\s+\((\d{4})-(\d{4})\)$/);
+		if (rangeMatch) {
+			const before = own.stake;
+			own.stake = 'former';
+			own.until = rangeMatch[2];
+			console.error(
+				`coerce-data: brands[${bi}].ownership[${oi}].stake: "${before}" → stake:"former" + until:"${own.until}"`
+			);
+			fixes++;
+		}
+
+		// stake: "IP owner" | "licensee" | "trademark holder" → "post_bankrupt"
+		if (['IP owner', 'licensee', 'trademark holder'].includes(own.stake)) {
+			const before = own.stake;
+			own.stake = 'post_bankrupt';
+			console.error(
+				`coerce-data: brands[${bi}].ownership[${oi}].stake: "${before}" → "post_bankrupt"`
+			);
+			fixes++;
 		}
 	}
 }
