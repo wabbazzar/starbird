@@ -23,6 +23,14 @@ const config = {
 		},
 		prerender: {
 			handleMissingId: 'ignore'
+		},
+		// The runner redeploys daily, which renames every hashed JS chunk.
+		// Poll for a new deployment so the `updated` store flips; +layout.svelte
+		// then forces a full reload on the next navigation instead of importing a
+		// chunk the new build already deleted ("Failed to fetch dynamically
+		// imported module").
+		version: {
+			pollInterval: 60000
 		}
 	}
 };
