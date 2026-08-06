@@ -42,6 +42,8 @@ Systemd timers (agent infrastructure; renamed to the shipyard/spacetime theme, s
 
 Check timers: `systemctl --user list-timers | grep starbird`.
 
+Standing (non-timer) service: **`starbird-proctor-watch.service`** — the shoulder-mode release critic. Runs continuously (`Restart=on-failure`), watching a per-session edit queue (`.claude` PostToolUse hook → `critic-queue.sh`) and firing one cold-context critique batch via `shipyard/agents/release/critic-watch.sh` when a session goes quiet or enough files pile up. Config in `.agents/shoulder.env` (gitignored). Check: `systemctl --user status starbird-proctor-watch.service`.
+
 ## Strategy bank
 
 24 strategies across 6 values (4 per value). Defined in three parallel files that must stay in sync:
