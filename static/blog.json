@@ -1677,6 +1677,22 @@
         "gulf_south_research_group"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-06-usaspending_ice_contracts",
+      "date": "2026-08-06",
+      "title": "Your shipping carrier is on ICE's payroll too",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "FedEx, UPS, and Ecolab all hold active ICE contracts, per Fortune's 2025 investigation of Fortune 500 companies doing business with the agency — a reminder that the enforcement supply chain runs through the same brands people use every day, not just the obvious defense contractors.",
+      "body": "FedEx and UPS are the couriers of American e-commerce, but both also move mail and packages for ICE. FedEx's delivery-services contract, awarded in 2021 and worth roughly $1M, runs through 2026. UPS fulfills small-package delivery orders for DHS/ICE under the government-wide Next Generation Delivery Services contract vehicle, with performance also extending through 2026.\n\nEcolab, the sanitation and water-treatment giant best known for hospitality and food-service hygiene products, holds a quieter but no less concrete contract: a five-year, $136,518 deal to supply laundry and dish-machine detergent to ICE's Florence, Arizona detention center — the same facility keeping running while it houses detained people.\n\nNone of these are marquee defense-contractor names. That's the point: the companies keeping ICE facilities stocked and moving packages are the same ones millions of Americans hand their business to without a second thought. All three contracts were documented in Fortune's June 2025 review of active Fortune 500-ICE contracts, cross-checked against federal award data.",
+      "entityIds": [
+        "ecolab",
+        "fedex",
+        "ups"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

@@ -12553,6 +12553,93 @@
         }
       ],
       "addedAt": "2026-08-05"
+    },
+    {
+      "id": "fedex",
+      "name": "FedEx Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Memphis-based global package delivery and logistics company operating air and ground networks across the U.S. and abroad. FedEx holds a delivery-services contract with ICE, awarded in 2021 and worth roughly $1M, running through 2026 — moving mail and packages in support of ICE operations even as the company markets itself to millions of everyday consumers and small businesses. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "blurb": "Global package delivery, courier, and logistics company operating air and ground shipping networks.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "FedEx holds a delivery-services contract with ICE, awarded in 2021 and worth roughly $1M, running through 2026, providing courier services in support of ICE operations.",
+          "date": "2021",
+          "amountUsd": 1000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-08-06"
+    },
+    {
+      "id": "ups",
+      "name": "United Parcel Service, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Atlanta-based global package delivery company, one of the largest parcel carriers in the world. UPS is an awardee under the government-wide Next Generation Delivery Services (NGDS) contract vehicle, fulfilling small-package delivery orders for DHS/ICE with performance extending through 2026 — logistics support for the same agency conducting mass detention and deportation operations. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "blurb": "Global package delivery and supply-chain logistics company.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "UPS is an awardee under the government-wide Next Generation Delivery Services (NGDS) contract vehicle, fulfilling small-package delivery orders for DHS/ICE with performance extending through 2026.",
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-08-06"
+    },
+    {
+      "id": "ecolab",
+      "name": "Ecolab Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "St. Paul, Minnesota-based global provider of water, hygiene, and infection-prevention products and services to industrial, food-service, and institutional customers. Ecolab holds a 5-year, $136,518 contract to supply laundry and dish-machine detergent to ICE's Florence, Arizona detention center, keeping the facility operational even as it markets itself as a sustainability-focused consumer and hospitality brand. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "blurb": "Global supplier of water treatment, hygiene, and cleaning/sanitation products for institutional and industrial customers.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Ecolab holds a 5-year, $136,518 contract to supply laundry and dish-machine detergent to ICE's Florence, Arizona detention center.",
+          "amountUsd": 136518,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-08-06"
     }
   ],
   "brands": [
@@ -28422,6 +28509,96 @@
         }
       ],
       "addedAt": "2026-08-05"
+    },
+    {
+      "id": "fedex",
+      "avoid": "FedEx",
+      "ownership": [
+        {
+          "firmId": "fedex",
+          "stake": "majority",
+          "since": "1971"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "FedEx holds a delivery-services contract with ICE, awarded in 2021 and worth roughly $1M, running through 2026, moving mail and packages in support of ICE enforcement operations. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "blurb": "Package delivery and courier service used by consumers and businesses for shipping.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "FedEx holds a delivery-services contract with ICE, awarded in 2021 and worth roughly $1M, running through 2026, providing courier services in support of ICE operations.",
+          "date": "2021",
+          "amountUsd": 1000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-08-06"
+    },
+    {
+      "id": "ups",
+      "avoid": "UPS",
+      "ownership": [
+        {
+          "firmId": "ups",
+          "stake": "majority",
+          "since": "1907"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "UPS is an awardee under the government-wide Next Generation Delivery Services (NGDS) contract vehicle, fulfilling small-package delivery orders for DHS/ICE with performance extending through 2026 — logistics support for the same agency conducting mass detention and deportation operations. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "blurb": "Package delivery and supply-chain logistics service used by consumers and businesses.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "UPS is an awardee under the government-wide Next Generation Delivery Services (NGDS) contract vehicle, fulfilling small-package delivery orders for DHS/ICE with performance extending through 2026.",
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-08-06"
+    },
+    {
+      "id": "ecolab",
+      "avoid": "Ecolab",
+      "ownership": [
+        {
+          "firmId": "ecolab",
+          "stake": "majority",
+          "since": "1923"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Ecolab holds a 5-year, $136,518 contract to supply laundry and dish-machine detergent to ICE's Florence, Arizona detention center, keeping the facility operational. Documented by Fortune's 2025 investigation of Fortune 500 companies with active ICE contracts.",
+      "blurb": "Maker of cleaning, sanitation, and water-treatment products for institutional and consumer use.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Ecolab holds a 5-year, $136,518 contract to supply laundry and dish-machine detergent to ICE's Florence, Arizona detention center.",
+          "amountUsd": 136518,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://fortune.com/2025/06/26/fortune-500-companies-active-contracts-immigration-and-customs-enforcement-ice/"
+        }
+      ],
+      "addedAt": "2026-08-06"
     }
   ]
 }
