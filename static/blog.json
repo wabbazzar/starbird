@@ -1693,6 +1693,22 @@
         "ups"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-07-usaspending_ice_contracts",
+      "date": "2026-08-07",
+      "title": "ICE's new bounty-hunter contractors: three names to know",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "December's ICE 'skip tracing' awards handed intelligence and security firms open-ended contracts to locate immigrants for arrest — three of the winning contractors hadn't shown up in this database before.",
+      "body": "In December 2025, ICE quietly awarded 'skip tracing' contracts to thirteen private firms, tasking them with locating a list of targeted immigrants using whatever digital and physical surveillance tools they choose, then handing coordinates to ICE's Enforcement and Removal Operations wing for arrest. None of the contractors' agents carry government identification while doing this work.\n\nConstellis Holdings is the highest-profile name in the batch: a private security contractor descended from Erik Prince's Blackwater (via its 2014 merger with Academi and Triple Canopy). Federal records reviewed by The Intercept show ICE had already paid Constellis $1.5 million under the deal, with the contract's ceiling reaching more than $113 million by 2027.\n\nBluehawk LLC, a Florida intelligence-services firm with a decade of Pentagon and intelligence-community work, ranked second among the thirteen contractors by potential earnings — over $200 million. EnProVera Corp, a smaller investigative-services shop whose CEO previously ran clandestine overseas operations, rounds out this trio at a comparatively modest but still real potential payout near $3 million.\n\nWhat connects them isn't sector — it's the buyer. Each pivoted intelligence and surveillance tradecraft built for the Pentagon or DOJ toward hunting down immigrants for deportation, in a program The Intercept estimates could target as many as 1.5 million people.",
+      "entityIds": [
+        "bluehawk",
+        "constellis",
+        "enprovera"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

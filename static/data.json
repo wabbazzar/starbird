@@ -12640,6 +12640,96 @@
         }
       ],
       "addedAt": "2026-08-06"
+    },
+    {
+      "id": "constellis",
+      "name": "Constellis Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Constellis Holdings is a private security and intelligence contractor formed in 2014 from the merger of Academi (formerly Blackwater, founded by Erik Prince) and Triple Canopy. On December 15, 2025, ICE awarded Constellis a \"skip tracing\" contract to locate and report the whereabouts of immigrants for apprehension by ICE Enforcement and Removal Operations. Federal records reviewed by The Intercept show the government had already paid Constellis $1.5 million under the deal, with the contract's potential value reaching more than $113 million by its 2027 end date.",
+      "blurb": "Private military and security contractor providing intelligence, protective, and training services.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://theintercept.com/2026/01/03/blackwater-successor-constellis-omniplex-hunts-immigrants-for-ice/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Constellis Holdings, a private security firm descended from Blackwater, won an ICE \"skip tracing\" contract on December 15, 2025 to hunt down and report the location of a list of targeted immigrants for arrest. Its bounty hunters carry no government identification while surveilling homes and workplaces. Federal records reviewed by The Intercept show ICE had paid Constellis $1.5 million as of the report, with the deal's potential value reaching more than $113 million by 2027.",
+          "date": "2025-12",
+          "amountUsd": 113000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://theintercept.com/2026/01/03/blackwater-successor-constellis-omniplex-hunts-immigrants-for-ice/"
+        }
+      ],
+      "addedAt": "2026-08-07"
+    },
+    {
+      "id": "bluehawk",
+      "name": "Bluehawk LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Bluehawk LLC is a West Palm Beach, Florida intelligence-services contractor founded in 2012 that has held Pentagon and U.S. intelligence agency contracts for over a decade, primarily supporting the Army and Air Force. In December 2025, ICE awarded Bluehawk one of thirteen \"skip tracing\" contracts to locate immigrants nationwide; reporting on the award ranked Bluehawk second among the bounty-hunter contractors by potential earnings, at more than $200 million.",
+      "blurb": "Intelligence, IT, language, and training services contractor for U.S. government agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Bluehawk LLC, a Florida-based intelligence contractor, is one of thirteen companies ICE awarded \"skip tracing\" contracts to in December 2025 to locate targeted immigrants for arrest. Reporting on the award ranked Bluehawk second among the contractors by potential earnings, at more than $200 million over the life of the deal.",
+          "date": "2025-12",
+          "amountUsd": 200000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/"
+        }
+      ],
+      "addedAt": "2026-08-07"
+    },
+    {
+      "id": "enprovera",
+      "name": "EnProVera Corp",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "EnProVera Corp is an intelligence and investigative-services contractor whose CEO, Larry Grant, previously conducted clandestine overseas operations and authored classified studies of foreign technical capabilities; its main federal clients have included the Department of Justice and FBI. In December 2025, ICE awarded EnProVera one of thirteen \"skip tracing\" contracts to locate immigrants nationwide, with reporting estimating the deal could earn the firm nearly $3 million.",
+      "blurb": "Intelligence and investigative services contractor for federal law-enforcement and defense agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 78,
+      "source": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/",
+      "cats": [],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "EnProVera Corp, an intelligence-services contractor whose CEO previously ran clandestine overseas operations, is one of thirteen companies ICE awarded \"skip tracing\" contracts to in December 2025 to locate targeted immigrants for arrest, an award reporting estimated could earn the firm nearly $3 million.",
+          "date": "2025-12",
+          "amountUsd": 3000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/"
+        }
+      ],
+      "addedAt": "2026-08-07"
     }
   ],
   "brands": [
@@ -28599,6 +28689,99 @@
         }
       ],
       "addedAt": "2026-08-06"
+    },
+    {
+      "id": "constellis",
+      "avoid": "Constellis",
+      "ownership": [
+        {
+          "firmId": "constellis",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Constellis Holdings, a private security firm descended from Blackwater, won an ICE \"skip tracing\" contract on December 15, 2025 to hunt down and report the location of a list of targeted immigrants for arrest. Its bounty hunters carry no government identification while surveilling homes and workplaces. Federal records reviewed by The Intercept show ICE had paid Constellis $1.5 million as of the report, with the deal's potential value reaching more than $113 million by 2027.",
+      "blurb": "Private military and security contractor providing intelligence, protective, and training services.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Constellis Holdings, a private security firm descended from Blackwater, won an ICE \"skip tracing\" contract on December 15, 2025 to hunt down and report the location of a list of targeted immigrants for arrest. Its bounty hunters carry no government identification while surveilling homes and workplaces. Federal records reviewed by The Intercept show ICE had paid Constellis $1.5 million as of the report, with the deal's potential value reaching more than $113 million by 2027.",
+          "date": "2025-12",
+          "amountUsd": 113000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://theintercept.com/2026/01/03/blackwater-successor-constellis-omniplex-hunts-immigrants-for-ice/"
+        }
+      ],
+      "addedAt": "2026-08-07"
+    },
+    {
+      "id": "bluehawk",
+      "avoid": "Bluehawk",
+      "ownership": [
+        {
+          "firmId": "bluehawk",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Bluehawk LLC, a Florida-based intelligence contractor, is one of thirteen companies ICE awarded \"skip tracing\" contracts to in December 2025 to locate targeted immigrants for arrest. Reporting on the award ranked Bluehawk second among the contractors by potential earnings, at more than $200 million over the life of the deal.",
+      "blurb": "Intelligence, IT, language, and training services contractor for U.S. government agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Bluehawk LLC, a Florida-based intelligence contractor, is one of thirteen companies ICE awarded \"skip tracing\" contracts to in December 2025 to locate targeted immigrants for arrest. Reporting on the award ranked Bluehawk second among the contractors by potential earnings, at more than $200 million over the life of the deal.",
+          "date": "2025-12",
+          "amountUsd": 200000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/"
+        }
+      ],
+      "addedAt": "2026-08-07"
+    },
+    {
+      "id": "enprovera",
+      "avoid": "EnProVera",
+      "ownership": [
+        {
+          "firmId": "enprovera",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "EnProVera Corp, an intelligence-services contractor whose CEO previously ran clandestine overseas operations, is one of thirteen companies ICE awarded \"skip tracing\" contracts to in December 2025 to locate targeted immigrants for arrest, an award reporting estimated could earn the firm nearly $3 million.",
+      "blurb": "Intelligence and investigative services contractor for federal law-enforcement and defense agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "EnProVera Corp, an intelligence-services contractor whose CEO previously ran clandestine overseas operations, is one of thirteen companies ICE awarded \"skip tracing\" contracts to in December 2025 to locate targeted immigrants for arrest, an award reporting estimated could earn the firm nearly $3 million.",
+          "date": "2025-12",
+          "amountUsd": 3000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://theintercept.com/2025/12/23/ice-bounty-hunters-track-immigrant-surveillance/"
+        }
+      ],
+      "addedAt": "2026-08-07"
     }
   ]
 }
