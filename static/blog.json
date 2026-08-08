@@ -1709,6 +1709,22 @@
         "enprovera"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-08-usaspending_ice_contracts",
+      "date": "2026-08-08",
+      "title": "Detention builds it, ICE runs it: three vendors behind the buildout",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traces the money behind ICE's 2025-2026 expansion — a medical-staffing subcontractor, a Baltimore furniture dealer, and a surveillance tool sold by a private-equity portfolio company.",
+      "body": "ICE's detention and enforcement expansion isn't just prime contractors like GEO Group and CoreCivic — it runs through a layer of subcontractors and vendors most people never hear about. STG International, a healthcare-staffing firm owned by SOS International (SOSi), holds ICE Health Service Corps contracts for on-site medical staffing worth up to $2.62 billion under the current IDIQ ceiling; when a competitor's GAO protest forced ICE to redo the recompete in 2025, the agency kept STGi on as a sole-source stopgap so detention medical coverage wouldn't lapse.\n\nNot every vendor in ICE's supply chain is a detention specialist. Price Modern, a century-old Baltimore furniture dealer, signed a $25.8 million deal in February 2026 to outfit ICE offices nationwide, and went on to collect $95.7 million in federal obligations across two fiscal years — accounting for nearly all Baltimore-area furniture spend tied to the agency's office expansion. Local residents pushed back directly, calling the company to object.\n\nThen there's the surveillance layer. Babel Street, owned by private-equity firm Veritas Capital, sells 'Locate X,' a tool built on cellphone location data bought in bulk from data brokers — letting ICE trace where a phone has been and where it's going without the warrant the Supreme Court says that kind of tracking requires. ICE's Babel Street contracts have grown from about $2.5 million in 2018 to over $3.6 million by 2024.\n\nThree very different businesses — healthcare staffing, office furniture, data surveillance — all found a line item in the same buildout.",
+      "entityIds": [
+        "price_modern",
+        "babel_street",
+        "stg_international"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

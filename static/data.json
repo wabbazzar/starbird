@@ -12352,16 +12352,19 @@
       "name": "Veritas Capital",
       "aum": "$44B",
       "aumVal": 44,
-      "summary": "Private-equity firm specializing in leveraged buyouts of technology and services companies, particularly in education, healthcare, and government sectors. Its 2021 merger of Blackboard and Anthology loaded the combined edtech company with $1.625B in debt; Anthology skipped interest payments in late 2024 and early 2025 and filed for Chapter 11 bankruptcy in September 2025 after a failed sale process, with EBITDA collapsing from $33M to $4M between FY2023 and FY2025, per Bloomberg and PESP reporting.",
+      "summary": "Private-equity firm specializing in leveraged buyouts of technology and services companies, particularly in education, healthcare, and government sectors. Its 2021 merger of Blackboard and Anthology loaded the combined edtech company with $1.625B in debt; Anthology skipped interest payments in late 2024 and early 2025 and filed for Chapter 11 bankruptcy in September 2025 after a failed sale process, with EBITDA collapsing from $33M to $4M between FY2023 and FY2025, per Bloomberg and PESP reporting. Veritas-owned Babel Street sells \"Locate X,\" a cellphone location-tracking tool built on data purchased from brokers, which ICE has used since 2018 under contracts worth roughly $2.5 million, growing to over $3.6 million by 2024, to trace people's movements without a warrant, per EPIC FOIA records.",
       "blurb": "Private-equity firm; buys technology and services companies via leveraged buyouts.",
-      "brands": [],
+      "brands": [
+        "Babel Street"
+      ],
       "layoffs": "N/A",
       "notableBk": "Anthology (edtech, formerly Blackboard) — Chapter 11, September 2025",
       "harmScore": 68,
       "source": "https://www.bloomberg.com/news/articles/2025-09-30/veritas-backed-software-provider-anthology-files-for-bankruptcy",
       "cats": [],
       "harms": [
-        "extraction_debt_loading"
+        "extraction_debt_loading",
+        "workers_ice_cooperation"
       ],
       "aligns": [],
       "evidence": [
@@ -12372,9 +12375,17 @@
           "amountUsd": 1625000000,
           "amountKind": "debt",
           "sourceUrl": "https://www.bloomberg.com/news/articles/2025-09-30/veritas-backed-software-provider-anthology-files-for-bankruptcy"
+        },
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Veritas-owned Babel Street sells \"Locate X,\" a cellphone location-tracking tool built on data purchased from brokers, which ICE has used since 2018 under contracts worth roughly $2.5 million, growing to over $3.6 million by 2024, to trace people's movements without a warrant.",
+          "amountUsd": 3600000,
+          "amountKind": "deal",
+          "actor": "ICE/DHS",
+          "sourceUrl": "https://epic.org/documents/epic-foia-cbp-babel-street-location-tracking-service/"
         }
       ],
-      "addedAt": "2026-08-02"
+      "addedAt": "2026-08-08"
     },
     {
       "id": "capgemini",
@@ -12730,6 +12741,40 @@
         }
       ],
       "addedAt": "2026-08-07"
+    },
+    {
+      "id": "price_modern",
+      "name": "Price Modern",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Baltimore, Maryland-based commercial office furniture dealer, more than a century old, that signed a $25.8 million deal in February 2026 to supply office furniture to DHS/ICE agents nationwide as the agency expanded its footprint. Price Modern went on to receive $95.7 million in federal contract obligations across fiscal years 2025-2026, of which $48.9 million was tied specifically to ICE office expansion, making it the dominant vendor among Baltimore-area furniture dealers supplying the buildout, per Baltimore Sun and Project Salt Box reporting. The contract drew public criticism from local residents.",
+      "blurb": "Commercial office furniture and workspace design dealer based in Baltimore.",
+      "brands": [
+        "Price Modern"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.baltimoresun.com/2026/03/06/supplying-ice-maryland-business/",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Price Modern signed a $25.8 million deal in February 2026 to supply office furniture to DHS/ICE agents nationwide, and went on to receive $95.7 million in federal contract obligations across FY2025-2026, of which $48.9 million was tied specifically to ICE office expansion.",
+          "date": "2026-02",
+          "amountUsd": 25800000,
+          "amountKind": "deal",
+          "actor": "DHS/ICE",
+          "sourceUrl": "https://www.baltimoresun.com/2026/03/06/supplying-ice-maryland-business/"
+        }
+      ],
+      "addedAt": "2026-08-08"
     }
   ],
   "brands": [
@@ -28782,6 +28827,97 @@
         }
       ],
       "addedAt": "2026-08-07"
+    },
+    {
+      "id": "stg_international",
+      "avoid": "STG International (STGi)",
+      "ownership": [
+        {
+          "firmId": "sos_international",
+          "stake": "majority",
+          "since": "1997"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "STGi holds ICE Health Service Corps (IHSC) contracts to provide on-site medical staffing at ICE detention facilities, work that keeps detention capacity running as the agency expands. An October 2021 RFP for the follow-on IDIQ contemplated a ceiling of up to $2.62 billion over a 5-year base period plus two 2-year options for staffing roughly 20 IHSC clinic sites; a competing bidder's GAO protest was sustained, and in 2025 ICE moved to a sole-source extension of STGi's incumbent contract to keep medical staffing uninterrupted while the recompete was redone, per GAO docket B-420759 and GovTribe procurement records.",
+      "blurb": "Healthcare staffing contractor providing on-site medical personnel to government detention facilities.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "An October 2021 RFP for the follow-on IDIQ contemplated a ceiling of up to $2.62 billion over a 5-year base period plus two 2-year options for staffing roughly 20 IHSC clinic sites; a competing bidder's GAO protest was sustained, and in 2025 ICE moved to a sole-source extension of STGi's incumbent contract to keep medical staffing uninterrupted while the recompete was redone.",
+          "amountUsd": 2620000000,
+          "amountKind": "deal",
+          "actor": "ICE/DHS",
+          "sourceUrl": "https://www.gao.gov/products/b-420759.4,b-420759.8"
+        }
+      ],
+      "addedAt": "2026-08-08"
+    },
+    {
+      "id": "price_modern",
+      "avoid": "Price Modern",
+      "ownership": [
+        {
+          "firmId": "price_modern",
+          "stake": "majority",
+          "since": "2026"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Price Modern signed a $25.8 million deal in February 2026 to supply office furniture to DHS/ICE agents nationwide as the agency expanded its office footprint to support immigration enforcement. The Baltimore-based dealer went on to receive $95.7 million in federal obligations across fiscal years 2025-2026, with $48.9 million tied specifically to ICE office expansion — accounting for roughly 99% of Baltimore-area furniture vendor spend on the buildout, per Project Salt Box's contract-data analysis. The arrangement drew public criticism from Baltimore-area residents, some of whom contacted the company directly to object.",
+      "blurb": "Commercial office furniture and workspace design dealer based in Baltimore.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Price Modern signed a $25.8 million deal in February 2026 to supply office furniture to DHS/ICE agents nationwide, later receiving $95.7 million in federal obligations across FY2025-2026, of which $48.9 million was tied to ICE office expansion — about 99% of Baltimore-area furniture vendor spend on the buildout.",
+          "date": "2026-02",
+          "amountUsd": 25800000,
+          "amountKind": "deal",
+          "actor": "DHS/ICE",
+          "sourceUrl": "https://www.baltimoresun.com/2026/03/06/supplying-ice-maryland-business/"
+        }
+      ],
+      "addedAt": "2026-08-08"
+    },
+    {
+      "id": "babel_street",
+      "avoid": "Babel Street",
+      "ownership": [
+        {
+          "firmId": "veritas_capital",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Babel Street sells \"Locate X,\" a location-tracking tool that buys commercially available cellphone location data in bulk from data brokers and lets ICE monitor which phones passed through a given location and trace their movement before and after, circumventing the warrant requirement the Supreme Court set for cellphone location tracking (Carpenter v. United States). Since 2018, ICE has held contracts worth roughly $2.5 million for Babel Street software, including a 2019 award that grew to more than $3.6 million by 2024, per EPIC FOIA records and reporting by Vice and Truthout on DHS's use of the \"data broker loophole.\"",
+      "blurb": "Data-analytics platform selling location tracking and social-media surveillance tools.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Babel Street sells \"Locate X,\" a location-tracking tool built on commercially purchased cellphone location data, letting ICE trace phones through and around specific locations without a warrant. Since 2018, ICE has held contracts worth roughly $2.5 million for Babel Street software, including a 2019 award that grew to more than $3.6 million by 2024.",
+          "amountUsd": 3600000,
+          "amountKind": "deal",
+          "actor": "ICE/DHS",
+          "sourceUrl": "https://epic.org/documents/epic-foia-cbp-babel-street-location-tracking-service/"
+        }
+      ],
+      "addedAt": "2026-08-08"
     }
   ]
 }
