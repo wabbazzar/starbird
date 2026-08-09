@@ -1725,6 +1725,23 @@
         "stg_international"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-09-usaspending_ice_contracts",
+      "date": "2026-08-09",
+      "title": "Steel, planes, and IT contracts: three quiet ways into the ICE supply chain",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traces the deportation pipeline past the usual detention operators to the overflow airline, the metals distributor, and the IT consultancy keeping it running behind the scenes.",
+      "body": "Some of the biggest ICE contractors never touch a detainee. World Atlantic Airways, a Miami-based charter carrier flying an aging fleet of MD-83s, has spent over a decade as CSI Aviation's overflow subcontractor on ICE Air deportation flights, and took on a much bigger share of that work after the previous overflow carrier, iAero Airways, collapsed into bankruptcy in 2023. Its aircraft have racked up at least three mechanical-failure evacuations since 2014, including a 2017 flight where a hydraulic leak forced an emergency medical response mid-cabin.\n\nUpstream of the detention centers themselves, AMI Metals — a Tennessee-based aerospace and specialty-metals distributor owned by the publicly traded Reliance, Inc. — landed a DHS/CBP contract worth up to $2.24 billion in February 2026 to procure and distribute the steel bollards and plate going into new stretches of border wall. It's the kind of contract that never shows up in a detention-center exposé but is just as load-bearing.\n\nAnd behind the enforcement apparatus sits ICF International, a Reston, Virginia consulting firm that holds ICE's SWIFT IDIQ vehicle and has pulled in tens of millions of dollars modernizing the case-management systems used by Homeland Security Investigations. None of these three companies build detention beds or run deportation flights themselves in the public imagination — but each is a load-bearing wall in the same structure.\n\nTogether they're a reminder that the ICE contracting ecosystem runs wider than the private prison operators most people can name: an airline nobody's heard of, a metals distributor's subsidiary, and an IT consultancy all show up on the same procurement rolls.",
+      "entityIds": [
+        "icf_international",
+        "reliance_inc",
+        "world_atlantic_airways",
+        "ami_metals"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
