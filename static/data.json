@@ -12869,6 +12869,62 @@
 				}
 			],
 			"addedAt": "2026-08-09"
+		},
+		{
+			"id": "hims_hers_health",
+			"name": "Hims & Hers Health, Inc.",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Publicly traded telehealth company (NYSE: HIMS) selling prescription and compounded medications direct to consumer under the Hims and Hers brands. On September 9, 2025, the FDA issued warning letters to both the Hims and Hers business lines, finding that marketing for their compounded semaglutide and tirzepatide products was false or misleading under 21 U.S.C. 352 because it implied the compounded drugs were equivalent to FDA-approved GLP-1 medications like Ozempic and Mounjaro, which they are not (FDA MARCS-CMS 716567, 716825, and reporting by the New York Times).",
+			"blurb": "Direct-to-consumer telehealth platform selling prescription medications and compounded drugs online.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"source": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hims-hers-health-inc-dba-hims-716567-09092025",
+			"cats": [],
+			"harms": [
+				"health_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "health_general",
+					"text": "On September 9, 2025, the FDA issued warning letters to both the Hims and Hers business lines, finding that marketing for their compounded semaglutide and tirzepatide products was false or misleading under 21 U.S.C. 352 because it implied the compounded drugs were equivalent to FDA-approved GLP-1 medications like Ozempic and Mounjaro, which they are not.",
+					"date": "2025-09-09",
+					"actor": "FDA",
+					"sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hims-hers-health-inc-dba-hims-716567-09092025"
+				}
+			],
+			"addedAt": "2026-08-10"
+		},
+		{
+			"id": "lumimeds",
+			"name": "Lumimeds",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Standalone telehealth company, founded 2023, selling compounded GLP-1/GIP weight-loss drugs (semaglutide, tirzepatide) direct to consumer online. On September 9, 2025 the FDA issued a warning letter (MARCS-CMS 716510) finding Lumimeds marketing materials falsely implied its compounded medications were equivalent to FDA-approved brand-name drugs like Ozempic and Mounjaro.",
+			"blurb": "Direct-to-consumer telehealth platform selling compounded GLP-1 weight-loss medications.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 60,
+			"source": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lumimeds-716510-09092025",
+			"cats": [],
+			"harms": [
+				"health_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "health_general",
+					"text": "On September 9, 2025 the FDA issued a warning letter (MARCS-CMS 716510) finding Lumimeds marketing materials falsely implied its compounded medications were equivalent to FDA-approved brand-name drugs like Ozempic and Mounjaro.",
+					"date": "2025-09-09",
+					"actor": "FDA",
+					"sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lumimeds-716510-09092025"
+				}
+			],
+			"addedAt": "2026-08-10"
 		}
 	],
 	"brands": [
@@ -29103,6 +29159,93 @@
 				}
 			],
 			"addedAt": "2026-08-09"
+		},
+		{
+			"id": "hims",
+			"avoid": "Hims",
+			"ownership": [
+				{
+					"firmId": "hims_hers_health",
+					"stake": "majority",
+					"since": "2017"
+				}
+			],
+			"cat": "health",
+			"alts": [],
+			"why": "Hims markets compounded semaglutide and tirzepatide weight-loss products direct to consumer. On September 9, 2025 the FDA sent Hims a warning letter (MARCS-CMS 716567) finding its website advertising implied compounded GLP-1 products were the same as FDA-approved drugs, which is false since compounded drugs are not FDA-approved or reviewed for safety and efficacy.",
+			"blurb": "Telehealth platform selling prescription and compounded medications, including GLP-1 weight-loss drugs.",
+			"harms": [
+				"health_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "health_general",
+					"text": "On September 9, 2025 the FDA sent Hims a warning letter (MARCS-CMS 716567) finding its website advertising implied compounded GLP-1 products were the same as FDA-approved drugs, which is false since compounded drugs are not FDA-approved or reviewed for safety and efficacy.",
+					"date": "2025-09-09",
+					"actor": "FDA",
+					"sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hims-hers-health-inc-dba-hims-716567-09092025"
+				}
+			],
+			"addedAt": "2026-08-10"
+		},
+		{
+			"id": "hers",
+			"avoid": "Hers",
+			"ownership": [
+				{
+					"firmId": "hims_hers_health",
+					"stake": "majority",
+					"since": "2017"
+				}
+			],
+			"cat": "health",
+			"alts": [],
+			"why": "Hers markets compounded semaglutide weight-loss products direct to consumer. On September 9, 2025 the FDA sent Hers a warning letter (MARCS-CMS 716825) finding its website advertising implied compounded semaglutide products were the same as an FDA-approved product, which is false since compounded drugs are not FDA-approved.",
+			"blurb": "Telehealth platform selling prescription and compounded medications, including GLP-1 weight-loss drugs.",
+			"harms": [
+				"health_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "health_general",
+					"text": "On September 9, 2025 the FDA sent Hers a warning letter (MARCS-CMS 716825) finding its website advertising implied compounded semaglutide products were the same as an FDA-approved product, which is false since compounded drugs are not FDA-approved.",
+					"date": "2025-09-09",
+					"actor": "FDA",
+					"sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hims-hers-health-inc-dba-hers-716825-09092025"
+				}
+			],
+			"addedAt": "2026-08-10"
+		},
+		{
+			"id": "lumimeds",
+			"avoid": "Lumimeds",
+			"ownership": [
+				{
+					"firmId": "lumimeds",
+					"stake": "majority",
+					"since": "2023"
+				}
+			],
+			"cat": "health",
+			"alts": [],
+			"why": "Lumimeds sells compounded semaglutide and tirzepatide weight-loss plans direct to consumer via telehealth. On September 9, 2025 the FDA sent Lumimeds a warning letter (MARCS-CMS 716510) after reviewing its website and finding marketing claims that implied its compounded drugs were equivalent to FDA-approved GLP-1 medications, which is false because compounded drugs undergo no FDA safety or efficacy review.",
+			"blurb": "Telehealth service selling compounded GLP-1/GIP weight-loss medications online.",
+			"harms": [
+				"health_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "health_general",
+					"text": "On September 9, 2025 the FDA sent Lumimeds a warning letter (MARCS-CMS 716510) after reviewing its website and finding marketing claims that implied its compounded drugs were equivalent to FDA-approved GLP-1 medications, which is false because compounded drugs undergo no FDA safety or efficacy review.",
+					"date": "2025-09-09",
+					"actor": "FDA",
+					"sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lumimeds-716510-09092025"
+				}
+			],
+			"addedAt": "2026-08-10"
 		}
 	]
 }

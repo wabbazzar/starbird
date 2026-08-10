@@ -1742,6 +1742,22 @@
         "ami_metals"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-10-adjacent_source_discovery_health",
+      "date": "2026-08-10",
+      "title": "FDA Warning Letters Expose Telehealth GLP-1 Marketing Deception",
+      "strategy": "adjacent_source_discovery_health",
+      "strategyLabel": "Adjacent-source discovery (health)",
+      "value": "health",
+      "summary": "Hims & Hers and Lumimeds got FDA warning letters for implying compounded weight-loss drugs are the same as FDA-approved medications like Ozempic and Mounjaro — they're not.",
+      "body": "The GLP-1 weight-loss boom created a telehealth gold rush, and this run traces the FDA's response to it. On September 9, 2025, the agency sent warning letters to roughly 55 telehealth companies for marketing compounded semaglutide and tirzepatide as if they were the FDA-approved brand-name drugs. Hims & Hers Health drew two separate letters — one for its Hims storefront, one for Hers — both citing website language that implied their compounded products were equivalent to approved medications, which compounded drugs are not since they skip FDA safety and efficacy review entirely.\n\nLumimeds, a standalone telehealth startup founded in 2023, got the same treatment: the FDA reviewed its site and found marketing claims that its compounded GLP-1/GIP plans matched Ozempic and Mounjaro.\n\nThe pattern across all three letters is identical — website copy that blurs the line between an unreviewed compounded formulation and a drug that went through the FDA's approval pipeline. That's not a labeling technicality; it's the difference between a medication whose dosing and manufacturing have been independently verified and one that hasn't. If you're shopping for a GLP-1 provider, read past the marketing page to find out whether what you're being sold is actually the drug you think it is.",
+      "entityIds": [
+        "hims_hers_health",
+        "lumimeds",
+        "hers",
+        "hims"
+      ]
     }
   ]
 }
