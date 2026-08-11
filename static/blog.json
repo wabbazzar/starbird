@@ -1758,6 +1758,22 @@
         "hers",
         "hims"
       ]
+    },
+    {
+      "id": "2026-08-11-usaspending_ice_contracts",
+      "date": "2026-08-11",
+      "title": "ICE's new vendors aren't just detention operators — they're data brokers",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traced three ICE contractors whose product is finding people, not holding them: two open-source-intelligence surveillance vendors and a debt collector repurposed as a bounty hunter.",
+      "body": "ShadowDragon and Fivecast both sell what's politely called open-source-intelligence software — tools that scrape social media, gaming platforms, forums, and the dark web to map a person's identities, relationships, and movements. ShadowDragon's SocialNet has quietly held ICE contracts since 2020, and a 2022 acquisition document showed agents leaning on persistent access to Facebook, Twitter/X, and over 200 other sites. Fivecast's ONYX platform goes further, claiming to detect \"sentiment and emotion\" in a target's posts to score risk — built in consultation with Five Eyes intelligence agencies and now under a $4.2 million ICE contract.\n\nThe third addition, Global Recovery Group, has nothing to do with surveillance tech on paper — it's a Virginia debt-recovery firm that's spent two decades chasing commercial debt across 90 countries. In January 2026, ICE handed it a skip-tracing contract worth up to $33.5 million, applying the same location-tracking playbook debt collectors use on delinquent borrowers to immigrants who've moved or missed a check-in.\n\nThe throughline: ICE is outsourcing the finding, not just the holding. Detention operators like GEO Group and CoreCivic get the headlines, but the newer money is going to firms whose only job is generating a location and a name — whether that's scraping a Reddit post or running a skip trace built for repo men.",
+      "entityIds": [
+        "fivecast",
+        "global_recovery_group",
+        "shadowdragon"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }

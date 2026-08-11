@@ -12925,6 +12925,102 @@
 				}
 			],
 			"addedAt": "2026-08-10"
+		},
+		{
+			"id": "shadowdragon",
+			"name": "ShadowDragon, LLC",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "ShadowDragon, founded in 2013 by CEO Daniel Clemens, sells open-source-intelligence surveillance software — SocialNet, OI Monitor, MalNet, and Spotter — that pulls data from more than 140 social, gaming, and forum platforms to map a target's identities, networks, and relationships. ICE has held contracts for ShadowDragon's SocialNet and OI Monitor since 2020, spending nearly $900,000 to date; a 2022 ICE acquisition document confirmed the tools give agents persistent access to Facebook, Twitter/X, and over 200 other sites, per Brennan Center FOIA findings and 404 Media reporting on the full site list.",
+			"blurb": "Open-source-intelligence software vendor; sells social-media and web surveillance tools.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 76,
+			"source": "https://www.404media.co/the-200-sites-an-ice-surveillance-contractor-is-monitoring/",
+			"cats": [
+				"tech"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "ICE has held contracts for ShadowDragon's SocialNet and OI Monitor since 2020, spending nearly $900,000 to date; a 2022 ICE acquisition document confirmed the tools give agents persistent access to Facebook, Twitter/X, and over 200 other sites, per Brennan Center FOIA findings and 404 Media reporting on the full site list.",
+					"date": "2022",
+					"amountUsd": 900000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://www.404media.co/the-200-sites-an-ice-surveillance-contractor-is-monitoring/"
+				}
+			],
+			"addedAt": "2026-08-11"
+		},
+		{
+			"id": "global_recovery_group",
+			"name": "Global Recovery Group, LLC",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Global Recovery Group (GRG), founded in 2003 and headquartered in Herndon, Virginia, is a privately held commercial debt-recovery and due-diligence firm that has recovered on more than $1.5 billion of debt across 90 countries. In January 2026, ICE's Enforcement and Removal Operations division awarded GRG a \"skip tracing\" contract worth up to $33.5 million, applying commercial debt-collector location-tracking methods to find immigrants who have moved or missed check-ins so they can be located for deportation, per USAspending contract records and reporting by The Intercept and Jacobin on ICE's expanding bounty-hunter contractor network.",
+			"blurb": "Commercial debt-recovery and due-diligence firm serving banks and export-credit agencies.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 78,
+			"source": "https://www.usaspending.gov/award/CONT_AWD_70CDCR26FR0000003_7012_GS23F0026U_4730",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "In January 2026, ICE's Enforcement and Removal Operations division awarded GRG a \"skip tracing\" contract worth up to $33.5 million, applying commercial debt-collector location-tracking methods to find immigrants who have moved or missed check-ins so they can be located for deportation.",
+					"date": "2026-01",
+					"amountUsd": 33500000,
+					"amountKind": "deal",
+					"actor": "ICE Enforcement and Removal Operations",
+					"sourceUrl": "https://www.usaspending.gov/award/CONT_AWD_70CDCR26FR0000003_7012_GS23F0026U_4730"
+				}
+			],
+			"addedAt": "2026-08-11"
+		},
+		{
+			"id": "fivecast",
+			"name": "Fivecast Pty Ltd",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Fivecast, founded in 2017 in Adelaide, Australia by David Blockow, Ross Buglak, Duane Rivett, and Brenton Cooper, sells the ONYX platform, an AI-driven surveillance tool built with Five Eyes intelligence agencies that continuously scrapes news sites, social media, marketplaces, and the dark web and claims to detect \"sentiment and emotion\" in a target's posts. ICE holds a $4.2 million contract for Fivecast ONYX and CBP a separate $2.36 million license contract, letting both agencies build risk profiles on individuals from their online activity, per 404 Media and OrangeSlices AI contract-award reporting.",
+			"blurb": "Open-source-intelligence software vendor; sells AI-driven social-media surveillance platform ONYX.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 77,
+			"source": "https://www.404media.co/ai-surveillance-tool-dhs-cbp-sentiment-emotion-fivecast/",
+			"cats": [
+				"tech"
+			],
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "ICE holds a $4.2 million contract for Fivecast ONYX and CBP a separate $2.36 million license contract, letting both agencies build risk profiles on individuals by continuously scraping news, social media, and the dark web and claiming to detect \"sentiment and emotion\" in their posts.",
+					"date": "2026",
+					"amountUsd": 4200000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://www.404media.co/ai-surveillance-tool-dhs-cbp-sentiment-emotion-fivecast/"
+				}
+			],
+			"addedAt": "2026-08-11"
 		}
 	],
 	"brands": [
@@ -29246,6 +29342,99 @@
 				}
 			],
 			"addedAt": "2026-08-10"
+		},
+		{
+			"id": "shadowdragon",
+			"avoid": "ShadowDragon",
+			"ownership": [
+				{
+					"firmId": "shadowdragon",
+					"stake": "majority",
+					"since": "2013"
+				}
+			],
+			"cat": "tech",
+			"alts": [],
+			"why": "ShadowDragon sells SocialNet and OI Monitor, OSINT surveillance tools pulling data from 140+ social, gaming, and forum platforms to map a target's identities, networks, and relationships. ICE has contracted for these tools since 2020, spending nearly $900,000 to date; a 2022 ICE acquisition document listed persistent access to Facebook, Twitter/X, and over 200 other sites as critical to its enforcement operations, per Brennan Center FOIA findings and 404 Media reporting.",
+			"blurb": "Open-source-intelligence software; sells social-media and web surveillance tools.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "ICE has contracted for ShadowDragon's SocialNet and OI Monitor since 2020, spending nearly $900,000 to date; a 2022 ICE acquisition document listed persistent access to Facebook, Twitter/X, and over 200 other sites as critical to its enforcement operations.",
+					"date": "2022",
+					"amountUsd": 900000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://www.404media.co/the-200-sites-an-ice-surveillance-contractor-is-monitoring/"
+				}
+			],
+			"addedAt": "2026-08-11"
+		},
+		{
+			"id": "global_recovery_group",
+			"avoid": "Global Recovery Group",
+			"ownership": [
+				{
+					"firmId": "global_recovery_group",
+					"stake": "majority",
+					"since": "2003"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Global Recovery Group is a commercial debt-recovery firm that ICE hired in January 2026 under a \"skip tracing\" contract worth up to $33.5 million, applying its debt-collector location-tracking methods to find immigrants who have moved or missed check-ins so they can be located and deported. It is one of at least two firms — alongside SOS International — that ICE's Enforcement and Removal Operations division has turned into a bounty-hunter-style contractor network, per USAspending records and reporting by The Intercept and Jacobin.",
+			"blurb": "Commercial debt-recovery and due-diligence firm serving banks and export-credit agencies.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "In January 2026 ICE hired GRG under a \"skip tracing\" contract worth up to $33.5 million, applying its debt-collector location-tracking methods to find immigrants who have moved or missed check-ins so they can be located and deported.",
+					"date": "2026-01",
+					"amountUsd": 33500000,
+					"amountKind": "deal",
+					"actor": "ICE Enforcement and Removal Operations",
+					"sourceUrl": "https://www.usaspending.gov/award/CONT_AWD_70CDCR26FR0000003_7012_GS23F0026U_4730"
+				}
+			],
+			"addedAt": "2026-08-11"
+		},
+		{
+			"id": "fivecast",
+			"avoid": "Fivecast",
+			"ownership": [
+				{
+					"firmId": "fivecast",
+					"stake": "majority",
+					"since": "2017"
+				}
+			],
+			"cat": "tech",
+			"alts": [],
+			"why": "Fivecast sells ONYX, an AI-driven surveillance platform built with Five Eyes intelligence agencies that continuously scrapes news sites, social media, marketplaces, and the dark web, and claims to detect \"sentiment and emotion\" in a target's posts to gauge risk. ICE holds a $4.2 million contract for ONYX and CBP a separate $2.36 million license contract, letting both agencies build behavioral risk profiles from people's online activity, per 404 Media and OrangeSlices AI contract-award reporting.",
+			"blurb": "Sells AI-driven social-media and open-source-intelligence surveillance platform ONYX.",
+			"harms": [
+				"workers_ice_cooperation"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "workers_ice_cooperation",
+					"text": "ICE holds a $4.2 million contract for Fivecast ONYX and CBP a separate $2.36 million license contract, letting both agencies build behavioral risk profiles from people's online activity by scraping news, social media, and the dark web and claiming to detect \"sentiment and emotion\" in their posts.",
+					"date": "2026",
+					"amountUsd": 4200000,
+					"amountKind": "deal",
+					"actor": "ICE",
+					"sourceUrl": "https://www.404media.co/ai-surveillance-tool-dhs-cbp-sentiment-emotion-fivecast/"
+				}
+			],
+			"addedAt": "2026-08-11"
 		}
 	]
 }
