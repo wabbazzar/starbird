@@ -13021,6 +13021,96 @@
 				}
 			],
 			"addedAt": "2026-08-11"
+		},
+		{
+			"id": "foster_farms",
+			"name": "Foster Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Family-owned poultry producer headquartered in Livingston, California, and one of the largest chicken processors on the U.S. West Coast. A June 2015 Mercy for Animals undercover investigation at a Foster Farms slaughterhouse and nearby farms in Fresno, California documented workers throwing live chickens into metal shackles and birds being scalded alive. MFA filed a federal false-advertising complaint against Foster Farms and the American Humane Association over the company's 'humane certified' labeling on products from the same facility.",
+			"blurb": "Poultry producer raising and processing chicken products.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"source": "https://mercyforanimals.org/investigations/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A June 2015 Mercy for Animals undercover investigation at a Foster Farms slaughterhouse and nearby farms in Fresno, California documented workers throwing live chickens into metal shackles and birds being scalded alive. MFA filed a federal false-advertising complaint against Foster Farms and the American Humane Association over the company's 'humane certified' labeling on products from the same facility.",
+					"date": "2015-06",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://time.com/3925835/foster-farms-mercy-for-animals-abuse-chickens-investigation-graphic-video/"
+				}
+			],
+			"addedAt": "2026-08-12"
+		},
+		{
+			"id": "seaboard_foods",
+			"name": "Seaboard Foods",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Pork production subsidiary of publicly traded Seaboard Corporation, one of the largest hog producers and processors in the U.S. A 2015 Mercy for Animals undercover investigation at a Seaboard Foods-supplied Colorado hog farm documented mother pigs confined in gestation crates unable to turn around, newborn piglets castrated and tail-docked without painkillers, sick pigs left to suffer and die in their cages, and workers beating animals with boards. The pork, sold at Walmart under the Prairie Fresh brand, led to a criminal investigation and the firing of seven employees.",
+			"blurb": "Pork producer and processor supplying retail and food-service customers.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"source": "https://mercyforanimals.org/investigations/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2015 Mercy for Animals undercover investigation at a Seaboard Foods-supplied Colorado hog farm documented mother pigs confined in gestation crates unable to turn around, newborn piglets castrated and tail-docked without painkillers, sick pigs left to suffer and die in their cages, and workers beating animals with boards. The pork, sold at Walmart under the Prairie Fresh brand, led to a criminal investigation and the firing of seven employees.",
+					"date": "2015-05",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/walmart-pork-supplier-caught-abusing-pigs/"
+				}
+			],
+			"addedAt": "2026-08-12"
+		},
+		{
+			"id": "koch_foods",
+			"name": "Koch Foods",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Privately held poultry processor and one of the largest chicken suppliers in the U.S., unrelated to Koch Industries. A 2014-2015 Mercy for Animals undercover investigation at a Koch Foods chicken farm in Puckett, Mississippi, and slaughterhouse in Chattanooga, Tennessee, documented workers throwing chickens, hiding cockroaches from USDA inspectors, and scalding thousands of birds alive each week. Koch Foods supplied Chick-fil-A restaurants as late as May 2014, after Chick-fil-A had told media it had already stopped using the supplier.",
+			"blurb": "Poultry processor supplying chicken to restaurant chains and retailers.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"source": "https://mercyforanimals.org/investigations/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2014-2015 Mercy for Animals undercover investigation at a Koch Foods chicken farm in Puckett, Mississippi, and slaughterhouse in Chattanooga, Tennessee, documented workers throwing chickens, hiding cockroaches from USDA inspectors, and scalding thousands of birds alive each week. Koch Foods supplied Chick-fil-A restaurants as late as May 2014, after Chick-fil-A had told media it had already stopped using the supplier.",
+					"date": "2015-01",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://www.cbsnews.com/chicago/news/animal-rights-group-claims-abuse-by-koch-foods-chick-fil-a/"
+				}
+			],
+			"addedAt": "2026-08-12"
 		}
 	],
 	"brands": [
@@ -17992,18 +18082,27 @@
 			],
 			"cat": "retail",
 			"alts": [],
-			"why": "Costco pays starting wages of $19.50/hour (as of 2023), provides health benefits to part-time workers after 180 days, and has one of the lowest employee turnover rates in retail. Its employee-focused model is a direct contrast to race-to-the-bottom retail labor practices. Source: Costco investor relations and wage announcements (costco.com/jobs.html).",
+			"why": "Costco pays starting wages of $19.50/hour (as of 2023), provides health benefits to part-time workers after 180 days, and has one of the lowest employee turnover rates in retail. Its employee-focused model is a direct contrast to race-to-the-bottom retail labor practices. Source: Costco investor relations and wage announcements (costco.com/jobs.html). An August 2026 Mercy for Animals investigation found baby chicks beaten with sticks and rakes, repeatedly bludgeoned with a pipe, and injured birds left to languish among dead flockmates at a USDA-certified organic chicken farm supplying Costco — the second such Costco-supply-chain exposé from the group in five years, despite Costco's public 2021 commitment to improve animal welfare.",
 			"blurb": "Membership warehouse retailer selling groceries, household goods, and merchandise in bulk.",
-			"harms": [],
+			"harms": [
+				"animals_general"
+			],
 			"aligns": [
 				"workers_positive"
 			],
-			"addedAt": "2026-04-23",
+			"addedAt": "2026-08-12",
 			"evidence": [
 				{
 					"tag": "workers_positive",
 					"text": "Costco pays starting wages of $19.50/hour (as of 2023), provides health benefits to part-time workers after 180 days, and has one of the lowest employee turnover rates in retail. Its employee-focused model is a direct contrast to race-to-the-bottom retail labor practices.",
 					"date": "2023"
+				},
+				{
+					"tag": "animals_general",
+					"text": "An August 2026 Mercy for Animals investigation found baby chicks beaten with sticks and rakes, repeatedly bludgeoned with a pipe, and injured birds left to languish among dead flockmates at a USDA-certified organic chicken farm supplying Costco — the second such Costco-supply-chain exposé from the group in five years, despite Costco's public 2021 commitment to improve animal welfare.",
+					"date": "2026-08",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/costco-exposed-investigation-2026/"
 				}
 			]
 		},
@@ -29435,6 +29534,93 @@
 				}
 			],
 			"addedAt": "2026-08-11"
+		},
+		{
+			"id": "foster_farms",
+			"avoid": "Foster Farms",
+			"ownership": [
+				{
+					"firmId": "foster_farms",
+					"stake": "majority",
+					"since": "1900"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "One of the largest chicken producers on the West Coast, marketed under an American Humane Association 'humane certified' label. A June 2015 Mercy for Animals undercover investigation at a Foster Farms slaughterhouse and nearby farms in Fresno, California documented workers throwing live chickens into metal shackles and birds being scalded alive. MFA filed a federal false-advertising complaint against Foster Farms and the American Humane Association over the company's 'humane certified' labeling on products from the same facility.",
+			"blurb": "Poultry producer selling fresh and frozen chicken products.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A June 2015 Mercy for Animals undercover investigation at a Foster Farms slaughterhouse and nearby farms in Fresno, California documented workers throwing live chickens into metal shackles and birds being scalded alive. MFA filed a federal false-advertising complaint against Foster Farms and the American Humane Association over the company's 'humane certified' labeling on products from the same facility.",
+					"date": "2015-06",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://time.com/3925835/foster-farms-mercy-for-animals-abuse-chickens-investigation-graphic-video/"
+				}
+			],
+			"addedAt": "2026-08-12"
+		},
+		{
+			"id": "seaboard_foods",
+			"avoid": "Seaboard Foods",
+			"ownership": [
+				{
+					"firmId": "seaboard_foods",
+					"stake": "majority",
+					"since": "1900"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Major U.S. hog producer whose pork is sold at Walmart under the Prairie Fresh label. A 2015 Mercy for Animals undercover investigation at a Seaboard Foods-supplied Colorado hog farm documented mother pigs confined in gestation crates unable to turn around, newborn piglets castrated and tail-docked without painkillers, sick pigs left to suffer and die in their cages, and workers beating animals with boards. The pork, sold at Walmart under the Prairie Fresh brand, led to a criminal investigation and the firing of seven employees.",
+			"blurb": "Pork producer and processor selling fresh pork under the Prairie Fresh brand.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2015 Mercy for Animals undercover investigation at a Seaboard Foods-supplied Colorado hog farm documented mother pigs confined in gestation crates unable to turn around, newborn piglets castrated and tail-docked without painkillers, sick pigs left to suffer and die in their cages, and workers beating animals with boards. The pork, sold at Walmart under the Prairie Fresh brand, led to a criminal investigation and the firing of seven employees.",
+					"date": "2015-05",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/walmart-pork-supplier-caught-abusing-pigs/"
+				}
+			],
+			"addedAt": "2026-08-12"
+		},
+		{
+			"id": "koch_foods",
+			"avoid": "Koch Foods",
+			"ownership": [
+				{
+					"firmId": "koch_foods",
+					"stake": "majority",
+					"since": "1900"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Major U.S. chicken processor that supplied Chick-fil-A restaurants. A 2014-2015 Mercy for Animals undercover investigation at a Koch Foods chicken farm in Puckett, Mississippi, and slaughterhouse in Chattanooga, Tennessee, documented workers throwing chickens, hiding cockroaches from USDA inspectors, and scalding thousands of birds alive each week. Koch Foods supplied Chick-fil-A restaurants as late as May 2014, after Chick-fil-A had told media it had already stopped using the supplier.",
+			"blurb": "Poultry processor supplying raw and processed chicken to restaurants and retailers.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2014-2015 Mercy for Animals undercover investigation at a Koch Foods chicken farm in Puckett, Mississippi, and slaughterhouse in Chattanooga, Tennessee, documented workers throwing chickens, hiding cockroaches from USDA inspectors, and scalding thousands of birds alive each week. Koch Foods supplied Chick-fil-A restaurants as late as May 2014, after Chick-fil-A had told media it had already stopped using the supplier.",
+					"date": "2015-01",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://www.cbsnews.com/chicago/news/animal-rights-group-claims-abuse-by-koch-foods-chick-fil-a/"
+				}
+			],
+			"addedAt": "2026-08-12"
 		}
 	]
 }

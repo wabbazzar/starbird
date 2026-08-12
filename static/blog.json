@@ -1774,6 +1774,22 @@
         "shadowdragon"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-08-12-mercy_for_animals_investigations",
+      "date": "2026-08-12",
+      "title": "Three poultry and pork suppliers, one pattern of undercover exposure",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy for Animals' undercover investigations at Foster Farms, Seaboard Foods, and Koch Foods each caught workers abusing animals despite the companies' welfare claims and major retail/restaurant customers.",
+      "body": "Foster Farms marketed its chicken as 'humane certified,' but a 2015 Mercy for Animals investigation at its Fresno slaughterhouse found birds scalded alive and thrown into shackles by workers — evidence strong enough that MFA filed a federal false-advertising complaint against the company and its certifier.\n\nSeaboard Foods, a subsidiary of publicly traded Seaboard Corporation, supplies Walmart's Prairie Fresh pork line. An undercover investigator documented gestation-crated sows unable to turn around, piglets castrated without pain relief, and workers beating animals with boards — footage that triggered a criminal investigation and seven firings.\n\nKoch Foods, unrelated to Koch Industries, supplied Chick-fil-A restaurants even after the chain told reporters it had cut ties. Investigators filmed birds scalded alive by the thousands weekly and cockroaches hidden from USDA inspectors at a Mississippi farm and Tennessee slaughterhouse.\n\nThe throughline: all three are standalone processors, not brand names shoppers see directly, feeding into retail and restaurant supply chains that market themselves on welfare or quality. We also updated Costco's entry — a 2026 MFA investigation found its organic-chicken supply chain still hasn't fixed the abuse first documented in 2021.",
+      "entityIds": [
+        "foster_farms",
+        "koch_foods",
+        "seaboard_foods"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
