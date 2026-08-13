@@ -2964,7 +2964,7 @@
 			"name": "Tyson Foods",
 			"aum": "N/A",
 			"aumVal": 0,
-			"summary": "One of the world's largest protein producers, headquartered in Springdale, Arkansas, with annual revenue exceeding $53 billion. Tyson owns Jimmy Dean, Ball Park, Hillshire Farm, and State Fair brands. CSPI's Chemical Cuisine database specifically lists BHA (butylated hydroxyanisole) — an antioxidant preservative rated 'Avoid' — as an ingredient in multiple Jimmy Dean pork sausage products. Sodium nitrite, also rated 'Avoid' by CSPI, is used widely across Tyson's processed meat portfolio. IARC classifies sodium nitrite-treated processed meats as Group 1 carcinogens. Tyson acquired Jimmy Dean Brands from Sara Lee Corporation in 2012 for approximately $400 million. Between 2018 and 2022, Tyson released at least 371.7 million pounds of pollution into U.S. waterways, including 34.2 million pounds of nitrogen and 5.1 million pounds of phosphorus, dispersed in 87 billion gallons of wastewater containing blood, bacteria, and animal feces, according to a 2024 Union of Concerned Scientists report.",
+			"summary": "One of the world's largest protein producers, headquartered in Springdale, Arkansas, with annual revenue exceeding $53 billion. Tyson owns Jimmy Dean, Ball Park, Hillshire Farm, and State Fair brands. CSPI's Chemical Cuisine database specifically lists BHA (butylated hydroxyanisole) — an antioxidant preservative rated 'Avoid' — as an ingredient in multiple Jimmy Dean pork sausage products. Sodium nitrite, also rated 'Avoid' by CSPI, is used widely across Tyson's processed meat portfolio. IARC classifies sodium nitrite-treated processed meats as Group 1 carcinogens. Tyson acquired Jimmy Dean Brands from Sara Lee Corporation in 2012 for approximately $400 million. Between 2018 and 2022, Tyson released at least 371.7 million pounds of pollution into U.S. waterways, including 34.2 million pounds of nitrogen and 5.1 million pounds of phosphorus, dispersed in 87 billion gallons of wastewater containing blood, bacteria, and animal feces, according to a 2024 Union of Concerned Scientists report. A 2015-2016 Mercy For Animals undercover investigation at a Tyson Foods contract farm in Lewisburg, Tennessee documented workers punching, kicking, and stabbing chickens, and birds having their heads torn off while still conscious; Tyson and six farm workers were charged with 33 counts of criminal cruelty to animals, and both Tyson and McDonald's severed ties with the farm.",
 			"blurb": "One of the world's largest meat producers, processing and selling chicken, beef, and pork, including Jimmy Dean and Ball Park.",
 			"brands": [
 				"Jimmy Dean"
@@ -2978,10 +2978,11 @@
 			],
 			"harms": [
 				"health_general",
-				"environment_general"
+				"environment_general",
+				"animals_general"
 			],
 			"aligns": [],
-			"addedAt": "2026-05-24",
+			"addedAt": "2026-08-13",
 			"evidence": [
 				{
 					"tag": "health_general",
@@ -2993,6 +2994,13 @@
 					"text": "Between 2018 and 2022, Tyson released at least 371.7 million pounds of pollution into U.S. waterways, including 34.2 million pounds of nitrogen and 5.1 million pounds of phosphorus, dispersed in 87 billion gallons of wastewater containing blood, bacteria, and animal feces, according to a 2024 Union of Concerned Scientists report.",
 					"date": "2024",
 					"actor": "Union of Concerned Scientists"
+				},
+				{
+					"tag": "animals_general",
+					"text": "A 2015-2016 Mercy For Animals undercover investigation at a Tyson Foods contract farm in Lewisburg, Tennessee documented workers punching, kicking, and stabbing chickens, and birds having their heads torn off while still conscious; Tyson and six farm workers were charged with 33 counts of criminal cruelty to animals, and both Tyson and McDonald's severed ties with the farm.",
+					"date": "2016-05",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/breaking-tyson-foods-and-six-workers-face/"
 				}
 			]
 		},
@@ -3001,7 +3009,7 @@
 			"name": "Hormel Foods",
 			"aum": "N/A",
 			"aumVal": 0,
-			"summary": "American multinational food company headquartered in Austin, Minnesota, founded in 1891, with annual revenue over $12 billion. Hormel's flagship product SPAM Classic lists sodium nitrite in its ingredient panel — a preservative CSPI rates as 'Avoid' due to its conversion in the stomach to nitrosamines, compounds classified as probable human carcinogens by IARC. SPAM is sold in 44 countries and generated over $1 billion in annual U.S. retail sales. Hormel also owns Applegate Farms (natural/organic meats), Skippy peanut butter, and Jennie-O Turkey Store. Its core deli and canned meat portfolio — including Hormel pepperoni, Vienna Beef, and Black Label bacon — relies heavily on sodium nitrite and sodium nitrate as preservatives and color fixatives. Flagged under health_general.",
+			"summary": "American multinational food company headquartered in Austin, Minnesota, founded in 1891, with annual revenue over $12 billion. Hormel's flagship product SPAM Classic lists sodium nitrite in its ingredient panel — a preservative CSPI rates as 'Avoid' due to its conversion in the stomach to nitrosamines, compounds classified as probable human carcinogens by IARC. SPAM is sold in 44 countries and generated over $1 billion in annual U.S. retail sales. Hormel also owns Applegate Farms (natural/organic meats), Skippy peanut butter, and Jennie-O Turkey Store. Its core deli and canned meat portfolio — including Hormel pepperoni, Vienna Beef, and Black Label bacon — relies heavily on sodium nitrite and sodium nitrate as preservatives and color fixatives. Flagged under health_general. In January 2017, Mercy For Animals released undercover video from a Hormel pork supplier, The Maschhoffs, showing workers hitting piglets with gas cans and cutting off piglets' tails and testicles without painkillers; Hormel suspended purchases from the supplier pending investigation.",
 			"blurb": "American food company making canned and packaged meats and prepared foods, including SPAM and Skippy.",
 			"brands": [
 				"SPAM"
@@ -3014,15 +3022,23 @@
 				"food"
 			],
 			"harms": [
-				"health_general"
+				"health_general",
+				"animals_general"
 			],
 			"aligns": [],
-			"addedAt": "2026-04-11",
+			"addedAt": "2026-08-13",
 			"evidence": [
 				{
 					"tag": "health_general",
 					"text": "Hormel's flagship product SPAM Classic lists sodium nitrite in its ingredient panel — a preservative CSPI rates as 'Avoid' due to its conversion in the stomach to nitrosamines, compounds classified as probable human carcinogens by IARC. Its core deli and canned meat portfolio — including Hormel pepperoni, Vienna Beef, and Black Label bacon — relies heavily on sodium nitrite and sodium nitrate as preservatives and color fixatives.",
 					"actor": "CSPI"
+				},
+				{
+					"tag": "animals_general",
+					"text": "In January 2017, Mercy For Animals released undercover video from a Hormel pork supplier, The Maschhoffs, showing workers hitting piglets with gas cans and cutting off piglets' tails and testicles without painkillers; Hormel suspended purchases from the supplier pending investigation.",
+					"date": "2017-01",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.cbsnews.com/minnesota/news/hormel-alleged-pig-abuse/"
 				}
 			]
 		},
@@ -4410,7 +4426,7 @@
 			"name": "Smithfield Foods (WH Group)",
 			"aum": "N/A",
 			"aumVal": 0,
-			"summary": "The world's largest pork processor and hog producer, headquartered in Smithfield, Virginia. Acquired by Chinese conglomerate WH Group (formerly Shuanghui International, HKEX: 288) in September 2013 for $7.1 billion — the largest Chinese acquisition of a US company at the time. Smithfield's processed pork portfolio — Eckrich smoked sausages, Armour Star canned meats, Farmland bacon, Gwaltney, John Morrell, and Nathan's Famous hot dogs — relies on sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' because it reacts with amines in stomach acid to form N-nitrosamines, potent carcinogens. In 2015, IARC classified consumption of processed meats — all of which require sodium nitrite for their characteristic cured color and flavor — as Group 1 carcinogenic to humans, the same tier as tobacco smoke. Smithfield generates over $15 billion in annual revenue and is one of the largest single distributors of sodium nitrite-preserved meats to American consumers. Smithfield ranked #1 nationally among 1,671 facilities in the food sector for total toxic releases in EPA's 2022 Toxics Release Inventory, with 4.9 million pounds released. In 2024, following installation of a $45 million wastewater treatment facility, the company still released 1.1 million pounds of nitrates and 51,400 pounds of ammonia into the Big Sioux River watershed. Nitrate and ammonia pollution from industrial meat processing contributes to algal blooms, dead zones, and contamination of drinking water sources.",
+			"summary": "The world's largest pork processor and hog producer, headquartered in Smithfield, Virginia. Acquired by Chinese conglomerate WH Group (formerly Shuanghui International, HKEX: 288) in September 2013 for $7.1 billion — the largest Chinese acquisition of a US company at the time. Smithfield's processed pork portfolio — Eckrich smoked sausages, Armour Star canned meats, Farmland bacon, Gwaltney, John Morrell, and Nathan's Famous hot dogs — relies on sodium nitrite as a preservative and color fixative. CSPI's Chemical Cuisine rates sodium nitrite as 'Avoid' because it reacts with amines in stomach acid to form N-nitrosamines, potent carcinogens. In 2015, IARC classified consumption of processed meats — all of which require sodium nitrite for their characteristic cured color and flavor — as Group 1 carcinogenic to humans, the same tier as tobacco smoke. Smithfield generates over $15 billion in annual revenue and is one of the largest single distributors of sodium nitrite-preserved meats to American consumers. Smithfield ranked #1 nationally among 1,671 facilities in the food sector for total toxic releases in EPA's 2022 Toxics Release Inventory, with 4.9 million pounds released. In 2024, following installation of a $45 million wastewater treatment facility, the company still released 1.1 million pounds of nitrates and 51,400 pounds of ammonia into the Big Sioux River watershed. Nitrate and ammonia pollution from industrial meat processing contributes to algal blooms, dead zones, and contamination of drinking water sources. A Mercy For Animals undercover investigator who spent a month working at a Smithfield hog facility documented mother pigs confined for life in gestation crates too small to turn around in, many with untreated pressure sores and open wounds, and piglets taken from their mothers as young as 10 days old to have their tails docked and testicles removed without painkillers.",
 			"blurb": "Pork producer and processor raising hogs and making fresh and packaged pork products, owned by China's WH Group.",
 			"brands": [
 				"Eckrich"
@@ -4424,10 +4440,11 @@
 			],
 			"harms": [
 				"health_general",
-				"environment_general"
+				"environment_general",
+				"animals_general"
 			],
 			"aligns": [],
-			"addedAt": "2026-04-23",
+			"addedAt": "2026-08-13",
 			"evidence": [
 				{
 					"tag": "health_general",
@@ -4441,6 +4458,12 @@
 					"text": "Smithfield ranked #1 nationally among 1,671 facilities in the food sector for total toxic releases in EPA's 2022 Toxics Release Inventory, with 4.9 million pounds released. In 2024, following installation of a $45 million wastewater treatment facility, the company still released 1.1 million pounds of nitrates and 51,400 pounds of ammonia into the Big Sioux River watershed. Nitrate and ammonia pollution from industrial meat processing contributes to algal blooms, dead zones, and contamination of drinking water sources.",
 					"date": "2022",
 					"actor": "EPA"
+				},
+				{
+					"tag": "animals_general",
+					"text": "A Mercy For Animals undercover investigator who spent a month working at a Smithfield hog facility documented mother pigs confined for life in gestation crates too small to turn around in, many with untreated pressure sores and open wounds, and piglets taken from their mothers as young as 10 days old to have their tails docked and testicles removed without painkillers.",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/undercover-investigation-reveals-routine-cruelty-to-pigs-at-worlds-largest-pork-producer/"
 				}
 			]
 		},
@@ -29621,6 +29644,92 @@
 				}
 			],
 			"addedAt": "2026-08-12"
+		},
+		{
+			"id": "tyson_foods",
+			"avoid": "Tyson",
+			"ownership": [
+				{
+					"firmId": "tyson_foods",
+					"stake": "majority",
+					"since": "1935"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Tyson is one of the largest poultry producers in the U.S., selling chicken under its own name as well as Jimmy Dean, Ball Park, Hillshire Farm, and State Fair. A 2015-2016 Mercy For Animals undercover investigation at a Tyson contract farm in Lewisburg, Tennessee documented workers punching, kicking, and stabbing chickens, and birds having their heads torn off while still conscious. Tyson and six farm workers faced 33 counts of criminal cruelty to animals, and McDonald's — a major Tyson customer — cut ties with the implicated farm.",
+			"blurb": "Poultry and processed-meat producer selling chicken, sausage, and deli products.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2015-2016 Mercy For Animals undercover investigation at a Tyson contract farm in Lewisburg, Tennessee documented workers punching, kicking, and stabbing chickens, and birds having their heads torn off while still conscious. Tyson and six farm workers faced 33 counts of criminal cruelty to animals, and McDonald's — a major Tyson customer — cut ties with the implicated farm.",
+					"date": "2016-05",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/breaking-tyson-foods-and-six-workers-face/"
+				}
+			],
+			"addedAt": "2026-08-13"
+		},
+		{
+			"id": "smithfield_foods",
+			"avoid": "Smithfield",
+			"ownership": [
+				{
+					"firmId": "smithfield_foods",
+					"stake": "majority",
+					"since": "1936"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Smithfield is the world's largest pork processor and hog producer, selling bacon, ham, and packaged pork under its own name plus Eckrich, Armour Star, and Farmland. A Mercy For Animals undercover investigator who spent a month working inside a Smithfield hog facility documented mother pigs confined for life in gestation crates too small to turn around in, many suffering untreated pressure sores, and piglets taken from their mothers as young as 10 days old to have their tails docked and testicles removed without painkillers.",
+			"blurb": "Pork producer and processor selling bacon, ham, and packaged pork products.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Mercy For Animals undercover investigator who spent a month working inside a Smithfield hog facility documented mother pigs confined for life in gestation crates too small to turn around in, many suffering untreated pressure sores, and piglets taken from their mothers as young as 10 days old to have their tails docked and testicles removed without painkillers.",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/undercover-investigation-reveals-routine-cruelty-to-pigs-at-worlds-largest-pork-producer/"
+				}
+			],
+			"addedAt": "2026-08-13"
+		},
+		{
+			"id": "hormel_foods",
+			"avoid": "Hormel",
+			"ownership": [
+				{
+					"firmId": "hormel_foods",
+					"stake": "majority",
+					"since": "1891"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Hormel sells SPAM, deli meats, and canned meat products, and sources pork from third-party hog suppliers. In January 2017, Mercy For Animals released undercover video from Hormel supplier The Maschhoffs showing workers hitting piglets with gas cans and cutting off piglets' tails and testicles without painkillers; Hormel suspended purchases from the supplier pending investigation.",
+			"blurb": "Packaged and canned meat producer selling SPAM, deli meats, and bacon.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In January 2017, Mercy For Animals released undercover video from Hormel supplier The Maschhoffs showing workers hitting piglets with gas cans and cutting off piglets' tails and testicles without painkillers; Hormel suspended purchases from the supplier pending investigation.",
+					"date": "2017-01",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.cbsnews.com/minnesota/news/hormel-alleged-pig-abuse/"
+				}
+			],
+			"addedAt": "2026-08-13"
 		}
 	]
 }

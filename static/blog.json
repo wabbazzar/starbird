@@ -1790,6 +1790,22 @@
         "seaboard_foods"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-13-mercy_for_animals_investigations",
+      "date": "2026-08-13",
+      "title": "Tyson, Smithfield, and Hormel: undercover video from the pork and poultry giants",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover investigators spent months inside farms and supply chains feeding three of America's biggest meat brands, and what they filmed led to criminal charges, a dropped McDonald's contract, and a supplier suspension.",
+      "body": "Tyson, Smithfield, and Hormel sit at the top of their respective categories — chicken, pork, and packaged meats — and all three have been caught on hidden camera by Mercy For Animals investigators inside their supply chains. At a Tyson contract farm in Lewisburg, Tennessee, workers were filmed punching, kicking, and stabbing chickens, and birds having their heads torn off while still conscious; the footage led to 33 counts of criminal animal cruelty charges against Tyson and six farm workers, and McDonald's — a major Tyson buyer — cut ties with the farm.\n\nAt Smithfield, the world's largest pork processor, an investigator who spent a month working inside a hog facility documented mother pigs confined for life in gestation crates too small to turn around in, many with untreated pressure sores, and piglets taken from their mothers as young as 10 days old for painkiller-free tail docking and castration.\n\nHormel's exposure came through its supply chain: in January 2017, Mercy For Animals released video from Hormel pork supplier The Maschhoffs showing workers hitting piglets with gas cans and mutilating them without anesthesia. Hormel suspended purchases from the supplier pending investigation — but kept sourcing from the broader industrial hog system that makes such conditions routine.\n\nThe throughline across all three: none of this required a rogue employee or a bad-apple farm. Gestation crates, rapid-growth breeding, and painkiller-free mutilation are standard industry practice, documented repeatedly by the same investigators at different companies years apart.",
+      "entityIds": [
+        "hormel_foods",
+        "smithfield_foods",
+        "tyson_foods"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
