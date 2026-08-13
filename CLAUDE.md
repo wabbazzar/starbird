@@ -61,7 +61,7 @@ Strategy scoring is deterministic: `new_entities / cost_usd` over the last 10 ru
 - `src/lib/schema.ts` — zod validation (run at page load + by the release battery)
 - `src/lib/blog.ts` — BlogPost type + zod BlogFileSchema (version + posts[])
 - `src/lib/values.ts` — 6 values (workers, environment, animals, health, extraction, elite_impunity)
-- `src/lib/quests.ts` — 16 quests, each rolls up to one value
+- `src/lib/quests.ts` — 17 quests, each rolls up to one value
 - `src/lib/categories.ts` — 9 categories (tech, food, coffee, retail, health, pets, home, hospitality, finance)
 - `src/lib/harmScore.ts` + `src/lib/harm-score-rubric.json` — harm score rubric (single source of truth, 6 buckets spanning 0–100)
 
@@ -71,7 +71,7 @@ When sorted by harm impact, brands rank by the max `harmScore` of their parent f
 
 ## Key rule: tags need evidence
 
-Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. Since the Phase 3 evidence backfill (`48f6736`), every firm and brand also carries a structured `evidence[]` array — one entry per tag, with `text`/`date`/`amountUsd`/`amountKind`/`actor`/`sourceUrl` — currently 395/395 firms and 545/545 brands. `scripts/dq-check.mjs` enforces tag→evidence linkage against this array (fails on any harm/align tag missing a matching `evidence.tag`) and is one of the data-quality gate commands in `.agents/gates.md`. When the runner adds a new tag to an existing entry, it must append both the prose evidence and a matching `evidence[]` entry. Note: the nightly release pass (`.agents/release.md` step 4) still only describes a `scripts/check-evidence-coverage.py` sampling check that was never written — `dq-check.mjs` has since covered that gap for any entity carrying `evidence[]`.
+Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. Since the Phase 3 evidence backfill (`48f6736`), every firm and brand also carries a structured `evidence[]` array — one entry per tag, with `text`/`date`/`amountUsd`/`amountKind`/`actor`/`sourceUrl` — currently 398/398 firms and 548/548 brands. `scripts/dq-check.mjs` enforces tag→evidence linkage against this array (fails on any harm/align tag missing a matching `evidence.tag`) and is one of the data-quality gate commands in `.agents/gates.md`. When the runner adds a new tag to an existing entry, it must append both the prose evidence and a matching `evidence[]` entry. Note: the nightly release pass (`.agents/release.md` step 4) still only describes a `scripts/check-evidence-coverage.py` sampling check that was never written — `dq-check.mjs` has since covered that gap for any entity carrying `evidence[]`.
 
 ## `/shop` skill
 
