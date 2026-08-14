@@ -13134,6 +13134,92 @@
 				}
 			],
 			"addedAt": "2026-08-12"
+		},
+		{
+			"id": "rosebank_industries",
+			"name": "Rosebank Industries",
+			"aum": "$3.0B",
+			"aumVal": 3,
+			"summary": "Rosebank Industries is a UK-listed industrial holding company founded in 2024 by former Melrose Industries executives to run the same 'buy, improve, sell' playbook: acquire underperforming manufacturers, cut costs to lift margins within a 3-to-5-year window, then sell. It targets $3B in deals. One week after closing its May 2026 acquisition of MW Components, a fasteners and springs maker, the company filed a WARN notice to shut MW's Houston plant and lay off 53 workers, illustrating how quickly the model turns to cuts.",
+			"blurb": "Industrial holding company that buys, restructures, and resells manufacturing businesses.",
+			"brands": [],
+			"layoffs": "53 (MW Components Houston plant, Oct. 2026)",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"source": "https://hoodline.com/2026/06/houston-bolt-plant-shutters-53-workers-brace-for-mw-components-cut/",
+			"cats": [],
+			"harms": [
+				"extraction_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_general",
+					"text": "One week after closing its May 2026 acquisition of MW Components, a fasteners and springs maker, the company filed a WARN notice to shut MW's Houston plant and lay off 53 workers, illustrating how quickly the model turns to cuts.",
+					"date": "2026-05",
+					"actor": "N/A",
+					"sourceUrl": "https://hoodline.com/2026/06/houston-bolt-plant-shutters-53-workers-brace-for-mw-components-cut/"
+				}
+			],
+			"addedAt": "2026-08-14"
+		},
+		{
+			"id": "refresco",
+			"name": "Refresco",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Refresco is a global contract beverage manufacturer (€6.1B revenue, 13,000+ employees across 75+ bottling sites) that has been majority-owned by KKR since 2022. In April 2026, Refresco closed its Carlisle, Ohio bottling facility, filing a WARN Act notice laying off 63 workers and citing high operating costs and changing customer needs — part of the integration following its May 2026 acquisition of SunOpta.",
+			"blurb": "Contract beverage manufacturer that bottles drinks for retailer and national brands.",
+			"brands": [],
+			"layoffs": "63 (Carlisle, OH facility, April 2026)",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"source": "https://whatnow.com/news/local-news/27-year-old-beverage-production-company-to-close-carlisle-facility-lay-off-63/",
+			"cats": [],
+			"harms": [
+				"extraction_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_general",
+					"text": "In April 2026, Refresco closed its Carlisle, Ohio bottling facility, filing a WARN Act notice laying off 63 workers and citing high operating costs and changing customer needs.",
+					"date": "2026-04",
+					"actor": "N/A",
+					"sourceUrl": "https://whatnow.com/news/local-news/27-year-old-beverage-production-company-to-close-carlisle-facility-lay-off-63/"
+				}
+			],
+			"addedAt": "2026-08-14"
+		},
+		{
+			"id": "charlesbank_capital",
+			"name": "Charlesbank Capital Partners",
+			"aum": "$24B",
+			"aumVal": 24,
+			"summary": "Charlesbank Capital Partners is a Boston middle-market private-equity firm founded in 1998 with roughly $24B in assets under management across business services, healthcare, industrial, and technology sectors. In January 2026, Charlesbank-backed Tecomet merged with Orchid Orthopedic Solutions, a medical-device manufacturer Charlesbank acquired from Nordic Capital — Orchid's fourth private-equity owner since 2000. Under Nordic's prior ownership, Orchid hired consultants from National Labor Relations Advocates to run a union-busting campaign at an Oregon facility, spending roughly $165,000 in three months, per the Private Equity Stakeholder Project.",
+			"blurb": "Middle-market private-equity firm; buys and combines industrial, healthcare, and business-services companies.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 64,
+			"source": "https://pestakeholder.org/news/private-equity-buyout-tracker-q2-2026/",
+			"cats": [],
+			"harms": [
+				"extraction_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_general",
+					"text": "Orchid Orthopedic Solutions is Charlesbank's target company and Nordic Capital's former portfolio company — Orchid's fourth private-equity owner since 2000. Under Nordic's prior ownership, Orchid hired consultants from National Labor Relations Advocates to run a union-busting campaign at an Oregon facility, spending roughly $165,000 in three months.",
+					"date": "2026-01",
+					"amountUsd": 165000,
+					"amountKind": "fees",
+					"actor": "National Labor Relations Advocates",
+					"sourceUrl": "https://pestakeholder.org/news/private-equity-buyout-tracker-q2-2026/"
+				}
+			],
+			"addedAt": "2026-08-14"
 		}
 	],
 	"brands": [
@@ -29730,6 +29816,105 @@
 				}
 			],
 			"addedAt": "2026-08-13"
+		},
+		{
+			"id": "mw_components",
+			"avoid": "MW Components",
+			"ownership": [
+				{
+					"firmId": "rosebank_industries",
+					"stake": "majority",
+					"since": "2026"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "MW Components makes springs, precision fasteners, and related components for aerospace and industrial customers from more than two dozen U.S. facilities. Rosebank Industries acquired it in May 2026 as its second investment. One week later, the company filed a WARN notice closing its Houston fastener plant, laying off 53 workers effective October 8, 2026 — a fast turnaround consistent with Rosebank's stated 3-to-5-year buy-improve-sell model.",
+			"blurb": "Manufacturer of springs, precision fasteners, and components for aerospace and industrial customers.",
+			"harms": [
+				"extraction_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_general",
+					"text": "One week after the acquisition closed, the company filed a WARN notice closing its Houston fastener plant, laying off 53 workers effective October 8, 2026.",
+					"date": "2026-05",
+					"actor": "N/A",
+					"sourceUrl": "https://hoodline.com/2026/06/houston-bolt-plant-shutters-53-workers-brace-for-mw-components-cut/"
+				}
+			],
+			"addedAt": "2026-08-14"
+		},
+		{
+			"id": "sunopta",
+			"avoid": "SunOpta",
+			"ownership": [
+				{
+					"firmId": "refresco",
+					"stake": "majority",
+					"since": "2026"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "SunOpta manufactures plant-based beverages, fruit snacks, and food ingredients. KKR-owned Refresco acquired SunOpta in May 2026. OSHA has documented 15 health and safety violations at SunOpta's non-union plants over the past five years, totaling more than $130,000 in fines; at the Carlisle, Ohio plant, OSHA found a worker suffered an amputation from hazardous conditions in late 2025, and the company settled the case for $10,000. Following the acquisition, Refresco closed the Carlisle facility in April 2026, laying off 63 workers.",
+			"blurb": "Manufacturer of plant-based beverages, fruit-based snacks, and food ingredients.",
+			"harms": [
+				"extraction_general",
+				"workers_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_general",
+					"text": "Following the May 2026 acquisition by KKR-owned Refresco, the Carlisle, Ohio facility was closed in April 2026, laying off 63 workers.",
+					"date": "2026-04",
+					"actor": "N/A",
+					"sourceUrl": "https://whatnow.com/news/local-news/27-year-old-beverage-production-company-to-close-carlisle-facility-lay-off-63/"
+				},
+				{
+					"tag": "workers_general",
+					"text": "OSHA has documented 15 health and safety violations at SunOpta's non-union plants over the past five years, totaling more than $130,000 in fines; at the Carlisle, Ohio plant, OSHA found a worker suffered an amputation from hazardous conditions in late 2025, and the company settled the case for $10,000.",
+					"date": "2025-11",
+					"amountUsd": 130000,
+					"amountKind": "fine",
+					"actor": "OSHA",
+					"sourceUrl": "https://whatnow.com/news/local-news/27-year-old-beverage-production-company-to-close-carlisle-facility-lay-off-63/"
+				}
+			],
+			"addedAt": "2026-08-14"
+		},
+		{
+			"id": "orchid_orthopedic",
+			"avoid": "Orchid Orthopedic Solutions",
+			"ownership": [
+				{
+					"firmId": "charlesbank_capital",
+					"stake": "majority",
+					"since": "2026"
+				}
+			],
+			"cat": "health",
+			"alts": [],
+			"why": "Orchid Orthopedic Solutions manufactures implants and instruments for medical-device makers, and has changed private-equity hands four times since 2000. Charlesbank Capital Partners acquired it from Nordic Capital in January 2026, merging it into portfolio company Tecomet. Under Nordic's prior ownership, Orchid hired consultants from National Labor Relations Advocates to run a union-busting campaign at an Oregon facility, spending roughly $165,000 in three months, according to the Private Equity Stakeholder Project's Q2 2026 buyout tracker.",
+			"blurb": "Manufacturer of orthopedic implants and surgical instruments for medical-device makers.",
+			"harms": [
+				"extraction_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "extraction_general",
+					"text": "Under Nordic's prior ownership, Orchid hired consultants from National Labor Relations Advocates to run a union-busting campaign at an Oregon facility, spending roughly $165,000 in three months.",
+					"date": "2026-01",
+					"amountUsd": 165000,
+					"amountKind": "fees",
+					"actor": "National Labor Relations Advocates",
+					"sourceUrl": "https://pestakeholder.org/news/private-equity-buyout-tracker-q2-2026/"
+				}
+			],
+			"addedAt": "2026-08-14"
 		}
 	]
 }

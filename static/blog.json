@@ -1806,6 +1806,25 @@
         "tyson_foods"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-14-nyt_dealbook_archive",
+      "date": "2026-08-14",
+      "title": "The week-one layoff: how fast buy-improve-sell PE turns to cuts",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "Three deals from this quarter show how quickly private equity moves from signing to cutting — one company lost its Houston plant a week after the ink dried.",
+      "body": "Rosebank Industries, a UK buyout vehicle built by former Melrose Industries executives to run the same 'buy, improve, sell' playbook, closed on fasteners maker MW Components in May 2026. One week later, MW filed a WARN notice to shut its Houston plant, cutting 53 jobs — a timeline that leaves little room to call it anything but the plan.\n\nRefresco, the KKR-owned contract bottler, tells a similar story on a longer fuse. After acquiring SunOpta in May 2026, Refresco closed SunOpta's Carlisle, Ohio facility that April, laying off 63 workers over rising operating costs. SunOpta's own safety record made the closure sting more: OSHA had already logged 15 violations and over $130,000 in fines at its non-union plants, including a worker's amputation at the same Carlisle site.\n\nOrchid Orthopedic Solutions shows what happens when a company gets flipped enough times. Charlesbank Capital Partners took it from Nordic Capital in January 2026 — Orchid's fourth PE owner since 2000. Under Nordic, the company had spent roughly $165,000 in three months on consultants to head off a union drive at an Oregon plant, a pattern documented by the Private Equity Stakeholder Project's buyout tracker.\n\nDifferent sectors, same shape: acquire, then move fast on costs, before the ownership changes hands again.",
+      "entityIds": [
+        "charlesbank_capital",
+        "refresco",
+        "rosebank_industries",
+        "mw_components",
+        "orchid_orthopedic",
+        "sunopta"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }
