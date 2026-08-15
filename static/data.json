@@ -13220,6 +13220,96 @@
 				}
 			],
 			"addedAt": "2026-08-14"
+		},
+		{
+			"id": "sparboe_farms",
+			"name": "Sparboe Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "One of the largest egg producers in the US, operating hen facilities in Iowa, Minnesota, and Colorado. A 2011 Mercy For Animals undercover investigation, aired by ABC News, documented workers swinging hens by their necks, hens confined in cramped wire cages unable to spread their wings, male chicks tossed into plastic bags to suffocate, and beak-cutting without pain relief. The footage prompted McDonald's, Target, Sam's Club, and Supervalu to drop Sparboe as an egg supplier within days of the report airing in November 2011. Mercy For Animals also filed a federal petition with the Federal Trade Commission alleging Sparboe's marketing claims of hens having \"freedom to express normal behavior\" and \"freedom from fear and distress\" were false advertising.",
+			"blurb": "Egg producer supplying grocery chains, fast food, and food-service companies.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 78,
+			"source": "https://www.cnn.com/2011/11/19/business/sparboe-farms-animal-cruelty/index.html",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2011 Mercy For Animals undercover investigation, aired by ABC News, documented workers swinging hens by their necks, hens confined in cramped wire cages unable to spread their wings, male chicks tossed into plastic bags to suffocate, and beak-cutting without pain relief. The footage prompted McDonald's, Target, Sam's Club, and Supervalu to drop Sparboe as an egg supplier within days of the report airing in November 2011.",
+					"date": "2011-11",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.cnn.com/2011/11/19/business/sparboe-farms-animal-cruelty/index.html"
+				}
+			],
+			"addedAt": "2026-08-15"
+		},
+		{
+			"id": "iowa_select_farms",
+			"name": "Iowa Select Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "The largest pork producer in Iowa and the fourth-largest in the US. A Mercy For Animals undercover investigation, corroborated by a whistleblower and reported by The Intercept in May 2020, documented pigs killed via \"ventilation shutdown\" during a coronavirus-era supply chain disruption -- workers sealed barns and cut off airflow, raising internal temperatures until thousands of pigs died of heatstroke, with video showing pigs shrieking as the temperature rose. The same investigation documented workers throwing piglets across rooms, ripping out testicles from conscious pigs, and cutting off piglet tails with pliers. Kroger suspended pork purchases from the company after the footage was released.",
+			"blurb": "Pork producer operating large-scale hog barns across Iowa.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 82,
+			"source": "https://theintercept.com/2020/05/29/pigs-factory-farms-ventilation-shutdown-coronavirus/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Mercy For Animals undercover investigation, corroborated by a whistleblower and reported by The Intercept in May 2020, documented pigs killed via \"ventilation shutdown\" -- workers sealed barns and cut off airflow, raising internal temperatures until thousands of pigs died of heatstroke. The same investigation documented workers throwing piglets across rooms and ripping out testicles from conscious pigs. Kroger suspended pork purchases from the company after the footage was released.",
+					"date": "2020-05",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://theintercept.com/2020/05/29/pigs-factory-farms-ventilation-shutdown-coronavirus/"
+				}
+			],
+			"addedAt": "2026-08-15"
+		},
+		{
+			"id": "quality_egg_of_new_england",
+			"name": "Quality Egg of New England",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "A Maine-based egg producer, one of the largest in the US and tied to the DeCoster egg-farming operation. A 2009 Mercy For Animals undercover investigation documented workers and managers killing hens by swinging them and throwing live birds into trash cans, birds with broken bones and untreated infections left in cages, and hens confined four to six per tiny wire cage unable to stretch their wings. The evidence led the company's owner to plead guilty in 2010 to 10 civil counts of cruelty to animals in Maine district court.",
+			"blurb": "Egg producer operating large-scale hen-laying facilities in Maine.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 80,
+			"source": "https://mercyforanimals.org/blog/maine-egg-producer-pleads-guilty-to-10-counts-of-cruelty-to-animals/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2009 Mercy For Animals undercover investigation documented workers and managers killing hens by swinging them and throwing live birds into trash cans, and hens confined four to six per tiny wire cage unable to stretch their wings. The evidence led the company's owner to plead guilty in 2010 to 10 civil counts of cruelty to animals in Maine district court.",
+					"date": "2010",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/maine-egg-producer-pleads-guilty-to-10-counts-of-cruelty-to-animals/"
+				}
+			],
+			"addedAt": "2026-08-15"
 		}
 	],
 	"brands": [
@@ -29915,6 +30005,93 @@
 				}
 			],
 			"addedAt": "2026-08-14"
+		},
+		{
+			"id": "sparboe_farms",
+			"avoid": "Sparboe Farms",
+			"ownership": [
+				{
+					"firmId": "sparboe_farms",
+					"stake": "majority",
+					"since": "1954"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A 2011 Mercy For Animals undercover investigation, aired by ABC News, documented workers swinging hens by their necks, hens confined in cramped wire cages unable to spread their wings, male chicks tossed into plastic bags to suffocate, and beak-cutting without pain relief at Sparboe's Iowa, Minnesota, and Colorado facilities. The footage prompted McDonald's, Target, Sam's Club, and Supervalu to drop Sparboe as an egg supplier within days of the report airing in November 2011.",
+			"blurb": "Egg producer supplying grocery chains, fast food, and food-service companies.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2011 Mercy For Animals undercover investigation, aired by ABC News, documented workers swinging hens by their necks, hens confined in cramped wire cages unable to spread their wings, and male chicks tossed into plastic bags to suffocate. The footage prompted McDonald's, Target, Sam's Club, and Supervalu to drop Sparboe as an egg supplier within days of the report airing in November 2011.",
+					"date": "2011-11",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.cnn.com/2011/11/19/business/sparboe-farms-animal-cruelty/index.html"
+				}
+			],
+			"addedAt": "2026-08-15"
+		},
+		{
+			"id": "iowa_select_farms",
+			"avoid": "Iowa Select Farms",
+			"ownership": [
+				{
+					"firmId": "iowa_select_farms",
+					"stake": "majority",
+					"since": "1992"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A Mercy For Animals undercover investigation, corroborated by a whistleblower and reported by The Intercept in May 2020, documented pigs killed via \"ventilation shutdown\" during a coronavirus-era supply chain disruption -- workers sealed barns and cut off airflow, raising internal temperatures until thousands of pigs died of heatstroke. The same investigation documented workers throwing piglets across rooms and ripping out testicles from conscious pigs. Kroger suspended pork purchases from the company after the footage was released.",
+			"blurb": "Pork producer operating large-scale hog barns across Iowa.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Mercy For Animals undercover investigation, corroborated by a whistleblower and reported by The Intercept in May 2020, documented pigs killed via \"ventilation shutdown\" -- workers sealed barns and cut off airflow, raising internal temperatures until thousands of pigs died of heatstroke. Kroger suspended pork purchases from the company after the footage was released.",
+					"date": "2020-05",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://theintercept.com/2020/05/29/pigs-factory-farms-ventilation-shutdown-coronavirus/"
+				}
+			],
+			"addedAt": "2026-08-15"
+		},
+		{
+			"id": "quality_egg_of_new_england",
+			"avoid": "Quality Egg of New England",
+			"ownership": [
+				{
+					"firmId": "quality_egg_of_new_england",
+					"stake": "majority",
+					"since": "1965"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A 2009 Mercy For Animals undercover investigation documented workers and managers killing hens by swinging them and throwing live birds into trash cans, birds with broken bones and untreated infections left in cages, and hens confined four to six per tiny wire cage unable to stretch their wings. The evidence led the company's owner to plead guilty in 2010 to 10 civil counts of cruelty to animals in Maine district court.",
+			"blurb": "Egg producer operating large-scale hen-laying facilities in Maine.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2009 Mercy For Animals undercover investigation documented workers and managers killing hens by swinging them and throwing live birds into trash cans, and hens confined four to six per tiny wire cage unable to stretch their wings. The evidence led the company's owner to plead guilty in 2010 to 10 civil counts of cruelty to animals in Maine district court.",
+					"date": "2010",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/maine-egg-producer-pleads-guilty-to-10-counts-of-cruelty-to-animals/"
+				}
+			],
+			"addedAt": "2026-08-15"
 		}
 	]
 }

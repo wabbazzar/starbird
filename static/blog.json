@@ -1825,6 +1825,22 @@
         "sunopta"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-08-15-mercy_for_animals_investigations",
+      "date": "2026-08-15",
+      "title": "Undercover footage links three egg and pork producers to cruelty",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover investigations at Sparboe Farms, Iowa Select Farms, and Quality Egg of New England each documented systemic animal cruelty that made it past standard food-safety inspections undetected.",
+      "body": "All three entries added this run trace back to the same investigative playbook: Mercy For Animals investigators worked undercover as employees, filmed conditions from the inside, and released footage that forced a public reckoning. At Sparboe Farms in 2011, hidden cameras caught workers swinging hens by their necks and tossing male chicks into suffocation bags -- footage that led McDonald's, Target, Sam's Club, and Supervalu to drop the egg supplier within days.\n\nAt Iowa Select Farms, the state's largest pig producer, a 2020 investigation corroborated by a whistleblower and reported by The Intercept documented pigs killed by \"ventilation shutdown\" -- sealing barns and cutting airflow until the animals died of heatstroke during a pandemic-era supply disruption. Kroger suspended pork purchases in response.\n\nQuality Egg of New England, tied to the DeCoster egg-farming operation, was the subject of an earlier 2009 investigation: hens killed by swinging, thrown live into trash cans, and packed four to six per cage. The evidence was strong enough that the company's owner pleaded guilty to 10 civil counts of animal cruelty in Maine district court.\n\nThe throughline is that none of this surfaced through routine audits -- it took workers filming from the inside, and consumer pressure once the footage went public did more to change practices than regulation did.",
+      "entityIds": [
+        "iowa_select_farms",
+        "quality_egg_of_new_england",
+        "sparboe_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
