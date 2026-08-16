@@ -1841,6 +1841,22 @@
         "sparboe_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-16-mercy_for_animals_investigations",
+      "date": "2026-08-16",
+      "title": "Three more poultry and dairy suppliers with documented cruelty findings",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover investigation archive surfaces three more producers behind familiar shelves and drive-thrus, each with hidden-camera footage and, in one case, a court-ordered fix that never stopped the abuse.",
+      "body": "Wayne Farms, the sixth-largest U.S. broiler producer and a wholly owned unit of grain trading giant Continental Grain, was the subject of a 2015 Mercy For Animals investigation at its Dobson, North Carolina slaughterhouse. The footage, narrated by Pamela Anderson, showed chickens shackled, dumped, and scalded alive during processing.\n\nBettencourt Dairies supplied cheese to Burger King out of its Dry Creek Dairy in Hansen, Idaho. A 2012 undercover investigation caught workers beating, kicking, and shocking cows, and dragging a downed animal with a tractor. Three workers were later charged with misdemeanor cruelty — a criminal outcome, but one that left the supply relationship untouched.\n\nMaple Lodge Farms, Canada's largest independently owned poultry processor, already had a legal history: a 2008-2009 mass die-off in transit led Canadian regulators to order over $1 million in transport-vehicle fixes. A 2015 hidden-camera investigation found the underlying handling problems persisted — birds still dying of cold in transit, and chickens having their throats cut while still conscious after botched stunning.\n\nThe throughline across all three: undercover footage did the enforcement work regulators didn't. Fines, court orders, and misdemeanor charges came after the fact, and in Maple Lodge's case, after a prior order had already been issued and complied with on paper.",
+      "entityIds": [
+        "bettencourt_dairies",
+        "maple_lodge_farms",
+        "wayne_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

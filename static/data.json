@@ -13310,6 +13310,98 @@
 				}
 			],
 			"addedAt": "2026-08-15"
+		},
+		{
+			"id": "wayne_farms",
+			"name": "Wayne Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Sixth-largest broiler chicken producer in the U.S., headquartered in Oakwood, Georgia and wholly owned by grain trading conglomerate Continental Grain Company. A March 2015 Mercy For Animals undercover investigation at a Wayne Farms slaughterhouse in Dobson, North Carolina documented chickens being violently shackled, dumped, cut open, and scalded alive, footage narrated by actress Pamela Anderson.",
+			"blurb": "Poultry producer raising and processing broiler chicken products.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 65,
+			"source": "https://mercyforanimals.org/investigations/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A March 2015 Mercy For Animals undercover investigation at a Wayne Farms slaughterhouse in Dobson, North Carolina documented chickens being violently shackled, dumped, cut open, and scalded alive, footage narrated by actress Pamela Anderson.",
+					"date": "2015-03",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://mercyforanimals.org/investigations/"
+				}
+			],
+			"addedAt": "2026-08-16"
+		},
+		{
+			"id": "bettencourt_dairies",
+			"name": "Bettencourt Dairies",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Idaho dairy operator and cheese supplier to Burger King, operating the Dry Creek Dairy facility in Hansen, Idaho. An August 2012 Mercy For Animals undercover investigation documented workers beating, kicking, shocking, and dragging cows with a tractor, and leaving sick animals without veterinary care; three workers were later charged with misdemeanor animal cruelty.",
+			"blurb": "Dairy farm operator supplying milk and cheese to food-service buyers.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"source": "https://mercyforanimals.org/investigations/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "An August 2012 Mercy For Animals undercover investigation documented workers beating, kicking, shocking, and dragging cows with a tractor, and leaving sick animals without veterinary care; three workers were later charged with misdemeanor animal cruelty.",
+					"date": "2012-08",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://www.cnbc.com/2012/10/10/mercy-for-animals-undercover-investigation-exposes-shocking-cruelty-to-cows-at-burger-king-cheese-supplier.html"
+				}
+			],
+			"addedAt": "2026-08-16"
+		},
+		{
+			"id": "maple_lodge_farms",
+			"name": "Maple Lodge Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Canada's largest independently and family-owned poultry processor, based in Brampton, Ontario. A March 2015 Mercy For Animals hidden-camera investigation documented birds dying of cold during transport, rough handling causing leg and wing fractures, and chickens having their throats cut while still conscious after improper stunning; the company was previously prosecuted under Canada's Health of Animals Act after roughly 2,000 birds died in transit in the winter of 2008-2009 and ordered to spend at least $1 million on transport-vehicle modifications.",
+			"blurb": "Poultry processor raising and processing chicken products for retail and food service.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 63,
+			"source": "https://mercyforanimals.org/investigations/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A March 2015 Mercy For Animals hidden-camera investigation documented birds dying of cold during transport, rough handling causing leg and wing fractures, and chickens having their throats cut while still conscious after improper stunning; the company was previously prosecuted under Canada's Health of Animals Act after roughly 2,000 birds died in transit in the winter of 2008-2009 and ordered to spend at least $1 million on transport-vehicle modifications.",
+					"date": "2015-03",
+					"amountUsd": 1000000,
+					"amountKind": "fees",
+					"actor": "Canadian Food Inspection Agency",
+					"sourceUrl": "https://www.cbc.ca/news/canada/toronto/maple-lodge-farms-probes-alleged-mistreatment-of-chickens-1.3014864"
+				}
+			],
+			"addedAt": "2026-08-16"
 		}
 	],
 	"brands": [
@@ -30092,6 +30184,95 @@
 				}
 			],
 			"addedAt": "2026-08-15"
+		},
+		{
+			"id": "wayne_farms",
+			"avoid": "Wayne Farms",
+			"ownership": [
+				{
+					"firmId": "wayne_farms",
+					"stake": "majority",
+					"since": "1970"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "The sixth-largest U.S. broiler chicken producer, wholly owned by Continental Grain Company. A March 2015 Mercy For Animals undercover investigation at a Wayne Farms slaughterhouse in Dobson, North Carolina documented chickens being violently shackled, dumped, cut open, and scalded alive.",
+			"blurb": "Chicken producer selling fresh and processed poultry products.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A March 2015 Mercy For Animals undercover investigation at a Wayne Farms slaughterhouse in Dobson, North Carolina documented chickens being violently shackled, dumped, cut open, and scalded alive.",
+					"date": "2015-03",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://mercyforanimals.org/investigations/"
+				}
+			],
+			"addedAt": "2026-08-16"
+		},
+		{
+			"id": "bettencourt_dairies",
+			"avoid": "Bettencourt Dairies",
+			"ownership": [
+				{
+					"firmId": "bettencourt_dairies",
+					"stake": "majority",
+					"since": "1969"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A dairy supplier to Burger King's cheese products. An August 2012 Mercy For Animals undercover investigation at its Dry Creek Dairy facility documented workers beating, kicking, shocking, and dragging cows with a tractor, and leaving sick animals without veterinary care; three workers were later charged with misdemeanor animal cruelty.",
+			"blurb": "Dairy operator producing milk for cheese and food-service supply.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "An August 2012 Mercy For Animals undercover investigation at its Dry Creek Dairy facility documented workers beating, kicking, shocking, and dragging cows with a tractor, and leaving sick animals without veterinary care; three workers were later charged with misdemeanor animal cruelty.",
+					"date": "2012-08",
+					"actor": "Mercy for Animals",
+					"sourceUrl": "https://www.cnbc.com/2012/10/10/mercy-for-animals-undercover-investigation-exposes-shocking-cruelty-to-cows-at-burger-king-cheese-supplier.html"
+				}
+			],
+			"addedAt": "2026-08-16"
+		},
+		{
+			"id": "maple_lodge_farms",
+			"avoid": "Maple Lodge Farms",
+			"ownership": [
+				{
+					"firmId": "maple_lodge_farms",
+					"stake": "majority",
+					"since": "1955"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Canada's largest independently owned poultry processor. A March 2015 Mercy For Animals hidden-camera investigation documented birds dying of cold during transport, rough handling causing leg and wing fractures, and chickens having their throats cut while still conscious after improper stunning. The company was previously prosecuted under Canada's Health of Animals Act after roughly 2,000 birds died in transit over the winter of 2008-2009 and ordered to spend at least $1 million on transport-vehicle modifications.",
+			"blurb": "Poultry processor selling fresh and frozen chicken products.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A March 2015 Mercy For Animals hidden-camera investigation documented birds dying of cold during transport, rough handling causing leg and wing fractures, and chickens having their throats cut while still conscious after improper stunning. The company was previously prosecuted under Canada's Health of Animals Act after roughly 2,000 birds died in transit over the winter of 2008-2009 and ordered to spend at least $1 million on transport-vehicle modifications.",
+					"date": "2015-03",
+					"amountUsd": 1000000,
+					"amountKind": "fees",
+					"actor": "Canadian Food Inspection Agency",
+					"sourceUrl": "https://www.cbc.ca/news/canada/toronto/maple-lodge-farms-probes-alleged-mistreatment-of-chickens-1.3014864"
+				}
+			],
+			"addedAt": "2026-08-16"
 		}
 	]
 }
