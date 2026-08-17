@@ -1857,6 +1857,23 @@
         "wayne_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-17-mercy_for_animals_investigations",
+      "date": "2026-08-17",
+      "title": "Same farm, two dairy giants: Saputo and Leprino's supply chain problem",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "A single upstate New York dairy farm fed cruelty straight into two of the biggest names in cheese, plus a turkey brand and a farmer-owned co-op with their own documented abuse on tape.",
+      "body": "Mercy For Animals' hidden-camera footage from an upstate New York dairy farm this June didn't just implicate one company — the farm supplied both Saputo and Leprino Foods, the two processors that together account for an estimated 85% of the U.S. pizza-cheese market. The footage showed newborn calves pulled from crying mothers within moments of birth and cows beaten and kicked in filthy conditions. Notably, this isn't new territory for Saputo: MFA documented nearly identical abuse tied to the company back in 2014, suggesting a supply-chain problem that a decade of scrutiny hasn't fixed.\n\nButterball, the country's largest turkey producer and half-owned by Seaboard Foods since 2010, has a harder paper trail: a Mercy For Animals investigation at its North Carolina facilities led to the first-ever felony conviction for cruelty to a factory-farmed bird in U.S. history, plus three more worker convictions, after footage showed birds kicked, dragged, and bludgeoned with metal bars.\n\nAnd it's not just corporate processors — Dairy Farmers of America, the farmer-owned cooperative behind the Live Real Farms milk brand, kept sourcing from a Colorado dairy even after MFA footage showed workers stabbing and beating cows with milking equipment over a two-month investigation. The co-op put the farm on probation rather than cutting it loose.\n\nTogether these three cases show the same pattern: undercover footage surfaces, companies express concern, and the underlying supply relationships mostly continue.",
+      "entityIds": [
+        "dairy_farmers_of_america",
+        "saputo",
+        "butterball",
+        "live_real_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
