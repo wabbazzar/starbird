@@ -1874,6 +1874,22 @@
         "live_real_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-18-mercy_for_animals_investigations",
+      "date": "2026-08-18",
+      "title": "Dairy and eggs: three more suppliers Mercy For Animals caught on camera",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "From a Mexican dairy giant selling milk under its own name in US grocery stores to a small Ohio dairy where a worker was convicted of animal cruelty, this run traces a straight line from undercover footage to your fridge.",
+      "body": "Grupo LALA is one of Latin America's largest dairy companies, and its LALA brand milk, yogurt, and Mexican crema are sold nationally in the US. A December 2021 Mercy For Animals investigation at a farm supplying the company documented dehorning without anesthesia, calves torn from their mothers within hours of birth, and dead animals left in plain sight — practices Grupo LALA has not disputed on the record.\n\nTwo smaller, still-operating Ohio farms round out this run. At Conklin Dairy Farms in Plain City, a 2010 MFA investigation caught an employee on camera punching, kicking, and stabbing cows with a pitchfork; he later pleaded guilty to six counts of animal cruelty in court. At Weaver Brothers Egg Farm in Versailles, investigators documented hens packed into battery cages, unable to spread their wings, with sick birds left uncared for.\n\nWhat connects them isn't a shared owner but a shared pattern: undercover footage is often the only way abuse inside a closed barn or milking parlor becomes visible to the people actually buying the product. All three companies remain in business today.",
+      "entityIds": [
+        "conklin_dairy_farms",
+        "grupo_lala",
+        "weaver_eggs"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
