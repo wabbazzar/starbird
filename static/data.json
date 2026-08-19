@@ -6934,7 +6934,7 @@
 			"name": "JBS USA (JBS S.A.)",
 			"aum": "N/A",
 			"aumVal": 0,
-			"summary": "Wholly owned U.S. subsidiary of Brazilian multinational JBS S.A., the world's largest meat processing company by revenue. JBS USA reported record revenue of $28 billion in 2025 in its beef segment, making it the market leader in U.S. meat processing. JBS owns Pilgrim's Pride (64% stake acquired in 2010), the second-largest U.S. poultry producer. Pilgrim's Pride Ultimate Chicken Nuggets are classified as NOVA Group 4 ultra-processed foods, containing modified cornstarch, sodium phosphates, dextrose, and flavoring — additives typical of breaded, formed, and frozen chicken products. Chicken nuggets marketed to children score poorly on EWG Food Scores for sodium content (400-500mg per serving) and reliance on ultra-processed breading and binders. Flagged under health_general.",
+			"summary": "Wholly owned U.S. subsidiary of Brazilian multinational JBS S.A., the world's largest meat processing company by revenue. JBS USA reported record revenue of $28 billion in 2025 in its beef segment, making it the market leader in U.S. meat processing. JBS owns Pilgrim's Pride (64% stake acquired in 2010), the second-largest U.S. poultry producer. Pilgrim's Pride Ultimate Chicken Nuggets are classified as NOVA Group 4 ultra-processed foods, containing modified cornstarch, sodium phosphates, dextrose, and flavoring — additives typical of breaded, formed, and frozen chicken products. Chicken nuggets marketed to children score poorly on EWG Food Scores for sodium content (400-500mg per serving) and reliance on ultra-processed breading and binders. Flagged under health_general. A 2018 Mercy For Animals undercover investigation at a JBS-operated pig slaughterhouse in Brazil documented pigs painfully electrocuted and bled to death, with some animals showing signs of pneumonia and ruptured, feces-contaminated intestines; the investigation also exposed a JBS hog supplier farm using extreme confinement gestation crates.",
 			"blurb": "Meat processing company producing beef, pork, and poultry products at industrial scale.",
 			"brands": [
 				"Pilgrim's Pride"
@@ -6947,14 +6947,22 @@
 				"food"
 			],
 			"harms": [
-				"health_general"
+				"health_general",
+				"animals_general"
 			],
 			"aligns": [],
-			"addedAt": "2026-05-06",
+			"addedAt": "2026-08-19",
 			"evidence": [
 				{
 					"tag": "health_general",
 					"text": "Pilgrim's Pride Ultimate Chicken Nuggets are classified as NOVA Group 4 ultra-processed foods, containing modified cornstarch, sodium phosphates, dextrose, and flavoring — additives typical of breaded, formed, and frozen chicken products. Chicken nuggets marketed to children score poorly on EWG Food Scores for sodium content (400-500mg per serving) and reliance on ultra-processed breading and binders."
+				},
+				{
+					"tag": "animals_general",
+					"text": "A 2018 Mercy For Animals undercover investigation at a JBS-operated pig slaughterhouse in Brazil documented pigs painfully electrocuted and bled to death, with some animals showing signs of pneumonia and ruptured, feces-contaminated intestines; the investigation also exposed a JBS hog supplier farm using extreme confinement gestation crates.",
+					"date": "2018",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/pigs-shocked-jbs-slaughter/"
 				}
 			]
 		},
@@ -13551,6 +13559,66 @@
 				}
 			],
 			"addedAt": "2026-08-18"
+		},
+		{
+			"id": "the_maschhoffs",
+			"name": "The Maschhoffs",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "The Maschhoffs is one of the largest family-owned pork producers in the United States, based in Carlyle, Illinois, and a major hog supplier to Hormel Foods. A 2017 Mercy For Animals undercover investigation at a Maschhoffs-operated farm in Oklahoma documented workers ripping the testicles out of live piglets and slicing off tails without anesthetic, striking sick and injured pigs, and confining sows to gestation crates too small to turn around in; a prior 2016 investigation at a Maschhoffs Nebraska facility led to the immediate firing of a farm manager after similar abuse was filmed. Hormel suspended the Oklahoma facilities pending investigation.",
+			"blurb": "Family-owned hog production company supplying pork to major meat processors.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"source": "https://www.foodsafetynews.com/2017/02/alleged-pig-abuse-at-the-maschhoffs-shown-in-activists-video/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2017 Mercy For Animals undercover investigation at a Maschhoffs-operated farm in Oklahoma documented workers ripping the testicles out of live piglets and slicing off tails without anesthetic, striking sick and injured pigs, and confining sows to gestation crates too small to turn around in; a prior 2016 investigation at a Maschhoffs Nebraska facility led to the immediate firing of a farm manager after similar abuse was filmed.",
+					"date": "2017",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.foodsafetynews.com/2017/02/alleged-pig-abuse-at-the-maschhoffs-shown-in-activists-video/"
+				}
+			],
+			"addedAt": "2026-08-19"
+		},
+		{
+			"id": "christensen_farms",
+			"name": "Christensen Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Christensen Farms is one of the five largest pork producers in the United States and a hog supplier to Walmart. A 2012 Mercy For Animals undercover investigation at a Christensen Farms facility in Hanska, Minnesota documented thousands of mother pigs confined to gestation crates too small to turn around or lie down comfortably in for nearly their entire lives, and workers preparing to force-feed diarrhea and dead piglets back to sows.",
+			"blurb": "Large-scale hog production company supplying pork to retailers and processors.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"source": "https://www.prnewswire.com/news-releases/undercover-investigation-by-mercy-for-animals-reveals-extreme-animal-cruelty-at-walmart-pork-supplier-162843646.html",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2012 Mercy For Animals undercover investigation at a Christensen Farms facility in Hanska, Minnesota documented thousands of mother pigs confined to gestation crates too small to turn around or lie down comfortably in for nearly their entire lives, and workers preparing to force-feed diarrhea and dead piglets back to sows.",
+					"date": "2012",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.prnewswire.com/news-releases/undercover-investigation-by-mercy-for-animals-reveals-extreme-animal-cruelty-at-walmart-pork-supplier-162843646.html"
+				}
+			],
+			"addedAt": "2026-08-19"
 		}
 	],
 	"brands": [
@@ -30595,6 +30663,93 @@
 				}
 			],
 			"addedAt": "2026-08-18"
+		},
+		{
+			"id": "jbs",
+			"avoid": "JBS",
+			"ownership": [
+				{
+					"firmId": "jbs_usa",
+					"stake": "majority",
+					"since": "1953"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "JBS is the world's largest meat processing company. A 2018 Mercy For Animals undercover investigation at a JBS-operated pig slaughterhouse in Brazil documented pigs being painfully electrocuted and bled to death, with visible signs of pneumonia and ruptured, feces-contaminated intestines. The same investigation exposed a JBS hog supplier farm confining mother pigs to gestation crates too small for them to turn around in for nearly their entire lives.",
+			"blurb": "Global meat processing company producing beef, pork, and poultry products.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2018 Mercy For Animals undercover investigation at a JBS-operated pig slaughterhouse in Brazil documented pigs being painfully electrocuted and bled to death, with visible signs of pneumonia and ruptured, feces-contaminated intestines. The same investigation exposed a JBS hog supplier farm confining mother pigs to gestation crates too small for them to turn around in for nearly their entire lives.",
+					"date": "2018",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://mercyforanimals.org/blog/pigs-shocked-jbs-slaughter/"
+				}
+			],
+			"addedAt": "2026-08-19"
+		},
+		{
+			"id": "the_maschhoffs",
+			"avoid": "The Maschhoffs",
+			"ownership": [
+				{
+					"firmId": "the_maschhoffs",
+					"stake": "majority",
+					"since": "1972"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "The Maschhoffs is one of the largest family-owned pork producers in the U.S. and a major hog supplier to Hormel Foods. A 2017 Mercy For Animals undercover investigation at a company-operated farm in Oklahoma documented workers ripping the testicles out of live piglets and slicing off tails without anesthetic, striking sick and injured pigs, and confining sows to gestation crates too small for them to turn around in. Hormel suspended the Oklahoma facilities pending the investigation's outcome.",
+			"blurb": "Family-owned hog production company supplying pork to major meat processors.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2017 Mercy For Animals undercover investigation at a company-operated farm in Oklahoma documented workers ripping the testicles out of live piglets and slicing off tails without anesthetic, striking sick and injured pigs, and confining sows to gestation crates too small for them to turn around in. Hormel suspended the Oklahoma facilities pending the investigation's outcome.",
+					"date": "2017",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.foodsafetynews.com/2017/02/alleged-pig-abuse-at-the-maschhoffs-shown-in-activists-video/"
+				}
+			],
+			"addedAt": "2026-08-19"
+		},
+		{
+			"id": "christensen_farms",
+			"avoid": "Christensen Farms",
+			"ownership": [
+				{
+					"firmId": "christensen_farms",
+					"stake": "majority",
+					"since": "1985"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Christensen Farms is one of the five largest pork producers in the U.S. and a hog supplier to Walmart. A 2012 Mercy For Animals undercover investigation at its Hanska, Minnesota facility documented thousands of mother pigs confined to gestation crates too small to turn around or lie down comfortably in for nearly their entire lives, and workers preparing to force-feed diarrhea and dead piglets back to sows.",
+			"blurb": "Large-scale hog production company supplying pork to retailers and processors.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2012 Mercy For Animals undercover investigation at its Hanska, Minnesota facility documented thousands of mother pigs confined to gestation crates too small to turn around or lie down comfortably in for nearly their entire lives, and workers preparing to force-feed diarrhea and dead piglets back to sows.",
+					"date": "2012",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.prnewswire.com/news-releases/undercover-investigation-by-mercy-for-animals-reveals-extreme-animal-cruelty-at-walmart-pork-supplier-162843646.html"
+				}
+			],
+			"addedAt": "2026-08-19"
 		}
 	]
 }

@@ -1890,6 +1890,22 @@
         "weaver_eggs"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-19-mercy_for_animals_investigations",
+      "date": "2026-08-19",
+      "title": "Undercover footage ties JBS, Christensen Farms, and The Maschhoffs to gestation-crate abuse",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals investigations spanning 2012 to 2018 documented pigs subjected to painful mutilations, physical abuse, and lifelong confinement at farms supplying Walmart, Hormel, and the world's largest meat company.",
+      "body": "Three pork suppliers join the database this run, each exposed by a separate Mercy For Animals undercover investigation. Christensen Farms, one of the five largest U.S. pork producers and a Walmart supplier, was filmed in 2012 confining thousands of mother pigs to gestation crates too small to turn around in, alongside workers preparing to force-feed diarrhea and dead piglets back to sows. The Maschhoffs, a major Hormel hog supplier, was caught in 2017 with workers ripping the testicles out of live piglets and slicing off tails without anesthetic — footage serious enough that Hormel suspended the Oklahoma facilities pending review.\n\nThe throughline across all three: gestation crates and unanesthetized mutilation are standard practice, not aberrations, at some of the industry's largest suppliers. JBS, the world's largest meat processor and already in the database for ultra-processed chicken nuggets, now also carries an animal-welfare tag — a 2018 investigation at a JBS-operated Brazilian slaughterhouse documented pigs electrocuted and bled to death, with visible signs of disease and injury.\n\nEach case triggered a real consequence — Hormel suspensions, a terminated Walmart contract elsewhere in the supply chain — but the underlying practices (crates, unanesthetized castration and tail-docking) remain legal and common across the pork industry. Readers weighing where meat dollars go now have three more documented names.",
+      "entityIds": [
+        "christensen_farms",
+        "the_maschhoffs",
+        "jbs"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
