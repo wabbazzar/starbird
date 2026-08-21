@@ -1906,6 +1906,22 @@
         "jbs"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-21-mercy_for_animals_investigations",
+      "date": "2026-08-21",
+      "title": "Three more factory farms exposed by undercover investigators",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy for Animals hidden-camera footage from a foie gras producer, a JBS pork supplier, and a California duck farm shows a pattern: cruelty stays hidden until an investigator gets inside.",
+      "body": "Hudson Valley Foie Gras, the largest foie gras producer in the U.S., force-feeds ducks through metal pipes to swell their livers to ten times normal size — a process an undercover investigator documented alongside dead ducks discarded in trash bins and conscious birds having their throats cut. The company's product still reaches consumers through retailers including Amazon.\n\nTosh Farms, a Kentucky pig operation supplying JBS, the world's largest meat company, was caught on video in 2018 with workers beating pigs with a metal rod, mutilating piglets without pain relief, and confining sows in gestation crates too small to turn around in. JBS suspended shipments from the farm after the footage surfaced, though MFA called the move a public-relations gesture rather than a supply-chain fix.\n\nReichardt Duck Farm in Petaluma, California — one of the largest duck operations in the country — drew a Sonoma County Sheriff's raid after 2014 footage showed ducklings' bills burned with hot metal and birds trapped in manure pits with untreated wounds. No charges followed; investigators called the conditions typical for the industry.\n\nThe throughline across all three: none of this surfaced through routine inspection. Every one of these operations was cleared or unexamined until an investigator went inside with a camera.",
+      "entityIds": [
+        "hudson_valley_foie_gras",
+        "reichardt_duck_farm",
+        "tosh_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
