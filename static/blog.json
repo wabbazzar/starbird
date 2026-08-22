@@ -1922,6 +1922,22 @@
         "tosh_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-22-mercy_for_animals_investigations",
+      "date": "2026-08-22",
+      "title": "Three farms, one pattern: undercover footage vs. sworn denials",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals investigations across a decade and a half — from a Turlock egg farm to a Petaluma egg operation to an upstate New York dairy — show the same gap between what these operations tell buyers and what undercover footage catches.",
+      "body": "Gemperle Enterprises, a family-run Turlock, California egg operation and longtime member of the NuCal Foods cooperative, was the subject of a 2008 Mercy For Animals investigation that documented workers cramming hens into cages, tearing birds out by their wings, and kicking and throwing live animals.\n\nA similar pattern showed up four years later at Adirondack Farms, an 1,800-cow dairy in Clinton County, New York that supplies milk to the Agri-Mark cooperative behind Cabot cheese. Investigators there filmed calves having their horn buds burned off without painkillers, cows shocked in the face, and animals with untreated bloody prolapses left without veterinary care.\n\nSunrise Farms, a fourth-generation Petaluma egg producer supplying Costco, Safeway, Walmart, and Trader Joe's, offers a sharper version of the same story: owner Mike Weber testified under oath that his facilities never killed hens by cervical dislocation, but Mercy For Animals footage from a Sunrise facility shows workers doing exactly that.\n\nNone of these are fringe operations — they supply national retail chains and established dairy cooperatives. The gap between the public-facing welfare claims and what undercover investigators actually filmed is the throughline: scale and cooperative branding don't guarantee the treatment happening on the ground.",
+      "entityIds": [
+        "adirondack_farms",
+        "gemperle_farms",
+        "sunrise_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
