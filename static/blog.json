@@ -1938,6 +1938,22 @@
         "sunrise_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-23-mercy_for_animals_investigations",
+      "date": "2026-08-23",
+      "title": "Undercover footage, three egg-and-meat suppliers, one pattern",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover investigations at a dairy farm, a turkey processor, and an egg brand's supplier show how the same abuses — beatings, mutilation without anesthesia, birds left to die — recur across the animal-agriculture supply chain, and how public pressure after the footage aired forced real policy changes.",
+      "body": "Willet Dairy, once one of New York's largest dairy operations, was caught on hidden camera in 2009 docking calves' tails and burning off their horns without painkillers while workers hit, kicked, and shocked cows. A worker later pleaded guilty to striking a cow with a screwdriver handle. House of Raeford Farms saw its own reckoning years earlier: a 2007 MFA investigator spent weeks inside a North Carolina turkey slaughterhouse's live-hang area and documented workers punching, throwing, and decapitating conscious birds — footage that pushed Denny's to suspend its purchases from the plant.\n\nEggland's Best, the egg brand many shoppers assume is a step up from generic cartons, sourced from a Washington supplier where a 2016 undercover investigator found thousands of hens crammed in battery cages, sick birds left to die next to layers still producing eggs, and workers gassing birds in trash cans. The company later committed to 100% cage-free eggs by 2025 — a pledge that traces directly back to that footage.\n\nWe also added new evidence to Perdue Farms' existing entry: a 2014 investigation at a contract farm led to a worker's criminal conviction and, months later, one of the poultry industry's more comprehensive animal-welfare policy overhauls.\n\nThe throughline across all four: undercover documentation is often the only thing that surfaces these conditions, and the companies rarely change policy until the footage becomes public and buyers start asking questions.",
+      "entityIds": [
+        "egglands_best",
+        "house_of_raeford_farms",
+        "willet_dairy"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

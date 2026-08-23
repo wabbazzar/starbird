@@ -1283,7 +1283,7 @@
       "name": "Perdue Farms",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways — contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general.",
+      "summary": "Privately-held poultry and food company headquartered in Salisbury, Maryland, and one of the largest U.S. chicken producers. Perdue Farms ranked #4 among all U.S. parent companies in EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Poultry processing and waste lagoons generate high volumes of ammonia and nitrogen compounds that degrade air quality in surrounding rural communities and contaminate waterways — contributing to dead zones and algal blooms in the Chesapeake Bay watershed. Tagged environment_general. A 2014 Mercy For Animals undercover investigation at a Robeson County, North Carolina contract farm documented worker Danny Miranda punching, kicking, and stomping live chickens to death. Miranda pleaded guilty in January 2016 to three counts of misdemeanor animal cruelty and was sentenced to 45 days in jail and 12 months' probation; Perdue severed ties with the contract grower and adopted a comprehensive animal welfare policy soon after.",
       "blurb": "Family-owned poultry producer raising, processing, and selling chicken and turkey products across the United States.",
       "brands": [
         "Perdue"
@@ -1296,10 +1296,11 @@
         "food"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-08-23",
       "evidence": [
         {
           "tag": "environment_general",
@@ -1307,6 +1308,13 @@
           "date": "2023",
           "actor": "EPA",
           "sourceUrl": "https://www.epa.gov/trinationalanalysis/waste-managed-parent-company"
+        },
+        {
+          "tag": "animals_general",
+          "text": "A 2014 Mercy For Animals undercover investigation at a Robeson County, North Carolina contract farm documented worker Danny Miranda punching, kicking, and stomping live chickens to death. Miranda pleaded guilty in January 2016 to three counts of misdemeanor animal cruelty and was sentenced to 45 days in jail and 12 months' probation; Perdue severed ties with the contract grower and adopted a comprehensive animal welfare policy soon after.",
+          "date": "2016-01",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/guilty-perdue-factory-farmer-convicted-of-3/"
         }
       ]
     },
@@ -13797,6 +13805,96 @@
         }
       ],
       "addedAt": "2026-08-22"
+    },
+    {
+      "id": "willet_dairy",
+      "name": "Willet Dairy",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Willet Dairy in Genoa, New York is one of the state's largest dairy farms. A 2009 Mercy For Animals undercover investigation documented calves having their tails docked and horns burned out without painkillers, along with workers hitting, kicking, and shocking cows. Worker Phil Niles pleaded guilty to animal cruelty for striking a cow in the nose with a screwdriver handle and was fined $350. Following the investigation the farm adopted written animal-handling policies and ended tail docking.",
+      "blurb": "Large-scale dairy farm producing milk for wholesale and cheese processors.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.huffpost.com/entry/cow-torture-video-willet_n_438403",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2009 Mercy For Animals undercover investigation documented calves having their tails docked and horns burned out without painkillers, along with workers hitting, kicking, and shocking cows. Worker Phil Niles pleaded guilty to animal cruelty for striking a cow in the nose with a screwdriver handle and was fined $350.",
+          "date": "2009",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.huffpost.com/entry/cow-torture-video-willet_n_438403"
+        }
+      ],
+      "addedAt": "2026-08-23"
+    },
+    {
+      "id": "house_of_raeford_farms",
+      "name": "House of Raeford Farms",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Privately-held poultry and turkey processor headquartered in Rose Hill, North Carolina. In January and February 2007, a Mercy For Animals investigator worked undercover in the live-hang area of the company's Raeford, North Carolina turkey slaughterhouse and filmed workers punching, kicking, throwing, and ripping the heads off live birds. MFA submitted the footage and affidavits to the Hoke County prosecutor as a criminal complaint in May 2007. Denny's suspended poultry purchases from the plant pending investigation into the abuse.",
+      "blurb": "Poultry and turkey processor supplying fresh and further-processed meat products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 65,
+      "source": "https://mercyforanimals.org/hor/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "In January and February 2007, a Mercy For Animals investigator worked undercover in the live-hang area of the company's Raeford, North Carolina turkey slaughterhouse and filmed workers punching, kicking, throwing, and ripping the heads off live birds. Denny's suspended poultry purchases from the plant pending investigation into the abuse.",
+          "date": "2007-05",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/hor/"
+        }
+      ],
+      "addedAt": "2026-08-23"
+    },
+    {
+      "id": "egglands_best",
+      "name": "Eggland's Best",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Eggland's Best licenses its brand to regional egg producers across the U.S. and markets itself as a premium, more nutritious egg. A Mercy For Animals investigator worked undercover at Briarwood Farms, a Washington state Eggland's Best supplier, from February to May 2016 and documented thousands of hens crammed into battery cages, sick and dead birds left to rot alongside live ones, and workers ripping birds from cages by their wings and gassing them in trash cans. Following the investigation and MFA's public campaign, Eggland's Best pledged that 100% of its eggs would be cage-free by 2025.",
+      "blurb": "Licenses a premium egg brand to regional producers across the U.S.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://mercyforanimals.org/blog/huge-egglands-best-announces-cage-free-egg/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A Mercy For Animals investigator worked undercover at Briarwood Farms, a Washington state Eggland's Best supplier, from February to May 2016 and documented thousands of hens crammed into battery cages, sick and dead birds left to rot alongside live ones, and workers ripping birds from cages by their wings and gassing them in trash cans.",
+          "date": "2016-06",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/hidden-camera-video-uncovers-animal-abuse-and-neglect-at-egglands-best-supplier-300288379.html"
+        }
+      ],
+      "addedAt": "2026-08-23"
     }
   ],
   "brands": [
@@ -15526,18 +15624,26 @@
       ],
       "cat": "food",
       "alts": [],
-      "why": "Perdue is one of America's best-known chicken brands, produced by Perdue Farms, which ranked #4 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Industrial poultry processing releases large quantities of ammonia and nitrogen into air and waterways. These emissions contribute to respiratory harm in surrounding rural communities and are a major driver of algal blooms and dead zones in the Chesapeake Bay watershed, where Perdue's operations are concentrated.",
+      "why": "Perdue is one of America's best-known chicken brands, produced by Perdue Farms, which ranked #4 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Industrial poultry processing releases large quantities of ammonia and nitrogen into air and waterways. These emissions contribute to respiratory harm in surrounding rural communities and are a major driver of algal blooms and dead zones in the Chesapeake Bay watershed, where Perdue's operations are concentrated. A 2014 Mercy For Animals undercover investigation at a Robeson County, North Carolina contract farm documented worker Danny Miranda punching, kicking, and stomping live chickens to death. Miranda pleaded guilty in January 2016 to three counts of misdemeanor animal cruelty and was sentenced to 45 days in jail and 12 months' probation.",
       "blurb": "Produces and sells chicken, turkey, and other poultry and meat products.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "animals_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-08-23",
       "evidence": [
         {
           "tag": "environment_general",
           "text": "Perdue is one of America's best-known chicken brands, produced by Perdue Farms, which ranked #4 among all U.S. parent companies in the EPA's 2023 Toxics Release Inventory with 2,052 million pounds of chemical waste managed. Industrial poultry processing releases large quantities of ammonia and nitrogen into air and waterways. These emissions contribute to respiratory harm in surrounding rural communities and are a major driver of algal blooms and dead zones in the Chesapeake Bay watershed, where Perdue's operations are concentrated.",
           "date": "2023"
+        },
+        {
+          "tag": "animals_general",
+          "text": "A 2014 Mercy For Animals undercover investigation at a Robeson County, North Carolina contract farm documented worker Danny Miranda punching, kicking, and stomping live chickens to death. Miranda pleaded guilty in January 2016 to three counts of misdemeanor animal cruelty and was sentenced to 45 days in jail and 12 months' probation.",
+          "date": "2016-01",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/guilty-perdue-factory-farmer-convicted-of-3/"
         }
       ]
     },
@@ -31100,6 +31206,93 @@
         }
       ],
       "addedAt": "2026-08-22"
+    },
+    {
+      "id": "willet_dairy",
+      "avoid": "Willet Dairy",
+      "ownership": [
+        {
+          "firmId": "willet_dairy",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "One of New York State's largest dairy farms. A 2009 Mercy For Animals undercover investigation documented calves having their tails docked and horns burned out without painkillers, along with workers hitting, kicking, and shocking cows. Worker Phil Niles pleaded guilty to animal cruelty for striking a cow in the nose with a screwdriver handle and was fined $350.",
+      "blurb": "Dairy farm producing milk supplied to wholesale and cheese processors.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2009 Mercy For Animals undercover investigation documented calves having their tails docked and horns burned out without painkillers, along with workers hitting, kicking, and shocking cows. Worker Phil Niles pleaded guilty to animal cruelty for striking a cow in the nose with a screwdriver handle and was fined $350.",
+          "date": "2009",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.huffpost.com/entry/cow-torture-video-willet_n_438403"
+        }
+      ],
+      "addedAt": "2026-08-23"
+    },
+    {
+      "id": "house_of_raeford_farms",
+      "avoid": "House of Raeford Farms",
+      "ownership": [
+        {
+          "firmId": "house_of_raeford_farms",
+          "stake": "majority",
+          "since": "1958"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Privately-held poultry and turkey processor. In January and February 2007, a Mercy For Animals investigator worked undercover in the live-hang area of the company's Raeford, North Carolina turkey slaughterhouse and filmed workers punching, kicking, throwing, and ripping the heads off live birds. Denny's suspended poultry purchases from the plant pending investigation into the abuse.",
+      "blurb": "Processes and sells fresh and further-processed turkey and chicken products.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "In January and February 2007, a Mercy For Animals investigator worked undercover in the live-hang area of the company's Raeford, North Carolina turkey slaughterhouse and filmed workers punching, kicking, throwing, and ripping the heads off live birds. Denny's suspended poultry purchases from the plant pending investigation into the abuse.",
+          "date": "2007-05",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/hor/"
+        }
+      ],
+      "addedAt": "2026-08-23"
+    },
+    {
+      "id": "egglands_best",
+      "avoid": "Eggland's Best",
+      "ownership": [
+        {
+          "firmId": "egglands_best",
+          "stake": "majority",
+          "since": "1987"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Markets itself as a premium, more nutritious egg brand licensed to regional producers. A Mercy For Animals investigator worked undercover at Briarwood Farms, a Washington state Eggland's Best supplier, from February to May 2016 and documented thousands of hens crammed into battery cages, sick and dead birds left to rot alongside live ones, and workers ripping birds from cages by their wings and gassing them in trash cans. Eggland's Best subsequently pledged 100% cage-free eggs by 2025.",
+      "blurb": "Sells eggs marketed as more nutritious than conventional eggs.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A Mercy For Animals investigator worked undercover at Briarwood Farms, a Washington state Eggland's Best supplier, from February to May 2016 and documented thousands of hens crammed into battery cages, sick and dead birds left to rot alongside live ones, and workers ripping birds from cages by their wings and gassing them in trash cans.",
+          "date": "2016-06",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/hidden-camera-video-uncovers-animal-abuse-and-neglect-at-egglands-best-supplier-300288379.html"
+        }
+      ],
+      "addedAt": "2026-08-23"
     }
   ]
 }
