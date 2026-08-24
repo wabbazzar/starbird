@@ -13895,6 +13895,96 @@
         }
       ],
       "addedAt": "2026-08-23"
+    },
+    {
+      "id": "hy_line_international",
+      "name": "Hy-Line International",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The world's largest hatchery of egg-laying breed chicks, hatching more than 300,000 chicks a day out of its Spencer, Iowa facility (part of Hy-Line North America, headquartered in West Des Moines). A 2009 Mercy For Animals undercover investigation documented newborn chicks dumped onto a conveyor belt, hung by their beaks in a de-beaking machine, and unwanted male chicks ground up alive in a macerator; the footage, shown at a Cedar Rapids press conference, was viewed nearly 5 million times and drew international attention to chick culling in the egg industry.",
+      "blurb": "Breeds and hatches egg-laying chicken breeding stock supplied to egg producers worldwide.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://mercyforanimals.org/blog/7-mfa-investigations-that-shook-us-to-our-core/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2009 Mercy For Animals undercover investigation documented newborn chicks dumped onto a conveyor belt, hung by their beaks in a de-beaking machine, and unwanted male chicks ground up alive in a macerator.",
+          "date": "2009-09",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/7-mfa-investigations-that-shook-us-to-our-core/"
+        }
+      ],
+      "addedAt": "2026-08-24"
+    },
+    {
+      "id": "norco_ranch",
+      "name": "Norco Ranch",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "California's largest egg producer at the time, based in Menifee, CA. A 2008 Mercy For Animals undercover investigation documented hens confined in wire cages too small to walk, perch, or stretch their wings, workers killing sick birds by swinging them by the neck, and dead hens left decomposing in cages next to birds still laying eggs for human consumption; the footage, released weeks before California's 2008 Proposition 2 vote, helped drive passage of the nation's first statewide battery-cage ban.",
+      "blurb": "Commercial egg producer supplying shell eggs to California retailers.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 63,
+      "source": "https://mercyforanimals.org/blog/egg-farm-prosecuted-for-violating-californias-13/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2008 Mercy For Animals undercover investigation documented hens confined in wire cages too small to walk, perch, or stretch their wings, workers killing sick birds by swinging them by the neck, and dead hens left decomposing in cages next to birds still laying eggs for human consumption.",
+          "date": "2008-09",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/egg-farm-prosecuted-for-violating-californias-13/"
+        }
+      ],
+      "addedAt": "2026-08-24"
+    },
+    {
+      "id": "e6_cattle_co",
+      "name": "E6 Cattle Co.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A calf-raising factory farm in Hart, Texas, that reared nearly 10,000 calves destined for dairy farms. A 2011 Mercy For Animals undercover investigation documented workers bashing in calves' skulls with hammers and pickaxes, dragging them by their ears, standing on their necks, burning them, and leaving sick animals to die without veterinary care. The footage led to felony animal-cruelty charges against five former employees; owner Kirt Espenson received a year's probation and a $4,000 fine on a reduced misdemeanor charge.",
+      "blurb": "Calf-raising operation supplying young cattle to dairy farms.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.businesswire.com/news/home/20110526006411/en/Mercy-Animals-Announces-Felony-Animal-Cruelty-Warrants",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2011 Mercy For Animals undercover investigation documented workers bashing in calves' skulls with hammers and pickaxes, dragging them by their ears, standing on their necks, burning them, and leaving sick animals to die without veterinary care. The footage led to felony animal-cruelty charges against five former employees.",
+          "date": "2011-04",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.businesswire.com/news/home/20110526006411/en/Mercy-Animals-Announces-Felony-Animal-Cruelty-Warrants"
+        }
+      ],
+      "addedAt": "2026-08-24"
     }
   ],
   "brands": [
@@ -31293,6 +31383,93 @@
         }
       ],
       "addedAt": "2026-08-23"
+    },
+    {
+      "id": "hy_line_international",
+      "avoid": "Hy-Line International",
+      "ownership": [
+        {
+          "firmId": "hy_line_international",
+          "stake": "majority",
+          "since": "1936"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "The world's largest hatchery of egg-laying breed chicks, hatching more than 300,000 chicks a day. A 2009 Mercy For Animals undercover investigation at its Spencer, Iowa facility documented newborn chicks dumped onto a conveyor belt, hung by their beaks in a de-beaking machine, and unwanted male chicks ground up alive in a macerator.",
+      "blurb": "Breeds and hatches egg-laying chicken breeding stock for egg producers.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2009 Mercy For Animals undercover investigation at its Spencer, Iowa facility documented newborn chicks dumped onto a conveyor belt, hung by their beaks in a de-beaking machine, and unwanted male chicks ground up alive in a macerator.",
+          "date": "2009-09",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/7-mfa-investigations-that-shook-us-to-our-core/"
+        }
+      ],
+      "addedAt": "2026-08-24"
+    },
+    {
+      "id": "norco_ranch",
+      "avoid": "Norco Ranch",
+      "ownership": [
+        {
+          "firmId": "norco_ranch",
+          "stake": "majority",
+          "since": "1975"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "California's largest egg producer at the time. A 2008 Mercy For Animals undercover investigation at its Menifee, CA facility documented hens confined in wire cages too small to walk or stretch their wings, workers killing sick birds by swinging them by the neck, and dead hens left decomposing in cages next to birds still laying eggs for human consumption. The footage helped drive passage of California's Proposition 2 battery-cage ban.",
+      "blurb": "Commercial egg producer supplying shell eggs to California retailers.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2008 Mercy For Animals undercover investigation at its Menifee, CA facility documented hens confined in wire cages too small to walk or stretch their wings, workers killing sick birds by swinging them by the neck, and dead hens left decomposing in cages next to birds still laying eggs for human consumption.",
+          "date": "2008-09",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/egg-farm-prosecuted-for-violating-californias-13/"
+        }
+      ],
+      "addedAt": "2026-08-24"
+    },
+    {
+      "id": "e6_cattle_co",
+      "avoid": "E6 Cattle Co.",
+      "ownership": [
+        {
+          "firmId": "e6_cattle_co",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A calf-raising factory farm in Hart, Texas, that reared nearly 10,000 calves destined for dairy farms. A 2011 Mercy For Animals undercover investigation documented workers bashing in calves' skulls with hammers and pickaxes, dragging them by their ears, standing on their necks, burning them, and leaving sick animals to die without veterinary care. Five former employees faced felony animal-cruelty charges; owner Kirt Espenson received a year's probation and a $4,000 fine.",
+      "blurb": "Calf-raising operation supplying young cattle to dairy farms.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2011 Mercy For Animals undercover investigation documented workers bashing in calves' skulls with hammers and pickaxes, dragging them by their ears, standing on their necks, burning them, and leaving sick animals to die without veterinary care. Five former employees faced felony animal-cruelty charges.",
+          "date": "2011-04",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.businesswire.com/news/home/20110526006411/en/Mercy-Animals-Announces-Felony-Animal-Cruelty-Warrants"
+        }
+      ],
+      "addedAt": "2026-08-24"
     }
   ]
 }

@@ -1954,6 +1954,22 @@
         "willet_dairy"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-24-mercy_for_animals_investigations",
+      "date": "2026-08-24",
+      "title": "Before the cameras: three factory farms Mercy For Animals exposed",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "This run adds three egg-and-dairy-supply operations documented by Mercy For Animals undercover investigators — a hatchery, an egg producer, and a calf-raising farm — each with footage that led to real consequences.",
+      "body": "Hy-Line International, the world's largest hatchery of egg-laying breed chicks, hatches 300,000 chicks a day. A 2009 Mercy For Animals investigator spent weeks inside its Spencer, Iowa facility and came out with footage of newborn chicks dumped onto conveyor belts, hung by their beaks in a de-beaking machine, and unwanted male chicks ground up alive in a macerator — footage viewed nearly 5 million times that put chick culling on the public radar for the first time.\n\nNorco Ranch was California's largest egg producer when an MFA investigator worked there in 2008, documenting hens packed into cages too small to stretch a wing, sick birds swung by the neck to their deaths, and dead hens left decomposing next to birds still laying eggs for human consumption. The footage dropped weeks before California voted on Proposition 2, and helped push the country's first statewide battery-cage ban into law.\n\nE6 Cattle Co. reared nearly 10,000 calves in Hart, Texas, feeding the dairy supply chain. A 2011 investigation caught workers bashing in calves' skulls with hammers and pickaxes, dragging them by the ears, and burning them — footage graphic enough to bring felony cruelty charges against five employees, though the owner walked away with a year's probation and a $4,000 fine.\n\nThree different links in the same chain — breeding, egg production, calf-rearing — and three cases where the only accountability came from someone willing to work undercover long enough to film it.",
+      "entityIds": [
+        "e6_cattle_co",
+        "hy_line_international",
+        "norco_ranch"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
