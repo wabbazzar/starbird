@@ -1970,6 +1970,22 @@
         "norco_ranch"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-25-mercy_for_animals_investigations",
+      "date": "2026-08-25",
+      "title": "Undercover video, three continents: dairy, poultry, and pork suppliers exposed",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover investigations put names and dates behind the abstraction of factory farming — this run traces three of them, from a Canadian dairy giant to a Walmart pork supplier.",
+      "body": "Mercy For Animals doesn't just allege cruelty in the abstract — its investigators take jobs on the inside and film what happens when no one thinks they're being watched. That approach produced three separate, well-documented cases this run: Chilliwack Cattle Sales, one of Canada's largest dairy operations, where an employee's footage of cows being punched, whipped, and tail-twisted led to 20 cruelty charges, jail time for three workers, and a $225,000 CAD fine against the company itself.\n\nAt Maple Leaf Foods' Horizon Poultry hatchery in Ontario, hidden cameras caught chicks being roughly handled, macerated while still capable of suffering, and killed in a dishwasher meant for equipment. Maple Leaf confirmed the footage was real. It's a reminder that hatchery-stage cruelty is largely invisible to consumers buying a package of chicken breasts three steps removed from the source.\n\nAnd at Pipestone System's Rosewood Farms in Minnesota, a ten-week undercover investigation documented workers body-slamming piglets, ripping out testicles without painkillers, and confining pregnant sows in gestation crates too small to turn around in — all inside a supply chain feeding Walmart's pork aisle. The common thread across all three: none of this came to light through routine inspection. It took someone willing to work the job and document it before anyone would act.",
+      "entityIds": [
+        "chilliwack_cattle_sales",
+        "maple_leaf_foods",
+        "pipestone_system"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

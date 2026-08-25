@@ -13985,6 +13985,92 @@
         }
       ],
       "addedAt": "2026-08-24"
+    },
+    {
+      "id": "chilliwack_cattle_sales",
+      "name": "Chilliwack Cattle Sales",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Chilliwack Cattle Sales is one of Canada's largest dairy operations, milking thousands of cows in Chilliwack, British Columbia. In June 2014, Mercy For Animals released undercover video, filmed by an employee between April and June 2014, showing workers punching, kicking, whipping cows with chains and canes, and twisting their tails. The BC SPCA laid 20 counts of animal cruelty against the company and seven employees; three workers pleaded guilty and served jail time, and the company itself pleaded guilty in 2016 and was fined $225,000 CAD, per CBC News.",
+      "blurb": "Dairy farm operator; milks and supplies dairy cows in British Columbia, Canada.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 63,
+      "source": "https://www.cbc.ca/news/canada/british-columbia/chilliwack-cattle-sales-guilty-1.3900974",
+      "cats": [],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "In June 2014, Mercy For Animals released undercover video, filmed by an employee between April and June 2014, showing workers punching, kicking, whipping cows with chains and canes, and twisting their tails. The BC SPCA laid 20 counts of animal cruelty against the company and seven employees; three workers pleaded guilty and served jail time, and the company itself pleaded guilty in 2016 and was fined $225,000 CAD, per CBC News.",
+          "date": "2016",
+          "amountUsd": 225000,
+          "amountKind": "fine",
+          "actor": "BC SPCA / BC Provincial Court",
+          "sourceUrl": "https://www.cbc.ca/news/canada/british-columbia/chilliwack-cattle-sales-guilty-1.3900974"
+        }
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
+      "id": "maple_leaf_foods",
+      "name": "Maple Leaf Foods",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Maple Leaf Foods is one of Canada's largest food processing companies, producing packaged meats and poultry under brands including Maple Leaf and Schneiders. In April 2014, Mercy For Animals Canada released undercover video from Horizon Poultry, a Maple Leaf-owned hatchery in Hanover, Ontario, showing workers roughly handling chicks, sick and injured chicks being dumped into a mechanical macerator, and dead chicks emerging from a high-temperature dishwasher after getting caught in transport baskets. Maple Leaf Foods confirmed the footage came from its hatchery, per CBC News.",
+      "blurb": "Packaged-meat and poultry processor; owns Maple Leaf, Schneiders, and other food brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.cbc.ca/news/canada/baby-chickens-cooked-alive-at-hatchery-animal-rights-group-contends-1.2610065",
+      "cats": [],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "In April 2014, Mercy For Animals Canada released undercover video from Horizon Poultry, a Maple Leaf-owned hatchery in Hanover, Ontario, showing workers roughly handling chicks, sick and injured chicks being dumped into a mechanical macerator, and dead chicks emerging from a high-temperature dishwasher after getting caught in transport baskets. Maple Leaf Foods confirmed the footage came from its hatchery, per CBC News.",
+          "date": "2014-04",
+          "actor": "Mercy For Animals Canada",
+          "sourceUrl": "https://www.cbc.ca/news/canada/baby-chickens-cooked-alive-at-hatchery-animal-rights-group-contends-1.2610065"
+        }
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
+      "id": "pipestone_system",
+      "name": "Pipestone System",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Pipestone System operates Rosewood Farms, a hog production facility in Pipestone, Minnesota, and supplied pork to Walmart. In October 2013, Mercy For Animals released undercover video, filmed over 10 weeks, showing workers throwing a bowling ball at a pig's head, body-slamming baby pigs, ripping out piglets' testicles without painkillers, and confining pregnant pigs in gestation crates too small to turn around in. The footage prompted independent investigations by Walmart and Pipestone, which fired one employee and reassigned another, per HuffPost and CBS Minnesota.",
+      "blurb": "Hog production operator; supplies pork to retailers including Walmart.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 61,
+      "source": "https://www.huffingtonpost.com/2013/10/31/walmart-pigs-abuse-video-mercy-for-animals_n_4178768.html",
+      "cats": [],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "In October 2013, Mercy For Animals released undercover video, filmed over 10 weeks, showing workers throwing a bowling ball at a pig's head, body-slamming baby pigs, ripping out piglets' testicles without painkillers, and confining pregnant pigs in gestation crates too small to turn around in. The footage prompted independent investigations by Walmart and Pipestone, which fired one employee and reassigned another, per HuffPost and CBS Minnesota.",
+          "date": "2013-10",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.huffingtonpost.com/2013/10/31/walmart-pigs-abuse-video-mercy-for-animals_n_4178768.html"
+        }
+      ],
+      "addedAt": "2026-08-25"
     }
   ],
   "brands": [
@@ -31470,6 +31556,92 @@
         }
       ],
       "addedAt": "2026-08-24"
+    },
+    {
+      "id": "chilliwack_cattle_sales",
+      "avoid": "Chilliwack Cattle Sales",
+      "ownership": [
+        {
+          "firmId": "chilliwack_cattle_sales",
+          "stake": "majority"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "One of Canada's largest dairy operations. A June 2014 Mercy For Animals video, filmed by an employee, showed workers punching, kicking, whipping cows with chains and canes, and twisting their tails. The BC SPCA laid 20 cruelty counts against the company and seven employees; three workers served jail time and the company pleaded guilty in 2016, paying $225,000 CAD in fines.",
+      "blurb": "Dairy farm operator; supplies raw milk in British Columbia, Canada.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2014 Mercy For Animals video, filmed by an employee, showed workers punching, kicking, whipping cows with chains and canes, and twisting their tails. The BC SPCA laid 20 cruelty counts against the company and seven employees; three workers served jail time and the company pleaded guilty in 2016, paying $225,000 CAD in fines.",
+          "date": "2016",
+          "amountUsd": 225000,
+          "amountKind": "fine",
+          "actor": "BC SPCA / BC Provincial Court",
+          "sourceUrl": "https://www.cbc.ca/news/canada/british-columbia/chilliwack-cattle-sales-guilty-1.3900974"
+        }
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
+      "id": "maple_leaf_foods",
+      "avoid": "Maple Leaf Foods",
+      "ownership": [
+        {
+          "firmId": "maple_leaf_foods",
+          "stake": "majority"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Canadian packaged-meat and poultry giant. A April 2014 Mercy For Animals Canada undercover video from its Horizon Poultry hatchery in Hanover, Ontario showed workers roughly handling chicks, sick and injured chicks dumped into a mechanical macerator, and dead chicks emerging from a high-temperature dishwasher after getting caught in transport baskets. Maple Leaf confirmed the footage came from its facility.",
+      "blurb": "Packaged-meat and poultry processor; makes Maple Leaf and Schneiders branded products.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A April 2014 Mercy For Animals Canada undercover video from its Horizon Poultry hatchery in Hanover, Ontario showed workers roughly handling chicks, sick and injured chicks dumped into a mechanical macerator, and dead chicks emerging from a high-temperature dishwasher after getting caught in transport baskets. Maple Leaf confirmed the footage came from its facility.",
+          "date": "2014-04",
+          "actor": "Mercy For Animals Canada",
+          "sourceUrl": "https://www.cbc.ca/news/canada/baby-chickens-cooked-alive-at-hatchery-animal-rights-group-contends-1.2610065"
+        }
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
+      "id": "pipestone_system",
+      "avoid": "Pipestone System (Rosewood Farms)",
+      "ownership": [
+        {
+          "firmId": "pipestone_system",
+          "stake": "majority"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hog production operator that supplied pork to Walmart through its Rosewood Farms facility in Pipestone, Minnesota. A 10-week 2013 Mercy For Animals undercover investigation showed workers throwing a bowling ball at a pig's head, body-slamming baby pigs, ripping out piglets' testicles without painkillers, and confining pregnant pigs in gestation crates too small to turn around in. Walmart and Pipestone opened investigations; one worker was fired.",
+      "blurb": "Hog production operator; supplies pork to retailers including Walmart.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 10-week 2013 Mercy For Animals undercover investigation showed workers throwing a bowling ball at a pig's head, body-slamming baby pigs, ripping out piglets' testicles without painkillers, and confining pregnant pigs in gestation crates too small to turn around in. Walmart and Pipestone opened investigations; one worker was fired.",
+          "date": "2013-10",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.huffingtonpost.com/2013/10/31/walmart-pigs-abuse-video-mercy-for-animals_n_4178768.html"
+        }
+      ],
+      "addedAt": "2026-08-25"
     }
   ]
 }
