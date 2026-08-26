@@ -14071,6 +14071,96 @@
         }
       ],
       "addedAt": "2026-08-25"
+    },
+    {
+      "id": "georges_inc",
+      "name": "George's, Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Privately held Arkansas-based poultry company and one of the 10 largest chicken producers in the United States, operating slaughterhouses and processing plants supplying major fast-food chains. A January 2024 Mercy For Animals undercover investigation at a George's slaughterhouse supplying Chipotle documented blue plastic-like foreign material in chicken flesh on the deboning line, along with chickens not properly stunned before slaughter, in violation of Chipotle's own supply-chain welfare requirements.",
+      "blurb": "Poultry producer raising, slaughtering, and processing chicken for fast-food and retail supply chains.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://mercyforanimals.org/blog/new-investigation-video-exposes-contaminated-chicken-flesh-at-chipotle-supplier/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A January 2024 Mercy For Animals undercover investigation at a George's slaughterhouse supplying Chipotle documented blue plastic-like foreign material in chicken flesh on the deboning line, along with chickens not properly stunned before slaughter, in violation of Chipotle's own supply-chain welfare requirements.",
+          "date": "2024-01",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/new-investigation-video-exposes-contaminated-chicken-flesh-at-chipotle-supplier/"
+        }
+      ],
+      "addedAt": "2026-08-26"
+    },
+    {
+      "id": "great_lakes_cheese",
+      "name": "Great Lakes Cheese Co.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Ohio-based cheese manufacturer, one of the largest cheese companies in the United States and a major supplier to national grocery chains. A November 2014 Mercy For Animals undercover investigation at Andrus Dairy, a milk supplier to Great Lakes Cheese in Birnamwood, Wisconsin, documented workers punching, kicking, and beating cows, hacking off tails with pruning shears, shooting cows in the face with high-pressure water hoses, and dragging animals by the neck with ropes attached to tractors. Great Lakes Cheese cut ties with Andrus Dairy and adopted new animal-welfare standards for its dairy suppliers following the investigation.",
+      "blurb": "Manufactures and packages cheese products for grocery and foodservice distribution.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.prnewswire.com/news-releases/mercy-for-animals-covert-investigation-captures-horrific-animal-abuse-at-major-cheese-supplier-282388791.html",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A November 2014 Mercy For Animals undercover investigation at Andrus Dairy, a milk supplier to Great Lakes Cheese in Birnamwood, Wisconsin, documented workers punching, kicking, and beating cows, hacking off tails with pruning shears, shooting cows in the face with high-pressure water hoses, and dragging animals by the neck with ropes attached to tractors.",
+          "date": "2014-11",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/mercy-for-animals-covert-investigation-captures-horrific-animal-abuse-at-major-cheese-supplier-282388791.html"
+        }
+      ],
+      "addedAt": "2026-08-26"
+    },
+    {
+      "id": "ohio_fresh_eggs",
+      "name": "Ohio Fresh Eggs, LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Ohio's largest egg factory farm, housing millions of hens in battery cages. A 2004 Mercy For Animals undercover investigation documented hens with broken, feces-covered feathers packed into cages so small they could not spread their wings, chicken corpses left to rot in cages alongside birds still laying eggs for human consumption, and a live hen left to die in a trash bin, at a facility certified 'Animal Care Certified' by United Egg Producers. The investigation is credited with helping push Ohio to enact statewide animal-welfare reforms including a moratorium on new battery-cage facilities.",
+      "blurb": "Large-scale egg-laying operation housing hens in battery cages for commercial egg production.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://freepress.org/article/egg-industry-cruelty-exposed-again-mfa-undercover-investigation-reveals-shocking-abuse-ohio",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2004 Mercy For Animals undercover investigation documented hens with broken, feces-covered feathers packed into cages so small they could not spread their wings, chicken corpses left to rot in cages alongside birds still laying eggs for human consumption, and a live hen left to die in a trash bin, at a facility certified 'Animal Care Certified' by United Egg Producers.",
+          "date": "2004",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://freepress.org/article/egg-industry-cruelty-exposed-again-mfa-undercover-investigation-reveals-shocking-abuse-ohio"
+        }
+      ],
+      "addedAt": "2026-08-26"
     }
   ],
   "brands": [
@@ -31642,6 +31732,93 @@
         }
       ],
       "addedAt": "2026-08-25"
+    },
+    {
+      "id": "georges_inc",
+      "avoid": "George's Inc.",
+      "ownership": [
+        {
+          "firmId": "georges_inc",
+          "stake": "majority",
+          "since": "1943"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A Chipotle chicken supplier and one of the 10 largest U.S. poultry companies. A January 2024 Mercy For Animals undercover investigation at a George's slaughterhouse found blue plastic-like foreign material in chicken flesh on the deboning line and documented chickens not properly stunned before slaughter, contradicting Chipotle's own animal-welfare commitments.",
+      "blurb": "Raises, slaughters, and processes chicken supplied to fast-food chains and retailers.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A January 2024 Mercy For Animals undercover investigation at a George's slaughterhouse found blue plastic-like foreign material in chicken flesh on the deboning line and documented chickens not properly stunned before slaughter, contradicting Chipotle's own animal-welfare commitments.",
+          "date": "2024-01",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/new-investigation-video-exposes-contaminated-chicken-flesh-at-chipotle-supplier/"
+        }
+      ],
+      "addedAt": "2026-08-26"
+    },
+    {
+      "id": "great_lakes_cheese",
+      "avoid": "Great Lakes Cheese",
+      "ownership": [
+        {
+          "firmId": "great_lakes_cheese",
+          "stake": "majority",
+          "since": "1958"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "One of the largest cheese companies in the U.S. A November 2014 Mercy For Animals investigation found that its milk supplier, Andrus Dairy in Wisconsin, subjected cows to workers punching, kicking, and beating them, hacking off tails with pruning shears, and dragging animals by the neck with tractor ropes. Great Lakes Cheese cut ties with Andrus Dairy and adopted new supplier welfare standards afterward.",
+      "blurb": "Manufactures and packages cheese products for grocery and foodservice distribution.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A November 2014 Mercy For Animals investigation found that its milk supplier, Andrus Dairy in Wisconsin, subjected cows to workers punching, kicking, and beating them, hacking off tails with pruning shears, and dragging animals by the neck with tractor ropes.",
+          "date": "2014-11",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/mercy-for-animals-covert-investigation-captures-horrific-animal-abuse-at-major-cheese-supplier-282388791.html"
+        }
+      ],
+      "addedAt": "2026-08-26"
+    },
+    {
+      "id": "ohio_fresh_eggs",
+      "avoid": "Ohio Fresh Eggs",
+      "ownership": [
+        {
+          "firmId": "ohio_fresh_eggs",
+          "stake": "majority",
+          "since": "2002"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Ohio's largest egg factory farm. A 2004 Mercy For Animals undercover investigation documented hens with broken, feces-covered feathers crammed into cages too small to spread their wings, corpses left to rot alongside egg-laying birds, and a live hen left to die in a trash bin, despite the facility's United Egg Producers 'Animal Care Certified' label. The exposure helped push Ohio to enact a moratorium on new battery-cage facilities.",
+      "blurb": "Large-scale egg-laying operation housing hens in battery cages for commercial egg production.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2004 Mercy For Animals undercover investigation documented hens with broken, feces-covered feathers crammed into cages too small to spread their wings, corpses left to rot alongside egg-laying birds, and a live hen left to die in a trash bin, despite the facility's United Egg Producers 'Animal Care Certified' label.",
+          "date": "2004",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://freepress.org/article/egg-industry-cruelty-exposed-again-mfa-undercover-investigation-reveals-shocking-abuse-ohio"
+        }
+      ],
+      "addedAt": "2026-08-26"
     }
   ]
 }

@@ -1986,6 +1986,22 @@
         "pipestone_system"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-26-mercy_for_animals_investigations",
+      "date": "2026-08-26",
+      "title": "Behind the fast-food supply chain: three factory-farm exposés",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Three Mercy For Animals undercover investigations trace cruelty and contamination from factory farms up into the products on grocery shelves and fast-food counters.",
+      "body": "A hidden-camera investigation at a George's Inc. slaughterhouse supplying Chipotle found blue plastic-like material in chicken flesh on the deboning line, and documented birds not properly stunned before slaughter — a direct contradiction of the welfare standards Chipotle publicly commits to. George's is one of the ten largest chicken companies in the country, which means this isn't a fringe operation; it's mainstream fast-food supply chain infrastructure.\n\nUpstream in the dairy aisle, Great Lakes Cheese — one of the largest cheese makers in the U.S. — sourced milk from a Wisconsin dairy where workers were filmed punching, kicking, and dragging cows by the neck with tractor ropes. To its credit, the company cut ties with that supplier and adopted new welfare standards afterward, showing that public exposure can move a large buyer even without regulation forcing it.\n\nAnd two decades earlier, an investigation at Ohio Fresh Eggs — the state's largest egg operation — found hens crammed into cages so small they couldn't spread their wings, with corpses left to rot beside birds still laying eggs for sale. The facility carried a United Egg Producers 'Animal Care Certified' label at the time, a reminder that industry self-certification often means little on its own.\n\nTaken together, these three cases span the poultry, dairy, and egg supply chains that feed household brands — evidence that the scale of a supplier is no guarantee of how animals are treated inside it.",
+      "entityIds": [
+        "georges_inc",
+        "great_lakes_cheese",
+        "ohio_fresh_eggs"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
