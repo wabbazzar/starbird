@@ -2002,6 +2002,23 @@
         "ohio_fresh_eggs"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-27-mercy_for_animals_investigations",
+      "date": "2026-08-27",
+      "title": "A Canadian poultry giant, a caged-egg supplier, and a chained-calf farm",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Three more undercover Mercy For Animals investigations turned into named entries — a $300,000 criminal fine against a major Canadian chicken conglomerate, a caged-egg farm supplying a UEP-certified brand, and the chained-calf case that got veal banned at Costco.",
+      "body": "Sofina Foods, the private conglomerate behind the Lilydale chicken brand, pleaded guilty alongside its contractor Elite Farm Services after a 2017 Mercy For Animals investigation caught workers punting, throwing, and slamming live birds at more than a dozen supplier farms. Canadian regulators didn't just issue a warning — they filed 38 criminal charges, and both companies paid $300,000 fines with three years' probation. It's a rare case where the undercover footage led directly to a courtroom outcome.\n\nShady Brae Farms, a Pennsylvania egg operation supplying UEP-certified Sauder's Eggs, shows the more routine version of the same system: hens packed into cages too small to spread a wing, trapped under feed troughs, and left to die uncleared next to birds still laying for sale. The 2016 footage is a reminder that a \"certified\" label on an egg carton describes a standard, not a guarantee.\n\nBuckeye Veal Farm rounds out this run as the oldest and most consequential case — a 2010 investigation, narrated by Bob Barker, that showed calves chained by the neck in two-foot stalls in Apple Creek, Ohio. The farm's manager was convicted on six counts of animal cruelty, and Costco pulled crate-and-chain veal from its shelves the day after the footage aired, one of the clearer examples of an undercover exposé forcing a retailer's hand.",
+      "entityIds": [
+        "buckeye_veal_farm",
+        "shady_brae_farms",
+        "sofina_foods",
+        "lilydale"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

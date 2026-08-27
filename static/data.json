@@ -14161,6 +14161,98 @@
         }
       ],
       "addedAt": "2026-08-26"
+    },
+    {
+      "id": "sofina_foods",
+      "name": "Sofina Foods",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A privately held Canadian meat and poultry conglomerate (owner of Lilydale, Janes, Cuddy, and other brands) headquartered in Whitby, Ontario. A June 2017 Mercy For Animals undercover investigation into more than a dozen Lilydale supplier farms operated by Elite Farm Services documented workers punting and throwing live chickens, slamming them against walls and transport crates, and ripping the legs off conscious birds. Sofina Foods and Elite Farm Services each pleaded guilty to animal cruelty charges and were fined $300,000 with three years' probation.",
+      "blurb": "Private meat and poultry conglomerate producing chicken, pork, and deli brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "source": "https://mercyforanimals.org/blog/progress-canada-files-38-charges-against/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2017 Mercy For Animals undercover investigation into more than a dozen Lilydale supplier farms operated by Elite Farm Services documented workers punting and throwing live chickens, slamming them against walls and transport crates, and ripping the legs off conscious birds. Sofina Foods and Elite Farm Services each pleaded guilty to animal cruelty charges and were fined $300,000 with three years' probation.",
+          "date": "2017-06",
+          "amountUsd": 300000,
+          "amountKind": "fine",
+          "actor": "Canadian Food Inspection Agency",
+          "sourceUrl": "https://mercyforanimals.org/blog/progress-canada-files-38-charges-against/"
+        }
+      ],
+      "addedAt": "2026-08-27"
+    },
+    {
+      "id": "shady_brae_farms",
+      "name": "Shady Brae Farms",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A Marietta, Pennsylvania egg farm and United Egg Producers-certified supplier to Sauder's Eggs. An April 2016 Mercy For Animals undercover investigation documented hens crammed into cages too small to allow walking, spreading wings, or lying down, birds trapped in cage wire or under feed troughs and trampled by cage-mates, and severely sick or injured birds left without veterinary care while dead hens decomposed in cages alongside birds still laying eggs for human consumption.",
+      "blurb": "Egg-laying farm supplying UEP-certified eggs to wholesale distributors.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "source": "https://www.foodmanufacturing.com/home/news/21098568/undercover-video-attacks-egg-manufacturers",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "An April 2016 Mercy For Animals undercover investigation documented hens crammed into cages too small to allow walking, spreading wings, or lying down, birds trapped in cage wire or under feed troughs and trampled by cage-mates, and severely sick or injured birds left without veterinary care while dead hens decomposed in cages alongside birds still laying eggs for human consumption.",
+          "date": "2016-04",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.foodmanufacturing.com/home/news/21098568/undercover-video-attacks-egg-manufacturers"
+        }
+      ],
+      "addedAt": "2026-08-27"
+    },
+    {
+      "id": "buckeye_veal_farm",
+      "name": "Buckeye Veal Farm",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A veal farm in Apple Creek, Ohio. An April 2010 Mercy For Animals undercover investigation, narrated by Bob Barker as \"Crated Cruelty: The Hidden Price of Veal,\" documented calves covered in feces and chained by the neck inside two-foot-wide wooden stalls too narrow to turn around or lie down comfortably in. The farm's manager was arrested, jailed, and convicted on six counts of animal cruelty; Costco banned crate-and-chain veal the day after the footage aired.",
+      "blurb": "Veal-calf farm producing crated veal for wholesale distribution.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "http://veal.mercyforanimals.org/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "An April 2010 Mercy For Animals undercover investigation, narrated by Bob Barker as \"Crated Cruelty: The Hidden Price of Veal,\" documented calves covered in feces and chained by the neck inside two-foot-wide wooden stalls too narrow to turn around or lie down comfortably in. The farm's manager was arrested, jailed, and convicted on six counts of animal cruelty; Costco banned crate-and-chain veal the day after the footage aired.",
+          "date": "2010-08",
+          "actor": "Wayne County (Ohio) prosecutor",
+          "sourceUrl": "http://veal.mercyforanimals.org/"
+        }
+      ],
+      "addedAt": "2026-08-27"
     }
   ],
   "brands": [
@@ -31819,6 +31911,95 @@
         }
       ],
       "addedAt": "2026-08-26"
+    },
+    {
+      "id": "lilydale",
+      "avoid": "Lilydale",
+      "ownership": [
+        {
+          "firmId": "sofina_foods",
+          "stake": "majority",
+          "since": "1955"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A leading Canadian fresh chicken brand owned by Sofina Foods. A June 2017 Mercy For Animals undercover investigation into more than a dozen Lilydale supplier farms operated by Elite Farm Services documented workers punting and throwing live chickens, slamming them against walls and transport crates, and ripping the legs off conscious birds. Sofina Foods and Elite Farm Services each pleaded guilty to animal cruelty charges and were fined $300,000 with three years' probation.",
+      "blurb": "Fresh and frozen chicken products sold in Canadian grocery stores.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2017 Mercy For Animals undercover investigation into more than a dozen Lilydale supplier farms operated by Elite Farm Services documented workers punting and throwing live chickens, slamming them against walls and transport crates, and ripping the legs off conscious birds. Sofina Foods and Elite Farm Services each pleaded guilty to animal cruelty charges and were fined $300,000 with three years' probation.",
+          "date": "2017-06",
+          "amountUsd": 300000,
+          "amountKind": "fine",
+          "actor": "Canadian Food Inspection Agency",
+          "sourceUrl": "https://mercyforanimals.org/blog/progress-canada-files-38-charges-against/"
+        }
+      ],
+      "addedAt": "2026-08-27"
+    },
+    {
+      "id": "shady_brae_farms",
+      "avoid": "Shady Brae Farms",
+      "ownership": [
+        {
+          "firmId": "shady_brae_farms",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A Marietta, Pennsylvania egg farm and United Egg Producers-certified supplier to Sauder's Eggs. An April 2016 Mercy For Animals undercover investigation documented hens crammed into cages too small to allow walking, spreading wings, or lying down, birds trapped in cage wire or under feed troughs and trampled by cage-mates, and severely sick or injured birds left without veterinary care while dead hens decomposed in cages alongside birds still laying eggs for human consumption.",
+      "blurb": "Egg-laying farm supplying UEP-certified eggs to wholesale distributors.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "An April 2016 Mercy For Animals undercover investigation documented hens crammed into cages too small to allow walking, spreading wings, or lying down, birds trapped in cage wire or under feed troughs and trampled by cage-mates, and severely sick or injured birds left without veterinary care while dead hens decomposed in cages alongside birds still laying eggs for human consumption.",
+          "date": "2016-04",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.foodmanufacturing.com/home/news/21098568/undercover-video-attacks-egg-manufacturers"
+        }
+      ],
+      "addedAt": "2026-08-27"
+    },
+    {
+      "id": "buckeye_veal_farm",
+      "avoid": "Buckeye Veal Farm",
+      "ownership": [
+        {
+          "firmId": "buckeye_veal_farm",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A veal farm in Apple Creek, Ohio. An April 2010 Mercy For Animals undercover investigation, narrated by Bob Barker as \"Crated Cruelty: The Hidden Price of Veal,\" documented calves covered in feces and chained by the neck inside two-foot-wide wooden stalls too narrow to turn around or lie down comfortably in. The farm's manager was arrested, jailed, and convicted on six counts of animal cruelty; Costco banned crate-and-chain veal the day after the footage aired.",
+      "blurb": "Veal-calf farm producing crated veal for wholesale distribution.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "An April 2010 Mercy For Animals undercover investigation, narrated by Bob Barker as \"Crated Cruelty: The Hidden Price of Veal,\" documented calves covered in feces and chained by the neck inside two-foot-wide wooden stalls too narrow to turn around or lie down comfortably in. The farm's manager was arrested, jailed, and convicted on six counts of animal cruelty; Costco banned crate-and-chain veal the day after the footage aired.",
+          "date": "2010-08",
+          "actor": "Wayne County (Ohio) prosecutor",
+          "sourceUrl": "http://veal.mercyforanimals.org/"
+        }
+      ],
+      "addedAt": "2026-08-27"
     }
   ]
 }
