@@ -2019,6 +2019,22 @@
         "lilydale"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-28-mercy_for_animals_investigations",
+      "date": "2026-08-28",
+      "title": "Undercover video, three farms, one supply chain",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' hidden-camera investigations at a Colorado dairy, a Wisconsin dairy, and an Ontario egg operation show the same pattern: abuse discovered only after workers were filmed for months, then a buyer quietly cuts ties.",
+      "body": "Three of Mercy For Animals' undercover investigations trace a familiar arc. At Cactus Acres Holsteins in Fort Morgan, Colorado, an investigator spent two months filming roughly 300 hours of footage before handing it to the Morgan County Sheriff's Office — workers were caught punching and kicking cows and stabbing them with screwdrivers at a farm supplying the Dairy Farmers of America cooperative.\n\nAt Andrus Dairy in Birnamwood, Wisconsin, similar footage from November 2014 showed workers hacking off cows' tails with pruning shears and blasting them in the face with pressure hoses. Animal-welfare expert Temple Grandin called the handling unacceptable after reviewing the tape, and Great Lakes Cheese — which had been sourcing milk through an intermediate processor — dropped the farm once the video became public.\n\nGray Ridge Egg Farms, one of Ontario's largest egg producers, was the subject of a 2016 investigation that ran for months. The footage showed hens packed into battery cages so tightly they couldn't spread their wings, with dead birds left to rot beside ones still laying eggs headed for grocery shelves.\n\nIn each case, the abuse wasn't a one-off incident caught on a single day — it took sustained undercover work to document a pattern, and it was only public pressure, not routine inspection, that triggered a response from the buyers downstream.",
+      "entityIds": [
+        "andrus_dairy",
+        "cactus_acres_holsteins",
+        "gray_ridge_egg_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
