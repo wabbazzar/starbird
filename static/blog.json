@@ -2035,6 +2035,22 @@
         "gray_ridge_egg_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-29-mercy_for_animals_investigations",
+      "date": "2026-08-29",
+      "title": "Three more egg and poultry producers, three Mercy For Animals exposés",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "This run traces a decade of Mercy For Animals undercover footage — a chick hatchery, an egg farm that pled guilty to cruelty charges, and a supplier caught on camera gassing hens — back to the companies still selling into major retail and food-service chains.",
+      "body": "Sanderson Farms, the country's third-largest poultry producer, ran a hatchery in Kinston, North Carolina where MFA footage from 2015 showed \"late hatcher\" chicks being macerated alive — filmed just before North Carolina's ag-gag law would have made the recording itself a crime.\n\nHillandale Farms' Turner, Maine egg operation is the oldest and most consequential case here: after a 2009 undercover investigation documented hens crushed in cage wire and left to share space with decomposing birds, the facility pled guilty to 10 counts of animal cruelty and paid $130,000 in fines and restitution — a rare instance where an MFA exposé produced a criminal conviction rather than just a corporate policy shift.\n\nBriarwood Farms, an Eggland's Best supplier in Oakville and Rochester, Washington, is the most recent addition. A 2016 investigation spanning nine of its facilities found sick hens denied veterinary care, dead birds left in cages with live ones still laying, and workers gassing hens after ripping them from cages by the wings — allegations Briarwood's own president partially confirmed.\n\nAll three sit downstream of the same industrial model: high-density confinement, fast turnover, and retail customers with plausible deniability about how the eggs and chicken on their shelves get there.",
+      "entityIds": [
+        "briarwood_farms",
+        "hillandale_farms",
+        "sanderson_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
