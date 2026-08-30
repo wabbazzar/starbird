@@ -2051,6 +2051,22 @@
         "sanderson_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-30-mercy_for_animals_investigations",
+      "date": "2026-08-30",
+      "title": "The auction, the dairy, and the pig farm: three MFA convictions, one pattern",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Three Mercy For Animals undercover investigations that ended in real convictions or guilty pleas show the same story playing out across a livestock auction, a dairy, and a contract pig farm: cruelty documented on hidden camera, then a fine too small to matter.",
+      "body": "Ontario Livestock Sales, once one of Southern California's largest auction markets, sold downed animals unable to stand or walk for human consumption, a direct violation of the state's downer-animal law. When Mercy For Animals' hidden camera caught it, owner Horacio Santorsola pleaded guilty to criminal animal cruelty and walked away with two years probation and a $1,000 fine.\n\nAt Winchester Dairy outside Roswell, New Mexico, workers were recorded whipping cows with chains and wire cables, stabbing one with a screwdriver, and shocking animals with electric prods. Four workers were charged with nine counts of criminal cruelty; two entered no-contest pleas.\n\nAnd at Country View Family Farms in Fannettsburg, Pennsylvania, a contract grower supplying Hatfield Quality Meats, an investigator who spent three months working undercover on the property documented piglets hurled into transport carts and mutilated without painkillers.\n\nDifferent animals, different states, over a decade apart. Each time, the penalty for the people caught on camera was a fraction of what the operation makes in a week.",
+      "entityIds": [
+        "country_view_family_farms",
+        "ontario_livestock_sales",
+        "winchester_dairy"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
