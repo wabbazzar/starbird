@@ -14526,6 +14526,98 @@
 				}
 			],
 			"addedAt": "2026-08-30"
+		},
+		{
+			"id": "wiese_brothers_farms",
+			"name": "Wiese Brothers Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "A dairy farm in Greenleaf, Wisconsin that supplied cheese to Nestle's DiGiorno frozen pizza brand. A 2013 Mercy For Animals undercover investigation captured workers kicking, beating, whipping, dragging, and stabbing cows. Four workers were charged with a total of 11 counts of criminal animal cruelty, and two, Abelardo Jaimes and Lucia Martinez, were later convicted on multiple counts. Nestle dropped the farm as a supplier immediately after the footage aired.",
+			"blurb": "Dairy farm supplying milk and cheese to wholesale food processors in Wisconsin.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 82,
+			"source": "https://www.nbcnews.com/news/world/digiorno-dumps-dairy-farm-after-nbc-shows-company-video-alleged-flna2d11721895",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2013 Mercy For Animals undercover investigation captured workers kicking, beating, whipping, dragging, and stabbing cows. Four workers were charged with 11 counts of criminal animal cruelty, and two were later convicted on multiple counts.",
+					"date": "2013",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.nbcnews.com/news/world/digiorno-dumps-dairy-farm-after-nbc-shows-company-video-alleged-flna2d11721895"
+				}
+			],
+			"addedAt": "2026-08-31"
+		},
+		{
+			"id": "delimax",
+			"name": "Délimax",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "One of the largest veal producers in North America, based in Quebec, Canada. An April 2014 Mercy For Animals Canada undercover investigation recorded workers kicking, punching, and beating baby calves chained by the neck inside crates too narrow for them to turn around or lie down comfortably. A former employee, Eric Dame, was charged with two counts of violating Quebec's Animal Health Protection Act. The footage led the Quebec Veal Association and major retailers Loblaws, Sobeys, and Metro to ban veal crates, ultimately making 97% of Canadian veal production crate-free.",
+			"blurb": "Large-scale veal producer supplying grocery and food-service buyers in Canada.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 80,
+			"source": "https://www.newswire.ca/news-releases/covert-investigation-exposes-sickening-animal-abuse-at-veal-factory-farm-in-quebec-514115021.html",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "An April 2014 Mercy For Animals Canada undercover investigation recorded workers kicking, punching, and beating baby calves chained by the neck inside crates too narrow for them to turn around or lie down comfortably. A former employee was charged with two counts of violating Quebec's Animal Health Protection Act.",
+					"date": "2014-04",
+					"actor": "Mercy For Animals Canada",
+					"sourceUrl": "https://www.newswire.ca/news-releases/covert-investigation-exposes-sickening-animal-abuse-at-veal-factory-farm-in-quebec-514115021.html"
+				}
+			],
+			"addedAt": "2026-08-31"
+		},
+		{
+			"id": "hendrix_genetics",
+			"name": "Hendrix Genetics",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "A multinational multi-species animal breeding and genetics company headquartered in the Netherlands, owner of the Hybrid Turkeys breeding brand. A 2015 Mercy For Animals Canada undercover investigation at a Hybrid Turkeys facility in Bright, Ontario documented workers crushing the spines of birds and leaving injured turkeys to die of festering, bloody wounds. Hybrid Turkeys pleaded guilty to one count of animal cruelty and was fined $5,600 — the first Canadian commercial farm found guilty of animal cruelty as a result of undercover footage.",
+			"blurb": "Multi-species animal breeding and genetics company operating in poultry, swine, and aquaculture.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 74,
+			"source": "https://www.cbc.ca/news/canada/kitchener-waterloo/hybrid-turkeys-pleads-guilty-to-animal-cruelty-1.3202846",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2015 Mercy For Animals Canada undercover investigation at its Hybrid Turkeys facility in Bright, Ontario documented workers crushing the spines of birds and leaving injured turkeys to die. Hybrid Turkeys pleaded guilty to one count of animal cruelty and was fined $5,600, the first such conviction of a Canadian commercial farm from undercover footage.",
+					"date": "2015",
+					"amountUsd": 5600,
+					"amountKind": "fine",
+					"actor": "Ontario court",
+					"sourceUrl": "https://www.cbc.ca/news/canada/kitchener-waterloo/hybrid-turkeys-pleads-guilty-to-animal-cruelty-1.3202846"
+				}
+			],
+			"addedAt": "2026-08-31"
 		}
 	],
 	"brands": [
@@ -32535,6 +32627,95 @@
 				}
 			],
 			"addedAt": "2026-08-30"
+		},
+		{
+			"id": "wiese_brothers_farms",
+			"avoid": "Wiese Brothers Farms",
+			"ownership": [
+				{
+					"firmId": "wiese_brothers_farms",
+					"stake": "majority",
+					"since": "1990"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A Greenleaf, Wisconsin dairy farm that supplied cheese to Nestle's DiGiorno frozen pizza brand until a 2013 Mercy For Animals hidden-camera investigation captured workers kicking, beating, whipping, dragging, and stabbing cows. Four workers were charged with 11 counts of criminal animal cruelty; two were convicted on multiple counts, and Nestle dropped the farm as a supplier immediately after the footage aired.",
+			"blurb": "Dairy farm supplying milk and cheese to wholesale food processors in Wisconsin.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2013 Mercy For Animals hidden-camera investigation captured workers kicking, beating, whipping, dragging, and stabbing cows. Four workers were charged with 11 counts of criminal animal cruelty; two were convicted on multiple counts.",
+					"date": "2013",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.nbcnews.com/news/world/digiorno-dumps-dairy-farm-after-nbc-shows-company-video-alleged-flna2d11721895"
+				}
+			],
+			"addedAt": "2026-08-31"
+		},
+		{
+			"id": "delimax",
+			"avoid": "Délimax",
+			"ownership": [
+				{
+					"firmId": "delimax",
+					"stake": "majority",
+					"since": "1990"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "One of the largest veal producers in North America, based in Quebec. An April 2014 Mercy For Animals Canada undercover investigation recorded workers kicking, punching, and beating baby calves chained by the neck inside crates too narrow to turn around or lie down comfortably. A former employee was charged with two counts of violating Quebec's Animal Health Protection Act. The footage pushed the Quebec Veal Association and retailers Loblaws, Sobeys, and Metro to ban veal crates, making 97% of Canadian veal production crate-free.",
+			"blurb": "Large-scale veal producer supplying grocery and food-service buyers in Canada.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "An April 2014 Mercy For Animals Canada undercover investigation recorded workers kicking, punching, and beating baby calves chained by the neck inside crates too narrow to turn around or lie down comfortably. A former employee was charged with two counts of violating Quebec's Animal Health Protection Act.",
+					"date": "2014-04",
+					"actor": "Mercy For Animals Canada",
+					"sourceUrl": "https://www.newswire.ca/news-releases/covert-investigation-exposes-sickening-animal-abuse-at-veal-factory-farm-in-quebec-514115021.html"
+				}
+			],
+			"addedAt": "2026-08-31"
+		},
+		{
+			"id": "hybrid_turkeys",
+			"avoid": "Hybrid Turkeys",
+			"ownership": [
+				{
+					"firmId": "hendrix_genetics",
+					"stake": "majority",
+					"since": "2005"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A turkey breeding brand owned by Hendrix Genetics whose genetic stock makes up 90% of the turkey eaten in Canada. A 2015 Mercy For Animals Canada undercover investigation at its Bright, Ontario facility documented workers crushing the spines of birds and leaving injured turkeys to die of festering, bloody wounds. The company pleaded guilty to one count of animal cruelty and was fined $5,600 — the first Canadian commercial farm found guilty of animal cruelty from undercover footage.",
+			"blurb": "Turkey breeding company supplying genetic stock to commercial turkey farms.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2015 Mercy For Animals Canada undercover investigation at its Bright, Ontario facility documented workers crushing the spines of birds and leaving injured turkeys to die. The company pleaded guilty to one count of animal cruelty and was fined $5,600, the first such conviction of a Canadian commercial farm from undercover footage.",
+					"date": "2015",
+					"amountUsd": 5600,
+					"amountKind": "fine",
+					"actor": "Ontario court",
+					"sourceUrl": "https://www.cbc.ca/news/canada/kitchener-waterloo/hybrid-turkeys-pleads-guilty-to-animal-cruelty-1.3202846"
+				}
+			],
+			"addedAt": "2026-08-31"
 		}
 	]
 }

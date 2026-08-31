@@ -2067,6 +2067,23 @@
         "winchester_dairy"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-08-31-mercy_for_animals_investigations",
+      "date": "2026-08-31",
+      "title": "How three factory-farm suppliers stayed hidden until hidden cameras found them",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "A Wisconsin dairy that fed Nestle's DiGiorno pizza, a Quebec veal giant, and a Canadian turkey-breeding company all avoided scrutiny until Mercy For Animals undercover footage forced convictions, fines, and industry-wide bans.",
+      "body": "Wiese Brothers Farms in Greenleaf, Wisconsin supplied cheese to Nestle's DiGiorno frozen pizza line for years without incident, until 2013 hidden-camera footage showed workers kicking, whipping, dragging, and stabbing cows. Four workers were charged with 11 counts of criminal animal cruelty; two were convicted. Nestle dropped the farm the same week the footage surfaced.\n\nIn Quebec, Délimax, one of the largest veal producers in North America, was recorded in 2014 with calves chained by the neck inside crates too narrow to turn around in, while workers kicked and beat them. The fallout reached further than a single conviction: the Quebec Veal Association and retailers Loblaws, Sobeys, and Metro banned veal crates outright, making 97% of Canadian veal production crate-free.\n\nHybrid Turkeys, the breeding arm behind 90% of the turkey Canadians eat, is owned by the Dutch genetics conglomerate Hendrix Genetics. A 2015 investigation at its Bright, Ontario facility documented workers crushing birds' spines and leaving injured turkeys to die untreated. The guilty plea and $5,600 fine that followed was the first time a Canadian commercial farm was convicted of animal cruelty from undercover footage.\n\nWhat connects all three: none were rogue actors caught once. Each supplied a household name — DiGiorno, national grocery chains, the Canadian turkey supply itself — and each only changed practice after being exposed, not before.",
+      "entityIds": [
+        "delimax",
+        "hendrix_genetics",
+        "wiese_brothers_farms",
+        "hybrid_turkeys"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
