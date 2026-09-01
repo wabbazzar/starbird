@@ -2084,6 +2084,22 @@
         "hybrid_turkeys"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-01-mercy_for_animals_investigations",
+      "date": "2026-09-01",
+      "title": "Three egg and chicken supply chains, three continents, one pattern",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "New Mercy For Animals investigations name the farms behind a discount grocer's chicken and two major egg producers — one greenwashing its cages, one spraying pesticide on caged hens, one leaving sick birds to die in overcrowded sheds.",
+      "body": "Discount grocer ALDI ranked in the lowest tier of Mercy For Animals' 2021 US retailer welfare report, and a 2022 undercover investigation showed why: a contract farm supplying ALDI packed tens of thousands of birds, including day-old chicks, into filthy sheds where untreated wounds, swollen legs, and burns went unaddressed, with sick animals discarded into buckets to die.\n\nEgg producers get the same scrutiny with a different tactic. Burnbrae Farms, Canada's largest egg company, told the public that nearly half its supply had moved to \"alternative housing\" — but a 2024 Mercy For Animals report found that figure quietly folded in enriched cages, which still confine hens far more than the cage-free label implies, while packaging depicted open pastures the birds never see. Over 130 Canadian food companies had already gone fully cage-free; Burnbrae kept investing in cages instead.\n\nIn southern Brazil, Naturovos — the region's largest egg producer — was the subject of a 2020 investigation that documented something more direct: lice-infested hens sprayed with toxic pesticide while still confined to their cages, some with torn feet or organs protruding, unable to reach food or water, eggs left uncovered beneath the spray.\n\nThree different failures — cruelty, deception, and negligence — all traced back to the same industry structure: cage confinement that makes abuse invisible until someone gets a camera inside.",
+      "entityIds": [
+        "aldi",
+        "burnbrae_farms",
+        "naturovos"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
