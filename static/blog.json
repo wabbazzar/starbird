@@ -2100,6 +2100,22 @@
         "naturovos"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-02-mercy_for_animals_investigations",
+      "date": "2026-09-02",
+      "title": "Brazil's chicken giants: Sadia and Perdigão's shared parent, BRF",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "A 2018 Mercy For Animals undercover investigation into Brazil's poultry industry named BRF — parent of the household brands Sadia and Perdigão — as one of the buyers behind farms where days-old chicks were killed by hand and birds bred for speed suffered crippling deformities.",
+      "body": "Sadia and Perdigão look like competitors on a Brazilian supermarket shelf, but they've shared one owner since 2009: BRF S.A., formed when Perdigão absorbed Sadia and took the merged company international. Between them the two brands move chicken, turkey, and pork into more than 100 countries.\n\nIn August 2018, Mercy For Animals investigators went inside factory farms supplying BRF's chicken business (alongside JBS and two smaller processors) for the group's first-ever undercover look at Brazil's poultry industry. What they documented was blunt: workers killing days-old chicks by smashing their necks into pipes and feed bins, birds bred to reach six times their natural weight suffering leg deformities that left many unable to walk, and animals going without veterinary care for untreated injuries in overcrowded, feces-laden sheds.\n\nThe throughline here isn't one bad farm — it's the economics of an industry built to grow chickens as fast and cheaply as possible, with two of the world's most recognized frozen-food brands sitting on top of the same supply chain. Whichever name is on the package, the birds came from the same kind of shed.",
+      "entityIds": [
+        "brf_sa",
+        "perdigao",
+        "sadia"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
