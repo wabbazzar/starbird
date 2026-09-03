@@ -65,20 +65,63 @@ Strategy scoring is deterministic: `new_entities / cost_usd` over the last 10 ru
 - `src/lib/categories.ts` — 9 categories (tech, food, coffee, retail, health, pets, home, hospitality, finance)
 - `src/lib/harmScore.ts` + `src/lib/harm-score-rubric.json` — harm score rubric (single source of truth, 6 buckets spanning 0–100)
 
-## Brand ranking: 5-point inheritance discount
+## Harm scoring: scope caps, role-aware inheritance (rubric v2)
 
-When sorted by harm impact, brands rank by the max `harmScore` of their parent firm(s), but PE-owned brands get a **5-point inheritance discount** (firm `aumVal > 0` = PE fund). Self-owned brands (`aumVal` = 0, e.g. Palantir, Clearview AI, ExxonMobil) use the raw score. This prevents a brand that is merely a *victim* of PE over-leveraging (e.g. The Container Store via Leonard Green at 97) from outranking a brand that is itself the harmful actor (e.g. Palantir at 98). The discount is applied in `brandImpactScore()` in `src/lib/ranking.ts` and is display-only — it does not change the stored `harmScore` in `data.json`.
+`firms[].harmScore` in `data.json` is the *researched judgment*. Two structured
+fields bound it. Both are **required** on every firm; `dq-check.mjs` fails on a
+missing one and `verify-harm-score.py` fails on an out-of-band score.
+
+**`scope`** — how far the harm reaches. Caps and floors the score:
+
+| scope | cap | floor | typical |
+|---|---|---|---|
+| `narrow` | 65 | — | one contract / site / incident; small vendor or shell |
+| `single_company` | 79 | — | one substantial operator's own conduct |
+| `multi_company` | 94 | 60 | portfolio, conglomerate, multi-subsidiary; PE funds < $100B AUM |
+| `systemic` | 100 | 70 | economy-wide reach or historic scale |
+
+**`role`** — `actor` (own conduct) / `owner` (via portfolio companies; every PE
+fund) / `both`. Sets the brand inheritance discount: 0 / 25 / 10 points.
+
+Brand rank = `max(ownerEffectiveScore − INHERIT_DISCOUNT[role] − STAKE_DISCOUNT[stake])`.
+`STAKE_DISCOUNT`: majority 0, minority 5, former 10, post_bankrupt 10. All
+constants are named exports in `src/lib/ranking.ts` — that file is the single
+tuning surface, and `firmEffectiveScore()` / `brandImpactScore()` are the single
+source of truth for every ranked surface (Brands list, Firms list, ChartsPanel,
+FirmCard, AumTreemap, StatStrip, `aggregations.ts`, `scripts/shop-lib.mjs`).
+
+This replaced a flat 5-point discount keyed on `aumVal > 0`, which keyed on "is
+this a fund?" rather than "is this the actor?" — so Leonard Green, the
+perpetrator, got the victim's discount, and The Container Store (a PE victim)
+ranked 92, above BlackRock at 55. It now ranks 62.
+
+Backfill and audit trail:
+- `scripts/backfill-scope-role.mjs` — deterministic rules (aumVal; sole
+  `workers_ice_cooperation` tag → `narrow`) then `scripts/scope-overrides.json`,
+  a reviewed per-firm map with a written note for every non-default assignment.
+  **Any 80+ score requires an entry there**, because the default cap is 79.
+- `scripts/recalibrate-harm-scores.mjs` — clamps stored scores into their band.
+  Ran 2026-09-02: 31 capped down, 19 floored up. See
+  `docs/harm-score-recalibration-2026-09.md`.
+- `scripts/merge-duplicate-firms.mjs` — merged three duplicate firm records
+  (Leonard Green ×2, Clorox ×2, George's ×2); firm count 451 → 448.
+
+Per-cohort median `harmScore` was 60 (Apr) → 79 (Jul), i.e. rank order encoded
+*research date*. After the scope pass it is 66–70 across all cohorts;
+`dq-check.mjs` now fails above a 10-point spread. The fix at source is the
+Scoring section in `scripts/starbird-runner-prompt.md` — pick scope *before*
+picking a number.
 
 ## Key rule: tags need evidence
 
-Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. Since the Phase 3 evidence backfill (`48f6736`), every firm and brand also carries a structured `evidence[]` array — one entry per tag, with `text`/`date`/`amountUsd`/`amountKind`/`actor`/`sourceUrl` — currently 450/450 firms and 605/605 brands. `scripts/dq-check.mjs` enforces tag→evidence linkage against this array (fails on any harm/align tag missing a matching `evidence.tag`) and is one of the data-quality gate commands in `.agents/gates.md`. When the runner adds a new tag to an existing entry, it must append both the prose evidence and a matching `evidence[]` entry. Note: the nightly release pass (`.agents/release.md` step 4) still only describes a `scripts/check-evidence-coverage.py` sampling check that was never written — `dq-check.mjs` has since covered that gap for any entity carrying `evidence[]`.
+Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. Since the Phase 3 evidence backfill (`48f6736`), every firm and brand also carries a structured `evidence[]` array — one entry per tag, with `text`/`date`/`amountUsd`/`amountKind`/`actor`/`sourceUrl` — currently 448/448 firms and 607/607 brands. `scripts/dq-check.mjs` enforces tag→evidence linkage against this array (fails on any harm/align tag missing a matching `evidence.tag`) and is one of the data-quality gate commands in `.agents/gates.md`. When the runner adds a new tag to an existing entry, it must append both the prose evidence and a matching `evidence[]` entry. Note: the nightly release pass (`.agents/release.md` step 4) still only describes a `scripts/check-evidence-coverage.py` sampling check that was never written — `dq-check.mjs` has since covered that gap for any entity carrying `evidence[]`.
 
 ## `/shop` skill
 
 `/shop <what you want>` shops on your behalf without steering you toward
 companies misaligned with the six values. Committed at
 `.claude/commands/shop.md`; shared logic in `scripts/shop-lib.mjs` (reuses
-`brandImpactScore()` + the harm buckets). Two tiers:
+`brandImpactScore()` / `firmEffectiveScore()` + the harm buckets). Two tiers:
 
 - **Tier 1 (offline):** vet candidates against `static/data.json`. Safe = absent
   **or** `harmScore < 40`; `40–79` → find an alternative; `≥ 80` → hard block.
