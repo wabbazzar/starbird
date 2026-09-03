@@ -2116,6 +2116,22 @@
         "sadia"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-03-mercy_for_animals_investigations",
+      "date": "2026-09-03",
+      "title": "The chicken sandwich you're not thinking about",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover cameras keep landing at the same handful of slaughterhouses and dairy farms — this run traces the line from those farms up to the household names that put their product on the menu.",
+      "body": "Chipotle built its brand on 'Food With Integrity,' including a stated requirement that every animal in its supply chain be stunned before slaughter. A 2024 Mercy For Animals investigation inside a George's Inc. plant supplying Chipotle found that requirement wasn't being met — birds routinely had their throats slit while still conscious — and turned up blue plastic-like debris in the deboned meat on the same line.\n\nKFC sits at the other end of a supply chain MFA has now filmed twice: contract farms for Pilgrim's Pride, which also supplies Popeyes. The 2024 footage from Kentucky farms showed six-week-old birds being kicked and thrown into overcrowded transport cages, the kind of routine handling that never makes it onto a bucket-meal ad.\n\nAcross the border, the Dairyland story is older but instructive: a 2014 MFA Canada investigation at Chilliwack Cattle Sales, then Canada's largest dairy farm and a Dairyland supplier, caught workers beating and hoisting cows with chains and tractors. It led to 20 cruelty charges, jail time, and a new animal welfare policy from Saputo — proof that exposure can move a company, but only after the cameras roll.\n\nThe throughline: none of these three brands ran the farm themselves. Each bought from a supplier whose conditions they either didn't audit closely enough or audited on paper only. Their stated standards are the gap the investigations keep finding.",
+      "entityIds": [
+        "chipotle",
+        "dairyland",
+        "kfc"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
