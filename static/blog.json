@@ -2132,6 +2132,22 @@
         "kfc"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-04-mercy_for_animals_investigations",
+      "date": "2026-09-04",
+      "title": "Undercover footage ties egg, dairy, and poultry brands to abuse",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Three Mercy For Animals-linked investigations — spanning an Ohio egg operation, an Indiana dairy supplying Coca-Cola's Fairlife, and a Perdue poultry subsidiary — show how far a brand's marketing can drift from what's happening in the barn.",
+      "body": "Trillium Farm Holdings, formerly Ohio Fresh Eggs, has been under scrutiny since a 2004 Mercy For Animals undercover investigation caught workers throwing live, injured hens in the trash. The pattern didn't stop there: a 2009 clean-water guilty plea and a 2010 salmonella recall — the largest in U.S. history at the time — point to the same operation cutting corners at scale.\n\nFair Oaks Farms, one of the country's largest dairies and a milk supplier for Coca-Cola's Fairlife brand, was the subject of a 2019 undercover investigation that investigators called not a case of a few bad actors but conduct involving 'everyone at Fair Oaks Farms' they encountered. Calves were filmed being dragged by their ears, hit with milk bottles, and burned with branding irons — footage graphic enough that major retailers pulled Fairlife products within days.\n\nPetaluma Poultry, a Perdue Farms subsidiary that markets chicken as 'Rocky the Free Range Chicken' and 'Rosie the Organic Chicken,' tells a quieter but related story: a 2018 investigation found birds crammed into windowless sheds with no sign they'd ever been outside, despite the branding built entirely around outdoor access.\n\nWhat connects the three is the gap between the claim on the package and the conditions behind it — organic seals, free-range labels, and 'family farm' branding sitting on top of documented, repeated violations.",
+      "entityIds": [
+        "fair_oaks_farms",
+        "trillium_farm_holdings",
+        "petaluma_poultry"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

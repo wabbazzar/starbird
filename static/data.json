@@ -15587,6 +15587,70 @@
         }
       ],
       "addedAt": "2026-09-03"
+    },
+    {
+      "id": "trillium_farm_holdings",
+      "name": "Trillium Farm Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Trillium Farm Holdings (formerly Ohio Fresh Eggs, and before that Buckeye Egg Farm) operates large-scale battery-cage egg-laying facilities in Croton, Ohio, one of the largest egg operations in the US. A November 2004 Mercy For Animals undercover investigation documented hens with broken bones and untreated open wounds, and workers throwing live birds into the trash. The company pled guilty to clean-water violations in 2009 and paid a $300,000 fine, and in 2010 it recalled more than a quarter-million eggs in what was then the largest salmonella-linked egg recall in US history.",
+      "blurb": "Egg producer operating large-scale battery-cage laying facilities in Ohio.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://ofe.mercyforanimals.org/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A November 2004 Mercy For Animals undercover investigation documented hens with broken bones and untreated open wounds, and workers throwing live birds into the trash.",
+          "date": "2004-11",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://ofe.mercyforanimals.org/"
+        }
+      ],
+      "addedAt": "2026-09-04",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "fair_oaks_farms",
+      "name": "Fair Oaks Farms",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Fair Oaks Farms is one of the largest dairy operations in the United States, based in Indiana, and a milk supplier for the Fairlife brand distributed by the Coca-Cola Company. A 2019 undercover investigation by Animal Recovery Mission, widely covered by Mercy For Animals, filmed Fair Oaks Farms workers dragging calves by their ears, hitting them with milk bottles, kicking and punching them, and burning them with hot branding irons; investigators described the abuse as pervasive rather than isolated, involving 'everyone at Fair Oaks Farms' they came into contact with. Fair Oaks Farms confirmed five individuals committed the abuse, and the footage prompted major retailers to pull Fairlife products from shelves.",
+      "blurb": "Large-scale dairy operation and agritourism complex in Indiana supplying milk processors.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 76,
+      "source": "https://mercyforanimals.org/blog/largest-undercover-dairy-investigation-of/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2019 undercover investigation documented Fair Oaks Farms workers dragging calves by their ears, hitting them with milk bottles, kicking and punching them, and burning them with hot branding irons, with investigators describing the abuse as pervasive rather than isolated.",
+          "date": "2019-06",
+          "actor": "Animal Recovery Mission",
+          "sourceUrl": "https://mercyforanimals.org/blog/largest-undercover-dairy-investigation-of/"
+        }
+      ],
+      "addedAt": "2026-09-04",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -33917,6 +33981,92 @@
         }
       ],
       "addedAt": "2026-09-03"
+    },
+    {
+      "id": "trillium_farm_holdings",
+      "avoid": "Trillium Farm Holdings",
+      "ownership": [
+        {
+          "firmId": "trillium_farm_holdings",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Trillium Farm Holdings (formerly Ohio Fresh Eggs) operates large battery-cage egg facilities in Croton, Ohio. A November 2004 Mercy For Animals undercover investigation documented hens with broken bones and untreated open wounds, and workers throwing live birds into the trash. The company pled guilty to clean-water violations in 2009 ($300,000 fine) and issued the largest salmonella-linked egg recall in US history in 2010, recalling more than a quarter-million eggs.",
+      "blurb": "Egg producer operating large-scale battery-cage laying facilities in Ohio.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A November 2004 Mercy For Animals undercover investigation documented hens with broken bones and untreated open wounds, and workers throwing live birds into the trash.",
+          "date": "2004-11",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://ofe.mercyforanimals.org/"
+        }
+      ],
+      "addedAt": "2026-09-04"
+    },
+    {
+      "id": "fair_oaks_farms",
+      "avoid": "Fair Oaks Farms",
+      "ownership": [
+        {
+          "firmId": "fair_oaks_farms",
+          "stake": "majority",
+          "since": "2001"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Fair Oaks Farms is a major Indiana dairy operation and a milk supplier for the Coca-Cola-owned Fairlife brand. A 2019 undercover investigation filmed workers dragging calves by their ears, hitting them with milk bottles, kicking and punching them, and burning them with hot branding irons; investigators described the abuse as pervasive across the operation rather than isolated incidents. Fair Oaks Farms confirmed five individuals committed the abuse, and the footage prompted major retailers to pull Fairlife products from shelves.",
+      "blurb": "Large-scale dairy operation and agritourism complex in Indiana supplying milk processors.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2019 undercover investigation documented Fair Oaks Farms workers dragging calves by their ears, hitting them with milk bottles, kicking and punching them, and burning them with hot branding irons, with investigators describing the abuse as pervasive rather than isolated.",
+          "date": "2019-06",
+          "actor": "Animal Recovery Mission",
+          "sourceUrl": "https://mercyforanimals.org/blog/largest-undercover-dairy-investigation-of/"
+        }
+      ],
+      "addedAt": "2026-09-04"
+    },
+    {
+      "id": "petaluma_poultry",
+      "avoid": "Petaluma Poultry",
+      "ownership": [
+        {
+          "firmId": "perdue_farms",
+          "stake": "majority",
+          "since": "1988"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Petaluma Poultry, a Perdue Farms subsidiary, markets chicken under the 'Rocky the Free Range Chicken' and 'Rosie the Organic Chicken' labels. A 2018 undercover investigation found thousands of birds crowded in windowless industrial sheds with no evidence they ever went outside, despite marketing claims of free-range and organic outdoor access, and documented sick and injured chickens unable to walk.",
+      "blurb": "Poultry brand raising and processing chicken sold as 'Rocky' and 'Rosie' branded products.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2018 undercover investigation found thousands of Petaluma Poultry birds confined in windowless sheds with no access to the outdoors despite 'free range' and 'organic' marketing claims, and documented sick and injured chickens unable to walk.",
+          "date": "2018-10",
+          "sourceUrl": "https://www.commondreams.org/views/2018/10/04/police-arrest-58-activists-after-factory-conditions-exposed-free-range-perdue"
+        }
+      ],
+      "addedAt": "2026-09-04"
     }
   ]
 }
