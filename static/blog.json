@@ -2148,6 +2148,21 @@
         "petaluma_poultry"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-05-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-05",
+      "title": "The professionals who keep sanctioned oligarchs' money moving",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three US firms — a DC law shop, a Florida realtor, and a New York property manager — got paid to keep sanctioned Kremlin-linked money working after the sanctions hit. OFAC caught all three.",
+      "body": "Sanctions on Russian oligarchs only work if the people around them stop doing business with them. This run surfaced three US firms that didn't. Rathmell Short LLP, a DC law and lobbying shop, took a $2.6 million contract in March 2025 to try to get Rostec CEO Sergei Chemezov and fellow executive Vasily Brovko off the OFAC blacklist — representing the head of Russia's state defense conglomerate while it arms the war in Ukraine.\n\nThe other two got caught after the fact, not before. Family International Realty, a Florida brokerage, settled with OFAC for $1,076,923 in January 2025 over 73 violations: helping two sanctioned oligarchs quietly move title on their condos to family members and shell companies, with text messages showing the owner knew exactly who they were dealing with. Gracetown, a New York property manager, paid $7.1 million in December 2025 for continuing to manage real estate for a company owned by Oleg Deripaska years after his 2018 sanctions designation and after OFAC had told them to stop.\n\nNone of these are household names, and that's the point — sanctions evasion runs through unglamorous intermediaries: lawyers, brokers, property managers who process the paperwork and collect a fee. OFAC's own enforcement actions turn out to be a reliable ledger of exactly who those intermediaries are.",
+      "entityIds": [
+        "family_international_realty",
+        "gracetown_inc",
+        "rathmell_short_llp"
+      ]
     }
   ]
 }
