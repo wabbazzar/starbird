@@ -2163,6 +2163,21 @@
         "gracetown_inc",
         "rathmell_short_llp"
       ]
+    },
+    {
+      "id": "2026-09-06-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-06",
+      "title": "Sanctioned oligarchs still own stakes inside EU companies",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "An OCCRP investigation surfaced three cases where Western sanctions on Russian oligarchs never fully severed their financial ties to major European companies — the sanctions bit the individual, not the equity.",
+      "body": "Severstal, Sibur, and STRABAG sit at three different points on the same problem. Severstal is chaired and majority-owned by Alexey Mordashov, sanctioned by the EU and US in 2022; even so, OCCRP found he still holds an indirect stake in Italian steelmaker Lucchini Spa through Cypriot holding structures. Sibur, Russia's largest petrochemical producer, is minority-owned by Gennady Timchenko, sanctioned since 2014 — its subsidiary Biaxplen holds half of an Italian packaging firm, Manucor Spa.\n\nSTRABAG is the clearest case of a company caught in the middle rather than acting badly itself. The Austrian construction giant was never sanctioned, and said so publicly in 2022 — but sanctioned oligarch Oleg Deripaska held up to 27.8% of it for over a decade through a holding vehicle, MKAO Rasperia Trading. Those shares are still frozen, the successor entity that took them over in 2024 got sanctioned too, and a Russian court has now ordered Austrian bank Raiffeisen to pay Deripaska's vehicle €2 billion and take the shares itself.\n\nThe throughline, per OCCRP's reporting, is scale: 33 sanctioned Russian oligarchs collectively hold stakes in at least 1,402 companies across the EU, UK, and Switzerland worth a combined $440 billion, mostly hidden behind trusts and fiduciary structures that sanctions regimes weren't built to pierce. Sanctioning a person doesn't automatically sanction what that person owns.",
+      "entityIds": [
+        "severstal",
+        "sibur",
+        "strabag"
+      ]
     }
   ]
 }

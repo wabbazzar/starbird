@@ -15747,6 +15747,100 @@
 				}
 			],
 			"addedAt": "2026-09-05"
+		},
+		{
+			"id": "severstal",
+			"name": "Severstal",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Russian steel and mining conglomerate chaired and majority-owned (77%) by Alexey Mordashov. Mordashov and Severstal were added to the EU sanctions list on February 28, 2022 and to the US OFAC list in June 2022, over Mordashov's proximity to Vladimir Putin; the EU sanctions cut off roughly a third of Severstal's sales, forcing the company to halt EU steel shipments on March 2, 2022. An OCCRP investigation published in 2026 found Mordashov continues to hold an indirect stake in Italian steelmaker Lucchini Spa through Cypriot holding structures, part of a wider pattern the investigation documented of 33 sanctioned Russian oligarchs concealing stakes in at least 1,402 EU/UK/Swiss companies worth $440 billion via opaque trusts and fiduciaries — evidence of continued elite impunity despite formal sanctions.",
+			"blurb": "Russian vertically-integrated steel and mining company.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 66,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.occrp.org/en/news/russian-oligarchs-own-stakes-in-italian-companies",
+			"cats": [],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "Mordashov and Severstal were added to the EU sanctions list on February 28, 2022 and to the US OFAC list in June 2022; an OCCRP investigation published in 2026 found Mordashov continues to hold an indirect stake in Italian steelmaker Lucchini Spa through Cypriot holding structures, part of a wider pattern of 33 sanctioned Russian oligarchs concealing stakes in at least 1,402 EU/UK/Swiss companies worth $440 billion.",
+					"date": "2022-06",
+					"amountUsd": 440000000000,
+					"amountKind": "revenue",
+					"actor": "OFAC / EU Council",
+					"sourceUrl": "https://www.occrp.org/en/news/russian-oligarchs-own-stakes-in-italian-companies"
+				}
+			],
+			"addedAt": "2026-09-06"
+		},
+		{
+			"id": "sibur",
+			"name": "Sibur Holding",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Russia's largest petrochemical producer, minority-owned by sanctioned oligarch Gennady Timchenko. Timchenko was sanctioned by OFAC in 2014 over ties to Vladimir Putin, and added to the EU travel ban list in 2022 and EU financial sanctions list in 2024; Sibur's own CEO Dmitry Konov stepped down from senior management in 2022 following his own EU/UK sanctions listing. An OCCRP investigation published in 2026 found Sibur, via its subsidiary Biaxplen, holds a 50% stake in Manucor Spa, a packaging firm near Milan — one of at least 34 Italy-based companies OCCRP linked to sanctioned Russian oligarchs, part of a broader $440 billion network of concealed EU/UK/Swiss holdings.",
+			"blurb": "Russian petrochemical company producing plastics, rubber, and chemical products.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 63,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.occrp.org/en/news/russian-oligarchs-own-stakes-in-italian-companies",
+			"cats": [],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "Sibur, via its subsidiary Biaxplen, holds a 50% stake in Manucor Spa, an Italian packaging firm, per a 2026 OCCRP investigation; Sibur shareholder Gennady Timchenko was sanctioned by OFAC in 2014 and added to EU sanctions lists in 2022 and 2024.",
+					"date": "2026",
+					"actor": "OCCRP",
+					"sourceUrl": "https://www.occrp.org/en/news/russian-oligarchs-own-stakes-in-italian-companies"
+				}
+			],
+			"addedAt": "2026-09-06"
+		},
+		{
+			"id": "strabag",
+			"name": "STRABAG SE",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Austrian construction group, one of Europe's largest. Sanctioned oligarch Oleg Deripaska held a stake of up to 27.8% through MKAO Rasperia Trading; STRABAG itself was never sanctioned and stated in a 2022 press release that the sanctions on Deripaska had no consequences for its operating business, but froze Rasperia's shares. In 2024 Rasperia and its successor Iliadis JSC were added to the US OFAC and EU sanctions lists, and a Russian court ordered Austrian bank Raiffeisen (RBI) to pay Rasperia €2 billion in damages and take ownership of the frozen Strabag shares — leaving a Western-sanctioned oligarch's holding vehicle still entangled in a major EU company's ownership structure years after his own sanctioning.",
+			"blurb": "Austrian construction and building-materials group operating across Europe.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 58,
+			"scope": "narrow",
+			"role": "actor",
+			"source": "https://www.constructionbriefing.com/news/sanctioned-russian-oligarch-finally-sells-stake-in-strabag/8036239.article",
+			"cats": [],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "Sanctioned oligarch Oleg Deripaska held up to 27.8% of STRABAG through MKAO Rasperia Trading; in 2024 Rasperia and successor Iliadis JSC were added to US OFAC and EU sanctions lists, and a Russian court ordered Austrian bank Raiffeisen to pay Rasperia €2 billion and take ownership of the frozen shares.",
+					"date": "2024",
+					"amountUsd": 2100000000,
+					"amountKind": "settlement",
+					"actor": "OFAC / EU Council / Russian court",
+					"sourceUrl": "https://www.globalbankingandfinance.com/AUSTRIA-RUSSIA-RAIFFEISEN-76eb4c00-fb84-4ac9-858b-6821d3c249a3/"
+				}
+			],
+			"addedAt": "2026-09-06"
 		}
 	],
 	"brands": [
@@ -34256,6 +34350,94 @@
 				}
 			],
 			"addedAt": "2026-09-05"
+		},
+		{
+			"id": "severstal",
+			"avoid": "Severstal",
+			"ownership": [
+				{
+					"firmId": "severstal",
+					"stake": "majority",
+					"since": "1993"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Severstal is chaired and majority-owned (77%) by sanctioned oligarch Alexey Mordashov, a close Putin ally. Despite EU and US sanctions imposed in 2022, a 2026 OCCRP investigation found Mordashov continues to hold an indirect stake in Italian steelmaker Lucchini Spa via Cypriot holding structures — one of 1,402 EU/UK/Swiss companies OCCRP found still linked to 33 sanctioned Russian oligarchs, worth a combined $440 billion.",
+			"blurb": "Russian steel producer selling flat and long steel products internationally.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "Despite EU and US sanctions imposed on chairman Alexey Mordashov in 2022, a 2026 OCCRP investigation found he continues to hold an indirect stake in Italian steelmaker Lucchini Spa via Cypriot holding structures.",
+					"date": "2026",
+					"actor": "OCCRP",
+					"sourceUrl": "https://www.occrp.org/en/news/russian-oligarchs-own-stakes-in-italian-companies"
+				}
+			],
+			"addedAt": "2026-09-06"
+		},
+		{
+			"id": "sibur",
+			"avoid": "Sibur",
+			"ownership": [
+				{
+					"firmId": "sibur",
+					"stake": "minority",
+					"since": "1995"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Sibur is minority-owned by sanctioned oligarch Gennady Timchenko, sanctioned by OFAC since 2014 and added to EU lists in 2022 and 2024. A 2026 OCCRP investigation found Sibur subsidiary Biaxplen holds a 50% stake in Italian packaging firm Manucor Spa, part of a $440 billion network of EU/UK/Swiss holdings OCCRP linked to sanctioned Russian oligarchs.",
+			"blurb": "Petrochemical producer making plastics, rubber, and chemical feedstocks.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "A 2026 OCCRP investigation found Sibur subsidiary Biaxplen holds a 50% stake in Italian packaging firm Manucor Spa; shareholder Gennady Timchenko has been under OFAC sanctions since 2014.",
+					"date": "2026",
+					"actor": "OCCRP",
+					"sourceUrl": "https://www.occrp.org/en/news/russian-oligarchs-own-stakes-in-italian-companies"
+				}
+			],
+			"addedAt": "2026-09-06"
+		},
+		{
+			"id": "strabag",
+			"avoid": "STRABAG",
+			"ownership": [
+				{
+					"firmId": "strabag",
+					"stake": "minority",
+					"since": "2007"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Sanctioned oligarch Oleg Deripaska held up to 27.8% of STRABAG through his MKAO Rasperia Trading vehicle from 2007 until Western sanctions forced a freeze on the shares in 2022. The 2024 handoff to successor entity Iliadis JSC (also sanctioned) and a Russian court's €2 billion damages order against Austrian bank Raiffeisen show the ownership dispute is still unresolved years after Deripaska's own sanctioning, per Reuters and the Moscow Times.",
+			"blurb": "Construction and building-materials company operating across Europe.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "Sanctioned oligarch Oleg Deripaska held up to 27.8% of STRABAG through MKAO Rasperia Trading from 2007; the shares remain frozen and the 2024 handoff to sanctioned successor Iliadis JSC, plus a Russian court's €2 billion damages order against Raiffeisen, leave the dispute unresolved.",
+					"date": "2024",
+					"amountUsd": 2100000000,
+					"amountKind": "settlement",
+					"sourceUrl": "https://www.themoscowtimes.com/2025/10/03/eu-weighs-handing-austrias-raiffeisen-deripaskas-former-stake-in-sanctions-hampered-asset-swap-ft-a90710"
+				}
+			],
+			"addedAt": "2026-09-06"
 		}
 	]
 }
