@@ -2241,6 +2241,22 @@
         "lincoln_premium_poultry"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-11-mercy_for_animals_investigations",
+      "date": "2026-09-11",
+      "title": "The farms behind the fast-food chicken: three cruelty exposés",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals' undercover investigations named three specific contract and processing farms feeding the fast-food and grocery supply chain, and this run adds each one so shoppers can see exactly where the abuse happened, not just which parent brand.",
+      "body": "Undercover footage is only as useful as the paper trail behind it. Two of this run's additions come from the same 2015 Mercy For Animals campaign: McGinnis Farms in Dagsboro, Delaware, and T & S Farm in Dukedom, Tennessee, both contract growers raising birds for Tyson Foods. At McGinnis, investigators filmed workers kicking, clubbing, and throwing live chickens while birds bred to grow unnaturally fast collapsed from heart attacks and organ failure without veterinary care — Tyson and six workers ultimately faced 33 counts of animal cruelty. At T & S, which supplied McDonald's Chicken McNuggets through Tyson, the owners were filmed impaling birds with a spiked club and breaking their necks by hand; both pleaded guilty in Tennessee court, and Tyson and McDonald's cut ties with the farm.\n\nThe third addition, Butterfield Foods, is a Minnesota poultry processor exposed not through hidden cameras but through documented transport failures: the Animal Welfare Institute found more than 2,500 of 6,000 chickens dead on a single truck trailer outside its plant, and over 9,500 more birds dead from heat exposure the same summer.\n\nWhat connects all three is scale hidden by anonymity — a named contract farm or processor rarely appears on a package, even when it sits directly behind a familiar fast-food or grocery brand. Naming McGinnis, T & S, and Butterfield individually is the point: the harm didn't happen at \"a Tyson farm\" or \"a supplier,\" it happened at a specific address, to specific birds, under specific ownership.",
+      "entityIds": [
+        "butterfield_foods",
+        "mcginnis_farms",
+        "t_and_s_farm"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
