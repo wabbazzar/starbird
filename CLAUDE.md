@@ -105,7 +105,7 @@ Backfill and audit trail:
   `docs/harm-score-recalibration-2026-09.md`.
 - `scripts/merge-duplicate-firms.mjs` — merged three duplicate firm records
   (Leonard Green ×2, Clorox ×2, George's ×2); firm count 451 → 448 at the time
-  of that merge (the runner has since added new firms; 466 as of this writing).
+  of that merge (the runner has since added new firms; 467 as of this writing).
 
 Per-cohort median `harmScore` was 60 (Apr) → 79 (Jul), i.e. rank order encoded
 *research date*. After the scope pass it is 66–70 across all cohorts;
@@ -115,7 +115,7 @@ picking a number.
 
 ## Key rule: tags need evidence
 
-Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. Since the Phase 3 evidence backfill (`48f6736`), every firm and brand also carries a structured `evidence[]` array — one entry per tag, with `text`/`date`/`amountUsd`/`amountKind`/`actor`/`sourceUrl` — currently 466/466 firms and 628/628 brands. `scripts/dq-check.mjs` enforces tag→evidence linkage against this array (fails on any harm/align tag missing a matching `evidence.tag`) and is one of the data-quality gate commands in `.agents/gates.md`. When the runner adds a new tag to an existing entry, it must append both the prose evidence and a matching `evidence[]` entry. Note: the nightly release pass (`.agents/release.md` step 4) still only describes a `scripts/check-evidence-coverage.py` sampling check that was never written — `dq-check.mjs` has since covered that gap for any entity carrying `evidence[]`.
+Every harm tag on a brand or firm MUST have corresponding evidence in the `why` (brands) or `summary` (firms) field. Since the Phase 3 evidence backfill (`48f6736`), every firm and brand also carries a structured `evidence[]` array — one entry per tag, with `text`/`date`/`amountUsd`/`amountKind`/`actor`/`sourceUrl` — currently 467/467 firms and 630/630 brands. `scripts/dq-check.mjs` enforces tag→evidence linkage against this array (fails on any harm/align tag missing a matching `evidence.tag`) and is one of the data-quality gate commands in `.agents/gates.md`. When the runner adds a new tag to an existing entry, it must append both the prose evidence and a matching `evidence[]` entry. Note: the nightly release pass (`.agents/release.md` step 4) still only describes a `scripts/check-evidence-coverage.py` sampling check that was never written — `dq-check.mjs` has since covered that gap for any entity carrying `evidence[]`.
 
 ## `/shop` skill
 
