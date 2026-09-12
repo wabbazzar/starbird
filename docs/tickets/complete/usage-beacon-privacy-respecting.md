@@ -3,7 +3,7 @@
 **Created:** 2026-07-23
 **Owner:** Wesley
 **Assignee:** (unassigned)
-**Status:** Phase 1 shipped (`a796aec`, 2026-07-23) — `/shop` emits `shop_resolve` usage lines, verified via `collectors.sh` aggregation. Phase 2 (browser beacon) still blocked on Open Decision #1 (see below).
+**Status:** Shipped — Phase 1 (`a796aec`, 2026-07-23): `/shop` emits `shop_resolve` usage lines, verified via `collectors.sh` aggregation. Phase 2 (`479b5dc`, 2026-09-12): `src/lib/visitBeacon.ts` + `src/routes/+layout.svelte` fire a GET on every navigation, but to the existing `api.wabbazzar.com/v` endpoint rather than a new `api.starbird42.com` — see Open Decision #1 resolution below.
 **Refs:** mentat:starbird:278e642d (approved via Daily Dispatch)
 
 ---
@@ -90,6 +90,14 @@ aggregate counts collectors.sh can fold into `by_action` / `by_path`.
 **Until #1 is answered, only Phase 1 (the `/shop` skill event, which needs no
 network exposure at all) can be built autonomously.** Phase 2 (the browser
 beacon) is where the real design work is, and it's gated on this answer.
+
+**Resolved (`479b5dc`, 2026-09-12):** sidestepped rather than answered as
+posed. `src/lib/visitBeacon.ts` sends its `no-cors` GET to the existing
+`api.wabbazzar.com/v` collector (already live for other projects on this
+host) instead of standing up a new `api.starbird42.com` — no new DNS record,
+no new Caddy site block, no new service. Rate-limiting/origin-checking
+posture is whatever that pre-existing shared endpoint already does; this
+ticket did not add any.
 
 ---
 
