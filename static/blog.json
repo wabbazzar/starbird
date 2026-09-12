@@ -2257,6 +2257,21 @@
         "t_and_s_farm"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-12-usaspending_ice_contracts",
+      "date": "2026-09-12",
+      "title": "Beyond GEO and CoreCivic: the small vendors funding ICE expansion",
+      "strategy": "usaspending_ice_contracts",
+      "strategyLabel": "USASpending.gov ICE contracts",
+      "value": "workers",
+      "summary": "This run traced two contracts most people never hear about — a national call-center staffer and a title insurance firm closing land deals for new detention sites — showing how ICE's expansion runs through hundreds of ordinary-looking vendors, not just the big prison operators.",
+      "body": "In August 2026, Koniag Government Services, the federal-contracting arm of the Kodiak, Alaska Native corporation Koniag, Inc., stood up ICE's 287(g) National Coordination Center in Nashville under a roughly $63 million contract. The center runs 24/7, coordinating every local police and sheriff's department partnership ICE has nationwide and tracking the locations of unaccompanied minors — a real-time backbone for enforcement, not a courtroom or a cell.\n\nA smaller, stranger contract shows how far the same buildout reaches: in June 2026, ICE paid First American Title Insurance Company, the largest title insurer in the country, $240,000 to handle escrow and settlement work on land purchases in Florence, Arizona; Krome, Florida; and Batavia, New York — properties ICE is buying outright to convert into permanent detention capacity. First American's usual business is closing home sales; this time it closed the paperwork on a detention footprint.\n\nNeither company set out to build ICE infrastructure. But federal procurement data shows agencies don't need a GEO Group or a CoreCivic for every piece of the job — a staffing subsidiary and a title company are enough to keep the pipeline moving. Both entries carry sourced contract values from usaspending.gov reporting so the scale is verifiable, not estimated.",
+      "entityIds": [
+        "first_american_title_insurance",
+        "koniag_government_services"
+      ],
+      "source": "https://www.usaspending.gov/"
     }
   ]
 }
