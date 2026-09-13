@@ -2272,6 +2272,22 @@
         "koniag_government_services"
       ],
       "source": "https://www.usaspending.gov/"
+    },
+    {
+      "id": "2026-09-13-adjacent_source_discovery_workers",
+      "date": "2026-09-13",
+      "title": "Wage theft and a preventable death: three worker-harm settlements",
+      "strategy": "adjacent_source_discovery_workers",
+      "strategyLabel": "Adjacent-source discovery (workers)",
+      "value": "workers",
+      "summary": "This run looked past the ICE-contractor trackers to fresh federal and state enforcement data, surfacing a fatal confined-space violation, the largest wage-theft settlement in California history, and a nationwide OSHA safety overhaul.",
+      "body": "A hazardous-waste worker's death opened this run: on January 10, 2025, a Clean Harbors Environmental Services employee entered a railroad tanker car at an Ohio recycling facility that OSHA later found had an oxygen level as low as 5%. Investigators cited the company for three willful violations — no atmospheric testing, no ventilation, no non-entry rescue plan — and proposed a $602,938 fine. It's the kind of harm that never shows up in an ICE-contractor tracker: a routine industrial job, made fatal by skipped basic safeguards.\n\nScale looked different at Disneyland. In December 2024, Disney agreed to pay $233 million — California's largest wage-theft settlement — to resolve claims that Disneyland Resort skirted Anaheim's Measure L minimum-wage ordinance. Roughly 52,000 current and former cast members are covered, with $179.6 million earmarked for back pay. The dollar figure dwarfs the other two entries here, but the underlying claim is the same one running through this whole run: workers paid less than the law required.\n\nDollar General's case shows what a corporate-wide safety failure looks like when it isn't fatal, yet. A $12 million OSHA settlement in July 2024 followed inspections finding blocked emergency exits, blocked electrical panels, and unsafely stacked merchandise across the chain's roughly 20,000 U.S. stores — conditions that make evacuation or fire response harder in exactly the moment it matters most.\n\nNone of these three needed a tip from an activist tracker; all three came out of federal and state enforcement records that are public, searchable, and rarely read all the way through.",
+      "entityIds": [
+        "clean_harbors",
+        "dollar_general",
+        "walt_disney_company",
+        "disneyland_resort"
+      ]
     }
   ]
 }
