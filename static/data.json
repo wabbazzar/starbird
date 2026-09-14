@@ -16444,6 +16444,107 @@
         }
       ],
       "addedAt": "2026-09-13"
+    },
+    {
+      "id": "saudi_aramco",
+      "name": "Saudi Aramco",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "State-owned Saudi Arabian oil and gas company, the world's largest crude oil producer. Climate TRACE data shows Aramco emitted roughly 1.839 billion tonnes CO2-equivalent in 2023, 4.38% of all global emissions that year, making it the single largest corporate emitter tracked by the database; the Carbon Majors database separately attributes over 70 billion tonnes of cumulative CO2 to Aramco's production since tracking began, more than any other company in history. Tagged environment_general.",
+      "blurb": "State-owned oil and gas company; explores, produces, refines, and markets crude oil and petrochemicals.",
+      "brands": [
+        "Aramco"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 90,
+      "source": "https://www.statista.com/statistics/1058434/leading-ghg-emissions-fossil-fuel-companies-globally/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Climate TRACE data shows Aramco emitted roughly 1.839 billion tonnes CO2-equivalent in 2023, 4.38% of all global emissions that year, making it the single largest corporate emitter tracked by the database; the Carbon Majors database separately attributes over 70 billion tonnes of cumulative CO2 to Aramco's production since tracking began, more than any other company in history.",
+          "date": "2023",
+          "sourceUrl": "https://www.statista.com/statistics/1058434/leading-ghg-emissions-fossil-fuel-companies-globally/"
+        }
+      ],
+      "scope": "systemic",
+      "role": "actor",
+      "addedAt": "2026-09-14"
+    },
+    {
+      "id": "shell_plc",
+      "name": "Shell",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "British-headquartered multinational oil and gas major, one of the top 5 investor-owned fossil fuel companies. Shell ranked among the top 5 investor-owned emitters in both the 2023 and 2024 Carbon Majors updates, contributing to a combined 2.2 GtCO2e (5.1% of global fossil CO2 emissions) among the top five investor-owned firms in 2023. Internal Shell documents dating to a 1986 report and a 1988 confidential memo titled 'The Greenhouse Effect' show the company understood by the 1980s that fossil fuel combustion would cause 'destructive floods' and forced migration, decades before it acknowledged this publicly, per reporting by Inside Climate News and The Guardian. Tagged environment_general.",
+      "blurb": "Integrated oil and gas major; explores, produces, refines, and markets petroleum fuels and petrochemicals worldwide.",
+      "brands": [
+        "Shell"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 86,
+      "source": "https://insideclimatenews.org/news/05042018/shell-knew-scientists-climate-change-risks-fossil-fuels-global-warming-company-documents-netherlands-lawsuits/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Shell ranked among the top 5 investor-owned emitters in both the 2023 and 2024 Carbon Majors updates, contributing to a combined 2.2 GtCO2e (5.1% of global fossil CO2 emissions) among the top five investor-owned firms in 2023. Internal Shell documents dating to a 1986 report and a 1988 confidential memo titled 'The Greenhouse Effect' show the company understood by the 1980s that fossil fuel combustion would cause 'destructive floods' and forced migration, decades before it acknowledged this publicly.",
+          "date": "1988",
+          "sourceUrl": "https://insideclimatenews.org/news/05042018/shell-knew-scientists-climate-change-risks-fossil-fuels-global-warming-company-documents-netherlands-lawsuits/"
+        }
+      ],
+      "scope": "systemic",
+      "role": "actor",
+      "addedAt": "2026-09-14"
+    },
+    {
+      "id": "totalenergies",
+      "name": "TotalEnergies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "French multinational oil, gas, and energy major and one of the top investor-owned fossil fuel emitters tracked by the Carbon Majors database. TotalEnergies is building the East African Crude Oil Pipeline (EACOP), a $5 billion, 1,443km pipeline projected to enable 34 million tonnes of CO2 emissions annually at peak production and 379 million tonnes over its 25-year lifespan, more than the UK's entire 2022 national emissions, per Down To Earth and Al Jazeera reporting. In a first for a fossil fuel major, the Paris Judicial Court found TotalEnergies guilty of misleading commercial practices (greenwashing) in a case brought by three environmental organizations. Tagged environment_general.",
+      "blurb": "Integrated oil, gas, and energy company; explores, produces, refines, and markets fuels and petrochemicals worldwide.",
+      "brands": [
+        "TotalEnergies"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 84,
+      "source": "https://www.downtoearth.org.in/africa/east-african-crude-oil-pipeline-could-generate-34-million-tons-of-carbon",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "TotalEnergies is building the East African Crude Oil Pipeline (EACOP), a $5 billion, 1,443km pipeline projected to enable 34 million tonnes of CO2 emissions annually at peak production and 379 million tonnes over its 25-year lifespan, more than the UK's entire 2022 national emissions. In a first for a fossil fuel major, the Paris Judicial Court found TotalEnergies guilty of misleading commercial practices (greenwashing) in a case brought by three environmental organizations.",
+          "date": "2025",
+          "amountUsd": 5000000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.downtoearth.org.in/africa/east-african-crude-oil-pipeline-could-generate-34-million-tons-of-carbon"
+        }
+      ],
+      "scope": "systemic",
+      "role": "actor",
+      "addedAt": "2026-09-14"
     }
   ],
   "brands": [
@@ -35618,6 +35719,90 @@
         }
       ],
       "addedAt": "2026-09-13"
+    },
+    {
+      "id": "aramco",
+      "avoid": "Aramco",
+      "ownership": [
+        {
+          "firmId": "saudi_aramco",
+          "stake": "majority",
+          "since": "1933"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Aramco is the retail fuel and petrochemical brand of Saudi Aramco, the single largest corporate greenhouse gas emitter tracked by Climate TRACE. Aramco's production was responsible for roughly 1.839 billion tonnes CO2-equivalent in 2023 alone, 4.38% of global emissions that year, per Climate TRACE-derived Statista data.",
+      "blurb": "Retail fuel and petrochemical brand of a state-owned oil and gas producer.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Aramco's production was responsible for roughly 1.839 billion tonnes CO2-equivalent in 2023 alone, 4.38% of global emissions that year, per Climate TRACE-derived Statista data.",
+          "date": "2023",
+          "sourceUrl": "https://www.statista.com/statistics/1058434/leading-ghg-emissions-fossil-fuel-companies-globally/"
+        }
+      ],
+      "addedAt": "2026-09-14"
+    },
+    {
+      "id": "shell",
+      "avoid": "Shell",
+      "ownership": [
+        {
+          "firmId": "shell_plc",
+          "stake": "majority",
+          "since": "1907"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Shell is the retail gas-station and fuel brand of Shell plc, a top-5 investor-owned fossil fuel emitter per the Carbon Majors database. Internal Shell documents from 1986–1988 show the company understood fossil fuels would cause severe climate damage decades before its public acknowledgment, per Inside Climate News' review of company records.",
+      "blurb": "Retail gasoline stations and producer of petroleum fuels and lubricants.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "Internal Shell documents from 1986–1988 show the company understood fossil fuels would cause severe climate damage decades before its public acknowledgment, per Inside Climate News' review of company records.",
+          "date": "1988",
+          "sourceUrl": "https://insideclimatenews.org/news/05042018/shell-knew-scientists-climate-change-risks-fossil-fuels-global-warming-company-documents-netherlands-lawsuits/"
+        }
+      ],
+      "addedAt": "2026-09-14"
+    },
+    {
+      "id": "totalenergies",
+      "avoid": "TotalEnergies",
+      "ownership": [
+        {
+          "firmId": "totalenergies",
+          "stake": "majority",
+          "since": "1924"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "TotalEnergies is the retail fuel-station brand of the French energy major behind the East African Crude Oil Pipeline, projected to generate 34 million tonnes of CO2 emissions annually at peak production. In 2025, a Paris court found the company guilty of greenwashing, the first such conviction of a fossil fuel major, per Ugandan and French court reporting.",
+      "blurb": "Retail gasoline and energy-services brand of a multinational oil and gas major.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "In 2025, a Paris court found the company guilty of greenwashing, the first such conviction of a fossil fuel major.",
+          "date": "2025",
+          "sourceUrl": "https://ugbusiness.com/2025/11/energy-oil-gas/environment/totalenergies-greenwashing-verdict-opens-new-front-for-african-climate-litigation"
+        }
+      ],
+      "addedAt": "2026-09-14"
     }
   ]
 }

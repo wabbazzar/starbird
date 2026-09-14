@@ -2288,6 +2288,24 @@
         "walt_disney_company",
         "disneyland_resort"
       ]
+    },
+    {
+      "id": "2026-09-14-climate_trace_emissions",
+      "date": "2026-09-14",
+      "title": "The world's three biggest emitters, by their own gas-station brands",
+      "strategy": "climate_trace_emissions",
+      "strategyLabel": "Climate TRACE emissions data",
+      "value": "environment",
+      "summary": "Climate TRACE and the Carbon Majors database name a small handful of companies behind most of the planet's fossil fuel emissions — and their retail brands are the ones you fill up at.",
+      "body": "Climate TRACE's satellite-verified data puts Saudi Aramco at the top of the corporate emissions list: 1.839 billion tonnes CO2-equivalent in 2023 alone, 4.38% of everything humanity emitted that year, and the largest cumulative emitter in history per the Carbon Majors database. Its retail brand, Aramco, is the face consumers see at the pump.\n\nShell sits alongside it in the Carbon Majors top five investor-owned emitters for both 2023 and 2024. What sets Shell apart isn't just scale — it's timing. Internal company documents from 1986 and a 1988 confidential memo titled \"The Greenhouse Effect\" show Shell understood fossil fuels would cause \"destructive floods\" and mass migration decades before it said so publicly, per Inside Climate News' review of the company's own archives.\n\nTotalEnergies rounds out the group with a live, unresolved project: the East African Crude Oil Pipeline, a $5 billion line projected to enable 34 million tonnes of CO2 emissions a year at peak production — more than the UK's entire 2022 national output over the pipeline's 25-year life. In 2025 a Paris court found TotalEnergies guilty of greenwashing, the first such conviction against a fossil fuel major.\n\nAll three keep the same retail identity worldwide: gas stations. The emissions accounting happens upstream, invisibly, but the brand at the curb is the one place a buyer has a choice.",
+      "entityIds": [
+        "saudi_aramco",
+        "shell_plc",
+        "totalenergies",
+        "aramco",
+        "shell"
+      ],
+      "source": "https://climatetrace.org/"
     }
   ]
 }
