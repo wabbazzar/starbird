@@ -2306,6 +2306,22 @@
         "shell"
       ],
       "source": "https://climatetrace.org/"
+    },
+    {
+      "id": "2026-09-15-ice_foia_library",
+      "date": "2026-09-15",
+      "title": "The contractors behind the cell: guards, transport, and medical care",
+      "strategy": "ice_foia_library",
+      "strategyLabel": "ICE FOIA reading room",
+      "value": "workers",
+      "summary": "This run traced three federal contractors that keep ICE detention running day to day — not the headline names like GEO Group, but the guard staffing, and the medical vendors detainees actually encounter inside.",
+      "body": "Akima Global Services runs detention management and transportation at the Buffalo Federal Detention Facility in Batavia, NY, under a contract worth over $460 million in cumulative obligations. It's a sibling entity to Akima Infrastructure Protection, both wholly owned by the Alaska Native Corporation holding company Akima, LLC — the ANC's 8(a) status lets the group win these detention contracts sole-source. Akima Global's guard workforce has filed multiple NLRB unfair-labor-practice charges over conditions tied to the work.\n\nInside the facilities, medical care is often subcontracted again. Wellpath is the medical-care provider at GEO Group's Adelanto ICE Processing Center in California, one of roughly 420 correctional and detention facilities it serves. It filed Chapter 11 bankruptcy in December 2024 amid about 1,500 lawsuits over deficient care, then kept operating after emerging from bankruptcy in 2025. In January 2026, the family of Ismael Ayala-Uribe — who died in ICE custody at Adelanto on September 22, 2025 — sued Wellpath and GEO Group for failing to provide adequate care.\n\nVitalCore Health Strategies, a smaller competitor billing ICE roughly $3.9 million a month, has been sued at least 26 times since 2019 over similar allegations. In South Carolina it skipped payment on nearly $2 million in settlements alongside Wellpath; in Vermont it faces a wrongful-death suit alleging staff watched a detainee die of untreated bacterial endocarditis over several days.\n\nNone of these three are the operator whose name goes on the building. They're the layer underneath — the companies whose staff actually decide whether a detainee gets a meal, a bus seat, or a doctor.",
+      "entityIds": [
+        "akima_global_services",
+        "vitalcore_health_strategies",
+        "wellpath"
+      ],
+      "source": "https://www.ice.gov/foia/library"
     }
   ]
 }
