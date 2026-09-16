@@ -2322,6 +2322,21 @@
         "wellpath"
       ],
       "source": "https://www.ice.gov/foia/library"
+    },
+    {
+      "id": "2026-09-16-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-16",
+      "title": "Three ways impunity launders itself: a shell, a shadow fleet, a tax credit",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run surfaced three very different vehicles for the same trick — using a legal structure to keep the money moving while the people behind it stay untouchable.",
+      "body": "A British Virgin Islands shell company called P&ID spent over a decade chasing an $11 billion arbitration award against Nigeria before London's High Court threw it out in 2023, ruling the award was \"obtained by fraud\" — bribery of a ministry official, perjured testimony, improperly retained government documents. A 2026 OCCRP follow-up found the company's own insiders admitting to more of the same. The entity existed for one contract and nothing else, which is exactly what let it try something this brazen.\n\nSovcomflot is the opposite shape: Russia's largest state shipping company, sanctioned by the U.S. Treasury in 2024 for running Russian oil above the G7 price cap. What's notable is the mechanism — when tankers get designated, Sovcomflot hands formal management to shell operators like Fornax and Stream and keeps them sailing. It's the same shell-company trick as P&ID, just run at fleet scale by a state actor.\n\nThe third case doesn't involve smuggling or arbitration at all. Susquehanna International Group, the trading firm billionaire Jeffrey Yass co-founded, ran corporate entities through Pennsylvania's private-school tax-credit program: $36 million contributed, about $32.5 million returned as tax credits — a program that has pulled over $2.5 billion away from public schools since it started. Yass has spent tens of millions on state races to keep the program intact. No fraud finding required when the legislature wrote you the loophole.",
+      "entityIds": [
+        "process_industrial_developments",
+        "sovcomflot",
+        "susquehanna_international_group"
+      ]
     }
   ]
 }

@@ -16643,6 +16643,112 @@
 			"addedAt": "2026-09-15",
 			"scope": "single_company",
 			"role": "actor"
+		},
+		{
+			"id": "process_industrial_developments",
+			"name": "Process & Industrial Developments Ltd (P&ID)",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Process & Industrial Developments Ltd (P&ID) is a British Virgin Islands shell company founded by Michael Quinn and Brendan Cahill that won a $6.6 billion arbitration award against Nigeria in 2017 over a cancelled gas-processing contract, an award that with interest grew to roughly $11 billion. In October 2023, London's High Court set the award aside after Justice Robin Knowles found it was \"obtained by fraud,\" ruling that P&ID had bribed Grace Taiga, the Nigerian Ministry of Petroleum Resources' then-legal director, relied on perjured evidence from Quinn during arbitration, and improperly retained privileged Nigerian government documents. A 2026 OCCRP investigation reported that P&ID insiders admitted in London court filings to additional financial misconduct at the company and its affiliates, including unexplained payments to Nigerian officials and falsified invoices. Flagged under elite_impunity_general.",
+			"blurb": "British Virgin Islands shell company formed around a single Nigerian gas-processing contract.",
+			"brands": [
+				"process_industrial_developments"
+			],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"scope": "narrow",
+			"role": "actor",
+			"source": "https://www.occrp.org/en/feature/pid-scandal-insiders-from-shell-company-embroiled-in-11-billion-corruption-case-admit-misconduct",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "In October 2023, London's High Court set aside P&ID's $11 billion arbitration award after Justice Robin Knowles found it was \"obtained by fraud,\" ruling that P&ID bribed Grace Taiga, the Nigerian Ministry of Petroleum Resources' then-legal director, and relied on perjured evidence from co-founder Michael Quinn. A 2026 OCCRP investigation reported P&ID insiders admitted in London court filings to further unexplained payments to Nigerian officials and falsified invoices.",
+					"date": "2023-10",
+					"amountUsd": 11000000000,
+					"amountKind": "deal",
+					"actor": "London High Court",
+					"sourceUrl": "https://www.occrp.org/en/feature/pid-scandal-insiders-from-shell-company-embroiled-in-11-billion-corruption-case-admit-misconduct"
+				}
+			],
+			"addedAt": "2026-09-16"
+		},
+		{
+			"id": "sovcomflot",
+			"name": "Sovcomflot (PJSC)",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Sovcomflot (PJSC, Public Joint-Stock Company Sovcomflot) is Russia's largest state-owned shipping company, controlling a fleet of crude-oil and petroleum-product tankers. On February 23, 2024, the U.S. Treasury sanctioned Sovcomflot and 14 of its tankers under Executive Order 14024, finding the company had repeatedly shipped Russian oil above the G7/EU/Australia price cap and used deceptive practices — disabling AIS transponders and conducting ship-to-ship transfers in the Kerch Strait and Baltic — to evade sanctions enforcement. OCCRP's 2026 reporting on Russia's \"shadow fleet\" documented Sovcomflot transferring formal management of sanctioned tankers to shell operators such as Fornax and Stream to keep vessels sailing after designation, part of a roughly 600-ship shadow fleet that Western shipowners have profited from supplying. Flagged under elite_impunity_general.",
+			"blurb": "Russian state-owned shipping company operating crude-oil and petroleum-product tankers.",
+			"brands": [
+				"sovcomflot"
+			],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 78,
+			"scope": "multi_company",
+			"role": "actor",
+			"source": "https://www.occrp.org/en/investigation/european-ships-keep-russias-shadow-fleet-afloat",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "On February 23, 2024, the U.S. Treasury sanctioned Sovcomflot and 14 of its tankers, finding it had shipped Russian oil above the G7/EU/Australia price cap and used deceptive practices to evade sanctions. OCCRP's 2026 shadow-fleet reporting documented Sovcomflot transferring formal management of sanctioned tankers to shell operators like Fornax and Stream to keep them sailing after designation.",
+					"date": "2024-02-23",
+					"actor": "U.S. Treasury (OFAC)",
+					"sourceUrl": "https://home.treasury.gov/news/press-releases/jy2777"
+				}
+			],
+			"addedAt": "2026-09-16"
+		},
+		{
+			"id": "susquehanna_international_group",
+			"name": "Susquehanna International Group",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Susquehanna International Group (SIG) is a privately held proprietary trading and options-market-making firm co-founded by billionaire Jeffrey Yass, who remains a managing director. A 2026 LittleSis/ACRE investigation, corroborated by Jacobin and The Lever, found that from 2017 to 2023 three corporate entities registered at SIG's Bala Cynwyd, Pennsylvania headquarters, plus one entity owned directly by Yass, contributed $36 million to Pennsylvania's Educational Improvement and Opportunity Scholarship Tax Credit programs and received roughly $32.5 million of it back as state tax credits — a program that has funneled more than $2.5 billion in tax credits to private-school donors since its creation, redirecting money that would otherwise flow to the state's public-education budget. Yass has separately spent tens of millions of dollars on Pennsylvania state legislative races to protect and expand the tax-credit program that returns money to his own entities. Flagged under elite_impunity_general.",
+			"blurb": "Privately held proprietary trading and options market-making firm.",
+			"brands": [
+				"susquehanna_international_group"
+			],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 60,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.levernews.com/how-a-tax-loophole-drained-schools-and-enriched-a-trump-megadonor/",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "From 2017 to 2023, three corporate entities registered at SIG's headquarters plus one owned directly by co-founder Jeffrey Yass contributed $36 million to Pennsylvania's EITC/OSTC tax-credit programs and received roughly $32.5 million back as state tax credits, per a 2026 LittleSis/ACRE report. Yass has separately spent tens of millions on Pennsylvania legislative races to protect the program.",
+					"date": "2026",
+					"amountUsd": 32500000,
+					"amountKind": "fees",
+					"actor": "Pennsylvania Department of Community and Economic Development",
+					"sourceUrl": "https://www.levernews.com/how-a-tax-loophole-drained-schools-and-enriched-a-trump-megadonor/"
+				}
+			],
+			"addedAt": "2026-09-16"
 		}
 	],
 	"brands": [
@@ -35990,6 +36096,97 @@
 				}
 			],
 			"addedAt": "2026-09-15"
+		},
+		{
+			"id": "process_industrial_developments",
+			"avoid": "P&ID (Process & Industrial Developments)",
+			"ownership": [
+				{
+					"firmId": "process_industrial_developments",
+					"stake": "majority",
+					"since": "2010"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "P&ID is a British Virgin Islands shell company that won an $11 billion arbitration award against Nigeria that London's High Court set aside in October 2023 after finding the award was \"obtained by fraud\" — P&ID had bribed a Nigerian ministry official, relied on perjured evidence, and improperly retained privileged government documents. A 2026 OCCRP investigation reported P&ID insiders' own admissions of further unexplained payments to officials and falsified invoices.",
+			"blurb": "Single-contract shell company built around a Nigerian gas-processing deal.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "London's High Court set aside P&ID's $11 billion arbitration award in October 2023 after finding it was \"obtained by fraud,\" citing bribery of a Nigerian ministry official and perjured evidence; a 2026 OCCRP investigation reported further insider admissions of unexplained payments and falsified invoices.",
+					"date": "2023-10",
+					"amountUsd": 11000000000,
+					"amountKind": "deal",
+					"actor": "London High Court",
+					"sourceUrl": "https://www.occrp.org/en/feature/pid-scandal-insiders-from-shell-company-embroiled-in-11-billion-corruption-case-admit-misconduct"
+				}
+			],
+			"addedAt": "2026-09-16"
+		},
+		{
+			"id": "sovcomflot",
+			"avoid": "Sovcomflot",
+			"ownership": [
+				{
+					"firmId": "sovcomflot",
+					"stake": "majority",
+					"since": "1988"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Sovcomflot is Russia's largest state-owned tanker operator. The U.S. Treasury sanctioned the company and 14 of its tankers in February 2024 for shipping Russian oil above the G7 price cap and for deceptive evasion tactics — disabled AIS transponders and ship-to-ship transfers. OCCRP's 2026 shadow-fleet reporting documented Sovcomflot shifting formal management of sanctioned vessels to shell operators to keep them sailing after designation.",
+			"blurb": "Russian state-owned company operating crude-oil and petroleum tankers.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "The U.S. Treasury sanctioned Sovcomflot and 14 tankers in February 2024 for price-cap violations and deceptive evasion; OCCRP's 2026 reporting documented the company shifting sanctioned vessels' management to shell operators like Fornax and Stream to keep them sailing.",
+					"date": "2024-02-23",
+					"actor": "U.S. Treasury (OFAC)",
+					"sourceUrl": "https://home.treasury.gov/news/press-releases/jy2777"
+				}
+			],
+			"addedAt": "2026-09-16"
+		},
+		{
+			"id": "susquehanna_international_group",
+			"avoid": "Susquehanna International Group",
+			"ownership": [
+				{
+					"firmId": "susquehanna_international_group",
+					"stake": "majority",
+					"since": "1987"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Susquehanna International Group is the proprietary trading firm co-founded by billionaire Jeffrey Yass. A 2026 LittleSis/ACRE investigation found that corporate entities tied to SIG and Yass contributed $36 million to Pennsylvania's private-school tax-credit programs from 2017-2023 and received about $32.5 million of it back as state tax credits, part of a program that has diverted more than $2.5 billion from the state's public-education budget since inception. Yass has spent tens of millions on Pennsylvania legislative races to protect the program that returns money to his own entities.",
+			"blurb": "Proprietary trading and options market-making firm.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "SIG- and Yass-linked entities contributed $36 million to Pennsylvania's EITC/OSTC tax-credit programs from 2017-2023 and received roughly $32.5 million back as state tax credits, per a 2026 LittleSis/ACRE report; Yass has separately spent tens of millions on state legislative races to protect the program.",
+					"date": "2026",
+					"amountUsd": 32500000,
+					"amountKind": "fees",
+					"actor": "Pennsylvania Department of Community and Economic Development",
+					"sourceUrl": "https://www.levernews.com/how-a-tax-loophole-drained-schools-and-enriched-a-trump-megadonor/"
+				}
+			],
+			"addedAt": "2026-09-16"
 		}
 	]
 }
