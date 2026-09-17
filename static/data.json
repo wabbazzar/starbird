@@ -16749,6 +16749,102 @@
 				}
 			],
 			"addedAt": "2026-09-16"
+		},
+		{
+			"id": "icahn_enterprises",
+			"name": "Icahn Enterprises",
+			"aum": "$1.8B",
+			"aumVal": 1.8,
+			"summary": "Diversified holding company controlled by activist investor Carl Icahn, spanning energy, automotive, food packaging, real estate, and pharmaceuticals. In May 2023, short-seller Hindenburg Research published a report alleging Icahn Enterprises' asset valuations were inflated and its high dividend was unsustainable; shares fell roughly 45% in the weeks after. The SEC opened an investigation, and in August 2024 Carl Icahn and Icahn Enterprises LP agreed to pay a combined $2 million ($500,000 by Icahn personally, $1.5 million by the company) to settle charges that they failed to disclose Icahn had pledged up to 65% of his IEP units from 2018 to 2022 as collateral for as much as $5.1 billion in personal margin loans, without admitting or denying wrongdoing.",
+			"blurb": "Diversified holding company; invests in energy, automotive, real estate, and other sectors.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.cnbc.com/2024/08/19/sec-charges-carl-icahn-with-hiding-billions-worth-of-stock-pledges.html",
+			"cats": [],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "In August 2024, Carl Icahn and Icahn Enterprises LP agreed to pay a combined $2 million to settle SEC charges that they failed to disclose Icahn had pledged up to 65% of his IEP units from 2018 to 2022 as collateral for as much as $5.1 billion in personal margin loans, without admitting or denying wrongdoing.",
+					"date": "2024-08",
+					"amountUsd": 2000000,
+					"amountKind": "settlement",
+					"actor": "SEC",
+					"sourceUrl": "https://www.cnbc.com/2024/08/19/sec-charges-carl-icahn-with-hiding-billions-worth-of-stock-pledges.html"
+				}
+			],
+			"addedAt": "2026-09-17"
+		},
+		{
+			"id": "pwc",
+			"name": "PwC (PricewaterhouseCoopers)",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Global professional-services network (one of the Big Four) providing audit, tax, and advisory services across more than 150 countries, operating through a network of separately-constituted national member firms. ICIJ's 2023 'Cyprus Confidential' investigation, drawn from leaked internal records, found PwC's Cyprus office repeatedly helped sanctioned Russian oligarchs reposition assets around EU/US sanctions deadlines: on March 1, 2022, PwC Cyprus staff processed an urgent transfer of $100 million between shell companies for sanctioned Evraz executives Alexander Abramov and Alexander Frolov, and the same day exchanged 'URGENT' messages attempting to move a $1.4 billion TUI Group stake to the wife of sanctioned Severstal chairman Alexey Mordashov, a transfer Germany and TUI later declared invalid and Cyprus opened a criminal investigation into. PwC Cyprus also continued administering shell companies for Deripaska-linked entities and, in 2017, helped Oleg Deripaska secure Cypriot citizenship.",
+			"blurb": "Big Four professional-services network; audit, tax, and advisory for global clients.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 67,
+			"scope": "multi_company",
+			"role": "actor",
+			"source": "https://www.icij.org/investigations/cyprus-confidential/pwc-cyprus-russia-oligarchs-ukraine-sanctions/",
+			"cats": [],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "ICIJ's 2023 'Cyprus Confidential' investigation found PwC Cyprus staff processed an urgent $100 million transfer between shell companies for sanctioned Evraz executives on March 1, 2022, and the same day tried to move a $1.4 billion TUI Group stake to the wife of sanctioned Severstal chairman Alexey Mordashov, a transfer Germany and TUI later voided and Cyprus opened a criminal probe into.",
+					"date": "2022-03",
+					"amountUsd": 1400000000,
+					"amountKind": "deal",
+					"actor": "ICIJ",
+					"sourceUrl": "https://www.icij.org/investigations/cyprus-confidential/pwc-cyprus-russia-oligarchs-ukraine-sanctions/"
+				}
+			],
+			"addedAt": "2026-09-17"
+		},
+		{
+			"id": "memorydealers",
+			"name": "MemoryDealers.com",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Santa Clara, California computer and networking equipment reseller founded and owned by early bitcoin investor Roger Ver, known as 'Bitcoin Jesus.' The Justice Department charged Ver in 2024 with mail fraud, tax evasion, and filing false returns, alleging that when he renounced US citizenship on February 4, 2014 he under-reported a portion of the roughly 131,000 bitcoin he and his companies (MemoryDealers.com and Agilestar.com) held, evading exit-tax obligations. Ver was arrested in Spain and fought extradition; in October 2025 he entered a deferred prosecution agreement with the DOJ and paid nearly $50 million in back taxes, penalties, and interest, without serving prison time.",
+			"blurb": "Reseller of computer and networking equipment, founded by Roger Ver.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 58,
+			"scope": "narrow",
+			"role": "actor",
+			"source": "https://www.justice.gov/archives/opa/pr/early-bitcoin-investor-charged-tax-fraud",
+			"cats": [],
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "DOJ charged Roger Ver in 2024 with under-reporting a portion of the roughly 131,000 bitcoin held by him and his companies MemoryDealers.com and Agilestar.com when he renounced US citizenship on February 4, 2014; in October 2025 he entered a deferred prosecution agreement and paid nearly $50 million in back taxes, penalties, and interest without serving prison time.",
+					"date": "2025-10",
+					"amountUsd": 50000000,
+					"amountKind": "settlement",
+					"actor": "US Department of Justice",
+					"sourceUrl": "https://www.justice.gov/archives/opa/pr/early-bitcoin-investor-charged-tax-fraud"
+				}
+			],
+			"addedAt": "2026-09-17"
 		}
 	],
 	"brands": [
@@ -36187,6 +36283,99 @@
 				}
 			],
 			"addedAt": "2026-09-16"
+		},
+		{
+			"id": "icahn_enterprises",
+			"avoid": "Icahn Enterprises",
+			"ownership": [
+				{
+					"firmId": "icahn_enterprises",
+					"stake": "majority",
+					"since": "1987"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Icahn Enterprises is Carl Icahn's publicly-traded holding company. A May 2023 Hindenburg Research report alleged its reported asset values were inflated and its dividend unsustainable, and shares fell about 45% in the following weeks. The SEC's resulting investigation found Icahn had pledged up to 65% of his company units as collateral for up to $5.1 billion in personal loans between 2018 and 2022 without disclosing it to investors; in August 2024 Icahn and the company paid a combined $2 million to settle the charges without admitting wrongdoing.",
+			"blurb": "Publicly-traded diversified holding company controlled by Carl Icahn.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "The SEC found Icahn had pledged up to 65% of his company units as collateral for up to $5.1 billion in undisclosed personal loans between 2018 and 2022; in August 2024 he and the company paid a combined $2 million to settle the charges without admitting wrongdoing.",
+					"date": "2024-08",
+					"amountUsd": 2000000,
+					"amountKind": "settlement",
+					"actor": "SEC",
+					"sourceUrl": "https://www.cnbc.com/2024/08/19/sec-charges-carl-icahn-with-hiding-billions-worth-of-stock-pledges.html"
+				}
+			],
+			"addedAt": "2026-09-17"
+		},
+		{
+			"id": "pwc",
+			"avoid": "PwC (PricewaterhouseCoopers)",
+			"ownership": [
+				{
+					"firmId": "pwc",
+					"stake": "majority",
+					"since": "1998"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "ICIJ's 2023 'Cyprus Confidential' investigation, based on leaked internal records, found PwC's Cyprus office repeatedly helped sanctioned Russian oligarchs move assets around sanctions deadlines. On March 1, 2022, PwC Cyprus staff processed an urgent $100 million transfer between shell companies for sanctioned Evraz executives Alexander Abramov and Alexander Frolov, and the same day tried to shift a $1.4 billion TUI Group stake to the wife of sanctioned Severstal chairman Alexey Mordashov — a transfer Germany and TUI later declared invalid, prompting a Cypriot criminal investigation. PwC Cyprus also kept administering shell companies tied to Oleg Deripaska after his 2018 US sanctions.",
+			"blurb": "Big Four professional-services network offering audit, tax, and advisory services.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "On March 1, 2022, PwC Cyprus staff processed an urgent $100 million transfer between shell companies for sanctioned Evraz executives, and the same day tried to shift a $1.4 billion TUI Group stake to the wife of sanctioned Severstal chairman Alexey Mordashov, a transfer Germany and TUI later declared invalid.",
+					"date": "2022-03",
+					"amountUsd": 1400000000,
+					"amountKind": "deal",
+					"actor": "ICIJ",
+					"sourceUrl": "https://www.icij.org/investigations/cyprus-confidential/pwc-cyprus-russia-oligarchs-ukraine-sanctions/"
+				}
+			],
+			"addedAt": "2026-09-17"
+		},
+		{
+			"id": "memorydealers",
+			"avoid": "MemoryDealers.com",
+			"ownership": [
+				{
+					"firmId": "memorydealers",
+					"stake": "majority",
+					"since": "1999"
+				}
+			],
+			"cat": "tech",
+			"alts": [],
+			"why": "MemoryDealers.com is the networking-equipment reseller founded by Roger Ver, the early bitcoin investor known as 'Bitcoin Jesus.' The DOJ charged Ver in 2024 with tax evasion and fraud, alleging that when he renounced US citizenship on February 4, 2014 he under-reported a portion of the roughly 131,000 bitcoin held by him and his companies, evading exit-tax obligations. He was arrested in Spain and, in October 2025, entered a deferred prosecution agreement and paid nearly $50 million in back taxes, penalties, and interest without serving prison time.",
+			"blurb": "Reseller of computer and networking equipment.",
+			"harms": [
+				"elite_impunity_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_general",
+					"text": "DOJ charged Roger Ver in 2024 with under-reporting a portion of the roughly 131,000 bitcoin held by him and his companies when he renounced US citizenship on February 4, 2014; in October 2025 he entered a deferred prosecution agreement and paid nearly $50 million in back taxes, penalties, and interest without serving prison time.",
+					"date": "2025-10",
+					"amountUsd": 50000000,
+					"amountKind": "settlement",
+					"actor": "US Department of Justice",
+					"sourceUrl": "https://www.justice.gov/archives/opa/pr/early-bitcoin-investor-charged-tax-fraud"
+				}
+			],
+			"addedAt": "2026-09-17"
 		}
 	]
 }

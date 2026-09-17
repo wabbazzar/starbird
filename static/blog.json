@@ -2337,6 +2337,21 @@
         "sovcomflot",
         "susquehanna_international_group"
       ]
+    },
+    {
+      "id": "2026-09-17-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-17",
+      "title": "The gatekeepers of elite impunity: a lawyer, a lawyer's client, and an accountant",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run looked past the billionaires themselves to the professional infrastructure around them — an activist investor who hid billions in personal loans, a Big Four accounting network that helped sanctioned oligarchs beat the clock, and a bitcoin reseller whose founder tried to skip out on exit taxes.",
+      "body": "Carl Icahn's public holding company settled with the SEC for hiding up to $5.1 billion in personal margin loans backed by his own company stock — the kind of disclosure failure that only works when the person breaking the rule also controls the company that's supposed to catch it.\n\nA bigger structural story sits behind PwC's Cyprus office. Leaked records reviewed by ICIJ show PwC staff processing an urgent $100 million transfer for sanctioned Evraz executives and racing to move a $1.4 billion TUI stake to a sanctioned oligarch's wife — both on the same day EU sanctions dropped. This isn't a rogue vendor; it's a Big Four accounting network's local office functioning as a sanctions-evasion service desk.\n\nMemoryDealers.com is smaller fry, but the pattern rhymes: its founder, 'Bitcoin Jesus' Roger Ver, allegedly under-reported bitcoin holdings when he renounced US citizenship in 2014, then fought extradition from Spain for years before settling for $50 million with no prison time.\n\nThe throughline: impunity isn't just wealth, it's the professional services layer — accountants, banks, and corporate structures — that makes wealth answerable to no one until a leak or a whistleblower forces the issue.",
+      "entityIds": [
+        "icahn_enterprises",
+        "memorydealers",
+        "pwc"
+      ]
     }
   ]
 }
