@@ -2352,6 +2352,21 @@
         "memorydealers",
         "pwc"
       ]
+    },
+    {
+      "id": "2026-09-18-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-18",
+      "title": "Sanctions-day money moves: tracing three Putin-linked firms",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "New leaks from OCCRP and ICIJ show a pattern across Russian oligarch-linked companies: assets get shuffled to shell entities in the exact window sanctions land, not after.",
+      "body": "OCCRP's 2026 'Rotenberg Files' leak of over 50,000 internal documents traces how SGM Group, the Gazprom-pipeline conglomerate built by Putin ally Arkady Rotenberg, kept megaproject revenue flowing even after the EU sanctioned it in 2018 for building the Kerch Strait bridge into annexed Crimea. The pattern repeats with Gunvor Group: co-founder Gennady Timchenko, whom the U.S. Treasury said Putin had investments through, sold his stake to his business partner the day before his own 2014 sanctions designation.\n\nICIJ's 'Cyprus Confidential' leak documents the same move on a tighter clock. On February 28, 2022 -- the day the EU sanctioned Alfa Group co-founder Petr Aven -- the Cyprus firm Abacus moved $5 million out of an Aven-linked fund account and another $520,000 from Alfa Bank to his UK estate, transfers the UK's National Crime Agency alleges were built to survive the sanctions that landed hours later.\n\nNone of these three companies are consumer brands most people would recognize -- a construction conglomerate, a commodity trader, a private bank -- but they're the financial architecture that let three men absorb Western sanctions without missing a payment. Adding them fills a real gap: elite-impunity research so far had covered fugitives and portfolio companies, not the firms that move sanctioned money on the day it matters most.",
+      "entityIds": [
+        "alfa_group",
+        "gunvor_group",
+        "sgm_group"
+      ]
     }
   ]
 }
