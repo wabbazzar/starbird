@@ -2367,6 +2367,21 @@
         "gunvor_group",
         "sgm_group"
       ]
+    },
+    {
+      "id": "2026-09-23-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-23",
+      "title": "Sanctions loopholes: how Russian oligarchs kept their companies clean",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three cases show the same pattern — a personal sanction on a billionaire, and a scramble to keep the operating company that generates his wealth off the list.",
+      "body": "Alisher Usmanov was personally sanctioned in March 2022, but his holding structure, USM Holdings, kept its 51% majority split away from him on paper — long enough that OFAC didn't sanction the group itself, or its flagship Metalloinvest, until April 2023. In between, Usmanov's ownership of Kommersant, one of Russia's most-read business dailies, kept functioning as an editorial lever: in May 2019 the paper fired two senior journalists after a story on a possible cabinet resignation, and its entire politics desk quit in protest, with press-freedom groups tracing the pressure back to him.\n\nSuleiman Kerimov's family ran the same play with Polyus, Russia's largest gold miner. In April 2022, weeks after Kerimov was sanctioned, his son transferred his 46.35% stake to a Russian religious-charity fund — a move regulators read as an attempt to insulate the company. It didn't hold: OFAC sanctioned Polyus directly in May 2023, along with its sitting and former CEOs.\n\nViktor Vekselberg's Renova Group was sanctioned alongside him in 2018, but the enforcement gap showed up elsewhere — a Justice Department warrant later alleged he used shell companies dating to 2011 to buy and hide the $90 million superyacht Tango, seized by Spain in 2022 at U.S. request.\n\nAll three are sanctions-evasion stories, not just sanctions stories: designating a person didn't stop the machine his wealth ran through.",
+      "entityIds": [
+        "polyus_gold",
+        "renova_group",
+        "kommersant"
+      ]
     }
   ]
 }
