@@ -2382,6 +2382,23 @@
         "renova_group",
         "kommersant"
       ]
+    },
+    {
+      "id": "2026-09-24-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-24",
+      "title": "A decade of impunity: fire trucks and bowling alleys",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "A Los Angeles County antitrust suit and a Clayton Act class action expose how private-equity-built monopolies in fire apparatus and bowling centers raised prices unchecked for over a decade before facing enforcement.",
+      "body": "Los Angeles County filed a federal antitrust suit in February 2026 against American Industrial Partners, REV Group, Oshkosh Corporation, and Boise Mobile Equipment, alleging their consolidation of the fire-truck industry left three manufacturers controlling roughly 70% of the market. Pumper-truck prices climbed from $300,000-$500,000 in the mid-2010s to nearly $1 million by this year, and the county says Oshkosh's Pierce Manufacturing subsidiary compounded the squeeze by requiring fire departments to buy only Pierce-proprietary parts. The consolidation traces back to American Industrial Partners' 2010 roll-up of four struggling manufacturers into REV Group.\n\nA parallel pattern shows up in bowling. Bowlero, financed by a $450 million Cerberus Capital Management and Credit Suisse investment in 2012, rolled up independent alleys into a 360-location chain controlling about 35% of industry revenue. In Northern Virginia, its local market share reportedly jumped from 34% to 95% after acquisitions, and a class-action suit filed under the Clayton Act alleges prices tripled at one former competitor within a year of acquisition.\n\nWhat connects these cases isn't the product, it's the timeline. Both consolidations ran for a decade or more before anyone with standing to sue did. That gap is the throughline for this quest: elite impunity isn't always a scandal, sometimes it's just enforcement arriving a decade late, after the market is already captured.",
+      "entityIds": [
+        "american_industrial_partners",
+        "oshkosh_corporation",
+        "bowlero",
+        "pierce_manufacturing",
+        "rev_group"
+      ]
     }
   ]
 }
