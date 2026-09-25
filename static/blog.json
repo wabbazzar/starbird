@@ -2399,6 +2399,22 @@
         "pierce_manufacturing",
         "rev_group"
       ]
+    },
+    {
+      "id": "2026-09-25-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-25",
+      "title": "Three DOJ bribery settlements, one pattern: pay to move fast",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "A grain trader, a telecom, and an election-tech firm all paid officials to speed things up — customs clearance, favorable legislation, and a national election contract.",
+      "body": "This run pulled from recent DOJ Foreign Corrupt Practices Act resolutions rather than a single tracker page, since court filings and enforcement press releases turn out to be a reliable, well-documented source for elite-impunity cases. Three settlements stood out for how mundane the motive was: speed and market access, bought with cash.\n\nScoular, an employee-owned Omaha grain trader, paid customs brokers to bribe Mexican officials so agricultural shipments would clear the border faster — saving itself over $6.5 million in fees while, per DOJ, some of that money flowed to cartel-affiliated people at the border. It settled for $9.77 million in July 2026.\n\nComcel, the Guatemalan telecom subsidiary of Millicom (Tigo), ran a six-year scheme paying members of Guatemala's Congress in cash — reportedly delivered by helicopter — to pass favorable legislation. It paid $60 million and forfeited $58.2 million in November 2025.\n\nSmartmatic's case is different in kind: prosecutors say it bribed a sitting Philippine elections commissioner to win the contract for a national election's voting machines. Unlike the other two, this isn't a toll paid for market access — it's a toll paid on democratic infrastructure itself.",
+      "entityIds": [
+        "millicom_international_cellular",
+        "scoular_company",
+        "smartmatic",
+        "tigo_guatemala"
+      ]
     }
   ]
 }
