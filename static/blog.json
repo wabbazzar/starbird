@@ -2415,6 +2415,21 @@
         "smartmatic",
         "tigo_guatemala"
       ]
+    },
+    {
+      "id": "2026-09-26-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-26",
+      "title": "When the investigation closes but the money already moved",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three fresh cases share the same shape: a company under federal scrutiny for real money changing hands, and a prosecutor or agency that ultimately walked away.",
+      "body": "A defense contractor's rise shows how thin the line between 'won the contract' and 'bought the senator' can get. Martin Defense Group -- formerly Navatek -- landed Navy research money and defense earmarks while its CEO ran straw and shell-company donations through a front group and his own relatives into a sitting senator's campaign. He eventually pleaded guilty to that scheme and to a separate $12.8 million PPP fraud, but the FBI's broader investigation into who else benefited from the pay-to-play arrangement was closed this year without further charges.\n\nStoryBuilt tells a similar story from the other side of the ledger: a $2 billion real-estate pipeline that turned out to be new investors' money paying off old investors' claims, propped up by hard-money loans at rates north of 280%. The FBI investigated, the SEC got briefed, and then the Justice Department simply declined to prosecute -- leaving investors still owed millions with half the company's assets unsold.\n\nGalaxy Digital's case is quieter but shows the same mechanism at industry scale: dark-money nonprofits that don't disclose their donors funneling millions into super PACs while hiring lobbyists tied to the same crypto trade group Galaxy belongs to, all timed to a regulatory bill the industry wants passed. No one has to prove a crime when the money and the lobbying never touch on paper.\n\nWhat connects these three isn't the sector -- defense, real estate, crypto -- it's the pattern: the harm is documented in court filings, receiver reports, and campaign-finance records, but the accountability step just doesn't happen.",
+      "entityIds": [
+        "galaxy_digital",
+        "martin_defense_group",
+        "storybuilt"
+      ]
     }
   ]
 }
