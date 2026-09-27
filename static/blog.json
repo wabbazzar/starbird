@@ -2430,6 +2430,21 @@
         "martin_defense_group",
         "storybuilt"
       ]
+    },
+    {
+      "id": "2026-09-27-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-27",
+      "title": "The revolving door: government advisers who never divested",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three Trump-administration appointees kept a financial stake in the private firms their new government roles let them regulate — a pattern of access without accountability.",
+      "body": "David Sacks became the White House's AI and Crypto Czar in December 2024 while remaining tied to Craft Ventures, the venture firm he co-founded, which holds positions in more than 400 tech companies including crypto firms Lightning Labs and BitGo. Rather than requiring divestment, the administration issued him two ethics waivers in 2025 covering exactly the holdings his new job let him regulate — a move one government ethics expert called a \"sham ethics waiver\" designed to let him profit from public office. House Democrats opened a formal investigation in September 2025.\n\nHoward Lutnick took a different route to the same place. As Commerce Secretary he was required to sell his stake in Cantor Fitzgerald, the bank he ran for decades — so he sold it to trusts for his own children. One of those trusts then borrowed money from Tether, the stablecoin issuer Cantor holds a stake in and manages reserves for. Senator Elizabeth Warren is now asking whether the divestment ever actually severed the conflict.\n\nAntonio Gracias ran DOGE and Valor Equity Partners at the same time. Valor manages billions in commitments from public pension funds covering teachers and firefighters, and flight records show its jet made 23 trips to Washington during his federal tenure. He left DOGE in July 2025 without ever giving up the firm.\n\nDifferent instruments — a waiver, a family trust, dual employment — but the same structure: private wealth positioned next to public power, with the paperwork doing the work that recusal used to.",
+      "entityIds": [
+        "cantor_fitzgerald",
+        "craft_ventures",
+        "valor_equity_partners"
+      ]
     }
   ]
 }
