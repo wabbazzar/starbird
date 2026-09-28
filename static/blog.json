@@ -2445,6 +2445,21 @@
         "craft_ventures",
         "valor_equity_partners"
       ]
+    },
+    {
+      "id": "2026-09-28-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-28",
+      "title": "The AI industry's revolving door: three firms, one playbook",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Scale AI, Nvidia, and OpenAI each have a former or current executive shaping the federal policy that governs their own business — a pattern watchdogs are now tracking as a distinct category of Trump-era influence.",
+      "body": "This run followed a new source thread: the Revolving Door Project's \"AI Villains\" series, which tracks officials moving between AI companies and the federal offices that regulate or fund them. It led to three firms not previously in this database, each illustrating a different mechanism of the same dynamic.\n\nScale AI's former managing director, Michael Kratsios — previously chief of staff at Peter Thiel's investment firm — now directs the White House Office of Science and Technology Policy. Under the current administration, Scale AI has collected seven Pentagon contracts worth $12.3 million and, in May 2026, a $500 million enterprise agreement with the Defense Department's AI office. Nvidia CEO Jensen Huang sits on Trump's science and technology advisory council and personally lobbied for the reversal of China chip-export restrictions; in February 2026 Commerce granted Nvidia an export license structured so 25% of the resulting China revenue flows to the US government.\n\nOpenAI took a subtler route: Chief Global Affairs Officer Chris Lehane authored a policy document handed to the Trump White House in March 2025, then pursued what he calls \"reverse federalism\" — lobbying state legislatures directly (over $300,000 in California alone) to pass AI rules the industry can live with before Congress acts.\n\nNone of these arrangements are illegal. That's the point of the impunity framing: each company secured a favorable outcome through personal access rather than public rulemaking, and none has faced any cost for it.",
+      "entityIds": [
+        "nvidia",
+        "openai",
+        "scale_ai"
+      ]
     }
   ]
 }
