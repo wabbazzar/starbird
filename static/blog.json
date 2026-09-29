@@ -2460,6 +2460,21 @@
         "openai",
         "scale_ai"
       ]
+    },
+    {
+      "id": "2026-09-29-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-29",
+      "title": "Cyprus's oligarch-shielding industry and Russia's shadow fleet",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Two Cyprus Confidential threads and one shadow-fleet trail show how professional-services firms and Greek shipowners keep sanctioned Russian wealth and oil moving.",
+      "body": "MeritServus, a Cyprus corporate-services firm once affiliated with Deloitte, kept servicing sanctioned oligarch Konstantin Malofeev's shell company for three years after his 2014 sanctioning, and its managing director helped Roman Abramovich shield more than £760 million ahead of his own 2022 sanctioning. The UK finally sanctioned the firm in April 2024. Deloitte itself gets an update this run: ICIJ's Cyprus Confidential leak showed the firm's ties to MeritServus ran nearly two decades longer than it has publicly claimed.\n\nRussia's oil-export 'shadow fleet' runs on Western complicity as much as Kremlin money. Greek shipping heir Paris Kassidokostas-Latsis's company Marla Tankers sold two tankers in late 2024 for $84 million — vessels that were reflagged and hauling Russian crude out of the Baltic within a month. OCCRP and Follow the Money found Greek owners behind more than half of all identified shadow-fleet tanker sales, worth nearly $4 billion.\n\nOn the trading side, 2Rivers (rebranded from Coral Energy in 2024) has moved large volumes of Russian crude since the invasion while controlling a significant share of shadow-fleet vessels. UK sanctions caught up with it this year, and the firm has since begun dissolution after losing access to Western banking and insurance — a rare case where enforcement actually closed the loop.\n\nTogether these entries trace the same pattern: sanctions evasion depends on a supporting cast — accountants, shipowners, oil traders — who are rarely named as loudly as the oligarchs they serve.",
+      "entityIds": [
+        "2rivers_group",
+        "marla_tankers",
+        "meritservus"
+      ]
     }
   ]
 }

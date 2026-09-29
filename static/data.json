@@ -4558,29 +4558,36 @@
       "name": "Deloitte",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the Big Four global accounting and professional services firms. Deloitte's U.S. federal division holds multiple active contracts with ICE. The PERC contract (award ID 70CDCR24FR0000002, ~$46.2M) provides 24/7 real-time enforcement intelligence analytical support to 17 ICE field offices across 42 states via the Pacific Enforcement Response Center. Deloitte also holds an ~$50M Homeland Security Investigations (HSI) analytical and technical support task order, a ~$24M data modernization contract (awarded September 2023), and an ~$18M ICE Cyber Crimes Center (C3) outreach support contract. Tagged workers_ice_cooperation.",
+      "summary": "One of the Big Four global accounting and professional services firms. Deloitte's U.S. federal division holds multiple active contracts with ICE. The PERC contract (award ID 70CDCR24FR0000002, ~$46.2M) provides 24/7 real-time enforcement intelligence analytical support to 17 ICE field offices across 42 states via the Pacific Enforcement Response Center. Deloitte also holds an ~$50M Homeland Security Investigations (HSI) analytical and technical support task order, a ~$24M data modernization contract (awarded September 2023), and an ~$18M ICE Cyber Crimes Center (C3) outreach support contract. Tagged workers_ice_cooperation. ICIJ's Cyprus Confidential leak (November 2023) revealed Deloitte held close ties to MeritServus, a Cyprus corporate-services firm accused of shielding sanctioned Russian oligarchs' wealth: MeritServus's managing director sat on the board of a Deloitte subsidiary until 2023, nearly two decades after Deloitte said ties were severed in 2005, while MeritServus was separately sanctioned by the UK in April 2024 for its role servicing Roman Abramovich and Konstantin Malofeev.",
       "blurb": "Global professional services firm offering audit, tax, consulting, and financial advisory services.",
       "brands": [
         "Deloitte"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
-      "harmScore": 68,
+      "harmScore": 71,
       "source": "https://orangeslices.ai/contract-award-46m-pacific-enforcement-response-center-perc-analytical-support-services/",
       "cats": [
         "finance"
       ],
       "harms": [
-        "workers_ice_cooperation"
+        "workers_ice_cooperation",
+        "elite_impunity_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-13",
+      "addedAt": "2026-09-29",
       "evidence": [
         {
           "tag": "workers_ice_cooperation",
           "text": "Deloitte's U.S. federal division holds multiple active ICE contracts. The PERC contract (award ID 70CDCR24FR0000002, ~$46.2M) provides 24/7 real-time enforcement intelligence to 17 ICE field offices across 42 states — the Pacific Enforcement Response Center processes targeting intelligence for immigration arrests nationwide. Deloitte also holds an ~$50M task order for Homeland Security Investigations analytical support and an ~$24M data modernization contract awarded September 2023.",
           "amountUsd": 46200000,
           "amountKind": "deal"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "ICIJ's Cyprus Confidential leak showed Deloitte held close ties to MeritServus, a Cyprus firm accused of shielding sanctioned oligarchs' wealth — its managing director sat on a Deloitte subsidiary board until 2023, and MeritServus was UK-sanctioned in April 2024 for servicing Abramovich and Malofeev.",
+          "date": "2023-11-14",
+          "sourceUrl": "https://www.icij.org/investigations/cyprus-confidential/deloitte-held-close-ties-to-a-now-sanctioned-cyprus-firm-accused-of-shielding-oligarchs-wealth-records-reveal/"
         }
       ],
       "scope": "single_company",
@@ -17485,6 +17492,109 @@
         }
       ],
       "addedAt": "2026-09-28"
+    },
+    {
+      "id": "meritservus",
+      "name": "MeritServus",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "MeritServus is a Cyprus-based corporate services and trust-administration provider, formerly affiliated with Deloitte Cyprus, that helped sanctioned Russian oligarchs shield and move assets in violation of EU/US sanctions. Between 2014 and 2017, MeritServus continued servicing Konstantin Malofeev's shell company Tinello Investments (which MeritServus itself set up in 2005) after Malofeev was sanctioned for backing Russian-separatist rebels in eastern Ukraine, signing paperwork that moved tens of millions of dollars in loans between his Cyprus entities. Leaked Cyprus Confidential documents (ICIJ, published November 2023) also showed MeritServus's managing director crafted offshore structures that helped Roman Abramovich shield more than £760 million in assets ahead of his 2022 sanctioning. The UK government sanctioned MeritServus and its managing director in April 2024. Flagged under elite_impunity_general.",
+      "blurb": "Cyprus-based corporate services and trust-administration provider for offshore structures.",
+      "brands": [
+        "meritservus"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.occrp.org/en/investigation/cyprus-firm-helped-sanctioned-russian-oligarch-move-funds",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Between 2014 and 2017, MeritServus continued servicing Konstantin Malofeev's sanctioned shell company Tinello Investments, signing paperwork that moved tens of millions of dollars in loans between his Cyprus entities despite EU/US sanctions. Leaked Cyprus Confidential documents also showed its managing director crafted offshore structures that helped Roman Abramovich shield over £760 million ahead of his 2022 sanctioning; the UK sanctioned MeritServus and its managing director in April 2024.",
+          "date": "2024-04-12",
+          "actor": "UK Government (OFSI)",
+          "sourceUrl": "https://www.occrp.org/en/investigation/cyprus-firm-helped-sanctioned-russian-oligarch-move-funds"
+        }
+      ],
+      "addedAt": "2026-09-29"
+    },
+    {
+      "id": "marla_tankers",
+      "name": "Marla Tankers",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Marla Tankers is a shipping company owned by Greek shipping heir Paris Kassidokostas-Latsis. In late 2024, Marla Tankers sold two 250-meter oil tankers — bought for under $50 million six years earlier — to Hanoi-based Phuong Dong Petrol Transportation for a reported $84 million. Within a month, both vessels were reflagged from Malta to Panama and began loading Russian crude at the Baltic port of Ust-Luga, joining Russia's sanctions-evading 'shadow fleet.' An OCCRP/Follow the Money investigation (2026) found Greek shipowners sold 127 such tankers into the shadow fleet — over half of all identified sales, worth nearly $4 billion — with Marla Tankers named among the sellers. Flagged under elite_impunity_general.",
+      "blurb": "Greek-owned tanker shipping and chartering company.",
+      "brands": [
+        "marla_tankers"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 57,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.ftm.eu/articles/who-is-behind-the-russian-shadow-fleet",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In late 2024 Marla Tankers sold two tankers, bought for under $50M six years earlier, for a reported $84M to a Hanoi-based buyer; within a month both vessels were reflagged and began loading Russian crude at Ust-Luga, joining Russia's sanctions-evading shadow fleet.",
+          "date": "2024",
+          "amountUsd": 84000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.ftm.eu/articles/who-is-behind-the-russian-shadow-fleet"
+        }
+      ],
+      "addedAt": "2026-09-29"
+    },
+    {
+      "id": "2rivers_group",
+      "name": "2Rivers (formerly Coral Energy)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "2Rivers, a Dubai-based oil trading company rebranded from Coral Energy in mid-2024, controls a large share of the vessels in Russia's sanctions-evading 'shadow fleet' and has traded significant volumes of Russian crude and petroleum products since 2022. Originally founded in 2010 by Tahir Garayev, who held 100% ownership through a complex corporate structure until a late-2023 management buyout, the firm has since been run by shareholders Talat Safarov, Ahmed Kerimov, and Anar Madatli. The UK sanctioned 2Rivers/Coral Energy for its shadow-fleet role; the company subsequently began dissolution proceedings in 2026 after being cut off from Western banking and insurance markets. Flagged under elite_impunity_general.",
+      "blurb": "Dubai-based oil trading company handling Russian crude and petroleum exports.",
+      "brands": [
+        "2rivers_group"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://en.wikipedia.org/wiki/2Rivers",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "2Rivers (rebranded from Coral Energy in 2024) controls a large share of vessels in Russia's shadow fleet and has traded significant volumes of Russian crude since 2022; the UK sanctioned the firm for its shadow-fleet role, and it began dissolution proceedings in 2026 after losing access to Western banking and insurance.",
+          "date": "2026",
+          "actor": "UK Government (OFSI)",
+          "sourceUrl": "https://www.bairdmaritime.com/shipping/tankers/sanctioned-oil-trader-2rivers-starts-dissolution"
+        }
+      ],
+      "addedAt": "2026-09-29"
     }
   ],
   "brands": [
@@ -22333,19 +22443,26 @@
       ],
       "cat": "finance",
       "alts": [],
-      "why": "Deloitte's U.S. federal division holds multiple active ICE contracts. The PERC contract (award ID 70CDCR24FR0000002, ~$46.2M) provides 24/7 real-time enforcement intelligence to 17 ICE field offices across 42 states — the Pacific Enforcement Response Center processes targeting intelligence for immigration arrests nationwide. Deloitte also holds an ~$50M task order for Homeland Security Investigations analytical support and an ~$24M data modernization contract awarded September 2023. Source: OrangeSlices AI analysis of USASpending data; Documented investigative reporting, February 2026.",
+      "why": "Deloitte's U.S. federal division holds multiple active ICE contracts. The PERC contract (award ID 70CDCR24FR0000002, ~$46.2M) provides 24/7 real-time enforcement intelligence to 17 ICE field offices across 42 states — the Pacific Enforcement Response Center processes targeting intelligence for immigration arrests nationwide. Deloitte also holds an ~$50M task order for Homeland Security Investigations analytical support and an ~$24M data modernization contract awarded September 2023. Source: OrangeSlices AI analysis of USASpending data; Documented investigative reporting, February 2026. ICIJ's Cyprus Confidential leak (November 2023) revealed Deloitte held close ties to MeritServus, a Cyprus corporate-services firm accused of shielding sanctioned Russian oligarchs' wealth: MeritServus's managing director sat on the board of a Deloitte subsidiary until 2023, nearly two decades after Deloitte said ties were severed in 2005, while MeritServus was separately sanctioned by the UK in April 2024 for its role servicing Roman Abramovich and Konstantin Malofeev.",
       "blurb": "Global professional services firm providing audit, tax, consulting, and advisory services.",
       "harms": [
-        "workers_ice_cooperation"
+        "workers_ice_cooperation",
+        "elite_impunity_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-13",
+      "addedAt": "2026-09-29",
       "evidence": [
         {
           "tag": "workers_ice_cooperation",
           "text": "Deloitte's U.S. federal division holds multiple active ICE contracts. The PERC contract (award ID 70CDCR24FR0000002, ~$46.2M) provides 24/7 real-time enforcement intelligence to 17 ICE field offices across 42 states — the Pacific Enforcement Response Center processes targeting intelligence for immigration arrests nationwide. Deloitte also holds an ~$50M task order for Homeland Security Investigations analytical support and an ~$24M data modernization contract awarded September 2023.",
           "amountUsd": 46200000,
           "amountKind": "deal"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "ICIJ's Cyprus Confidential leak showed Deloitte held close ties to MeritServus, a Cyprus firm accused of shielding sanctioned oligarchs' wealth — its managing director sat on a Deloitte subsidiary board until 2023, and MeritServus was UK-sanctioned in April 2024 for servicing Abramovich and Malofeev.",
+          "date": "2023-11-14",
+          "sourceUrl": "https://www.icij.org/investigations/cyprus-confidential/deloitte-held-close-ties-to-a-now-sanctioned-cyprus-firm-accused-of-shielding-oligarchs-wealth-records-reveal/"
         }
       ]
     },
@@ -37642,6 +37759,94 @@
         }
       ],
       "addedAt": "2026-09-28"
+    },
+    {
+      "id": "meritservus",
+      "avoid": "MeritServus",
+      "ownership": [
+        {
+          "firmId": "meritservus",
+          "stake": "majority",
+          "since": "2005"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "MeritServus is a Cyprus corporate services firm, once affiliated with Deloitte Cyprus, that kept servicing sanctioned Russian oligarch Konstantin Malofeev's shell company Tinello Investments from 2014 to 2017 — three years after he was sanctioned for backing Russian-separatist rebels in Ukraine — signing paperwork that moved tens of millions of dollars in loans between his Cyprus entities. ICIJ's Cyprus Confidential leak (November 2023) showed its managing director also crafted offshore structures that helped Roman Abramovich shield over £760 million in assets ahead of his 2022 sanctioning. The UK sanctioned MeritServus and its managing director in April 2024.",
+      "blurb": "Cyprus-based corporate services and trust-administration provider for offshore structures.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "MeritServus serviced sanctioned oligarch Konstantin Malofeev's Cyprus shell company from 2014-2017 despite sanctions, and its managing director helped Roman Abramovich shield over £760 million in assets; the UK sanctioned the firm in April 2024.",
+          "date": "2024-04-12",
+          "actor": "UK Government (OFSI)",
+          "sourceUrl": "https://www.occrp.org/en/investigation/cyprus-firm-helped-sanctioned-russian-oligarch-move-funds"
+        }
+      ],
+      "addedAt": "2026-09-29"
+    },
+    {
+      "id": "marla_tankers",
+      "avoid": "Marla Tankers",
+      "ownership": [
+        {
+          "firmId": "marla_tankers",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Marla Tankers, owned by Greek shipping heir Paris Kassidokostas-Latsis, sold two oil tankers in late 2024 for a reported $84 million — vessels it had bought six years earlier for under $50 million. Within a month, both ships were reflagged from Malta to Panama and began loading Russian crude at the Baltic port of Ust-Luga, joining Russia's sanctions-evading 'shadow fleet.' An OCCRP/Follow the Money investigation found Greek shipowners sold 127 such tankers into the shadow fleet, worth nearly $4 billion combined, with Marla Tankers named among the sellers.",
+      "blurb": "Greek-owned tanker shipping and chartering company.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Marla Tankers sold two tankers for $84M in late 2024; within a month both were reflagged and began loading Russian crude at Ust-Luga as part of the shadow fleet.",
+          "date": "2024",
+          "amountUsd": 84000000,
+          "amountKind": "deal",
+          "sourceUrl": "https://www.ftm.eu/articles/who-is-behind-the-russian-shadow-fleet"
+        }
+      ],
+      "addedAt": "2026-09-29"
+    },
+    {
+      "id": "2rivers_group",
+      "avoid": "2Rivers",
+      "ownership": [
+        {
+          "firmId": "2rivers_group",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "2Rivers, rebranded from Coral Energy in mid-2024, is a Dubai-based oil trading company that controls a large share of the vessels in Russia's sanctions-evading 'shadow fleet' and has traded significant volumes of Russian crude since 2022. Founded in 2010 by Tahir Garayev, who held it through a complex corporate structure until a late-2023 management buyout, the firm was sanctioned by the UK for its shadow-fleet role and began dissolution proceedings in 2026 after losing access to Western banking and insurance markets.",
+      "blurb": "Dubai-based oil trading company handling Russian crude and petroleum exports.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "2Rivers controls a large share of shadow-fleet vessels and traded significant Russian crude volumes since 2022; the UK sanctioned it, and it began dissolution proceedings in 2026 after losing Western banking and insurance access.",
+          "date": "2026",
+          "actor": "UK Government (OFSI)",
+          "sourceUrl": "https://www.bairdmaritime.com/shipping/tankers/sanctioned-oil-trader-2rivers-starts-dissolution"
+        }
+      ],
+      "addedAt": "2026-09-29"
     }
   ]
 }
