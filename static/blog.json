@@ -2475,6 +2475,21 @@
         "marla_tankers",
         "meritservus"
       ]
+    },
+    {
+      "id": "2026-09-30-adjacent_source_discovery_elite_impunity",
+      "date": "2026-09-30",
+      "title": "Boeing, Binance, Ericsson: when a plea deal isn't the end",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three companies that broke or blew through federal corporate-crime agreements, then saw the consequences soften. Sourced from the Duke/UVA Corporate Prosecution Registry and press coverage.",
+      "body": "This run tried a new source: the Corporate Prosecution Registry, a Duke and University of Virginia database of federal corporate pleas and prosecution agreements. The throughline is what happens after the agreement is signed.\n\nBoeing concealed a flight-control flaw from the FAA before two 737 MAX crashes that killed 346 people. It signed a 2021 deferred prosecution agreement, was later found to have breached it, and in November 2025 a judge dismissed the case under a non-prosecution agreement, writing that the deal \"fails to secure the necessary accountability.\" Some victims' families said they would appeal.\n\nEricsson paid $520.6M under a 2019 DPA over bribery in five countries, then breached it by failing to disclose alleged payments to ISIS in Iraq. It pleaded guilty and paid $206M more in 2023.\n\nBinance pleaded guilty in 2023 to enabling money laundering as part of a $4.3B settlement. Its founder served four months and was pardoned on October 23, 2025, shortly after a $2B stake in the exchange was bought with a stablecoin from a Trump-affiliated venture.",
+      "entityIds": [
+        "binance",
+        "boeing",
+        "ericsson"
+      ]
     }
   ]
 }

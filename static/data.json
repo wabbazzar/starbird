@@ -17595,6 +17595,108 @@
         }
       ],
       "addedAt": "2026-09-29"
+    },
+    {
+      "id": "boeing",
+      "name": "Boeing",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Aerospace manufacturer. Boeing concealed a flight-control software (MCAS) flaw from the FAA before two 737 MAX crashes (2018, 2019) that killed 346 people, and in January 2021 entered a DPA with a $243.6M criminal penalty, $1.77B in airline compensation and $500M for victims' families. DOJ later found it breached the DPA; in November 2025 Judge Reed O'Connor granted DOJ's request to dismiss the criminal case under a non-prosecution agreement (about $1.1B in penalties and reforms) while writing that the deal \"fails to secure the necessary accountability to ensure the safety of the flying public\" and that Boeing would retain a consultant of its own choosing. Some victims' families said they would appeal to the Fifth Circuit.",
+      "blurb": "Aircraft, defense and space systems manufacturer.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 72,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.cnbc.com/2025/11/06/boeing-criminal-case-737-max-crashes-doj.html",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Boeing concealed an MCAS flaw from the FAA before two 737 MAX crashes; after breaching its 2021 DPA it avoided prosecution when a judge dismissed the case in November 2025 under a non-prosecution agreement he said \"fails to secure the necessary accountability.\"",
+          "date": "2025-11",
+          "amountUsd": 1100000000,
+          "amountKind": "settlement",
+          "actor": "U.S. District Court (N.D. Tex.)",
+          "sourceUrl": "https://www.cnbc.com/2025/11/06/boeing-criminal-case-737-max-crashes-doj.html"
+        }
+      ],
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Cryptocurrency exchange. In 2023 Binance pleaded guilty and agreed to a $4.3B settlement with DOJ over enabling money laundering and sanctions violations; founder Changpeng Zhao pleaded guilty and was sentenced in April 2024 to four months in jail. President Trump pardoned Zhao on October 23, 2025, erasing the conviction, shortly after a $2B Binance stake was purchased using a stablecoin from the Trump-affiliated World Liberty Financial. Senators Warren and Schiff introduced a resolution condemning the pardon.",
+      "blurb": "Cryptocurrency exchange for trading and custody of digital assets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.cnbc.com/2025/10/23/trump-pardons-binance-founder-cz-zhao.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Binance pleaded guilty in 2023 to enabling money laundering ($4.3B settlement); founder Changpeng Zhao served four months and was pardoned by President Trump on October 23, 2025, shortly after a $2B stake in Binance was bought with a Trump-affiliated World Liberty Financial stablecoin.",
+          "date": "2025-10",
+          "amountUsd": 4300000000,
+          "amountKind": "settlement",
+          "actor": "President of the United States",
+          "sourceUrl": "https://www.cnbc.com/2025/10/23/trump-pardons-binance-founder-cz-zhao.html"
+        }
+      ],
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "ericsson",
+      "name": "Ericsson",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Swedish telecom equipment maker. From 2000 to 2016 Ericsson used third-party agents and slush funds to bribe officials in Djibouti, China, Vietnam, Indonesia and Kuwait, paying a $520.6M penalty under a 2019 DOJ DPA. DOJ later found it breached the DPA by failing to disclose alleged payments to ISIS to move equipment in Iraq; in March 2023 Ericsson pleaded guilty, paid a further $206M and had its compliance monitorship extended.",
+      "blurb": "Telecommunications networking equipment and services provider.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.cnbc.com/2023/03/02/ericsson-to-pay-206-million-fine-plead-guilty-to-bribery-violations.html",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Ericsson paid $520.6M under a 2019 DPA for a 16-year bribery scheme, then breached it by failing to disclose alleged payments to ISIS in Iraq; it pleaded guilty and paid $206M more in March 2023.",
+          "date": "2023-03",
+          "amountUsd": 206000000,
+          "amountKind": "fine",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://www.cnbc.com/2023/03/02/ericsson-to-pay-206-million-fine-plead-guilty-to-bribery-violations.html"
+        }
+      ],
+      "addedAt": "2026-09-30"
     }
   ],
   "brands": [
@@ -37847,6 +37949,99 @@
         }
       ],
       "addedAt": "2026-09-29"
+    },
+    {
+      "id": "boeing",
+      "avoid": "Boeing",
+      "ownership": [
+        {
+          "firmId": "boeing",
+          "stake": "majority",
+          "since": "1916"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Aerospace manufacturer. Boeing concealed a flight-control software (MCAS) flaw from the FAA before two 737 MAX crashes (2018, 2019) that killed 346 people, and in January 2021 entered a DPA with a $243.6M criminal penalty, $1.77B in airline compensation and $500M for victims' families. DOJ later found it breached the DPA; in November 2025 Judge Reed O'Connor granted DOJ's request to dismiss the criminal case under a non-prosecution agreement (about $1.1B in penalties and reforms) while writing that the deal \"fails to secure the necessary accountability to ensure the safety of the flying public\" and that Boeing would retain a consultant of its own choosing. Some victims' families said they would appeal to the Fifth Circuit.",
+      "blurb": "Aircraft, defense and space systems manufacturer.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Boeing concealed an MCAS flaw from the FAA before two 737 MAX crashes; after breaching its 2021 DPA it avoided prosecution when a judge dismissed the case in November 2025 under a non-prosecution agreement he said \"fails to secure the necessary accountability.\"",
+          "date": "2025-11",
+          "amountUsd": 1100000000,
+          "amountKind": "settlement",
+          "actor": "U.S. District Court (N.D. Tex.)",
+          "sourceUrl": "https://www.cnbc.com/2025/11/06/boeing-criminal-case-737-max-crashes-doj.html"
+        }
+      ],
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "binance",
+      "avoid": "Binance",
+      "ownership": [
+        {
+          "firmId": "binance",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Cryptocurrency exchange. In 2023 Binance pleaded guilty and agreed to a $4.3B settlement with DOJ over enabling money laundering and sanctions violations; founder Changpeng Zhao pleaded guilty and was sentenced in April 2024 to four months in jail. President Trump pardoned Zhao on October 23, 2025, erasing the conviction, shortly after a $2B Binance stake was purchased using a stablecoin from the Trump-affiliated World Liberty Financial. Senators Warren and Schiff introduced a resolution condemning the pardon.",
+      "blurb": "Cryptocurrency exchange for trading and custody of digital assets.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Binance pleaded guilty in 2023 to enabling money laundering ($4.3B settlement); founder Changpeng Zhao served four months and was pardoned by President Trump on October 23, 2025, shortly after a $2B stake in Binance was bought with a Trump-affiliated World Liberty Financial stablecoin.",
+          "date": "2025-10",
+          "amountUsd": 4300000000,
+          "amountKind": "settlement",
+          "actor": "President of the United States",
+          "sourceUrl": "https://www.cnbc.com/2025/10/23/trump-pardons-binance-founder-cz-zhao.html"
+        }
+      ],
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "ericsson",
+      "avoid": "Ericsson",
+      "ownership": [
+        {
+          "firmId": "ericsson",
+          "stake": "majority",
+          "since": "1876"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Swedish telecom equipment maker. From 2000 to 2016 Ericsson used third-party agents and slush funds to bribe officials in Djibouti, China, Vietnam, Indonesia and Kuwait, paying a $520.6M penalty under a 2019 DOJ DPA. DOJ later found it breached the DPA by failing to disclose alleged payments to ISIS to move equipment in Iraq; in March 2023 Ericsson pleaded guilty, paid a further $206M and had its compliance monitorship extended.",
+      "blurb": "Telecommunications networking equipment and services provider.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Ericsson paid $520.6M under a 2019 DPA for a 16-year bribery scheme, then breached it by failing to disclose alleged payments to ISIS in Iraq; it pleaded guilty and paid $206M more in March 2023.",
+          "date": "2023-03",
+          "amountUsd": 206000000,
+          "amountKind": "fine",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://www.cnbc.com/2023/03/02/ericsson-to-pay-206-million-fine-plead-guilty-to-bribery-violations.html"
+        }
+      ],
+      "addedAt": "2026-09-30"
     }
   ]
 }
