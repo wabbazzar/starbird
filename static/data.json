@@ -17697,6 +17697,108 @@
         }
       ],
       "addedAt": "2026-09-30"
+    },
+    {
+      "id": "sk2_llc",
+      "name": "SK2, LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "SK2, LLC is a firm tied to Boston developer James Grossmann that has become a broker and contractor for ICE's detention buildout. It received a $6 million sole-source contract to help ICE acquire warehouses, and Grossmann was named as the government's agent when DHS bought two prisons from CoreCivic in July 2026 for about $1.5 billion. On September 22, 2026 SK2 Rudiarius LLC, a joint venture, won a $655 million contract to build at seven sites including Guantánamo Bay, Broadview (IL), Oakdale (LA) and Huntsville (TX), through September 2031. Grossmann's earlier construction company faced more than a dozen lawsuits, including bank suits over unpaid loans of $25 million and $10 million. Source: Project Saltbox, The Lever (2026).",
+      "blurb": "Boston-area real-estate and construction firm acting as agent and contractor on federal projects.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.projectsaltbox.com/p/firm-that-brokered-ices-warehouse",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "SK2 brokered ICE's warehouse purchases and the $1.5B CoreCivic prison buy, and its joint venture SK2 Rudiarius LLC won a $655M ICE construction contract on September 22, 2026.",
+          "date": "2026-09",
+          "amountUsd": 655000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.projectsaltbox.com/p/firm-that-brokered-ices-warehouse"
+        }
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "rudiarius_holdings",
+      "name": "Rudiarius Holdings Corp.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Rudiarius Holdings Corp. is a Wyoming entity registered in July 2025 with an office in Boston's Dorchester neighborhood, shared with Rise Construction Management; both are linked to developer James Grossmann. In September 2026 it won a $1.2 billion ICE contract for detention construction at El Centro, California, and a joint venture with SK2 won $655 million at seven other sites. ICE required winners to show $2 billion in insurance and barred small businesses, yet public records list Rudiarius as a small business with no explanation of how it cleared the bar. A related Rudiarius, LLC did environmental and infrastructure due diligence on warehouses bought for ICE in Roxbury and Social Circle, Georgia. Source: Project Saltbox, The Lever (2026).",
+      "blurb": "Wyoming-registered construction contractor based at a Boston office shared with Rise Construction.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.projectsaltbox.com/p/ice-signs-contracts-worth-up-to-73b",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In September 2026 Rudiarius Holdings won a $1.2B ICE contract for El Centro, California detention construction, though public records list it as a small business despite ICE's rule barring small businesses from these contracts.",
+          "date": "2026-09",
+          "amountUsd": 1200000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.projectsaltbox.com/p/ice-signs-contracts-worth-up-to-73b"
+        }
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "rapid_deployment_inc",
+      "name": "Rapid Deployment Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Rapid Deployment Inc. is a Mobile, Alabama S-corporation, led by CEO Bruce Wagner, that provides emergency-response and temporary-facility support to federal agencies and has received nearly $3.6 billion in federal contracts since fiscal 2020. In September 2026 ICE awarded it a roughly $2.2 billion contract for El Paso, Texas and a $1.5 billion contract for the Batavia, New York detention center, part of $7.3 billion in detention-expansion awards; ICE had not yet ordered work under the contracts at announcement. Source: Project Saltbox, GovTribe (2026).",
+      "blurb": "Mobile, Alabama emergency-response contractor providing disaster and humanitarian facility services to federal agencies.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.projectsaltbox.com/p/ice-signs-contracts-worth-up-to-73b",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In September 2026 ICE awarded Rapid Deployment Inc. about $2.2B for El Paso, Texas and $1.5B for Batavia, New York detention construction.",
+          "date": "2026-09",
+          "amountUsd": 3700000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.projectsaltbox.com/p/ice-signs-contracts-worth-up-to-73b"
+        }
+      ],
+      "addedAt": "2026-10-01"
     }
   ],
   "brands": [
@@ -38042,6 +38144,99 @@
         }
       ],
       "addedAt": "2026-09-30"
+    },
+    {
+      "id": "sk2_llc",
+      "avoid": "SK2, LLC",
+      "ownership": [
+        {
+          "firmId": "sk2_llc",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "SK2, LLC is a firm tied to Boston developer James Grossmann that has become a broker and contractor for ICE's detention buildout. It received a $6 million sole-source contract to help ICE acquire warehouses, and Grossmann was named as the government's agent when DHS bought two prisons from CoreCivic in July 2026 for about $1.5 billion. On September 22, 2026 SK2 Rudiarius LLC, a joint venture, won a $655 million contract to build at seven sites including Guantánamo Bay, Broadview (IL), Oakdale (LA) and Huntsville (TX), through September 2031. Grossmann's earlier construction company faced more than a dozen lawsuits, including bank suits over unpaid loans of $25 million and $10 million. Source: Project Saltbox, The Lever (2026).",
+      "blurb": "Boston-area real-estate and construction firm acting as agent and contractor on federal projects.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "SK2 brokered ICE's warehouse purchases and the $1.5B CoreCivic prison buy, and its joint venture SK2 Rudiarius LLC won a $655M ICE construction contract on September 22, 2026.",
+          "date": "2026-09",
+          "amountUsd": 655000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.projectsaltbox.com/p/firm-that-brokered-ices-warehouse"
+        }
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "rudiarius_holdings",
+      "avoid": "Rudiarius Holdings Corp.",
+      "ownership": [
+        {
+          "firmId": "rudiarius_holdings",
+          "stake": "majority",
+          "since": "2025"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Rudiarius Holdings Corp. is a Wyoming entity registered in July 2025 with an office in Boston's Dorchester neighborhood, shared with Rise Construction Management; both are linked to developer James Grossmann. In September 2026 it won a $1.2 billion ICE contract for detention construction at El Centro, California, and a joint venture with SK2 won $655 million at seven other sites. ICE required winners to show $2 billion in insurance and barred small businesses, yet public records list Rudiarius as a small business with no explanation of how it cleared the bar. A related Rudiarius, LLC did environmental and infrastructure due diligence on warehouses bought for ICE in Roxbury and Social Circle, Georgia. Source: Project Saltbox, The Lever (2026).",
+      "blurb": "Wyoming-registered construction contractor based at a Boston office shared with Rise Construction.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In September 2026 Rudiarius Holdings won a $1.2B ICE contract for El Centro, California detention construction, though public records list it as a small business despite ICE's rule barring small businesses from these contracts.",
+          "date": "2026-09",
+          "amountUsd": 1200000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.projectsaltbox.com/p/ice-signs-contracts-worth-up-to-73b"
+        }
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "rapid_deployment_inc",
+      "avoid": "Rapid Deployment Inc.",
+      "ownership": [
+        {
+          "firmId": "rapid_deployment_inc",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Rapid Deployment Inc. is a Mobile, Alabama S-corporation, led by CEO Bruce Wagner, that provides emergency-response and temporary-facility support to federal agencies and has received nearly $3.6 billion in federal contracts since fiscal 2020. In September 2026 ICE awarded it a roughly $2.2 billion contract for El Paso, Texas and a $1.5 billion contract for the Batavia, New York detention center, part of $7.3 billion in detention-expansion awards; ICE had not yet ordered work under the contracts at announcement. Source: Project Saltbox, GovTribe (2026).",
+      "blurb": "Mobile, Alabama emergency-response contractor providing disaster and humanitarian facility services to federal agencies.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "In September 2026 ICE awarded Rapid Deployment Inc. about $2.2B for El Paso, Texas and $1.5B for Batavia, New York detention construction.",
+          "date": "2026-09",
+          "amountUsd": 3700000000,
+          "amountKind": "deal",
+          "actor": "ICE",
+          "sourceUrl": "https://www.projectsaltbox.com/p/ice-signs-contracts-worth-up-to-73b"
+        }
+      ],
+      "addedAt": "2026-10-01"
     }
   ]
 }

@@ -2490,6 +2490,22 @@
         "boeing",
         "ericsson"
       ]
+    },
+    {
+      "id": "2026-10-01-ice_foia_library",
+      "date": "2026-10-01",
+      "title": "The brokers and builders behind ICE's warehouse detention push",
+      "strategy": "ice_foia_library",
+      "strategyLabel": "ICE FOIA reading room",
+      "value": "workers",
+      "summary": "Three new contractors surfaced from ICE's detention contracts: a deal broker and two builders that won billions in September 2026 awards. Two share a Boston developer whose earlier firm was sued over unpaid loans.",
+      "body": "Searching ICE's FOIA library for vendors turned up the Emergency Family Centers contract in San Antonio, but the library names few contractors. Following the contracts outward led to the companies now building the agency's detention expansion.\n\nSK2, LLC is tied to Boston developer James Grossmann. It received a $6 million sole-source contract to help ICE acquire warehouses, and Grossmann was named as the government's agent when DHS bought two prisons from CoreCivic. On September 22, 2026, an SK2 joint venture won a $655 million contract to build at seven sites, including Guantánamo Bay. Rudiarius Holdings, a Wyoming entity at the same Boston address as Grossmann's Rise Construction, won a separate $1.2 billion El Centro contract. Public records list it as a small business, though ICE barred small businesses from these awards.\n\nRapid Deployment Inc. of Mobile, Alabama, a disaster-response contractor, was awarded about $2.2 billion for El Paso and $1.5 billion for Batavia, New York. ICE had not yet ordered work under the contracts when they were announced. The common thread is how much money is going to firms with little or no detention track record.",
+      "entityIds": [
+        "rapid_deployment_inc",
+        "rudiarius_holdings",
+        "sk2_llc"
+      ],
+      "source": "https://www.ice.gov/foia/library"
     }
   ]
 }
