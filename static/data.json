@@ -17799,6 +17799,108 @@
         }
       ],
       "addedAt": "2026-10-01"
+    },
+    {
+      "id": "toronto_dominion_bank",
+      "name": "Toronto-Dominion Bank (TD Bank)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "On October 10, 2024, TD Bank N.A. and its parent pleaded guilty to conspiring to fail to maintain a Bank Secrecy Act compliant anti-money-laundering program, failing to file accurate currency transaction reports, and money laundering, and agreed to pay about $3.09 billion to DOJ and FinCEN, the first U.S. bank to plead guilty to money-laundering conspiracy. Over a six-year period ending October 2023 it failed to monitor about $18.3 trillion in customer activity, letting three money-laundering networks move more than $670 million through its accounts. The resolution imposed an asset cap and expansion limits. Source: CNBC, ASIS summary of DOJ release (October 2024).",
+      "blurb": "Canadian multinational bank operating TD Bank, America's Most Convenient Bank, across the eastern United States.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.cnbc.com/2024/10/10/td-bank-3-billion-fine-doj-settle-money-laundering-drug-cartel.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On October 10, 2024, TD Bank N.A. and its parent pleaded guilty to conspiring to fail to maintain a Bank Secrecy Act compliant anti-money-laundering program, failing to file accurate currency transaction reports, and money laundering, and agreed to pay about $3.09 billion to DOJ and FinCEN, the first U.S. bank to plead guilty to money-laundering conspiracy. Over a six-year period ending October 2023 it failed to monitor about $18.3 trillion in customer activity, letting three money-laundering networks move more than $670 million through its accounts. The resolution imposed an asset cap and expansion limits.",
+          "date": "2024-10-10",
+          "amountUsd": 3088000000,
+          "amountKind": "fine",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.cnbc.com/2024/10/10/td-bank-3-billion-fine-doj-settle-money-laundering-drug-cartel.html"
+        }
+      ],
+      "addedAt": "2026-10-02"
+    },
+    {
+      "id": "wells_fargo",
+      "name": "Wells Fargo & Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In February 2020 Wells Fargo agreed to pay $3 billion to resolve DOJ and SEC investigations into its Community Bank sales practices, under a three-year deferred prosecution agreement that let it avoid criminal prosecution; for 14 years sales goals led about 5,000 employees to open roughly two million unwanted accounts to earn bonuses. No executive was criminally charged in the corporate resolution; SEC civil charges against ex-CEO John Stumpf (a $2.5 million penalty, no admission) and Carrie Tolstedt followed in November 2020, and Tolstedt pleaded guilty in March 2023 to obstructing a bank examination. Source: CNBC, Washington Post, SEC (2020-2023).",
+      "blurb": "U.S. multinational bank offering consumer, commercial and mortgage banking and wealth management.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.cnbc.com/2020/02/21/wells-fargo-to-pay-3-billion-in-setting-criminal-and-civil-investigations-into-its-fraudulent-sales-practices.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In February 2020 Wells Fargo agreed to pay $3 billion to resolve DOJ and SEC investigations into its Community Bank sales practices, under a three-year deferred prosecution agreement that let it avoid criminal prosecution; for 14 years sales goals led about 5,000 employees to open roughly two million unwanted accounts to earn bonuses. No executive was criminally charged in the corporate resolution; SEC civil charges against ex-CEO John Stumpf (a $2.5 million penalty, no admission) and Carrie Tolstedt followed in November 2020, and Tolstedt pleaded guilty in March 2023 to obstructing a bank examination.",
+          "date": "2020-02-21",
+          "amountUsd": 3000000000,
+          "amountKind": "settlement",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.cnbc.com/2020/02/21/wells-fargo-to-pay-3-billion-in-setting-criminal-and-civil-investigations-into-its-fraudulent-sales-practices.html"
+        }
+      ],
+      "addedAt": "2026-10-02"
+    },
+    {
+      "id": "walmart_inc",
+      "name": "Walmart Inc.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In August 2026 Walmart agreed to pay $50 million to settle a 2020 DOJ lawsuit alleging its pharmacies filled invalid controlled-substance prescriptions from pill-mill prescribers; over roughly four years it shipped an estimated 37.5 million controlled-substance orders to its pharmacies yet reported only 204 suspicious orders to the DEA. The settlement carried no admission of wrongdoing and requires compliance measures including a reporting hotline. Source: CNBC, The Hill (August 2026).",
+      "blurb": "American multinational retailer operating discount stores, supercenters, pharmacies and e-commerce.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.cnbc.com/2026/08/28/walmart-settles-us-governments-opioid-lawsuit.html",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In August 2026 Walmart agreed to pay $50 million to settle a 2020 DOJ lawsuit alleging its pharmacies filled invalid controlled-substance prescriptions from pill-mill prescribers; over roughly four years it shipped an estimated 37.5 million controlled-substance orders to its pharmacies yet reported only 204 suspicious orders to the DEA. The settlement carried no admission of wrongdoing and requires compliance measures including a reporting hotline.",
+          "date": "2026-08-28",
+          "amountUsd": 50000000,
+          "amountKind": "settlement",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/walmart-settles-us-governments-opioid-lawsuit.html"
+        }
+      ],
+      "addedAt": "2026-10-02"
     }
   ],
   "brands": [
@@ -38237,6 +38339,99 @@
         }
       ],
       "addedAt": "2026-10-01"
+    },
+    {
+      "id": "td_bank",
+      "avoid": "TD Bank",
+      "ownership": [
+        {
+          "firmId": "toronto_dominion_bank",
+          "stake": "majority",
+          "since": "1955"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "On October 10, 2024, TD Bank N.A. and its parent pleaded guilty to conspiring to fail to maintain a Bank Secrecy Act compliant anti-money-laundering program, failing to file accurate currency transaction reports, and money laundering, and agreed to pay about $3.09 billion to DOJ and FinCEN, the first U.S. bank to plead guilty to money-laundering conspiracy. Over a six-year period ending October 2023 it failed to monitor about $18.3 trillion in customer activity, letting three money-laundering networks move more than $670 million through its accounts. The resolution imposed an asset cap and expansion limits. Source: CNBC, ASIS summary of DOJ release (October 2024).",
+      "blurb": "Retail and commercial bank with branches across the eastern United States.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On October 10, 2024, TD Bank N.A. and its parent pleaded guilty to conspiring to fail to maintain a Bank Secrecy Act compliant anti-money-laundering program, failing to file accurate currency transaction reports, and money laundering, and agreed to pay about $3.09 billion to DOJ and FinCEN, the first U.S. bank to plead guilty to money-laundering conspiracy. Over a six-year period ending October 2023 it failed to monitor about $18.3 trillion in customer activity, letting three money-laundering networks move more than $670 million through its accounts. The resolution imposed an asset cap and expansion limits.",
+          "date": "2024-10-10",
+          "amountUsd": 3088000000,
+          "amountKind": "fine",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.cnbc.com/2024/10/10/td-bank-3-billion-fine-doj-settle-money-laundering-drug-cartel.html"
+        }
+      ],
+      "addedAt": "2026-10-02"
+    },
+    {
+      "id": "wells_fargo",
+      "avoid": "Wells Fargo",
+      "ownership": [
+        {
+          "firmId": "wells_fargo",
+          "stake": "majority",
+          "since": "1852"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "In February 2020 Wells Fargo agreed to pay $3 billion to resolve DOJ and SEC investigations into its Community Bank sales practices, under a three-year deferred prosecution agreement that let it avoid criminal prosecution; for 14 years sales goals led about 5,000 employees to open roughly two million unwanted accounts to earn bonuses. No executive was criminally charged in the corporate resolution; SEC civil charges against ex-CEO John Stumpf (a $2.5 million penalty, no admission) and Carrie Tolstedt followed in November 2020, and Tolstedt pleaded guilty in March 2023 to obstructing a bank examination. Source: CNBC, Washington Post, SEC (2020-2023).",
+      "blurb": "Retail bank offering checking, credit cards, mortgages and wealth management in the United States.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In February 2020 Wells Fargo agreed to pay $3 billion to resolve DOJ and SEC investigations into its Community Bank sales practices, under a three-year deferred prosecution agreement that let it avoid criminal prosecution; for 14 years sales goals led about 5,000 employees to open roughly two million unwanted accounts to earn bonuses. No executive was criminally charged in the corporate resolution; SEC civil charges against ex-CEO John Stumpf (a $2.5 million penalty, no admission) and Carrie Tolstedt followed in November 2020, and Tolstedt pleaded guilty in March 2023 to obstructing a bank examination.",
+          "date": "2020-02-21",
+          "amountUsd": 3000000000,
+          "amountKind": "settlement",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.cnbc.com/2020/02/21/wells-fargo-to-pay-3-billion-in-setting-criminal-and-civil-investigations-into-its-fraudulent-sales-practices.html"
+        }
+      ],
+      "addedAt": "2026-10-02"
+    },
+    {
+      "id": "walmart",
+      "avoid": "Walmart",
+      "ownership": [
+        {
+          "firmId": "walmart_inc",
+          "stake": "majority",
+          "since": "1962"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "In August 2026 Walmart agreed to pay $50 million to settle a 2020 DOJ lawsuit alleging its pharmacies filled invalid controlled-substance prescriptions from pill-mill prescribers; over roughly four years it shipped an estimated 37.5 million controlled-substance orders to its pharmacies yet reported only 204 suspicious orders to the DEA. The settlement carried no admission of wrongdoing and requires compliance measures including a reporting hotline. Source: CNBC, The Hill (August 2026).",
+      "blurb": "Big-box discount retailer with supercenters, pharmacies and online shopping.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In August 2026 Walmart agreed to pay $50 million to settle a 2020 DOJ lawsuit alleging its pharmacies filled invalid controlled-substance prescriptions from pill-mill prescribers; over roughly four years it shipped an estimated 37.5 million controlled-substance orders to its pharmacies yet reported only 204 suspicious orders to the DEA. The settlement carried no admission of wrongdoing and requires compliance measures including a reporting hotline.",
+          "date": "2026-08-28",
+          "amountUsd": 50000000,
+          "amountKind": "settlement",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/walmart-settles-us-governments-opioid-lawsuit.html"
+        }
+      ],
+      "addedAt": "2026-10-02"
     }
   ]
 }

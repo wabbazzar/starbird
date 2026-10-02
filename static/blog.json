@@ -2506,6 +2506,23 @@
         "sk2_llc"
       ],
       "source": "https://www.ice.gov/foia/library"
+    },
+    {
+      "id": "2026-10-02-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-02",
+      "title": "Fined billions, rarely charged: TD, Wells Fargo, Walmart",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Good Jobs First's Violation Tracker, a new source for this beat, led to three household names that paid large penalties while the institutions largely avoided criminal consequences.",
+      "body": "Violation Tracker, built by Good Jobs First from official penalty records, documents how often the Justice Department resolves corporate cases with leniency deals rather than convictions. Three consumer-facing names it points toward are now in the database.\n\nTD Bank pleaded guilty in October 2024 to a money-laundering conspiracy and paid about $3.09 billion, after failing to monitor roughly $18.3 trillion in activity over six years; three laundering networks moved more than $670 million through its accounts.\n\nWells Fargo paid $3 billion in February 2020 under a deferred prosecution agreement over about two million unwanted accounts opened by roughly 5,000 employees. The corporate deal charged no executives; SEC civil charges followed, and one former executive later pleaded guilty to obstructing a bank examination.\n\nWalmart agreed in August 2026 to pay $50 million over opioid prescriptions, reporting only 204 suspicious orders against an estimated 37.5 million shipped, without admitting wrongdoing.",
+      "entityIds": [
+        "toronto_dominion_bank",
+        "walmart_inc",
+        "wells_fargo",
+        "td_bank",
+        "walmart"
+      ]
     }
   ]
 }
