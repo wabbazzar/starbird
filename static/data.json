@@ -17901,6 +17901,106 @@
         }
       ],
       "addedAt": "2026-10-02"
+    },
+    {
+      "id": "hdr_global_trading",
+      "name": "HDR Global Trading (BitMEX)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "HDR Global Trading, owner of the BitMEX crypto derivatives exchange, was sentenced to a $100 million fine for willfully failing to maintain an anti-money-laundering program under the Bank Secrecy Act; founders Arthur Hayes and Benjamin Delo and executives Gregory Dwyer and Samuel Reed had pleaded guilty. On March 27, 2025, President Trump pardoned the company and the four executives, with the fine due for payment. Source: Cointelegraph, Rahman Ravelli; Public Citizen Corporate Enforcement Tracker.",
+      "blurb": "Crypto derivatives exchange offering leveraged trading of bitcoin and other digital assets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://cointelegraph.com/news/donald-trump-pardon-bitmex-founders",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "HDR Global Trading, owner of the BitMEX crypto derivatives exchange, was sentenced to a $100 million fine for willfully failing to maintain an anti-money-laundering program under the Bank Secrecy Act; founders Arthur Hayes and Benjamin Delo and executives Gregory Dwyer and Samuel Reed had pleaded guilty. On March 27, 2025, President Trump pardoned the company and the four executives, with the fine due for payment.",
+          "date": "2025-03-27",
+          "actor": "DOJ",
+          "sourceUrl": "https://cointelegraph.com/news/donald-trump-pardon-bitmex-founders",
+          "amountUsd": 100000000,
+          "amountKind": "fine"
+        }
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
+      "id": "payward_kraken",
+      "name": "Payward, Inc. (Kraken)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The SEC sued Payward (Kraken) in November 2023 for operating as an unregistered securities exchange, broker, dealer and clearing agency, and in August 2024 a federal judge found the SEC had plausibly alleged some transactions were securities. On March 27, 2025 the SEC dismissed the case with prejudice, with no admission of wrongdoing, no penalties and no operational changes, citing its crypto regulatory reset rather than the merits. Source: SEC litigation release LR-26278; American Banker; Public Citizen Corporate Enforcement Tracker.",
+      "blurb": "Cryptocurrency exchange for buying, selling, staking and trading digital assets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 45,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The SEC sued Payward (Kraken) in November 2023 for operating as an unregistered securities exchange, broker, dealer and clearing agency, and in August 2024 a federal judge found the SEC had plausibly alleged some transactions were securities. On March 27, 2025 the SEC dismissed the case with prejudice, with no admission of wrongdoing, no penalties and no operational changes, citing its crypto regulatory reset rather than the merits.",
+          "date": "2025-03-27",
+          "actor": "SEC",
+          "sourceUrl": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278"
+        }
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
+      "id": "gemini_trust_company",
+      "name": "Gemini Trust Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "The SEC charged Gemini over its Gemini Earn program, which let customers lend crypto to Genesis Global Capital until Genesis froze withdrawals in November 2022. The SEC dismissed the case with prejudice on January 23, 2026, citing the in-kind return of Earn investors' assets through the Genesis bankruptcy, Gemini's contribution of up to $40 million, and a New York DFS settlement; the dismissal reflects no legal conclusion on whether Earn was a securities offering. Source: Baker McKenzie Blockchain; Cointelegraph; Public Citizen Corporate Enforcement Tracker.",
+      "blurb": "Cryptocurrency exchange and custodian founded by Cameron and Tyler Winklevoss.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 40,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://blockchain.bakermckenzie.com/2026/01/27/the-rise-and-fall-of-the-secs-case-against-the-winklevosss-gemini/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The SEC charged Gemini over its Gemini Earn program, which let customers lend crypto to Genesis Global Capital until Genesis froze withdrawals in November 2022. The SEC dismissed the case with prejudice on January 23, 2026, citing the in-kind return of Earn investors' assets through the Genesis bankruptcy, Gemini's contribution of up to $40 million, and a New York DFS settlement; the dismissal reflects no legal conclusion on whether Earn was a securities offering.",
+          "date": "2026-01-23",
+          "actor": "SEC",
+          "sourceUrl": "https://blockchain.bakermckenzie.com/2026/01/27/the-rise-and-fall-of-the-secs-case-against-the-winklevosss-gemini/",
+          "amountUsd": 40000000,
+          "amountKind": "settlement"
+        }
+      ],
+      "addedAt": "2026-10-03"
     }
   ],
   "brands": [
@@ -38432,6 +38532,97 @@
         }
       ],
       "addedAt": "2026-10-02"
+    },
+    {
+      "id": "bitmex",
+      "avoid": "BitMEX",
+      "ownership": [
+        {
+          "firmId": "hdr_global_trading",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "HDR Global Trading, owner of the BitMEX crypto derivatives exchange, was sentenced to a $100 million fine for willfully failing to maintain an anti-money-laundering program under the Bank Secrecy Act; founders Arthur Hayes and Benjamin Delo and executives Gregory Dwyer and Samuel Reed had pleaded guilty. On March 27, 2025, President Trump pardoned the company and the four executives, with the fine due for payment. Source: Cointelegraph, Rahman Ravelli; Public Citizen Corporate Enforcement Tracker.",
+      "blurb": "Crypto derivatives exchange offering leveraged futures and swaps trading.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "HDR Global Trading, owner of the BitMEX crypto derivatives exchange, was sentenced to a $100 million fine for willfully failing to maintain an anti-money-laundering program under the Bank Secrecy Act; founders Arthur Hayes and Benjamin Delo and executives Gregory Dwyer and Samuel Reed had pleaded guilty. On March 27, 2025, President Trump pardoned the company and the four executives, with the fine due for payment.",
+          "date": "2025-03-27",
+          "actor": "DOJ",
+          "sourceUrl": "https://cointelegraph.com/news/donald-trump-pardon-bitmex-founders",
+          "amountUsd": 100000000,
+          "amountKind": "fine"
+        }
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
+      "id": "kraken",
+      "avoid": "Kraken",
+      "ownership": [
+        {
+          "firmId": "payward_kraken",
+          "stake": "majority",
+          "since": "2011"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "The SEC sued Payward (Kraken) in November 2023 for operating as an unregistered securities exchange, broker, dealer and clearing agency, and in August 2024 a federal judge found the SEC had plausibly alleged some transactions were securities. On March 27, 2025 the SEC dismissed the case with prejudice, with no admission of wrongdoing, no penalties and no operational changes, citing its crypto regulatory reset rather than the merits. Source: SEC litigation release LR-26278; American Banker; Public Citizen Corporate Enforcement Tracker.",
+      "blurb": "Crypto exchange and trading app for retail and institutional customers.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The SEC sued Payward (Kraken) in November 2023 for operating as an unregistered securities exchange, broker, dealer and clearing agency, and in August 2024 a federal judge found the SEC had plausibly alleged some transactions were securities. On March 27, 2025 the SEC dismissed the case with prejudice, with no admission of wrongdoing, no penalties and no operational changes, citing its crypto regulatory reset rather than the merits.",
+          "date": "2025-03-27",
+          "actor": "SEC",
+          "sourceUrl": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278"
+        }
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
+      "id": "gemini_exchange",
+      "avoid": "Gemini",
+      "ownership": [
+        {
+          "firmId": "gemini_trust_company",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "The SEC charged Gemini over its Gemini Earn program, which let customers lend crypto to Genesis Global Capital until Genesis froze withdrawals in November 2022. The SEC dismissed the case with prejudice on January 23, 2026, citing the in-kind return of Earn investors' assets through the Genesis bankruptcy, Gemini's contribution of up to $40 million, and a New York DFS settlement; the dismissal reflects no legal conclusion on whether Earn was a securities offering. Source: Baker McKenzie Blockchain; Cointelegraph; Public Citizen Corporate Enforcement Tracker.",
+      "blurb": "Regulated crypto exchange and wallet for buying, selling and storing digital assets.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The SEC charged Gemini over its Gemini Earn program, which let customers lend crypto to Genesis Global Capital until Genesis froze withdrawals in November 2022. The SEC dismissed the case with prejudice on January 23, 2026, citing the in-kind return of Earn investors' assets through the Genesis bankruptcy, Gemini's contribution of up to $40 million, and a New York DFS settlement; the dismissal reflects no legal conclusion on whether Earn was a securities offering.",
+          "date": "2026-01-23",
+          "actor": "SEC",
+          "sourceUrl": "https://blockchain.bakermckenzie.com/2026/01/27/the-rise-and-fall-of-the-secs-case-against-the-winklevosss-gemini/",
+          "amountUsd": 40000000,
+          "amountKind": "settlement"
+        }
+      ],
+      "addedAt": "2026-10-03"
     }
   ]
 }

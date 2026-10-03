@@ -2523,6 +2523,24 @@
         "td_bank",
         "walmart"
       ]
+    },
+    {
+      "id": "2026-10-03-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-03",
+      "title": "When the case just goes away: BitMEX, Kraken, Gemini",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "A new source, Public Citizen's Corporate Enforcement Tracker, surfaced three crypto firms whose federal cases ended by pardon or dismissal rather than judgment. Worth knowing if you're choosing where to hold money.",
+      "body": "This run tried a source we hadn't used before: Public Citizen's Corporate Enforcement Tracker, which logs federal cases against companies that were dropped, halted or softened in the current administration. Three crypto exchanges from it are now in the database.\n\nBitMEX's parent, HDR Global Trading, was sentenced to a $100 million fine for failing to maintain an anti-money-laundering program. Its founders had pleaded guilty. On March 27, 2025 the president pardoned the company and four executives as the fine came due.\n\nThe same day, the SEC dismissed its case against Kraken (Payward) with prejudice. The agency had alleged Kraken ran an unregistered exchange, broker, dealer and clearing agency. The dismissal carried no admission, no penalty and no operational changes, and the SEC said it rested on a policy reset, not the merits.\n\nGemini's case ended January 23, 2026, also with prejudice, after Earn investors' assets were returned through the Genesis bankruptcy and Gemini contributed up to $40 million. We score Gemini lowest of the three because customers were made whole. All three are scored for the outcome, a case closed without a judgment, not for proven guilt on the underlying allegations.",
+      "entityIds": [
+        "gemini_trust_company",
+        "hdr_global_trading",
+        "payward_kraken",
+        "bitmex",
+        "gemini_exchange",
+        "kraken"
+      ]
     }
   ]
 }
