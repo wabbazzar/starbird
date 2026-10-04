@@ -18001,6 +18001,108 @@
         }
       ],
       "addedAt": "2026-10-03"
+    },
+    {
+      "id": "herbalife_nutrition",
+      "name": "Herbalife Nutrition Ltd.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Herbalife Nutrition sells weight-management and nutrition products through a network of independent distributors. In August 2020 it entered a three-year DOJ deferred prosecution agreement and an SEC order over approximately 10 years of corrupt payments to Chinese government officials by its China subsidiary, paying about $123 million (a $55 million-plus criminal fine plus more than $67 million in SEC disgorgement and interest). The criminal charge was deferred rather than prosecuted, so no conviction followed. Public Citizen lists Herbalife among 20 large corporations holding DOJ leniency agreements. Sources: SEC Form 8-K (2020), Public Citizen 'The Usual Corporate Suspects'.",
+      "blurb": "Multi-level-marketing seller of nutrition shakes, supplements and weight-management products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.sec.gov/Archives/edgar/data/1180262/000119312520234081/d92215d8k.htm",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In August 2020 Herbalife entered a three-year DOJ deferred prosecution agreement and SEC order over a decade of corrupt payments to Chinese officials, paying about $123 million without a conviction.",
+          "date": "2020-08",
+          "amountUsd": 123000000,
+          "amountKind": "settlement",
+          "actor": "DOJ / SEC",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1180262/000119312520234081/d92215d8k.htm"
+        }
+      ],
+      "addedAt": "2026-10-04"
+    },
+    {
+      "id": "firstenergy_corp",
+      "name": "FirstEnergy Corp.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "FirstEnergy is an Ohio-based electric utility holding company. In July 2021 it was federally charged with conspiring to commit honest-services wire fraud and signed a three-year DOJ deferred prosecution agreement with a $230 million penalty, admitting it paid public officials in exchange for official action tied to Ohio House Bill 6, a roughly $1 billion nuclear-plant bailout. The scheme ran through the 501(c)(4) Generation Now, funded by about $61 million from FirstEnergy and its subsidiary, and benefited then-House Speaker Larry Householder. The charge was deferred, not prosecuted, and would be dismissed if the company complied. Sources: Ideastream Public Media (2021), Cleveland19 (2021).",
+      "blurb": "Ohio-based electric utility holding company serving customers across the Midwest and Mid-Atlantic.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.ideastream.org/news/2021-07-22/firstenergy-charged-in-house-bill-6-scandal-agrees-to-230-million-penalty",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In July 2021 FirstEnergy admitted conspiring to bribe Ohio officials over HB6 and signed a three-year DOJ deferred prosecution agreement with a $230 million penalty rather than face prosecution.",
+          "date": "2021-07",
+          "amountUsd": 230000000,
+          "amountKind": "fine",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.ideastream.org/news/2021-07-22/firstenergy-charged-in-house-bill-6-scandal-agrees-to-230-million-penalty"
+        }
+      ],
+      "addedAt": "2026-10-04"
+    },
+    {
+      "id": "airbus_se",
+      "name": "Airbus SE",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Airbus SE is a European aerospace and defense group. On January 31, 2020 it resolved bribery investigations with French, UK and US authorities, agreeing to pay a total of €3.598 billion (about $3.99 billion), including about $582 million to the US DOJ and $10 million to the State Department. In the US deferred prosecution agreement Airbus admitted using third-party agents and bank accounts in Korea and Hong Kong to pay bribes to Chinese government officials, and the resolution also covered misleading ITAR filings. US prosecution was suspended for three years. Sources: Shearman & Sterling (2020), Ropes & Gray (2020).",
+      "blurb": "European aerospace and defense company making commercial aircraft, helicopters and satellites.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.ropesgray.com/en/insights/alerts/2020/01/four-years-and-almost-4-billion-airbus-corruption-investigations-end-with-sky-high-fine",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On January 31, 2020 Airbus agreed to pay €3.598 billion (about $3.99B) to French, UK and US authorities, including a US deferred prosecution agreement admitting bribes to Chinese officials, with prosecution suspended.",
+          "date": "2020-01",
+          "amountUsd": 3986888000,
+          "amountKind": "settlement",
+          "actor": "DOJ / UK SFO / PNF",
+          "sourceUrl": "https://www.ropesgray.com/en/insights/alerts/2020/01/four-years-and-almost-4-billion-airbus-corruption-investigations-end-with-sky-high-fine"
+        }
+      ],
+      "addedAt": "2026-10-04"
     }
   ],
   "brands": [
@@ -38623,6 +38725,99 @@
         }
       ],
       "addedAt": "2026-10-03"
+    },
+    {
+      "id": "herbalife_nutrition",
+      "avoid": "Herbalife",
+      "ownership": [
+        {
+          "firmId": "herbalife_nutrition",
+          "stake": "majority",
+          "since": "1980"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Herbalife Nutrition sells weight-management and nutrition products through a network of independent distributors. In August 2020 it entered a three-year DOJ deferred prosecution agreement and an SEC order over approximately 10 years of corrupt payments to Chinese government officials by its China subsidiary, paying about $123 million (a $55 million-plus criminal fine plus more than $67 million in SEC disgorgement and interest). The criminal charge was deferred rather than prosecuted, so no conviction followed. Public Citizen lists Herbalife among 20 large corporations holding DOJ leniency agreements. Sources: SEC Form 8-K (2020), Public Citizen 'The Usual Corporate Suspects'.",
+      "blurb": "Multi-level-marketing seller of nutrition shakes, supplements and weight-management products.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In August 2020 Herbalife entered a three-year DOJ deferred prosecution agreement and SEC order over a decade of corrupt payments to Chinese officials, paying about $123 million without a conviction.",
+          "date": "2020-08",
+          "amountUsd": 123000000,
+          "amountKind": "settlement",
+          "actor": "DOJ / SEC",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1180262/000119312520234081/d92215d8k.htm"
+        }
+      ],
+      "addedAt": "2026-10-04"
+    },
+    {
+      "id": "firstenergy_corp",
+      "avoid": "FirstEnergy",
+      "ownership": [
+        {
+          "firmId": "firstenergy_corp",
+          "stake": "majority",
+          "since": "1997"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "FirstEnergy is an Ohio-based electric utility holding company. In July 2021 it was federally charged with conspiring to commit honest-services wire fraud and signed a three-year DOJ deferred prosecution agreement with a $230 million penalty, admitting it paid public officials in exchange for official action tied to Ohio House Bill 6, a roughly $1 billion nuclear-plant bailout. The scheme ran through the 501(c)(4) Generation Now, funded by about $61 million from FirstEnergy and its subsidiary, and benefited then-House Speaker Larry Householder. The charge was deferred, not prosecuted, and would be dismissed if the company complied. Sources: Ideastream Public Media (2021), Cleveland19 (2021).",
+      "blurb": "Ohio-based electric utility holding company serving customers across the Midwest and Mid-Atlantic.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In July 2021 FirstEnergy admitted conspiring to bribe Ohio officials over HB6 and signed a three-year DOJ deferred prosecution agreement with a $230 million penalty rather than face prosecution.",
+          "date": "2021-07",
+          "amountUsd": 230000000,
+          "amountKind": "fine",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.ideastream.org/news/2021-07-22/firstenergy-charged-in-house-bill-6-scandal-agrees-to-230-million-penalty"
+        }
+      ],
+      "addedAt": "2026-10-04"
+    },
+    {
+      "id": "airbus_se",
+      "avoid": "Airbus",
+      "ownership": [
+        {
+          "firmId": "airbus_se",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Airbus SE is a European aerospace and defense group. On January 31, 2020 it resolved bribery investigations with French, UK and US authorities, agreeing to pay a total of €3.598 billion (about $3.99 billion), including about $582 million to the US DOJ and $10 million to the State Department. In the US deferred prosecution agreement Airbus admitted using third-party agents and bank accounts in Korea and Hong Kong to pay bribes to Chinese government officials, and the resolution also covered misleading ITAR filings. US prosecution was suspended for three years. Sources: Shearman & Sterling (2020), Ropes & Gray (2020).",
+      "blurb": "European aerospace and defense company making commercial aircraft, helicopters and satellites.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "On January 31, 2020 Airbus agreed to pay €3.598 billion (about $3.99B) to French, UK and US authorities, including a US deferred prosecution agreement admitting bribes to Chinese officials, with prosecution suspended.",
+          "date": "2020-01",
+          "amountUsd": 3986888000,
+          "amountKind": "settlement",
+          "actor": "DOJ / UK SFO / PNF",
+          "sourceUrl": "https://www.ropesgray.com/en/insights/alerts/2020/01/four-years-and-almost-4-billion-airbus-corruption-investigations-end-with-sky-high-fine"
+        }
+      ],
+      "addedAt": "2026-10-04"
     }
   ]
 }

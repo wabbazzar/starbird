@@ -2541,6 +2541,21 @@
         "gemini_exchange",
         "kraken"
       ]
+    },
+    {
+      "id": "2026-10-04-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-04",
+      "title": "Three companies that paid to avoid a criminal conviction",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Herbalife, FirstEnergy and Airbus each admitted criminal conduct and signed DOJ deferred prosecution agreements instead of facing conviction. This run adds them from Public Citizen's list of 20 corporations holding DOJ leniency deals.",
+      "body": "This run's new source was Public Citizen's report on 20 large corporations operating under DOJ deferred or non-prosecution agreements, a different lens on impunity than ownership networks: the company admits the conduct, pays, and the criminal charge is held in abeyance.\n\nHerbalife's China subsidiary made corrupt payments to Chinese officials over about ten years; in August 2020 the company paid roughly $123 million to DOJ and the SEC under a three-year deferred prosecution agreement. Airbus resolved bribery investigations with French, UK and US authorities in January 2020 for about €3.6 billion in total, including about $582 million to the DOJ, admitting bribes to Chinese officials via third-party agents.\n\nFirstEnergy is the domestic case: in July 2021 it admitted conspiring to pay Ohio officials in exchange for official action on House Bill 6, a roughly $1 billion nuclear bailout, and agreed to a $230 million penalty under a deferred prosecution agreement. In all three, the companies kept operating and no corporate conviction followed.",
+      "entityIds": [
+        "airbus_se",
+        "firstenergy_corp",
+        "herbalife_nutrition"
+      ]
     }
   ]
 }
