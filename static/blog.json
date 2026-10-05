@@ -2556,6 +2556,21 @@
         "firstenergy_corp",
         "herbalife_nutrition"
       ]
+    },
+    {
+      "id": "2026-10-05-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-05",
+      "title": "Three industrial giants, three record bribery settlements",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "This run added Siemens, Rolls-Royce and Odebrecht, each of which resolved large foreign-bribery cases with US and other authorities. For anyone weighing who profits from buying government contracts, the settlements put numbers on it.",
+      "body": "Siemens, Rolls-Royce and Odebrecht are infrastructure and engineering firms whose public records share one thread: paying officials abroad to win contracts, then settling with prosecutors rather than facing trial.\n\nIn December 2008 Siemens pleaded guilty to FCPA violations and paid $800 million in US penalties, part of more than $1.6 billion worldwide. The DOJ called the pattern \"unprecedented in scale and geographic scope.\"\n\nRolls-Royce agreed in January 2017 to £671 million in penalties with the UK Serious Fraud Office, the US DOJ and Brazil's MPF. The conduct spanned seven countries over more than two decades, and the deferred prosecution agreements let the company avoid prosecution.\n\nOdebrecht and affiliate Braskem pleaded guilty in December 2016 and paid at least $3.5 billion. DOJ said Odebrecht ran a 'Department of Bribery' that made over $788 million in illicit payments on three continents.\n\nSources: DOJ, UK SFO, Davis Polk, The Global Treasurer.",
+      "entityIds": [
+        "odebrecht_sa",
+        "rolls_royce_holdings",
+        "siemens_ag"
+      ]
     }
   ]
 }

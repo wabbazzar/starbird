@@ -18103,6 +18103,108 @@
         }
       ],
       "addedAt": "2026-10-04"
+    },
+    {
+      "id": "siemens_ag",
+      "name": "Siemens AG",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Siemens AG is a German industrial and technology conglomerate. In December 2008 it pleaded guilty to FCPA books-and-records and internal-controls violations, with subsidiaries in Argentina, Venezuela and Bangladesh charged with conspiracy; the DOJ called the bribery pattern \"unprecedented in scale and geographic scope.\" Siemens paid $800 million in combined US fines and penalties (a criminal fine of just over $450 million), part of more than $1.6 billion in worldwide fines including Munich prosecutors' resolutions. At the time it was the largest FCPA penalty ever, dwarfing the prior $44 million record. Sources: DOJ press release (Dec 2008), WilmerHale, Foley.",
+      "blurb": "German industrial conglomerate making automation, electrification, rail and healthcare technology.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 68,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.justice.gov/opa/pr/2008/December/08-crm-1105.html",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2008 Siemens pleaded guilty to FCPA violations and paid $800 million in US penalties (over $1.6 billion worldwide), then the largest FCPA sanction ever; DOJ called the bribery 'unprecedented in scale and geographic scope.'",
+          "date": "2008-12",
+          "amountUsd": 800000000,
+          "amountKind": "settlement",
+          "actor": "DOJ / SEC",
+          "sourceUrl": "https://www.justice.gov/opa/pr/2008/December/08-crm-1105.html"
+        }
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "rolls_royce_holdings",
+      "name": "Rolls-Royce Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Rolls-Royce is a British aerospace and engine maker. On 17 January 2017 it agreed a global bribery settlement of £671 million with the UK Serious Fraud Office (a £497.25 million DPA), the US DOJ (US$169,917,710) and Brazil's MPF (US$25,579,179). The conduct spanned seven jurisdictions (Indonesia, Thailand, Malaysia, India, Russia, Nigeria and China) over more than two decades, and the settlements let the firm avoid prosecution in the UK, US and Brazil. Sources: SFO, The Global Treasurer (Jan 2017).",
+      "blurb": "British maker of aircraft engines and power systems for civil aerospace, defence and energy.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.theglobaltreasurer.com/2017/01/17/rolls-royce-agrees-671m-penalty-to-settle-bribery-claims/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In January 2017 Rolls-Royce agreed £671m in penalties with the UK SFO, US DOJ and Brazil's MPF over bribes to win export contracts across seven countries over two decades, avoiding prosecution via deferred prosecution agreements.",
+          "date": "2017-01",
+          "amountUsd": 869000000,
+          "amountKind": "settlement",
+          "actor": "UK SFO / DOJ / MPF",
+          "sourceUrl": "https://www.theglobaltreasurer.com/2017/01/17/rolls-royce-agrees-671m-penalty-to-settle-bribery-claims/"
+        }
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "odebrecht_sa",
+      "name": "Odebrecht S.A.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Odebrecht S.A. is a Brazilian construction and engineering conglomerate (affiliate Braskem is a petrochemical producer). On 21 December 2016 Odebrecht and Braskem pleaded guilty in US federal court (EDNY) to conspiracy to violate the FCPA and paid at least $3.5 billion combined to US, Brazilian and Swiss authorities, then the largest FCPA penalty ever. DOJ said Odebrecht ran a hidden 'Department of Bribery' that paid over $788 million in illicit payments to officials on three continents; Braskem executives directed over $250 million in bribes in Brazil via offshore entities. Sources: Davis Polk, Corporate Crime Reporter, SEC Actions.",
+      "blurb": "Brazilian construction and engineering conglomerate building infrastructure, energy and industrial projects worldwide.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 71,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.davispolk.com/insights/client-update/white-collar-update-odebrecht-and-braskem-pay-record-fcpa-penalty-least-35",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2016 Odebrecht and Braskem pleaded guilty to FCPA conspiracy and paid at least $3.5 billion; DOJ said Odebrecht's 'Department of Bribery' made over $788 million in illicit payments to officials on three continents.",
+          "date": "2016-12",
+          "amountUsd": 3500000000,
+          "amountKind": "settlement",
+          "actor": "DOJ / MPF / Swiss OAG",
+          "sourceUrl": "https://www.davispolk.com/insights/client-update/white-collar-update-odebrecht-and-braskem-pay-record-fcpa-penalty-least-35"
+        }
+      ],
+      "addedAt": "2026-10-05"
     }
   ],
   "brands": [
@@ -38818,6 +38920,99 @@
         }
       ],
       "addedAt": "2026-10-04"
+    },
+    {
+      "id": "siemens_ag",
+      "avoid": "Siemens",
+      "ownership": [
+        {
+          "firmId": "siemens_ag",
+          "stake": "majority",
+          "since": "1847"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Siemens AG is a German industrial and technology conglomerate. In December 2008 it pleaded guilty to FCPA books-and-records and internal-controls violations, with subsidiaries in Argentina, Venezuela and Bangladesh charged with conspiracy; the DOJ called the bribery pattern \"unprecedented in scale and geographic scope.\" Siemens paid $800 million in combined US fines and penalties (a criminal fine of just over $450 million), part of more than $1.6 billion in worldwide fines including Munich prosecutors' resolutions. At the time it was the largest FCPA penalty ever, dwarfing the prior $44 million record. Sources: DOJ press release (Dec 2008), WilmerHale, Foley.",
+      "blurb": "German industrial conglomerate making automation, electrification, rail and healthcare technology.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2008 Siemens pleaded guilty to FCPA violations and paid $800 million in US penalties (over $1.6 billion worldwide), then the largest FCPA sanction ever; DOJ called the bribery 'unprecedented in scale and geographic scope.'",
+          "date": "2008-12",
+          "amountUsd": 800000000,
+          "amountKind": "settlement",
+          "actor": "DOJ / SEC",
+          "sourceUrl": "https://www.justice.gov/opa/pr/2008/December/08-crm-1105.html"
+        }
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "rolls_royce_holdings",
+      "avoid": "Rolls-Royce",
+      "ownership": [
+        {
+          "firmId": "rolls_royce_holdings",
+          "stake": "majority",
+          "since": "1906"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Rolls-Royce is a British aerospace and engine maker. On 17 January 2017 it agreed a global bribery settlement of £671 million with the UK Serious Fraud Office (a £497.25 million DPA), the US DOJ (US$169,917,710) and Brazil's MPF (US$25,579,179). The conduct spanned seven jurisdictions (Indonesia, Thailand, Malaysia, India, Russia, Nigeria and China) over more than two decades, and the settlements let the firm avoid prosecution in the UK, US and Brazil. Sources: SFO, The Global Treasurer (Jan 2017).",
+      "blurb": "British maker of aircraft engines and power systems for civil aerospace, defence and energy.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In January 2017 Rolls-Royce agreed £671m in penalties with the UK SFO, US DOJ and Brazil's MPF over bribes to win export contracts across seven countries over two decades, avoiding prosecution via deferred prosecution agreements.",
+          "date": "2017-01",
+          "amountUsd": 869000000,
+          "amountKind": "settlement",
+          "actor": "UK SFO / DOJ / MPF",
+          "sourceUrl": "https://www.theglobaltreasurer.com/2017/01/17/rolls-royce-agrees-671m-penalty-to-settle-bribery-claims/"
+        }
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "odebrecht_sa",
+      "avoid": "Odebrecht",
+      "ownership": [
+        {
+          "firmId": "odebrecht_sa",
+          "stake": "majority",
+          "since": "1944"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Odebrecht S.A. is a Brazilian construction and engineering conglomerate (affiliate Braskem is a petrochemical producer). On 21 December 2016 Odebrecht and Braskem pleaded guilty in US federal court (EDNY) to conspiracy to violate the FCPA and paid at least $3.5 billion combined to US, Brazilian and Swiss authorities, then the largest FCPA penalty ever. DOJ said Odebrecht ran a hidden 'Department of Bribery' that paid over $788 million in illicit payments to officials on three continents; Braskem executives directed over $250 million in bribes in Brazil via offshore entities. Sources: Davis Polk, Corporate Crime Reporter, SEC Actions.",
+      "blurb": "Brazilian construction and engineering conglomerate building infrastructure, energy and industrial projects worldwide.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2016 Odebrecht and Braskem pleaded guilty to FCPA conspiracy and paid at least $3.5 billion; DOJ said Odebrecht's 'Department of Bribery' made over $788 million in illicit payments to officials on three continents.",
+          "date": "2016-12",
+          "amountUsd": 3500000000,
+          "amountKind": "settlement",
+          "actor": "DOJ / MPF / Swiss OAG",
+          "sourceUrl": "https://www.davispolk.com/insights/client-update/white-collar-update-odebrecht-and-braskem-pay-record-fcpa-penalty-least-35"
+        }
+      ],
+      "addedAt": "2026-10-05"
     }
   ]
 }
