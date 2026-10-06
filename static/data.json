@@ -18205,6 +18205,98 @@
         }
       ],
       "addedAt": "2026-10-05"
+    },
+    {
+      "id": "trump_organization",
+      "name": "Trump Organization",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In February 2024 New York Justice Arthur Engoron found, in a suit brought by Attorney General Letitia James, that Donald Trump, the Trump Organization and top executives including Eric Trump and Donald Trump Jr. schemed for years to deceive banks and insurers with inflated financial statements, ordering $355 million in penalties (nearly $454 million with interest) and restricting the company's ability to do business in New York; the company appealed (NPR, Feb 2024).",
+      "blurb": "Family-owned real-estate, hotel, golf and licensing company based in New York.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://npr.org/2024/02/27/1234112377/donald-trump-appeal-new-york-civil-fraud-case",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In February 2024 New York Justice Arthur Engoron found, in a suit brought by Attorney General Letitia James, that Donald Trump, the Trump Organization and top executives including Eric Trump and Donald Trump Jr. schemed for years to deceive banks and insurers with inflated financial statements, ordering $355 million in penalties (nearly $454 million with interest) and restricting the company's ability to do business in New York; the company appealed (NPR, Feb 2024).",
+          "date": "2024-02",
+          "amountUsd": 355000000,
+          "amountKind": "fine",
+          "actor": "New York Attorney General / Justice Engoron",
+          "sourceUrl": "https://npr.org/2024/02/27/1234112377/donald-trump-appeal-new-york-civil-fraud-case"
+        }
+      ],
+      "addedAt": "2026-10-06"
+    },
+    {
+      "id": "kushner_companies",
+      "name": "Kushner Companies",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Kushner Companies was founded by Charles Kushner, who pleaded guilty to 18 counts including tax evasion and witness tampering (he retaliated against his brother-in-law, a cooperating witness, by arranging a recorded encounter with a prostitute to be sent to his sister), served 14 months of a two-year sentence from 2005, and received a presidential pardon from Donald Trump, father-in-law of his son Jared, on December 23, 2020 (The Real Deal; Wikipedia). The pardon was reported to ease the company's ability to secure financing.",
+      "blurb": "Privately held New Jersey and New York real-estate developer and landlord.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 48,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://therealdeal.com/2020/12/23/charles-kushner-gets-presidential-pardon/",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Kushner Companies was founded by Charles Kushner, who pleaded guilty to 18 counts including tax evasion and witness tampering (he retaliated against his brother-in-law, a cooperating witness, by arranging a recorded encounter with a prostitute to be sent to his sister), served 14 months of a two-year sentence from 2005, and received a presidential pardon from Donald Trump, father-in-law of his son Jared, on December 23, 2020 (The Real Deal; Wikipedia). The pardon was reported to ease the company's ability to secure financing.",
+          "date": "2020-12",
+          "actor": "US President (pardon)",
+          "sourceUrl": "https://therealdeal.com/2020/12/23/charles-kushner-gets-presidential-pardon/"
+        }
+      ],
+      "addedAt": "2026-10-06"
+    },
+    {
+      "id": "nikola_corp",
+      "name": "Nikola Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Nikola founder Trevor Milton was convicted in 2022 on three counts of securities and wire fraud for misleading investors, including a promotional video of a semi that was actually towed up a hill and filmed rolling downhill; he was sentenced to four years in prison, then pardoned by President Trump on March 27, 2025. Nikola filed for Chapter 11 bankruptcy in February 2025 (Fox / Trucking & Transport News reporting).",
+      "blurb": "Electric and hydrogen-fuel-cell heavy truck maker; filed for bankruptcy in 2025.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 42,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://fox9.com/news/trevor-milton-nikola-founder-pardoned-president-trump",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Nikola founder Trevor Milton was convicted in 2022 on three counts of securities and wire fraud for misleading investors, including a promotional video of a semi that was actually towed up a hill and filmed rolling downhill; he was sentenced to four years in prison, then pardoned by President Trump on March 27, 2025. Nikola filed for Chapter 11 bankruptcy in February 2025 (Fox / Trucking & Transport News reporting).",
+          "date": "2025-03",
+          "actor": "US President (pardon)",
+          "sourceUrl": "https://fox9.com/news/trevor-milton-nikola-founder-pardoned-president-trump"
+        }
+      ],
+      "addedAt": "2026-10-06"
     }
   ],
   "brands": [
@@ -39013,6 +39105,95 @@
         }
       ],
       "addedAt": "2026-10-05"
+    },
+    {
+      "id": "trump_organization",
+      "avoid": "Trump Organization",
+      "ownership": [
+        {
+          "firmId": "trump_organization",
+          "stake": "majority",
+          "since": "1971"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "In February 2024 New York Justice Arthur Engoron found, in a suit brought by Attorney General Letitia James, that Donald Trump, the Trump Organization and top executives including Eric Trump and Donald Trump Jr. schemed for years to deceive banks and insurers with inflated financial statements, ordering $355 million in penalties (nearly $454 million with interest) and restricting the company's ability to do business in New York; the company appealed (NPR, Feb 2024).",
+      "blurb": "Family-owned real-estate, hotel, golf and licensing company based in New York.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In February 2024 New York Justice Arthur Engoron found, in a suit brought by Attorney General Letitia James, that Donald Trump, the Trump Organization and top executives including Eric Trump and Donald Trump Jr. schemed for years to deceive banks and insurers with inflated financial statements, ordering $355 million in penalties (nearly $454 million with interest) and restricting the company's ability to do business in New York; the company appealed (NPR, Feb 2024).",
+          "date": "2024-02",
+          "amountUsd": 355000000,
+          "amountKind": "fine",
+          "actor": "New York Attorney General / Justice Engoron",
+          "sourceUrl": "https://npr.org/2024/02/27/1234112377/donald-trump-appeal-new-york-civil-fraud-case"
+        }
+      ],
+      "addedAt": "2026-10-06"
+    },
+    {
+      "id": "kushner_companies",
+      "avoid": "Kushner Companies",
+      "ownership": [
+        {
+          "firmId": "kushner_companies",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Kushner Companies was founded by Charles Kushner, who pleaded guilty to 18 counts including tax evasion and witness tampering (he retaliated against his brother-in-law, a cooperating witness, by arranging a recorded encounter with a prostitute to be sent to his sister), served 14 months of a two-year sentence from 2005, and received a presidential pardon from Donald Trump, father-in-law of his son Jared, on December 23, 2020 (The Real Deal; Wikipedia). The pardon was reported to ease the company's ability to secure financing.",
+      "blurb": "Privately held New Jersey and New York real-estate developer and landlord.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Kushner Companies was founded by Charles Kushner, who pleaded guilty to 18 counts including tax evasion and witness tampering (he retaliated against his brother-in-law, a cooperating witness, by arranging a recorded encounter with a prostitute to be sent to his sister), served 14 months of a two-year sentence from 2005, and received a presidential pardon from Donald Trump, father-in-law of his son Jared, on December 23, 2020 (The Real Deal; Wikipedia). The pardon was reported to ease the company's ability to secure financing.",
+          "date": "2020-12",
+          "actor": "US President (pardon)",
+          "sourceUrl": "https://therealdeal.com/2020/12/23/charles-kushner-gets-presidential-pardon/"
+        }
+      ],
+      "addedAt": "2026-10-06"
+    },
+    {
+      "id": "nikola_corp",
+      "avoid": "Nikola Corporation",
+      "ownership": [
+        {
+          "firmId": "nikola_corp",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Nikola founder Trevor Milton was convicted in 2022 on three counts of securities and wire fraud for misleading investors, including a promotional video of a semi that was actually towed up a hill and filmed rolling downhill; he was sentenced to four years in prison, then pardoned by President Trump on March 27, 2025. Nikola filed for Chapter 11 bankruptcy in February 2025 (Fox / Trucking & Transport News reporting).",
+      "blurb": "Electric and hydrogen-fuel-cell heavy truck maker; filed for bankruptcy in 2025.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Nikola founder Trevor Milton was convicted in 2022 on three counts of securities and wire fraud for misleading investors, including a promotional video of a semi that was actually towed up a hill and filmed rolling downhill; he was sentenced to four years in prison, then pardoned by President Trump on March 27, 2025. Nikola filed for Chapter 11 bankruptcy in February 2025 (Fox / Trucking & Transport News reporting).",
+          "date": "2025-03",
+          "actor": "US President (pardon)",
+          "sourceUrl": "https://fox9.com/news/trevor-milton-nikola-founder-pardoned-president-trump"
+        }
+      ],
+      "addedAt": "2026-10-06"
     }
   ]
 }

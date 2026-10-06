@@ -2571,6 +2571,22 @@
         "rolls_royce_holdings",
         "siemens_ag"
       ]
+    },
+    {
+      "id": "2026-10-06-littlesis_power_network",
+      "date": "2026-10-06",
+      "title": "Pardons and penalties: three firms tied to power",
+      "strategy": "littlesis_power_network",
+      "strategyLabel": "LittleSis oligarch-network database",
+      "value": "elite_impunity",
+      "summary": "Three new entries where founders or owners faced courts and regulators, and the outcomes tell you something about who is held to account.",
+      "body": "The Trump Organization sits at the center of a February 2024 New York ruling: Justice Arthur Engoron found that the company and its executives inflated financial statements to deceive banks and insurers, ordering $355 million in penalties (nearly $454 million with interest). The company appealed.\n\nKushner Companies traces to Charles Kushner, who pleaded guilty to 18 counts including tax evasion and witness tampering, served 14 months of a two-year sentence, and was pardoned by President Trump on December 23, 2020. Trump is the father-in-law of his son Jared Kushner.\n\nNikola's founder Trevor Milton was convicted in 2022 of securities and wire fraud over misleading investor claims, including a promo video of a truck that was towed uphill and filmed rolling down. He was sentenced to four years and pardoned on March 27, 2025; Nikola filed for Chapter 11 in February 2025.\n\nThe common thread is documented misconduct met by appeals or clemency rather than finality. Sources: NPR, The Real Deal, Fox.",
+      "entityIds": [
+        "kushner_companies",
+        "nikola_corp",
+        "trump_organization"
+      ],
+      "source": "https://littlesis.org/"
     }
   ]
 }
