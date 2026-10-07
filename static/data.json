@@ -18297,6 +18297,102 @@
         }
       ],
       "addedAt": "2026-10-06"
+    },
+    {
+      "id": "pfizer",
+      "name": "Pfizer",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Pfizer and its subsidiaries have resolved four separate federal criminal matters through DPAs, NPAs and guilty pleas: a 2007 DPA/NPA and guilty plea over Genotropin kickbacks (Pharmacia & Upjohn, $19.7M fine plus a $15M fine); a 2009 guilty plea over misbranding Bextra with a $1.195B criminal fine, part of a $2.3B settlement DOJ called the largest health care fraud settlement in its history; and a 2012 DPA with a $15M penalty for bribing officials in Bulgaria, Croatia, Kazakhstan and Russia. Public Citizen (2019) counts Pfizer among the corporate repeat offenders that kept signing agreements instead of facing prosecution, and lists it among the largest corporate political spenders with prior DPAs/NPAs ($27.2M, per OpenSecrets). Flagged under elite_impunity_general.",
+      "blurb": "Multinational pharmaceutical company making prescription drugs and vaccines.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-07",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Pfizer and its subsidiaries have resolved four separate federal criminal matters through DPAs, NPAs and guilty pleas: a 2007 DPA/NPA and guilty plea over Genotropin kickbacks (Pharmacia & Upjohn, $19.7M fine plus a $15M fine); a 2009 guilty plea over misbranding Bextra with a $1.195B criminal fine, part of a $2.3B settlement DOJ called the largest health care fraud settlement in its history; and a 2012 DPA with a $15M penalty for bribing officials in Bulgaria, Croatia, Kazakhstan and Russia. Public Citizen (2019) counts Pfizer among the corporate repeat offenders that kept signing agreements instead of facing prosecution, and lists it among the largest corporate political spenders with prior DPAs/NPAs ($27.2M, per OpenSecrets).",
+          "date": "2009",
+          "amountUsd": 2300000000,
+          "amountKind": "settlement",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "bristol_myers_squibb",
+      "name": "Bristol-Myers Squibb",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Bristol-Myers Squibb entered a two-year DPA with the U.S. Attorney for New Jersey on June 15, 2005 over securities fraud: 'channel stuffing' wholesalers in 2000-2001 to hit publicly announced earnings goals, with $839M total restitution to shareholders. Two years later, on June 11, 2007, BMS pleaded guilty to two counts of false statements and paid a $1M criminal fine for concealing parts of a Plavix generic-delay deal with Apotex from the FTC. The DPA required BMS to endow a business-ethics chair at the law school of the prosecuting U.S. Attorney's alma mater (Seton Hall). Source: Public Citizen, 'Soft on Corporate Crime' (2019). Flagged under elite_impunity_general.",
+      "blurb": "Pharmaceutical company developing cancer, cardiovascular and immunology drugs.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-07",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Bristol-Myers Squibb entered a two-year DPA with the U.S. Attorney for New Jersey on June 15, 2005 over securities fraud: 'channel stuffing' wholesalers in 2000-2001 to hit publicly announced earnings goals, with $839M total restitution to shareholders. Two years later, on June 11, 2007, BMS pleaded guilty to two counts of false statements and paid a $1M criminal fine for concealing parts of a Plavix generic-delay deal with Apotex from the FTC. The DPA required BMS to endow a business-ethics chair at the law school of the prosecuting U.S. Attorney's alma mater (Seton Hall). Source: Public Citizen, 'Soft on Corporate Crime' (2019).",
+          "date": "2005-06",
+          "amountUsd": 839000000,
+          "amountKind": "settlement",
+          "actor": "US Attorney, District of New Jersey",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "aig",
+      "name": "American International Group (AIG)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "AIG resolved two federal securities-fraud investigations within about 15 months. On Nov. 30, 2004 its AIG-FP unit entered a DPA and NPA over structured transactions that let PNC hide $750M in troubled assets off its balance sheet, paying $80M in penalties, $39.8M in disgorgement and $6.5M in interest. On Feb. 7, 2006 AIG signed a three-year NPA and paid $25M (plus $800M to the SEC) over the Gen Re sham reinsurance deals that booked roughly $500M in false loss reserves and the Capco scheme to hide ~$200M in underwriting losses. Both agreements avoided criminal charges against the parent; the DOJ-chosen monitor, James Cole, was paid about $20M and his reports were never made public. Source: Public Citizen, 'Soft on Corporate Crime' (2019). Flagged under elite_impunity_general.",
+      "blurb": "Multinational insurance and financial services company.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "source": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-07",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "AIG resolved two federal securities-fraud investigations within about 15 months. On Nov. 30, 2004 its AIG-FP unit entered a DPA and NPA over structured transactions that let PNC hide $750M in troubled assets off its balance sheet, paying $80M in penalties, $39.8M in disgorgement and $6.5M in interest. On Feb. 7, 2006 AIG signed a three-year NPA and paid $25M (plus $800M to the SEC) over the Gen Re sham reinsurance deals that booked roughly $500M in false loss reserves and the Capco scheme to hide ~$200M in underwriting losses. Both agreements avoided criminal charges against the parent; the DOJ-chosen monitor, James Cole, was paid about $20M and his reports were never made public. Source: Public Citizen, 'Soft on Corporate Crime' (2019).",
+          "date": "2006-02",
+          "amountUsd": 800000000,
+          "amountKind": "settlement",
+          "actor": "SEC",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -39194,6 +39290,99 @@
         }
       ],
       "addedAt": "2026-10-06"
+    },
+    {
+      "id": "pfizer",
+      "avoid": "Pfizer",
+      "ownership": [
+        {
+          "firmId": "pfizer",
+          "stake": "majority",
+          "since": "1849"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Pfizer and its subsidiaries have resolved four separate federal criminal matters through DPAs, NPAs and guilty pleas: a 2007 DPA/NPA and guilty plea over Genotropin kickbacks (Pharmacia & Upjohn, $19.7M fine plus a $15M fine); a 2009 guilty plea over misbranding Bextra with a $1.195B criminal fine, part of a $2.3B settlement DOJ called the largest health care fraud settlement in its history; and a 2012 DPA with a $15M penalty for bribing officials in Bulgaria, Croatia, Kazakhstan and Russia. Public Citizen (2019) counts Pfizer among the corporate repeat offenders that kept signing agreements instead of facing prosecution, and lists it among the largest corporate political spenders with prior DPAs/NPAs ($27.2M, per OpenSecrets).",
+      "blurb": "Multinational pharmaceutical company making prescription drugs and vaccines.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Pfizer and its subsidiaries have resolved four separate federal criminal matters through DPAs, NPAs and guilty pleas: a 2007 DPA/NPA and guilty plea over Genotropin kickbacks (Pharmacia & Upjohn, $19.7M fine plus a $15M fine); a 2009 guilty plea over misbranding Bextra with a $1.195B criminal fine, part of a $2.3B settlement DOJ called the largest health care fraud settlement in its history; and a 2012 DPA with a $15M penalty for bribing officials in Bulgaria, Croatia, Kazakhstan and Russia. Public Citizen (2019) counts Pfizer among the corporate repeat offenders that kept signing agreements instead of facing prosecution, and lists it among the largest corporate political spenders with prior DPAs/NPAs ($27.2M, per OpenSecrets).",
+          "date": "2009",
+          "amountUsd": 2300000000,
+          "amountKind": "settlement",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "bristol_myers_squibb",
+      "avoid": "Bristol-Myers Squibb",
+      "ownership": [
+        {
+          "firmId": "bristol_myers_squibb",
+          "stake": "majority",
+          "since": "1887"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Bristol-Myers Squibb entered a two-year DPA with the U.S. Attorney for New Jersey on June 15, 2005 over securities fraud: 'channel stuffing' wholesalers in 2000-2001 to hit publicly announced earnings goals, with $839M total restitution to shareholders. Two years later, on June 11, 2007, BMS pleaded guilty to two counts of false statements and paid a $1M criminal fine for concealing parts of a Plavix generic-delay deal with Apotex from the FTC. The DPA required BMS to endow a business-ethics chair at the law school of the prosecuting U.S. Attorney's alma mater (Seton Hall). Source: Public Citizen, 'Soft on Corporate Crime' (2019).",
+      "blurb": "Pharmaceutical company developing cancer, cardiovascular and immunology drugs.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Bristol-Myers Squibb entered a two-year DPA with the U.S. Attorney for New Jersey on June 15, 2005 over securities fraud: 'channel stuffing' wholesalers in 2000-2001 to hit publicly announced earnings goals, with $839M total restitution to shareholders. Two years later, on June 11, 2007, BMS pleaded guilty to two counts of false statements and paid a $1M criminal fine for concealing parts of a Plavix generic-delay deal with Apotex from the FTC. The DPA required BMS to endow a business-ethics chair at the law school of the prosecuting U.S. Attorney's alma mater (Seton Hall). Source: Public Citizen, 'Soft on Corporate Crime' (2019).",
+          "date": "2005-06",
+          "amountUsd": 839000000,
+          "amountKind": "settlement",
+          "actor": "US Attorney, District of New Jersey",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "aig",
+      "avoid": "American International Group (AIG)",
+      "ownership": [
+        {
+          "firmId": "aig",
+          "stake": "majority",
+          "since": "1919"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "AIG resolved two federal securities-fraud investigations within about 15 months. On Nov. 30, 2004 its AIG-FP unit entered a DPA and NPA over structured transactions that let PNC hide $750M in troubled assets off its balance sheet, paying $80M in penalties, $39.8M in disgorgement and $6.5M in interest. On Feb. 7, 2006 AIG signed a three-year NPA and paid $25M (plus $800M to the SEC) over the Gen Re sham reinsurance deals that booked roughly $500M in false loss reserves and the Capco scheme to hide ~$200M in underwriting losses. Both agreements avoided criminal charges against the parent; the DOJ-chosen monitor, James Cole, was paid about $20M and his reports were never made public. Source: Public Citizen, 'Soft on Corporate Crime' (2019).",
+      "blurb": "Multinational insurance and financial services company.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "AIG resolved two federal securities-fraud investigations within about 15 months. On Nov. 30, 2004 its AIG-FP unit entered a DPA and NPA over structured transactions that let PNC hide $750M in troubled assets off its balance sheet, paying $80M in penalties, $39.8M in disgorgement and $6.5M in interest. On Feb. 7, 2006 AIG signed a three-year NPA and paid $25M (plus $800M to the SEC) over the Gen Re sham reinsurance deals that booked roughly $500M in false loss reserves and the Capco scheme to hide ~$200M in underwriting losses. Both agreements avoided criminal charges against the parent; the DOJ-chosen monitor, James Cole, was paid about $20M and his reports were never made public. Source: Public Citizen, 'Soft on Corporate Crime' (2019).",
+          "date": "2006-02",
+          "amountUsd": 800000000,
+          "amountKind": "settlement",
+          "actor": "SEC",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-07"
     }
   ]
 }

@@ -2587,6 +2587,21 @@
         "trump_organization"
       ],
       "source": "https://littlesis.org/"
+    },
+    {
+      "id": "2026-10-07-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-07",
+      "title": "Pfizer, BMS and AIG: three firms that kept signing deals instead of facing trial",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "A Public Citizen report on corporate repeat offenders surfaced three household-name firms that resolved multiple federal criminal matters through DPAs, NPAs and pleas rather than prosecution.",
+      "body": "This run mined Public Citizen's 2019 report 'Soft on Corporate Crime', which tracks companies that received deferred or non-prosecution agreements from the Justice Department and then offended again.\n\nPfizer is the heaviest case: kickback, off-label marketing and foreign-bribery matters across 2007-2012, including a $1.195 billion criminal fine for misbranding Bextra inside a $2.3 billion settlement the DOJ called the largest health care fraud settlement in its history. Bristol-Myers Squibb signed a 2005 DPA for channel-stuffing securities fraud, then pleaded guilty in 2007 to lying to federal regulators about a Plavix generic-delay deal.\n\nAIG signed a DPA and NPA in 2004 over structured-finance accounting fraud and a second NPA in 2006 over sham reinsurance deals, paying $25 million to DOJ and $800 million to the SEC. The common thread: each time, the parent company avoided a criminal conviction, which is the core of the elite-impunity pattern.",
+      "entityIds": [
+        "aig",
+        "bristol_myers_squibb",
+        "pfizer"
+      ]
     }
   ]
 }
