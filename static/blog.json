@@ -2602,6 +2602,22 @@
         "bristol_myers_squibb",
         "pfizer"
       ]
+    },
+    {
+      "id": "2026-10-08-peta_cruelty_list",
+      "date": "2026-10-08",
+      "title": "Three household staples on PETA's \"do test\" list",
+      "strategy": "peta_cruelty_list",
+      "strategyLabel": "PETA companies-that-test list",
+      "value": "animals",
+      "summary": "Cheer, Calgon and Close-up appear on PETA's database of companies that test on animals, tied to three large parents already tracked in Starbird.",
+      "body": "This run worked through PETA's \"Companies That Do Test on Animals\" database and added brands missing from Starbird: Cheer (Procter & Gamble), Calgon (Reckitt Benckiser) and Close-up (Church & Dwight).\n\nPETA includes a company when it tests products or ingredients on animals, relies on suppliers that do, or tests where required by law. The entries here are everyday laundry, water-softening and toothpaste products, the kind that are easy to buy without checking the parent.\n\nThe common thread is ownership: all three parents were already in the dataset with animal-testing flags, so these additions extend the footprint of existing records rather than introduce new firms. Evidence for each is the PETA listing itself; no further specifics were verified this run.",
+      "entityIds": [
+        "calgon",
+        "cheer",
+        "close_up"
+      ],
+      "source": "https://www.peta.org/living/beauty/companies-test-animals/"
     }
   ]
 }

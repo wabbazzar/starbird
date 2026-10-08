@@ -39383,6 +39383,90 @@
         }
       ],
       "addedAt": "2026-10-07"
+    },
+    {
+      "id": "cheer",
+      "avoid": "Cheer",
+      "ownership": [
+        {
+          "firmId": "procter_and_gamble",
+          "stake": "majority",
+          "since": "1950"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Cheer is owned by Procter & Gamble. PETA lists Cheer (Procter & Gamble) in its \"Companies That Do Test on Animals\" database, which includes companies that test products or ingredients on animals, use suppliers that do, or test where required by law (PETA Cruelty-Free, https://crueltyfree.peta.org/companies-do-test/).",
+      "blurb": "Laundry detergent brand.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-08",
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Cheer is owned by Procter & Gamble. PETA lists Cheer (Procter & Gamble) in its \"Companies That Do Test on Animals\" database, which includes companies that test products or ingredients on animals, use suppliers that do, or test where required by law (PETA Cruelty-Free, https://crueltyfree.peta.org/companies-do-test/).",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/companies-do-test/"
+        }
+      ]
+    },
+    {
+      "id": "calgon",
+      "avoid": "Calgon",
+      "ownership": [
+        {
+          "firmId": "reckitt",
+          "stake": "majority",
+          "since": "1933"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Calgon is owned by Reckitt Benckiser. PETA lists Calgon (Reckitt Benckiser) in its \"Companies That Do Test on Animals\" database, which includes companies that test products or ingredients on animals, use suppliers that do, or test where required by law (PETA Cruelty-Free, https://crueltyfree.peta.org/companies-do-test/).",
+      "blurb": "Water-softening laundry and bath products.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-08",
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Calgon is owned by Reckitt Benckiser. PETA lists Calgon (Reckitt Benckiser) in its \"Companies That Do Test on Animals\" database, which includes companies that test products or ingredients on animals, use suppliers that do, or test where required by law (PETA Cruelty-Free, https://crueltyfree.peta.org/companies-do-test/).",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/companies-do-test/"
+        }
+      ]
+    },
+    {
+      "id": "close_up",
+      "avoid": "Close-up",
+      "ownership": [
+        {
+          "firmId": "church_and_dwight",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Close-up is owned by Church & Dwight. PETA lists Close-up (Church & Dwight) in its \"Companies That Do Test on Animals\" database, which includes companies that test products or ingredients on animals, use suppliers that do, or test where required by law (PETA Cruelty-Free, https://crueltyfree.peta.org/companies-do-test/).",
+      "blurb": "Toothpaste and oral-care brand.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-08",
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Close-up is owned by Church & Dwight. PETA lists Close-up (Church & Dwight) in its \"Companies That Do Test on Animals\" database, which includes companies that test products or ingredients on animals, use suppliers that do, or test where required by law (PETA Cruelty-Free, https://crueltyfree.peta.org/companies-do-test/).",
+          "actor": "PETA",
+          "sourceUrl": "https://crueltyfree.peta.org/companies-do-test/"
+        }
+      ]
     }
   ]
 }
