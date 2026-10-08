@@ -121,6 +121,7 @@ wall_clock_sec        = 900
 commit_message_prefix = "scribe: nightly refresh"
 auto_commit           = true
 auto_push             = false
+publish               = "pr"   # scribe/<stamp> branch + PR; fleet PR watcher merges when pr-gate is green
 allow_prose_rewrites  = true
 allow_file_moves      = true
 forbid_file_deletion  = true

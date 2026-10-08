@@ -1,0 +1,24 @@
+name: pr-gate
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  pr-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Typecheck, tests, build
+        run: |
+          npm ci
+          npm run check
+          npm test
+          npm run build
