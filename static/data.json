@@ -18393,6 +18393,108 @@
       ],
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "zimmer_biomet",
+      "name": "Zimmer Biomet Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Public Citizen's repeat-offender report lists Zimmer and Biomet among corporations that received serial deferred prosecution agreements: 18-month DPAs in 2007 over medical-device kickbacks, a 2012 Biomet DPA over bribery in Argentina, Brazil and China, and a 2017 breach finding. In January 2017 DOJ announced a $17.4 million criminal penalty and a new three-year DPA after Biomet breached the 2012 agreement; an independent monitor could not certify the compliance program, and the SEC added a settlement of more than $13 million. A subsidiary pleaded guilty, but the parent again avoided a conviction. Flagged under elite_impunity_general: a pattern of corporate leniency deals rather than convictions.",
+      "blurb": "Medical device manufacturer producing orthopedic joint replacements, spine and dental implants, and surgical products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.citizen.org/article/soft-on-corporate-crime-deferred-and-non-prosecution-repeat-offender-report/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Public Citizen's repeat-offender report lists Zimmer and Biomet among corporations that received serial deferred prosecution agreements: 18-month DPAs in 2007 over medical-device kickbacks, a 2012 Biomet DPA over bribery in Argentina, Brazil and China, and a 2017 breach finding. In January 2017 DOJ announced a $17.4 million criminal penalty and a new three-year DPA after Biomet breached the 2012 agreement; an independent monitor could not certify the compliance program, and the SEC added a settlement of more than $13 million. A subsidiary pleaded guilty, but the parent again avoided a conviction.",
+          "date": "2017-01",
+          "amountUsd": 17400000,
+          "amountKind": "fine",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/zimmer-biomet-holdings-inc-agrees-pay-174-million-resolve-foreign-corrupt-practices-act"
+        }
+      ],
+      "addedAt": "2026-10-09"
+    },
+    {
+      "id": "royal_bank_of_scotland",
+      "name": "Royal Bank of Scotland Group (NatWest Group)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "RBS plc entered a deferred prosecution agreement with DOJ in February 2013 over LIBOR manipulation, paying a $100 million penalty, while RBS Securities Japan pleaded guilty to wire fraud and paid $50 million; with CFTC and UK FCA penalties the total resolution was about $612 million (US DOJ). Public Citizen's repeat-offender report adds a later Sherman Act guilty plea in 2015 and a 2017 subsidiary non-prosecution agreement, showing repeated leniency deals for the same group. Flagged under elite_impunity_general: a pattern of corporate leniency deals rather than convictions.",
+      "blurb": "UK banking group providing retail, commercial, and investment banking; trades as NatWest Group.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.citizen.org/article/soft-on-corporate-crime-deferred-and-non-prosecution-repeat-offender-report/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "RBS plc entered a deferred prosecution agreement with DOJ in February 2013 over LIBOR manipulation, paying a $100 million penalty, while RBS Securities Japan pleaded guilty to wire fraud and paid $50 million; with CFTC and UK FCA penalties the total resolution was about $612 million (US DOJ). Public Citizen's repeat-offender report adds a later Sherman Act guilty plea in 2015 and a 2017 subsidiary non-prosecution agreement, showing repeated leniency deals for the same group.",
+          "date": "2013-02",
+          "amountUsd": 612000000,
+          "amountKind": "settlement",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.justice.gov/archives/opa/pr/rbs-securities-japan-limited-agrees-plead-guilty-connection-long-running-manipulation-libor"
+        }
+      ],
+      "addedAt": "2026-10-09"
+    },
+    {
+      "id": "credit_agricole",
+      "name": "Crédit Agricole",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In October 2015 Crédit Agricole Corporate and Investment Bank agreed to pay $787.3 million and signed three-year deferred prosecution agreements with the DC US Attorney and the Manhattan DA over moving about $312 million through the US financial system for sanctioned entities in Sudan, Burma, Iran and Cuba between 2003 and 2008, avoiding a criminal conviction. Public Citizen's repeat-offender report also lists a further 2015 Swiss-subsidiary non-prosecution agreement, for two DPAs and one NPA in the same year. Flagged under elite_impunity_general: a pattern of corporate leniency deals rather than convictions.",
+      "blurb": "French cooperative banking group with retail, corporate and investment banking, insurance, and asset management arms.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 64,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.citizen.org/article/soft-on-corporate-crime-deferred-and-non-prosecution-repeat-offender-report/",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In October 2015 Crédit Agricole Corporate and Investment Bank agreed to pay $787.3 million and signed three-year deferred prosecution agreements with the DC US Attorney and the Manhattan DA over moving about $312 million through the US financial system for sanctioned entities in Sudan, Burma, Iran and Cuba between 2003 and 2008, avoiding a criminal conviction. Public Citizen's repeat-offender report also lists a further 2015 Swiss-subsidiary non-prosecution agreement, for two DPAs and one NPA in the same year.",
+          "date": "2015-10",
+          "amountUsd": 787300000,
+          "amountKind": "settlement",
+          "actor": "US DOJ / Manhattan DA",
+          "sourceUrl": "https://www.corporatecrimereporter.com/news/200/credit-agricole-to-pay-787-3-million-gets-prosecution-deferred/"
+        }
+      ],
+      "addedAt": "2026-10-09"
     }
   ],
   "brands": [
@@ -39467,6 +39569,99 @@
           "sourceUrl": "https://crueltyfree.peta.org/companies-do-test/"
         }
       ]
+    },
+    {
+      "id": "zimmer_biomet",
+      "avoid": "Zimmer Biomet",
+      "ownership": [
+        {
+          "firmId": "zimmer_biomet",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Public Citizen's repeat-offender report lists Zimmer and Biomet among corporations that received serial deferred prosecution agreements: 18-month DPAs in 2007 over medical-device kickbacks, a 2012 Biomet DPA over bribery in Argentina, Brazil and China, and a 2017 breach finding. In January 2017 DOJ announced a $17.4 million criminal penalty and a new three-year DPA after Biomet breached the 2012 agreement; an independent monitor could not certify the compliance program, and the SEC added a settlement of more than $13 million. A subsidiary pleaded guilty, but the parent again avoided a conviction.",
+      "blurb": "Orthopedic implant and surgical device maker; sells knee, hip, and spine products to hospitals worldwide.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Public Citizen's repeat-offender report lists Zimmer and Biomet among corporations that received serial deferred prosecution agreements: 18-month DPAs in 2007 over medical-device kickbacks, a 2012 Biomet DPA over bribery in Argentina, Brazil and China, and a 2017 breach finding. In January 2017 DOJ announced a $17.4 million criminal penalty and a new three-year DPA after Biomet breached the 2012 agreement; an independent monitor could not certify the compliance program, and the SEC added a settlement of more than $13 million. A subsidiary pleaded guilty, but the parent again avoided a conviction.",
+          "date": "2017-01",
+          "amountUsd": 17400000,
+          "amountKind": "fine",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/zimmer-biomet-holdings-inc-agrees-pay-174-million-resolve-foreign-corrupt-practices-act"
+        }
+      ],
+      "addedAt": "2026-10-09"
+    },
+    {
+      "id": "royal_bank_of_scotland",
+      "avoid": "Royal Bank of Scotland",
+      "ownership": [
+        {
+          "firmId": "royal_bank_of_scotland",
+          "stake": "majority",
+          "since": "1727"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "RBS plc entered a deferred prosecution agreement with DOJ in February 2013 over LIBOR manipulation, paying a $100 million penalty, while RBS Securities Japan pleaded guilty to wire fraud and paid $50 million; with CFTC and UK FCA penalties the total resolution was about $612 million (US DOJ). Public Citizen's repeat-offender report adds a later Sherman Act guilty plea in 2015 and a 2017 subsidiary non-prosecution agreement, showing repeated leniency deals for the same group.",
+      "blurb": "British retail and commercial bank, now part of NatWest Group; offers current accounts, loans, and mortgages.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "RBS plc entered a deferred prosecution agreement with DOJ in February 2013 over LIBOR manipulation, paying a $100 million penalty, while RBS Securities Japan pleaded guilty to wire fraud and paid $50 million; with CFTC and UK FCA penalties the total resolution was about $612 million (US DOJ). Public Citizen's repeat-offender report adds a later Sherman Act guilty plea in 2015 and a 2017 subsidiary non-prosecution agreement, showing repeated leniency deals for the same group.",
+          "date": "2013-02",
+          "amountUsd": 612000000,
+          "amountKind": "settlement",
+          "actor": "US DOJ",
+          "sourceUrl": "https://www.justice.gov/archives/opa/pr/rbs-securities-japan-limited-agrees-plead-guilty-connection-long-running-manipulation-libor"
+        }
+      ],
+      "addedAt": "2026-10-09"
+    },
+    {
+      "id": "credit_agricole",
+      "avoid": "Crédit Agricole",
+      "ownership": [
+        {
+          "firmId": "credit_agricole",
+          "stake": "majority",
+          "since": "1894"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "In October 2015 Crédit Agricole Corporate and Investment Bank agreed to pay $787.3 million and signed three-year deferred prosecution agreements with the DC US Attorney and the Manhattan DA over moving about $312 million through the US financial system for sanctioned entities in Sudan, Burma, Iran and Cuba between 2003 and 2008, avoiding a criminal conviction. Public Citizen's repeat-offender report also lists a further 2015 Swiss-subsidiary non-prosecution agreement, for two DPAs and one NPA in the same year.",
+      "blurb": "French cooperative banking group offering retail banking, insurance, and asset management across Europe.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In October 2015 Crédit Agricole Corporate and Investment Bank agreed to pay $787.3 million and signed three-year deferred prosecution agreements with the DC US Attorney and the Manhattan DA over moving about $312 million through the US financial system for sanctioned entities in Sudan, Burma, Iran and Cuba between 2003 and 2008, avoiding a criminal conviction. Public Citizen's repeat-offender report also lists a further 2015 Swiss-subsidiary non-prosecution agreement, for two DPAs and one NPA in the same year.",
+          "date": "2015-10",
+          "amountUsd": 787300000,
+          "amountKind": "settlement",
+          "actor": "US DOJ / Manhattan DA",
+          "sourceUrl": "https://www.corporatecrimereporter.com/news/200/credit-agricole-to-pay-787-3-million-gets-prosecution-deferred/"
+        }
+      ],
+      "addedAt": "2026-10-09"
     }
   ]
 }

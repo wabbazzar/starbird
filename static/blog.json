@@ -2618,6 +2618,21 @@
         "close_up"
       ],
       "source": "https://www.peta.org/living/beauty/companies-test-animals/"
+    },
+    {
+      "id": "2026-10-09-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-09",
+      "title": "Three banks and a device maker's repeat leniency deals",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Public Citizen's DPA/NPA repeat-offender report surfaced three firms that keep earning settlements instead of convictions: Zimmer Biomet, RBS and Crédit Agricole.",
+      "body": "This run mined a new source: Public Citizen's report on corporations that received deferred or non-prosecution agreements and then offended again.\n\nZimmer Biomet's Biomet unit breached a 2012 bribery DPA; in January 2017 DOJ announced a $17.4 million penalty and a fresh three-year DPA, with a subsidiary pleading guilty.\n\nRBS plc signed a 2013 DPA over LIBOR manipulation with a $100 million penalty, while RBS Securities Japan pleaded guilty and paid $50 million; the full resolution ran to about $612 million. Public Citizen lists further pleas and agreements afterwards.\n\nCrédit Agricole's investment bank paid $787.3 million in 2015 over roughly $312 million of sanctioned-country transfers, again under DPAs rather than a conviction. The thread across all three: serial settlements that let the parent keep operating.",
+      "entityIds": [
+        "credit_agricole",
+        "royal_bank_of_scotland",
+        "zimmer_biomet"
+      ]
     }
   ]
 }
