@@ -223,6 +223,15 @@ ticket's; stage only this ticket's files (`git add <paths>`, never `-A`).
 
 ## Ledger
 
+- **Phase 1** — builder: subagent (1 agent). No commit (no repo changes). Captured 2026-10-10:
+  - `HOME=<empty> claude auth status` → exit 1, `loggedIn:false`.
+  - `HOME=<empty> claude -p ok` → exit 1, `is_error:true`, result `Not logged in · Please run /login`, cost 0.
+  - `CLAUDE_CODE_OAUTH_TOKEN=invalid-token claude auth status` → exit 0, `loggedIn:true` (presence only).
+  - Same token with `-p` → exit 1, `api_error_status:401`, `Failed to authenticate. API Error: 401 Invalid bearer token`, cost 0.
+  - **O1 resolved:** layer 1 alone is NOT sufficient (misses invalid tokens); keep the live `-p` probe. A failed probe costs $0; only a successful one costs ~$0.19.
+  - **O2 resolved:** `Not logged in|Please run /login|Failed to authenticate|API Error: 401|Invalid bearer token|"api_error_status":401`. Do not match bare `401`/`oauth`. Expired-but-present token **unverified against a real expiry** (could not reproduce safely).
+  - Worktree: `.worktrees/auth-preflight` on branch `ticket/runner-auth-preflight` (main tree is dirty with unrelated work; user chose isolated worktree).
+
 _(builder appends per phase: plan, commit hash, `builder: subagent (N agents)` /
 `builder: inline (<reason>)`, deferrals, and the Phase-1 captured signatures.)_
 
