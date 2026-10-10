@@ -3,7 +3,7 @@
 **Created:** 2026-10-01
 **Owner:** Wesley
 **Assignee:** Claude (execute-ticket)
-**Status:** Polished 2026-10-01 — not started
+**Status:** Built 2026-10-10 — all phases done on branch ticket/runner-auth-preflight (not yet merged to main)
 **Refs:** mentat item `mentat:starbird:2562d764` (approved via Daily Dispatch)
 
 ---
