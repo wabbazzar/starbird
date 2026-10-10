@@ -234,6 +234,7 @@ ticket's; stage only this ticket's files (`git add <paths>`, never `-A`).
 
 _(builder appends per phase: plan, commit hash, `builder: subagent (N agents)` /
 `builder: inline (<reason>)`, deferrals, and the Phase-1 captured signatures.)_
+- **Phase 2** — builder: subagent (1 agent). `scripts/lib/claude-preflight.sh` + `tests/unit/runner-auth-preflight.test.ts` (6 cases a–f). `bash -n` ok; `npx vitest run` 4 files / 29 tests green (re-run by orchestrator). Mutation check (auth regex → `ZZZNEVERMATCH`) turned (a) and (f) red, restored → green. Added `PREFLIGHT_TIMEOUT_S` override (default 60; layer 1 uses min(20, it)).
 
 ## Definition of Done (roll-up)
 
