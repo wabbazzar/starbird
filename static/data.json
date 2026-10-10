@@ -18495,6 +18495,102 @@
         }
       ],
       "addedAt": "2026-10-09"
+    },
+    {
+      "id": "ozy_media",
+      "name": "Ozy Media",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Ozy Media founder Carlos Watson was convicted in July 2024 of conspiracy to commit securities fraud, wire fraud conspiracy and aggravated identity theft, and sentenced in December 2024 to nearly 10 years; a federal judge ordered over $36 million in restitution and nearly $60 million in forfeiture. In March 2025, hours before he was due to surrender, President Trump commuted Watson's prison term and Ozy Media's probation, erasing roughly $96 million in restitution and forfeiture (Axios, Mar 28 2025; Deadline; Governor of California clemency tracker citing DOJ records).",
+      "blurb": "Digital media and events company founded by Carlos Watson.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 45,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.axios.com/2025/03/28/trump-ozy-media-carlos-watson-commute",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Ozy Media founder Carlos Watson was convicted in July 2024 of conspiracy to commit securities fraud, wire fraud conspiracy and aggravated identity theft, and sentenced in December 2024 to nearly 10 years; a federal judge ordered over $36 million in restitution and nearly $60 million in forfeiture. In March 2025, hours before he was due to surrender, President Trump commuted Watson's prison term and Ozy Media's probation, erasing roughly $96 million in restitution and forfeiture (Axios, Mar 28 2025; Deadline; Governor of California clemency tracker citing DOJ records).",
+          "date": "2025-03",
+          "amountUsd": 36769153,
+          "amountKind": "fine",
+          "actor": "US President (commutation)",
+          "sourceUrl": "https://www.axios.com/2025/03/28/trump-ozy-media-carlos-watson-commute"
+        }
+      ],
+      "addedAt": "2026-10-10"
+    },
+    {
+      "id": "diesel_freak_llc",
+      "name": "Diesel Freak LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Diesel Freak LLC and owner Ryan LaLone pleaded guilty to conspiring to violate the Clean Air Act through remote tuning and emissions-control \"deletes\" on large diesel trucks from 2015 to 2018, which DOJ said made up about 70 percent of the owner's business; the company was fined $750,000. On July 3, 2026, President Trump granted Ryan LaLone, Wade LaLone and Diesel Freak LLC full pardons in United States v. Diesel Freak LLC, No. 1:23-CR-48 (W.D. Mich.), with the fine only partly paid (WWMT; Spokesman-Review, Jul 7 2026; E&E News).",
+      "blurb": "Michigan diesel truck shop offering engine tuning and performance work.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 30,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://wwmt.com/news/state/trump-grants-full-pardons-to-ryan-and-wade-lalone-after-diesel-freak-emissions-case",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Diesel Freak LLC and owner Ryan LaLone pleaded guilty to conspiring to violate the Clean Air Act through remote tuning and emissions-control \"deletes\" on large diesel trucks from 2015 to 2018, which DOJ said made up about 70 percent of the owner's business; the company was fined $750,000. On July 3, 2026, President Trump granted Ryan LaLone, Wade LaLone and Diesel Freak LLC full pardons in United States v. Diesel Freak LLC, No. 1:23-CR-48 (W.D. Mich.), with the fine only partly paid (WWMT; Spokesman-Review, Jul 7 2026; E&E News).",
+          "date": "2026-07",
+          "amountUsd": 750000,
+          "amountKind": "fine",
+          "actor": "US President (pardon)",
+          "sourceUrl": "https://wwmt.com/news/state/trump-grants-full-pardons-to-ryan-and-wade-lalone-after-diesel-freak-emissions-case"
+        }
+      ],
+      "addedAt": "2026-10-10"
+    },
+    {
+      "id": "american_therapeutic_corp",
+      "name": "American Therapeutic Corporation",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Co-owner Lawrence Duran pleaded guilty in 2011 to Medicare fraud, health care fraud and money laundering over American Therapeutic Corporation's Miami mental-health clinics, which billed Medicare about $205 million (roughly $87 million paid) through some 866,000 false claims, and was ordered to pay about $87.5 million in restitution. President Trump commuted Duran's sentence to time served on May 28, 2025, and the commutation text drops the restitution; co-owner Judith Negron was commuted earlier (NBC Miami; DOJ Office of the Pardon Attorney; Governor of California clemency tracker citing DOJ records).",
+      "blurb": "Former Miami-area chain of mental health day-treatment clinics.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.justice.gov/pardon/media/1402041/dl?inline",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Co-owner Lawrence Duran pleaded guilty in 2011 to Medicare fraud, health care fraud and money laundering over American Therapeutic Corporation's Miami mental-health clinics, which billed Medicare about $205 million (roughly $87 million paid) through some 866,000 false claims, and was ordered to pay about $87.5 million in restitution. President Trump commuted Duran's sentence to time served on May 28, 2025, and the commutation text drops the restitution; co-owner Judith Negron was commuted earlier (NBC Miami; DOJ Office of the Pardon Attorney; Governor of California clemency tracker citing DOJ records).",
+          "date": "2025-05",
+          "amountUsd": 87533863,
+          "amountKind": "fine",
+          "actor": "US President (commutation)",
+          "sourceUrl": "https://www.justice.gov/pardon/media/1402041/dl?inline"
+        }
+      ],
+      "addedAt": "2026-10-10"
     }
   ],
   "brands": [
@@ -39662,6 +39758,99 @@
         }
       ],
       "addedAt": "2026-10-09"
+    },
+    {
+      "id": "ozy_media",
+      "avoid": "Ozy Media",
+      "ownership": [
+        {
+          "firmId": "ozy_media",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Ozy Media founder Carlos Watson was convicted in July 2024 of conspiracy to commit securities fraud, wire fraud conspiracy and aggravated identity theft, and sentenced in December 2024 to nearly 10 years; a federal judge ordered over $36 million in restitution and nearly $60 million in forfeiture. In March 2025, hours before he was due to surrender, President Trump commuted Watson's prison term and Ozy Media's probation, erasing roughly $96 million in restitution and forfeiture (Axios, Mar 28 2025; Deadline; Governor of California clemency tracker citing DOJ records).",
+      "blurb": "Digital media and events company founded by Carlos Watson.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Ozy Media founder Carlos Watson was convicted in July 2024 of conspiracy to commit securities fraud, wire fraud conspiracy and aggravated identity theft, and sentenced in December 2024 to nearly 10 years; a federal judge ordered over $36 million in restitution and nearly $60 million in forfeiture. In March 2025, hours before he was due to surrender, President Trump commuted Watson's prison term and Ozy Media's probation, erasing roughly $96 million in restitution and forfeiture (Axios, Mar 28 2025; Deadline; Governor of California clemency tracker citing DOJ records).",
+          "date": "2025-03",
+          "amountUsd": 36769153,
+          "amountKind": "fine",
+          "actor": "US President (commutation)",
+          "sourceUrl": "https://www.axios.com/2025/03/28/trump-ozy-media-carlos-watson-commute"
+        }
+      ],
+      "addedAt": "2026-10-10"
+    },
+    {
+      "id": "diesel_freak_llc",
+      "avoid": "Diesel Freak LLC",
+      "ownership": [
+        {
+          "firmId": "diesel_freak_llc",
+          "stake": "majority",
+          "since": "2015"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Diesel Freak LLC and owner Ryan LaLone pleaded guilty to conspiring to violate the Clean Air Act through remote tuning and emissions-control \"deletes\" on large diesel trucks from 2015 to 2018, which DOJ said made up about 70 percent of the owner's business; the company was fined $750,000. On July 3, 2026, President Trump granted Ryan LaLone, Wade LaLone and Diesel Freak LLC full pardons in United States v. Diesel Freak LLC, No. 1:23-CR-48 (W.D. Mich.), with the fine only partly paid (WWMT; Spokesman-Review, Jul 7 2026; E&E News).",
+      "blurb": "Michigan diesel truck shop offering engine tuning and performance work.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Diesel Freak LLC and owner Ryan LaLone pleaded guilty to conspiring to violate the Clean Air Act through remote tuning and emissions-control \"deletes\" on large diesel trucks from 2015 to 2018, which DOJ said made up about 70 percent of the owner's business; the company was fined $750,000. On July 3, 2026, President Trump granted Ryan LaLone, Wade LaLone and Diesel Freak LLC full pardons in United States v. Diesel Freak LLC, No. 1:23-CR-48 (W.D. Mich.), with the fine only partly paid (WWMT; Spokesman-Review, Jul 7 2026; E&E News).",
+          "date": "2026-07",
+          "amountUsd": 750000,
+          "amountKind": "fine",
+          "actor": "US President (pardon)",
+          "sourceUrl": "https://wwmt.com/news/state/trump-grants-full-pardons-to-ryan-and-wade-lalone-after-diesel-freak-emissions-case"
+        }
+      ],
+      "addedAt": "2026-10-10"
+    },
+    {
+      "id": "american_therapeutic_corp",
+      "avoid": "American Therapeutic Corporation",
+      "ownership": [
+        {
+          "firmId": "american_therapeutic_corp",
+          "stake": "majority",
+          "since": "1990s"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Co-owner Lawrence Duran pleaded guilty in 2011 to Medicare fraud, health care fraud and money laundering over American Therapeutic Corporation's Miami mental-health clinics, which billed Medicare about $205 million (roughly $87 million paid) through some 866,000 false claims, and was ordered to pay about $87.5 million in restitution. President Trump commuted Duran's sentence to time served on May 28, 2025, and the commutation text drops the restitution; co-owner Judith Negron was commuted earlier (NBC Miami; DOJ Office of the Pardon Attorney; Governor of California clemency tracker citing DOJ records).",
+      "blurb": "Former Miami-area chain of mental health day-treatment clinics.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Co-owner Lawrence Duran pleaded guilty in 2011 to Medicare fraud, health care fraud and money laundering over American Therapeutic Corporation's Miami mental-health clinics, which billed Medicare about $205 million (roughly $87 million paid) through some 866,000 false claims, and was ordered to pay about $87.5 million in restitution. President Trump commuted Duran's sentence to time served on May 28, 2025, and the commutation text drops the restitution; co-owner Judith Negron was commuted earlier (NBC Miami; DOJ Office of the Pardon Attorney; Governor of California clemency tracker citing DOJ records).",
+          "date": "2025-05",
+          "amountUsd": 87533863,
+          "amountKind": "fine",
+          "actor": "US President (commutation)",
+          "sourceUrl": "https://www.justice.gov/pardon/media/1402041/dl?inline"
+        }
+      ],
+      "addedAt": "2026-10-10"
     }
   ]
 }

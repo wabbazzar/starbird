@@ -2633,6 +2633,21 @@
         "royal_bank_of_scotland",
         "zimmer_biomet"
       ]
+    },
+    {
+      "id": "2026-10-10-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-10",
+      "title": "Pardoned: three companies whose penalties vanished",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Presidential clemency in 2025–2026 wiped out fines and restitution for an Ozy Media founder, a Michigan diesel shop and a Miami Medicare-fraud clinic chain.",
+      "body": "Starbird's source-discovery pass this run turned to clemency records: the Office of the Pardon Attorney's documents and press coverage of who received relief, and what it cost the public.\n\nOzy Media's founder Carlos Watson was convicted of securities and wire fraud conspiracy and aggravated identity theft; hours before he was due to surrender in March 2025, his prison term and the company's probation were commuted, erasing a restitution and forfeiture order reported at about $96 million.\n\nAmerican Therapeutic Corporation, a Miami clinic chain, billed Medicare about $205 million in false claims; co-owner Lawrence Duran's sentence was commuted in May 2025 and the roughly $87 million restitution obligation dropped with it.\n\nDiesel Freak LLC, a Michigan shop that pleaded guilty to Clean Air Act violations over emissions-control deletes and was fined $750,000, was pardoned on July 3, 2026. The common thread: criminal accountability, including money owed to victims or regulators, ended by executive action.",
+      "entityIds": [
+        "american_therapeutic_corp",
+        "diesel_freak_llc",
+        "ozy_media"
+      ]
     }
   ]
 }
