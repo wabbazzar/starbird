@@ -27,3 +27,4 @@ tmp/
 
 # Augur feedback inbox (Signal "tell starbird to ..." -> nightly triage)
 /data/
+.agents/shoulder.env
