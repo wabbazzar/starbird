@@ -235,6 +235,7 @@ ticket's; stage only this ticket's files (`git add <paths>`, never `-A`).
 _(builder appends per phase: plan, commit hash, `builder: subagent (N agents)` /
 `builder: inline (<reason>)`, deferrals, and the Phase-1 captured signatures.)_
 - **Phase 2** — builder: subagent (1 agent). `scripts/lib/claude-preflight.sh` + `tests/unit/runner-auth-preflight.test.ts` (6 cases a–f). `bash -n` ok; `npx vitest run` 4 files / 29 tests green (re-run by orchestrator). Mutation check (auth regex → `ZZZNEVERMATCH`) turned (a) and (f) red, restored → green. Added `PREFLIGHT_TIMEOUT_S` override (default 60; layer 1 uses min(20, it)).
+- **Phase 3** — builder: inline (≈30-line edit to a file already read; orchestrator must read gate output). Added `auth_expired()` beside `fatal()` and the preflight call after `CLAUDE_BIN` resolution (before the retry loop). Page uses `${QUARTET_NOTIFY_CMD:-$NOTIFY}` (+`command -v`). Guard test `runner-auth-preflight-wiring.test.ts`: 3/3 pass post-change, 3/3 FAIL against `HEAD:scripts/starbird-runner.sh` (pre-change). `bash -n` ok; vitest 5 files / 32 tests.
 
 ## Definition of Done (roll-up)
 

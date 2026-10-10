@@ -44,6 +44,21 @@ fatal() {
 $(tail -15 "$LOG_FILE" 2>/dev/null)" || true
   exit "$code"
 }
+# Expired/invalid claude session: distinct job.end reason, immediate page,
+# exit 2, no retry. Pages via the shared quartet path (QUARTET_NOTIFY_CMD is
+# baked into units at install; fall back to the repo's notify.sh).
+auth_expired() {
+  trap - ERR
+  echo "[starbird-runner] AUTH EXPIRED: claude session invalid; aborting before research loop" >> "$LOG_FILE"
+  [ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.end \
+    mode="$MODE" status="fail" exit_code=2 \
+    duration_s="$(( $(date +%s) - JOB_START ))" reason="auth_expired" || true
+  local notify="${QUARTET_NOTIFY_CMD:-$NOTIFY}"
+  command -v "$notify" >/dev/null 2>&1 && "$notify" "Starbird Runner AUTH EXPIRED — $MODE" \
+    "claude session is expired or invalid; no research was run. Fix: run \`claude\` interactively on wabbazzar-ice and /login.
+$(tail -5 "$LOG_FILE" 2>/dev/null)" || true
+  exit 2
+}
 # bash fires ERR traps even where the script deliberately disabled errexit
 # (the claude retry loop runs under `set +e` and handles failures itself) —
 # so only die when -e is actually on. Without the guard, a budget-capped
@@ -139,6 +154,19 @@ if [ -z "$CLAUDE_BIN" ] || [ ! -x "$CLAUDE_BIN" ]; then
   fatal 1 "no claude binary found"
 fi
 echo "[starbird-runner] using claude binary: $CLAUDE_BIN ($("$CLAUDE_BIN" --version 2>/dev/null | head -1))" >> "$LOG_FILE"
+
+# ── Pre-flight: is the claude OAuth session still valid? ────────────────
+# An expired session fails every attempt in the retry loop below, burning
+# time (and, on some failure shapes, budget) before anyone hears about it.
+# Catch it here, page once, and exit without retrying. Non-auth probe
+# failures fail open (the lib logs a WARN) so a transient blip never blocks
+# the nightly run. No token auto-refresh: the fix is a manual `/login`.
+# shellcheck source=lib/claude-preflight.sh
+source "$STARBIRD_DIR/scripts/lib/claude-preflight.sh"
+PREFLIGHT_OUT="$STARBIRD_DIR/tmp/starbird-runner-preflight.json"
+if ! PREFLIGHT_OUT="$PREFLIGHT_OUT" MODEL="$MODEL" CLAUDE_BIN="$CLAUDE_BIN" LOG_FILE="$LOG_FILE" claude_preflight_auth; then
+  auth_expired
+fi
 
 # Budget scales with target: $0.50 per pair + $0.50 overhead, capped.
 BUDGET_BASE=$(python3 -c "print(max(0.50, 0.50 * $TARGET_PAIRS + 0.50))")
