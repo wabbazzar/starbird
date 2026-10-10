@@ -91,4 +91,5 @@ line here so no future caller — agent or human — repeats it. This is the
 project's **learning surface**: operator corrections and post-mortems land here
 as reviewable, revertable edits.
 
-- _(none yet)_
+- `starbird-runner.sh` hard-codes `STARBIRD_DIR`, `NOTIFY` and `LOG_EVENT`; to test it from a worktree or without paging/logging to the live stream, run a `sed`-rewritten copy with those three lines pointed at stubs (see `docs/tickets/pending/runner-auth-preflight.md` Phase 4). Running it directly from a worktree operates on the main checkout.
+- The runner's auth pre-flight pages via `${QUARTET_NOTIFY_CMD:-$NOTIFY}`; `QUARTET_NOTIFY_CMD` is only set inside units, so an interactive shell falls back to `wabbazzar-ice/scripts/notify.sh`.

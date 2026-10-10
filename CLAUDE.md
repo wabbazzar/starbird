@@ -15,6 +15,8 @@ The research runner (`scripts/starbird-runner.sh`) has several env vars:
 | `MAX_ITERATIONS` | 40 | For `run-until-full.sh` only. Hard cap on loop iterations. |
 | `MAX_SPEND_USD` | 150 | For `run-until-full.sh` only. Hard cap on total spend across all iterations. |
 
+The runner pre-flights the `claude` OAuth session (`scripts/lib/claude-preflight.sh`) before the paid loop: an expired/invalid session exits 2 with `job.end reason=auth_expired` and one page via `${QUARTET_NOTIFY_CMD:-notify.sh}`, no retries. Non-auth probe failures fail open. Fix is manual: run `claude` and `/login`.
+
 ### Common invocations
 
 ```bash
