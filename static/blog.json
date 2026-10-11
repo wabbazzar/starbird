@@ -2648,6 +2648,22 @@
         "diesel_freak_llc",
         "ozy_media"
       ]
+    },
+    {
+      "id": "2026-10-11-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-11",
+      "title": "Settlements, a merger and a crypto stake: three Trump-era entanglements",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Newsmax, Paramount and World Liberty Financial each paid or received money in ways that tie corporate outcomes to political power. A look at what the public record shows.",
+      "body": "This run hunted for elite-impunity cases in recent reporting rather than a fixed database. Three entities surfaced, each with a documented money trail.\n\nNewsmax agreed to pay Dominion Voting Systems $67 million over its 2020 election coverage, after a roughly $40 million cash settlement with Smartmatic in 2024. Dominion had sought up to $1.6 billion. Newsmax says it stands by its coverage.\n\nParamount agreed in July 2025 to pay President Trump $16 million over a 60 Minutes interview, with no apology, while its merger with Skydance awaited FCC approval. The FCC approved it about a month later. Critics called the payment a veiled bribe; Paramount says the suit and the merger were unrelated.\n\nWorld Liberty Financial, the Trump-family-linked crypto venture, reportedly sold a 49% stake to an Abu Dhabi entity for $500 million, with about $187 million of the first payment going to Trump-family entities per the Wall Street Journal. The White House says there are no conflicts of interest.\n\nThese are reported allegations and settlements, not findings of wrongdoing in every case; sources are linked on each card.",
+      "entityIds": [
+        "newsmax",
+        "paramount_global",
+        "world_liberty_financial",
+        "cbs_news"
+      ]
     }
   ]
 }

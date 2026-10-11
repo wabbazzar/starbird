@@ -18591,6 +18591,114 @@
         }
       ],
       "addedAt": "2026-10-10"
+    },
+    {
+      "id": "newsmax",
+      "name": "Newsmax",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Newsmax is a media/finance operator in Starbird's elite-impunity quest. Newsmax paid $67 million to settle Dominion Voting Systems' defamation suit over its 2020 election coverage (three installments through January 2027, per its SEC filing, with Dominion having sought up to $1.6 billion), after a roughly $40 million cash settlement with Smartmatic in September 2024. Newsmax says it stands by its coverage as fair and balanced.",
+      "blurb": "American conservative media company operating the Newsmax TV channel and website.",
+      "brands": [
+        "newsmax"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.nbcnews.com/news/us-news/newsmax-pay-67m-settle-defamation-lawsuit-voting-machine-company-rcna225604",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-11",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Newsmax paid $67 million to settle Dominion Voting Systems' defamation suit over its 2020 election coverage (three installments through January 2027, per its SEC filing, with Dominion having sought up to $1.6 billion), after a roughly $40 million cash settlement with Smartmatic in September 2024. Newsmax says it stands by its coverage as fair and balanced.",
+          "date": "2025-08",
+          "amountUsd": 67000000,
+          "amountKind": "settlement",
+          "actor": "Dominion Voting Systems",
+          "sourceUrl": "https://www.axios.com/2025/08/18/newsmax-dominion-lawsuit-settlement-2020-election"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "paramount_global",
+      "name": "Paramount Global",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Paramount Global is a media/finance operator in Starbird's elite-impunity quest. In July 2025 Paramount agreed to pay President Trump $16 million to settle his lawsuit over a 2024 60 Minutes interview, with no apology, while its roughly $8 billion merger with Skydance awaited FCC approval; the FCC approved the merger about a month later in a 2-1 vote after Skydance made commitments including ending DEI policies. Critics, including FCC Commissioner Anna Gomez, called the payment a veiled bribe; Paramount said the suit was unrelated to the merger.",
+      "blurb": "American media conglomerate owning CBS, Paramount Pictures, Nickelodeon and streaming services.",
+      "brands": [
+        "cbs_news"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://keyt.com/news/2025/07/01/paramount-settles-trumps-dubious-60-minutes-lawsuit-with-16-million-payout-and-no-apology/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-11",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In July 2025 Paramount agreed to pay President Trump $16 million to settle his lawsuit over a 2024 60 Minutes interview, with no apology, while its roughly $8 billion merger with Skydance awaited FCC approval; the FCC approved the merger about a month later in a 2-1 vote after Skydance made commitments including ending DEI policies. Critics, including FCC Commissioner Anna Gomez, called the payment a veiled bribe; Paramount said the suit was unrelated to the merger.",
+          "date": "2025-07",
+          "amountUsd": 16000000,
+          "amountKind": "settlement",
+          "actor": "FCC",
+          "sourceUrl": "https://www.pbs.org/newshour/economy/fcc-approves-paramounts-8-billion-deal-with-skydance-capping-months-of-turmoil"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "world_liberty_financial",
+      "name": "World Liberty Financial",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "World Liberty Financial is a media/finance operator in Starbird's elite-impunity quest. The Wall Street Journal reported that Aryam Investment 1, an Abu Dhabi entity backed by Sheikh Tahnoon bin Zayed Al Nahyan, agreed in January 2025 to buy a 49% stake in World Liberty Financial for $500 million, with about $187 million of the first $250 million reportedly going to Trump-family entities. The deal was signed by Eric Trump days before the inauguration and was not publicly disclosed; Senate Democrats filed S.Res. 243 alleging a Foreign Emoluments Clause violation, while a White House spokesperson said there are no conflicts of interest and Trump said he was unaware of the deal.",
+      "blurb": "Crypto platform issuing the WLFI governance token and a USD-pegged stablecoin; Trump-family linked.",
+      "brands": [
+        "world_liberty_financial"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.congress.gov/119/bills/sres243/BILLS-119sres243is.htm",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-11",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The Wall Street Journal reported that Aryam Investment 1, an Abu Dhabi entity backed by Sheikh Tahnoon bin Zayed Al Nahyan, agreed in January 2025 to buy a 49% stake in World Liberty Financial for $500 million, with about $187 million of the first $250 million reportedly going to Trump-family entities. The deal was signed by Eric Trump days before the inauguration and was not publicly disclosed; Senate Democrats filed S.Res. 243 alleging a Foreign Emoluments Clause violation, while a White House spokesperson said there are no conflicts of interest and Trump said he was unaware of the deal.",
+          "date": "2025-01",
+          "amountUsd": 500000000,
+          "amountKind": "deal",
+          "actor": "Aryam Investment 1",
+          "sourceUrl": "https://cointelegraph.com/news/uae-backed-firm-buys-49-percent-trump-linked-world-liberty-wsj"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -39851,6 +39959,99 @@
         }
       ],
       "addedAt": "2026-10-10"
+    },
+    {
+      "id": "newsmax",
+      "avoid": "Newsmax",
+      "ownership": [
+        {
+          "firmId": "newsmax",
+          "stake": "majority",
+          "since": "1998"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Newsmax is owned by Newsmax. Newsmax paid $67 million to settle Dominion Voting Systems' defamation suit over its 2020 election coverage (three installments through January 2027, per its SEC filing, with Dominion having sought up to $1.6 billion), after a roughly $40 million cash settlement with Smartmatic in September 2024. Newsmax says it stands by its coverage as fair and balanced.",
+      "blurb": "American cable news channel and digital media company.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-11",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Newsmax paid $67 million to settle Dominion Voting Systems' defamation suit over its 2020 election coverage (three installments through January 2027, per its SEC filing, with Dominion having sought up to $1.6 billion), after a roughly $40 million cash settlement with Smartmatic in September 2024. Newsmax says it stands by its coverage as fair and balanced.",
+          "date": "2025-08",
+          "amountUsd": 67000000,
+          "amountKind": "settlement",
+          "actor": "Dominion Voting Systems",
+          "sourceUrl": "https://www.axios.com/2025/08/18/newsmax-dominion-lawsuit-settlement-2020-election"
+        }
+      ]
+    },
+    {
+      "id": "cbs_news",
+      "avoid": "CBS News",
+      "ownership": [
+        {
+          "firmId": "paramount_global",
+          "stake": "majority",
+          "since": "1927"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "CBS News is owned by Paramount Global. In July 2025 Paramount agreed to pay President Trump $16 million to settle his lawsuit over a 2024 60 Minutes interview, with no apology, while its roughly $8 billion merger with Skydance awaited FCC approval; the FCC approved the merger about a month later in a 2-1 vote after Skydance made commitments including ending DEI policies. Critics, including FCC Commissioner Anna Gomez, called the payment a veiled bribe; Paramount said the suit was unrelated to the merger.",
+      "blurb": "American broadcast television news division of CBS.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-11",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In July 2025 Paramount agreed to pay President Trump $16 million to settle his lawsuit over a 2024 60 Minutes interview, with no apology, while its roughly $8 billion merger with Skydance awaited FCC approval; the FCC approved the merger about a month later in a 2-1 vote after Skydance made commitments including ending DEI policies. Critics, including FCC Commissioner Anna Gomez, called the payment a veiled bribe; Paramount said the suit was unrelated to the merger.",
+          "date": "2025-07",
+          "amountUsd": 16000000,
+          "amountKind": "settlement",
+          "actor": "FCC",
+          "sourceUrl": "https://www.pbs.org/newshour/economy/fcc-approves-paramounts-8-billion-deal-with-skydance-capping-months-of-turmoil"
+        }
+      ]
+    },
+    {
+      "id": "world_liberty_financial",
+      "avoid": "World Liberty Financial",
+      "ownership": [
+        {
+          "firmId": "world_liberty_financial",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "World Liberty Financial is owned by World Liberty Financial. The Wall Street Journal reported that Aryam Investment 1, an Abu Dhabi entity backed by Sheikh Tahnoon bin Zayed Al Nahyan, agreed in January 2025 to buy a 49% stake in World Liberty Financial for $500 million, with about $187 million of the first $250 million reportedly going to Trump-family entities. The deal was signed by Eric Trump days before the inauguration and was not publicly disclosed; Senate Democrats filed S.Res. 243 alleging a Foreign Emoluments Clause violation, while a White House spokesperson said there are no conflicts of interest and Trump said he was unaware of the deal.",
+      "blurb": "Cryptocurrency and stablecoin platform linked to the Trump family.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-11",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "The Wall Street Journal reported that Aryam Investment 1, an Abu Dhabi entity backed by Sheikh Tahnoon bin Zayed Al Nahyan, agreed in January 2025 to buy a 49% stake in World Liberty Financial for $500 million, with about $187 million of the first $250 million reportedly going to Trump-family entities. The deal was signed by Eric Trump days before the inauguration and was not publicly disclosed; Senate Democrats filed S.Res. 243 alleging a Foreign Emoluments Clause violation, while a White House spokesperson said there are no conflicts of interest and Trump said he was unaware of the deal.",
+          "date": "2025-01",
+          "amountUsd": 500000000,
+          "amountKind": "deal",
+          "actor": "Aryam Investment 1",
+          "sourceUrl": "https://cointelegraph.com/news/uae-backed-firm-buys-49-percent-trump-linked-world-liberty-wsj"
+        }
+      ]
     }
   ]
 }
