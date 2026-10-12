@@ -18699,6 +18699,108 @@
       ],
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "danske_bank",
+      "name": "Danske Bank A/S",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Denmark's largest bank by assets, headquartered in Copenhagen. In December 2022 Danske Bank pleaded guilty to one count of conspiracy to commit bank fraud and agreed to forfeit about $2.059 billion for misleading U.S. banks about anti-money-laundering controls at its Estonia branch, which routed roughly $160 billion in high-risk non-resident customer flows (including from Russia) through the U.S. financial system (U.S. DOJ; ERR; Reuters). Part of the total was credited against payments to Danish authorities and a roughly $178 million SEC penalty (Financial Times).",
+      "blurb": "Danish multinational bank offering retail, corporate, and investment banking across the Nordics.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://www.justice.gov/usao-sdny/pr/danske-bank-pleads-guilty-fraud-us-banks-multi-billion-dollar-scheme-access-us",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-12",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2022 Danske Bank pleaded guilty to one count of conspiracy to commit bank fraud and agreed to forfeit about $2.059 billion for misleading U.S. banks about anti-money-laundering controls at its Estonia branch, which routed roughly $160 billion in high-risk non-resident customer flows (including from Russia) through the U.S. financial system (U.S. DOJ; ERR; Reuters). Part of the total was credited against payments to Danish authorities and a roughly $178 million SEC penalty (Financial Times).",
+          "date": "2022-12",
+          "amountUsd": 2059000000,
+          "amountKind": "fine",
+          "actor": "U.S. DOJ",
+          "sourceUrl": "https://www.justice.gov/usao-sdny/pr/danske-bank-pleads-guilty-fraud-us-banks-multi-billion-dollar-scheme-access-us"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "telia_company",
+      "name": "Telia Company AB",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Stockholm-based Nordic and Baltic telecom operator, formerly TeliaSonera. In September 2017 Telia and its Uzbek subsidiary Coscom LLC resolved a global foreign-bribery case for more than $965 million: the companies admitted paying over $331 million in bribes to an Uzbek government official, identified as Gulnara Karimova, the president's daughter, to enter and expand in the Uzbek telecom market. Telia entered a deferred prosecution agreement and Coscom pleaded guilty to conspiracy to violate the FCPA, with parallel SEC and Dutch resolutions (U.S. DOJ; Harvard Law School Forum on Corporate Governance).",
+      "blurb": "Swedish telecommunications operator serving the Nordic and Baltic markets.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://www.justice.gov/archives/opa/pr/telia-company-ab-and-its-uzbek-subsidiary-enter-global-foreign-bribery-resolution-more-965",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-12",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In September 2017 Telia and its Uzbek subsidiary Coscom LLC resolved a global foreign-bribery case for more than $965 million: the companies admitted paying over $331 million in bribes to an Uzbek government official, identified as Gulnara Karimova, the president's daughter, to enter and expand in the Uzbek telecom market. Telia entered a deferred prosecution agreement and Coscom pleaded guilty to conspiracy to violate the FCPA, with parallel SEC and Dutch resolutions (U.S. DOJ; Harvard Law School Forum on Corporate Governance).",
+          "date": "2017-09",
+          "amountUsd": 965000000,
+          "amountKind": "settlement",
+          "actor": "U.S. DOJ",
+          "sourceUrl": "https://www.justice.gov/archives/opa/pr/telia-company-ab-and-its-uzbek-subsidiary-enter-global-foreign-bribery-resolution-more-965"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "vitol_group",
+      "name": "Vitol Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Geneva/Rotterdam-based independent energy and commodities trader. In December 2020 Vitol Inc., the U.S. affiliate of the Vitol group, agreed to pay over $135 million in a deferred-prosecution resolution of foreign-bribery charges over schemes in Brazil, Ecuador and Mexico; between 2005 and 2014 Vitol and co-conspirators paid over $8 million to at least four Petrobras officials in exchange for confidential pricing and competitor information. Vitol also agreed to a $16 million CFTC penalty and about $12.7 million disgorgement for related trading conduct (U.S. DOJ; CFTC).",
+      "blurb": "Global energy and commodities trader dealing in crude oil, fuels, and power.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.justice.gov/opa/pr/vitol-inc-agrees-pay-over-135-million-resolve-foreign-bribery-case",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-12",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2020 Vitol Inc., the U.S. affiliate of the Vitol group, agreed to pay over $135 million in a deferred-prosecution resolution of foreign-bribery charges over schemes in Brazil, Ecuador and Mexico; between 2005 and 2014 Vitol and co-conspirators paid over $8 million to at least four Petrobras officials in exchange for confidential pricing and competitor information. Vitol also agreed to a $16 million CFTC penalty and about $12.7 million disgorgement for related trading conduct (U.S. DOJ; CFTC).",
+          "date": "2020-12",
+          "amountUsd": 135000000,
+          "amountKind": "settlement",
+          "actor": "U.S. DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/vitol-inc-agrees-pay-over-135-million-resolve-foreign-bribery-case"
+        }
+      ],
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -40050,6 +40152,99 @@
           "amountKind": "deal",
           "actor": "Aryam Investment 1",
           "sourceUrl": "https://cointelegraph.com/news/uae-backed-firm-buys-49-percent-trump-linked-world-liberty-wsj"
+        }
+      ]
+    },
+    {
+      "id": "danske_bank",
+      "avoid": "Danske Bank",
+      "ownership": [
+        {
+          "firmId": "danske_bank",
+          "stake": "majority",
+          "since": "1871"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "In December 2022 Danske Bank pleaded guilty to one count of conspiracy to commit bank fraud and agreed to forfeit about $2.059 billion for misleading U.S. banks about anti-money-laundering controls at its Estonia branch, which routed roughly $160 billion in high-risk non-resident customer flows (including from Russia) through the U.S. financial system (U.S. DOJ; ERR; Reuters). Part of the total was credited against payments to Danish authorities and a roughly $178 million SEC penalty (Financial Times).",
+      "blurb": "Danish bank offering retail, corporate, and investment banking services in the Nordic region.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-12",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2022 Danske Bank pleaded guilty to one count of conspiracy to commit bank fraud and agreed to forfeit about $2.059 billion for misleading U.S. banks about anti-money-laundering controls at its Estonia branch, which routed roughly $160 billion in high-risk non-resident customer flows (including from Russia) through the U.S. financial system (U.S. DOJ; ERR; Reuters). Part of the total was credited against payments to Danish authorities and a roughly $178 million SEC penalty (Financial Times).",
+          "date": "2022-12",
+          "amountUsd": 2059000000,
+          "amountKind": "fine",
+          "actor": "U.S. DOJ",
+          "sourceUrl": "https://www.justice.gov/usao-sdny/pr/danske-bank-pleads-guilty-fraud-us-banks-multi-billion-dollar-scheme-access-us"
+        }
+      ]
+    },
+    {
+      "id": "telia_company",
+      "avoid": "Telia",
+      "ownership": [
+        {
+          "firmId": "telia_company",
+          "stake": "majority",
+          "since": "1853"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "In September 2017 Telia and its Uzbek subsidiary Coscom LLC resolved a global foreign-bribery case for more than $965 million: the companies admitted paying over $331 million in bribes to an Uzbek government official, identified as Gulnara Karimova, the president's daughter, to enter and expand in the Uzbek telecom market. Telia entered a deferred prosecution agreement and Coscom pleaded guilty to conspiracy to violate the FCPA, with parallel SEC and Dutch resolutions (U.S. DOJ; Harvard Law School Forum on Corporate Governance).",
+      "blurb": "Swedish telecom operator providing mobile, broadband, and TV services in the Nordic and Baltic regions.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-12",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In September 2017 Telia and its Uzbek subsidiary Coscom LLC resolved a global foreign-bribery case for more than $965 million: the companies admitted paying over $331 million in bribes to an Uzbek government official, identified as Gulnara Karimova, the president's daughter, to enter and expand in the Uzbek telecom market. Telia entered a deferred prosecution agreement and Coscom pleaded guilty to conspiracy to violate the FCPA, with parallel SEC and Dutch resolutions (U.S. DOJ; Harvard Law School Forum on Corporate Governance).",
+          "date": "2017-09",
+          "amountUsd": 965000000,
+          "amountKind": "settlement",
+          "actor": "U.S. DOJ",
+          "sourceUrl": "https://www.justice.gov/archives/opa/pr/telia-company-ab-and-its-uzbek-subsidiary-enter-global-foreign-bribery-resolution-more-965"
+        }
+      ]
+    },
+    {
+      "id": "vitol_group",
+      "avoid": "Vitol",
+      "ownership": [
+        {
+          "firmId": "vitol_group",
+          "stake": "majority",
+          "since": "1966"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "In December 2020 Vitol Inc., the U.S. affiliate of the Vitol group, agreed to pay over $135 million in a deferred-prosecution resolution of foreign-bribery charges over schemes in Brazil, Ecuador and Mexico; between 2005 and 2014 Vitol and co-conspirators paid over $8 million to at least four Petrobras officials in exchange for confidential pricing and competitor information. Vitol also agreed to a $16 million CFTC penalty and about $12.7 million disgorgement for related trading conduct (U.S. DOJ; CFTC).",
+      "blurb": "Global energy and commodities trading company dealing in crude oil, refined products, and power.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-12",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In December 2020 Vitol Inc., the U.S. affiliate of the Vitol group, agreed to pay over $135 million in a deferred-prosecution resolution of foreign-bribery charges over schemes in Brazil, Ecuador and Mexico; between 2005 and 2014 Vitol and co-conspirators paid over $8 million to at least four Petrobras officials in exchange for confidential pricing and competitor information. Vitol also agreed to a $16 million CFTC penalty and about $12.7 million disgorgement for related trading conduct (U.S. DOJ; CFTC).",
+          "date": "2020-12",
+          "amountUsd": 135000000,
+          "amountKind": "settlement",
+          "actor": "U.S. DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/vitol-inc-agrees-pay-over-135-million-resolve-foreign-bribery-case"
         }
       ]
     }

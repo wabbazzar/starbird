@@ -2664,6 +2664,21 @@
         "world_liberty_financial",
         "cbs_news"
       ]
+    },
+    {
+      "id": "2026-10-12-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-12",
+      "title": "Three enablers the DOJ caught: Danske, Telia, Vitol",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three corporate-crime resolutions from DOJ enforcement records: a bank that pushed Russian-linked money through U.S. banks, a telecom that bribed a president's daughter, and a trader that bribed Petrobras officials.",
+      "body": "This run mined DOJ foreign-bribery and fraud resolutions as a new angle on elite impunity: cases where a company paid, and the people who benefited stayed mostly out of reach.\n\nDanske Bank pleaded guilty in December 2022 to conspiracy to commit bank fraud and agreed to forfeit about $2.059 billion. Prosecutors said it misled U.S. banks about anti-money-laundering controls at its Estonia branch, which moved roughly $160 billion in high-risk non-resident flows, including from Russia.\n\nTelia and its Uzbek subsidiary Coscom resolved a case in 2017 for more than $965 million after admitting over $331 million in bribes to an Uzbek official identified as Gulnara Karimova, the president's daughter.\n\nVitol Inc. agreed in 2020 to pay over $135 million over bribery schemes in Brazil, Ecuador and Mexico, including more than $8 million to Petrobras officials between 2005 and 2014. The thread: access to markets bought through politically connected intermediaries, settled with corporate payments.",
+      "entityIds": [
+        "danske_bank",
+        "telia_company",
+        "vitol_group"
+      ]
     }
   ]
 }
