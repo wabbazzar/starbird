@@ -2679,6 +2679,22 @@
         "telia_company",
         "vitol_group"
       ]
+    },
+    {
+      "id": "2026-10-13-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-13",
+      "title": "Bribery cases that ended in dropped charges and deferrals",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three companies, Cognizant, Stericycle and Beam Suntory (Jim Beam), resolved foreign-bribery cases through settlements or deferred prosecution, and two saw later federal reversals or dismissals.",
+      "body": "Public Citizen's study of repeat corporate offenders under DOJ leniency agreements led to this run's source trail. Several companies on its list were already in the database. Beam Suntory, Stericycle and Cognizant were not.\n\nBeam Suntory, maker of Jim Beam, entered a three-year deferred prosecution agreement on October 23, 2020 and paid $19,572,885 over bribes to an Indian official, routed through third-party promoters and distributors, to win a license for a product line. It also paid the SEC roughly $6.18 million in disgorgement plus a $2 million penalty.\n\nStericycle agreed in April 2022 to pay over $84 million to the DOJ, SEC and Brazilian authorities. Prosecutors said hundreds of bribe payments totaling about $10.5 million went to officials in Brazil, Mexico and Argentina, earning at least $21.5 million in profit. In April 2025 prosecutors moved to dismiss the criminal case before the DPA expired.\n\nCognizant settled SEC charges for $25 million in 2019 over a $2 million bribe to speed a Chennai campus permit. In April 2025 the DOJ dropped the FCPA case against two former executives just before trial, citing the executive order pausing FCPA enforcement.",
+      "entityIds": [
+        "beam_suntory",
+        "cognizant",
+        "stericycle",
+        "jim_beam"
+      ]
     }
   ]
 }

@@ -18801,6 +18801,102 @@
       ],
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "cognizant",
+      "name": "Cognizant Technology Solutions",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Cognizant paid $25 million in 2019 to settle SEC charges over a scheme to pay a $2 million bribe to an Indian official to expedite a Chennai campus construction permit. In April 2025 the DOJ dismissed, with prejudice, the FCPA case against two former senior executives, Gordon Coburn and Steven Schwartz, just before trial, citing the February 2025 executive order pausing FCPA enforcement (Baker Donelson; Mondaq). Tagged under elite impunity: corporate and executive accountability for bribery was reduced or dropped.",
+      "blurb": "IT services and consulting company providing outsourcing and digital engineering to enterprises.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 50,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.bakerdonelson.com/doj-dismisses-fcpa-charges-against-former-cognizant-executives-following-new-policy",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Cognizant paid $25 million in 2019 to settle SEC charges over a scheme to pay a $2 million bribe to an Indian official to expedite a Chennai campus construction permit. In April 2025 the DOJ dismissed, with prejudice, the FCPA case against two former senior executives, Gordon Coburn and Steven Schwartz, just before trial, citing the February 2025 executive order pausing FCPA enforcement (Baker Donelson; Mondaq).",
+          "date": "2025-04",
+          "amountUsd": 25000000,
+          "amountKind": "settlement",
+          "actor": "SEC / DOJ",
+          "sourceUrl": "https://www.bakerdonelson.com/doj-dismisses-fcpa-charges-against-former-cognizant-executives-following-new-policy"
+        }
+      ],
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "stericycle",
+      "name": "Stericycle",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Stericycle caused hundreds of bribe payments totaling about $10.5 million to officials in Brazil, Mexico and Argentina between 2011 and 2016, earning at least $21.5 million in profit, and in April 2022 agreed to pay over $84 million to the DOJ, SEC and Brazilian authorities under a three-year deferred prosecution agreement with a two-year monitor (McGuireWoods; SEC press release 2022-65). In April 2025 federal prosecutors moved to dismiss the criminal information with prejudice before the DPA expired (Willkie Compliance Concourse). Tagged under elite impunity: corporate and executive accountability for bribery was reduced or dropped.",
+      "blurb": "Medical waste disposal, shredding and regulated compliance services provider for healthcare and businesses.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.sec.gov/news/press-release/2022-65",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Stericycle caused hundreds of bribe payments totaling about $10.5 million to officials in Brazil, Mexico and Argentina between 2011 and 2016, earning at least $21.5 million in profit, and in April 2022 agreed to pay over $84 million to the DOJ, SEC and Brazilian authorities under a three-year deferred prosecution agreement with a two-year monitor (McGuireWoods; SEC press release 2022-65). In April 2025 federal prosecutors moved to dismiss the criminal information with prejudice before the DPA expired (Willkie Compliance Concourse).",
+          "date": "2022-04",
+          "amountUsd": 84000000,
+          "amountKind": "fine",
+          "actor": "DOJ / SEC",
+          "sourceUrl": "https://www.sec.gov/news/press-release/2022-65"
+        }
+      ],
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "beam_suntory",
+      "name": "Beam Suntory",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Beam Suntory, maker of Jim Beam, entered a three-year DOJ deferred prosecution agreement on October 23, 2020 and paid $19,572,885 after its Indian subsidiary paid bribes through third-party promoters and distributors to an Indian official to approve a license for a product line; a legal department member worked to avoid uncovering third-party corruption risks. It separately paid about $6.18 million in disgorgement plus a $2 million civil penalty to the SEC (DOJ press release; Freshfields). Tagged under elite impunity: corporate and executive accountability for bribery was reduced or dropped.",
+      "blurb": "Spirits company producing and distributing bourbon, whisky and other distilled liquor brands worldwide.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 46,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.justice.gov/opa/pr/beam-suntory-inc-agrees-pay-over-19-million-resolve-criminal-foreign-bribery-case",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Beam Suntory, maker of Jim Beam, entered a three-year DOJ deferred prosecution agreement on October 23, 2020 and paid $19,572,885 after its Indian subsidiary paid bribes through third-party promoters and distributors to an Indian official to approve a license for a product line; a legal department member worked to avoid uncovering third-party corruption risks. It separately paid about $6.18 million in disgorgement plus a $2 million civil penalty to the SEC (DOJ press release; Freshfields).",
+          "date": "2020-10",
+          "amountUsd": 19572885,
+          "amountKind": "fine",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/beam-suntory-inc-agrees-pay-over-19-million-resolve-criminal-foreign-bribery-case"
+        }
+      ],
+      "addedAt": "2026-10-13"
     }
   ],
   "brands": [
@@ -40247,6 +40343,99 @@
           "sourceUrl": "https://www.justice.gov/opa/pr/vitol-inc-agrees-pay-over-135-million-resolve-foreign-bribery-case"
         }
       ]
+    },
+    {
+      "id": "cognizant",
+      "avoid": "Cognizant",
+      "ownership": [
+        {
+          "firmId": "cognizant",
+          "stake": "majority",
+          "since": "1994"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Cognizant paid $25 million in 2019 to settle SEC charges over a scheme to pay a $2 million bribe to an Indian official to expedite a Chennai campus construction permit. In April 2025 the DOJ dismissed, with prejudice, the FCPA case against two former senior executives, Gordon Coburn and Steven Schwartz, just before trial, citing the February 2025 executive order pausing FCPA enforcement (Baker Donelson; Mondaq).",
+      "blurb": "IT services and consulting company providing outsourcing and digital engineering to enterprises.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Cognizant paid $25 million in 2019 to settle SEC charges over a scheme to pay a $2 million bribe to an Indian official to expedite a Chennai campus construction permit. In April 2025 the DOJ dismissed, with prejudice, the FCPA case against two former senior executives, Gordon Coburn and Steven Schwartz, just before trial, citing the February 2025 executive order pausing FCPA enforcement (Baker Donelson; Mondaq).",
+          "date": "2025-04",
+          "amountUsd": 25000000,
+          "amountKind": "settlement",
+          "actor": "SEC / DOJ",
+          "sourceUrl": "https://www.bakerdonelson.com/doj-dismisses-fcpa-charges-against-former-cognizant-executives-following-new-policy"
+        }
+      ],
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "stericycle",
+      "avoid": "Stericycle",
+      "ownership": [
+        {
+          "firmId": "stericycle",
+          "stake": "majority",
+          "since": "1989"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Stericycle caused hundreds of bribe payments totaling about $10.5 million to officials in Brazil, Mexico and Argentina between 2011 and 2016, earning at least $21.5 million in profit, and in April 2022 agreed to pay over $84 million to the DOJ, SEC and Brazilian authorities under a three-year deferred prosecution agreement with a two-year monitor (McGuireWoods; SEC press release 2022-65). In April 2025 federal prosecutors moved to dismiss the criminal information with prejudice before the DPA expired (Willkie Compliance Concourse).",
+      "blurb": "Medical waste disposal, shredding and regulated compliance services provider for healthcare and businesses.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Stericycle caused hundreds of bribe payments totaling about $10.5 million to officials in Brazil, Mexico and Argentina between 2011 and 2016, earning at least $21.5 million in profit, and in April 2022 agreed to pay over $84 million to the DOJ, SEC and Brazilian authorities under a three-year deferred prosecution agreement with a two-year monitor (McGuireWoods; SEC press release 2022-65). In April 2025 federal prosecutors moved to dismiss the criminal information with prejudice before the DPA expired (Willkie Compliance Concourse).",
+          "date": "2022-04",
+          "amountUsd": 84000000,
+          "amountKind": "fine",
+          "actor": "DOJ / SEC",
+          "sourceUrl": "https://www.sec.gov/news/press-release/2022-65"
+        }
+      ],
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "jim_beam",
+      "avoid": "Jim Beam",
+      "ownership": [
+        {
+          "firmId": "beam_suntory",
+          "stake": "majority",
+          "since": "1795"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Beam Suntory, maker of Jim Beam, entered a three-year DOJ deferred prosecution agreement on October 23, 2020 and paid $19,572,885 after its Indian subsidiary paid bribes through third-party promoters and distributors to an Indian official to approve a license for a product line; a legal department member worked to avoid uncovering third-party corruption risks. It separately paid about $6.18 million in disgorgement plus a $2 million civil penalty to the SEC (DOJ press release; Freshfields).",
+      "blurb": "Spirits company producing and distributing bourbon, whisky and other distilled liquor brands worldwide.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Beam Suntory, maker of Jim Beam, entered a three-year DOJ deferred prosecution agreement on October 23, 2020 and paid $19,572,885 after its Indian subsidiary paid bribes through third-party promoters and distributors to an Indian official to approve a license for a product line; a legal department member worked to avoid uncovering third-party corruption risks. It separately paid about $6.18 million in disgorgement plus a $2 million civil penalty to the SEC (DOJ press release; Freshfields).",
+          "date": "2020-10",
+          "amountUsd": 19572885,
+          "amountKind": "fine",
+          "actor": "DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/beam-suntory-inc-agrees-pay-over-19-million-resolve-criminal-foreign-bribery-case"
+        }
+      ],
+      "addedAt": "2026-10-13"
     }
   ]
 }
