@@ -2695,6 +2695,21 @@
         "stericycle",
         "jim_beam"
       ]
+    },
+    {
+      "id": "2026-10-14-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-14",
+      "title": "Pardons, plea deals and a $15M settlement: three firms that kept going",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three global companies — Samsung, Bolloré and Rio Tinto — each faced bribery allegations or convictions and came out with pardons, negotiated fines or no admission of guilt. For shoppers weighing elite impunity, it shows how corruption cases can end with the company largely intact.",
+      "body": "Samsung's chairman Lee Jae-yong was convicted in 2017 of bribing then-President Park Geun-hye and her confidante to win support for a 2015 affiliate merger that tightened his control of the group. He was paroled in 2021 after about 18 months and pardoned in August 2022, with the government citing the economy.\n\nBolloré is accused by French prosecutors of winning the Lomé and Conakry port concessions in exchange for discounted Havas communications work for the 2010 presidential campaigns in Togo and Guinea. The group itself paid a 12 million euro fine, but a Paris judge refused a 375,000 euro plea deal for Vincent Bolloré and two executives and ordered a trial. The appeal court largely upheld the procedure in November 2025; the trial outcome is not yet confirmed.\n\nRio Tinto agreed in March 2023 to a $15 million SEC penalty over a Guinea consultant, who attempted an improper payment of at least $822,000 to an official and was paid $10.5 million that Rio never verified. The company neither admitted nor denied the findings.\n\nThe common thread is bribery or alleged bribery tied to government favors, and outcomes that left the corporations and their brands intact.",
+      "entityIds": [
+        "bollore_group",
+        "rio_tinto",
+        "samsung_group"
+      ]
     }
   ]
 }

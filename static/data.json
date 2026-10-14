@@ -18897,6 +18897,106 @@
         }
       ],
       "addedAt": "2026-10-13"
+    },
+    {
+      "id": "samsung_group",
+      "name": "Samsung Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Samsung chairman Lee Jae-yong was convicted in 2017 of bribing then-President Park Geun-hye and her confidante to win government support for a 2015 merger of two Samsung affiliates that tightened his control of the group. He was paroled in 2021 after about 18 months in prison and received a presidential pardon in August 2022, justified by the government as helping the economy, which also lifted a five-year post-release employment ban (AP via Yahoo News, SCMP).",
+      "blurb": "South Korean conglomerate making smartphones, semiconductors, and consumer electronics.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 66,
+      "source": "https://scmp.com/news/asia/east-asia/article/3188620/samsung-boss-lee-jae-yong-convicted-bribery-gets-south-korean",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Samsung chairman Lee Jae-yong was convicted in 2017 of bribing then-President Park Geun-hye and her confidante to win government support for a 2015 merger of two Samsung affiliates that tightened his control of the group. He was paroled in 2021 after about 18 months in prison and received a presidential pardon in August 2022, justified by the government as helping the economy, which also lifted a five-year post-release employment ban (AP via Yahoo News, SCMP).",
+          "date": "2022-08",
+          "actor": "South Korean Ministry of Justice",
+          "sourceUrl": "https://scmp.com/news/asia/east-asia/article/3188620/samsung-boss-lee-jae-yong-convicted-bribery-gets-south-korean"
+        }
+      ],
+      "addedAt": "2026-10-14",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "bollore_group",
+      "name": "Bolloré Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "French prosecutors allege the Bolloré group won management of the Lomé (Togo) and Conakry (Guinea) port concessions in exchange for discounted Havas communications work for the 2010 presidential campaigns in those countries. The group itself resolved the case with a 12 million euro fine, but a Paris judge refused to validate a proposed 375,000 euro plea deal for Vincent Bolloré and two executives and ordered a trial for corruption of foreign public officials; the Paris Court of Appeal largely upheld the procedure on 6 November 2025 (Europe 1, AllAfrica). Trial outcome not yet confirmed.",
+      "blurb": "French industrial and media holding group with logistics, transport, and communications interests.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://fr.allafrica.com/stories/202511070411.html",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "French prosecutors allege the Bolloré group won management of the Lomé (Togo) and Conakry (Guinea) port concessions in exchange for discounted Havas communications work for the 2010 presidential campaigns in those countries. The group itself resolved the case with a 12 million euro fine, but a Paris judge refused to validate a proposed 375,000 euro plea deal for Vincent Bolloré and two executives and ordered a trial for corruption of foreign public officials; the Paris Court of Appeal largely upheld the procedure on 6 November 2025 (Europe 1, AllAfrica). Trial outcome not yet confirmed.",
+          "date": "2025-11",
+          "amountUsd": 12000000,
+          "amountKind": "fine",
+          "actor": "Paris Court of Appeal",
+          "sourceUrl": "https://fr.allafrica.com/stories/202511070411.html"
+        }
+      ],
+      "addedAt": "2026-10-14",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "rio_tinto",
+      "name": "Rio Tinto",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In March 2023 Rio Tinto agreed to a $15 million SEC civil penalty over an FCPA bribery scheme: in 2011 it hired a French investment banker, a close friend of a senior Guinean official, to help retain Simandou mining rights; the consultant attempted an improper payment of at least $822,000 to an official and was paid $10.5 million that Rio never verified. Rio neither admitted nor denied the findings (SEC press release 2023-46).",
+      "blurb": "Global mining group producing iron ore, aluminium, and copper.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://www.sec.gov/news/press-release/2023-46",
+      "cats": [
+        "finance"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In March 2023 Rio Tinto agreed to a $15 million SEC civil penalty over an FCPA bribery scheme: in 2011 it hired a French investment banker, a close friend of a senior Guinean official, to help retain Simandou mining rights; the consultant attempted an improper payment of at least $822,000 to an official and was paid $10.5 million that Rio never verified. Rio neither admitted nor denied the findings (SEC press release 2023-46).",
+          "date": "2023-03",
+          "amountUsd": 15000000,
+          "amountKind": "fine",
+          "actor": "SEC",
+          "sourceUrl": "https://www.sec.gov/news/press-release/2023-46"
+        }
+      ],
+      "addedAt": "2026-10-14",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -40436,6 +40536,97 @@
         }
       ],
       "addedAt": "2026-10-13"
+    },
+    {
+      "id": "samsung_group",
+      "avoid": "Samsung",
+      "ownership": [
+        {
+          "firmId": "samsung_group",
+          "stake": "majority",
+          "since": "1938"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Samsung chairman Lee Jae-yong was convicted in 2017 of bribing then-President Park Geun-hye and her confidante to win government support for a 2015 merger of two Samsung affiliates that tightened his control of the group. He was paroled in 2021 after about 18 months in prison and received a presidential pardon in August 2022, justified by the government as helping the economy, which also lifted a five-year post-release employment ban (AP via Yahoo News, SCMP).",
+      "blurb": "Smartphones, TVs, appliances, and semiconductors.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Samsung chairman Lee Jae-yong was convicted in 2017 of bribing then-President Park Geun-hye and her confidante to win government support for a 2015 merger of two Samsung affiliates that tightened his control of the group. He was paroled in 2021 after about 18 months in prison and received a presidential pardon in August 2022, justified by the government as helping the economy, which also lifted a five-year post-release employment ban (AP via Yahoo News, SCMP).",
+          "date": "2022-08",
+          "actor": "South Korean Ministry of Justice",
+          "sourceUrl": "https://scmp.com/news/asia/east-asia/article/3188620/samsung-boss-lee-jae-yong-convicted-bribery-gets-south-korean"
+        }
+      ],
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "bollore_group",
+      "avoid": "Bolloré",
+      "ownership": [
+        {
+          "firmId": "bollore_group",
+          "stake": "majority",
+          "since": "1822"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "French prosecutors allege the Bolloré group won management of the Lomé (Togo) and Conakry (Guinea) port concessions in exchange for discounted Havas communications work for the 2010 presidential campaigns in those countries. The group itself resolved the case with a 12 million euro fine, but a Paris judge refused to validate a proposed 375,000 euro plea deal for Vincent Bolloré and two executives and ordered a trial for corruption of foreign public officials; the Paris Court of Appeal largely upheld the procedure on 6 November 2025 (Europe 1, AllAfrica). Trial outcome not yet confirmed.",
+      "blurb": "French holding group spanning logistics, transport, and media.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "French prosecutors allege the Bolloré group won management of the Lomé (Togo) and Conakry (Guinea) port concessions in exchange for discounted Havas communications work for the 2010 presidential campaigns in those countries. The group itself resolved the case with a 12 million euro fine, but a Paris judge refused to validate a proposed 375,000 euro plea deal for Vincent Bolloré and two executives and ordered a trial for corruption of foreign public officials; the Paris Court of Appeal largely upheld the procedure on 6 November 2025 (Europe 1, AllAfrica). Trial outcome not yet confirmed.",
+          "date": "2025-11",
+          "amountUsd": 12000000,
+          "amountKind": "fine",
+          "actor": "Paris Court of Appeal",
+          "sourceUrl": "https://fr.allafrica.com/stories/202511070411.html"
+        }
+      ],
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "rio_tinto",
+      "avoid": "Rio Tinto",
+      "ownership": [
+        {
+          "firmId": "rio_tinto",
+          "stake": "majority",
+          "since": "1873"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "In March 2023 Rio Tinto agreed to a $15 million SEC civil penalty over an FCPA bribery scheme: in 2011 it hired a French investment banker, a close friend of a senior Guinean official, to help retain Simandou mining rights; the consultant attempted an improper payment of at least $822,000 to an official and was paid $10.5 million that Rio never verified. Rio neither admitted nor denied the findings (SEC press release 2023-46).",
+      "blurb": "Global mining company producing iron ore, aluminium, copper, and lithium.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "In March 2023 Rio Tinto agreed to a $15 million SEC civil penalty over an FCPA bribery scheme: in 2011 it hired a French investment banker, a close friend of a senior Guinean official, to help retain Simandou mining rights; the consultant attempted an improper payment of at least $822,000 to an official and was paid $10.5 million that Rio never verified. Rio neither admitted nor denied the findings (SEC press release 2023-46).",
+          "date": "2023-03",
+          "amountUsd": 15000000,
+          "amountKind": "fine",
+          "actor": "SEC",
+          "sourceUrl": "https://www.sec.gov/news/press-release/2023-46"
+        }
+      ],
+      "addedAt": "2026-10-14"
     }
   ]
 }
