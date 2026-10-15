@@ -18997,6 +18997,108 @@
       "addedAt": "2026-10-14",
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "halliburton",
+      "name": "Halliburton",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Halliburton's then-subsidiary KBR bribed Nigerian officials (1995–2004) to win LNG contracts worth over $6 billion; in February 2009 KBR pleaded guilty and paid a $402 million fine, while Halliburton received a two-year non-prosecution agreement without admitting wrongdoing and contributed $382 million toward the fine. In 2013 Halliburton pleaded guilty to destroying evidence after the 2010 Deepwater Horizon spill, paying the statutory maximum fine of reportedly $200,000 plus three years' probation (Public Citizen, \"Soft on Corporate Crime\", 2019, from the Duke/UVA Corporate Prosecution Registry). Quest: elite_impunity_general.",
+      "blurb": "Oilfield services and engineering company serving oil and gas producers worldwide.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Halliburton's then-subsidiary KBR bribed Nigerian officials (1995–2004) to win LNG contracts worth over $6 billion; in February 2009 KBR pleaded guilty and paid a $402 million fine, while Halliburton received a two-year non-prosecution agreement without admitting wrongdoing and contributed $382 million toward the fine. In 2013 Halliburton pleaded guilty to destroying evidence after the 2010 Deepwater Horizon spill, paying the statutory maximum fine of reportedly $200,000 plus three years' probation (Public Citizen, \"Soft on Corporate Crime\", 2019, from the Duke/UVA Corporate Prosecution Registry).",
+          "date": "2009-02",
+          "amountUsd": 382000000,
+          "amountKind": "settlement",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-15"
+    },
+    {
+      "id": "stryker",
+      "name": "Stryker",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Stryker has been through repeated federal enforcement without a conviction of the parent: it received an 18-month non-prosecution agreement in October 2005 with no fine over a hip/knee implant kickback scheme among five firms holding nearly 95% of the market; its Stryker Biotech unit pleaded guilty in January 2012 to misbranding and paid a $15 million fine while the government dropped charges against the unit's executives and the felony charges against Stryker were dismissed; and in 2014 it took a second three-year NPA over acquired OtisMed's unapproved knee device after OtisMed pleaded guilty ($34.4 million fine) (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ filings). Quest: elite_impunity_general.",
+      "blurb": "Medical technology company making orthopedic implants, surgical equipment and neurotechnology.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Stryker has been through repeated federal enforcement without a conviction of the parent: it received an 18-month non-prosecution agreement in October 2005 with no fine over a hip/knee implant kickback scheme among five firms holding nearly 95% of the market; its Stryker Biotech unit pleaded guilty in January 2012 to misbranding and paid a $15 million fine while the government dropped charges against the unit's executives and the felony charges against Stryker were dismissed; and in 2014 it took a second three-year NPA over acquired OtisMed's unapproved knee device after OtisMed pleaded guilty ($34.4 million fine) (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ filings).",
+          "date": "2012-01",
+          "amountUsd": 15000000,
+          "amountKind": "fine",
+          "actor": "U.S. Attorney, District of Massachusetts",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-15"
+    },
+    {
+      "id": "smith_and_nephew",
+      "name": "Smith & Nephew",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Smith & Nephew entered two separate deferred prosecution agreements: in September 2007 over a 2002–2006 kickback scheme paying orthopedic surgeons undisclosed consulting fees to favor its implants ($28.9 million fine), and in February 2012 over foreign bribery ($16.8 million penalty plus $5.4 million SEC disgorgement) — a repeat offender that again avoided a criminal conviction (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ press releases). Quest: elite_impunity_general.",
+      "blurb": "London-based maker of orthopedic implants, sports medicine and advanced wound care products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 48,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Smith & Nephew entered two separate deferred prosecution agreements: in September 2007 over a 2002–2006 kickback scheme paying orthopedic surgeons undisclosed consulting fees to favor its implants ($28.9 million fine), and in February 2012 over foreign bribery ($16.8 million penalty plus $5.4 million SEC disgorgement) — a repeat offender that again avoided a criminal conviction (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ press releases).",
+          "date": "2012-02",
+          "amountUsd": 16800000,
+          "amountKind": "fine",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-15"
     }
   ],
   "brands": [
@@ -40627,6 +40729,99 @@
         }
       ],
       "addedAt": "2026-10-14"
+    },
+    {
+      "id": "halliburton",
+      "avoid": "Halliburton",
+      "ownership": [
+        {
+          "firmId": "halliburton",
+          "stake": "majority",
+          "since": "1919"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Halliburton's then-subsidiary KBR bribed Nigerian officials (1995–2004) to win LNG contracts worth over $6 billion; in February 2009 KBR pleaded guilty and paid a $402 million fine, while Halliburton received a two-year non-prosecution agreement without admitting wrongdoing and contributed $382 million toward the fine. In 2013 Halliburton pleaded guilty to destroying evidence after the 2010 Deepwater Horizon spill, paying the statutory maximum fine of reportedly $200,000 plus three years' probation (Public Citizen, \"Soft on Corporate Crime\", 2019, from the Duke/UVA Corporate Prosecution Registry).",
+      "blurb": "Oilfield services and engineering company serving oil and gas producers worldwide.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Halliburton's then-subsidiary KBR bribed Nigerian officials (1995–2004) to win LNG contracts worth over $6 billion; in February 2009 KBR pleaded guilty and paid a $402 million fine, while Halliburton received a two-year non-prosecution agreement without admitting wrongdoing and contributed $382 million toward the fine. In 2013 Halliburton pleaded guilty to destroying evidence after the 2010 Deepwater Horizon spill, paying the statutory maximum fine of reportedly $200,000 plus three years' probation (Public Citizen, \"Soft on Corporate Crime\", 2019, from the Duke/UVA Corporate Prosecution Registry).",
+          "date": "2009-02",
+          "amountUsd": 382000000,
+          "amountKind": "settlement",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-15"
+    },
+    {
+      "id": "stryker",
+      "avoid": "Stryker",
+      "ownership": [
+        {
+          "firmId": "stryker",
+          "stake": "majority",
+          "since": "1941"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Stryker has been through repeated federal enforcement without a conviction of the parent: it received an 18-month non-prosecution agreement in October 2005 with no fine over a hip/knee implant kickback scheme among five firms holding nearly 95% of the market; its Stryker Biotech unit pleaded guilty in January 2012 to misbranding and paid a $15 million fine while the government dropped charges against the unit's executives and the felony charges against Stryker were dismissed; and in 2014 it took a second three-year NPA over acquired OtisMed's unapproved knee device after OtisMed pleaded guilty ($34.4 million fine) (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ filings).",
+      "blurb": "Medical technology company making orthopedic implants, surgical equipment and neurotechnology.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Stryker has been through repeated federal enforcement without a conviction of the parent: it received an 18-month non-prosecution agreement in October 2005 with no fine over a hip/knee implant kickback scheme among five firms holding nearly 95% of the market; its Stryker Biotech unit pleaded guilty in January 2012 to misbranding and paid a $15 million fine while the government dropped charges against the unit's executives and the felony charges against Stryker were dismissed; and in 2014 it took a second three-year NPA over acquired OtisMed's unapproved knee device after OtisMed pleaded guilty ($34.4 million fine) (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ filings).",
+          "date": "2012-01",
+          "amountUsd": 15000000,
+          "amountKind": "fine",
+          "actor": "U.S. Attorney, District of Massachusetts",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-15"
+    },
+    {
+      "id": "smith_and_nephew",
+      "avoid": "Smith & Nephew",
+      "ownership": [
+        {
+          "firmId": "smith_and_nephew",
+          "stake": "majority",
+          "since": "1856"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "Smith & Nephew entered two separate deferred prosecution agreements: in September 2007 over a 2002–2006 kickback scheme paying orthopedic surgeons undisclosed consulting fees to favor its implants ($28.9 million fine), and in February 2012 over foreign bribery ($16.8 million penalty plus $5.4 million SEC disgorgement) — a repeat offender that again avoided a criminal conviction (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ press releases).",
+      "blurb": "London-based maker of orthopedic implants, sports medicine and advanced wound care products.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Smith & Nephew entered two separate deferred prosecution agreements: in September 2007 over a 2002–2006 kickback scheme paying orthopedic surgeons undisclosed consulting fees to favor its implants ($28.9 million fine), and in February 2012 over foreign bribery ($16.8 million penalty plus $5.4 million SEC disgorgement) — a repeat offender that again avoided a criminal conviction (Public Citizen, \"Soft on Corporate Crime\", 2019, citing DOJ press releases).",
+          "date": "2012-02",
+          "amountUsd": 16800000,
+          "amountKind": "fine",
+          "actor": "U.S. Department of Justice",
+          "sourceUrl": "https://www.citizen.org/wp-content/uploads/soft-on-corporate-crime-dpa-npa-repeat-offenders-report.pdf"
+        }
+      ],
+      "addedAt": "2026-10-15"
     }
   ]
 }

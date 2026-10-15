@@ -2710,6 +2710,21 @@
         "rio_tinto",
         "samsung_group"
       ]
+    },
+    {
+      "id": "2026-10-15-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-15",
+      "title": "Three firms that settled their way out of conviction",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "A new source — Public Citizen's DPA/NPA repeat-offender report — surfaced Halliburton, Stryker and Smith & Nephew, firms that repeatedly resolved federal cases without a parent-company conviction.",
+      "body": "This run mined Public Citizen's 2019 report \"Soft on Corporate Crime,\" built from the Duke/UVA Corporate Prosecution Registry, as a new lens on elite impunity: companies handed deferred or non-prosecution agreements, then back in front of the DOJ.\n\nHalliburton's former subsidiary KBR pleaded guilty and paid $402 million over Nigerian bribery in 2009, while Halliburton itself took a non-prosecution agreement without admitting wrongdoing and chipped in $382 million. In 2013 it pleaded guilty to destroying Deepwater Horizon evidence, with a reported $200,000 maximum fine.\n\nStryker and Smith & Nephew share the orthopedic-implant kickback case of the mid-2000s. Stryker got a no-fine NPA, later saw charges against a unit's executives dropped, and took a second NPA over OtisMed. Smith & Nephew signed two DPAs, in 2007 and 2012, totaling $45.7 million in fines.",
+      "entityIds": [
+        "halliburton",
+        "smith_and_nephew",
+        "stryker"
+      ]
     }
   ]
 }
