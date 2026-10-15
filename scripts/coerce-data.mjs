@@ -20,7 +20,8 @@ import path from 'node:path';
 import url from 'node:url';
 
 const here = path.dirname(url.fileURLToPath(import.meta.url));
-const dataPath = path.resolve(here, '..', 'static', 'data.json');
+// DATA_PATH env var lets tests point at a temp file without touching static/data.json
+const dataPath = process.env.DATA_PATH ?? path.resolve(here, '..', 'static', 'data.json');
 
 const raw = fs.readFileSync(dataPath, 'utf8');
 let data = JSON.parse(raw);
@@ -40,6 +41,16 @@ if (typeof data.version !== 'number') {
 	fixes++;
 }
 
+// Stake values the runner improvises that map cleanly to a canonical value.
+const STAKE_SIMPLE = {
+	'self-owned': 'majority',       // self-owned actors use majority stake of a firm with aumVal:0
+	'IP owner': 'post_bankrupt',
+	'licensee': 'post_bankrupt',
+	'trademark holder': 'post_bankrupt',
+};
+// "majority (YYYY-YYYY)" → stake:"former" + until:<end-year>
+const STAKE_DATED_RE = /^majority\s+\((\d{4})-(\d{4})\)$/;
+
 for (const [bi, brand] of (data.brands ?? []).entries()) {
 	for (const [oi, own] of (brand.ownership ?? []).entries()) {
 		for (const field of ['since', 'until']) {
@@ -50,6 +61,26 @@ for (const [bi, brand] of (data.brands ?? []).entries()) {
 					`coerce-data: brands[${bi}].ownership[${oi}].${field}: ${before} (number) → "${own[field]}" (string)`
 				);
 				fixes++;
+			}
+		}
+
+		if (typeof own.stake === 'string') {
+			if (own.stake in STAKE_SIMPLE) {
+				const before = own.stake;
+				own.stake = STAKE_SIMPLE[before];
+				console.error(`coerce-data: brands[${bi}].ownership[${oi}].stake: "${before}" → "${own.stake}"`);
+				fixes++;
+			} else {
+				const m = STAKE_DATED_RE.exec(own.stake);
+				if (m) {
+					const before = own.stake;
+					own.stake = 'former';
+					own.until = m[2];
+					console.error(
+						`coerce-data: brands[${bi}].ownership[${oi}].stake: "${before}" → stake:"former" + until:"${own.until}"`
+					);
+					fixes++;
+				}
 			}
 		}
 	}
