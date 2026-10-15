@@ -224,7 +224,9 @@ blurb: neutral one-line description of what the firm does, ≤20 words, present
        "Private-equity firm; buys companies via leveraged buyouts." Required.
 brands: []  (leave empty; the brand record links to it via ownership)
 layoffs, notableBk: "N/A" if not applicable
-harmScore (0–100, 50=neutral),
+harmScore (0–100, 50=neutral — SEE "Scoring" BELOW; the score is bounded by scope),
+scope: narrow | single_company | multi_company | systemic   // REQUIRED, see below
+role:  actor | owner | both                                  // REQUIRED, see below
 source (URL to best evidence),
 cats: [],
 harms: ["workers_ice_cooperation"],  // plus any prior harms if updating
@@ -242,6 +244,52 @@ evidence: [   // one entry per tag in harms[]+aligns[]; mirrors the summary
 ],
 addedAt: "YYYY-MM-DD"  // today's date in ISO format (from TIMESTAMP env var)
 ```
+
+### Scoring — `harmScore`, `scope`, `role`
+
+Before v2 the only instruction here was "0–100, 50=neutral". That produced a
+rank order that ignored scale (a single-contract LLC scored 83 while Blackstone
+scored 60) and drifted upward over time (cohort medians ran 60 → 79 by research
+month). Both are now bounded. Rubric: `src/lib/harm-score-rubric.json`.
+
+**Step 1 — pick `scope` FIRST, before you pick a number.** Scope is how far the
+harm reaches, and it caps and floors what you may score.
+
+| scope | cap | floor | use when |
+|---|---|---|---|
+| `narrow` | 65 | — | the whole record is one contract, one site, one incident; a small vendor or shell |
+| `single_company` | 79 | — | one substantial company's own conduct; the harm does not extend past it |
+| `multi_company` | 94 | 60 | a portfolio, conglomerate, or multi-subsidiary operator |
+| `systemic` | 100 | 70 | economy-wide reach or historic scale |
+
+Default to `narrow` for a vendor you found via a single federal contract award.
+Default to `single_company` for a real operating company. `multi_company` and
+`systemic` need portfolio-wide or economy-wide evidence in the `summary` — do
+not reach for them because the conduct feels bad.
+
+**Step 2 — pick `role`.** This decides how much of the score a brand it owns
+inherits (0 / 10 / 25 points off, applied in `src/lib/ranking.ts`).
+
+- `actor` — the harm is this entity's own conduct. Self-owned entities
+  (Clearview AI, GEO Group, ExxonMobil) are almost always `actor`.
+- `owner` — the harm is realized through portfolio companies. **Every PE fund
+  is `owner`.** Its brands are largely victims of the conduct, not authors.
+- `both` — operates and owns harmful subsidiaries (Tyson, Adani, Amazon).
+
+**Step 3 — pick `harmScore` inside the band.** A score outside `[floor, cap]`
+is a hard validation failure, not a rounding issue. Worked examples:
+
+- *A staffing LLC with one ICE detention-facility contract.* `narrow` /
+  `actor`. Bad conduct, tiny reach → **58–65**, not 83.
+- *A $30B PE fund with two portfolio bankruptcies.* `multi_company` / `owner`.
+  → **80–88**.
+- *A global oil major with decades of documented climate disinformation.*
+  `systemic` / `actor`. → **85**.
+
+Scale anchors, so you don't drift: Patagonia 7 · JAB Holding 55 · Blackstone 70
+· Tyson 72 · ExxonMobil 85 · KKR 88 · CoreCivic 93 · Leonard Green 97 ·
+Palantir 98. If your new entity is not obviously worse than Tyson Foods, it
+does not score above 72.
 
 ### New brand (ALWAYS create one per new entity)
 
@@ -309,6 +357,13 @@ Rules:
    **do not add the tag**. An unsupported tag is worse than a missing one.
 7. If you update an existing entry, also update its `addedAt` field to
    today's date so the Date sort surfaces it as recently touched.
+8. **Do not raise an existing firm's `harmScore` past its `scope` cap.** If a
+   new finding genuinely widens the reach of the harm — a vendor turns out to
+   run facilities in five states — widen `scope` first, say why in the
+   `summary`, and only then raise the score. Widening scope without new
+   evidence of wider reach is score inflation and will be rejected.
+9. If an existing firm has no `scope`/`role` (pre-v2 record), add both while
+   you're there, using the rules in the Scoring section.
 
 Example — adding `health_general` to an existing fast-food brand:
 
@@ -345,6 +400,16 @@ console.log('ok');
 ```
 
 If validation fails, fix your extraction output. Do not touch `src/lib/schema.ts`.
+
+Then run the scope-bound check, which the release battery also runs:
+
+```bash
+python3 scripts/verify-harm-score.py
+```
+
+It fails if any firm is missing `scope`/`role` or carries a `harmScore` outside
+its scope's `[floor, cap]` band. Fix the score or the scope — do not edit
+`src/lib/harm-score-rubric.json` to make your number fit.
 
 **Preserve the top-level `version` field.** `static/data.json` is shaped
 `{ "version": 2, "firms": [...], "brands": [...] }`. When you write the merged

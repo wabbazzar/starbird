@@ -13,6 +13,12 @@ This script catches the other two failure modes:
      and forgets to update the next one's min)
   2. firm.harmScore values that don't map to any defined bucket (e.g.
      a runner produces a score of 100 but the top bucket ends at 94)
+  3. (rubric v2) firms missing `scope`/`role`, or carrying a harmScore
+     outside the [floor, cap] band their scope allows. This is the gate
+     that stops the two failure modes the v2 recalibration fixed: a
+     single-contract vendor scoring 83, and scores drifting upward with
+     each research cohort. Bounds come from rubric["scopes"], which
+     mirrors SCOPE_CAP / SCOPE_FLOOR in src/lib/ranking.ts.
 
 Exit 0 on success. Exit 1 on any failure with a specific error message
 the release battery can surface in its notification.
@@ -92,9 +98,49 @@ def main() -> None:
         extra = f" ... and {len(unmapped) - 5} more" if len(unmapped) > 5 else ""
         fail(f"{len(unmapped)} firm(s) with unmappable harmScore: {summary}{extra}")
 
+    # 4. (v2) Scope bounds. Skipped entirely on a v1 rubric so this script
+    #    still runs against an older checkout.
+    scopes = {s["id"]: s for s in rubric.get("scopes", [])}
+    if scopes:
+        valid_roles = {"actor", "owner", "both"}
+        missing_scope = [f.get("id", "?") for f in firms if not f.get("scope")]
+        missing_role = [f.get("id", "?") for f in firms if not f.get("role")]
+        if missing_scope:
+            fail(
+                f"{len(missing_scope)} firm(s) missing `scope`: "
+                f"{', '.join(missing_scope[:5])}"
+            )
+        if missing_role:
+            fail(
+                f"{len(missing_role)} firm(s) missing `role`: "
+                f"{', '.join(missing_role[:5])}"
+            )
+
+        bad_enum = [
+            f"{f['id']}={f.get('scope')}/{f.get('role')}"
+            for f in firms
+            if f["scope"] not in scopes or f["role"] not in valid_roles
+        ]
+        if bad_enum:
+            fail(f"{len(bad_enum)} firm(s) with unknown scope/role: {', '.join(bad_enum[:5])}")
+
+        out_of_band = []
+        for f in firms:
+            sc = scopes[f["scope"]]
+            floor = sc.get("floor") or 0
+            if not (floor <= f["harmScore"] <= sc["cap"]):
+                out_of_band.append(
+                    f"{f['id']}={f['harmScore']} ({f['scope']} allows {floor}-{sc['cap']})"
+                )
+        if out_of_band:
+            summary = ", ".join(out_of_band[:5])
+            extra = f" ... and {len(out_of_band) - 5} more" if len(out_of_band) > 5 else ""
+            fail(f"{len(out_of_band)} firm(s) outside their scope band: {summary}{extra}")
+
+    scope_note = f", {len(scopes)} scope bands enforced" if scopes else ""
     print(
         f"harm score rubric OK: {len(buckets)} buckets span 0-100, "
-        f"{len(firms)} firms all mapped"
+        f"{len(firms)} firms all mapped{scope_note}"
     )
 
 

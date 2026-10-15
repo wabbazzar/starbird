@@ -18,7 +18,8 @@
 | Test suite | `npx vitest run` |
 | Typecheck / lint | `npx svelte-check --threshold error` |
 | Build | `npm run build` |
-| Data-quality audit | `npx tsx scripts/validate-data.mjs` (schema) / `npx tsx scripts/dq-check.mjs` (schema + stray keys + FK + evidence linkage) |
+| Data-quality audit | `npx tsx scripts/validate-data.mjs` (schema) / `npx tsx scripts/dq-check.mjs` (schema + stray keys + FK + evidence linkage + scope/role presence + per-cohort score drift) |
+| Harm-score bounds | `python3 scripts/verify-harm-score.py` — rubric bucket integrity **and** (v2) every firm's `harmScore` inside its `scope` band. Fails on a missing `scope`/`role` or an out-of-band score; this is the gate that stops score inflation creeping back in. |
 | Notify (owner alert) | `$QUARTET_NOTIFY_CMD` (baked into units at install; a wrapper that pages the owner — the ONLY notification path) |
 | Event stream dir | `$QUARTET_EVENTS_DIR` (append-only JSONL, one `job.*` / incident object per line) |
 
