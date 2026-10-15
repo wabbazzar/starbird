@@ -4,7 +4,7 @@
 	import { userValues, hasOnboarded } from '$lib/stores/userValues';
 	import { classify, intrinsicKind, valueTags, type Brand, type Firm } from '$lib/types';
 	import { DataFileSchema } from '$lib/schema';
-	import { indexFirms, buildBrandScoreIndex } from '$lib/ranking';
+	import { indexFirms, buildBrandScoreIndex, firmEffectiveScore } from '$lib/ranking';
 
 	import TopBar from '$lib/components/TopBar.svelte';
 	import StatStrip from '$lib/components/StatStrip.svelte';
@@ -266,8 +266,10 @@
 		return firms
 			.filter((f) => {
 				if (cat !== 'all' && !f.cats.includes(cat as never)) return false;
-				if (scoreBand && (f.harmScore < scoreBand.min || f.harmScore > scoreBand.max))
-					return false;
+				// Band filter, sort, and display all use the EFFECTIVE score so a
+				// firm can't appear in a histogram band it isn't shown in.
+				const eff = firmEffectiveScore(f);
+				if (scoreBand && (eff < scoreBand.min || eff > scoreBand.max)) return false;
 				if (q) {
 					const hay = [f.name, f.summary, ...f.brands].join(' ').toLowerCase();
 					if (!hay.includes(q)) return false;
@@ -279,12 +281,14 @@
 				return true;
 			})
 			.sort((a, b) => {
+				const ea = firmEffectiveScore(a);
+				const eb = firmEffectiveScore(b);
 				if (sortKey === 'date') {
 					const d = compareByDate(a, b);
 					if (d !== 0) return d;
-					return b.harmScore - a.harmScore;
+					return eb - ea;
 				}
-				return sortDir === 'desc' ? b.harmScore - a.harmScore : a.harmScore - b.harmScore;
+				return sortDir === 'desc' ? eb - ea : ea - eb;
 			});
 	});
 

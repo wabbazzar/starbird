@@ -23,10 +23,22 @@ export interface HarmInput {
 	detail: string;
 }
 
+/** A scope tier and the bounds it imposes. Mirrored by SCOPE_CAP / SCOPE_FLOOR
+ *  in ranking.ts, which is what actually applies them. */
+export interface HarmScope {
+	id: string;
+	label: string;
+	cap: number;
+	floor: number | null;
+	description: string;
+	example: string;
+}
+
 export const HARM_SCORE_VERSION: number = rubric.version;
 export const HARM_SCORE_DESCRIPTION: string = rubric.description;
 export const HARM_SCORE_INPUTS: readonly HarmInput[] = rubric.inputs;
 export const HARM_SCORE_BUCKETS: readonly HarmBucket[] = rubric.buckets;
+export const HARM_SCORE_SCOPES: readonly HarmScope[] = rubric.scopes;
 
 export function bucketFor(score: number): HarmBucket | null {
 	return (

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { VALUES } from '$lib/values';
-	import { HARM_SCORE_BUCKETS, HARM_SCORE_INPUTS } from '$lib/harmScore';
+	import { HARM_SCORE_BUCKETS, HARM_SCORE_INPUTS, HARM_SCORE_SCOPES } from '$lib/harmScore';
 
 	type Props = { oneditValues: () => void };
 	let { oneditValues }: Props = $props();
@@ -158,6 +158,27 @@
 		score in the database maps to exactly one defined bucket, so the vocabulary here doesn't
 		silently drift from what's in the data.
 	</p>
+	<p>
+		The estimate is not unbounded, though. Every firm carries a <strong>scope</strong> — how far
+		its harm actually reaches — and scope hard-bounds the score. A vendor whose entire record is
+		one federal contract can't score above 65 however ugly that contract is, and a firm whose
+		harm runs across a portfolio can't sit in the middle of the pack. That bound is what keeps a
+		twelve-person LLC from out-ranking the largest private-equity firm on earth.
+	</p>
+
+	<div class="section-label" style="margin-top:14px">Scope — the bounds on a score</div>
+	<div class="buckets">
+		{#each HARM_SCORE_SCOPES as sc (sc.id)}
+			<div class="bucket">
+				<div class="bucket-head">
+					<span class="bucket-range">{sc.floor ? `${sc.floor}–${sc.cap}` : `≤ ${sc.cap}`}</span>
+					<span class="bucket-label">{sc.label}</span>
+				</div>
+				<p class="bucket-desc">{sc.description}</p>
+				<p class="bucket-ex"><em>e.g.</em> {sc.example}</p>
+			</div>
+		{/each}
+	</div>
 
 	<div class="section-label" style="margin-top:14px">What goes into the score</div>
 	<ul class="inputs-list">

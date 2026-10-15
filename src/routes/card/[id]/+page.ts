@@ -1,5 +1,7 @@
 import type { EntryGenerator, PageLoad } from './$types';
 import dataJson from '../../../../static/data.json';
+import { firmEffectiveScore } from '$lib/ranking';
+import type { Firm } from '$lib/types';
 
 /**
  * Prerender one HTML page per brand and firm. adapter-static uses
@@ -35,7 +37,7 @@ export const load: PageLoad = ({ params }) => {
 		title = `Starbird — ${firm.name}`;
 		description = firm.summary?.slice(0, 200) ?? '';
 		if (firm.harmScore) {
-			description = `Harm score: ${firm.harmScore}/100. ${description}`;
+			description = `Harm score: ${firmEffectiveScore(firm as unknown as Firm)}/100. ${description}`;
 		}
 	}
 

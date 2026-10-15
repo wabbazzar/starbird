@@ -3,7 +3,7 @@
 	import type { ValueId } from '$lib/values';
 	import { VALUES } from '$lib/values';
 	import { QUEST_BY_ID } from '$lib/quests';
-	import { brandImpactScore, indexFirms } from '$lib/ranking';
+	import { brandImpactScore, firmEffectiveScore, indexFirms } from '$lib/ranking';
 	import { CATEGORIES, type CategoryId } from '$lib/categories';
 	import { costOfHarm } from '$lib/aggregations';
 	import HarmHistogram from './HarmHistogram.svelte';
@@ -81,9 +81,9 @@
 	const maxValueCount = $derived(Math.max(...byValue.map((v) => v.count), 1));
 
 	// ── Chart 2: top brands by impact ──────────────────────────────────
-	// Uses the SHARED brandImpactScore (with the 5-pt PE inheritance discount)
-	// so this chart's ordering matches the Brands list exactly — previously it
-	// re-implemented the formula WITHOUT the discount and could disagree.
+	// Uses the SHARED brandImpactScore (role- and stake-aware inheritance
+	// discount) so this chart's ordering matches the Brands list exactly —
+	// previously it re-implemented the formula and could disagree.
 	const topBrands = $derived(
 		[...scopedBrands]
 			.map((b) => ({ brand: b, score: brandImpactScore(b, firmById) }))
@@ -95,10 +95,14 @@
 	// ── Chart 3: AUM is now an area-encoded treemap (AumTreemap.svelte) ──
 
 	// ── Chart 4: Harm Score (elongated from 10 → 20) ───────────────────
+	// Effective score (scope cap/floor), matching FirmCard and the leaderboards.
 	const byHarm = $derived(
-		[...scopedFirms].sort((a, b) => b.harmScore - a.harmScore).slice(0, TOP_N)
+		[...scopedFirms]
+			.map((f) => ({ firm: f, score: firmEffectiveScore(f) }))
+			.sort((a, b) => b.score - a.score)
+			.slice(0, TOP_N)
 	);
-	const maxHarm = $derived(Math.max(...byHarm.map((f) => f.harmScore), 1));
+	const maxHarm = $derived(Math.max(...byHarm.map((h) => h.score), 1));
 </script>
 
 <HarmHistogram {firms} onselect={onselectband} />
@@ -135,7 +139,8 @@
 
 <section class="block">
 	<div class="section-label">
-		// Top brands — Highest-impact consumer brands (max owner harm score)
+		// Top brands — Highest-impact consumer brands (owner harm score, less the
+		// inheritance discount)
 	</div>
 	<div class="chart">
 		{#each topBrands as b (b.brand.id)}
@@ -178,13 +183,13 @@
 <section class="block">
 	<div class="section-label">// Harm score — Top {TOP_N} firms (0–100)</div>
 	<div class="chart">
-		{#each byHarm as f (f.id)}
+		{#each byHarm as h (h.firm.id)}
 			<div class="row">
-				<div class="name">{f.name}</div>
+				<div class="name">{h.firm.name}</div>
 				<div class="bar-wrap">
-					<div class="bar bar-harm" style="width: {(f.harmScore / maxHarm) * 100}%"></div>
+					<div class="bar bar-harm" style="width: {(h.score / maxHarm) * 100}%"></div>
 				</div>
-				<div class="val">{f.harmScore}</div>
+				<div class="val">{h.score}</div>
 			</div>
 		{/each}
 	</div>

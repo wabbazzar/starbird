@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Firm, Brand } from '$lib/types';
+	import { firmEffectiveScore } from '$lib/ranking';
 
 	type Props = {
 		firms: Firm[];
@@ -13,7 +14,9 @@
 		totalAum >= 1000 ? `$${(totalAum / 1000).toFixed(1)}T` : `$${totalAum}B`
 	);
 	const avgHarm = $derived(
-		firms.length ? Math.round(firms.reduce((a, f) => a + f.harmScore, 0) / firms.length) : 0
+		firms.length
+			? Math.round(firms.reduce((a, f) => a + firmEffectiveScore(f), 0) / firms.length)
+			: 0
 	);
 </script>
 

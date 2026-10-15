@@ -16,6 +16,14 @@ const SlugIdSchema = z
 	.min(2)
 	.regex(/^[a-z0-9][a-z0-9_]*$/, 'ids must be lowercase alphanumeric + underscore');
 
+export const FirmScopeSchema = z.enum([
+	'narrow',
+	'single_company',
+	'multi_company',
+	'systemic'
+]);
+export const FirmRoleSchema = z.enum(['actor', 'owner', 'both']);
+
 export const OwnershipSchema = z.object({
 	firmId: SlugIdSchema,
 	stake: z.enum(['majority', 'minority', 'former', 'post_bankrupt']),
@@ -55,6 +63,11 @@ export const FirmSchema = z.object({
 	layoffs: z.string(),
 	notableBk: z.string(),
 	harmScore: z.number().int().min(0).max(100),
+	// Scope caps/floors the effective score; role sets how much of it a brand
+	// inherits. Both are additive (data version stays 2) and optional only
+	// during backfill — dq-check.mjs fails on any firm missing either.
+	scope: FirmScopeSchema.optional(),
+	role: FirmRoleSchema.optional(),
 	source: z.string().url(),
 	cats: z.array(CategoryIdSchema),
 	harms: z.array(QuestIdSchema),

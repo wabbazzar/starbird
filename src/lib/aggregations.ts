@@ -5,6 +5,7 @@ import type { CategoryId } from './categories';
 import { CATEGORIES } from './categories';
 import { QUEST_BY_ID } from './quests';
 import rubric from './harm-score-rubric.json';
+import { firmEffectiveScore } from './ranking';
 
 export interface HistogramBucket {
 	label: string;
@@ -36,8 +37,11 @@ export function harmHistogram(firms: Firm[]): HarmHistogram {
 	const scores: number[] = [];
 	for (const f of firms) {
 		if (typeof f.harmScore !== 'number') continue;
-		scores.push(f.harmScore);
-		const bucket = buckets.find((b) => f.harmScore >= b.min && f.harmScore <= b.max);
+		// Bin the EFFECTIVE score (scope cap/floor applied) so the histogram
+		// describes the same numbers the leaderboards and cards show.
+		const score = firmEffectiveScore(f);
+		scores.push(score);
+		const bucket = buckets.find((b) => score >= b.min && score <= b.max);
 		if (bucket) bucket.count++;
 	}
 	scores.sort((a, b) => a - b);
@@ -227,7 +231,7 @@ export function firmHubs(firms: Firm[], brands: Brand[], topN = 20): FirmHub[] {
 				name: f?.name ?? id,
 				brandCount,
 				aumVal: f?.aumVal ?? 0,
-				harmScore: f?.harmScore ?? 0
+				harmScore: f ? firmEffectiveScore(f) : 0
 			};
 		})
 		.sort((a, b) => b.brandCount - a.brandCount)
@@ -274,8 +278,7 @@ export interface LeaderRow {
 export function firmLeaderboard(firms: Firm[], cat: CategoryId | 'all', topN = 20): LeaderRow[] {
 	return firms
 		.filter((f) => cat === 'all' || f.cats.includes(cat))
-		.slice()
-		.sort((a, b) => b.harmScore - a.harmScore)
-		.slice(0, topN)
-		.map((f) => ({ id: f.id, name: f.name, score: f.harmScore }));
+		.map((f) => ({ id: f.id, name: f.name, score: firmEffectiveScore(f) }))
+		.sort((a, b) => b.score - a.score)
+		.slice(0, topN);
 }

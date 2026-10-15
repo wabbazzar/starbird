@@ -1,10 +1,14 @@
 {
-	"version": 1,
-	"description": "Single source of truth for the Starbird harm score rubric. Imported by src/lib/harmScore.ts (app) and scripts/verify-harm-score.py (Guardian). Changing this file is the only supported way to evolve the rubric. Update both the bucket definitions and the inputs explanation when ranges change.",
+	"version": 2,
+	"description": "Single source of truth for the Starbird harm score rubric. Imported by src/lib/harmScore.ts (app) and scripts/verify-harm-score.py (Guardian). Changing this file is the only supported way to evolve the rubric. Update the bucket definitions, the inputs explanation, and the scope table together when ranges change. v2 (2026-09) added scope and role: scope bounds a score to the reach of the harm, role sets how much of an owner's score a brand inherits. See docs/harm-score-recalibration-2026-09.md.",
 	"inputs": [
 		{
 			"label": "Scope",
-			"detail": "How many people, communities, or places are affected. 73,000 Toys 'R' Us workers weighs more than a single store closure."
+			"detail": "How far the harm reaches — the single strongest input. This is now a structured field on every firm (narrow / single_company / multi_company / systemic) and it hard-bounds the score: a single-contract vendor cannot exceed 65 no matter how ugly the contract, and a firm whose harm spans a portfolio cannot fall below 60. 73,000 Toys 'R' Us workers weighs more than one store closure."
+		},
+		{
+			"label": "Role",
+			"detail": "Whose conduct the score describes. An `actor` causes the harm itself (Palantir, GEO Group, ExxonMobil). An `owner` causes it through portfolio companies — so a brand it owns is largely a victim, and inherits only part of the score. `both` operates and owns."
 		},
 		{
 			"label": "Permanence",
@@ -20,7 +24,7 @@
 		},
 		{
 			"label": "Evidence",
-			"detail": "Contemporaneous, sourced reporting beats unsourced claims. A score without a documented source is a weak score."
+			"detail": "Contemporaneous, sourced reporting beats unsourced claims. A score without a documented source is a weak score — and under v2 it can no longer buy a high one, because a thin record usually means a narrow scope."
 		}
 	],
 	"buckets": [
@@ -29,15 +33,15 @@
 			"max": 19,
 			"label": "Minimal",
 			"short": "Low documented harm",
-			"description": "A small-scale concern with limited documentation. Rarely used — most entries tracked here wouldn't be in the database at all if their harm was this low.",
-			"example": "A single local lawsuit, later settled."
+			"description": "A small-scale concern with limited documentation, or a firm tracked here because it is *aligned* rather than harmful. The 0-19 band is where the aligned firms sit.",
+			"example": "Patagonia (7), Costco (8) — the aligned end of the scale."
 		},
 		{
 			"min": 20,
 			"max": 39,
 			"label": "Moderate",
 			"short": "Limited but real",
-			"description": "Documented harm at a constrained scale. One bad incident, or a small pattern of issues affecting hundreds rather than thousands.",
+			"description": "Documented harm at a constrained scale. One bad incident, or a small pattern affecting hundreds rather than thousands. Rarely used — a narrow-scope vendor with real documentation usually lands in 55–65.",
 			"example": "A mid-size firm with a handful of documented wage-theft complaints."
 		},
 		{
@@ -54,7 +58,7 @@
 			"label": "Severe",
 			"short": "Large-scale and documented",
 			"description": "Tens of thousands affected, or a clear pattern of sale-leasebacks, mass layoffs, or environmental damage with sourced reporting.",
-			"example": "Blackstone (60) — portfolio-wide sale-leaseback strategies; Aurelius (70) — The Body Shop bankruptcy."
+			"example": "Blackstone and BlackRock (70, systemic floor); Amazon (70); Aurelius (70) — The Body Shop bankruptcy."
 		},
 		{
 			"min": 80,
@@ -70,7 +74,41 @@
 			"label": "Catastrophic",
 			"short": "Historic-scale destruction",
 			"description": "Company-ending collapses or multiple simultaneous portfolio bankruptcies at the highest documented scale. Reserved for the worst-case outliers.",
-			"example": "Leonard Green (97) — Joann (19,000+ layoffs 2025) + Container Store (Dec 2024) + Prospect Medical collapse, in the same window."
+			"example": "Leonard Green (97) — Joann (19,000+ layoffs 2025) + Container Store (Dec 2024) + Prospect Medical collapse, in the same window. Palantir (98) — state surveillance infrastructure at national scale."
+		}
+	],
+	"scopes": [
+		{
+			"id": "narrow",
+			"cap": 65,
+			"floor": null,
+			"label": "Narrow",
+			"description": "One contract, one site, one incident; a small vendor whose recorded harm is a single relationship.",
+			"example": "Lemoine Disaster Recovery, LLC — one ICE-adjacent contract. Scored 83 before v2."
+		},
+		{
+			"id": "single_company",
+			"cap": 79,
+			"floor": null,
+			"label": "Single company",
+			"description": "One company's own conduct. Substantial operator, but the harm does not extend past it.",
+			"example": "Avelo Airlines — a scheduled carrier for which deportation charters are one line of business."
+		},
+		{
+			"id": "multi_company",
+			"cap": 94,
+			"floor": 60,
+			"label": "Multi-company",
+			"description": "A portfolio, a conglomerate, or a multi-subsidiary operator. Most PE funds and large processors land here.",
+			"example": "Purdue Pharma (93); Tyson Foods; every PE fund under $100B AUM."
+		},
+		{
+			"id": "systemic",
+			"cap": 100,
+			"floor": 70,
+			"label": "Systemic",
+			"description": "Economy-wide reach or historic scale. Reserved for entities whose harm is structural, not contained.",
+			"example": "Palantir (98), Leonard Green (97), GEO Group (95), Blackstone and BlackRock (floored to 70)."
 		}
 	]
 }

@@ -64,8 +64,8 @@ NODE_NO_WARNINGS=1 npx tsx scripts/shop-lib.mjs cache-list
 NODE_NO_WARNINGS=1 npx tsx scripts/shop-lib.mjs promote
 ```
 
-`resolve` applies `brandImpactScore()` (the same 5-point PE discount the site
-uses) and returns one of: `OK TO BUY`, `AVOID`, `HARD BLOCK`, or `NOT IN DB`.
+`resolve` applies `brandImpactScore()` (the same scope caps and role-aware
+inheritance discount the site uses) and returns one of: `OK TO BUY`, `AVOID`, `HARD BLOCK`, or `NOT IN DB`.
 
 **Always format Tier-2 findings as proper data.json badges.** The cache
 (`tmp/shop-candidates.json`) mirrors `static/data.json` exactly —

@@ -45,6 +45,17 @@ export interface Firm {
 	layoffs: string;
 	notableBk: string;
 	harmScore: number;
+	/**
+	 * How far the harm reaches. Caps and floors the effective score — see
+	 * SCOPE_CAP / SCOPE_FLOOR in ranking.ts. Optional during backfill.
+	 */
+	scope?: FirmScope;
+	/**
+	 * Whose conduct the score describes: the firm's own (`actor`), its
+	 * portfolio companies' (`owner`), or both. Drives how much of the score
+	 * a brand inherits. Optional during backfill.
+	 */
+	role?: FirmRole;
 	source: string;
 	cats: CategoryId[];
 	harms: QuestId[];
@@ -52,6 +63,9 @@ export interface Firm {
 	evidence?: Evidence[];
 	addedAt?: string;
 }
+
+export type FirmScope = 'narrow' | 'single_company' | 'multi_company' | 'systemic';
+export type FirmRole = 'actor' | 'owner' | 'both';
 
 export interface Brand {
 	id: string;

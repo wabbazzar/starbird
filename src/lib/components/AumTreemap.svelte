@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Firm } from '$lib/types';
 	import { squarify } from '$lib/aggregations';
+	import { firmEffectiveScore } from '$lib/ranking';
 
 	type Props = { firms: Firm[]; topN?: number };
 	let { firms, topN = 28 }: Props = $props();
@@ -37,11 +38,11 @@
 					width={Math.max(0, r.w - 2)}
 					height={Math.max(0, r.h - 2)}
 					rx="3"
-					fill={fill(r.item.firm.harmScore)}
+					fill={fill(firmEffectiveScore(r.item.firm))}
 				/>
 				{#if r.w > 90 && r.h > 34}
 					<text x={r.x + 8} y={r.y + 20} class="lbl">{r.item.firm.name}</text>
-					<text x={r.x + 8} y={r.y + 36} class="sub">{fmtAum(r.item.firm.aumVal)} · harm {r.item.firm.harmScore}</text>
+					<text x={r.x + 8} y={r.y + 36} class="sub">{fmtAum(r.item.firm.aumVal)} · harm {firmEffectiveScore(r.item.firm)}</text>
 				{:else if r.w > 50 && r.h > 18}
 					<text x={r.x + 6} y={r.y + 14} class="sub">{fmtAum(r.item.firm.aumVal)}</text>
 				{/if}

@@ -1,8 +1,8 @@
 // Shared logic for the /shop skill (.claude/commands/shop.md).
 //
 // One source of truth so the skill isn't reimplementing scoring in prose:
-// it reuses brandImpactScore() from src/lib/ranking.ts (the same 5-point PE
-// inheritance discount the website uses), the harm-score buckets, and the
+// it reuses brandImpactScore() from src/lib/ranking.ts (the same scope caps and
+// role-aware inheritance discount the website uses), the harm-score buckets, and the
 // canonical firm/brand SHAPE from src/lib/schema.ts.
 //
 // IMPORTANT: Tier-2 research is always persisted as proper data.json-shaped
@@ -21,7 +21,12 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { brandImpactScore, indexFirms } from '../src/lib/ranking.ts';
+import {
+	brandImpactScore,
+	firmEffectiveScore,
+	indexFirms,
+	INHERIT_DISCOUNT
+} from '../src/lib/ranking.ts';
 import { DataFileSchema } from '../src/lib/schema.ts';
 import data from '../static/data.json' with { type: 'json' };
 
@@ -151,7 +156,10 @@ export function resolve(name) {
 	for (const { f, src } of firmPool) {
 		const inList = (f.brands ?? []).some((bn) => nameMatch(name, bn));
 		if (nameMatch(name, f.name) || nameMatch(name, f.id) || inList) {
-			const discount = f.aumVal > 0 ? 5 : 0;
+			// Matched by the firm's own name -> its effective score. Matched via
+			// its brands[] list -> the brand inherits, so apply the same role
+			// discount brandImpactScore() would.
+			const inherit = inList ? (INHERIT_DISCOUNT[f.role ?? 'actor'] ?? 0) : 0;
 			return verdict({
 				query: name,
 				found: true,
@@ -160,7 +168,7 @@ export function resolve(name) {
 				name: inList ? name : f.name,
 				id: f.id,
 				owners: f.name,
-				score: Math.max(0, (f.harmScore ?? 0) - discount),
+				score: Math.max(0, firmEffectiveScore(f) - inherit),
 				harms: f.harms ?? [],
 				alts: []
 			});

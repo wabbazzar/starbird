@@ -3,6 +3,7 @@
 	import { VALUE_BY_ID } from '$lib/values';
 	import ValueChip from './ValueChip.svelte';
 	import EvidenceList from './EvidenceList.svelte';
+	import { firmEffectiveScore } from '$lib/ranking';
 
 	type Props = {
 		firm: Firm;
@@ -12,6 +13,10 @@
 	};
 
 	let { firm, classification, intrinsic, tags }: Props = $props();
+
+	// Displayed score is the effective one (scope cap/floor applied) so the card
+	// agrees with the leaderboards and the histogram.
+	const score = $derived(firmEffectiveScore(firm));
 	let showDetails = $state(false);
 
 	// Dedupe holdings: the each block keys on the brand name, so a repeated
@@ -89,8 +94,8 @@
 	<div class="metrics">
 		<div class="metric">
 			<div class="lbl">Harm score</div>
-			<div class="val score" data-high={firm.harmScore >= 75}>
-				{firm.harmScore}<span class="unit">/100</span>
+			<div class="val score" data-high={score >= 75}>
+				{score}<span class="unit">/100</span>
 			</div>
 		</div>
 		<div class="metric">
