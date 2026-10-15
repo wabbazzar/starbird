@@ -1,0 +1,203 @@
+{
+	"_readme": [
+		"Phase 2 of docs/tickets/pending/harm-score-recalibration.md.",
+		"",
+		"scripts/backfill-scope-role.mjs assigns firms[].scope and firms[].role from",
+		"deterministic rules (aumVal, sole-ICE-contract tag). Those rules are right for",
+		"the bulk of the database but cannot tell a single-contract LLC from ExxonMobil:",
+		"both are aumVal 0 with one harm tag. This file is where that judgment lives, in",
+		"the open, one reviewable line per firm.",
+		"",
+		"A firm needs an entry here if the rules would give it the wrong scope. In",
+		"practice that means any firm whose harmScore exceeds its rule-assigned cap:",
+		"narrow 65, single_company 79, multi_company 94, systemic 100. Without an entry",
+		"it gets capped, so an 80+ score always has a written justification behind it.",
+		"",
+		"role: actor = the harm is this entity's own conduct; owner = it is realized",
+		"through portfolio companies; both = it operates and owns."
+	],
+
+	"leonard_green_and_partners": {
+		"scope": "systemic",
+		"role": "owner",
+		"note": "$85B fund below the 100 auto-systemic threshold, but Joann (19k layoffs), The Container Store, and Prospect Medical Holdings collapsed inside one window — reach beyond a single portfolio."
+	},
+	"palantir_technologies": {
+		"scope": "systemic",
+		"role": "actor",
+		"note": "State surveillance infrastructure deployed across federal agencies; reach is national, not per-contract."
+	},
+	"geo_group": {
+		"scope": "systemic",
+		"role": "actor",
+		"note": "Nationwide private detention network — dozens of facilities, tens of thousands detained."
+	},
+	"corecivic": {
+		"scope": "systemic",
+		"role": "actor",
+		"note": "Nationwide private prison and detention operator."
+	},
+	"exxonmobil": {
+		"scope": "systemic",
+		"role": "actor",
+		"note": "Global fossil extraction plus a documented decades-long climate disinformation campaign."
+	},
+	"chevron": {
+		"scope": "systemic",
+		"role": "actor",
+		"note": "Global fossil extraction; Lago Agrio contamination is irreversible and regional."
+	},
+	"koch_industries": {
+		"scope": "systemic",
+		"role": "both",
+		"note": "Second-largest US private company; operates refining/chemicals and owns a wide subsidiary portfolio."
+	},
+	"glencore_plc": {
+		"scope": "systemic",
+		"role": "both",
+		"note": "Global commodity trader and miner; bribery convictions across multiple jurisdictions."
+	},
+	"trafigura_group": {
+		"scope": "systemic",
+		"role": "both",
+		"note": "Global commodity trader; Probo Koala toxic-waste dumping affected tens of thousands."
+	},
+	"jpmorgan_chase": {
+		"scope": "systemic",
+		"role": "both",
+		"note": "Largest US bank by assets; systemic financial reach."
+	},
+	"philip_morris_international": {
+		"scope": "systemic",
+		"role": "both",
+		"note": "Global tobacco; harm is population-scale and multi-generational."
+	},
+	"mckinsey_company": {
+		"scope": "systemic",
+		"role": "actor",
+		"note": "Advisory embedded across governments and industries; opioid sales-acceleration work reached national scale."
+	},
+	"amazon": {
+		"scope": "systemic",
+		"role": "both",
+		"note": "Economy-wide employer, logistics network, and cloud provider; also owns subsidiary brands."
+	},
+	"alphabet_inc": { "scope": "systemic", "role": "both", "note": "Economy-wide platform reach; owns many subsidiaries." },
+	"microsoft": { "scope": "systemic", "role": "both", "note": "Economy-wide platform and cloud reach." },
+	"apple_inc": { "scope": "systemic", "role": "both", "note": "Global supply chain and platform reach." },
+
+	"purdue_pharma": {
+		"scope": "multi_company",
+		"role": "actor",
+		"note": "Single manufacturer, but the opioid epidemic it accelerated is multi-state and irreversible."
+	},
+	"adani_group": { "scope": "multi_company", "role": "both", "note": "Conglomerate spanning ports, power, and media." },
+	"rostec": { "scope": "multi_company", "role": "both", "note": "Russian state conglomerate holding 800+ entities." },
+	"socar": { "scope": "multi_company", "role": "both", "note": "Azerbaijani state oil company; laundromat influence operation spanned Europe." },
+	"nso_group": { "scope": "multi_company", "role": "actor", "note": "Pegasus deployed by many state clients against journalists and dissidents worldwide." },
+	"scl_group": { "scope": "multi_company", "role": "both", "note": "Cambridge Analytica parent; influence operations across multiple national elections." },
+	"black_cube": { "scope": "multi_company", "role": "actor", "note": "Private intelligence operations across multiple countries and targets." },
+	"psy_group": { "scope": "multi_company", "role": "actor", "note": "Influence operations across multiple national campaigns." },
+	"ftx_trading": { "scope": "multi_company", "role": "both", "note": "Collapse wiped out ~$8B of customer funds across a group of entities." },
+	"banque_havilland": { "scope": "multi_company", "role": "actor", "note": "Sovereign-scale market manipulation plot; cross-border private bank." },
+	"fleurette_group": { "scope": "multi_company", "role": "owner", "note": "Holding structure behind DRC mining assets acquired via bribery." },
+	"gva_capital": { "scope": "multi_company", "role": "owner", "note": "Investment vehicle; sanctions-evasion conduit." },
+	"midas_ressources": { "scope": "multi_company", "role": "both", "note": "Wagner-linked gold extraction concession; state-scale resource capture." },
+	"mc2_model_management": { "scope": "multi_company", "role": "actor", "note": "Trafficking network spanning multiple agencies and countries." },
+	"wirecard_ag": { "scope": "multi_company", "role": "both", "note": "€1.9B fraud; group of subsidiaries, market-wide fallout." },
+	"formation_capital": { "scope": "multi_company", "role": "owner", "note": "Healthcare roll-up; sale-leaseback pattern across a nursing-home portfolio." },
+	"clayton_dubilier_and_rice": { "scope": "multi_company", "role": "owner", "note": "PE fund with aum recorded as 0; portfolio-wide debt loading." },
+	"chemours": { "scope": "multi_company", "role": "actor", "note": "PFAS contamination across multiple US sites; irreversible." },
+	"lyondellbasell": { "scope": "multi_company", "role": "actor", "note": "Petrochemical operator across many plants and countries." },
+	"vistra_energy": { "scope": "multi_company", "role": "actor", "note": "Multi-state power generator; coal-ash contamination across sites." },
+	"spacex": { "scope": "multi_company", "role": "both", "note": "Multi-site operator; environmental and labor findings across facilities." },
+	"sinclair_broadcast_group": { "scope": "multi_company", "role": "both", "note": "Owns/operates 190+ local stations — reach is national." },
+	"reynolds_and_reynolds": { "scope": "multi_company", "role": "both", "note": "Dealer software across most US auto retail." },
+	"relx_group": { "scope": "multi_company", "role": "both", "note": "LexisNexis parent; data brokerage at national scale." },
+	"thomson_reuters": { "scope": "multi_company", "role": "both", "note": "CLEAR data brokerage at national scale; multi-subsidiary." },
+	"cellebrite": { "scope": "multi_company", "role": "actor", "note": "Device-extraction tooling sold to agencies worldwide." },
+	"clearview_ai": { "scope": "multi_company", "role": "actor", "note": "30B-image face database scraped without consent; used by thousands of agencies." },
+	"gardaworld": { "scope": "multi_company", "role": "both", "note": "Global security operator, 100k+ staff across many contracts." },
+	"allied_universal": { "scope": "multi_company", "role": "both", "note": "Largest North American security employer, 800k+ staff." },
+	"management_training_corporation": { "scope": "multi_company", "role": "actor", "note": "Operates prisons and detention centres across multiple states." },
+	"lasalle_corrections": { "scope": "multi_company", "role": "actor", "note": "Operates multiple detention facilities across Louisiana and Texas." },
+	"amentum_services": { "scope": "multi_company", "role": "both", "note": "Global services contractor across many federal programs." },
+	"target_hospitality": { "scope": "multi_company", "role": "actor", "note": "Operates multiple large detention/housing sites under federal contract." },
+	"deployed_resources": { "scope": "multi_company", "role": "actor", "note": "Operates soft-sided detention camps across several border sectors." },
+	"global_crossing_airlines": { "scope": "multi_company", "role": "actor", "note": "Operates the bulk of ICE deportation charter flights nationally." },
+	"iowa_select_farms": { "scope": "multi_company", "role": "actor", "note": "Largest Iowa pork producer; ventilation-shutdown culls across many sites." },
+	"hillandale_farms": { "scope": "multi_company", "role": "actor", "note": "Multi-state egg producer, tens of millions of hens." },
+	"koch_foods": { "scope": "multi_company", "role": "both", "note": "Multi-state poultry processor." },
+	"tyson_foods": { "scope": "multi_company", "role": "both", "note": "Largest US meat processor; multi-state, owns many brands." },
+	"jbs": { "scope": "multi_company", "role": "both", "note": "Largest global meat processor; owns Pilgrim's, Swift, Seara." },
+	"smithfield_foods": { "scope": "multi_company", "role": "both", "note": "Largest US pork producer; WH Group subsidiary." },
+	"nestle_usa": { "scope": "multi_company", "role": "both", "note": "Owns dozens of consumer brands across categories." },
+	"pepsico": { "scope": "multi_company", "role": "both", "note": "Owns dozens of beverage and snack brands globally." },
+	"coca_cola_company": { "scope": "multi_company", "role": "both", "note": "Owns hundreds of beverage brands globally." },
+	"procter_and_gamble": { "scope": "multi_company", "role": "both", "note": "Owns dozens of household brands globally." },
+	"unilever": { "scope": "multi_company", "role": "both", "note": "Owns 400+ consumer brands globally." },
+	"kraft_heinz": { "scope": "multi_company", "role": "both", "note": "Owns dozens of packaged-food brands." },
+	"mondelez_international": { "scope": "multi_company", "role": "both", "note": "Owns dozens of snack brands globally." },
+
+	"ae_industrial_partners": {
+		"scope": "multi_company",
+		"role": "owner",
+		"note": "Recorded with aumVal 0 but it is a PE firm — aerospace/defense/government-services buyouts."
+	},
+
+	"_note_single_company_operators": "Substantial operating companies whose only recorded harm is one federal contract. The sole-ICE rule would call them narrow; the contract is narrow, the company is not. Cap 79.",
+	"motorola_solutions": { "scope": "single_company", "role": "actor", "note": "Global public-safety communications manufacturer." },
+	"accenture": { "scope": "single_company", "role": "actor", "note": "Global professional-services firm, 700k+ staff." },
+	"booz_allen_hamilton": { "scope": "single_company", "role": "actor", "note": "Major federal consulting contractor." },
+	"caci_international": { "scope": "single_company", "role": "actor", "note": "Major federal IT and services contractor." },
+	"at_t": { "scope": "single_company", "role": "both", "note": "National telecom carrier." },
+	"deloitte": { "scope": "single_company", "role": "actor", "note": "Global Big Four professional-services firm." },
+	"salesforce": { "scope": "single_company", "role": "actor", "note": "Global enterprise-software vendor." },
+	"l3harris_technologies": { "scope": "single_company", "role": "actor", "note": "Major defense and communications manufacturer." },
+	"general_dynamics": { "scope": "single_company", "role": "actor", "note": "Major defense prime contractor." },
+	"dell_technologies": { "scope": "single_company", "role": "actor", "note": "Global hardware manufacturer." },
+	"leidos": { "scope": "single_company", "role": "actor", "note": "Major government IT and defense contractor." },
+	"axon_enterprise": { "scope": "single_company", "role": "actor", "note": "National public-safety equipment manufacturer." },
+	"aramark": { "scope": "single_company", "role": "actor", "note": "Large food-service and facilities operator across many sites." },
+	"labcorp": { "scope": "single_company", "role": "actor", "note": "National clinical-laboratory network." },
+	"fedex": { "scope": "single_company", "role": "actor", "note": "Global logistics carrier." },
+	"ups": { "scope": "single_company", "role": "actor", "note": "Global logistics carrier." },
+	"ecolab": { "scope": "single_company", "role": "actor", "note": "Global water-treatment and hygiene supplier." },
+	"reliance_inc": { "scope": "single_company", "role": "actor", "note": "National metals service-center network." },
+	"icf_international": { "scope": "single_company", "role": "actor", "note": "Large policy and technology consultancy." },
+	"glock": { "scope": "single_company", "role": "actor", "note": "Global firearms manufacturer." },
+	"jackson_healthcare": { "scope": "single_company", "role": "actor", "note": "National healthcare staffing company." },
+	"chenega_corporation": { "scope": "single_company", "role": "both", "note": "Alaska Native Corporation holding many federal-contracting subsidiaries." },
+	"capgemini": { "scope": "single_company", "role": "actor", "note": "Global IT consulting group, 300k+ staff." },
+	"constellis": { "scope": "single_company", "role": "actor", "note": "Large private military and security contractor." },
+	"acuity_international": { "scope": "single_company", "role": "actor", "note": "Federal services contractor running detention-facility operations at multiple sites." },
+	"sos_international": { "scope": "single_company", "role": "actor", "note": "Defense and intelligence services integrator." },
+	"avelo_airlines": { "scope": "single_company", "role": "actor", "note": "Scheduled passenger airline; deportation charters are one line of business." },
+	"world_atlantic_airways": { "scope": "single_company", "role": "actor", "note": "Charter airline operating a fleet, not a single contract." },
+	"southwest_key_programs": { "scope": "single_company", "role": "actor", "note": "Operates shelters across multiple states." },
+	"family_endeavors": { "scope": "single_company", "role": "actor", "note": "Operates shelter and housing programs across multiple states." },
+	"trm_labs": { "scope": "single_company", "role": "actor", "note": "Blockchain-forensics vendor sold to many agencies and exchanges." },
+	"shadowdragon": { "scope": "single_company", "role": "actor", "note": "OSINT vendor sold to many agencies." },
+	"fivecast": { "scope": "single_company", "role": "actor", "note": "OSINT vendor sold to agencies across several countries." },
+	"widepoint": { "scope": "single_company", "role": "actor", "note": "Federal identity and device-management provider across agencies." },
+
+	"quality_egg_of_new_england": { "scope": "single_company", "role": "actor", "note": "Single producer; the 2010 salmonella recall was national but the operator is one company." },
+	"winchester_dairy": { "scope": "single_company", "role": "actor", "note": "Single dairy operation." },
+	"delimax": { "scope": "single_company", "role": "actor", "note": "Single veal operation." },
+	"wiese_brothers_farms": { "scope": "single_company", "role": "actor", "note": "Single dairy operation." },
+	"dev_technology_group": { "scope": "narrow", "role": "actor", "note": "Mid-size federal IT contractor; harm is contract-scoped." },
+	"people_who_think": { "scope": "narrow", "role": "actor", "note": "Marketing vendor; single contract." },
+	"classic_air_charter": { "scope": "narrow", "role": "actor", "note": "Charter broker; single contract line." },
+	"base_international": { "scope": "narrow", "role": "actor", "note": "Small vendor; single contract." },
+	"akima_infrastructure_protection": { "scope": "narrow", "role": "actor", "note": "Subsidiary staffing vendor; single contract." },
+	"lemoine_disaster_recovery": { "scope": "narrow", "role": "actor", "note": "Single ICE-adjacent contract." },
+	"iss_action_inc": { "scope": "narrow", "role": "actor", "note": "Small guard vendor; single contract." },
+	"quantico_tactical": { "scope": "narrow", "role": "actor", "note": "Equipment reseller; single contract." },
+	"kvg_llc": { "scope": "narrow", "role": "actor", "note": "Small vendor; single contract." },
+	"edge_ops": { "scope": "narrow", "role": "actor", "note": "Small vendor; single contract." },
+	"acquisition_logistics": { "scope": "narrow", "role": "actor", "note": "Small logistics vendor; single contract." },
+	"bi2_technologies": { "scope": "narrow", "role": "actor", "note": "Small biometrics vendor; sheriff-office deployments." },
+	"penlink": { "scope": "narrow", "role": "actor", "note": "Surveillance tooling vendor; agency-scoped deployments." },
+	"mvm_inc": { "scope": "narrow", "role": "actor", "note": "Transport/guard contractor; contract-scoped." },
+	"csi_aviation": { "scope": "narrow", "role": "actor", "note": "Charter broker; contract-scoped." }
+}
