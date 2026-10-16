@@ -1868,7 +1868,7 @@
       "name": "United Airlines Holdings",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "One of the three largest airlines in the United States by passengers carried, headquartered in Chicago, Illinois. Climate TRACE aviation data places United Airlines among the world's top 10 airline emitters. United reported total scope 1 emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023. United has been more aggressive than peers in investing in SAF offtake agreements and emerging technology (including contrails research with Google), but SAF represented less than 1% of fuel burned in 2023 and commercial-scale availability remains a decade away. United's ongoing fleet expansion and growing international routes mean absolute emissions are rising even as carbon intensity per seat-mile improves.",
+      "summary": "One of the three largest airlines in the United States by passengers carried, headquartered in Chicago, Illinois. Climate TRACE aviation data places United Airlines among the world's top 10 airline emitters. United reported total scope 1 emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023. United has been more aggressive than peers in investing in SAF offtake agreements and emerging technology (including contrails research with Google), but SAF represented less than 1% of fuel burned in 2023 and commercial-scale availability remains a decade away. United's ongoing fleet expansion and growing international routes mean absolute emissions are rising even as carbon intensity per seat-mile improves. United Airlines signed a non-prosecution agreement with DOJ's Fraud Section dated February 25, 2021, paying $17.3 million in criminal penalties and disgorgement (plus $32.2 million in a False Claims Act settlement) over falsified parcel-delivery data on U.S. Postal Service international mail contracts; DOJ cited a 2016 non-prosecution agreement over a separate bribery matter as an aggravating factor (DOJ NPA letter, Feb 2021).",
       "blurb": "Major airline carrier providing passenger and cargo air transportation across domestic and international routes.",
       "brands": [
         "United Airlines"
@@ -1881,15 +1881,25 @@
         "hospitality"
       ],
       "harms": [
-        "environment_general"
+        "environment_general",
+        "elite_impunity_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-10-16",
       "evidence": [
         {
           "tag": "environment_general",
           "text": "United Airlines reported total scope 1 greenhouse gas emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023, placing it among the world's top 10 airline emitters as tracked by Climate TRACE. While United has been more proactive than peers in SAF offtake agreements and contrail-reduction research, SAF represented less than 1% of fuel burned in 2023. United's ongoing international expansion means absolute emissions continue rising even as carbon intensity per seat-mile improves.",
           "date": "2023"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "United Airlines signed a non-prosecution agreement with DOJ's Fraud Section dated February 25, 2021, paying $17.3 million in criminal penalties and disgorgement (plus $32.2 million in a False Claims Act settlement) over falsified parcel-delivery data on U.S. Postal Service international mail contracts; DOJ cited a 2016 non-prosecution agreement over a separate bribery matter as an aggravating factor (DOJ NPA letter, Feb 2021).",
+          "date": "2021-02",
+          "amountUsd": 17271415,
+          "amountKind": "fine",
+          "actor": "DOJ Fraud Section",
+          "sourceUrl": "https://www.justice.gov/opa/press-release/file/1370991/download"
         }
       ],
       "scope": "single_company",
@@ -15585,7 +15595,7 @@
       "name": "Chipotle Mexican Grill, Inc.",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Publicly traded fast-casual restaurant chain (NYSE: CMG) with over 3,500 locations, built around a public 'Food With Integrity' animal welfare commitment. A April 2024 Mercy For Animals undercover investigation at a George's Inc. slaughterhouse supplying Chipotle documented chickens routinely not rendered unconscious before having their throats slit, despite Chipotle's stated requirement that all animals in its supply chain be stunned before slaughter, and found blue plastic-like foreign material repeatedly turning up in deboned chicken flesh on the line.",
+      "summary": "Publicly traded fast-casual restaurant chain (NYSE: CMG) with over 3,500 locations, built around a public 'Food With Integrity' animal welfare commitment. A April 2024 Mercy For Animals undercover investigation at a George's Inc. slaughterhouse supplying Chipotle documented chickens routinely not rendered unconscious before having their throats slit, despite Chipotle's stated requirement that all animals in its supply chain be stunned before slaughter, and found blue plastic-like foreign material repeatedly turning up in deboned chicken flesh on the line. Chipotle agreed in April 2020 to a three-year deferred prosecution agreement and a record $25 million criminal fine for adulterating food in outbreaks that sickened more than 1,100 people between 2015 and 2018, avoiding conviction (DOJ press release, April 2020).",
       "blurb": "Fast-casual restaurant chain serving build-your-own burritos, bowls, and tacos.",
       "brands": [],
       "layoffs": "N/A",
@@ -15598,7 +15608,8 @@
         "food"
       ],
       "harms": [
-        "animals_general"
+        "animals_general",
+        "elite_impunity_general"
       ],
       "aligns": [],
       "evidence": [
@@ -15608,9 +15619,18 @@
           "date": "2024-04",
           "actor": "Mercy For Animals",
           "sourceUrl": "https://mercyforanimals.org/blog/new-investigation-video-exposes-contaminated-chicken-flesh-at-chipotle-supplier/"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "Chipotle agreed in April 2020 to a three-year deferred prosecution agreement and a record $25 million criminal fine for adulterating food in outbreaks that sickened more than 1,100 people between 2015 and 2018, avoiding conviction (DOJ press release, April 2020).",
+          "date": "2020-04",
+          "amountUsd": 25000000,
+          "amountKind": "fine",
+          "actor": "DOJ / U.S. Attorney C.D. California",
+          "sourceUrl": "https://www.justice.gov/opa/pr/chipotle-mexican-grill-agrees-pay-25-million-fine-and-enter-deferred-prosecution-agreement"
         }
       ],
-      "addedAt": "2026-09-03"
+      "addedAt": "2026-10-16"
     },
     {
       "id": "trillium_farm_holdings",
@@ -19099,6 +19119,40 @@
         }
       ],
       "addedAt": "2026-10-15"
+    },
+    {
+      "aum": "N/A",
+      "aumVal": 0,
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "aligns": [],
+      "addedAt": "2026-10-16",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "id": "sandoz",
+      "name": "Sandoz",
+      "summary": "Sandoz, then a Novartis generics unit, entered a deferred prosecution agreement on March 2, 2020 resolving a four-count felony charge for participating in four criminal antitrust conspiracies with competing generic drugmakers from 2013 to 2015; it paid a $195 million criminal penalty — then the largest in a U.S. domestic antitrust case — and admitted affected sales exceeded $500 million, avoiding conviction (DOJ Antitrust Division, via Becker's Hospital Review; Public Citizen, \"The Usual Corporate Suspects\", 2021). Quest: elite_impunity_general.",
+      "blurb": "Generic and biosimilar pharmaceutical manufacturer.",
+      "harmScore": 55,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://beckershospitalreview.com/pharmacy/sandoz-to-pay-195m-criminal-penalty-in-price-fixing-case.html",
+      "cats": [
+        "health"
+      ],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Sandoz, then a Novartis generics unit, entered a deferred prosecution agreement on March 2, 2020 resolving a four-count felony charge for participating in four criminal antitrust conspiracies with competing generic drugmakers from 2013 to 2015; it paid a $195 million criminal penalty — then the largest in a U.S. domestic antitrust case — and admitted affected sales exceeded $500 million, avoiding conviction (DOJ Antitrust Division, via Becker's Hospital Review; Public Citizen, \"The Usual Corporate Suspects\", 2021).",
+          "date": "2020-03",
+          "amountUsd": 195000000,
+          "amountKind": "fine",
+          "actor": "DOJ Antitrust Division",
+          "sourceUrl": "https://beckershospitalreview.com/pharmacy/sandoz-to-pay-195m-criminal-penalty-in-price-fixing-case.html"
+        }
+      ]
     }
   ],
   "brands": [
@@ -21234,18 +21288,28 @@
       ],
       "cat": "hospitality",
       "alts": [],
-      "why": "United Airlines reported total scope 1 greenhouse gas emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023, placing it among the world's top 10 airline emitters as tracked by Climate TRACE. While United has been more proactive than peers in SAF offtake agreements and contrail-reduction research, SAF represented less than 1% of fuel burned in 2023. United's ongoing international expansion means absolute emissions continue rising even as carbon intensity per seat-mile improves.",
+      "why": "United Airlines reported total scope 1 greenhouse gas emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023, placing it among the world's top 10 airline emitters as tracked by Climate TRACE. While United has been more proactive than peers in SAF offtake agreements and contrail-reduction research, SAF represented less than 1% of fuel burned in 2023. United's ongoing international expansion means absolute emissions continue rising even as carbon intensity per seat-mile improves. United Airlines signed a non-prosecution agreement with DOJ's Fraud Section dated February 25, 2021, paying $17.3 million in criminal penalties and disgorgement (plus $32.2 million in a False Claims Act settlement) over falsified parcel-delivery data on U.S. Postal Service international mail contracts; DOJ cited a 2016 non-prosecution agreement over a separate bribery matter as an aggravating factor (DOJ NPA letter, Feb 2021).",
       "blurb": "Major airline providing passenger and cargo flights across domestic and international routes.",
       "harms": [
-        "environment_general"
+        "environment_general",
+        "elite_impunity_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-10-16",
       "evidence": [
         {
           "tag": "environment_general",
           "text": "United Airlines reported total scope 1 greenhouse gas emissions of approximately 36.6 million metric tons of CO2 equivalent in 2023, placing it among the world's top 10 airline emitters as tracked by Climate TRACE. While United has been more proactive than peers in SAF offtake agreements and contrail-reduction research, SAF represented less than 1% of fuel burned in 2023. United's ongoing international expansion means absolute emissions continue rising even as carbon intensity per seat-mile improves.",
           "date": "2023"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "United Airlines signed a non-prosecution agreement with DOJ's Fraud Section dated February 25, 2021, paying $17.3 million in criminal penalties and disgorgement (plus $32.2 million in a False Claims Act settlement) over falsified parcel-delivery data on U.S. Postal Service international mail contracts; DOJ cited a 2016 non-prosecution agreement over a separate bribery matter as an aggravating factor (DOJ NPA letter, Feb 2021).",
+          "date": "2021-02",
+          "amountUsd": 17271415,
+          "amountKind": "fine",
+          "actor": "DOJ Fraud Section",
+          "sourceUrl": "https://www.justice.gov/opa/press-release/file/1370991/download"
         }
       ]
     },
@@ -37378,10 +37442,11 @@
       ],
       "cat": "food",
       "alts": [],
-      "why": "Chipotle markets itself on 'Food With Integrity' animal welfare standards, including a requirement that all animals in its supply chain be stunned before slaughter. An April 2024 Mercy For Animals undercover investigation at a George's Inc. slaughterhouse supplying Chipotle found many chickens not rendered unconscious before having their throats slit, plus blue plastic-like foreign material repeatedly turning up in deboned chicken flesh on the line.",
+      "why": "Chipotle markets itself on 'Food With Integrity' animal welfare standards, including a requirement that all animals in its supply chain be stunned before slaughter. An April 2024 Mercy For Animals undercover investigation at a George's Inc. slaughterhouse supplying Chipotle found many chickens not rendered unconscious before having their throats slit, plus blue plastic-like foreign material repeatedly turning up in deboned chicken flesh on the line. Chipotle agreed in April 2020 to a three-year deferred prosecution agreement and a record $25 million criminal fine for adulterating food in outbreaks that sickened more than 1,100 people between 2015 and 2018, avoiding conviction (DOJ press release, April 2020).",
       "blurb": "Fast-casual restaurant chain serving build-your-own burritos, bowls, and tacos.",
       "harms": [
-        "animals_general"
+        "animals_general",
+        "elite_impunity_general"
       ],
       "aligns": [],
       "evidence": [
@@ -37391,9 +37456,18 @@
           "date": "2024-04",
           "actor": "Mercy For Animals",
           "sourceUrl": "https://mercyforanimals.org/blog/new-investigation-video-exposes-contaminated-chicken-flesh-at-chipotle-supplier/"
+        },
+        {
+          "tag": "elite_impunity_general",
+          "text": "Chipotle agreed in April 2020 to a three-year deferred prosecution agreement and a record $25 million criminal fine for adulterating food in outbreaks that sickened more than 1,100 people between 2015 and 2018, avoiding conviction (DOJ press release, April 2020).",
+          "date": "2020-04",
+          "amountUsd": 25000000,
+          "amountKind": "fine",
+          "actor": "DOJ / U.S. Attorney C.D. California",
+          "sourceUrl": "https://www.justice.gov/opa/pr/chipotle-mexican-grill-agrees-pay-25-million-fine-and-enter-deferred-prosecution-agreement"
         }
       ],
-      "addedAt": "2026-09-03"
+      "addedAt": "2026-10-16"
     },
     {
       "id": "dairyland",
@@ -40822,6 +40896,99 @@
         }
       ],
       "addedAt": "2026-10-15"
+    },
+    {
+      "alts": [],
+      "aligns": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "addedAt": "2026-10-16",
+      "id": "sandoz",
+      "avoid": "Sandoz",
+      "ownership": [
+        {
+          "firmId": "sandoz",
+          "stake": "majority",
+          "since": "1886"
+        }
+      ],
+      "cat": "health",
+      "why": "Sandoz, then a Novartis generics unit, entered a deferred prosecution agreement on March 2, 2020 resolving a four-count felony charge for participating in four criminal antitrust conspiracies with competing generic drugmakers from 2013 to 2015; it paid a $195 million criminal penalty — then the largest in a U.S. domestic antitrust case — and admitted affected sales exceeded $500 million, avoiding conviction (DOJ Antitrust Division, via Becker's Hospital Review; Public Citizen, \"The Usual Corporate Suspects\", 2021).",
+      "blurb": "Generic and biosimilar medicines sold to pharmacies and hospitals.",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Sandoz, then a Novartis generics unit, entered a deferred prosecution agreement on March 2, 2020 resolving a four-count felony charge for participating in four criminal antitrust conspiracies with competing generic drugmakers from 2013 to 2015; it paid a $195 million criminal penalty — then the largest in a U.S. domestic antitrust case — and admitted affected sales exceeded $500 million, avoiding conviction (DOJ Antitrust Division, via Becker's Hospital Review; Public Citizen, \"The Usual Corporate Suspects\", 2021).",
+          "date": "2020-03",
+          "amountUsd": 195000000,
+          "amountKind": "fine",
+          "actor": "DOJ Antitrust Division",
+          "sourceUrl": "https://beckershospitalreview.com/pharmacy/sandoz-to-pay-195m-criminal-penalty-in-price-fixing-case.html"
+        }
+      ]
+    },
+    {
+      "alts": [],
+      "aligns": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "addedAt": "2026-10-16",
+      "id": "monsanto",
+      "avoid": "Monsanto",
+      "ownership": [
+        {
+          "firmId": "bayer",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "health",
+      "why": "Monsanto pleaded guilty in November 2019 to a misdemeanor for using the banned pesticide Penncap-M (methyl parathion) on research crops at its Kihei, Maui facility in 2014, and entered a two-year deferred prosecution agreement on two felony counts of illegally storing acute hazardous waste, avoiding felony convictions; the DOJ described $10 million in payments, a $6 million criminal fine plus $4 million in community service (DOJ C.D. Cal. press release; Public Citizen, \"The Usual Corporate Suspects\", 2021). Per Reuters, a December 2021 plea covering 30 misdemeanors over a 2020 Oahu pesticide application said the conduct violated the 2019 agreement.",
+      "blurb": "Agricultural seed and crop-protection chemicals brand, owned by Bayer.",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Monsanto pleaded guilty in November 2019 to a misdemeanor for using the banned pesticide Penncap-M (methyl parathion) on research crops at its Kihei, Maui facility in 2014, and entered a two-year deferred prosecution agreement on two felony counts of illegally storing acute hazardous waste, avoiding felony convictions; the DOJ described $10 million in payments, a $6 million criminal fine plus $4 million in community service (DOJ C.D. Cal. press release; Public Citizen, \"The Usual Corporate Suspects\", 2021). Per Reuters, a December 2021 plea covering 30 misdemeanors over a 2020 Oahu pesticide application said the conduct violated the 2019 agreement.",
+          "date": "2019-11",
+          "amountUsd": 10000000,
+          "amountKind": "fine",
+          "actor": "U.S. Attorney, C.D. California",
+          "sourceUrl": "https://www.justice.gov/usao-cdca/pr/monsanto-agrees-plead-guilty-illegally-spraying-banned-pesticide-maui-facility"
+        }
+      ]
+    },
+    {
+      "alts": [],
+      "aligns": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "addedAt": "2026-10-16",
+      "id": "merrill_lynch_commodities",
+      "avoid": "Merrill Lynch Commodities",
+      "ownership": [
+        {
+          "firmId": "bank_of_america",
+          "stake": "majority",
+          "since": "2004"
+        }
+      ],
+      "cat": "finance",
+      "why": "Merrill Lynch Commodities, a Bank of America subsidiary, entered a non-prosecution agreement on June 25, 2019 admitting that from at least 2008 through 2014 its precious-metals traders placed thousands of false orders they intended to cancel to manipulate COMEX futures (spoofing); it paid about $25 million in combined criminal fines, restitution and forfeiture, with a parallel CFTC order of roughly $25 million, and no corporate prosecution (DOJ Fraud Section case page; CFTC release 7946-19; Public Citizen, \"The Usual Corporate Suspects\", 2021).",
+      "blurb": "Global commodities trading arm of Bank of America.",
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Merrill Lynch Commodities, a Bank of America subsidiary, entered a non-prosecution agreement on June 25, 2019 admitting that from at least 2008 through 2014 its precious-metals traders placed thousands of false orders they intended to cancel to manipulate COMEX futures (spoofing); it paid about $25 million in combined criminal fines, restitution and forfeiture, with a parallel CFTC order of roughly $25 million, and no corporate prosecution (DOJ Fraud Section case page; CFTC release 7946-19; Public Citizen, \"The Usual Corporate Suspects\", 2021).",
+          "date": "2019-06",
+          "amountUsd": 25000000,
+          "amountKind": "fine",
+          "actor": "DOJ Fraud Section",
+          "sourceUrl": "https://www.justice.gov/criminal-vns/case/mlci"
+        }
+      ]
     }
   ]
 }

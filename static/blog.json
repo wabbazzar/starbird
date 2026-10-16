@@ -2725,6 +2725,21 @@
         "smith_and_nephew",
         "stryker"
       ]
+    },
+    {
+      "id": "2026-10-16-adjacent_source_discovery_elite_impunity",
+      "date": "2026-10-16",
+      "title": "Fines paid, convictions avoided: Sandoz, Monsanto, Merrill Lynch Commodities",
+      "strategy": "adjacent_source_discovery_elite_impunity",
+      "strategyLabel": "Adjacent-source discovery (elite impunity)",
+      "value": "elite_impunity",
+      "summary": "Three more companies that settled criminal cases through DOJ deferred or non-prosecution agreements, from Public Citizen's 2021 audit of leniency deals.",
+      "body": "Public Citizen's \"The Usual Corporate Suspects\" tallies 20 large companies that resolved federal criminal cases through deferred or non-prosecution agreements. This run adds three of them.\n\nSandoz, then part of Novartis, admitted joining four antitrust conspiracies with rival generic drugmakers between 2013 and 2015, affecting more than $500 million in sales. It paid a $195 million penalty, per DOJ, and avoided conviction under a deferred prosecution agreement.\n\nMonsanto, now a Bayer brand, pleaded guilty to a misdemeanor for spraying a banned pesticide on Maui in 2014 and got a two-year deferred prosecution agreement on hazardous-waste felonies. Merrill Lynch Commodities, a Bank of America unit, admitted its traders spoofed COMEX precious-metals markets from 2008 to 2014 and paid about $25 million under a non-prosecution agreement.\n\nWe also added the same tag, with sourced evidence, to Chipotle (a $25 million fine over foodborne-illness outbreaks) and United Airlines (a postal-mail data fraud case, with a 2016 prior agreement).",
+      "entityIds": [
+        "sandoz",
+        "merrill_lynch_commodities",
+        "monsanto"
+      ]
     }
   ]
 }
