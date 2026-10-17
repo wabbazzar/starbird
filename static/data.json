@@ -40989,6 +40989,90 @@
           "sourceUrl": "https://www.justice.gov/criminal-vns/case/mlci"
         }
       ]
+    },
+    {
+      "id": "nutella",
+      "avoid": "Nutella",
+      "ownership": [
+        {
+          "firmId": "ferrero_group",
+          "stake": "majority",
+          "since": "1964"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Nutella, made by Ferrero, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Its listed formulation leads with sugar and palm oil, with hazelnuts at 13% and cocoa at 7.4%, plus skim milk powder, whey powder, soy lecithin emulsifier and vanillin flavoring — industrial ingredients and cosmetic additives that the NOVA framework (Monteiro et al., PMC6322572) uses as markers of ultra-processing. Sugar and palm oil as the first two ingredients make it a sweet, energy-dense spread marketed as a breakfast food.",
+      "blurb": "Sweet hazelnut-and-cocoa spread sold in jars, made by Ferrero.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Nutella, made by Ferrero, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Its listed formulation leads with sugar and palm oil, with hazelnuts at 13% and cocoa at 7.4%, plus skim milk powder, whey powder, soy lecithin emulsifier and vanillin flavoring — industrial ingredients and cosmetic additives that the NOVA framework (Monteiro et al., PMC6322572) uses as markers of ultra-processing. Sugar and palm oil as the first two ingredients make it a sweet, energy-dense spread marketed as a breakfast food.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/3017620422003",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-17"
+    },
+    {
+      "id": "uncrustables",
+      "avoid": "Smucker's Uncrustables",
+      "ownership": [
+        {
+          "firmId": "jm_smucker",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Smucker's Uncrustables sealed sandwiches are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The peanut butter and jelly variety lists fully hydrogenated vegetable oils and mono- and diglycerides in the filling and a bread dough conditioner (enzymes, ascorbic acid, calcium peroxide), alongside added sugar in the bread, peanut butter and jam. Fully hydrogenated oils, emulsifiers and dough conditioners are the industrial-formulation markers that define NOVA Group 4 (Monteiro et al., PMC6322572).",
+      "blurb": "Crustless, pre-made frozen sandwiches, mainly peanut butter and jelly, made by J.M. Smucker.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Smucker's Uncrustables sealed sandwiches are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The peanut butter and jelly variety lists fully hydrogenated vegetable oils and mono- and diglycerides in the filling and a bread dough conditioner (enzymes, ascorbic acid, calcium peroxide), alongside added sugar in the bread, peanut butter and jam. Fully hydrogenated oils, emulsifiers and dough conditioners are the industrial-formulation markers that define NOVA Group 4 (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://us.openfoodfacts.org/cgi/search.pl?search_terms=uncrustables&search_simple=1&action=process",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-17"
+    },
+    {
+      "id": "eggo",
+      "avoid": "Eggo",
+      "ownership": [
+        {
+          "firmId": "kellanova",
+          "stake": "majority",
+          "since": "1953"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Eggo Homestyle Waffles, made by Kellanova, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The ingredient list includes soybean/palm/canola vegetable oil, sodium aluminum phosphate and monocalcium phosphate leavening, whey, soy lecithin and beta-carotene added for color. Added color, emulsifiers and industrial leavening salts are formulation markers that place a product in NOVA Group 4 (Monteiro et al., PMC6322572).",
+      "blurb": "Frozen toaster waffles and pancakes, made by Kellanova.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Eggo Homestyle Waffles, made by Kellanova, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The ingredient list includes soybean/palm/canola vegetable oil, sodium aluminum phosphate and monocalcium phosphate leavening, whey, soy lecithin and beta-carotene added for color. Added color, emulsifiers and industrial leavening salts are formulation markers that place a product in NOVA Group 4 (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://us.openfoodfacts.org/cgi/search.pl?search_terms=eggo+homestyle+waffles&search_simple=1&action=process",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-17"
     }
   ]
 }

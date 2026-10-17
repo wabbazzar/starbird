@@ -2740,6 +2740,22 @@
         "merrill_lynch_commodities",
         "monsanto"
       ]
+    },
+    {
+      "id": "2026-10-17-ultraprocessed_nova_tracker",
+      "date": "2026-10-17",
+      "title": "Three pantry staples that classify as ultra-processed",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Nutella, Uncrustables and Eggo are all rated NOVA Group 4 in Open Food Facts, each from a firm already tracked for health harms.",
+      "body": "This run checked brand-level NOVA classifications against Open Food Facts and the NOVA literature (Monteiro et al.). Three household names came back as Group 4, ultra-processed: Ferrero's Nutella, Smucker's Uncrustables and Kellanova's Eggo.\n\nThe evidence is in the ingredient lists. Nutella leads with sugar and palm oil, with hazelnuts at 13% and cocoa at 7.4%, plus emulsifier and vanillin. Uncrustables list fully hydrogenated oils, mono- and diglycerides and a bread dough conditioner. Eggo waffles carry vegetable oil, phosphate leavening, whey, soy lecithin and added color.\n\nAll three brands sit under firms already flagged under health_general, so this run widens the picture of what each parent sells rather than introducing new owners. Classification comes from ingredient markers, not from a measured health outcome for these specific products.",
+      "entityIds": [
+        "eggo",
+        "nutella",
+        "uncrustables"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
