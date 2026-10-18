@@ -19153,6 +19153,96 @@
           "sourceUrl": "https://beckershospitalreview.com/pharmacy/sandoz-to-pay-195m-criminal-penalty-in-price-fixing-case.html"
         }
       ]
+    },
+    {
+      "id": "alcogal",
+      "name": "Alcogal",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Panama-based law firm founded in 1985 that ICIJ's Pandora Papers (2021) identified as the offshore provider that created the most shell companies and trusts in the leak, at least 14,000, with nearly half of the 336 politicians and officials ICIJ identified among its clients. Documents tied its structures to Czech PM Andrej Babiš's €20 million French castle purchase and to Kenyan President Uhuru Kenyatta's family holdings. No regulatory penalty was reported in the sources reviewed.",
+      "blurb": "Panamanian law firm that incorporates offshore companies and trusts for clients.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "source": "https://www.icij.org/investigations/pandora-papers/",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Panama-based law firm founded in 1985 that ICIJ's Pandora Papers (2021) identified as the offshore provider that created the most shell companies and trusts in the leak, at least 14,000, with nearly half of the 336 politicians and officials ICIJ identified among its clients. Documents tied its structures to Czech PM Andrej Babiš's €20 million French castle purchase and to Kenyan President Uhuru Kenyatta's family holdings. No regulatory penalty was reported in the sources reviewed.",
+          "date": "2021-10",
+          "actor": "ICIJ",
+          "sourceUrl": "https://www.icij.org/investigations/pandora-papers/"
+        }
+      ],
+      "addedAt": "2026-10-18",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "trident_trust",
+      "name": "Trident Trust",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "British Virgin Islands-based offshore service provider, operating in more than 20 jurisdictions, that supplied the largest share of the Pandora Papers leak (over 3.3 million records of 11.9 million). ICIJ found about 97 politicians and officials among its clients, including seven current or former country leaders such as Gabon's Ali Bongo and Qatar's Tamim Al Thani, and 206 U.S. trusts, 43 registered in South Dakota. ICIJ reported questions about who owns the company went unanswered; no regulatory penalty was reported.",
+      "blurb": "Offshore trust and corporate services provider with offices across more than 20 jurisdictions.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://www.icij.org/investigations/pandora-papers/icij-publishes-final-batch-of-pandora-papers-data-on-more-than-9000-offshore-companies-trusts-and-foundations/",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "British Virgin Islands-based offshore service provider, operating in more than 20 jurisdictions, that supplied the largest share of the Pandora Papers leak (over 3.3 million records of 11.9 million). ICIJ found about 97 politicians and officials among its clients, including seven current or former country leaders such as Gabon's Ali Bongo and Qatar's Tamim Al Thani, and 206 U.S. trusts, 43 registered in South Dakota. ICIJ reported questions about who owns the company went unanswered; no regulatory penalty was reported.",
+          "date": "2021-10",
+          "actor": "ICIJ",
+          "sourceUrl": "https://www.icij.org/investigations/pandora-papers/icij-publishes-final-batch-of-pandora-papers-data-on-more-than-9000-offshore-companies-trusts-and-foundations/"
+        }
+      ],
+      "addedAt": "2026-10-18",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "appleby",
+      "name": "Appleby",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Offshore law firm whose records made up about seven million of the 13.4 million files in ICIJ's Paradise Papers leak (November 2017), which included information on at least 31,000 U.S. citizens, residents and companies. Appleby said it found no evidence of wrongdoing by itself or its clients and sued the BBC and the Guardian over the reporting; no regulatory fine was found in the sources reviewed.",
+      "blurb": "Offshore law firm providing corporate, trust and fiduciary services in tax-haven jurisdictions.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "source": "https://www.davispolk.com/insights/client-update/paradise-papers-will-lead-increased-regulatory-scrutiny-cross-border-banking",
+      "cats": [],
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Offshore law firm whose records made up about seven million of the 13.4 million files in ICIJ's Paradise Papers leak (November 2017), which included information on at least 31,000 U.S. citizens, residents and companies. Appleby said it found no evidence of wrongdoing by itself or its clients and sued the BBC and the Guardian over the reporting; no regulatory fine was found in the sources reviewed.",
+          "date": "2017-11",
+          "actor": "ICIJ",
+          "sourceUrl": "https://www.davispolk.com/insights/client-update/paradise-papers-will-lead-increased-regulatory-scrutiny-cross-border-banking"
+        }
+      ],
+      "addedAt": "2026-10-18",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -41073,6 +41163,93 @@
         }
       ],
       "addedAt": "2026-10-17"
+    },
+    {
+      "id": "alcogal",
+      "avoid": "Alcogal",
+      "ownership": [
+        {
+          "firmId": "alcogal",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Panama-based law firm founded in 1985 that ICIJ's Pandora Papers (2021) identified as the offshore provider that created the most shell companies and trusts in the leak, at least 14,000, with nearly half of the 336 politicians and officials ICIJ identified among its clients. Documents tied its structures to Czech PM Andrej Babiš's €20 million French castle purchase and to Kenyan President Uhuru Kenyatta's family holdings. No regulatory penalty was reported in the sources reviewed.",
+      "blurb": "Panamanian law firm that incorporates offshore companies and trusts for clients.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Panama-based law firm founded in 1985 that ICIJ's Pandora Papers (2021) identified as the offshore provider that created the most shell companies and trusts in the leak, at least 14,000, with nearly half of the 336 politicians and officials ICIJ identified among its clients. Documents tied its structures to Czech PM Andrej Babiš's €20 million French castle purchase and to Kenyan President Uhuru Kenyatta's family holdings. No regulatory penalty was reported in the sources reviewed.",
+          "date": "2021-10",
+          "actor": "ICIJ",
+          "sourceUrl": "https://www.icij.org/investigations/pandora-papers/"
+        }
+      ],
+      "addedAt": "2026-10-18"
+    },
+    {
+      "id": "trident_trust",
+      "avoid": "Trident Trust",
+      "ownership": [
+        {
+          "firmId": "trident_trust",
+          "stake": "majority",
+          "since": "1972"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "British Virgin Islands-based offshore service provider, operating in more than 20 jurisdictions, that supplied the largest share of the Pandora Papers leak (over 3.3 million records of 11.9 million). ICIJ found about 97 politicians and officials among its clients, including seven current or former country leaders such as Gabon's Ali Bongo and Qatar's Tamim Al Thani, and 206 U.S. trusts, 43 registered in South Dakota. ICIJ reported questions about who owns the company went unanswered; no regulatory penalty was reported.",
+      "blurb": "Offshore trust and corporate services provider with offices across more than 20 jurisdictions.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "British Virgin Islands-based offshore service provider, operating in more than 20 jurisdictions, that supplied the largest share of the Pandora Papers leak (over 3.3 million records of 11.9 million). ICIJ found about 97 politicians and officials among its clients, including seven current or former country leaders such as Gabon's Ali Bongo and Qatar's Tamim Al Thani, and 206 U.S. trusts, 43 registered in South Dakota. ICIJ reported questions about who owns the company went unanswered; no regulatory penalty was reported.",
+          "date": "2021-10",
+          "actor": "ICIJ",
+          "sourceUrl": "https://www.icij.org/investigations/pandora-papers/icij-publishes-final-batch-of-pandora-papers-data-on-more-than-9000-offshore-companies-trusts-and-foundations/"
+        }
+      ],
+      "addedAt": "2026-10-18"
+    },
+    {
+      "id": "appleby",
+      "avoid": "Appleby",
+      "ownership": [
+        {
+          "firmId": "appleby",
+          "stake": "majority",
+          "since": "1898"
+        }
+      ],
+      "cat": "finance",
+      "alts": [],
+      "why": "Offshore law firm whose records made up about seven million of the 13.4 million files in ICIJ's Paradise Papers leak (November 2017), which included information on at least 31,000 U.S. citizens, residents and companies. Appleby said it found no evidence of wrongdoing by itself or its clients and sued the BBC and the Guardian over the reporting; no regulatory fine was found in the sources reviewed.",
+      "blurb": "Offshore law firm providing corporate, trust and fiduciary services in tax-haven jurisdictions.",
+      "harms": [
+        "elite_impunity_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "elite_impunity_general",
+          "text": "Offshore law firm whose records made up about seven million of the 13.4 million files in ICIJ's Paradise Papers leak (November 2017), which included information on at least 31,000 U.S. citizens, residents and companies. Appleby said it found no evidence of wrongdoing by itself or its clients and sued the BBC and the Guardian over the reporting; no regulatory fine was found in the sources reviewed.",
+          "date": "2017-11",
+          "actor": "ICIJ",
+          "sourceUrl": "https://www.davispolk.com/insights/client-update/paradise-papers-will-lead-increased-regulatory-scrutiny-cross-border-banking"
+        }
+      ],
+      "addedAt": "2026-10-18"
     }
   ]
 }

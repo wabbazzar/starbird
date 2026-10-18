@@ -2756,6 +2756,22 @@
         "uncrustables"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-18-icij_panama_pandora_papers",
+      "date": "2026-10-18",
+      "title": "Offshore enablers named by ICIJ: Alcogal, Trident and Appleby",
+      "strategy": "icij_panama_pandora_papers",
+      "strategyLabel": "ICIJ Panama + Pandora Papers",
+      "value": "elite_impunity",
+      "summary": "Three offshore service providers at the center of ICIJ's Pandora and Paradise Papers leaks. They build the shell structures that let politicians and the wealthy hide assets.",
+      "body": "Alcogal, Trident Trust and Appleby are not household brands, but they sit upstream of many that are: they incorporate the shell companies and trusts through which officials and wealthy clients hold assets.\n\nICIJ's Pandora Papers identified Panama-based Alcogal as the provider that created the most offshore entities in the leak, at least 14,000, with nearly half of the 336 politicians and officials identified among its clients. Trident Trust supplied over 3.3 million of the 11.9 million records and counted about 97 politicians and officials as clients, including seven current or former country leaders.\n\nAppleby, from the earlier Paradise Papers, accounted for about seven million of 13.4 million leaked files. The firm says it found no evidence of wrongdoing and sued the BBC and the Guardian over the coverage.\n\nNo regulatory penalties turned up for any of the three, so scores are modest; the concern is the secrecy infrastructure itself.",
+      "entityIds": [
+        "alcogal",
+        "appleby",
+        "trident_trust"
+      ],
+      "source": "https://offshoreleaks.icij.org/"
     }
   ]
 }
