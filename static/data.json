@@ -41250,6 +41250,93 @@
         }
       ],
       "addedAt": "2026-10-18"
+    },
+    {
+      "id": "toaster_strudel",
+      "avoid": "Toaster Strudel",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Toaster Strudel (Pillsbury, General Mills) is classed NOVA Group 4 (ultra-processed) in the Open Food Facts database. The strawberry pastry's label lists corn syrup, sugar, maltodextrin, dextrose, hydrogenated palm oil, modified corn starch, polysorbate 60, mono and diglycerides, TBHQ and artificial color (Red 40, Blue 1) — the kinds of industrial ingredients and cosmetic additives that define NOVA 4 per Monteiro et al. (Public Health Nutrition, 2019).",
+      "blurb": "Frozen toaster pastries with sweet icing packets, sold under the Pillsbury label.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-19",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Toaster Strudel (Pillsbury, General Mills) is classed NOVA Group 4 (ultra-processed) in the Open Food Facts database. The strawberry pastry's label lists corn syrup, sugar, maltodextrin, dextrose, hydrogenated palm oil, modified corn starch, polysorbate 60, mono and diglycerides, TBHQ and artificial color (Red 40, Blue 1) — the kinds of industrial ingredients and cosmetic additives that define NOVA 4 per Monteiro et al. (Public Health Nutrition, 2019).",
+          "date": "2026",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0018000427420"
+        }
+      ]
+    },
+    {
+      "id": "gushers",
+      "avoid": "Gushers",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1991"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Gushers fruit-flavored snacks (General Mills) list corn syrup and sugar first, followed by pear puree, modified corn starch, fructose, maltodextrin and palm oil, with glycerin, carrageenan and the synthetic dyes Red 40, Blue 1 and Yellows 5 and 6 on retailer-posted labels. Maltodextrin, modified starch and cosmetic colorants are NOVA Group 4 markers under Monteiro et al. (Public Health Nutrition, 2019); this classification is inferred from the label, not a published product-level NOVA rating.",
+      "blurb": "Chewy fruit-flavored snacks with a liquid-style filling, in individual pouches.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-19",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Gushers fruit-flavored snacks (General Mills) list corn syrup and sugar first, followed by pear puree, modified corn starch, fructose, maltodextrin and palm oil, with glycerin, carrageenan and the synthetic dyes Red 40, Blue 1 and Yellows 5 and 6 on retailer-posted labels. Maltodextrin, modified starch and cosmetic colorants are NOVA Group 4 markers under Monteiro et al. (Public Health Nutrition, 2019); this classification is inferred from the label, not a published product-level NOVA rating.",
+          "date": "2026",
+          "actor": "Monteiro et al. / retailer label",
+          "sourceUrl": "https://giantfoodstores.com/groceries/snacks/fruit-snacks/gushers-tropical-strawberry-fruit-flavored-snacks-12-ct-96-oz-box.html"
+        }
+      ]
+    },
+    {
+      "id": "fruit_roll_ups",
+      "avoid": "Fruit Roll-Ups",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1983"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Fruit Roll-Ups (General Mills) are a sweetened fruit-flavored snack whose current retail label lists corn syrup, sugar, pear puree, maltodextrin and palm oil with Blue 1 and Red 40 colorants — NOVA Group 4 markers per Monteiro et al. (Public Health Nutrition, 2019); the classification is inferred from the label. CSPI pressed General Mills over 'made with real fruit' claims on the strawberry variety, which was settled in a 2012 labeling agreement requiring the actual fruit percentage to be disclosed.",
+      "blurb": "Rolled fruit-flavored snack sheets sold in individual pouches.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-19",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Fruit Roll-Ups (General Mills) are a sweetened fruit-flavored snack whose current retail label lists corn syrup, sugar, pear puree, maltodextrin and palm oil with Blue 1 and Red 40 colorants — NOVA Group 4 markers per Monteiro et al. (Public Health Nutrition, 2019); the classification is inferred from the label. CSPI pressed General Mills over 'made with real fruit' claims on the strawberry variety, which was settled in a 2012 labeling agreement requiring the actual fruit percentage to be disclosed.",
+          "date": "2012",
+          "actor": "CSPI",
+          "sourceUrl": "https://www.cspinet.org/news/general-mills-improve-strawberry-fruit-roll-ups-labeling-20121221"
+        }
+      ]
     }
   ]
 }

@@ -2772,6 +2772,22 @@
         "trident_trust"
       ],
       "source": "https://offshoreleaks.icij.org/"
+    },
+    {
+      "id": "2026-10-19-ultraprocessed_nova_tracker",
+      "date": "2026-10-19",
+      "title": "Three General Mills snacks that fit the ultra-processed profile",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Toaster Strudel, Gushers and Fruit Roll-Ups all lean on corn syrup, maltodextrin, modified starch and synthetic dyes — ingredient markers of NOVA Group 4 ultra-processed food. All three sit under General Mills.",
+      "body": "This run followed the NOVA ultra-processed food literature and looked for kid-marketed General Mills snacks not yet in the database. Toaster Strudel is listed as NOVA 4 in Open Food Facts; its label includes corn syrup, maltodextrin, hydrogenated palm oil, polysorbate 60, TBHQ and Red 40 and Blue 1.\n\nGushers and Fruit Roll-Ups were added on the strength of their labels. Retailer-posted ingredient lists show corn syrup, sugar, pear puree, maltodextrin and palm oil, plus synthetic dyes. Those are the ingredient types the Monteiro et al. (2019) NOVA paper uses to identify group 4 foods; we flag this as inferred from the label rather than a published product rating.\n\nFor Fruit Roll-Ups, CSPI's 2012 dispute with General Mills over 'made with real fruit' claims on the strawberry variety adds a labeling-honesty angle. The common thread is a single owner and a shared formulation style.",
+      "entityIds": [
+        "fruit_roll_ups",
+        "gushers",
+        "toaster_strudel"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
