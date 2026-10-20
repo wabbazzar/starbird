@@ -2788,6 +2788,22 @@
         "toaster_strudel"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-20-ultraprocessed_nova_tracker",
+      "date": "2026-10-20",
+      "title": "Three pantry staples classed ultra-processed",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Dr Pepper, Snickers and Hellmann's all land in NOVA Group 4 on Open Food Facts. Each is owned by a company the 2025 Lancet series on ultra-processed foods puts in the global market's top tier.",
+      "body": "This run applied the NOVA ultra-processed classification to three familiar brands: Dr Pepper (Keurig Dr Pepper), Snickers (Mars) and Hellmann's (Unilever). Open Food Facts rates each of them NOVA Group 4, the ultra-processed tier.\n\nThe ingredient lists show why. Dr Pepper lists high fructose corn syrup, caramel color, phosphoric acid and artificial flavors, and its diet and zero-sugar versions use aspartame and acesulfame potassium. Snickers lists corn syrup, palm oil, soy lecithin and artificial flavor. Hellmann's Real Mayonnaise lists the preservative additive E385 (calcium disodium EDTA).\n\nThe Lancet's November 2025 series on ultra-processed foods links ultra-processed food intake to obesity, type 2 diabetes and cardiovascular disease. It also names a handful of manufacturers, including Nestlé, PepsiCo, Unilever and Coca-Cola, as dominating the market. The NOVA tag here rests on Open Food Facts' classification of each product, not on a company-level audit.",
+      "entityIds": [
+        "dr_pepper",
+        "hellmanns",
+        "snickers"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

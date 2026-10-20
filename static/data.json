@@ -2019,7 +2019,7 @@
       "name": "Unilever",
       "aum": "N/A",
       "aumVal": 0,
-      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemmé, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products — particularly TRESemmé — as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemmé faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemmé products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general. Unilever continues animal testing where 'required by law,' but Cruelty Free International and PETA note this is often voluntary and that validated non-animal alternatives exist for most test categories. Unilever is NOT Leaping Bunny certified.",
+      "summary": "Anglo-British multinational consumer goods company headquartered in London, with approximately $60B in annual revenue. Unilever sells personal care and household products in 190+ countries under brands including Dove, TRESemmé, Suave, Axe, Vaseline, and Pond's. EWG's Skin Deep database rates numerous Unilever hair care products — particularly TRESemmé — as moderate to high hazard due to formaldehyde-releasing preservatives (DMDM hydantoin), synthetic fragrances, and other ingredients of concern. TRESemmé faced class-action lawsuits in 2021-2022 alleging DMDM hydantoin caused hair loss, and multiple TRESemmé products were recalled in 2021 following FDA detection of benzene contamination. Tagged environment_general. Unilever continues animal testing where 'required by law,' but Cruelty Free International and PETA note this is often voluntary and that validated non-animal alternatives exist for most test categories. Unilever is NOT Leaping Bunny certified. Owns Hellmann's, whose Real Mayonnaise is classified NOVA Group 4 (ultra-processed) by Open Food Facts; Unilever is among the handful of manufacturers the 2025 Lancet series on ultra-processed foods names as dominating the global market.",
       "blurb": "Consumer goods company making food, home-care, and personal-care brands sold in markets worldwide.",
       "brands": [
         "TRESemmé",
@@ -2034,10 +2034,11 @@
       ],
       "harms": [
         "environment_general",
-        "animals_general"
+        "animals_general",
+        "health_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-10-20",
       "evidence": [
         {
           "tag": "environment_general",
@@ -2047,6 +2048,11 @@
         {
           "tag": "animals_general",
           "text": "Unilever continues animal testing where 'required by law,' but Cruelty Free International and PETA note this is often voluntary and that validated non-animal alternatives exist for most test categories. Unilever is NOT Leaping Bunny certified."
+        },
+        {
+          "tag": "health_general",
+          "text": "Owns Hellmann's, whose Real Mayonnaise is classified NOVA Group 4 (ultra-processed) by Open Food Facts; Unilever is among the handful of manufacturers the 2025 Lancet series on ultra-processed foods names as dominating the global market.",
+          "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=hellmanns+mayonnaise&json=1"
         }
       ],
       "scope": "multi_company",
@@ -41335,6 +41341,87 @@
           "date": "2012",
           "actor": "CSPI",
           "sourceUrl": "https://www.cspinet.org/news/general-mills-improve-strawberry-fruit-roll-ups-labeling-20121221"
+        }
+      ]
+    },
+    {
+      "id": "dr_pepper",
+      "avoid": "Dr Pepper",
+      "ownership": [
+        {
+          "firmId": "keurig_dr_pepper",
+          "stake": "majority",
+          "since": "1885"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Carbonated soft drink whose label lists carbonated water, high fructose corn syrup, caramel color, phosphoric acid, natural and artificial flavors and sodium benzoate. Open Food Facts classifies the product as NOVA Group 4 (ultra-processed); the diet and zero-sugar versions, sweetened with aspartame and acesulfame potassium, are also NOVA 4. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+      "blurb": "Carbonated soft drink with a 23-flavor profile, sold regular, diet and zero sugar.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-20",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Carbonated soft drink whose label lists carbonated water, high fructose corn syrup, caramel color, phosphoric acid, natural and artificial flavors and sodium benzoate. Open Food Facts classifies the product as NOVA Group 4 (ultra-processed); the diet and zero-sugar versions, sweetened with aspartame and acesulfame potassium, are also NOVA 4. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+          "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=dr+pepper&json=1"
+        }
+      ]
+    },
+    {
+      "id": "snickers",
+      "avoid": "Snickers",
+      "ownership": [
+        {
+          "firmId": "mars_inc",
+          "stake": "majority",
+          "since": "1930"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Peanut, caramel and nougat chocolate bar whose ingredients include sugar, corn syrup, palm oil, soy lecithin and artificial flavor. Open Food Facts classifies Snickers as NOVA Group 4 (ultra-processed). Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+      "blurb": "Chocolate bar with peanuts, caramel and nougat.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-20",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Peanut, caramel and nougat chocolate bar whose ingredients include sugar, corn syrup, palm oil, soy lecithin and artificial flavor. Open Food Facts classifies Snickers as NOVA Group 4 (ultra-processed). Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+          "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=snickers&json=1"
+        }
+      ]
+    },
+    {
+      "id": "hellmanns",
+      "avoid": "Hellmann's",
+      "ownership": [
+        {
+          "firmId": "unilever",
+          "stake": "majority",
+          "since": "1913"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Mayonnaise brand whose Real Mayonnaise is classified NOVA Group 4 (ultra-processed) by Open Food Facts, which lists the preservative additive E385 (calcium disodium EDTA) in the ingredients. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+      "blurb": "Mayonnaise and sandwich spreads.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-20",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Mayonnaise brand whose Real Mayonnaise is classified NOVA Group 4 (ultra-processed) by Open Food Facts, which lists the preservative additive E385 (calcium disodium EDTA) in the ingredients. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+          "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=hellmanns+mayonnaise&json=1"
         }
       ]
     }
