@@ -41424,6 +41424,87 @@
           "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=hellmanns+mayonnaise&json=1"
         }
       ]
+    },
+    {
+      "id": "cool_whip",
+      "avoid": "Cool Whip",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Whipped topping whose Cool Whip Reduced Fat product is classified NOVA Group 4 (ultra-processed) by Open Food Facts, which lists 11 ultra-processing markers including high fructose corn syrup, hydrogenated vegetable oil, and the additives polysorbate 60 (E435), sorbitan monostearate (E491), polyphosphates (E452) and xanthan/guar gums. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+      "blurb": "Non-dairy whipped topping sold frozen.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-21",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Whipped topping whose Cool Whip Reduced Fat product is classified NOVA Group 4 (ultra-processed) by Open Food Facts, which lists 11 ultra-processing markers including high fructose corn syrup, hydrogenated vegetable oil, and the additives polysorbate 60 (E435), sorbitan monostearate (E491), polyphosphates (E452) and xanthan/guar gums. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/043000009505"
+        }
+      ]
+    },
+    {
+      "id": "ore_ida",
+      "avoid": "Ore-Ida",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1952"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Frozen potato brand whose Crispy Tater Tots are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the additive disodium diphosphate (E450) plus dextrose and natural flavoring as ultra-processing markers; Open Food Facts lists Heinz Frozen Food Company as brand owner. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+      "blurb": "Frozen potato products including tater tots and fries.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-21",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Frozen potato brand whose Crispy Tater Tots are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the additive disodium diphosphate (E450) plus dextrose and natural flavoring as ultra-processing markers; Open Food Facts lists Heinz Frozen Food Company as brand owner. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0013120000829/crispy-tater-tots-ore-ida"
+        }
+      ]
+    },
+    {
+      "id": "sun_chips",
+      "avoid": "Sun Chips",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1991"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Multigrain chip brand whose Sun Chips (Frito-Lay) are classified NOVA Group 4 (ultra-processed) by Open Food Facts, with 8 ultra-processing markers including paprika extract (E160c), dextrose, maltodextrin, milk proteins and whey. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+      "blurb": "Multigrain snack chips made by Frito-Lay.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-21",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Multigrain chip brand whose Sun Chips (Frito-Lay) are classified NOVA Group 4 (ultra-processed) by Open Food Facts, with 8 ultra-processing markers including paprika extract (E160c), dextrose, maltodextrin, milk proteins and whey. Ultra-processed food intake is linked to higher risk of obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on ultra-processed foods.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0028400789417/sun-chips-frito-lay"
+        }
+      ]
     }
   ]
 }

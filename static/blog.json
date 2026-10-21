@@ -2804,6 +2804,22 @@
         "snickers"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-21-ultraprocessed_nova_tracker",
+      "date": "2026-10-21",
+      "title": "Three NOVA-4 staples: Cool Whip, Ore-Ida, Sun Chips",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three familiar grocery brands from Kraft Heinz and PepsiCo are classified ultra-processed (NOVA Group 4) by Open Food Facts.",
+      "body": "This run added Cool Whip and Ore-Ida, both Kraft Heinz brands, and Sun Chips from PepsiCo's Frito-Lay. Each was checked on its Open Food Facts product page, where it is classified NOVA Group 4.\n\nCool Whip carries 11 ultra-processing markers, including high fructose corn syrup, hydrogenated vegetable oil and emulsifiers such as polysorbate 60. Ore-Ida Crispy Tater Tots are flagged for disodium diphosphate (E450), dextrose and natural flavoring. Sun Chips, marketed as a multigrain snack, show 8 markers including paprika extract, maltodextrin and whey.\n\nThe common thread is that none reads as an obvious junk-food aisle item: a topping, frozen potatoes and a \"wholesome\" chip. Ultra-processed intake is linked to obesity, type 2 diabetes and cardiovascular disease in the 2025 Lancet series on the subject.",
+      "entityIds": [
+        "cool_whip",
+        "ore_ida",
+        "sun_chips"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
