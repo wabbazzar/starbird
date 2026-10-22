@@ -2820,6 +2820,22 @@
         "sun_chips"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-22-ultraprocessed_nova_tracker",
+      "date": "2026-10-22",
+      "title": "Goldfish, Go-GURT and Sour Patch Kids rate as ultra-processed",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three kid-aisle staples from Campbell's, General Mills and Mondelez are NOVA Group 4 in Open Food Facts, for different reasons.",
+      "body": "This run checked brand-level NOVA classifications in Open Food Facts against the NOVA literature (Monteiro et al.). Three children's-aisle staples came back as Group 4: Campbell's Pepperidge Farm Goldfish, General Mills' Go-GURT and Mondelez's Sour Patch Kids.\n\nThe ingredient lists differ. Go-GURT is flagged for five markers: carrageenan, gelatin, color, flavoring and modified corn starch. Sour Patch Kids Watermelon carries eight, including Yellow 5, Red 40, Blue 1 and titanium dioxide, with sugar, invert sugar and corn syrup leading the list. Goldfish is the mildest case, flagged for annatto color alongside industrial leavening and yeast-extract flavoring.\n\nAll three parents are already tracked under health_general, so this run adds detail on what each sells. Classification comes from ingredient markers, not from measured health outcomes for these specific products.",
+      "entityIds": [
+        "go_gurt",
+        "goldfish",
+        "sour_patch_kids"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

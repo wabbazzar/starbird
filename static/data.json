@@ -41505,6 +41505,90 @@
           "sourceUrl": "https://world.openfoodfacts.org/product/0028400789417/sun-chips-frito-lay"
         }
       ]
+    },
+    {
+      "id": "goldfish",
+      "avoid": "Goldfish Crackers",
+      "ownership": [
+        {
+          "firmId": "campbell_soup",
+          "stake": "majority",
+          "since": "1962"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Pepperidge Farm Cheddar Goldfish baked snack crackers, made by Campbell's, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database, which flags annatto color as an ultra-processing marker. The ingredient list includes enriched wheat flour, cheddar cheese with annatto, canola/sunflower/soybean oils, autolyzed yeast extract, monocalcium phosphate and baking soda. This is a milder case than most Group 4 products: the flag rests on the colorant and industrial leavening/flavoring ingredients (Monteiro et al., PMC6322572), not on sugar load.",
+      "blurb": "Baked cheddar-flavored snack crackers shaped like fish, made by Pepperidge Farm.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Pepperidge Farm Cheddar Goldfish baked snack crackers, made by Campbell's, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database, which flags annatto color as an ultra-processing marker. The ingredient list includes enriched wheat flour, cheddar cheese with annatto, canola/sunflower/soybean oils, autolyzed yeast extract, monocalcium phosphate and baking soda. This is a milder case than most Group 4 products: the flag rests on the colorant and industrial leavening/flavoring ingredients (Monteiro et al., PMC6322572), not on sugar load.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0014100054672/cheddar-goldfish-baked-snack-crackers-pepperidge-farm",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-22"
+    },
+    {
+      "id": "go_gurt",
+      "avoid": "Go-GURT",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Yoplait Go-GURT Strawberry low-fat yogurt tubes, made by General Mills, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database, which counts 5 ultra-processing markers: carrageenan (E407), gelatin (E428), added color, flavoring and modified corn starch. Sugar is the second ingredient after cultured low-fat milk, and the formulation also includes tricalcium phosphate and potassium sorbate preservative. The thickeners and colorants replace what a plain yogurt gets from milk alone, the pattern NOVA uses to define ultra-processing (Monteiro et al., PMC6322572).",
+      "blurb": "Portable low-fat yogurt in squeezable tubes, marketed to children, sold under the Yoplait name.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Yoplait Go-GURT Strawberry low-fat yogurt tubes, made by General Mills, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database, which counts 5 ultra-processing markers: carrageenan (E407), gelatin (E428), added color, flavoring and modified corn starch. Sugar is the second ingredient after cultured low-fat milk, and the formulation also includes tricalcium phosphate and potassium sorbate preservative. The thickeners and colorants replace what a plain yogurt gets from milk alone, the pattern NOVA uses to define ultra-processing (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0070470137780/go-gurt-strawberry-low-fat-kids-yogurt-tubes-yoplait",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-22"
+    },
+    {
+      "id": "sour_patch_kids",
+      "avoid": "Sour Patch Kids",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Sour Patch Kids Watermelon candy, made by Mondelez, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database with 8 ultra-processing markers, including four additives: Yellow 5/tartrazine (E102), Red 40 (E129), Blue 1 (E133) and titanium dioxide (E171). Sugar, invert sugar and corn syrup are the first three ingredients, followed by modified corn starch, and natural and artificial flavor. A candy built from sugars, synthetic dyes and a whitening pigment is a textbook NOVA Group 4 formulation (Monteiro et al., PMC6322572).",
+      "blurb": "Sour-then-sweet gummy candy sold in bags and boxes, made by Mondelez.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Sour Patch Kids Watermelon candy, made by Mondelez, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database with 8 ultra-processing markers, including four additives: Yellow 5/tartrazine (E102), Red 40 (E129), Blue 1 (E133) and titanium dioxide (E171). Sugar, invert sugar and corn syrup are the first three ingredients, followed by modified corn starch, and natural and artificial flavor. A candy built from sugars, synthetic dyes and a whitening pigment is a textbook NOVA Group 4 formulation (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0070462006605/sour-patch-kids-watermelon-mondelez",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-22"
     }
   ]
 }
