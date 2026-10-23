@@ -41589,6 +41589,90 @@
         }
       ],
       "addedAt": "2026-10-22"
+    },
+    {
+      "id": "rice_krispies_treats",
+      "avoid": "Rice Krispies Treats",
+      "ownership": [
+        {
+          "firmId": "kellanova",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kellogg's Rice Krispies Treats Original, made by Kellanova, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Its ingredient list pairs marshmallow (corn syrup, sugar, gelatin) with fructose, corn syrup solids and a margarine containing TBHQ and BHT preservatives, plus DATEM, acetylated monoglycerides, glycerin and soy lecithin emulsifiers. A sugar-and-additive bar with industrial emulsifiers and preservatives is a textbook NOVA Group 4 formulation (Monteiro et al., PMC6322572).",
+      "blurb": "Marshmallow-and-toasted-rice cereal bars from Kellogg's, now part of Kellanova.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kellogg's Rice Krispies Treats Original, made by Kellanova, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Its ingredient list pairs marshmallow (corn syrup, sugar, gelatin) with fructose, corn syrup solids and a margarine containing TBHQ and BHT preservatives, plus DATEM, acetylated monoglycerides, glycerin and soy lecithin emulsifiers. A sugar-and-additive bar with industrial emulsifiers and preservatives is a textbook NOVA Group 4 formulation (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0038000265013/kellogg-s-rice-krispies-treats-original",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-23"
+    },
+    {
+      "id": "takis",
+      "avoid": "Takis",
+      "ownership": [
+        {
+          "firmId": "grupo_bimbo",
+          "stake": "majority",
+          "since": "1999"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Takis Fuego, made by Barcel (a Grupo Bimbo subsidiary), is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The Mexican-market version lists corn flour and vegetable oil with flavor enhancers (MSG, disodium inosinate and guanylate), the synthetic dyes Red 40 and Yellow 6, TBHQ preservative and artificial flavors, while the export version lists monosodium glutamate, potassium chloride and maltodextrin seasoning. Flavor-enhancer, dye and preservative-laden extruded snacks fit the NOVA Group 4 definition (Monteiro et al., PMC6322572).",
+      "blurb": "Rolled, intensely seasoned corn tortilla chips made by Mexican snack maker Barcel.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Takis Fuego, made by Barcel (a Grupo Bimbo subsidiary), is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The Mexican-market version lists corn flour and vegetable oil with flavor enhancers (MSG, disodium inosinate and guanylate), the synthetic dyes Red 40 and Yellow 6, TBHQ preservative and artificial flavors, while the export version lists monosodium glutamate, potassium chloride and maltodextrin seasoning. Flavor-enhancer, dye and preservative-laden extruded snacks fit the NOVA Group 4 definition (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/7501030424536/takis-fuego-barcel",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-23"
+    },
+    {
+      "id": "nature_valley",
+      "avoid": "Nature Valley",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1973"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Nature Valley Crunchy Oats & Honey bars, made by General Mills, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Although whole-grain oats are 60% of the bar, sugar, sunflower oil, molasses, lecithin emulsifier and sodium bicarbonate raising agent make up the rest, and honey is only 3%. The NOVA system flags industrially formulated products built from refined sugar, extracted oils and emulsifiers regardless of whole-grain content (Monteiro et al., PMC6322572).",
+      "blurb": "Crunchy granola and oat snack bars sold by General Mills.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Nature Valley Crunchy Oats & Honey bars, made by General Mills, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Although whole-grain oats are 60% of the bar, sugar, sunflower oil, molasses, lecithin emulsifier and sodium bicarbonate raising agent make up the rest, and honey is only 3%. The NOVA system flags industrially formulated products built from refined sugar, extracted oils and emulsifiers regardless of whole-grain content (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/8410076600790/nature-valley-crunchy-oats-honey",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-23"
     }
   ]
 }

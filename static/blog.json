@@ -2836,6 +2836,22 @@
         "sour_patch_kids"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-23-ultraprocessed_nova_tracker",
+      "date": "2026-10-23",
+      "title": "Three snack-aisle staples classified ultra-processed",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Rice Krispies Treats, Takis and Nature Valley bars all land in NOVA Group 4 per Open Food Facts. They come from Kellanova, Grupo Bimbo and General Mills.",
+      "body": "This run applied the NOVA classification to three familiar snacks, using Open Food Facts product records and the Monteiro et al. NOVA literature.\n\nKellogg's Rice Krispies Treats (Kellanova) pairs marshmallow, fructose and corn syrup solids with a margarine preserved with TBHQ and BHT, plus DATEM and other emulsifiers. Takis Fuego, made by Barcel, a Grupo Bimbo subsidiary, lists flavor enhancers, Red 40 and Yellow 6 dyes and TBHQ in the Mexican-market version.\n\nNature Valley Crunchy Oats & Honey (General Mills) is the subtle case: oats are 60% of the bar, but sugar, oil, molasses, lecithin and a raising agent still push it into NOVA Group 4, and honey is only 3%.\n\nThe common thread is that 'whole grain' or 'cereal' branding does not change a product's NOVA group when the formulation is industrial.",
+      "entityIds": [
+        "nature_valley",
+        "rice_krispies_treats",
+        "takis"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
