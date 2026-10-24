@@ -41673,6 +41673,90 @@
         }
       ],
       "addedAt": "2026-10-23"
+    },
+    {
+      "id": "swedish_fish",
+      "avoid": "Swedish Fish",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "1958"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Swedish Fish Blue Raspberry Lemonade candy, made by Mondelez, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Its ultra-processing markers include Blue 1 (E133), carnauba wax (E903), mineral oil (E905), flavoring and invert sugar; sugar, invert sugar and corn syrup are the first three ingredients. Cosmetic additives and invert sugar are the formulation markers the NOVA system uses to define Group 4 (Monteiro et al., PMC6322572).",
+      "blurb": "Chewy fish-shaped fruit-flavored candy sold in bags, made by Mondelez.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Swedish Fish Blue Raspberry Lemonade candy, made by Mondelez, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. Its ultra-processing markers include Blue 1 (E133), carnauba wax (E903), mineral oil (E905), flavoring and invert sugar; sugar, invert sugar and corn syrup are the first three ingredients. Cosmetic additives and invert sugar are the formulation markers the NOVA system uses to define Group 4 (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0070462011333",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-24"
+    },
+    {
+      "id": "twizzlers",
+      "avoid": "Twizzlers",
+      "ownership": [
+        {
+          "firmId": "hershey_company",
+          "stake": "majority",
+          "since": "1929"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Twizzlers licorice twists, made by The Hershey Company, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The markers are Red 40 (E129), lecithin (E322), mineral oil (E905), artificial flavor and glucose; corn syrup is the first ingredient, followed by enriched wheat flour and sugar. A sweet built from corn syrup, synthetic dye and glazing agents fits the NOVA Group 4 definition (Monteiro et al., PMC6322572).",
+      "blurb": "Twisted licorice-style candy sticks sold in bags and tubs, made by Hershey.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Twizzlers licorice twists, made by The Hershey Company, are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database. The markers are Red 40 (E129), lecithin (E322), mineral oil (E905), artificial flavor and glucose; corn syrup is the first ingredient, followed by enriched wheat flour and sugar. A sweet built from corn syrup, synthetic dye and glazing agents fits the NOVA Group 4 definition (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0034000560028",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-24"
+    },
+    {
+      "id": "hostess_donettes",
+      "avoid": "Hostess Donettes",
+      "ownership": [
+        {
+          "firmId": "jm_smucker",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hostess Donettes powdered mini donuts, made by Hostess Brands (owned by J.M. Smucker), are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database, which lists a long additive set: titanium dioxide (E171), sorbic acid and potassium sorbate preservatives (E200/E202), xanthan and guar gums, glycerin, polysorbate and mono/diglycerides. Palm oil and dextrose are among the leading ingredients. This additive-heavy shelf-stable pastry is a standard NOVA Group 4 formulation (Monteiro et al., PMC6322572).",
+      "blurb": "Shelf-stable bite-size powdered donuts sold in multipack bags, made by Hostess.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Hostess Donettes powdered mini donuts, made by Hostess Brands (owned by J.M. Smucker), are classified NOVA Group 4 (ultra-processed) in the Open Food Facts database, which lists a long additive set: titanium dioxide (E171), sorbic acid and potassium sorbate preservatives (E200/E202), xanthan and guar gums, glycerin, polysorbate and mono/diglycerides. Palm oil and dextrose are among the leading ingredients. This additive-heavy shelf-stable pastry is a standard NOVA Group 4 formulation (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0888109150044",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-24"
     }
   ]
 }

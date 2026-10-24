@@ -2852,6 +2852,22 @@
         "takis"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-24-ultraprocessed_nova_tracker",
+      "date": "2026-10-24",
+      "title": "Swedish Fish, Twizzlers and Donettes rate NOVA Group 4",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three candy-and-pastry staples from Mondelez, Hershey and Smucker/Hostess are ultra-processed in Open Food Facts, each for additive-driven reasons.",
+      "body": "This run checked brand-level NOVA classifications in Open Food Facts against the NOVA literature (Monteiro et al.). Three sweet-aisle staples came back as Group 4: Mondelez's Swedish Fish, Hershey's Twizzlers and Hostess Donettes, now under J.M. Smucker.\n\nThe flags come from ingredient markers. Swedish Fish is flagged for Blue 1, carnauba wax, mineral oil, flavoring and invert sugar. Twizzlers carries Red 40, lecithin, mineral oil, artificial flavor and glucose, with corn syrup first on the list. Donettes has the longest additive set, including titanium dioxide, sorbate preservatives, gums and polysorbate.\n\nAll three parents are already tracked, so this run adds detail on what each sells. Classification reflects ingredient markers, not measured health outcomes for these specific products.",
+      "entityIds": [
+        "hostess_donettes",
+        "swedish_fish",
+        "twizzlers"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
