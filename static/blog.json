@@ -2868,6 +2868,22 @@
         "twizzlers"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-25-ultraprocessed_nova_tracker",
+      "date": "2026-10-25",
+      "title": "Twix, Powerade and Honey Bunches of Oats: three NOVA-4 staples",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three household brands from Mars, Coca-Cola and Post carry Open Food Facts NOVA group 4 (ultra-processed) classifications, tied to firms already named in San Francisco's ultra-processed food suit.",
+      "body": "This run added three brands whose ingredient lists trip Open Food Facts' ultra-processing markers: Twix, Powerade and Honey Bunches of Oats.\n\nTwix is flagged for glucose syrup, lactose, whey and soy lecithin, and carries a Nutri-Score of E with 49 g of sugar per 100 g. Powerade (Mountain Blast) is flagged for maltodextrin, flavouring and artificial colour, alongside preservatives. Honey Bunches of Oats is flagged for ammonia caramel colour, added colour, flavouring and whey across a 35-ingredient list.\n\nThe connective tissue is ownership: Mars, Coca-Cola and Post Holdings are three of the ten companies San Francisco's City Attorney sued in December 2025 over ultra-processed foods. Note that NOVA classification is database-derived from labels and varies by product variant; the lawsuit allegations are not findings.",
+      "entityIds": [
+        "honey_bunches_of_oats",
+        "powerade",
+        "twix"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

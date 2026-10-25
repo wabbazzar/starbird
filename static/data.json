@@ -41757,6 +41757,93 @@
         }
       ],
       "addedAt": "2026-10-24"
+    },
+    {
+      "id": "twix",
+      "avoid": "Twix",
+      "ownership": [
+        {
+          "firmId": "mars_inc",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Open Food Facts classifies Twix as NOVA group 4 (ultra-processed), flagging glucose syrup, lactose, whey and the emulsifier soy lecithin (E322) as ultra-processing markers; the bar is rated Nutri-Score E with 49 g of sugar per 100 g. Its parent Mars, Inc. was one of ten food makers sued by the San Francisco City Attorney in December 2025 for marketing ultra-processed foods as a public nuisance.",
+      "blurb": "Chocolate-coated biscuit and caramel candy bar sold by Mars.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-25",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Open Food Facts classifies Twix as NOVA group 4 (ultra-processed), flagging glucose syrup, lactose, whey and the emulsifier soy lecithin (E322) as ultra-processing markers; the bar is rated Nutri-Score E with 49 g of sugar per 100 g.",
+          "date": "2025-12",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/product/5000159451666/twix"
+        }
+      ]
+    },
+    {
+      "id": "powerade",
+      "avoid": "Powerade",
+      "ownership": [
+        {
+          "firmId": "coca_cola_company",
+          "stake": "majority",
+          "since": "1988"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Open Food Facts data classifies Powerade (Mountain Blast) as NOVA group 4 (ultra-processed), with maltodextrin, flavouring and artificial colour (brilliant blue) as ultra-processing markers, plus preservatives (potassium sorbate, sodium benzoate) and about 6.3 g of sugars per 100 ml. Its owner, The Coca-Cola Company, was one of ten food makers sued by the San Francisco City Attorney in December 2025 over ultra-processed products.",
+      "blurb": "Sports drink brand sold by The Coca-Cola Company.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-25",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Open Food Facts data classifies Powerade (Mountain Blast) as NOVA group 4 (ultra-processed), with maltodextrin, flavouring and artificial colour (brilliant blue) as ultra-processing markers, plus preservatives (potassium sorbate, sodium benzoate) and about 6.3 g of sugars per 100 ml.",
+          "date": "2025-12",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://foodbenchmark.com/products/54490482/powerade-mountain-blast"
+        }
+      ]
+    },
+    {
+      "id": "honey_bunches_of_oats",
+      "avoid": "Honey Bunches of Oats",
+      "ownership": [
+        {
+          "firmId": "post_holdings",
+          "stake": "majority",
+          "since": "1989"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Open Food Facts classifies Honey Bunches of Oats as NOVA group 4 (ultra-processed): four ultra-processing markers including ammonia caramel colour (E150c), added colour, flavouring and whey, across a 35-ingredient list; it is rated Nutri-Score D with about 22 g of sugars per 100 g. Post Holdings was one of ten food makers sued by the San Francisco City Attorney in December 2025 over ultra-processed products.",
+      "blurb": "Ready-to-eat breakfast cereal brand sold by Post Consumer Brands.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-10-25",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Open Food Facts classifies Honey Bunches of Oats as NOVA group 4 (ultra-processed): four ultra-processing markers including ammonia caramel colour (E150c), added colour, flavouring and whey, across a 35-ingredient list; it is rated Nutri-Score D with about 22 g of sugars per 100 g.",
+          "date": "2025-12",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0884912014245/honey-bunches-of-oats"
+        }
+      ]
     }
   ]
 }
