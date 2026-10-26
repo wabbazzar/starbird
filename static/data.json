@@ -41844,6 +41844,90 @@
           "sourceUrl": "https://world.openfoodfacts.org/product/0884912014245/honey-bunches-of-oats"
         }
       ]
+    },
+    {
+      "id": "orville_redenbacher",
+      "avoid": "Orville Redenbacher's Popcorn",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Orville Redenbacher's microwave butter popcorn, made by Conagra, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database across several varieties (Movie Theater Butter, Ultimate Butter, Smart Pop! Butter). The ingredient list shows popping corn with palm oil, salt, \"natural flavor\" and added colors (annatto, turmeric, paprika) plus mixed tocopherols; cosmetic colorants and flavor extracts are marker ingredients of Group 4 (Monteiro et al., PMC6322572). Whole-grain corn is the base, so this is a milder case than sugary Group 4 products.",
+      "blurb": "Microwave and bagged popping corn and ready-to-eat popcorn sold under the founder's name.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Orville Redenbacher's microwave butter popcorn, made by Conagra, is classified NOVA Group 4 (ultra-processed) in the Open Food Facts database across several varieties (Movie Theater Butter, Ultimate Butter, Smart Pop! Butter). The ingredient list shows popping corn with palm oil, salt, \"natural flavor\" and added colors (annatto, turmeric, paprika) plus mixed tocopherols; cosmetic colorants and flavor extracts are marker ingredients of Group 4 (Monteiro et al., PMC6322572). Whole-grain corn is the base, so this is a milder case than sugary Group 4 products.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0027000623176",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-26"
+    },
+    {
+      "id": "milano_cookies",
+      "avoid": "Pepperidge Farm Milano Cookies",
+      "ownership": [
+        {
+          "firmId": "campbell_soup",
+          "stake": "majority",
+          "since": "1955"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Pepperidge Farm Milano cookies, made by Campbell's, are classified NOVA Group 4 (ultra-processed) in Open Food Facts for the Dark Chocolate, Mint and Orange varieties. The ingredients include enriched wheat flour, sugar, a blend of palm, palm kernel, soybean and hydrogenated soybean oils, and soy lecithin emulsifier; hydrogenated oils and emulsifiers are industrial-formulation markers of Group 4 (Monteiro et al., PMC6322572).",
+      "blurb": "Thin crisp cookies sandwiching a layer of chocolate, sold by Pepperidge Farm.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Pepperidge Farm Milano cookies, made by Campbell's, are classified NOVA Group 4 (ultra-processed) in Open Food Facts for the Dark Chocolate, Mint and Orange varieties. The ingredients include enriched wheat flour, sugar, a blend of palm, palm kernel, soybean and hydrogenated soybean oils, and soy lecithin emulsifier; hydrogenated oils and emulsifiers are industrial-formulation markers of Group 4 (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0014100074120",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-26"
+    },
+    {
+      "id": "bagel_bites",
+      "avoid": "Bagel Bites",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Bagel Bites frozen pizza snacks, made by Kraft Heinz, are classified NOVA Group 4 (ultra-processed) in Open Food Facts. The ingredient list includes high fructose corn syrup in both the bagel and the sauce, modified food starch, maltodextrin, methyl cellulose, yeast extract and \"natural flavor\" with annatto color in the cheese; HFCS, modified starches and flavor enhancers are defining Group 4 markers (Monteiro et al., PMC6322572).",
+      "blurb": "Frozen mini bagel pizza snacks with cheese and sauce toppings.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Bagel Bites frozen pizza snacks, made by Kraft Heinz, are classified NOVA Group 4 (ultra-processed) in Open Food Facts. The ingredient list includes high fructose corn syrup in both the bagel and the sauce, modified food starch, maltodextrin, methyl cellulose, yeast extract and \"natural flavor\" with annatto color in the cheese; HFCS, modified starches and flavor enhancers are defining Group 4 markers (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0070085060107",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-26"
     }
   ]
 }

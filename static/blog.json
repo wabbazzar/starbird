@@ -2884,6 +2884,22 @@
         "twix"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-26-ultraprocessed_nova_tracker",
+      "date": "2026-10-26",
+      "title": "Popcorn, Milanos and Bagel Bites: three NOVA 4 snacks",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three familiar snack brands from Conagra, Campbell's and Kraft Heinz carry the ultra-processed NOVA Group 4 label in Open Food Facts.",
+      "body": "Orville Redenbacher's (Conagra), Pepperidge Farm Milano (Campbell's) and Bagel Bites (Kraft Heinz) were added this run. Each is classified NOVA Group 4 in the Open Food Facts database, based on the ingredient lists of multiple varieties.\n\nThe markers differ. Orville Redenbacher's microwave butter popcorn pairs whole-grain corn with palm oil, \"natural flavor\" and added colors, the mildest case here. Milano cookies list a blend of palm and hydrogenated soybean oils with soy lecithin. Bagel Bites use high fructose corn syrup in both bagel and sauce, along with modified starch, maltodextrin and methyl cellulose.\n\nThe connective tissue is the owner: all three sit inside big-ten-style packaged-food conglomerates already tracked here. The classification follows Monteiro et al.'s NOVA framework, which flags industrial formulations rather than any single nutrient.",
+      "entityIds": [
+        "bagel_bites",
+        "milano_cookies",
+        "orville_redenbacher"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
