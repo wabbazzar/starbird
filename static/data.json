@@ -41928,6 +41928,90 @@
         }
       ],
       "addedAt": "2026-10-26"
+    },
+    {
+      "id": "funyuns",
+      "avoid": "Funyuns",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1969"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Funyuns, a Frito-Lay snack owned by PepsiCo, is classified NOVA Group 4 (ultra-processed) in Open Food Facts, which cites six markers: the synthetic dyes tartrazine/Yellow 5 (E102) and sunset yellow/Yellow 6 (E110), monosodium glutamate (E621), added colour, flavouring and whey. The label also lists maltodextrin, yeast extract and artificial colors (Yellow 5 Lake, Yellow 6 Lake, Blue 1 Lake); cosmetic colorants and flavor enhancers are defining Group 4 markers (Monteiro et al., PMC6322572).",
+      "blurb": "Onion-flavored corn-meal ring snacks sold by Frito-Lay.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Funyuns, a Frito-Lay snack owned by PepsiCo, is classified NOVA Group 4 (ultra-processed) in Open Food Facts, which cites six markers: the synthetic dyes tartrazine/Yellow 5 (E102) and sunset yellow/Yellow 6 (E110), monosodium glutamate (E621), added colour, flavouring and whey. The label also lists maltodextrin, yeast extract and artificial colors (Yellow 5 Lake, Yellow 6 Lake, Blue 1 Lake); cosmetic colorants and flavor enhancers are defining Group 4 markers (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0028400729031/funyuns",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-27"
+    },
+    {
+      "id": "swiss_miss",
+      "avoid": "Swiss Miss Hot Cocoa",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "1961"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Swiss Miss hot cocoa mix, sold by Conagra Brands, is classified NOVA Group 4 (ultra-processed) in Open Food Facts for the Milk Chocolate flavor. Its ingredients are sugar, corn syrup, modified whey, cocoa processed with alkali and hydrogenated coconut oil, with dipotassium phosphate and mono- and diglycerides (E471) as additives; Open Food Facts counts five ultra-processing markers (E471, flavouring, glucose, whey, cocoa). Corn syrup, hydrogenated oils and emulsifiers are industrial-formulation markers of Group 4 (Monteiro et al., PMC6322572).",
+      "blurb": "Instant hot cocoa mixes in envelopes and canisters.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Swiss Miss hot cocoa mix, sold by Conagra Brands, is classified NOVA Group 4 (ultra-processed) in Open Food Facts for the Milk Chocolate flavor. Its ingredients are sugar, corn syrup, modified whey, cocoa processed with alkali and hydrogenated coconut oil, with dipotassium phosphate and mono- and diglycerides (E471) as additives; Open Food Facts counts five ultra-processing markers (E471, flavouring, glucose, whey, cocoa). Corn syrup, hydrogenated oils and emulsifiers are industrial-formulation markers of Group 4 (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0070920476339",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-27"
+    },
+    {
+      "id": "vitaminwater",
+      "avoid": "vitaminwater",
+      "ownership": [
+        {
+          "firmId": "coca_cola_company",
+          "stake": "majority",
+          "since": "2007"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "vitaminwater (Glaceau), a Coca-Cola brand, is classified NOVA Group 4 (ultra-processed) for the Acai-Blueberry-Pomegranate XXX variety in Open Food Facts-derived data (FoodBenchmark), which flags acacia gum (E414), added colour and flavouring. The ingredient list is reverse osmosis water, crystalline fructose and cane sugar plus added vitamins, minerals, citric acid and natural flavors; sweeteners, stabilizers and flavor additives are Group 4 markers (Monteiro et al., PMC6322572). Open Food Facts' own page for this barcode is incomplete, so this rests on the mirrored classification.",
+      "blurb": "Flavored, vitamin-enhanced bottled water sold under the Glaceau label.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "vitaminwater (Glaceau), a Coca-Cola brand, is classified NOVA Group 4 (ultra-processed) for the Acai-Blueberry-Pomegranate XXX variety in Open Food Facts-derived data (FoodBenchmark), which flags acacia gum (E414), added colour and flavouring. The ingredient list is reverse osmosis water, crystalline fructose and cane sugar plus added vitamins, minerals, citric acid and natural flavors; sweeteners, stabilizers and flavor additives are Group 4 markers (Monteiro et al., PMC6322572). Open Food Facts' own page for this barcode is incomplete, so this rests on the mirrored classification.",
+          "sourceUrl": "https://foodbenchmark.com/products/0786162150004/xxx",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-27"
     }
   ]
 }

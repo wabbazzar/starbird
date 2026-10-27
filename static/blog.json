@@ -2900,6 +2900,22 @@
         "orville_redenbacher"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-27-ultraprocessed_nova_tracker",
+      "date": "2026-10-27",
+      "title": "Funyuns, Swiss Miss and vitaminwater: three NOVA 4 products",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "A PepsiCo chip, a Conagra cocoa mix and a Coca-Cola vitamin drink are all classed NOVA Group 4 (ultra-processed) in Open Food Facts data.",
+      "body": "Funyuns (PepsiCo), Swiss Miss hot cocoa (Conagra Brands) and vitaminwater (Coca-Cola) were added this run. Each is classified NOVA Group 4 in Open Food Facts data, based on the ingredient list of a specific variety.\n\nThe markers differ. Funyuns carries synthetic dyes (Yellow 5, Yellow 6, Blue 1 lakes), monosodium glutamate and maltodextrin. Swiss Miss Milk Chocolate combines sugar, corn syrup, hydrogenated coconut oil and mono- and diglycerides. vitaminwater's Acai-Blueberry-Pomegranate XXX is mostly water, crystalline fructose and cane sugar with acacia gum, colour and flavouring; its Open Food Facts page is incomplete, so that classification comes from a mirror of the data.\n\nAll three sit inside large packaged-food and beverage conglomerates already tracked here. The classification follows Monteiro et al.'s NOVA framework, which flags industrial formulation rather than any single nutrient.",
+      "entityIds": [
+        "funyuns",
+        "swiss_miss",
+        "vitaminwater"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
