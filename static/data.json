@@ -42012,6 +42012,90 @@
         }
       ],
       "addedAt": "2026-10-27"
+    },
+    {
+      "id": "chex_mix",
+      "avoid": "Chex Mix",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1950"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Chex Mix Traditional snack mix, made by General Mills, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0016000160101). Its label lists maltodextrin, dextrose, added color, hydrolyzed soy protein, autolyzed yeast, the flavor enhancers disodium inosinate and disodium guanylate, trisodium phosphate and BHT as a preservative; flavor enhancers, colors and industrial additives are Group 4 markers (Monteiro et al., PMC6322572). The mirror site's own ingredient screen flags none of them, so this rests on the NOVA classification alone.",
+      "blurb": "Seasoned baked snack mixes of cereal pieces, pretzels and crackers.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Chex Mix Traditional snack mix, made by General Mills, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0016000160101). Its label lists maltodextrin, dextrose, added color, hydrolyzed soy protein, autolyzed yeast, the flavor enhancers disodium inosinate and disodium guanylate, trisodium phosphate and BHT as a preservative; flavor enhancers, colors and industrial additives are Group 4 markers (Monteiro et al., PMC6322572). The mirror site's own ingredient screen flags none of them, so this rests on the NOVA classification alone.",
+          "sourceUrl": "https://plainfoodsafe.com/product/0016000160101",
+          "actor": "Open Food Facts / NOVA (via PlainFoodSafe)"
+        }
+      ],
+      "addedAt": "2026-10-28"
+    },
+    {
+      "id": "gardettos",
+      "avoid": "Gardetto's",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1932"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Gardetto's Original Recipe snack mix, sold by General Mills, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0016000193604). The label lists monosodium glutamate, disodium inosinate and guanylate, maltodextrin, corn syrup, caramel color (flagged \"avoid\" by the mirror site's screen), sodium diacetate and BHT. Flavor enhancers, colorants and preservatives are defining Group 4 markers (Monteiro et al., PMC6322572).",
+      "blurb": "Seasoned snack mixes of pretzels, rye chips and bread-style pieces.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Gardetto's Original Recipe snack mix, sold by General Mills, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0016000193604). The label lists monosodium glutamate, disodium inosinate and guanylate, maltodextrin, corn syrup, caramel color (flagged \"avoid\" by the mirror site's screen), sodium diacetate and BHT. Flavor enhancers, colorants and preservatives are defining Group 4 markers (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://plainfoodsafe.com/product/0016000193604",
+          "actor": "Open Food Facts / NOVA (via PlainFoodSafe)"
+        }
+      ],
+      "addedAt": "2026-10-28"
+    },
+    {
+      "id": "cracker_jack",
+      "avoid": "Cracker Jack",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1896"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Cracker Jack Hearty Mix Cheddar BBQ, a Frito-Lay product owned by PepsiCo, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0028400142472). Its granola clusters contain monosodium glutamate, maltodextrin, yeast extract, natural and artificial flavors, disodium inosinate and guanylate, and the synthetic dyes Yellow 5, Yellow 6 and Blue 2 lakes; all three dyes are flagged \"avoid\" by the mirror site. Dyes and flavor enhancers are Group 4 markers (Monteiro et al., PMC6322572). This describes the Hearty Mix line, not the original caramel popcorn.",
+      "blurb": "Caramel-coated popcorn and peanut snacks, plus flavored snack mixes, sold by Frito-Lay.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Cracker Jack Hearty Mix Cheddar BBQ, a Frito-Lay product owned by PepsiCo, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0028400142472). Its granola clusters contain monosodium glutamate, maltodextrin, yeast extract, natural and artificial flavors, disodium inosinate and guanylate, and the synthetic dyes Yellow 5, Yellow 6 and Blue 2 lakes; all three dyes are flagged \"avoid\" by the mirror site. Dyes and flavor enhancers are Group 4 markers (Monteiro et al., PMC6322572). This describes the Hearty Mix line, not the original caramel popcorn.",
+          "sourceUrl": "https://plainfoodsafe.com/product/0028400142472",
+          "actor": "Open Food Facts / NOVA (via PlainFoodSafe)"
+        }
+      ],
+      "addedAt": "2026-10-28"
     }
   ]
 }

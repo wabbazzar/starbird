@@ -2916,6 +2916,22 @@
         "vitaminwater"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-28-ultraprocessed_nova_tracker",
+      "date": "2026-10-28",
+      "title": "Chex Mix, Gardetto's and Cracker Jack: snack mixes, NOVA 4",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Two General Mills snack mixes and a PepsiCo Frito-Lay mix are classed NOVA Group 4 (ultra-processed) in Open Food Facts-derived data.",
+      "body": "Chex Mix and Gardetto's (General Mills) and Cracker Jack Hearty Mix Cheddar BBQ (Frito-Lay, PepsiCo) were added this run. Each is classified NOVA Group 4 in Open Food Facts data as mirrored by PlainFoodSafe, based on a specific variety's label.\n\nThe markers are consistent. Chex Mix lists maltodextrin, hydrolyzed soy protein, disodium inosinate and guanylate, trisodium phosphate and BHT. Gardetto's adds monosodium glutamate, corn syrup and caramel color. The Cracker Jack Hearty Mix granola clusters carry Yellow 5, Yellow 6 and Blue 2 lake dyes, which the mirror site flags as \"avoid\".\n\nNothing here is a safety finding on its own: NOVA measures industrial formulation, not toxicity, and the classification comes from a secondary mirror of the database. The Cracker Jack entry covers the Hearty Mix line, not the original caramel popcorn. All three sit inside food conglomerates already tracked here.",
+      "entityIds": [
+        "chex_mix",
+        "cracker_jack",
+        "gardettos"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
