@@ -2932,6 +2932,22 @@
         "gardettos"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-29-ultraprocessed_nova_tracker",
+      "date": "2026-10-29",
+      "title": "Tang, Bugles and Butterfinger: three more NOVA Group 4 staples",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three pantry and candy-aisle brands from Kraft Heinz, General Mills and Ferrero classify as ultra-processed in Open Food Facts data. The evidence differs by product, and we say so.",
+      "body": "Tang Orange (Kraft Heinz) is the clearest case. Its second ingredient is high fructose corn syrup, and it carries the synthetic dyes Yellow 5 and Yellow 6 plus several preservatives. The PlainFoodSafe mirror of Open Food Facts data marks both dyes \"avoid\" under CSPI Chemical Cuisine ratings and classes the drink NOVA Group 4.\n\nBugles Churro (General Mills) is also NOVA Group 4, built from degermed corn meal, palm kernel or coconut oil, sugar, fructose, an emulsifier and BHT. Its ingredient screen flagged nothing, so the tag rests on processing level alone, and it covers the Churro flavor, not every Bugles variety.\n\nButterfinger (Ferrero) lands in Group 4 because of soy lecithin, which Open Food Facts says carries no known health risk. The classification reflects processing and sugar, and NOVA labels on that site are crowdsourced.\n\nAll three come from the Open Food Facts-derived NOVA data, checked against the NOVA literature (Monteiro et al., PMC6322572).",
+      "entityIds": [
+        "bugles",
+        "butterfinger",
+        "tang"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

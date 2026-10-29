@@ -42096,6 +42096,90 @@
         }
       ],
       "addedAt": "2026-10-28"
+    },
+    {
+      "id": "tang",
+      "avoid": "Tang",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1957"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Tang Orange drink, a Kraft Heinz product, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0043000063682). Its second ingredient is high fructose corn syrup, followed by natural and artificial flavor, gum arabic, glycerol ester of wood rosin, the synthetic dyes Yellow 5 and Yellow 6, and the preservatives sodium benzoate, potassium benzoate, potassium sorbate and calcium disodium EDTA; the mirror site marks both dyes \"avoid\" and sodium benzoate \"certain people should avoid\" (CSPI Chemical Cuisine ratings). Flavors, sweeteners, emulsifiers and dyes are Group 4 markers (Monteiro et al., PMC6322572). Nutri-Score E.",
+      "blurb": "Powdered and liquid orange-flavored drink mix, originally developed for astronauts' use, sold by Kraft Heinz.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Tang Orange drink, a Kraft Heinz product, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0043000063682). Its second ingredient is high fructose corn syrup, followed by natural and artificial flavor, gum arabic, glycerol ester of wood rosin, the synthetic dyes Yellow 5 and Yellow 6, and the preservatives sodium benzoate, potassium benzoate, potassium sorbate and calcium disodium EDTA; the mirror site marks both dyes \"avoid\" and sodium benzoate \"certain people should avoid\" (CSPI Chemical Cuisine ratings). Flavors, sweeteners, emulsifiers and dyes are Group 4 markers (Monteiro et al., PMC6322572). Nutri-Score E.",
+          "sourceUrl": "https://plainfoodsafe.com/product/0043000063682",
+          "actor": "Open Food Facts / NOVA (via PlainFoodSafe)"
+        }
+      ],
+      "addedAt": "2026-10-29"
+    },
+    {
+      "id": "bugles",
+      "avoid": "Bugles",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1966"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Bugles Churro, a General Mills snack, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0016000136090). Its ingredients are degermed corn meal, palm kernel/coconut oil, sugar and fructose, with distilled monoglycerides (an emulsifier), natural flavor and BHT preservative; emulsifiers and flavors are Group 4 markers (Monteiro et al., PMC6322572). The mirror site's own ingredient screen found no FDA/CSPI-flagged ingredients, so this tag rests on the processing classification, not on an additive-safety concern, and describes the Churro flavor specifically.",
+      "blurb": "Cone-shaped corn snacks in savory and sweet flavors, made by General Mills.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Bugles Churro, a General Mills snack, is classified NOVA Group 4 (ultra-processed) in Open Food Facts-derived data (PlainFoodSafe, barcode 0016000136090). Its ingredients are degermed corn meal, palm kernel/coconut oil, sugar and fructose, with distilled monoglycerides (an emulsifier), natural flavor and BHT preservative; emulsifiers and flavors are Group 4 markers (Monteiro et al., PMC6322572). The mirror site's own ingredient screen found no FDA/CSPI-flagged ingredients, so this tag rests on the processing classification, not on an additive-safety concern, and describes the Churro flavor specifically.",
+          "sourceUrl": "https://plainfoodsafe.com/product/0016000136090",
+          "actor": "Open Food Facts / NOVA (via PlainFoodSafe)"
+        }
+      ],
+      "addedAt": "2026-10-29"
+    },
+    {
+      "id": "butterfinger",
+      "avoid": "Butterfinger",
+      "ownership": [
+        {
+          "firmId": "ferrero_group",
+          "stake": "majority",
+          "since": "1923"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Butterfinger snack-size bars, a candy brand now owned by Ferrero, are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the emulsifier soy lecithin (E322) as the ultra-processing marker (barcode 09996885). The ingredient list is corn syrup, sugar, peanuts, palm kernel and palm oil, peanut flour, nonfat milk, cocoa, salt, soy lecithin, natural flavor and annatto color, per Ferrero's foodservice listing. Open Food Facts notes lecithins present no known health risks, so the tag reflects the processing level and high sugar content, not a toxic additive; NOVA labels there are crowdsourced.",
+      "blurb": "Crisp peanut-butter candy bars coated in compound chocolate, sold by Ferrero.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Butterfinger snack-size bars, a candy brand now owned by Ferrero, are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the emulsifier soy lecithin (E322) as the ultra-processing marker (barcode 09996885). The ingredient list is corn syrup, sugar, peanuts, palm kernel and palm oil, peanut flour, nonfat milk, cocoa, salt, soy lecithin, natural flavor and annatto color, per Ferrero's foodservice listing. Open Food Facts notes lecithins present no known health risks, so the tag reflects the processing level and high sugar content, not a toxic additive; NOVA labels there are crowdsourced.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/09996885/butterfinger-snack-size",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-29"
     }
   ]
 }
