@@ -42180,6 +42180,90 @@
         }
       ],
       "addedAt": "2026-10-29"
+    },
+    {
+      "id": "entenmanns",
+      "avoid": "Entenmann's",
+      "ownership": [
+        {
+          "firmId": "grupo_bimbo",
+          "stake": "majority",
+          "since": "1898"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Entenmann's Little Bites Blueberry Muffins, sold by Bimbo Bakeries USA (Grupo Bimbo), are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the additives lecithins (E322) and xanthan gum (E415) as markers; the listing also shows glycerin, mono- and diglycerides and an estimated 52% added sugars. Open Food Facts NOVA labels are crowdsourced and reflect processing level, not a toxicity finding.",
+      "blurb": "Packaged snack cakes, muffins and donuts sold in the US by Bimbo Bakeries.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Entenmann's Little Bites Blueberry Muffins, sold by Bimbo Bakeries USA (Grupo Bimbo), are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the additives lecithins (E322) and xanthan gum (E415) as markers; the listing also shows glycerin, mono- and diglycerides and an estimated 52% added sugars. Open Food Facts NOVA labels are crowdsourced and reflect processing level, not a toxicity finding.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/072030013398",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-30"
+    },
+    {
+      "id": "belvita",
+      "avoid": "belVita",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "2006"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "belVita breakfast biscuits, made by Mondelez International, are classified NOVA Group 4 (ultra-processed) by Open Food Facts; the US listing (barcode 0044000055844) cites lecithin and diphosphate additives plus dextrose, glucose and flavouring as markers. Open Food Facts NOVA labels are crowdsourced and vary by product and region; the tag reflects processing level, not a toxicity finding.",
+      "blurb": "Baked breakfast biscuits and soft-baked bars marketed as slow-release morning energy.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "belVita breakfast biscuits, made by Mondelez International, are classified NOVA Group 4 (ultra-processed) by Open Food Facts; the US listing (barcode 0044000055844) cites lecithin and diphosphate additives plus dextrose, glucose and flavouring as markers. Open Food Facts NOVA labels are crowdsourced and vary by product and region; the tag reflects processing level, not a toxicity finding.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0044000055844/belvita",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-30"
+    },
+    {
+      "id": "snapple",
+      "avoid": "Snapple",
+      "ownership": [
+        {
+          "firmId": "keurig_dr_pepper",
+          "stake": "majority",
+          "since": "1972"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Snapple Kiwi Strawberry, a Keurig Dr Pepper beverage, is classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the additive glycerol esters of wood rosin (E445) as a marker; ingredients are filtered water, sugar, kiwi and strawberry juice concentrates, citric acid, natural flavors and acacia concentrates. Open Food Facts marks the page incomplete and its NOVA labels are crowdsourced; the tag reflects processing level and added sugar, not a toxicity finding.",
+      "blurb": "Bottled flavored teas and juice drinks sold by Keurig Dr Pepper.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Snapple Kiwi Strawberry, a Keurig Dr Pepper beverage, is classified NOVA Group 4 (ultra-processed) by Open Food Facts, which cites the additive glycerol esters of wood rosin (E445) as a marker; ingredients are filtered water, sugar, kiwi and strawberry juice concentrates, citric acid, natural flavors and acacia concentrates. Open Food Facts marks the page incomplete and its NOVA labels are crowdsourced; the tag reflects processing level and added sugar, not a toxicity finding.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0076183003107/snapple-kiwi-strawberry",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-30"
     }
   ]
 }

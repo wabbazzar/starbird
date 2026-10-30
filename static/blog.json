@@ -2948,6 +2948,22 @@
         "tang"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-30-ultraprocessed_nova_tracker",
+      "date": "2026-10-30",
+      "title": "Three NOVA 4 staples: Entenmann's, belVita, Snapple",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three familiar shelf brands from Grupo Bimbo, Mondelez and Keurig Dr Pepper are rated ultra-processed (NOVA 4) on Open Food Facts.",
+      "body": "This run added Entenmann's, belVita and Snapple, each owned by a firm already in the dataset.\n\nEntenmann's Little Bites Blueberry Muffins are NOVA 4 on Open Food Facts, flagged for lecithins and xanthan gum, with glycerin, mono- and diglycerides and an estimated 52% added sugars. belVita breakfast biscuits are also NOVA 4, with lecithin, diphosphate, dextrose and glucose cited on the US listing. Snapple Kiwi Strawberry is NOVA 4 on the strength of an E445 additive, alongside added sugar and juice concentrates.\n\nThese ratings are crowdsourced and describe processing level, not toxicity, and individual products vary. The common thread is that breakfast, snack and drink aisles sold as wholesome or fruity sit in the same ultra-processed bucket as candy and chips.",
+      "entityIds": [
+        "belvita",
+        "entenmanns",
+        "snapple"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
