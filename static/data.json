@@ -42264,6 +42264,90 @@
         }
       ],
       "addedAt": "2026-10-30"
+    },
+    {
+      "id": "nutri_grain",
+      "avoid": "Nutri-Grain",
+      "ownership": [
+        {
+          "firmId": "kellanova",
+          "stake": "majority",
+          "since": "1976"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kellogg's Nutri-Grain Blueberry Granola Bars are classified NOVA Group 4 (ultra-processed) in Open Food Facts, which counts 15 ultra-processing markers including Red 40, Blue 1, lecithins, sodium alginate, glycerol, cellulose and methylcellulose. The label also lists palm oil with TBHQ, BHT, maltodextrin, invert sugar and corn syrup (Monteiro et al., PMC6322572, defines NOVA 4 by such industrial additives).",
+      "blurb": "Soft-baked cereal and granola breakfast bars sold under the Kellogg's name.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kellogg's Nutri-Grain Blueberry Granola Bars are classified NOVA Group 4 (ultra-processed) in Open Food Facts, which counts 15 ultra-processing markers including Red 40, Blue 1, lecithins, sodium alginate, glycerol, cellulose and methylcellulose. The label also lists palm oil with TBHQ, BHT, maltodextrin, invert sugar and corn syrup (Monteiro et al., PMC6322572, defines NOVA 4 by such industrial additives).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0038000793660/kellogg-s-nutri-grain-granola-bars-blueberry-1-76oz",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-31"
+    },
+    {
+      "id": "cheez_whiz",
+      "avoid": "Cheez Whiz",
+      "ownership": [
+        {
+          "firmId": "kraft_heinz",
+          "stake": "majority",
+          "since": "1953"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kraft Cheez Whiz Original Cheese Dip (15 oz) is classified NOVA Group 4 (ultra-processed) in Open Food Facts, with 9 ultra-processing markers: ammonia caramel (E150c), annatto, paprika extract, sodium alginate, maltodextrin, milk proteins, whey, colour and flavouring. Its ingredient list also includes sodium phosphate, modified food starch and sorbic acid preservative (Monteiro et al., PMC6322572).",
+      "blurb": "Shelf-stable processed cheese sauce sold in jars by Kraft.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kraft Cheez Whiz Original Cheese Dip (15 oz) is classified NOVA Group 4 (ultra-processed) in Open Food Facts, with 9 ultra-processing markers: ammonia caramel (E150c), annatto, paprika extract, sodium alginate, maltodextrin, milk proteins, whey, colour and flavouring. Its ingredient list also includes sodium phosphate, modified food starch and sorbic acid preservative (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/021000626793",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-31"
+    },
+    {
+      "id": "special_k_red_berries",
+      "avoid": "Special K Red Berries",
+      "ownership": [
+        {
+          "firmId": "wk_kellogg_co",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Kellogg's Special K Red Berries cereal is classified NOVA Group 4 (ultra-processed) in Open Food Facts, triggered by the flavouring ingredient (malt flavor). Its 26-ingredient list is mostly refined rice and wheat flakes with sugar, brown sugar syrup and added vitamins and minerals (Monteiro et al., PMC6322572).",
+      "blurb": "Sweetened rice-and-wheat flake breakfast cereal with freeze-dried strawberries.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Kellogg's Special K Red Berries cereal is classified NOVA Group 4 (ultra-processed) in Open Food Facts, triggered by the flavouring ingredient (malt flavor). Its 26-ingredient list is mostly refined rice and wheat flakes with sugar, brown sugar syrup and added vitamins and minerals (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0038000143717/special-k-red-berries-cereal-kellogg-s",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-10-31"
     }
   ]
 }

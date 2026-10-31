@@ -2964,6 +2964,22 @@
         "snapple"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-10-31-ultraprocessed_nova_tracker",
+      "date": "2026-10-31",
+      "title": "Three NOVA-4 staples: Nutri-Grain, Cheez Whiz, Special K Red Berries",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three familiar Kellogg's and Kraft products land in NOVA Group 4 (ultra-processed) in Open Food Facts. Useful if you're trying to cut ultra-processed food from a pantry.",
+      "body": "This run added three everyday products classified NOVA Group 4 in Open Food Facts, the crowd-sourced database that applies the NOVA scheme described in Monteiro et al.\n\nKellogg's Nutri-Grain blueberry granola bars carry 15 ultra-processing markers, including Red 40, Blue 1, lecithins, sodium alginate and cellulose, plus palm oil with TBHQ and BHT. Kraft Cheez Whiz's 15 oz jar registers 9 markers: ammonia caramel, annatto, paprika extract, sodium alginate, maltodextrin, milk proteins and whey.\n\nSpecial K Red Berries is the mildest case: Open Food Facts flags it on one marker, the malt flavouring, within a list of refined rice and wheat flakes, sugar and added vitamins. NOVA classifications here are database-derived and Open Food Facts calls them experimental, so treat them as a signal rather than a verdict.",
+      "entityIds": [
+        "cheez_whiz",
+        "nutri_grain",
+        "special_k_red_berries"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
