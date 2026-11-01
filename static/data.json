@@ -19249,6 +19249,102 @@
       "addedAt": "2026-10-18",
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "puratone",
+      "name": "Puratone",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Mercy For Animals Canada's late-2012 undercover investigation at Puratone's Arborg, Manitoba operation documented thousands of pregnant sows in metal gestation crates, piglets slammed to the ground and left to die, sick pigs kicked, and castration and tail-docking without painkillers; University of Guelph's Dr. Ian Duncan called it \"the worst cruelty inflicted on an animal that I have witnessed in many years\". CTV's W5 aired the footage in December 2012 and Manitoba authorities opened an investigation; the MFA page reports no criminal charges.",
+      "blurb": "Manitoba-based pork producer operating hog barns and breeding facilities.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 55,
+      "source": "https://pigcruelty.mercyforanimals.org/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Mercy For Animals Canada's late-2012 undercover investigation at Puratone's Arborg, Manitoba operation documented thousands of pregnant sows in metal gestation crates, piglets slammed to the ground and left to die, sick pigs kicked, and castration and tail-docking without painkillers; University of Guelph's Dr. Ian Duncan called it \"the worst cruelty inflicted on an animal that I have witnessed in many years\". CTV's W5 aired the footage in December 2012 and Manitoba authorities opened an investigation; the MFA page reports no criminal charges.",
+          "date": "2012-12",
+          "actor": "Mercy For Animals Canada / CTV W5",
+          "sourceUrl": "https://pigcruelty.mercyforanimals.org/"
+        }
+      ],
+      "addedAt": "2026-11-01",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "cooperativa_aurora",
+      "name": "Cooperativa Central Aurora Alimentos",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A Mercy For Animals investigation of an Aurora cooperative pig farm in Santa Catarina, Brazil documented piglets with teeth ground down, tails cut and ears notched without pain relief, and sows held in gestation crates too small to turn around, biting the bars. Aurora products are sold at Grupo Pão de Açúcar stores, which MFA petitioned (November 2017) to stop buying from suppliers that confine and mutilate pigs. The investigation date is not stated on the source page; Sinergia Animal's October 2024 report separately ranked Aurora lowest on animal welfare policies among Brazilian pork producers.",
+      "blurb": "Brazilian agricultural cooperative processing pork, poultry and dairy products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 56,
+      "source": "https://www.change.org/p/tell-grupo-pão-de-açúcar-stop-selling-pork-from-confined-and-mutilated-pigs",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A Mercy For Animals investigation of an Aurora cooperative pig farm in Santa Catarina, Brazil documented piglets with teeth ground down, tails cut and ears notched without pain relief, and sows held in gestation crates too small to turn around, biting the bars. Aurora products are sold at Grupo Pão de Açúcar stores, which MFA petitioned (November 2017) to stop buying from suppliers that confine and mutilate pigs. The investigation date is not stated on the source page; Sinergia Animal's October 2024 report separately ranked Aurora lowest on animal welfare policies among Brazilian pork producers.",
+          "date": "2017",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.change.org/p/tell-grupo-pão-de-açúcar-stop-selling-pork-from-confined-and-mutilated-pigs"
+        }
+      ],
+      "addedAt": "2026-11-01",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "western_hog_exchange",
+      "name": "Western Hog Exchange",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Mercy For Animals Canada's October 2014 undercover footage at Western Hog Exchange, a federally licensed hog facility in Red Deer, Alberta, showed pigs kicked and struck with a club, animals too sick to stand being abused, and pigs crammed in a corral. The Alberta SPCA investigated and the CFIA launched a review; chair Brent Moen said one employee was fired and two suspended.",
+      "blurb": "Federally licensed hog marketing and handling facility in Red Deer, Alberta.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 48,
+      "source": "https://globalnews.ca/news/1611191/cfia-launches-review-after-video-surfaces-of-alleged-animal-abuse-on-red-deer-hog-farm/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Mercy For Animals Canada's October 2014 undercover footage at Western Hog Exchange, a federally licensed hog facility in Red Deer, Alberta, showed pigs kicked and struck with a club, animals too sick to stand being abused, and pigs crammed in a corral. The Alberta SPCA investigated and the CFIA launched a review; chair Brent Moen said one employee was fired and two suspended.",
+          "date": "2014-10",
+          "actor": "Mercy For Animals Canada",
+          "sourceUrl": "https://globalnews.ca/news/1611191/cfia-launches-review-after-video-surfaces-of-alleged-animal-abuse-on-red-deer-hog-farm/"
+        }
+      ],
+      "addedAt": "2026-11-01",
+      "scope": "narrow",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -42348,6 +42444,93 @@
         }
       ],
       "addedAt": "2026-10-31"
+    },
+    {
+      "id": "puratone",
+      "avoid": "Puratone",
+      "ownership": [
+        {
+          "firmId": "puratone",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Mercy For Animals Canada's late-2012 undercover investigation at Puratone's Arborg, Manitoba operation documented thousands of pregnant sows in metal gestation crates, piglets slammed to the ground and left to die, sick pigs kicked, and castration and tail-docking without painkillers; University of Guelph's Dr. Ian Duncan called it \"the worst cruelty inflicted on an animal that I have witnessed in many years\". CTV's W5 aired the footage in December 2012 and Manitoba authorities opened an investigation; the MFA page reports no criminal charges.",
+      "blurb": "Manitoba-based pork producer operating hog barns and breeding facilities.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Mercy For Animals Canada's late-2012 undercover investigation at Puratone's Arborg, Manitoba operation documented thousands of pregnant sows in metal gestation crates, piglets slammed to the ground and left to die, sick pigs kicked, and castration and tail-docking without painkillers; University of Guelph's Dr. Ian Duncan called it \"the worst cruelty inflicted on an animal that I have witnessed in many years\". CTV's W5 aired the footage in December 2012 and Manitoba authorities opened an investigation; the MFA page reports no criminal charges.",
+          "date": "2012-12",
+          "actor": "Mercy For Animals Canada / CTV W5",
+          "sourceUrl": "https://pigcruelty.mercyforanimals.org/"
+        }
+      ],
+      "addedAt": "2026-11-01"
+    },
+    {
+      "id": "cooperativa_aurora",
+      "avoid": "Aurora Alimentos",
+      "ownership": [
+        {
+          "firmId": "cooperativa_aurora",
+          "stake": "majority",
+          "since": "1969"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A Mercy For Animals investigation of an Aurora cooperative pig farm in Santa Catarina, Brazil documented piglets with teeth ground down, tails cut and ears notched without pain relief, and sows held in gestation crates too small to turn around, biting the bars. Aurora products are sold at Grupo Pão de Açúcar stores, which MFA petitioned (November 2017) to stop buying from suppliers that confine and mutilate pigs. The investigation date is not stated on the source page; Sinergia Animal's October 2024 report separately ranked Aurora lowest on animal welfare policies among Brazilian pork producers.",
+      "blurb": "Brazilian agricultural cooperative processing pork, poultry and dairy products.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A Mercy For Animals investigation of an Aurora cooperative pig farm in Santa Catarina, Brazil documented piglets with teeth ground down, tails cut and ears notched without pain relief, and sows held in gestation crates too small to turn around, biting the bars. Aurora products are sold at Grupo Pão de Açúcar stores, which MFA petitioned (November 2017) to stop buying from suppliers that confine and mutilate pigs. The investigation date is not stated on the source page; Sinergia Animal's October 2024 report separately ranked Aurora lowest on animal welfare policies among Brazilian pork producers.",
+          "date": "2017",
+          "actor": "Mercy For Animals",
+          "sourceUrl": "https://www.change.org/p/tell-grupo-pão-de-açúcar-stop-selling-pork-from-confined-and-mutilated-pigs"
+        }
+      ],
+      "addedAt": "2026-11-01"
+    },
+    {
+      "id": "western_hog_exchange",
+      "avoid": "Western Hog Exchange",
+      "ownership": [
+        {
+          "firmId": "western_hog_exchange",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Mercy For Animals Canada's October 2014 undercover footage at Western Hog Exchange, a federally licensed hog facility in Red Deer, Alberta, showed pigs kicked and struck with a club, animals too sick to stand being abused, and pigs crammed in a corral. The Alberta SPCA investigated and the CFIA launched a review; chair Brent Moen said one employee was fired and two suspended.",
+      "blurb": "Federally licensed hog marketing and handling facility in Red Deer, Alberta.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Mercy For Animals Canada's October 2014 undercover footage at Western Hog Exchange, a federally licensed hog facility in Red Deer, Alberta, showed pigs kicked and struck with a club, animals too sick to stand being abused, and pigs crammed in a corral. The Alberta SPCA investigated and the CFIA launched a review; chair Brent Moen said one employee was fired and two suspended.",
+          "date": "2014-10",
+          "actor": "Mercy For Animals Canada",
+          "sourceUrl": "https://globalnews.ca/news/1611191/cfia-launches-review-after-video-surfaces-of-alleged-animal-abuse-on-red-deer-hog-farm/"
+        }
+      ],
+      "addedAt": "2026-11-01"
     }
   ]
 }

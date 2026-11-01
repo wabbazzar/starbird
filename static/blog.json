@@ -2980,6 +2980,22 @@
         "special_k_red_berries"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-01-mercy_for_animals_investigations",
+      "date": "2026-11-01",
+      "title": "Puratone, Aurora and Western Hog Exchange: pork-chain cruelty",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Three pork-sector operations documented in Mercy For Animals undercover investigations: a Manitoba hog producer, a Brazilian cooperative, and an Alberta hog facility.",
+      "body": "This run adds three pork-chain operations drawn from Mercy For Animals' investigation archive, each backed by a second source.\n\nPuratone's Arborg, Manitoba operation was filmed in late 2012 with thousands of sows in gestation crates and piglets slammed to the ground; CTV's W5 aired the footage and Manitoba authorities opened a probe. The MFA page reports no criminal charges.\n\nAurora, a Brazilian cooperative, was documented with sows in crates and piglets mutilated without pain relief; the source page gives no investigation date, and a 2017 petition targeted Grupo Pão de Açúcar, which sells Aurora products. Sinergia Animal's 2024 report separately ranked Aurora lowest on welfare policy.\n\nWestern Hog Exchange in Red Deer, Alberta, was filmed in 2014 with pigs kicked and clubbed. The Alberta SPCA and CFIA responded, and the facility said it fired one employee and suspended two. These are allegations from advocacy footage plus regulator responses, not court findings.",
+      "entityIds": [
+        "cooperativa_aurora",
+        "puratone",
+        "western_hog_exchange"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
