@@ -19345,6 +19345,37 @@
       "addedAt": "2026-11-01",
       "scope": "narrow",
       "role": "actor"
+    },
+    {
+      "id": "toyo_suisan",
+      "name": "Toyo Suisan Kaisha (Maruchan)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Japanese instant-noodle maker; its U.S. unit Maruchan Inc. (Irvine, CA, est. 1972) is the largest U.S. instant ramen producer. Open Food Facts classifies 43 of the 48 graded Maruchan products sold in the U.S. as NOVA group 4 (ultra-processed), per its crowd-sourced ingredient-based grading. Quest context: health_general via the NOVA ultra-processed tracker.",
+      "blurb": "Japanese food company that makes instant noodles and seafood products; owns Maruchan.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 50,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://world.openfoodfacts.org/brand/maruchan",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-02",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Open Food Facts classifies 43 of the 48 graded Maruchan products sold in the U.S. as NOVA group 4 (ultra-processed).",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/brand/maruchan"
+        }
+      ]
     }
   ],
   "brands": [
@@ -42531,6 +42562,90 @@
         }
       ],
       "addedAt": "2026-11-01"
+    },
+    {
+      "id": "maruchan",
+      "avoid": "Maruchan",
+      "ownership": [
+        {
+          "firmId": "toyo_suisan",
+          "stake": "majority",
+          "since": "1972"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Maruchan Inc., the Irvine, California-based U.S. unit of Japan's Toyo Suisan Kaisha, is the largest U.S. instant ramen maker (Orange County Business Journal; Wikipedia). Open Food Facts lists 73 Maruchan products sold in the U.S.; of the 48 with a NOVA grade, 43 are NOVA group 4 (ultra-processed), including its Chicken and Shrimp Ramen Noodle Soup, whose ingredient lists include flavor-enhancing additives such as monosodium glutamate and maltodextrin. NOVA grades on Open Food Facts are computed from ingredient lists and crowd-sourced, so they indicate formulation, not a regulator finding.",
+      "blurb": "Instant ramen noodle soups and noodle cups sold in U.S. grocery stores.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Maruchan Inc., the Irvine, California-based U.S. unit of Japan's Toyo Suisan Kaisha, is the largest U.S. instant ramen maker (Orange County Business Journal; Wikipedia). Open Food Facts lists 73 Maruchan products sold in the U.S.; of the 48 with a NOVA grade, 43 are NOVA group 4 (ultra-processed), including its Chicken and Shrimp Ramen Noodle Soup, whose ingredient lists include flavor-enhancing additives such as monosodium glutamate and maltodextrin. NOVA grades on Open Food Facts are computed from ingredient lists and crowd-sourced, so they indicate formulation, not a regulator finding.",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/brand/maruchan"
+        }
+      ],
+      "addedAt": "2026-11-02"
+    },
+    {
+      "id": "marie_callenders",
+      "avoid": "Marie Callender's",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Marie Callender's frozen entrees and pot pies are made by Conagra Brands, which joined the brand to its portfolio through the 2018 Pinnacle Foods acquisition (AP). Open Food Facts lists 95 U.S. Marie Callender's products; of the 72 with a NOVA grade, 71 are NOVA group 4 (ultra-processed), including its Chicken Pot Pie, whose filling lists maltodextrin, isolated soy protein and added flavors. Conagra is also one of ten food makers named in People of the State of California v. Kraft Heinz Company et al., filed December 2, 2025 in San Francisco Superior Court over marketing ultra-processed foods (San Francisco City Attorney). NOVA grades on Open Food Facts are computed from ingredient lists and crowd-sourced, so they indicate formulation, not a regulator finding.",
+      "blurb": "Frozen pot pies, entrees and dessert pies sold in U.S. supermarkets.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Marie Callender's frozen entrees and pot pies are made by Conagra Brands, which joined the brand to its portfolio through the 2018 Pinnacle Foods acquisition (AP). Open Food Facts lists 95 U.S. Marie Callender's products; of the 72 with a NOVA grade, 71 are NOVA group 4 (ultra-processed), including its Chicken Pot Pie, whose filling lists maltodextrin, isolated soy protein and added flavors. Conagra is also one of ten food makers named in People of the State of California v. Kraft Heinz Company et al., filed December 2, 2025 in San Francisco Superior Court over marketing ultra-processed foods (San Francisco City Attorney). NOVA grades on Open Food Facts are computed from ingredient lists and crowd-sourced, so they indicate formulation, not a regulator finding.",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/brand/marie-callender-s"
+        }
+      ],
+      "addedAt": "2026-11-02"
+    },
+    {
+      "id": "pepperidge_farm",
+      "avoid": "Pepperidge Farm",
+      "ownership": [
+        {
+          "firmId": "campbell_soup",
+          "stake": "majority",
+          "since": "1961"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Pepperidge Farm, a Campbell Soup Company brand since its 1961 acquisition, sells bread, stuffing, crackers and cookies. Open Food Facts lists 89 U.S. Pepperidge Farm products; of the 66 with a NOVA grade, 64 are NOVA group 4 (ultra-processed), including its Herb Seasoned Classic Stuffing and its 'whole grain' bread, whose ingredients include wheat gluten, soybean oil and added sugar. NOVA grades on Open Food Facts are computed from ingredient lists and crowd-sourced, so they indicate formulation, not a regulator finding.",
+      "blurb": "Packaged bread, stuffing, crackers, cookies and frozen baked goods.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Pepperidge Farm, a Campbell Soup Company brand since its 1961 acquisition, sells bread, stuffing, crackers and cookies. Open Food Facts lists 89 U.S. Pepperidge Farm products; of the 66 with a NOVA grade, 64 are NOVA group 4 (ultra-processed), including its Herb Seasoned Classic Stuffing and its 'whole grain' bread, whose ingredients include wheat gluten, soybean oil and added sugar. NOVA grades on Open Food Facts are computed from ingredient lists and crowd-sourced, so they indicate formulation, not a regulator finding.",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/brand/pepperidge-farm"
+        }
+      ],
+      "addedAt": "2026-11-02"
     }
   ]
 }

@@ -2996,6 +2996,23 @@
         "western_hog_exchange"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-11-02-ultraprocessed_nova_tracker",
+      "date": "2026-11-02",
+      "title": "Ramen, pot pies and 'whole grain' bread: three ultra-processed staples",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Open Food Facts grades most products from Maruchan, Marie Callender's and Pepperidge Farm as NOVA group 4. Conagra, Marie Callender's owner, is also a defendant in San Francisco's ultra-processed food suit.",
+      "body": "This run added three everyday pantry and freezer-aisle brands: Maruchan instant ramen (Toyo Suisan), Marie Callender's frozen entrees (Conagra) and Pepperidge Farm (Campbell's).\n\nThe evidence is Open Food Facts' ingredient-based NOVA grading of U.S. products. 43 of 48 graded Maruchan items, 71 of 72 Marie Callender's items and 64 of 66 Pepperidge Farm items land in NOVA group 4, the ultra-processed tier. Typical markers are maltodextrin, isolated soy protein, added flavors and wheat gluten. Even Pepperidge Farm's 'whole grain' bread is graded this way.\n\nConagra is one of ten companies named in People of the State of California v. Kraft Heinz et al., filed December 2, 2025 in San Francisco Superior Court over how ultra-processed foods are marketed. The NOVA grades are crowd-sourced and computed from ingredient lists, so they describe formulation, not a regulator's finding.",
+      "entityIds": [
+        "toyo_suisan",
+        "marie_callenders",
+        "maruchan",
+        "pepperidge_farm"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
