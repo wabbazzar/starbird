@@ -42646,6 +42646,91 @@
         }
       ],
       "addedAt": "2026-11-02"
+    },
+    {
+      "id": "starburst",
+      "avoid": "Starburst",
+      "ownership": [
+        {
+          "firmId": "mars_inc",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Starburst fruit chews, made by Mars Wrigley, are classified NOVA Group 4 (ultra-processed) by Open Food Facts, which lists six ultra-processing markers for the Original chews. The flagged additives include the synthetic dyes tartrazine (E102/Yellow 5), sunset yellow (E110/Yellow 6), allura red (E129/Red 40) and brilliant blue (E133/Blue 1), alongside modified corn starch and hydrogenated palm kernel oil. The NOVA classification is a crowd-sourced database assignment, not a Mars or regulator finding, and ingredient lists vary by Starburst variety.",
+      "blurb": "Fruit-flavored chewy candy sold in squares by Mars Wrigley.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-04",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Open Food Facts classifies Starburst Original as NOVA Group 4 (ultra-processed) with six ultra-processing markers, listing the synthetic dyes tartrazine (E102), sunset yellow (E110), allura red (E129) and brilliant blue (E133) plus hydrogenated palm kernel oil.",
+          "actor": "Open Food Facts",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0040000000518/starburst-original-mars-candy"
+        }
+      ]
+    },
+    {
+      "id": "fritos",
+      "avoid": "Fritos",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1932"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Fritos corn chips, a PepsiCo Frito-Lay brand, are listed as NOVA Group 4 (ultra-processed) in Open Food Facts-derived product data. The Flamin' Hot variety has about 30 ingredients, including monosodium glutamate, disodium inosinate, disodium guanylate and the synthetic dyes Red 40 and Yellow 6, which the PlainFoodSafe additive screen marks 'Avoid'. This is a third-party database classification, not a PepsiCo or regulator finding, and ingredients vary by Fritos flavor.",
+      "blurb": "Corn chip snack brand sold by Frito-Lay.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-04",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "PlainFoodSafe lists Fritos Flamin' Hot corn chips as NOVA Group 4 (ultra-processed), with about 30 ingredients including MSG, disodium inosinate and guanylate, and the dyes Red 40 and Yellow 6 flagged 'Avoid'.",
+          "actor": "PlainFoodSafe",
+          "sourceUrl": "https://plainfoodsafe.com/product/0028400381628"
+        }
+      ]
+    },
+    {
+      "id": "apple_jacks",
+      "avoid": "Apple Jacks",
+      "ownership": [
+        {
+          "firmId": "wk_kellogg_co",
+          "stake": "majority",
+          "since": "1965"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Apple Jacks, a WK Kellogg Co cereal, contains FD&C synthetic colors. In 2025 the Texas attorney general investigated whether Kellogg violated state consumer-protection law by continuing to use artificial dyes in cereals such as Froot Loops and Apple Jacks. Kellogg signed a legally binding assurance of voluntary compliance: no new products launched with FD&C colors from January, school-served cereals reformulated by the 2026-27 school year, and all FD&C colors removed by the end of 2027. Until then US-sold Apple Jacks still carries these dyes.",
+      "blurb": "Sweetened apple-cinnamon breakfast cereal made by WK Kellogg Co.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-04",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "The Texas attorney general investigated Kellogg over continued use of artificial dyes in cereals including Apple Jacks; Kellogg signed an assurance of voluntary compliance to remove FD&C colors by the end of 2027.",
+          "date": "2025",
+          "actor": "Texas Attorney General",
+          "sourceUrl": "https://www.ksl.com/article/news/business/kellogg-says-it-will-remove-artificial-dyes-from-cereals-by-the-end-of-2027/51360891"
+        }
+      ]
     }
   ]
 }

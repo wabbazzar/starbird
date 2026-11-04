@@ -3013,6 +3013,22 @@
         "pepperidge_farm"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-04-ultraprocessed_nova_tracker",
+      "date": "2026-11-04",
+      "title": "Three ultra-processed staples: Starburst, Fritos, Apple Jacks",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three familiar snack-aisle brands from Mars, PepsiCo and WK Kellogg, flagged as NOVA 4 ultra-processed and for synthetic dyes.",
+      "body": "Starburst (Mars Wrigley) and Fritos (PepsiCo's Frito-Lay) both appear as NOVA Group 4 ultra-processed products in the Open Food Facts and PlainFoodSafe databases. Starburst's chews list tartrazine, sunset yellow, allura red and brilliant blue; Fritos Flamin' Hot lists MSG-type flavor enhancers plus Red 40 and Yellow 6. These are crowd-sourced classifications, not regulator findings, and formulas vary by flavor.\n\nApple Jacks is different: the evidence is regulatory. After a Texas attorney general investigation into artificial dyes in cereals, WK Kellogg signed a legally binding assurance to stop launching dyed products and remove FD&C colors by the end of 2027.\n\nThe common thread is colorants and heavy processing in products aimed at kids and casual snacking.",
+      "entityIds": [
+        "apple_jacks",
+        "fritos",
+        "starburst"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
