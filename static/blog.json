@@ -3029,6 +3029,23 @@
         "starburst"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-05-adjacent_source_discovery_health",
+      "date": "2026-11-05",
+      "title": "Baby food makers and the heavy-metals paper trail",
+      "strategy": "adjacent_source_discovery_health",
+      "strategyLabel": "Adjacent-source discovery (health)",
+      "value": "health",
+      "summary": "A 2021 House subcommittee inquiry named Hain Celestial, Beech-Nut and Gerber over toxic metals in baby food. Parents choosing infant food can now see which brands sit behind those findings.",
+      "body": "This run drew on a source outside our usual trackers: the House Oversight subcommittee's investigation into heavy metals in baby food, built from companies' own internal test data.\n\nHain Celestial, maker of Earth's Best Organic, had a policy of testing only ingredients rather than finished products, which the report said understates what babies actually eat. Reported ingredient results reached 352 ppb lead and 309 ppb arsenic, and half its brown-rice baby foods exceeded the FDA rice limit.\n\nBeech-Nut's ingredients were reported with arsenic as high as 913.4 ppb and lead as high as 886.9 ppb, and the company used high-arsenic enzyme additives. A September 2021 follow-up said it recalled only two of six products that tested over the limit.\n\nGerber, owned by Nestlé, was reported with up to 90 ppb arsenic in rice flour batches and two products over the 100 ppb limit with no action taken. Gerber disputes the finding and says its foods meet applicable guidelines. Sources: E&E News (Feb 2021) and CNN via ABC7 (Oct 2021).",
+      "entityIds": [
+        "beech_nut_nutrition",
+        "hain_celestial",
+        "beech_nut",
+        "earths_best_organic",
+        "gerber"
+      ]
     }
   ]
 }

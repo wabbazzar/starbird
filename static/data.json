@@ -19376,6 +19376,70 @@
           "sourceUrl": "https://world.openfoodfacts.org/brand/maruchan"
         }
       ]
+    },
+    {
+      "id": "hain_celestial",
+      "name": "Hain Celestial Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Hain Celestial Group is a U.S. natural and organic packaged-food company that sells Earth's Best Organic baby food. A February 2021 House Oversight subcommittee investigation found a Hain internal policy of testing only ingredients, not finished products, which the report said underestimates toxic-metal levels. Ingredients tested up to 352 ppb lead and 309 ppb arsenic, and finished product as high as 129 ppb arsenic; Hain sold products made with ingredients above its own internal limits, and half its brown-rice baby foods exceeded the FDA rice limit (E&E News, 2021-02-04). Quest context: health_general via adjacent-source discovery (congressional baby-food heavy-metals inquiry).",
+      "blurb": "U.S. natural and organic packaged-food company; owns Earth's Best Organic baby food and other brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 48,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Hain's internal policy tested only ingredients, which the report said underestimates finished-product heavy metals; ingredients tested up to 352 ppb lead and 309 ppb arsenic, finished product up to 129 ppb arsenic, and half of its brown-rice baby foods exceeded the FDA rice limit.",
+          "date": "2021",
+          "actor": "U.S. House Subcommittee on Economic and Consumer Policy",
+          "sourceUrl": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/"
+        }
+      ],
+      "addedAt": "2026-11-05"
+    },
+    {
+      "id": "beech_nut_nutrition",
+      "name": "Beech-Nut Nutrition Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Beech-Nut Nutrition Company is a U.S. baby-food maker. A February 2021 House Oversight subcommittee investigation found Beech-Nut used ingredients with arsenic as high as 913.4 ppb and lead as high as 886.9 ppb, and used high-arsenic enzyme additives such as BAN 800 for crumb softness (E&E News, 2021-02-04). A September 2021 follow-up report said it recalled only two of its six products that tested over the limit; it recalled two infant rice cereals in June 2021 and exited that category (CNN via ABC7). Owner not verified from the sources read. Quest context: health_general via adjacent-source discovery (congressional baby-food heavy-metals inquiry).",
+      "blurb": "U.S. baby-food manufacturer; makes jarred purees, pouches and snacks for infants and toddlers.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 50,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Subcommittee found Beech-Nut ingredients with arsenic up to 913.4 ppb and lead up to 886.9 ppb and use of high-arsenic enzyme additives; it recalled only two of six products that tested over the limit.",
+          "date": "2021",
+          "actor": "U.S. House Subcommittee on Economic and Consumer Policy",
+          "sourceUrl": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/"
+        }
+      ],
+      "addedAt": "2026-11-05"
     }
   ],
   "brands": [
@@ -42731,6 +42795,93 @@
           "sourceUrl": "https://www.ksl.com/article/news/business/kellogg-says-it-will-remove-artificial-dyes-from-cereals-by-the-end-of-2027/51360891"
         }
       ]
+    },
+    {
+      "id": "earths_best_organic",
+      "avoid": "Earth's Best Organic",
+      "ownership": [
+        {
+          "firmId": "hain_celestial",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Earth's Best Organic baby food is made by Hain Celestial. Hain's internal policy tested only ingredients, which the report said underestimates finished-product heavy metals; ingredients tested up to 352 ppb lead and 309 ppb arsenic, finished product up to 129 ppb arsenic, and half of its brown-rice baby foods exceeded the FDA rice limit. Source: House Oversight subcommittee findings as reported by E&E News, 2021-02-04.",
+      "blurb": "Organic baby food, cereals and snacks for infants and toddlers, made by Hain Celestial.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Hain's internal policy tested only ingredients, which the report said underestimates finished-product heavy metals; ingredients tested up to 352 ppb lead and 309 ppb arsenic, finished product up to 129 ppb arsenic, and half of its brown-rice baby foods exceeded the FDA rice limit.",
+          "date": "2021",
+          "actor": "U.S. House Subcommittee on Economic and Consumer Policy",
+          "sourceUrl": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/"
+        }
+      ],
+      "addedAt": "2026-11-05"
+    },
+    {
+      "id": "beech_nut",
+      "avoid": "Beech-Nut",
+      "ownership": [
+        {
+          "firmId": "beech_nut_nutrition",
+          "stake": "majority",
+          "since": "1931"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Beech-Nut baby food was singled out by the House Oversight subcommittee. Subcommittee found Beech-Nut ingredients with arsenic up to 913.4 ppb and lead up to 886.9 ppb and use of high-arsenic enzyme additives; it recalled only two of six products that tested over the limit. It recalled two infant rice cereals in June 2021 and left that category (CNN via ABC7).",
+      "blurb": "Jarred baby food purees, pouches and snacks for infants and toddlers.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Subcommittee found Beech-Nut ingredients with arsenic up to 913.4 ppb and lead up to 886.9 ppb and use of high-arsenic enzyme additives; it recalled only two of six products that tested over the limit.",
+          "date": "2021",
+          "actor": "U.S. House Subcommittee on Economic and Consumer Policy",
+          "sourceUrl": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/"
+        }
+      ],
+      "addedAt": "2026-11-05"
+    },
+    {
+      "id": "gerber",
+      "avoid": "Gerber",
+      "ownership": [
+        {
+          "firmId": "nestle_usa",
+          "stake": "majority",
+          "since": "2007"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Gerber, a Nestlé baby-food brand, was named by the House Oversight subcommittee in 2021: Gerber ingredients tested up to 90 ppb arsenic in batches of rice flour and up to 48 ppb lead (E&E News, 2021-02-04). The September 2021 follow-up said two Gerber products tested over the 100 ppb limit and the company took no action (CNN via ABC7). Gerber disputes this, saying FDA could not confirm Alaska's retest and that all its foods meet applicable guidelines.",
+      "blurb": "Baby food, infant formula and toddler snacks sold by Nestlé.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Gerber ingredients tested up to 90 ppb arsenic in rice flour and up to 48 ppb lead; two products tested over the 100 ppb limit and the company took no action, per the House subcommittee (Gerber disputes this).",
+          "date": "2021",
+          "actor": "U.S. House Subcommittee on Economic and Consumer Policy",
+          "sourceUrl": "https://www.eenews.net/articles/congressional-inquiry-finds-toxic-metals-in-baby-food/"
+        }
+      ],
+      "addedAt": "2026-11-05"
     }
   ]
 }
