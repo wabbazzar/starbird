@@ -42882,6 +42882,35 @@
         }
       ],
       "addedAt": "2026-11-05"
+    },
+    {
+      "id": "hersheys_milk_chocolate",
+      "avoid": "Hershey's Milk Chocolate",
+      "ownership": [
+        {
+          "firmId": "hershey_company",
+          "stake": "majority",
+          "since": "1900"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hershey's Milk Chocolate Bar lists sugar, milk, chocolate, cocoa butter, milk fat, soy lecithin, PGPR (polyglycerol polyricinoleate) and natural flavor (Hershey ingredient list; Walmart and Stop & Shop listings). Emulsifiers such as lecithin and PGPR are markers of NOVA group 4 (ultra-processed) formulations. A June 2026 BNP Paribas analysis of Nielsen barcode data, reported by Food Business News on 2026-07-01, found The Hershey Company derives over 92% of its US retail sales from ultra-processed foods, among the most exposed of the 12 food companies analysed. That figure is company-wide, not specific to this bar.",
+      "blurb": "Milk chocolate candy bar sold in the US by Hershey.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "BNP Paribas analysis of Nielsen barcode data (reported by Food Business News, 2026-07-01) found Hershey derives over 92% of US retail sales from NOVA group 4 ultra-processed foods; this bar's label includes the emulsifiers soy lecithin and PGPR.",
+          "date": "2026-06",
+          "actor": "BNP Paribas",
+          "sourceUrl": "https://www.foodbusinessnews.net/articles/30598-the-companies-most-exposed-to-consumer-upf-concerns"
+        }
+      ],
+      "addedAt": "2026-11-06"
     }
   ]
 }

@@ -3046,6 +3046,20 @@
         "earths_best_organic",
         "gerber"
       ]
+    },
+    {
+      "id": "2026-11-06-ultraprocessed_nova_tracker",
+      "date": "2026-11-06",
+      "title": "Hershey's flagship bar, and a company built on ultra-processed food",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "One well-sourced addition this run: Hershey's Milk Chocolate, whose parent derives over 92% of US retail sales from ultra-processed foods per BNP Paribas.",
+      "body": "This run's NOVA-tracker pass added Hershey's Milk Chocolate, the company's namesake bar. Its label lists emulsifiers (soy lecithin and PGPR), a common marker of NOVA group 4 formulations.\n\nThe larger signal is at company level. A June 2026 BNP Paribas analysis of Nielsen barcode data, reported by Food Business News on July 1, found Hershey, Flowers Foods and Oatly each derive over 92% of US retail sales from ultra-processed foods, with Kraft Heinz, Mondelez, Conagra, General Mills and Campbell's at 77% or more. That figure describes the company, not this bar specifically.\n\nCandidates like Nature's Own bread and Oatly were checked and left out: their current labels or classification were not clearly supported, so no entry was made.",
+      "entityIds": [
+        "hersheys_milk_chocolate"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
