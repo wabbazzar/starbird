@@ -3265,7 +3265,8 @@
         "Diet Coke",
         "Sprite",
         "Fanta",
-        "Minute Maid"
+        "Minute Maid",
+        "Coca-Cola Classic"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -4685,7 +4686,8 @@
       "summary": "Nissin Foods Holdings (TYO: 2897), headquartered in Osaka, Japan, is the inventor of instant noodles and the world’s largest instant noodle producer. Founded by Momofuku Ando in 1948, the company launched Cup Noodles in 1971 and Top Ramen in the United States, together commanding an estimated 30–40% of global instant noodle sales. Every major Nissin instant noodle product is classified as NOVA Group 4 (ultra-processed) under the NOVA food classification system, which categorizes foods by degree of industrial processing rather than nutrient content (Monteiro et al., 2019, NOVA classification system, Public Health Nutrition, PMC6322572). A 2014 study from the Harvard School of Public Health (Oh et al., Journal of Nutrition) found that women who consumed instant noodles two or more times per week had a 68% higher risk of metabolic syndrome — a cluster of conditions including hypertension, insulin resistance, and abdominal obesity — independent of overall dietary quality. Cup Noodles (original flavor) contains 1,190 mg sodium per serving (52% of the daily recommended value), TBHQ (a preservative rated “Avoid” by CSPI’s Chemical Cuisine), MSG, sodium phosphates, and multiple artificial flavor compounds.",
       "blurb": "Japanese food manufacturer making instant ramen and cup noodles, including the Cup Noodles and Top Ramen brands.",
       "brands": [
-        "Cup Noodles"
+        "Cup Noodles",
+        "Top Ramen"
       ],
       "layoffs": "N/A",
       "notableBk": "N/A",
@@ -19440,6 +19442,39 @@
         }
       ],
       "addedAt": "2026-11-05"
+    },
+    {
+      "id": "sunny_delight_beverages",
+      "name": "Sunny Delight Beverages Co.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "SunnyD (Sunny Delight Beverages Co.) is a U.S. maker of shelf-stable, fruit-flavored punch drinks. Its flagship orange punch lists juice concentrates at 2% or less of the formula behind water and sweetener, with about 12 g of added sugar per 8-fl-oz serving on retailer nutrition panels. Sweetened fruit-flavored drinks with additives fall in NOVA Group 4 ultra-processed foods (Monteiro et al., Public Health Nutrition, 2019), and an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake (Hall et al., Cell Metabolism, 2019). Health quest context: ultra-processed beverage marketed on citrus imagery.",
+      "blurb": "Makes shelf-stable fruit-flavored punch drinks, including SunnyD.",
+      "brands": [
+        "SunnyD"
+      ],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 38,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-07",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "SunnyD (Sunny Delight Beverages Co.) is a U.S. maker of shelf-stable, fruit-flavored punch drinks. Its flagship orange punch lists juice concentrates at 2% or less of the formula behind water and sweetener, with about 12 g of added sugar per 8-fl-oz serving on retailer nutrition panels. Sweetened fruit-flavored drinks with additives fall in NOVA Group 4 ultra-processed foods (Monteiro et al., Public Health Nutrition, 2019), and an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake (Hall et al., Cell Metabolism, 2019). Health quest context: ultra-processed beverage marketed on citrus imagery.",
+          "actor": "NIH",
+          "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+        }
+      ]
     }
   ],
   "brands": [
@@ -42911,6 +42946,90 @@
         }
       ],
       "addedAt": "2026-11-06"
+    },
+    {
+      "id": "coca_cola",
+      "avoid": "Coca-Cola Classic",
+      "ownership": [
+        {
+          "firmId": "coca_cola_company",
+          "stake": "majority",
+          "since": "1886"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Flagship sugar-sweetened cola; a 12-oz can carries 39 grams of sugar per its nutrition label, above the American Heart Association's daily added-sugar limits of 36 g for men and 25 g for women. Soft drinks are a named NOVA Group 4 ultra-processed category in the NOVA literature (Monteiro et al., Public Health Nutrition, 2019), and an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake and 0.9 kg weight gain over two weeks (Hall et al., Cell Metabolism, 2019).",
+      "blurb": "Original cola soft drink sold worldwide in cans and bottles.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-07",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Flagship sugar-sweetened cola; a 12-oz can carries 39 grams of sugar per its nutrition label, above the American Heart Association's daily added-sugar limits of 36 g for men and 25 g for women. Soft drinks are a named NOVA Group 4 ultra-processed category in the NOVA literature (Monteiro et al., Public Health Nutrition, 2019), and an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake and 0.9 kg weight gain over two weeks (Hall et al., Cell Metabolism, 2019).",
+          "actor": "NIH",
+          "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+        }
+      ]
+    },
+    {
+      "id": "top_ramen",
+      "avoid": "Top Ramen",
+      "ownership": [
+        {
+          "firmId": "nissin_foods",
+          "stake": "majority",
+          "since": "1970"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Instant noodle packs flavored with seasoning powders. Ingredient labels for several flavors list the preservative TBHQ and flavor enhancers such as disodium guanylate and disodium inosinate, and the beef flavor lists 660 mg sodium per serving (a 3-oz pack is two servings). Food-label databases classify Top Ramen as NOVA Group 4 ultra-processed; an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake and 0.9 kg weight gain over two weeks (Hall et al., Cell Metabolism, 2019).",
+      "blurb": "Dried instant ramen noodle packs with flavor seasoning.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-07",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Instant noodle packs flavored with seasoning powders. Ingredient labels for several flavors list the preservative TBHQ and flavor enhancers such as disodium guanylate and disodium inosinate, and the beef flavor lists 660 mg sodium per serving (a 3-oz pack is two servings). Food-label databases classify Top Ramen as NOVA Group 4 ultra-processed; an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake and 0.9 kg weight gain over two weeks (Hall et al., Cell Metabolism, 2019).",
+          "actor": "NIH",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-study-finds-heavily-processed-foods-cause-overeating-weight-gain"
+        }
+      ]
+    },
+    {
+      "id": "sunnyd",
+      "avoid": "SunnyD",
+      "ownership": [
+        {
+          "firmId": "sunny_delight_beverages",
+          "stake": "majority",
+          "since": "1964"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Orange-flavored citrus punch whose ingredient list shows water and sweetener ahead of juice concentrates at 2% or less of the formula; retailer nutrition panels list 12 g of added sugar per 8-fl-oz serving. Sweetened fruit-flavored drinks with additives fall in NOVA Group 4 ultra-processed foods (Monteiro et al., Public Health Nutrition, 2019), and an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake (Hall et al., Cell Metabolism, 2019).",
+      "blurb": "Orange-flavored citrus punch drink sold in bottles, pouches and gallon jugs.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-07",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Orange-flavored citrus punch whose ingredient list shows water and sweetener ahead of juice concentrates at 2% or less of the formula; retailer nutrition panels list 12 g of added sugar per 8-fl-oz serving. Sweetened fruit-flavored drinks with additives fall in NOVA Group 4 ultra-processed foods (Monteiro et al., Public Health Nutrition, 2019), and an NIH inpatient trial found an ultra-processed diet led to about 508 kcal/day more intake (Hall et al., Cell Metabolism, 2019).",
+          "actor": "NIH",
+          "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+        }
+      ]
     }
   ]
 }

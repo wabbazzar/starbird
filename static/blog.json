@@ -3060,6 +3060,23 @@
         "hersheys_milk_chocolate"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-07-ultraprocessed_nova_tracker",
+      "date": "2026-11-07",
+      "title": "Three ultra-processed staples: cola, instant ramen, citrus punch",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "This run added Coca-Cola Classic, Top Ramen and SunnyD, everyday NOVA Group 4 products, with the evidence tied to label data and an NIH feeding trial.",
+      "body": "Coca-Cola Classic, Nissin's Top Ramen and SunnyD look nothing alike on the shelf, but all three sit in the NOVA Group 4 ultra-processed category described in the Monteiro et al. 2019 classification paper.\n\nA 12-oz can of Coke carries 39 grams of sugar per its label, above the American Heart Association's 36 g (men) and 25 g (women) daily added-sugar limits. Top Ramen's ingredient lists include the preservative TBHQ and flavor enhancers, and the beef flavor lists 660 mg of sodium per serving, with two servings in a 3-oz pack. SunnyD's juice concentrates are listed at 2% or less of the formula, with about 12 g of added sugar per 8-fl-oz serving on retailer panels.\n\nThe common thread is the NIH inpatient trial (Hall et al., Cell Metabolism, 2019). It found people eating an ultra-processed diet took in about 508 kcal/day more and gained 0.9 kg in two weeks. It was a small trial of 20 adults, and it is not specific to these brands.",
+      "entityIds": [
+        "sunny_delight_beverages",
+        "coca_cola",
+        "sunnyd",
+        "top_ramen"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
