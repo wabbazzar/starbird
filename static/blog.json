@@ -3077,6 +3077,23 @@
         "top_ramen"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-08-ultraprocessed_nova_tracker",
+      "date": "2026-11-08",
+      "title": "Four grocery-aisle staples that Open Food Facts rates ultra-processed",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Honey Maid, Nilla, Toll House dough and Planters flavored peanuts all land in NOVA Group 4 on Open Food Facts. They sit under three of the food industry's biggest owners.",
+      "body": "This run looked at everyday pantry brands rather than obvious junk food. Honey Maid graham crackers and Nilla Wafers, both owned by Mondelēz International, are classified NOVA Group 4 (ultra-processed) by Open Food Facts. Their ingredient lists include soy lecithin, artificial flavor, and in Nilla's case high fructose corn syrup, palm oil and mono- and diglycerides.\n\nNestlé Toll House refrigerated cookie dough, owned by Nestlé USA, gets the same NOVA 4 classification, driven by palm and canola shortening, soy lecithin and natural flavors on top of refined flour and sugar.\n\nPlanters, owned by Hormel Foods, is a narrower case: the flavored dry-roasted peanut variety is NOVA 4 because of maltodextrin, dried corn syrup, gelatin and torula yeast, while the plain lightly salted peanuts are NOVA 3. The throughline is that the classification turns on the formulation of a specific product, not the brand's reputation.",
+      "entityIds": [
+        "honey_maid",
+        "nilla_wafers",
+        "planters_peanuts",
+        "toll_house_cookie_dough"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

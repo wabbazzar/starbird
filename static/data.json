@@ -43030,6 +43030,114 @@
           "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
         }
       ]
+    },
+    {
+      "id": "honey_maid",
+      "avoid": "Honey Maid",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "1925"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Honey Maid Graham Crackers are classified NOVA Group 4 (ultra-processed) by Open Food Facts; the ingredient list includes soybean and/or canola oil, soy lecithin and artificial flavor alongside refined enriched flour and sugar. The brand is owned by Mondelēz International, whose Nabisco cookies and crackers are widely sold to children as everyday snacks.",
+      "blurb": "Graham crackers and graham-based snacks sold under the Nabisco family of brands.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Honey Maid Graham Crackers are classified NOVA Group 4 (ultra-processed) by Open Food Facts; the ingredient list includes soybean and/or canola oil, soy lecithin and artificial flavor alongside refined enriched flour and sugar.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0044000004637"
+        }
+      ],
+      "addedAt": "2026-11-08"
+    },
+    {
+      "id": "nilla_wafers",
+      "avoid": "Nilla Wafers",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "1967"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Nabisco Nilla Wafers are classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include high fructose corn syrup, palm oil, the emulsifiers mono- and diglycerides and soy lecithin, and artificial flavor. The brand is owned by Mondelēz International.",
+      "blurb": "Small round vanilla-flavored cookies made by Nabisco.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Nabisco Nilla Wafers are classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include high fructose corn syrup, palm oil, the emulsifiers mono- and diglycerides and soy lecithin, and artificial flavor.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0044000001759"
+        }
+      ],
+      "addedAt": "2026-11-08"
+    },
+    {
+      "id": "toll_house_cookie_dough",
+      "avoid": "Nestlé Toll House Cookie Dough",
+      "ownership": [
+        {
+          "firmId": "nestle_usa",
+          "stake": "majority",
+          "since": "1939"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Nestlé Toll House refrigerated chocolate chip cookie dough is classified NOVA Group 4 (ultra-processed) by Open Food Facts; the ingredient list includes palm and canola oil shortening, soy lecithin and natural flavors in addition to refined flour and sugar. Owned by Nestlé USA.",
+      "blurb": "Refrigerated ready-to-bake cookie dough and baking morsels sold under the Toll House name.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Nestlé Toll House chocolate chip cookie dough is classified NOVA Group 4 (ultra-processed) by Open Food Facts; the ingredient list includes palm and canola oil shortening, soy lecithin and natural flavors in addition to refined flour and sugar.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0050000622313"
+        }
+      ],
+      "addedAt": "2026-11-08"
+    },
+    {
+      "id": "planters_peanuts",
+      "avoid": "Planters",
+      "ownership": [
+        {
+          "firmId": "hormel_foods",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Planters Dry Roasted Salted Peanuts (flavored variety) are classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include maltodextrin, dried corn syrup, gelatin, torula yeast and natural flavor. (The plain lightly salted peanuts are NOVA 3.) Planters is owned by Hormel Foods.",
+      "blurb": "Roasted and seasoned nuts and snack mixes, sold in cans and jars.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Planters Dry Roasted Salted Peanuts (flavored variety) are classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include maltodextrin, dried corn syrup, gelatin, torula yeast and natural flavor.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0029000073258"
+        }
+      ],
+      "addedAt": "2026-11-08"
     }
   ]
 }
