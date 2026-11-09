@@ -3094,6 +3094,20 @@
         "toll_house_cookie_dough"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-09-ultraprocessed_nova_tracker",
+      "date": "2026-11-09",
+      "title": "PRIME Energy: 200 mg of caffeine and a Senate FDA request",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "A heavily marketed influencer energy drink drew a Senate request for an FDA probe over caffeine content and youth-facing marketing.",
+      "body": "This run's NOVA sweep found one candidate with solid sourcing: PRIME Energy, the caffeinated can from the PRIME brand co-founded by Logan Paul and KSI.\n\nIn July 2023 Sen. Chuck Schumer asked the FDA to examine it, noting 200 mg of caffeine per 12 oz can against 34 mg in a Coke and 80 mg in an 8.4 oz Red Bull, and arguing its marketing blurred the line with the caffeine-free PRIME Hydration. The company says the can is labeled not recommended for under-18s and is within legal limits.\n\nClass actions allege PFAS in a Hydration flavor and caffeine above the label; these are unproven allegations. Other candidates (Bang, Celsius) turned up only marketing-claim disputes, not health evidence, so they were left out.",
+      "entityIds": [
+        "prime_energy"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

@@ -19475,6 +19475,38 @@
           "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
         }
       ]
+    },
+    {
+      "id": "prime_energy",
+      "name": "PRIME Hydration LLC",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In July 2023 Sen. Chuck Schumer asked the FDA to investigate PRIME Energy, a caffeinated sweetened beverage (the kind of formulated drink NOVA classes as ultra-processed), citing 200 mg of caffeine per 12 oz can versus 34 mg in a Coca-Cola and 80 mg in an 8.4 oz Red Bull, and marketing that he said made the can look nearly identical to the caffeine-free PRIME Hydration for children; the company said the can is labeled not recommended for under-18s and is within legal limits. Separately, class actions filed in 2023–2024 allege PFAS in a PRIME Hydration flavor and caffeine content above the advertised 200 mg; these are unadjudicated allegations the company disputes. FDA's final response was not found in sources.",
+      "blurb": "Brand of caffeinated energy drinks and electrolyte hydration drinks, co-founded by Logan Paul and KSI.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 42,
+      "source": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-demands-fda-investigate-prime-for-absurd-caffeine-content-and-marketing-targeting-kids-on-social-media-schumer-warns-parents-that-summers-hottest-drink-has-so-much-caffeine-that-it-puts-red-bull-to-shame",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "In July 2023 Sen. Chuck Schumer asked the FDA to investigate PRIME Energy, a caffeinated sweetened beverage (the kind of formulated drink NOVA classes as ultra-processed), citing 200 mg of caffeine per 12 oz can versus 34 mg in a Coca-Cola and 80 mg in an 8.4 oz Red Bull, and marketing that he said made the can look nearly identical to the caffeine-free PRIME Hydration for children; the company said the can is labeled not recommended for under-18s and is within legal limits. Separately, class actions filed in 2023–2024 allege PFAS in a PRIME Hydration flavor and caffeine content above the advertised 200 mg; these are unadjudicated allegations the company disputes. FDA's final response was not found in sources.",
+          "date": "2023-07",
+          "actor": "U.S. Senate (Sen. Schumer) / FDA",
+          "sourceUrl": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-demands-fda-investigate-prime-for-absurd-caffeine-content-and-marketing-targeting-kids-on-social-media-schumer-warns-parents-that-summers-hottest-drink-has-so-much-caffeine-that-it-puts-red-bull-to-shame"
+        }
+      ],
+      "addedAt": "2026-11-09",
+      "scope": "narrow",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -43138,6 +43170,35 @@
         }
       ],
       "addedAt": "2026-11-08"
+    },
+    {
+      "id": "prime_energy",
+      "avoid": "PRIME Energy",
+      "ownership": [
+        {
+          "firmId": "prime_energy",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "In July 2023 Sen. Chuck Schumer asked the FDA to investigate PRIME Energy, a caffeinated sweetened beverage (the kind of formulated drink NOVA classes as ultra-processed), citing 200 mg of caffeine per 12 oz can versus 34 mg in a Coca-Cola and 80 mg in an 8.4 oz Red Bull, and marketing that he said made the can look nearly identical to the caffeine-free PRIME Hydration for children; the company said the can is labeled not recommended for under-18s and is within legal limits. Separately, class actions filed in 2023–2024 allege PFAS in a PRIME Hydration flavor and caffeine content above the advertised 200 mg; these are unadjudicated allegations the company disputes. FDA's final response was not found in sources.",
+      "blurb": "Brand of caffeinated energy drinks and electrolyte hydration drinks, co-founded by Logan Paul and KSI.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "In July 2023 Sen. Chuck Schumer asked the FDA to investigate PRIME Energy, a caffeinated sweetened beverage (the kind of formulated drink NOVA classes as ultra-processed), citing 200 mg of caffeine per 12 oz can versus 34 mg in a Coca-Cola and 80 mg in an 8.4 oz Red Bull, and marketing that he said made the can look nearly identical to the caffeine-free PRIME Hydration for children; the company said the can is labeled not recommended for under-18s and is within legal limits. Separately, class actions filed in 2023–2024 allege PFAS in a PRIME Hydration flavor and caffeine content above the advertised 200 mg; these are unadjudicated allegations the company disputes. FDA's final response was not found in sources.",
+          "date": "2023-07",
+          "actor": "U.S. Senate (Sen. Schumer) / FDA",
+          "sourceUrl": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-demands-fda-investigate-prime-for-absurd-caffeine-content-and-marketing-targeting-kids-on-social-media-schumer-warns-parents-that-summers-hottest-drink-has-so-much-caffeine-that-it-puts-red-bull-to-shame"
+        }
+      ],
+      "addedAt": "2026-11-09"
     }
   ]
 }
