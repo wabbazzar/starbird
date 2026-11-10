@@ -43199,6 +43199,87 @@
         }
       ],
       "addedAt": "2026-11-09"
+    },
+    {
+      "id": "smartfood",
+      "avoid": "Smartfood",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1989"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Smartfood White Cheddar popcorn is classified NOVA Group 4 (ultra-processed) by Open Food Facts; the flavored variety lists whey, buttermilk, natural flavors and, in the 28400314138 listing, maltodextrin alongside vegetable oil. Smartfood is a Frito-Lay brand owned by PepsiCo.",
+      "blurb": "Flavored ready-to-eat popcorn, best known for white cheddar, sold in bags.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Smartfood White Cheddar popcorn is classified NOVA Group 4 (ultra-processed) by Open Food Facts; the flavored variety lists whey, buttermilk, natural flavors and, in the 28400314138 listing, maltodextrin alongside vegetable oil.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0028400314015"
+        }
+      ],
+      "addedAt": "2026-11-10"
+    },
+    {
+      "id": "danimals",
+      "avoid": "Danimals",
+      "ownership": [
+        {
+          "firmId": "danone_north_america",
+          "stake": "majority",
+          "since": "1990"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Danimals Smoothie (kids' drinkable yogurt) is classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include cane sugar, modified food starch, natural flavors and fruit & vegetable juice for color. Danimals is made by Danone North America.",
+      "blurb": "Kid-targeted drinkable yogurt smoothies in squeeze bottles and pouches.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Danimals Smoothie (kids' drinkable yogurt) is classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include cane sugar, modified food starch, natural flavors and fruit & vegetable juice for color.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0036632010391"
+        }
+      ],
+      "addedAt": "2026-11-10"
+    },
+    {
+      "id": "quaker_chewy",
+      "avoid": "Quaker Chewy",
+      "ownership": [
+        {
+          "firmId": "pepsico",
+          "stake": "majority",
+          "since": "1985"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Quaker Chewy Chocolate Chip Granola Bars are classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include corn syrup, invert sugar, corn syrup solids, glycerin, sorbitol and natural flavor alongside the oats. Quaker Chewy is owned by PepsiCo.",
+      "blurb": "Chewy granola bars in chocolate chip and other flavors, sold in multipacks.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Quaker Chewy Chocolate Chip Granola Bars are classified NOVA Group 4 (ultra-processed) by Open Food Facts; ingredients include corn syrup, invert sugar, corn syrup solids, glycerin, sorbitol and natural flavor alongside the oats.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0030000311820"
+        }
+      ],
+      "addedAt": "2026-11-10"
     }
   ]
 }

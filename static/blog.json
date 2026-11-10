@@ -3108,6 +3108,22 @@
         "prime_energy"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-10-ultraprocessed_nova_tracker",
+      "date": "2026-11-10",
+      "title": "Three more NOVA Group 4 staples: Smartfood, Danimals, Quaker Chewy",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Popcorn, kids' yogurt smoothies and granola bars that read as wholesome but are classed ultra-processed in Open Food Facts.",
+      "body": "This run added three lunchbox and pantry staples that Open Food Facts classifies as NOVA Group 4 (ultra-processed): Smartfood white cheddar popcorn, Quaker Chewy chocolate chip granola bars, and Danimals kids' smoothies.\n\nSmartfood and Quaker Chewy are both PepsiCo brands. The popcorn lists whey, buttermilk and natural flavors (maltodextrin in one listing); the granola bars add corn syrup, invert sugar, glycerin and sorbitol to the oats.\n\nDanimals, made by Danone North America, is a drinkable yogurt aimed at children whose ingredients include cane sugar, modified food starch and natural flavors. The evidence here is the NOVA classification of the ingredient lists, not a regulatory action.",
+      "entityIds": [
+        "danimals",
+        "quaker_chewy",
+        "smartfood"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
