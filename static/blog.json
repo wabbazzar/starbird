@@ -3124,6 +3124,22 @@
         "smartfood"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-11-ultraprocessed_nova_tracker",
+      "date": "2026-11-11",
+      "title": "Rice Krispies, Ritz and 7UP rate NOVA 4",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three pantry staples from Kellogg, Mondelez and Keurig Dr Pepper are classed ultra-processed (NOVA 4) in Open Food Facts-derived data. Useful if you're trying to cut ultra-processed foods from the cart.",
+      "body": "This run added three familiar brands that Open Food Facts-derived data places in NOVA Group 4: Rice Krispies (Kellogg, now WK Kellogg Co), Ritz (Nabisco, owned by Mondelez International) and 7UP (Keurig Dr Pepper in the US).\n\nRice Krispies cereal is NOVA 4 in the Open Food Facts US listing, and the Treats bars are rated the same by sites mirroring that data. Original Ritz crackers and several variants rate NOVA 4 on a mirror site. 7UP's listings show ultra-processing markers such as flavouring, and one mirror pairs the NOVA 4 rating with a poor Nutri-Score.\n\nThe common thread is the big-food owners: each brand sits inside a conglomerate already in the database. Caveat: Open Food Facts was partly unreachable during this run, so some ratings rest on mirror sites and classifications can vary by product variant.",
+      "entityIds": [
+        "7up",
+        "rice_krispies",
+        "ritz"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

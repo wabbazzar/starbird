@@ -43280,6 +43280,87 @@
         }
       ],
       "addedAt": "2026-11-10"
+    },
+    {
+      "id": "rice_krispies",
+      "avoid": "Rice Krispies",
+      "ownership": [
+        {
+          "firmId": "wk_kellogg_co",
+          "stake": "majority",
+          "since": "1928"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Rice Krispies toasted rice cereal (barcode 0038000145414) is classified NOVA Group 4 (ultra-processed) in the Open Food Facts US listing; the Rice Krispies Treats bars are likewise rated NOVA 4 by sites mirroring Open Food Facts data. Rice Krispies cereal is a Kellogg brand, now under WK Kellogg Co.",
+      "blurb": "Toasted rice breakfast cereal; also sold as marshmallow Rice Krispies Treats bars.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Rice Krispies toasted rice cereal (barcode 0038000145414) is classified NOVA Group 4 (ultra-processed) in the Open Food Facts US listing; the Rice Krispies Treats bars are likewise rated NOVA 4 by sites mirroring Open Food Facts data.",
+          "sourceUrl": "https://us.openfoodfacts.org/product/0038000145414/rice-krispies"
+        }
+      ],
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "ritz",
+      "avoid": "Ritz",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "1934"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Original Ritz Crackers (barcode 0044000034245) are listed as NOVA Group 4 (ultra-processed) on foodbenchmark.com, which republishes Open Food Facts data; several Ritz variants (crisp & thin, Handi-Snacks cheese crackers and dip) are also NOVA 4. Ritz is a Nabisco brand, owned by Mondelez International.",
+      "blurb": "Buttery round snack crackers in original, flavored and sandwich varieties.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Original Ritz Crackers (barcode 0044000034245) are listed as NOVA Group 4 (ultra-processed) on foodbenchmark.com, which republishes Open Food Facts data; several Ritz variants (crisp & thin, Handi-Snacks cheese crackers and dip) are also NOVA 4.",
+          "sourceUrl": "https://foodbenchmark.com/products/0044000034245/ritz-crackers"
+        }
+      ],
+      "addedAt": "2026-11-11"
+    },
+    {
+      "id": "7up",
+      "avoid": "7UP",
+      "ownership": [
+        {
+          "firmId": "keurig_dr_pepper",
+          "stake": "majority",
+          "since": "1929"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "7UP lemon-lime soda is classed NOVA Group 4 (ultra-processed) by Open Food Facts: the US listing (barcode 0078000012194, marked incomplete) shows ultra-processing markers, and the 50 cl listing (4060800100573) is explicitly group 4 with flavouring as a marker; a foodbenchmark.com mirror also shows Nutri-Score of poor nutritional quality. 7UP is sold in the US by Keurig Dr Pepper.",
+      "blurb": "Caffeine-free lemon-lime flavored soda.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "7UP lemon-lime soda is classed NOVA Group 4 (ultra-processed) by Open Food Facts: the US listing (barcode 0078000012194, marked incomplete) shows ultra-processing markers, and the 50 cl listing (4060800100573) is explicitly group 4 with flavouring as a marker; a foodbenchmark.com mirror also shows Nutri-Score of poor nutritional quality.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0078000012194/lemon-lime-flavored-soda-7up"
+        }
+      ],
+      "addedAt": "2026-11-11"
     }
   ]
 }
