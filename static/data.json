@@ -43361,6 +43361,93 @@
         }
       ],
       "addedAt": "2026-11-11"
+    },
+    {
+      "id": "golden_grahams",
+      "avoid": "Golden Grahams",
+      "ownership": [
+        {
+          "firmId": "general_mills",
+          "stake": "majority",
+          "since": "1976"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Golden Grahams is a sweetened breakfast cereal that Open Food Facts classifies as NOVA Group 4 (ultra-processed) in its General Mills listing, citing dextrose, glucose and added flavouring as the ultra-processing markers. NOVA Group 4 covers formulations made mostly of substances extracted from foods plus additives, with little intact whole food. The classification is a crowd-sourced Open Food Facts assignment under the NOVA framework, not a regulator finding.",
+      "blurb": "Honey-and-graham flavored sweetened breakfast cereal sold by General Mills.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-12",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Golden Grahams is a sweetened breakfast cereal that Open Food Facts classifies as NOVA Group 4 (ultra-processed) in its General Mills listing, citing dextrose, glucose and added flavouring as the ultra-processing markers. NOVA Group 4 covers formulations made mostly of substances extracted from foods plus additives, with little intact whole food. The classification is a crowd-sourced Open Food Facts assignment under the NOVA framework, not a regulator finding.",
+          "date": "2026",
+          "actor": "Open Food Facts (NOVA)",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0016000120259/golden-grahams-general-mills"
+        }
+      ]
+    },
+    {
+      "id": "teddy_grahams",
+      "avoid": "Teddy Grahams",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "1988"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Teddy Grahams, a Nabisco graham snack sold by Mondelez, is classified NOVA Group 4 (ultra-processed) on Open Food Facts; the chocolate variant's markers include lecithin emulsifiers (E322) and maltodextrin. NOVA Group 4 covers industrial formulations built from extracted food substances and additives rather than intact foods. The classification is a crowd-sourced Open Food Facts assignment under the NOVA framework, not a regulator finding.",
+      "blurb": "Bear-shaped graham cracker snacks sold by Mondelez International under the Nabisco name.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-12",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Teddy Grahams, a Nabisco graham snack sold by Mondelez, is classified NOVA Group 4 (ultra-processed) on Open Food Facts; the chocolate variant's markers include lecithin emulsifiers (E322) and maltodextrin. NOVA Group 4 covers industrial formulations built from extracted food substances and additives rather than intact foods. The classification is a crowd-sourced Open Food Facts assignment under the NOVA framework, not a regulator finding.",
+          "date": "2026",
+          "actor": "Open Food Facts (NOVA)",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0044000045579/teddy-grahams-cookies-chocolate-1x10-oz"
+        }
+      ]
+    },
+    {
+      "id": "healthy_choice",
+      "avoid": "Healthy Choice",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "1989"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Healthy Choice, a Conagra frozen-meal line marketed on a health-conscious name, is classified NOVA Group 4 (ultra-processed) on Open Food Facts for multiple products: Honey Glazed Turkey & Potatoes carries 8 ultra-processing markers, and Sweet and Sour Chicken Complete Meals carries 6, with additives including paprika extract, locust bean gum, guar gum, modified starch and whey. Open Food Facts places pre-prepared frozen dishes in the ultra-processed group. The classification is a crowd-sourced assignment under the NOVA framework, not a regulator finding.",
+      "blurb": "Frozen prepared meals and soups sold by Conagra Brands.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-12",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Healthy Choice, a Conagra frozen-meal line marketed on a health-conscious name, is classified NOVA Group 4 (ultra-processed) on Open Food Facts for multiple products: Honey Glazed Turkey & Potatoes carries 8 ultra-processing markers, and Sweet and Sour Chicken Complete Meals carries 6, with additives including paprika extract, locust bean gum, guar gum, modified starch and whey. Open Food Facts places pre-prepared frozen dishes in the ultra-processed group. The classification is a crowd-sourced assignment under the NOVA framework, not a regulator finding.",
+          "date": "2026",
+          "actor": "Open Food Facts (NOVA)",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0072655001114/honey-glazed-turkey-potatoes-healthy-choice"
+        }
+      ]
     }
   ]
 }

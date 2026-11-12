@@ -3140,6 +3140,22 @@
         "ritz"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-12-ultraprocessed_nova_tracker",
+      "date": "2026-11-12",
+      "title": "Three more ultra-processed staples from General Mills, Mondelez and Conagra",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Golden Grahams, Teddy Grahams and Healthy Choice all land in NOVA Group 4 on Open Food Facts, including a frozen-meal line sold on a health-conscious name.",
+      "body": "This run added three brands from three of the big packaged-food conglomerates: General Mills' Golden Grahams, Mondelez's Teddy Grahams, and Conagra's Healthy Choice.\n\nAll three are classified NOVA Group 4 (ultra-processed) on Open Food Facts. Golden Grahams is flagged for dextrose, glucose and added flavouring; the chocolate Teddy Grahams for lecithin emulsifiers and maltodextrin; and Healthy Choice meals such as Honey Glazed Turkey & Potatoes (8 markers) and Sweet and Sour Chicken (6) for gums, modified starch, whey and paprika extract.\n\nThese are crowd-sourced NOVA assignments, not regulator findings, and the evidence is product-level rather than company-wide. The notable case is Healthy Choice, whose name suggests a lighter option while its frozen meals sit in the same processing category as snack foods.",
+      "entityIds": [
+        "golden_grahams",
+        "healthy_choice",
+        "teddy_grahams"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }
