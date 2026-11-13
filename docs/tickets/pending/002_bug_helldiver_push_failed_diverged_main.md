@@ -2,7 +2,7 @@
 
 - **Created:** 2026-11-06
 - **Owner:** build crew (cold agent / `execute-ticket`)
-- **Status:** Ready — **Phase 0 and Phase 3's reconcile step are gated on Decision D1 (user-decision class, see Decisions)**
+- **Status:** Partial — live Git recovery complete Nov12; generic runner hardening remains pending and needs re-polish against current Shipyard instructions
 - **Priority:** P1 (live site has been stale ~3 weeks)
 - **Type:** bug
 - **Estimated Points:** 8 (4 phases)
@@ -98,3 +98,11 @@ Runner data, `static/data.json`, `scripts/starbird-runner.sh` silent pushes (fol
 (builder appends per phase: plan, commit hash, `builder: subagent (N agents)` / `builder: inline (<reason>)`, deferred notes)
 
 Run with `execute-ticket` on this file — it will stop at D1 for an owner answer.
+
+
+### 2026-11-12 owner-requested operational recovery (D1 completed)
+Owner directly requested fixing the recurring Suk self_failure. Reconciled both histories with merge c4a73b6 and normal push; no force/reset and no data/source edits. Remote-only documentation count changes were older; retained newer local CLAUDE.md. `git diff 3303525 c4a73b6 --exit-code` returned0: merge tree identical to pre-recovery local tree. Queued local count had grown to55; origin/main...main now0 0.
+
+Verified51 Vitest tests, schema (566 firms/800 brands), data-quality/evidence/score audits, svelte-check0 errors (9 pre-existing warnings), production build. Real starbird-helldiver run Nov13 00:03:46Z emitted job.end00:03:57Z status=ok exit_code=0; unit Result=success/ExecMainStatus=0. This completes the live reconciliation portion/D1; do not repeat it or ask for that already-completed repair.
+
+The generic integrate-or-skip source change and new generic regression fixtures are NOT shipped. Shipyard currently has unrelated uncommitted mentat-proposal/medic edits and its current CLAUDE.md requires main-only work/no branches or worktrees, contradicting this older ticket's branch assumptions. Re-polish remaining phases against current instructions and coordinate a clean source checkout before building. Keep this ticket pending; the operational incident was recovered separately in the hub ticket starbird-helldiver-git-recovery.md.
