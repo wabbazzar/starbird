@@ -51,3 +51,12 @@ No new packages or network services. Shared code is fleet-live on next timer; op
 
 ## Ledger
 - Execution preflight: re-read actual repo instructions/config/gates; no specialist manifests or memory table in Starbird/Shipyard configs. Changed old branch plan and unconditional merge plan to current main-only + default-off contract. Operational D1 remains complete. Full Shipyard baseline started; leak/syntax/deck gates green so far.
+
+
+### Phase A — builder: subagent (2 agents), orchestrator verification
+Shared commit00635f6 contains only build runner,18 new hermetic Git regressions, README/INSTALL and regenerated deck. Baseline954/954; first complete feature run968/968; final safety-complete suite972/972. Personally reran focused42/42, touched-shell syntax, public leak check, deck freshness/completeness, syntax sweep/Python compile, and design/medic self-tests. No test weakened. Original-source sandbox sabotage produced11 failures with legacycase passing; graph safety regressions were red2 before fix; configuration safety regressions red3 before fix. Review blockers closed: missing refs/graph errors now fail; changed project policy stops before push/model. Source uses immutable fetched commit for graph/merge and preserves dirty caller work.
+
+Shipyard's explicit main-only/concurrent-file rule applied; four unrelated medic/mentat files remain byte-identical and unstaged. Commit staged exactly six owned files. Once/day notification is a best-effort attempt using inherited notification transport semantics, not a guaranteed-delivery claim. Shared source remains default-off; Starbird is the only opt-in added by this ticket. Public push/CI/deck verification in progress.
+
+### Phase B — builder: inline (config change under30 lines, live gates read personally)
+Enabled strict `[build] reconcile_trunk=true` in Starbird only. Effective configuration checked read-only before commit. Draft follow-up003 records research-runner push status suppression (D3); no research/data code changed. Next verify installed service, subsequent Suk scan and public build/deck state; no synthetic production divergence or erased cooldown history.

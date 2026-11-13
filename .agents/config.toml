@@ -48,6 +48,8 @@ data_audit   = "npx tsx scripts/validate-data.mjs"
 build_cmd    = "npm run build"
 
 [build]
+# Preserve both histories; conflicts skip safely with one daily owner alert.
+reconcile_trunk = true
 # The build agent is allowed to touch the runner prompt + runner script +
 # the new data-coercion shim (see
 # docs/tickets/complete/install-guardian-augur-medic.md for the proposed
