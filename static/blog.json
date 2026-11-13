@@ -3156,6 +3156,21 @@
         "teddy_grahams"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-13-mijente_no_tech_for_ice",
+      "date": "2026-11-13",
+      "title": "Northrop Grumman and Vigilant Solutions: the databases behind ICE",
+      "strategy": "mijente_no_tech_for_ice",
+      "strategyLabel": "Mijente No Tech for ICE tracker",
+      "value": "workers",
+      "summary": "Two builders of the enforcement plumbing: Northrop's biometric and detainee-tracking systems, and Vigilant's license-plate database now owned by Motorola.",
+      "body": "Mijente's Who's Behind ICE report maps the contractors under DHS enforcement systems. This run added two it names that were missing from the dataset.\n\nNorthrop Grumman won a roughly $95M DHS contract in 2018 to develop HART, the biometric system replacing IDENT, per Washington Technology. Defense Daily separately reported a potential $44.4M award for an ICE detainee-tracking system and a roughly $46M ICE task order.\n\nVigilant Solutions supplied ICE's 2017 license-plate-reader database access, according to a DHS spokesperson cited by The Verge and FedScoop coverage. Motorola Solutions, already in the dataset for its ICE communications contract, acquired Vigilant's parent in 2019.\n\nIDEMIA and Unisys were also named in the report but not added: we found no second source tying either to ICE.",
+      "entityIds": [
+        "northrop_grumman",
+        "vigilant_solutions"
+      ],
+      "source": "https://notechforice.com/"
     }
   ]
 }

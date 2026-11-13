@@ -19507,6 +19507,40 @@
       "addedAt": "2026-11-09",
       "scope": "narrow",
       "role": "actor"
+    },
+    {
+      "id": "northrop_grumman",
+      "name": "Northrop Grumman",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Northrop Grumman won a roughly $95M DHS contract in 2018 to build the first increments of HART, the biometric identification system replacing IDENT, covering face, fingerprint and iris matching (Washington Technology). Defense Daily also reported a potential $44.4M DHS award for an integrated system for ICE to locate and track detainees, and a separate roughly $46M ICE task order for law-enforcement application support. Mijente's Who's Behind ICE report profiles Northrop as a core builder of DHS biometric and border databases. Quest context: ICE cooperation — enforcement-database and detainee-tracking contracts.",
+      "blurb": "Aerospace and defense contractor; builds weapons, space systems and government IT.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 60,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.washingtontechnology.com/2018/02/northrop-captures-95m-dhs-biometrics-id-contract/348425/",
+      "cats": [
+        "tech"
+      ],
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Northrop Grumman won a roughly $95M DHS contract in 2018 to build the first increments of HART, the biometric identification system replacing IDENT, covering face, fingerprint and iris matching (Washington Technology). Defense Daily also reported a potential $44.4M DHS award for an integrated system for ICE to locate and track detainees, and a separate roughly $46M ICE task order for law-enforcement application support. Mijente's Who's Behind ICE report profiles Northrop as a core builder of DHS biometric and border databases.",
+          "date": "2018",
+          "amountUsd": 95000000,
+          "amountKind": "deal",
+          "actor": "DHS",
+          "sourceUrl": "https://www.washingtontechnology.com/2018/02/northrop-captures-95m-dhs-biometrics-id-contract/348425/"
+        }
+      ],
+      "addedAt": "2026-11-13"
     }
   ],
   "brands": [
@@ -43448,6 +43482,66 @@
           "sourceUrl": "https://world.openfoodfacts.org/product/0072655001114/honey-glazed-turkey-potatoes-healthy-choice"
         }
       ]
+    },
+    {
+      "id": "northrop_grumman",
+      "avoid": "Northrop Grumman",
+      "ownership": [
+        {
+          "firmId": "northrop_grumman",
+          "stake": "majority",
+          "since": "1994"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Northrop Grumman won a roughly $95M DHS contract in 2018 to build the first increments of HART, the biometric identification system replacing IDENT, covering face, fingerprint and iris matching (Washington Technology). Defense Daily also reported a potential $44.4M DHS award for an integrated system for ICE to locate and track detainees, and a separate roughly $46M ICE task order for law-enforcement application support. Mijente's Who's Behind ICE report profiles Northrop as a core builder of DHS biometric and border databases.",
+      "blurb": "Aerospace and defense contractor; builds weapons, space systems and government IT.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Northrop Grumman won a roughly $95M DHS contract in 2018 to build the first increments of HART, the biometric identification system replacing IDENT, covering face, fingerprint and iris matching (Washington Technology). Defense Daily also reported a potential $44.4M DHS award for an integrated system for ICE to locate and track detainees, and a separate roughly $46M ICE task order for law-enforcement application support. Mijente's Who's Behind ICE report profiles Northrop as a core builder of DHS biometric and border databases.",
+          "date": "2018",
+          "amountUsd": 95000000,
+          "amountKind": "deal",
+          "actor": "DHS",
+          "sourceUrl": "https://www.washingtontechnology.com/2018/02/northrop-captures-95m-dhs-biometrics-id-contract/348425/"
+        }
+      ],
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "vigilant_solutions",
+      "avoid": "Vigilant Solutions",
+      "ownership": [
+        {
+          "firmId": "motorola_solutions",
+          "stake": "majority",
+          "since": "2019"
+        }
+      ],
+      "cat": "tech",
+      "alts": [],
+      "why": "Vigilant Solutions, now part of Motorola Solutions, was the vendor behind ICE's 2017 license-plate-reader database contract, per a DHS spokesperson cited by The Verge; the deal let ICE query billions of plate scans from toll, parking and other cameras (FedScoop). FOIA records reportedly showed over 9,000 ICE personnel had access to privately collected plate scans from the 50 most populous metro areas.",
+      "blurb": "Automated license-plate-recognition cameras and a commercial vehicle-location database for law enforcement.",
+      "harms": [
+        "workers_ice_cooperation"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "workers_ice_cooperation",
+          "text": "Vigilant Solutions, now part of Motorola Solutions, was the vendor behind ICE's 2017 license-plate-reader database contract, per a DHS spokesperson cited by The Verge; the deal let ICE query billions of plate scans from toll, parking and other cameras (FedScoop). FOIA records reportedly showed over 9,000 ICE personnel had access to privately collected plate scans from the 50 most populous metro areas.",
+          "date": "2017",
+          "actor": "ICE",
+          "sourceUrl": "https://fedscoop.com/ice-begin-tracking-vehicle-license-plates/"
+        }
+      ],
+      "addedAt": "2026-11-13"
     }
   ]
 }
