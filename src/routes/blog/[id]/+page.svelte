@@ -4,9 +4,9 @@
 
 	let { data } = $props();
 
-	const ogImage = `https://starbird42.com/posts/${data.id}.png`;
-	const postUrl = `https://starbird42.com/blog/${data.id}/`;
-	const appUrl = `${base}/#post-${data.id}`;
+	const ogImage = $derived(`https://starbird42.com/posts/${data.id}.png`);
+	const postUrl = $derived(`https://starbird42.com/blog/${data.id}/`);
+	const appUrl = $derived(`${base}/#post-${data.id}`);
 
 	// Redirect browser to the main app, with the post id in the hash so
 	// the homepage can open the blog panel and jump to that dispatch. OG
