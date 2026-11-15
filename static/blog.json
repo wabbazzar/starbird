@@ -3171,6 +3171,23 @@
         "vigilant_solutions"
       ],
       "source": "https://notechforice.com/"
+    },
+    {
+      "id": "2026-11-15-ultraprocessed_nova_tracker",
+      "date": "2026-11-15",
+      "title": "Ultra-processed 'better-for-you': Beyond, Premier Protein, Yoo-hoo",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "Three brands that market on protein or plant-based virtue, or sit in the dairy aisle, are all classified NOVA Group 4 (ultra-processed) by Open Food Facts.",
+      "body": "Beyond Meat, BellRing's Premier Protein and Keurig Dr Pepper's Yoo-hoo have little in common commercially, but the Open Food Facts listings for each place them in NOVA Group 4, the ultra-processed category.\n\nBeyond Burger's ingredient list runs pea protein, canola and refined coconut oil, methylcellulose and added flavour. Beyond Meat also faced consolidated class actions over its protein labeling; a $7.5 million proposed settlement was reported in August 2024, with final approval unconfirmed.\n\nPremier Protein's Vanilla Shake lists sucralose, acesulfame potassium, carrageenan and cellulose gum. Yoo-hoo's chocolate drink leads with water and high fructose corn syrup and adds sucralose, gums and palm oil.\n\nNOVA classification describes degree of processing, not a verdict on any single product; it is a signal to read the label, not proof of harm.",
+      "entityIds": [
+        "bellring_brands",
+        "beyond_meat",
+        "premier_protein",
+        "yoo_hoo"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

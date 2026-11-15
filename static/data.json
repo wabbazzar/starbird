@@ -19541,6 +19541,72 @@
         }
       ],
       "addedAt": "2026-11-13"
+    },
+    {
+      "id": "beyond_meat",
+      "name": "Beyond Meat",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Publicly traded plant-based meat maker (El Segundo, California) selling Beyond Burger, Beyond Beef and nuggets. Its core products are classified NOVA Group 4 (ultra-processed) by Open Food Facts, and it faced consolidated class actions over protein-content labeling that produced a $7.5 million proposed settlement reported in August 2024 (final approval unconfirmed). Flagged under health_general.",
+      "blurb": "Plant-based meat company making burgers, ground beef, sausages and chicken analogues from pea protein.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 56,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://world.openfoodfacts.org/product/0850004207017",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Publicly traded plant-based meat maker (El Segundo, California) selling Beyond Burger, Beyond Beef and nuggets. Its core products are classified NOVA Group 4 (ultra-processed) by Open Food Facts, and it faced consolidated class actions over protein-content labeling that produced a $7.5 million proposed settlement reported in August 2024 (final approval unconfirmed). Flagged under health_general.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0850004207017",
+          "actor": "Open Food Facts / NOVA",
+          "amountUsd": 7500000,
+          "amountKind": "settlement",
+          "date": "2024-08"
+        }
+      ],
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "bellring_brands",
+      "name": "BellRing Brands",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Publicly traded (NYSE: BRBR) maker of Premier Protein and Dymatize ready-to-drink shakes and powders, spun off from Post Holdings on March 10, 2022 (SEC 8-K, Post Holdings release). Premier Protein shakes are classified NOVA Group 4 (ultra-processed) by Open Food Facts; the Vanilla Shake lists sucralose, acesulfame potassium, carrageenan, cellulose gum and 'natural and artificial flavors'. Flagged under health_general.",
+      "blurb": "Consumer packaged goods company selling Premier Protein and Dymatize protein shakes and powders.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://world.openfoodfacts.org/product/0643843714507",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "addedAt": "2026-11-15",
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Publicly traded (NYSE: BRBR) maker of Premier Protein and Dymatize ready-to-drink shakes and powders, spun off from Post Holdings on March 10, 2022 (SEC 8-K, Post Holdings release). Premier Protein shakes are classified NOVA Group 4 (ultra-processed) by Open Food Facts; the Vanilla Shake lists sucralose, acesulfame potassium, carrageenan, cellulose gum and 'natural and artificial flavors'. Flagged under health_general.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0643843714507",
+          "actor": "Open Food Facts / NOVA",
+          "date": "2022-03"
+        }
+      ]
     }
   ],
   "brands": [
@@ -20510,16 +20576,17 @@
         "Walmart Pharmacy",
         "Independent pharmacies"
       ],
-      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities. Pharmacy closures in rural and underserved communities create pharmacy deserts — residents lose their closest source of medications, vaccinations, and clinical services, disproportionately affecting elderly and low-income populations. Sycamore financed the $23.7B buyout with 83% debt ($18.2B), more than double the industry average of 41%, per SEC filings and Private Equity Stakeholder Project analysis.",
+      "why": "Sycamore completed take-private 2025. Retail-stripping specialist. Mass pharmacy closures expected, reducing access in rural and low-income communities. Pharmacy closures in rural and underserved communities create pharmacy deserts — residents lose their closest source of medications, vaccinations, and clinical services, disproportionately affecting elderly and low-income populations. Sycamore financed the $23.7B buyout with 83% debt ($18.2B), more than double the industry average of 41%, per SEC filings and Private Equity Stakeholder Project analysis. EWG's Guide to Healthy Cleaning grades Walgreens-brand Power Pacs laundry detergents (Free & Clear and Ocean Sky) and a fabric stain-prevention product F.",
       "blurb": "Pharmacy and drugstore chain selling prescriptions, health products, and convenience goods.",
       "harms": [
         "workers_general",
         "extraction_general",
         "health_general",
-        "extraction_debt_loading"
+        "extraction_debt_loading",
+        "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-04-11",
+      "addedAt": "2026-11-14",
       "evidence": [
         {
           "tag": "workers_general",
@@ -20540,6 +20607,12 @@
           "text": "Sycamore financed the $23.7B buyout with 83% debt ($18.2B), more than double the industry average of 41%, per SEC filings and Private Equity Stakeholder Project analysis.",
           "amountUsd": 18200000000,
           "amountKind": "debt"
+        },
+        {
+          "tag": "environment_general",
+          "text": "EWG's Guide to Healthy Cleaning grades Walgreens-brand Power Pacs laundry detergents (Free & Clear and Ocean Sky) and a fabric stain-prevention product F.",
+          "actor": "EWG",
+          "sourceUrl": "https://www.ewg.org/cleaners/business/5748-Walgreens/"
         }
       ]
     },
@@ -27453,18 +27526,25 @@
         "Dr. Bronner's Sal Suds (family-owned, certified cruelty-free)",
         "Ecover (SC Johnson, some cruelty-free certifications)"
       ],
-      "why": "Leading bleach and cleaning products brand. Parent company Clorox tests on animals directly, through suppliers, or via third parties according to PETA's 2026 database. Clorox's policy permits animal testing when required by law, allowing sales in markets with mandatory testing requirements.",
+      "why": "Leading bleach and cleaning products brand. Parent company Clorox tests on animals directly, through suppliers, or via third parties according to PETA's 2026 database. Clorox's policy permits animal testing when required by law, allowing sales in markets with mandatory testing requirements. EWG's Guide to Healthy Cleaning grades Clorox Disinfecting Bathroom Cleaner F, driven by its disinfectant ingredient and a D-rated fragrance, and rates Clorox disinfectant and all-purpose products D to F.",
       "blurb": "Bleach, disinfectants, and household cleaning products for home and institutional use.",
       "harms": [
-        "animals_general"
+        "animals_general",
+        "environment_general"
       ],
       "aligns": [],
-      "addedAt": "2026-05-11",
+      "addedAt": "2026-11-14",
       "evidence": [
         {
           "tag": "animals_general",
           "text": "Parent company Clorox tests on animals directly, through suppliers, or via third parties according to PETA's 2026 database. Clorox's policy permits animal testing when required by law, allowing sales in markets with mandatory testing requirements.",
           "actor": "PETA"
+        },
+        {
+          "tag": "environment_general",
+          "text": "EWG's Guide to Healthy Cleaning grades Clorox Disinfecting Bathroom Cleaner F, driven by its disinfectant ingredient and a D-rated fragrance, and rates Clorox disinfectant and all-purpose products D to F.",
+          "actor": "EWG",
+          "sourceUrl": "https://www.ewg.org/cleaners/products/316-CloroxDisinfectingBathroomCleaner/"
         }
       ]
     },
@@ -43542,6 +43622,93 @@
         }
       ],
       "addedAt": "2026-11-13"
+    },
+    {
+      "id": "beyond_meat",
+      "avoid": "Beyond Meat",
+      "ownership": [
+        {
+          "firmId": "beyond_meat",
+          "stake": "majority",
+          "since": "2009"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Beyond Meat's Beyond Burger is classified NOVA Group 4 (ultra-processed) by Open Food Facts, whose listing flags additives lecithin (E322), maltodextrin, flavouring and methylcellulose-type gums among the markers; the ingredient list runs pea protein, canola oil, refined coconut oil, rice protein, methylcellulose and added flavour (Monteiro et al., PMC6322572 defines the NOVA 4 category). Separately, consumers who sued over the company's protein claims (consolidated in federal court in Illinois) reached a $7.5 million proposed class settlement, reported in August 2024 (Mealey's/Law360); final approval was not confirmed.",
+      "blurb": "Plant-based burgers, ground beef, sausages and chicken made from pea protein.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Beyond Meat's Beyond Burger is classified NOVA Group 4 (ultra-processed) by Open Food Facts, whose listing flags additives lecithin (E322), maltodextrin, flavouring and methylcellulose-type gums among the markers; the ingredient list runs pea protein, canola oil, refined coconut oil, rice protein, methylcellulose and added flavour (Monteiro et al., PMC6322572 defines the NOVA 4 category). Separately, consumers who sued over the company's protein claims (consolidated in federal court in Illinois) reached a $7.5 million proposed class settlement, reported in August 2024 (Mealey's/Law360); final approval was not confirmed.",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0850004207017",
+          "actor": "Open Food Facts / NOVA",
+          "amountUsd": 7500000,
+          "amountKind": "settlement",
+          "date": "2024-08"
+        }
+      ],
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "premier_protein",
+      "avoid": "Premier Protein",
+      "ownership": [
+        {
+          "firmId": "bellring_brands",
+          "stake": "majority",
+          "since": "2022"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Premier Protein shakes (BellRing Brands) are classified NOVA Group 4 (ultra-processed) by Open Food Facts. The Vanilla Shake's ingredient list includes sucralose (E955), acesulfame potassium (E950), carrageenan (E407), cellulose gum (E466), milk protein concentrate and 'natural and artificial flavors' — the NOVA 4 markers flagged in the listing (Monteiro et al., PMC6322572).",
+      "blurb": "Ready-to-drink protein shakes and powders sold in multipacks.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Premier Protein shakes (BellRing Brands) are classified NOVA Group 4 (ultra-processed) by Open Food Facts. The Vanilla Shake's ingredient list includes sucralose (E955), acesulfame potassium (E950), carrageenan (E407), cellulose gum (E466), milk protein concentrate and 'natural and artificial flavors' — the NOVA 4 markers flagged in the listing (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0643843714507",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-11-15"
+    },
+    {
+      "id": "yoo_hoo",
+      "avoid": "Yoo-hoo",
+      "ownership": [
+        {
+          "firmId": "keurig_dr_pepper",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Yoo-hoo chocolate drink (Keurig Dr Pepper) is classified NOVA Group 4 (ultra-processed) by Open Food Facts. Its label lists water and high fructose corn syrup first, then whey, natural and artificial flavors, sodium caseinate, corn syrup solids, palm oil, guar and xanthan gums, mono- and diglycerides and sucralose — multiple NOVA 4 markers per the listing (Monteiro et al., PMC6322572).",
+      "blurb": "Shelf-stable chocolate-flavored milk drink sold in bottles and boxes.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Yoo-hoo chocolate drink (Keurig Dr Pepper) is classified NOVA Group 4 (ultra-processed) by Open Food Facts. Its label lists water and high fructose corn syrup first, then whey, natural and artificial flavors, sodium caseinate, corn syrup solids, palm oil, guar and xanthan gums, mono- and diglycerides and sucralose — multiple NOVA 4 markers per the listing (Monteiro et al., PMC6322572).",
+          "sourceUrl": "https://world.openfoodfacts.org/product/0072350020502",
+          "actor": "Open Food Facts / NOVA"
+        }
+      ],
+      "addedAt": "2026-11-15"
     }
   ]
 }
