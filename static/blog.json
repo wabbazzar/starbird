@@ -3188,6 +3188,23 @@
         "yoo_hoo"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-16-adjacent_source_discovery_health",
+      "date": "2026-11-16",
+      "title": "Baby-food heavy metals: HappyBABY, Plum, WanaBana",
+      "strategy": "adjacent_source_discovery_health",
+      "strategyLabel": "Adjacent-source discovery (health)",
+      "value": "health",
+      "summary": "Congressional records and an FDA investigation tie three baby and toddler food brands to measured toxic-metal exposure in products made for the youngest eaters.",
+      "body": "This run turned to a source outside the usual watchdog lists: the House Economic and Consumer Policy Subcommittee's 2021 baby-food reports and the FDA's 2023 applesauce-pouch investigation.\n\nThe February 2021 report found Nurture, maker of HappyBABY, sold finished products after internal tests showed up to 180 ppb inorganic arsenic and up to 641 ppb lead. A September 2021 follow-up reported Plum Organics, owned by Campbell, had finished foods with up to 225 ppb inorganic arsenic, most with over 5 ppb lead, and nearly 40% over 5 ppb cadmium. Plum had earlier declined to cooperate with the inquiry.\n\nWanaBana is a different case: in October 2023 it recalled all its apple cinnamon pouches after four North Carolina children showed elevated blood lead levels. The FDA reported extremely high lead concentrations and has investigated whether the cinnamon was adulterated for economic gain.\n\nThe common thread is that the products are marketed as the careful choice for babies and toddlers.",
+      "entityIds": [
+        "nurture_inc",
+        "wanabana_usa",
+        "happy_baby",
+        "plum_organics",
+        "wanabana"
+      ]
     }
   ]
 }

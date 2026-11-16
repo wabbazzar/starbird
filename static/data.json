@@ -19607,6 +19607,70 @@
           "date": "2022-03"
         }
       ]
+    },
+    {
+      "id": "wanabana_usa",
+      "name": "WanaBana USA",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In October 2023 WanaBana recalled all of its apple cinnamon fruit puree pouches after four North Carolina children were found with elevated blood lead levels; the FDA said the pouches contained extremely high lead concentrations and has investigated whether the cinnamon was adulterated for economic gain (FDA, Oct–Dec 2023). Sold through Dollar Tree, Sam's Club and Amazon. Quest context: health_general.",
+      "blurb": "Sells children's fruit puree pouches in the United States.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-elevated-lead-levels-applesauce-pouches-november-2023",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "WanaBana's apple cinnamon fruit puree pouches were recalled in full in October 2023 after four North Carolina children showed elevated blood lead levels; the FDA reported extremely high lead concentrations, and its leading hypothesis is economically motivated adulteration of the cinnamon (FDA investigation, Nov 2023).",
+          "date": "2023-10",
+          "actor": "FDA",
+          "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-elevated-lead-levels-applesauce-pouches-november-2023"
+        }
+      ],
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "nurture_inc",
+      "name": "Nurture, Inc. (HappyBABY)",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Nurture, Inc. (maker of HappyBABY, a Danone subsidiary) was one of four baby-food makers that gave a February 2021 House Oversight subcommittee its internal records. The report found Nurture sold finished products after tests showing up to 180 ppb inorganic arsenic and up to 641 ppb lead; over 25% of its pre-sale tested ingredients exceeded 100 ppb inorganic arsenic (House Economic and Consumer Policy Subcommittee, Feb 2021). Quest context: health_general.",
+      "blurb": "Organic baby and toddler food company; sells the HappyBABY line.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 52,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://www.commondreams.org/news/2021/02/05/congressional-report-reveals-manufacturers-knowingly-sold-toxin-tainted-baby-food",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "A February 2021 House subcommittee report found HappyBABY's maker sold baby food after tests showed up to 180 ppb inorganic arsenic and up to 641 ppb lead; nearly 20% of its tested finished products exceeded 10 ppb lead.",
+          "date": "2021-02",
+          "actor": "House Economic and Consumer Policy Subcommittee",
+          "sourceUrl": "https://www.commondreams.org/news/2021/02/05/congressional-report-reveals-manufacturers-knowingly-sold-toxin-tainted-baby-food"
+        }
+      ],
+      "addedAt": "2026-11-16"
     }
   ],
   "brands": [
@@ -43709,6 +43773,93 @@
         }
       ],
       "addedAt": "2026-11-15"
+    },
+    {
+      "id": "wanabana",
+      "avoid": "WanaBana",
+      "ownership": [
+        {
+          "firmId": "wanabana_usa",
+          "stake": "majority",
+          "since": "2023"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "WanaBana's apple cinnamon fruit puree pouches were recalled in full in October 2023 after four North Carolina children showed elevated blood lead levels; the FDA reported extremely high lead concentrations, and its leading hypothesis is economically motivated adulteration of the cinnamon (FDA investigation, Nov 2023).",
+      "blurb": "Fruit puree pouches marketed to toddlers and young children.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "WanaBana's apple cinnamon fruit puree pouches were recalled in full in October 2023 after four North Carolina children showed elevated blood lead levels; the FDA reported extremely high lead concentrations, and its leading hypothesis is economically motivated adulteration of the cinnamon (FDA investigation, Nov 2023).",
+          "date": "2023-10",
+          "actor": "FDA",
+          "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-elevated-lead-levels-applesauce-pouches-november-2023"
+        }
+      ],
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "happy_baby",
+      "avoid": "HappyBABY",
+      "ownership": [
+        {
+          "firmId": "nurture_inc",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A February 2021 House subcommittee report found HappyBABY's maker sold baby food after tests showed up to 180 ppb inorganic arsenic and up to 641 ppb lead; nearly 20% of its tested finished products exceeded 10 ppb lead.",
+      "blurb": "Organic baby food pouches, cereals and snacks.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "A February 2021 House subcommittee report found HappyBABY's maker sold baby food after tests showed up to 180 ppb inorganic arsenic and up to 641 ppb lead; nearly 20% of its tested finished products exceeded 10 ppb lead.",
+          "date": "2021-02",
+          "actor": "House Economic and Consumer Policy Subcommittee",
+          "sourceUrl": "https://www.commondreams.org/news/2021/02/05/congressional-report-reveals-manufacturers-knowingly-sold-toxin-tainted-baby-food"
+        }
+      ],
+      "addedAt": "2026-11-16"
+    },
+    {
+      "id": "plum_organics",
+      "avoid": "Plum Organics",
+      "ownership": [
+        {
+          "firmId": "campbell_soup",
+          "stake": "majority",
+          "since": "2013"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A September 2021 House subcommittee staff report found Plum Organics' finished baby foods contained up to 225 ppb inorganic arsenic, most contained over 5 ppb lead, and nearly 40% exceeded 5 ppb cadmium; Plum (Campbell) had earlier declined to cooperate with the investigation (House Economic and Consumer Policy Subcommittee, Sept 2021).",
+      "blurb": "Organic baby food pouches and toddler snacks.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "A September 2021 House subcommittee staff report found Plum Organics' finished baby foods contained up to 225 ppb inorganic arsenic, most contained over 5 ppb lead, and nearly 40% exceeded 5 ppb cadmium; Plum (Campbell) had earlier declined to cooperate with the investigation (House Economic and Consumer Policy Subcommittee, Sept 2021).",
+          "date": "2021-09",
+          "actor": "House Economic and Consumer Policy Subcommittee",
+          "sourceUrl": "https://oversightdemocrats.house.gov/news/press-releases/oversight-subcommittee-staff-report-reveals-alarming-levels-of-toxic-heavy"
+        }
+      ],
+      "addedAt": "2026-11-16"
     }
   ]
 }
