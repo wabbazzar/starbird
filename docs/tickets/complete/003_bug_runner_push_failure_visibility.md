@@ -1,7 +1,7 @@
 # 003 — surface daily research runner publish failures
 
 **Created:** 2026-11-12 · **Owner:** Wesley
-**Status:** Draft — ready for polish-ticket · **Priority:** P1 · **Type:** bug
+**Status:** Done · **Priority:** P1 · **Type:** bug
 **Estimated Points:** 3 (one implementation phase)
 **Target:** Starbird research runner, not the shared Shipyard build runner
 **Refs:** `002_bug_helldiver_push_failed_diverged_main.md`, Decisions D3 / follow-up boundary; hub `docs/tickets/complete/starbird-helldiver-git-recovery.md`
@@ -168,3 +168,5 @@ automatic polish/build is authorized by creation of this file.
   changed and no production runner or regression fixture was executed here.
 
 Next: `polish-ticket` when this separate follow-up is selected for execution.
+- 2026-11-16 Phase 1 built: `push_failed()` in `scripts/starbird-runner.sh` at both push sites; `tests/unit/runner-push-failure.test.ts` (6 tests). Red on original runner (3 failure tests failed, 3 controls passed), green on fix. Gates re-run by orchestrator: `bash -n` ok; `npx vitest run` 57/57; svelte-check 0 errors (subagent). Emitted: `job.end mode=daily status=fail exit_code=1 reason=push_failed stage=daily_publish`. builder: subagent (1 agent).
+- Deferred: `git commit ... || true` calls and missing final `exit "$EXIT"` left as-is (out of scope).

@@ -59,6 +59,30 @@ auth_expired() {
 $(tail -5 "$LOG_FILE" 2>/dev/null)" || true
   exit 2
 }
+# Rejected/failed `git push`: fail the run honestly. A run is only a success
+# if its commit reached the remote. Keeps the local commit (no reset/force),
+# logs bounded + credential-scrubbed git stderr, emits exactly one job.end
+# (status=fail reason=push_failed stage=<stage>), pages once, and exits with
+# git's own status. Reporting is best-effort and never changes that status.
+# Recovery is manual (see docs/tickets/pending/002_bug_helldiver_push_failed_diverged_main.md).
+push_failed() {
+  local stage=$1 code=$2 out=${3:-}
+  trap - ERR
+  set +e
+  [ "$code" -ne 0 ] 2>/dev/null || code=1
+  {
+    echo "[starbird-runner] PUSH FAILED at $stage (git exit $code); local commit retained, nothing forced or reset"
+    printf '%s\n' "$out" | sed -E 's#(://)[^/@[:space:]]*@#\1***@#g' | tail -n 20 | cut -c1-300
+  } >> "$LOG_FILE" 2>&1
+  [ -x "$LOG_EVENT" ] && "$LOG_EVENT" starbird-runner job.end \
+    mode="$MODE" status="fail" exit_code="$code" \
+    duration_s="$(( $(date +%s) - JOB_START ))" reason="push_failed" stage="$stage" 2>/dev/null
+  local notify="${QUARTET_NOTIFY_CMD:-$NOTIFY}"
+  command -v "$notify" >/dev/null 2>&1 && "$notify" "Starbird Runner FAILED — $MODE" \
+    "push_failed at $stage (git exit $code). Research commit is retained locally but NOT on the remote; reconcile manually (do not force-push). Log tail:
+$(tail -15 "$LOG_FILE" 2>/dev/null)" >/dev/null 2>&1
+  exit "$code"
+}
 # bash fires ERR traps even where the script deliberately disabled errexit
 # (the claude retry loop runs under `set +e` and handles failures itself) —
 # so only die when -e is actually on. Without the guard, a budget-capped
@@ -79,7 +103,9 @@ if ! grep -qxF '.worktrees/' .gitignore 2>/dev/null; then
   git commit -m "chore: gitignore .worktrees/ (runner self-repair)
 
 Co-Authored-By: Starbird Runner <noreply@anthropic.com>" >> "$LOG_FILE" 2>&1 || true
-  git push >> "$LOG_FILE" 2>&1 || true
+  push_rc=0; push_out="$(git push 2>&1)" || push_rc=$?
+  printf '%s\n' "$push_out" >> "$LOG_FILE"
+  [ "$push_rc" -eq 0 ] || push_failed gitignore_repair "$push_rc" "$push_out"
   echo "[starbird-runner] committed + pushed .gitignore patch" >> "$LOG_FILE"
 fi
 
@@ -334,7 +360,9 @@ refreshed: $REFRESHED_TOTAL ($REFRESHED_BRANDS_PRE brand, $REFRESHED_FIRMS_PRE f
 
 See tmp/runner-metrics-history.jsonl for observed metrics.
 Co-Authored-By: Starbird Runner <noreply@anthropic.com>" >> "$LOG_FILE" 2>&1 || true
-  git push >> "$LOG_FILE" 2>&1 || true
+  push_rc=0; push_out="$(git push 2>&1)" || push_rc=$?
+  printf '%s\n' "$push_out" >> "$LOG_FILE"
+  [ "$push_rc" -eq 0 ] || push_failed daily_publish "$push_rc" "$push_out"
 fi
 
 # ── Step 9: Build rich notification from ground-truth metrics + labels ──
