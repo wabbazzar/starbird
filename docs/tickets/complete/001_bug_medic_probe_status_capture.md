@@ -2,7 +2,7 @@
 
 - **Created:** 2026-10-31
 - **Owner:** build crew (cold agent / `execute-ticket`)
-- **Status:** Ready
+- **Status:** Done
 - **Priority:** P2
 - **Type:** bug
 - **Estimated Points:** 5 (2 phases)
@@ -90,3 +90,5 @@ Other probes, escalation/freeze policy, `post_check` handling, retry logic, star
 (builder appends per phase: plan, commit hash, `builder: subagent (N agents)` / `builder: inline (<reason>)`, deferred notes)
 
 Run with `execute-ticket` on this file.
+
+- 2026-11-19 Built inline (small single-file change). Fix `3204526` (`probe_http_status` + `probe-status` self-test shape) merged to shipyard `main` after the unrelated in-progress edits were committed (`4d6c828`); merge was conflict-free. `--self-test` PASS incl. probe-status; sabotage (old `|| echo 000`) made the 200/exit-28 case FAIL (2026-11-05). No `|| echo "000"` capture remains. Live `--dry-run` scan not completed (hung >120s, killed) — verified with stub curl only. Not pushed to the shipyard remote.
