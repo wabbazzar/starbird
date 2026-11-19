@@ -3205,6 +3205,22 @@
         "plum_organics",
         "wanabana"
       ]
+    },
+    {
+      "id": "2026-11-19-ultraprocessed_nova_tracker",
+      "date": "2026-11-19",
+      "title": "San Francisco's ultra-processed food complaint: three more named brands",
+      "strategy": "ultraprocessed_nova_tracker",
+      "strategyLabel": "Ultra-processed (NOVA 4) product tracker",
+      "value": "health",
+      "summary": "The city's December 2025 complaint lists specific brands as ultra-processed; this run added Triscuit, Hungry-Man and Duncan Hines.",
+      "body": "San Francisco's City Attorney sued ten large food makers on December 2, 2025, alleging they knowingly marketed addictive, harmful ultra-processed foods. The complaint uses the NOVA classification and names brand portfolios for each defendant.\n\nThree named brands were missing from the dataset: Triscuit (Mondelez), and Hungry-Man and Duncan Hines (Conagra, both gained in its 2018 Pinnacle Foods deal). The complaint cites links between ultra-processed foods and type 2 diabetes, fatty liver disease and cancer.\n\nThese are allegations in a pending case. The Consumer Brands Association has said there is no agreed scientific definition of ultra-processed food, and the complaint lists the brands without per-product nutrition detail, so the tag rests on the lawsuit's NOVA classification rather than a regulator finding.",
+      "entityIds": [
+        "duncan_hines",
+        "hungry_man",
+        "triscuit"
+      ],
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
     }
   ]
 }

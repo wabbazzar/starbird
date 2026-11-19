@@ -43860,6 +43860,93 @@
         }
       ],
       "addedAt": "2026-11-16"
+    },
+    {
+      "id": "triscuit",
+      "avoid": "Triscuit",
+      "ownership": [
+        {
+          "firmId": "mondelez_international",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Triscuit is listed as a Mondelez ultra-processed (NOVA group 4) brand in the City and County of San Francisco's complaint against ten large food makers, which alleges the companies knowingly marketed addictive, harmful ultra-processed foods and cites links to type 2 diabetes, fatty liver disease and cancer. The complaint, filed December 2, 2025 by City Attorney David Chiu in San Francisco Superior Court, relies on the NOVA classification and alleges unfair competition and public nuisance; the Consumer Brands Association responded that there is no agreed scientific definition of ultra-processed food. These are allegations in a pending case, not a finding.",
+      "blurb": "Whole-grain wheat crackers sold under the Nabisco name.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Triscuit is listed as a Mondelez ultra-processed (NOVA group 4) brand in the City and County of San Francisco's complaint against ten large food makers, which alleges the companies knowingly marketed addictive, harmful ultra-processed foods and cites links to type 2 diabetes, fatty liver disease and cancer. The complaint, filed December 2, 2025 by City Attorney David Chiu in San Francisco Superior Court, relies on the NOVA classification and alleges unfair competition and public nuisance; the Consumer Brands Association responded that there is no agreed scientific definition of ultra-processed food. These are allegations in a pending case, not a finding.",
+          "date": "2025-12-02",
+          "actor": "San Francisco City Attorney",
+          "sourceUrl": "https://media.api.sf.gov/documents/CCSF-UPF-Complaint-2025.12.02.pdf"
+        }
+      ],
+      "addedAt": "2026-11-19"
+    },
+    {
+      "id": "hungry_man",
+      "avoid": "Hungry-Man",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hungry-Man, a frozen-dinner line Conagra gained with its 2018 Pinnacle Foods acquisition, is listed among Conagra's ultra-processed (NOVA group 4) brands in the City and County of San Francisco's complaint against ten large food makers, which cites links between ultra-processed foods and type 2 diabetes, fatty liver disease and cancer. The complaint, filed December 2, 2025 by City Attorney David Chiu in San Francisco Superior Court, relies on the NOVA classification and alleges unfair competition and public nuisance; the Consumer Brands Association responded that there is no agreed scientific definition of ultra-processed food. These are allegations in a pending case, not a finding.",
+      "blurb": "Frozen large-portion prepared dinners and fried chicken meals.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Hungry-Man, a frozen-dinner line Conagra gained with its 2018 Pinnacle Foods acquisition, is listed among Conagra's ultra-processed (NOVA group 4) brands in the City and County of San Francisco's complaint against ten large food makers, which cites links between ultra-processed foods and type 2 diabetes, fatty liver disease and cancer. The complaint, filed December 2, 2025 by City Attorney David Chiu in San Francisco Superior Court, relies on the NOVA classification and alleges unfair competition and public nuisance; the Consumer Brands Association responded that there is no agreed scientific definition of ultra-processed food. These are allegations in a pending case, not a finding.",
+          "date": "2025-12-02",
+          "actor": "San Francisco City Attorney",
+          "sourceUrl": "https://media.api.sf.gov/documents/CCSF-UPF-Complaint-2025.12.02.pdf"
+        }
+      ],
+      "addedAt": "2026-11-19"
+    },
+    {
+      "id": "duncan_hines",
+      "avoid": "Duncan Hines",
+      "ownership": [
+        {
+          "firmId": "conagra_brands",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Duncan Hines, a baking-mix brand Conagra gained with its 2018 Pinnacle Foods acquisition, is listed among Conagra's ultra-processed (NOVA group 4) brands in the City and County of San Francisco's complaint against ten large food makers, which cites links between ultra-processed foods and type 2 diabetes, fatty liver disease and cancer. The complaint, filed December 2, 2025 by City Attorney David Chiu in San Francisco Superior Court, relies on the NOVA classification and alleges unfair competition and public nuisance; the Consumer Brands Association responded that there is no agreed scientific definition of ultra-processed food. These are allegations in a pending case, not a finding.",
+      "blurb": "Boxed cake, brownie and frosting baking mixes.",
+      "harms": [
+        "health_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "health_general",
+          "text": "Duncan Hines, a baking-mix brand Conagra gained with its 2018 Pinnacle Foods acquisition, is listed among Conagra's ultra-processed (NOVA group 4) brands in the City and County of San Francisco's complaint against ten large food makers, which cites links between ultra-processed foods and type 2 diabetes, fatty liver disease and cancer. The complaint, filed December 2, 2025 by City Attorney David Chiu in San Francisco Superior Court, relies on the NOVA classification and alleges unfair competition and public nuisance; the Consumer Brands Association responded that there is no agreed scientific definition of ultra-processed food. These are allegations in a pending case, not a finding.",
+          "date": "2025-12-02",
+          "actor": "San Francisco City Attorney",
+          "sourceUrl": "https://media.api.sf.gov/documents/CCSF-UPF-Complaint-2025.12.02.pdf"
+        }
+      ],
+      "addedAt": "2026-11-19"
     }
   ]
 }
