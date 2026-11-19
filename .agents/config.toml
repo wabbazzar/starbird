@@ -47,6 +47,13 @@ typecheck    = "npx svelte-check --threshold error"
 data_audit   = "npx tsx scripts/validate-data.mjs"
 build_cmd    = "npm run build"
 
+# Shipyard records the DQ report in the release log and owns the final verdict.
+[release.blocking_gate]
+command     = "./node_modules/.bin/tsx scripts/dq-check.mjs"
+timeout_sec = 30
+modes       = ["hook", "daily"]
+result_key  = "dataQuality"
+
 [build]
 # Preserve both histories; conflicts skip safely with one daily owner alert.
 reconcile_trunk = true

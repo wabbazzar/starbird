@@ -60,6 +60,12 @@ On failure:
   See `docs/tickets/complete/install-guardian-augur-medic.md` for the
   proposed standalone coercion shim that the build agent should build.
 
+Shipyard runs the full data-quality audit after the model finishes in both
+modes. Leave the `dataQuality` result field to the runner. Its command
+writes the DQ report, including observed cohort medians, spread and limit,
+to the release log. Continue with the remaining checks without launching
+a second copy of the audit.
+
 ## Step 3: Build + adapter-static sanity (daily only)
 
 ```bash
