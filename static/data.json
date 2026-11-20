@@ -19671,6 +19671,104 @@
         }
       ],
       "addedAt": "2026-11-16"
+    },
+    {
+      "id": "elite_farm_services",
+      "name": "Elite Farm Services",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A 2017 Mercy For Animals Canada undercover investigation, filmed by a volunteer working as a chicken catcher for Elite Farm Services in British Columbia's Fraser Valley, documented workers beating chickens during loading; the Canadian Food Inspection Agency laid 38 Health of Animals Regulations charges on 14 November 2018 against Elite, its president and its client Sofina Foods (Lilydale). Elite and Sofina later pleaded guilty, with reported fines of $300,000 each and three years of probation.",
+      "blurb": "British Columbia contractor that catches and loads live chickens for poultry processors.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 58,
+      "source": "https://mercyforanimals.org/?p=73775",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2017 Mercy For Animals Canada undercover investigation, filmed by a volunteer working as a chicken catcher for Elite Farm Services in British Columbia's Fraser Valley, documented workers beating chickens during loading; the Canadian Food Inspection Agency laid 38 Health of Animals Regulations charges on 14 November 2018 against Elite, its president and its client Sofina Foods (Lilydale). Elite and Sofina later pleaded guilty, with reported fines of $300,000 each and three years of probation.",
+          "date": "2018-11",
+          "actor": "Canadian Food Inspection Agency",
+          "sourceUrl": "https://mercyforanimals.org/?p=73775",
+          "amountUsd": 300000,
+          "amountKind": "fine"
+        }
+      ],
+      "addedAt": "2026-11-20",
+      "scope": "narrow",
+      "role": "actor"
+    },
+    {
+      "id": "creekside_grove_farms",
+      "name": "Creekside Grove Farms",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A 2013 Mercy For Animals Canada undercover investigation, with an investigator employed for about 10 weeks at Creekside Grove Farms and Ku-Ku Farms in Alberta, filmed chicks violently smashed against hard surfaces by workers and hens crowded in battery cages. MFA said Creekside supplied chicks to Ku-Ku, which supplied eggs to Burnbrae Farms; Burnbrae suspended purchases from both farms, and Burnbrae and McDonald's Canada denied any of those eggs reached McDonald's.",
+      "blurb": "Alberta hatchery and egg-layer pullet supplier.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 50,
+      "source": "https://mercyforanimals.org/blog/egg-mcmisery-mfa-canada-exposes-canadas-cruel-egg-industry/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2013 Mercy For Animals Canada undercover investigation, with an investigator employed for about 10 weeks at Creekside Grove Farms and Ku-Ku Farms in Alberta, filmed chicks violently smashed against hard surfaces by workers and hens crowded in battery cages. MFA said Creekside supplied chicks to Ku-Ku, which supplied eggs to Burnbrae Farms; Burnbrae suspended purchases from both farms, and Burnbrae and McDonald's Canada denied any of those eggs reached McDonald's.",
+          "date": "2013-10",
+          "actor": "Mercy For Animals Canada",
+          "sourceUrl": "https://mercyforanimals.org/blog/egg-mcmisery-mfa-canada-exposes-canadas-cruel-egg-industry/"
+        }
+      ],
+      "addedAt": "2026-11-20",
+      "scope": "narrow",
+      "role": "actor"
+    },
+    {
+      "id": "foremost_farms",
+      "name": "Foremost Farms USA",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Foremost Farms bought milk from Wiese Brothers Farm in Greenleaf, Wisconsin, where a Mercy For Animals undercover investigation in October–November 2013 filmed workers kicking, whipping and stabbing cows and leaving infected wounds untreated; four workers were charged with 11 counts of animal cruelty in February 2014. Foremost supplied cheese to Nestlé's DiGiorno; Nestlé had Foremost stop sending cheese made from Wiese milk and Foremost stopped buying from the farm.",
+      "blurb": "Wisconsin dairy cooperative that processes members' milk into cheese and dairy ingredients.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 42,
+      "source": "https://mercyforanimals.org/blog/breaking-news-animal-cruelty-charges-filed-against-workers-at-digiorno-cheese-supplier/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Foremost Farms bought milk from Wiese Brothers Farm in Greenleaf, Wisconsin, where a Mercy For Animals undercover investigation in October–November 2013 filmed workers kicking, whipping and stabbing cows and leaving infected wounds untreated; four workers were charged with 11 counts of animal cruelty in February 2014. Foremost supplied cheese to Nestlé's DiGiorno; Nestlé had Foremost stop sending cheese made from Wiese milk and Foremost stopped buying from the farm.",
+          "date": "2013-12",
+          "actor": "Brown County Sheriff / Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/breaking-news-animal-cruelty-charges-filed-against-workers-at-digiorno-cheese-supplier/"
+        }
+      ],
+      "addedAt": "2026-11-20",
+      "scope": "narrow",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -43947,6 +44045,124 @@
         }
       ],
       "addedAt": "2026-11-19"
+    },
+    {
+      "id": "elite_farm_services",
+      "avoid": "Elite Farm Services",
+      "ownership": [
+        {
+          "firmId": "elite_farm_services",
+          "stake": "majority",
+          "since": "2000"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A 2017 Mercy For Animals Canada undercover investigation, filmed by a volunteer working as a chicken catcher for Elite Farm Services in British Columbia's Fraser Valley, documented workers beating chickens during loading; the Canadian Food Inspection Agency laid 38 Health of Animals Regulations charges on 14 November 2018 against Elite, its president and its client Sofina Foods (Lilydale). Elite and Sofina later pleaded guilty, with reported fines of $300,000 each and three years of probation.",
+      "blurb": "British Columbia contractor that catches and loads live chickens for poultry processors.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2017 Mercy For Animals Canada undercover investigation, filmed by a volunteer working as a chicken catcher for Elite Farm Services in British Columbia's Fraser Valley, documented workers beating chickens during loading; the Canadian Food Inspection Agency laid 38 Health of Animals Regulations charges on 14 November 2018 against Elite, its president and its client Sofina Foods (Lilydale). Elite and Sofina later pleaded guilty, with reported fines of $300,000 each and three years of probation.",
+          "date": "2018-11",
+          "actor": "Canadian Food Inspection Agency",
+          "sourceUrl": "https://mercyforanimals.org/?p=73775",
+          "amountUsd": 300000,
+          "amountKind": "fine"
+        }
+      ],
+      "addedAt": "2026-11-20"
+    },
+    {
+      "id": "creekside_grove_farms",
+      "avoid": "Creekside Grove Farms",
+      "ownership": [
+        {
+          "firmId": "creekside_grove_farms",
+          "stake": "majority",
+          "since": "2000"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A 2013 Mercy For Animals Canada undercover investigation, with an investigator employed for about 10 weeks at Creekside Grove Farms and Ku-Ku Farms in Alberta, filmed chicks violently smashed against hard surfaces by workers and hens crowded in battery cages. MFA said Creekside supplied chicks to Ku-Ku, which supplied eggs to Burnbrae Farms; Burnbrae suspended purchases from both farms, and Burnbrae and McDonald's Canada denied any of those eggs reached McDonald's.",
+      "blurb": "Alberta hatchery and egg-layer pullet supplier.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A 2013 Mercy For Animals Canada undercover investigation, with an investigator employed for about 10 weeks at Creekside Grove Farms and Ku-Ku Farms in Alberta, filmed chicks violently smashed against hard surfaces by workers and hens crowded in battery cages. MFA said Creekside supplied chicks to Ku-Ku, which supplied eggs to Burnbrae Farms; Burnbrae suspended purchases from both farms, and Burnbrae and McDonald's Canada denied any of those eggs reached McDonald's.",
+          "date": "2013-10",
+          "actor": "Mercy For Animals Canada",
+          "sourceUrl": "https://mercyforanimals.org/blog/egg-mcmisery-mfa-canada-exposes-canadas-cruel-egg-industry/"
+        }
+      ],
+      "addedAt": "2026-11-20"
+    },
+    {
+      "id": "foremost_farms",
+      "avoid": "Foremost Farms USA",
+      "ownership": [
+        {
+          "firmId": "foremost_farms",
+          "stake": "majority",
+          "since": "1995"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Foremost Farms bought milk from Wiese Brothers Farm in Greenleaf, Wisconsin, where a Mercy For Animals undercover investigation in October–November 2013 filmed workers kicking, whipping and stabbing cows and leaving infected wounds untreated; four workers were charged with 11 counts of animal cruelty in February 2014. Foremost supplied cheese to Nestlé's DiGiorno; Nestlé had Foremost stop sending cheese made from Wiese milk and Foremost stopped buying from the farm.",
+      "blurb": "Wisconsin dairy cooperative that processes members' milk into cheese and dairy ingredients.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "Foremost Farms bought milk from Wiese Brothers Farm in Greenleaf, Wisconsin, where a Mercy For Animals undercover investigation in October–November 2013 filmed workers kicking, whipping and stabbing cows and leaving infected wounds untreated; four workers were charged with 11 counts of animal cruelty in February 2014. Foremost supplied cheese to Nestlé's DiGiorno; Nestlé had Foremost stop sending cheese made from Wiese milk and Foremost stopped buying from the farm.",
+          "date": "2013-12",
+          "actor": "Brown County Sheriff / Mercy For Animals",
+          "sourceUrl": "https://mercyforanimals.org/blog/breaking-news-animal-cruelty-charges-filed-against-workers-at-digiorno-cheese-supplier/"
+        }
+      ],
+      "addedAt": "2026-11-20"
+    },
+    {
+      "id": "horizon_poultry",
+      "avoid": "Horizon Poultry",
+      "ownership": [
+        {
+          "firmId": "maple_leaf_foods",
+          "stake": "majority",
+          "since": "2000"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A February–March 2014 Mercy For Animals Canada undercover investigation at Horizon Poultry, Maple Leaf Foods' Hanover, Ontario hatchery, filmed chicks thrown and slammed into metal dividers, sick chicks sent into a macerator, and live chicks scalded in an industrial washer; MFA filed complaints with the CFIA and Ontario SPCA, and Maple Leaf suspended one employee without pay.",
+      "blurb": "Hatchery in Hanover, Ontario owned by Maple Leaf Foods that supplies chicks to poultry farms.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A February–March 2014 Mercy For Animals Canada undercover investigation at Horizon Poultry, Maple Leaf Foods' Hanover, Ontario hatchery, filmed chicks thrown and slammed into metal dividers, sick chicks sent into a macerator, and live chicks scalded in an industrial washer; MFA filed complaints with the CFIA and Ontario SPCA, and Maple Leaf suspended one employee without pay.",
+          "date": "2014-04",
+          "actor": "Mercy For Animals Canada / Ontario SPCA",
+          "sourceUrl": "https://amp.cbc.ca/lite/story/1.2610065"
+        }
+      ],
+      "addedAt": "2026-11-20"
     }
   ]
 }

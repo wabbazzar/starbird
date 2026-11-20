@@ -3221,6 +3221,23 @@
         "triscuit"
       ],
       "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322572/"
+    },
+    {
+      "id": "2026-11-20-mercy_for_animals_investigations",
+      "date": "2026-11-20",
+      "title": "Mercy For Animals footage: chicken catchers, hatcheries, a dairy co-op",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Four more entries from Mercy For Animals' undercover archive, mostly Canadian poultry plus one Wisconsin cheese supplier, each tied to a named buyer or regulator action.",
+      "body": "This run traced Mercy For Animals investigations to the companies in the middle of the supply chain, not just the farms in the footage.\n\nElite Farm Services is a British Columbia chicken-catching contractor. A 2017 volunteer-shot investigation led the Canadian Food Inspection Agency to lay 38 charges in November 2018 against Elite, its president and client Sofina Foods (Lilydale). Elite and Sofina later pleaded guilty, with reported fines of $300,000 each.\n\nHorizon Poultry, Maple Leaf Foods' Hanover, Ontario hatchery, was filmed in 2014 with chicks thrown, macerated and scalded; MFA complained to the CFIA and Ontario SPCA. Creekside Grove Farms, an Alberta supplier, was filmed in 2013 with chicks smashed against hard surfaces. MFA said its chicks reached egg buyer Burnbrae Farms via Ku-Ku Farms, though Burnbrae and McDonald's Canada denied any link to McDonald's.\n\nForemost Farms, a Wisconsin dairy co-op, bought milk from Wiese Brothers Farm, where 2013 footage led to cruelty charges against four workers. Nestlé had Foremost stop sending DiGiorno cheese made from that milk.",
+      "entityIds": [
+        "creekside_grove_farms",
+        "elite_farm_services",
+        "foremost_farms",
+        "horizon_poultry"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
