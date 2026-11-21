@@ -3238,6 +3238,22 @@
         "horizon_poultry"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-11-21-mercy_for_animals_investigations",
+      "date": "2026-11-21",
+      "title": "Two Mississippi stockyards and a Texas fish plant, caught on camera",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Mercy For Animals footage from livestock auctions in Mississippi and a catfish slaughter facility in Texas shows abuse at the least-watched links of the food chain. Prosecutions were uneven: four convictions in one case, no charges in another.",
+      "body": "Most animal-welfare scrutiny lands on household-name brands. This run went the other way, to the unglamorous middle of the supply chain: two livestock auctions and a fish slaughter shop.\n\nIn June 2014, a Mercy For Animals investigator worked undercover at Southeast Mississippi Livestock in Hattiesburg and Pontotoc Stockyard in Pontotoc. The footage shows animals kicked, shocked, beaten and dragged by their ears and tails, with management acknowledging animals were deprived of food and water. MFA sought 21 counts against five workers in Forrest County and 28 counts against five workers in Pontotoc County. In December 2014 four Hattiesburg workers were convicted and given two months' probation and $238 in fines and fees. No outcome was reported for Pontotoc.\n\nCatfish Corner in Mesquite, Texas, was the subject of a January 2011 release showing workers tearing skin and heads off live fish and leaving fish to suffocate out of water. The Dallas County District Attorney declined to file charges. Fish are rarely covered by cruelty statutes, which is part of why this kind of footage seldom changes anything.",
+      "entityIds": [
+        "catfish_corner",
+        "pontotoc_stockyard",
+        "southeast_mississippi_livestock"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

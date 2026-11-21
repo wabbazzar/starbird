@@ -19769,6 +19769,102 @@
       "addedAt": "2026-11-20",
       "scope": "narrow",
       "role": "actor"
+    },
+    {
+      "id": "southeast_mississippi_livestock",
+      "name": "Southeast Mississippi Livestock",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A June 2014 Mercy For Animals undercover investigation at Southeast Mississippi Livestock, a Hattiesburg livestock auction, filmed workers kicking, shocking, beating and dragging animals by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Forrest County seeking 21 animal-abuse counts against five workers; in December 2014 four workers (Octavios Hillard, Kenneth White, Roy Stewart and Clayton Harris) were convicted of criminal animal cruelty and sentenced to two months' probation and $238 in fines and court fees.",
+      "blurb": "Livestock auction market in Hattiesburg, Mississippi where farm animals are bought and sold.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 40,
+      "source": "https://prnewswire.com/news-releases/livestock-auction-workers-convicted-of-animal-cruelty-following-undercover-investigation-by-mercy-for-animals-300011496.html",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2014 Mercy For Animals undercover investigation at Southeast Mississippi Livestock, a Hattiesburg livestock auction, filmed workers kicking, shocking, beating and dragging animals by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Forrest County seeking 21 animal-abuse counts against five workers; in December 2014 four workers (Octavios Hillard, Kenneth White, Roy Stewart and Clayton Harris) were convicted of criminal animal cruelty and sentenced to two months' probation and $238 in fines and court fees.",
+          "date": "2014-12",
+          "actor": "Forrest County Justice Court / Mercy For Animals",
+          "sourceUrl": "https://prnewswire.com/news-releases/livestock-auction-workers-convicted-of-animal-cruelty-following-undercover-investigation-by-mercy-for-animals-300011496.html"
+        }
+      ],
+      "addedAt": "2026-11-21",
+      "scope": "narrow",
+      "role": "actor"
+    },
+    {
+      "id": "pontotoc_stockyard",
+      "name": "Pontotoc Stockyard",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A June 2014 Mercy For Animals undercover investigation at Pontotoc Stockyard, a Mississippi livestock auction, documented animals being kicked, shocked, beaten and dragged by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Pontotoc County court seeking 28 animal-abuse counts against five workers; no outcome was reported in the sources reviewed, and the stockyard did not respond to the Associated Press.",
+      "blurb": "Livestock auction market in Pontotoc, Mississippi where farm animals are bought and sold.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 36,
+      "source": "https://www.jacksonfreepress.com/news/2014/jun/23/animal-rights-group-alleges-mistreatment-miss",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2014 Mercy For Animals undercover investigation at Pontotoc Stockyard, a Mississippi livestock auction, documented animals being kicked, shocked, beaten and dragged by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Pontotoc County court seeking 28 animal-abuse counts against five workers; no outcome was reported in the sources reviewed, and the stockyard did not respond to the Associated Press.",
+          "date": "2014-06",
+          "actor": "Pontotoc County court / Mercy For Animals",
+          "sourceUrl": "https://www.jacksonfreepress.com/news/2014/jun/23/animal-rights-group-alleges-mistreatment-miss"
+        }
+      ],
+      "addedAt": "2026-11-21",
+      "scope": "narrow",
+      "role": "actor"
+    },
+    {
+      "id": "catfish_corner",
+      "name": "Catfish Corner",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A Mercy For Animals undercover investigation at Catfish Corner, a fish slaughtering facility in Mesquite, Texas, released in January 2011, filmed workers pulling skin and tearing heads off live fish, fish crammed into buckets, and fish left out of water to suffocate. MFA filed a cruelty-to-animals complaint with the Dallas County District Attorney's Office, which declined to file charges (VegNews, Jan. 2011).",
+      "blurb": "Fish slaughtering facility in Mesquite, Texas that processes live catfish.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 34,
+      "source": "https://vegnews.com/2011/1/cruel-fish-slaughter",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A Mercy For Animals undercover investigation at Catfish Corner, a fish slaughtering facility in Mesquite, Texas, released in January 2011, filmed workers pulling skin and tearing heads off live fish, fish crammed into buckets, and fish left out of water to suffocate. MFA filed a cruelty-to-animals complaint with the Dallas County District Attorney's Office, which declined to file charges (VegNews, Jan. 2011).",
+          "date": "2011-01",
+          "actor": "Dallas County District Attorney / Mercy For Animals",
+          "sourceUrl": "https://vegnews.com/2011/1/cruel-fish-slaughter"
+        }
+      ],
+      "addedAt": "2026-11-21",
+      "scope": "narrow",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -44163,6 +44259,93 @@
         }
       ],
       "addedAt": "2026-11-20"
+    },
+    {
+      "id": "southeast_mississippi_livestock",
+      "avoid": "Southeast Mississippi Livestock",
+      "ownership": [
+        {
+          "firmId": "southeast_mississippi_livestock",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A June 2014 Mercy For Animals undercover investigation at Southeast Mississippi Livestock, a Hattiesburg livestock auction, filmed workers kicking, shocking, beating and dragging animals by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Forrest County seeking 21 animal-abuse counts against five workers; in December 2014 four workers (Octavios Hillard, Kenneth White, Roy Stewart and Clayton Harris) were convicted of criminal animal cruelty and sentenced to two months' probation and $238 in fines and court fees.",
+      "blurb": "Livestock auction market in Hattiesburg, Mississippi where farm animals are bought and sold.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2014 Mercy For Animals undercover investigation at Southeast Mississippi Livestock, a Hattiesburg livestock auction, filmed workers kicking, shocking, beating and dragging animals by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Forrest County seeking 21 animal-abuse counts against five workers; in December 2014 four workers (Octavios Hillard, Kenneth White, Roy Stewart and Clayton Harris) were convicted of criminal animal cruelty and sentenced to two months' probation and $238 in fines and court fees.",
+          "date": "2014-12",
+          "actor": "Forrest County Justice Court / Mercy For Animals",
+          "sourceUrl": "https://prnewswire.com/news-releases/livestock-auction-workers-convicted-of-animal-cruelty-following-undercover-investigation-by-mercy-for-animals-300011496.html"
+        }
+      ],
+      "addedAt": "2026-11-21"
+    },
+    {
+      "id": "pontotoc_stockyard",
+      "avoid": "Pontotoc Stockyard",
+      "ownership": [
+        {
+          "firmId": "pontotoc_stockyard",
+          "stake": "majority",
+          "since": "2014"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A June 2014 Mercy For Animals undercover investigation at Pontotoc Stockyard, a Mississippi livestock auction, documented animals being kicked, shocked, beaten and dragged by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Pontotoc County court seeking 28 animal-abuse counts against five workers; no outcome was reported in the sources reviewed, and the stockyard did not respond to the Associated Press.",
+      "blurb": "Livestock auction market in Pontotoc, Mississippi where farm animals are bought and sold.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A June 2014 Mercy For Animals undercover investigation at Pontotoc Stockyard, a Mississippi livestock auction, documented animals being kicked, shocked, beaten and dragged by their ears and tails, with management acknowledging animals were deprived of food and water. MFA filed a complaint in Pontotoc County court seeking 28 animal-abuse counts against five workers; no outcome was reported in the sources reviewed, and the stockyard did not respond to the Associated Press.",
+          "date": "2014-06",
+          "actor": "Pontotoc County court / Mercy For Animals",
+          "sourceUrl": "https://www.jacksonfreepress.com/news/2014/jun/23/animal-rights-group-alleges-mistreatment-miss"
+        }
+      ],
+      "addedAt": "2026-11-21"
+    },
+    {
+      "id": "catfish_corner",
+      "avoid": "Catfish Corner",
+      "ownership": [
+        {
+          "firmId": "catfish_corner",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "A Mercy For Animals undercover investigation at Catfish Corner, a fish slaughtering facility in Mesquite, Texas, released in January 2011, filmed workers pulling skin and tearing heads off live fish, fish crammed into buckets, and fish left out of water to suffocate. MFA filed a cruelty-to-animals complaint with the Dallas County District Attorney's Office, which declined to file charges (VegNews, Jan. 2011).",
+      "blurb": "Fish slaughtering facility in Mesquite, Texas that processes live catfish.",
+      "harms": [
+        "animals_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "animals_general",
+          "text": "A Mercy For Animals undercover investigation at Catfish Corner, a fish slaughtering facility in Mesquite, Texas, released in January 2011, filmed workers pulling skin and tearing heads off live fish, fish crammed into buckets, and fish left out of water to suffocate. MFA filed a cruelty-to-animals complaint with the Dallas County District Attorney's Office, which declined to file charges (VegNews, Jan. 2011).",
+          "date": "2011-01",
+          "actor": "Dallas County District Attorney / Mercy For Animals",
+          "sourceUrl": "https://vegnews.com/2011/1/cruel-fish-slaughter"
+        }
+      ],
+      "addedAt": "2026-11-21"
     }
   ]
 }
