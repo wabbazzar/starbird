@@ -19865,6 +19865,118 @@
       "addedAt": "2026-11-21",
       "scope": "narrow",
       "role": "actor"
+    },
+    {
+      "id": "hearthside_food_solutions",
+      "name": "Hearthside Food Solutions",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Hearthside was acquired by private-equity firms Charlesbank Capital Partners and Partners Group in 2018. Its parent H-Food Holdings filed a prearranged Chapter 11 in the Southern District of Texas on 22 November 2024, seeking to shed over $1.9 billion of debt after failing to refinance, with the PE owners reportedly negotiating to hand control to creditors (Bloomberg Law; Food Business News). PESP's 2024 bankruptcy tracking lists it among PE-backed bankruptcies. A February 2023 New York Times investigation reported migrant teenagers working dangerous jobs at Hearthside's Grand Rapids, Michigan facilities; Michigan and the U.S. Department of Labor opened child-labor investigations. In December 2024 Hearthside agreed to pay $4.5 million to end an Illinois investigation into alleged child labor at its Illinois facilities, without admitting liability (Insurance Journal). Quest: extraction_general.",
+      "blurb": "Contract food manufacturer making snacks, baked goods and packaged foods for major brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-11)",
+      "harmScore": 55,
+      "source": "https://news.bloomberglaw.com/bankruptcy-law/private-equity-backed-snack-maker-hearthside-files-bankruptcy",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Hearthside was acquired by private-equity firms Charlesbank Capital Partners and Partners Group in 2018. Its parent H-Food Holdings filed a prearranged Chapter 11 in the Southern District of Texas on 22 November 2024, seeking to shed over $1.9 billion of debt after failing to refinance, with the PE owners reportedly negotiating to hand control to creditors (Bloomberg Law; Food Business News). PESP's 2024 bankruptcy tracking lists it among PE-backed bankruptcies.",
+          "date": "2024-11",
+          "amountUsd": 1900000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, S.D. Texas",
+          "sourceUrl": "https://news.bloomberglaw.com/bankruptcy-law/private-equity-backed-snack-maker-hearthside-files-bankruptcy"
+        },
+        {
+          "tag": "workers_general",
+          "text": "A February 2023 New York Times investigation reported migrant teenagers working dangerous jobs at Hearthside's Grand Rapids, Michigan facilities; Michigan and the U.S. Department of Labor opened child-labor investigations. In December 2024 Hearthside agreed to pay $4.5 million to end an Illinois investigation into alleged child labor at its Illinois facilities, without admitting liability (Insurance Journal).",
+          "date": "2024-12",
+          "amountUsd": 4500000,
+          "amountKind": "settlement",
+          "actor": "Illinois authorities",
+          "sourceUrl": "https://www.insurancejournal.com/news/midwest/2024/12/09/804110.htm"
+        }
+      ],
+      "addedAt": "2026-11-22",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "careismatic_brands",
+      "name": "Careismatic Brands",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Partners Group bought Careismatic Brands in 2021 in a deal reported at about $1.3 billion including debt. The company filed Chapter 11 in New Jersey in January 2024 (case 24-10561); its plan wiped out about $782 million of secured debt in a debt-for-equity swap, with ownership passing to lenders rather than the sponsor (Law360; Bloomberg Law). PESP counts about 404 layoffs tied to the case. Quest: extraction_general.",
+      "blurb": "Medical apparel company selling scrubs and uniforms under brands including Cherokee.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-01)",
+      "harmScore": 48,
+      "source": "https://news.bloomberglaw.com/bankruptcy-law/medical-scrubs-supplier-careismatic-brands-files-for-bankruptcy",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Partners Group bought Careismatic Brands in 2021 in a deal reported at about $1.3 billion including debt. The company filed Chapter 11 in New Jersey in January 2024 (case 24-10561); its plan wiped out about $782 million of secured debt in a debt-for-equity swap, with ownership passing to lenders rather than the sponsor (Law360; Bloomberg Law). PESP counts about 404 layoffs tied to the case.",
+          "date": "2024-01",
+          "amountUsd": 782000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D.N.J.",
+          "sourceUrl": "https://news.bloomberglaw.com/bankruptcy-law/medical-scrubs-supplier-careismatic-brands-files-for-bankruptcy"
+        }
+      ],
+      "addedAt": "2026-11-22",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "thrasio",
+      "name": "Thrasio",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Thrasio, an Amazon-seller roll-up that raised about $3.4 billion from investors including Silver Lake and Oaktree at a peak $10 billion valuation, cut about 20% of staff in 2022 and filed Chapter 11 in New Jersey on 28 February 2024. A restructuring support agreement would eliminate roughly $495 million of debt, with creditors committing up to $90 million in new financing (CNBC; Crunchbase News). Quest: extraction_general.",
+      "blurb": "Aggregator that acquired and operated third-party Amazon seller brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-02)",
+      "harmScore": 44,
+      "source": "https://www.cnbc.com/2024/02/28/top-amazon-aggregator-thrasio-files-for-bankruptcy.html",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Thrasio, an Amazon-seller roll-up that raised about $3.4 billion from investors including Silver Lake and Oaktree at a peak $10 billion valuation, cut about 20% of staff in 2022 and filed Chapter 11 in New Jersey on 28 February 2024. A restructuring support agreement would eliminate roughly $495 million of debt, with creditors committing up to $90 million in new financing (CNBC; Crunchbase News).",
+          "date": "2024-02",
+          "amountUsd": 495000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D.N.J.",
+          "sourceUrl": "https://www.cnbc.com/2024/02/28/top-amazon-aggregator-thrasio-files-for-bankruptcy.html"
+        }
+      ],
+      "addedAt": "2026-11-22",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -44346,6 +44458,109 @@
         }
       ],
       "addedAt": "2026-11-21"
+    },
+    {
+      "id": "hearthside_food_solutions",
+      "avoid": "Hearthside Food Solutions",
+      "ownership": [
+        {
+          "firmId": "hearthside_food_solutions",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Hearthside was acquired by private-equity firms Charlesbank Capital Partners and Partners Group in 2018. Its parent H-Food Holdings filed a prearranged Chapter 11 in the Southern District of Texas on 22 November 2024, seeking to shed over $1.9 billion of debt after failing to refinance, with the PE owners reportedly negotiating to hand control to creditors (Bloomberg Law; Food Business News). PESP's 2024 bankruptcy tracking lists it among PE-backed bankruptcies. A February 2023 New York Times investigation reported migrant teenagers working dangerous jobs at Hearthside's Grand Rapids, Michigan facilities; Michigan and the U.S. Department of Labor opened child-labor investigations. In December 2024 Hearthside agreed to pay $4.5 million to end an Illinois investigation into alleged child labor at its Illinois facilities, without admitting liability (Insurance Journal).",
+      "blurb": "Contract food manufacturer making snacks, baked goods and packaged foods for major brands.",
+      "harms": [
+        "extraction_general",
+        "workers_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Hearthside was acquired by private-equity firms Charlesbank Capital Partners and Partners Group in 2018. Its parent H-Food Holdings filed a prearranged Chapter 11 in the Southern District of Texas on 22 November 2024, seeking to shed over $1.9 billion of debt after failing to refinance, with the PE owners reportedly negotiating to hand control to creditors (Bloomberg Law; Food Business News). PESP's 2024 bankruptcy tracking lists it among PE-backed bankruptcies.",
+          "date": "2024-11",
+          "amountUsd": 1900000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, S.D. Texas",
+          "sourceUrl": "https://news.bloomberglaw.com/bankruptcy-law/private-equity-backed-snack-maker-hearthside-files-bankruptcy"
+        },
+        {
+          "tag": "workers_general",
+          "text": "A February 2023 New York Times investigation reported migrant teenagers working dangerous jobs at Hearthside's Grand Rapids, Michigan facilities; Michigan and the U.S. Department of Labor opened child-labor investigations. In December 2024 Hearthside agreed to pay $4.5 million to end an Illinois investigation into alleged child labor at its Illinois facilities, without admitting liability (Insurance Journal).",
+          "date": "2024-12",
+          "amountUsd": 4500000,
+          "amountKind": "settlement",
+          "actor": "Illinois authorities",
+          "sourceUrl": "https://www.insurancejournal.com/news/midwest/2024/12/09/804110.htm"
+        }
+      ],
+      "addedAt": "2026-11-22"
+    },
+    {
+      "id": "careismatic_brands",
+      "avoid": "Careismatic Brands",
+      "ownership": [
+        {
+          "firmId": "careismatic_brands",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Partners Group bought Careismatic Brands in 2021 in a deal reported at about $1.3 billion including debt. The company filed Chapter 11 in New Jersey in January 2024 (case 24-10561); its plan wiped out about $782 million of secured debt in a debt-for-equity swap, with ownership passing to lenders rather than the sponsor (Law360; Bloomberg Law). PESP counts about 404 layoffs tied to the case.",
+      "blurb": "Medical apparel company selling scrubs and uniforms under brands including Cherokee.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Partners Group bought Careismatic Brands in 2021 in a deal reported at about $1.3 billion including debt. The company filed Chapter 11 in New Jersey in January 2024 (case 24-10561); its plan wiped out about $782 million of secured debt in a debt-for-equity swap, with ownership passing to lenders rather than the sponsor (Law360; Bloomberg Law). PESP counts about 404 layoffs tied to the case.",
+          "date": "2024-01",
+          "amountUsd": 782000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D.N.J.",
+          "sourceUrl": "https://news.bloomberglaw.com/bankruptcy-law/medical-scrubs-supplier-careismatic-brands-files-for-bankruptcy"
+        }
+      ],
+      "addedAt": "2026-11-22"
+    },
+    {
+      "id": "thrasio",
+      "avoid": "Thrasio",
+      "ownership": [
+        {
+          "firmId": "thrasio",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Thrasio, an Amazon-seller roll-up that raised about $3.4 billion from investors including Silver Lake and Oaktree at a peak $10 billion valuation, cut about 20% of staff in 2022 and filed Chapter 11 in New Jersey on 28 February 2024. A restructuring support agreement would eliminate roughly $495 million of debt, with creditors committing up to $90 million in new financing (CNBC; Crunchbase News).",
+      "blurb": "Aggregator that acquired and operated third-party Amazon seller brands.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Thrasio, an Amazon-seller roll-up that raised about $3.4 billion from investors including Silver Lake and Oaktree at a peak $10 billion valuation, cut about 20% of staff in 2022 and filed Chapter 11 in New Jersey on 28 February 2024. A restructuring support agreement would eliminate roughly $495 million of debt, with creditors committing up to $90 million in new financing (CNBC; Crunchbase News).",
+          "date": "2024-02",
+          "amountUsd": 495000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D.N.J.",
+          "sourceUrl": "https://www.cnbc.com/2024/02/28/top-amazon-aggregator-thrasio-files-for-bankruptcy.html"
+        }
+      ],
+      "addedAt": "2026-11-22"
     }
   ]
 }

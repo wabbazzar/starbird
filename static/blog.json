@@ -3254,6 +3254,22 @@
         "southeast_mississippi_livestock"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-11-22-pesp_bankruptcy_tracker",
+      "date": "2026-11-22",
+      "title": "Three PE-backed bankruptcies: snacks, scrubs, Amazon brands",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "Hearthside, Careismatic and Thrasio all went through Chapter 11 in 2024 under private-equity or investor ownership, shedding debt in the hundreds of millions to billions.",
+      "body": "Private Equity Stakeholder Project's bankruptcy tracking points to a pattern: sponsor-backed companies that collapse under debt and leave creditors holding the equity. This run added three.\n\nHearthside Food Solutions, a contract snack maker bought by Charlesbank and Partners Group in 2018, filed Chapter 11 in November 2024 to shed over $1.9 billion of debt. It also paid $4.5 million to settle an Illinois child-labor probe after a New York Times investigation of its Michigan plants.\n\nCareismatic Brands, the medical scrubs maker Partners Group bought in 2021, filed in January 2024; its plan erased about $782 million of secured debt through a debt-for-equity swap. Thrasio, the Amazon-seller roll-up that raised about $3.4 billion at a peak $10 billion valuation, filed in February 2024 to cut roughly $495 million of debt.\n\nIn each case the debt load, not just market conditions, drove the outcome.",
+      "entityIds": [
+        "careismatic_brands",
+        "hearthside_food_solutions",
+        "thrasio"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
     }
   ]
 }
