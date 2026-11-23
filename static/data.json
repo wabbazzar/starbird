@@ -19977,6 +19977,74 @@
       "addedAt": "2026-11-22",
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "99_cents_only_stores",
+      "name": "99 Cents Only Stores",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Ares Management and Canada Pension Plan Investment Board, with the founding Gold/Schiffer family, took 99 Cents Only private in a roughly $1.6 billion buyout completed in January 2012, financed partly with a $525 million first-lien term facility and $250 million of senior unsecured notes (Paul Hastings; SEC Form 8-K). In April 2024 parent Number Holdings filed Chapter 11 in Delaware (case 24-10719) with over $1 billion in liabilities and moved to close all 371 stores, affecting over 10,800 employees (Law360; Retail Dive). Quest: extraction_general.",
+      "blurb": "Discount variety retailer operating extreme-value stores in the western and southwestern US.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-04)",
+      "harmScore": 52,
+      "source": "https://www.retaildive.com/news/99-cents-only-files-chapter-11-bankruptcy/712533",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Ares Management and Canada Pension Plan Investment Board, with the founding Gold/Schiffer family, took 99 Cents Only private in a roughly $1.6 billion buyout completed in January 2012, financed partly with a $525 million first-lien term facility and $250 million of senior unsecured notes (Paul Hastings; SEC Form 8-K). In April 2024 parent Number Holdings filed Chapter 11 in Delaware (case 24-10719) with over $1 billion in liabilities and moved to close all 371 stores, affecting over 10,800 employees (Law360; Retail Dive).",
+          "date": "2024-04",
+          "amountUsd": 1000000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.retaildive.com/news/99-cents-only-files-chapter-11-bankruptcy/712533"
+        }
+      ],
+      "addedAt": "2026-11-23",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "instant_brands",
+      "name": "Instant Brands",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Cornell Capital bought the maker of Instant Pot and, in 2017, merged it with Corelle Brands (Pyrex, Corelle). Instant Brands and 14 affiliates filed Chapter 11 in the Southern District of Texas in June 2023, citing too much debt amid rising interest rates; the company disclosed $512.3 million in funded debt and arranged $132.5 million of debtor-in-possession financing from existing lenders (Reuters; NPR; Financier Worldwide). Quest: extraction_general.",
+      "blurb": "Consumer housewares company behind Instant Pot, Pyrex and Corelle brands.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2023-06)",
+      "harmScore": 48,
+      "source": "https://www.npr.org/2023/06/14/1182073933/instant-pot-maker-seeks-bankruptcy-protection-as-sales-go-cold",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Cornell Capital bought the maker of Instant Pot and, in 2017, merged it with Corelle Brands (Pyrex, Corelle). Instant Brands and 14 affiliates filed Chapter 11 in the Southern District of Texas in June 2023, citing too much debt amid rising interest rates; the company disclosed $512.3 million in funded debt and arranged $132.5 million of debtor-in-possession financing from existing lenders (Reuters; NPR; Financier Worldwide).",
+          "date": "2023-06",
+          "amountUsd": 512300000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, S.D. Tex.",
+          "sourceUrl": "https://www.npr.org/2023/06/14/1182073933/instant-pot-maker-seeks-bankruptcy-protection-as-sales-go-cold"
+        }
+      ],
+      "addedAt": "2026-11-23",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -44561,6 +44629,68 @@
         }
       ],
       "addedAt": "2026-11-22"
+    },
+    {
+      "id": "99_cents_only_stores",
+      "avoid": "99 Cents Only Stores",
+      "ownership": [
+        {
+          "firmId": "99_cents_only_stores",
+          "stake": "majority",
+          "since": "2012"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Ares Management and Canada Pension Plan Investment Board, with the founding Gold/Schiffer family, took 99 Cents Only private in a roughly $1.6 billion buyout completed in January 2012, financed partly with a $525 million first-lien term facility and $250 million of senior unsecured notes (Paul Hastings; SEC Form 8-K). In April 2024 parent Number Holdings filed Chapter 11 in Delaware (case 24-10719) with over $1 billion in liabilities and moved to close all 371 stores, affecting over 10,800 employees (Law360; Retail Dive).",
+      "blurb": "Extreme-value discount retail chain selling groceries and household goods.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Ares Management and Canada Pension Plan Investment Board, with the founding Gold/Schiffer family, took 99 Cents Only private in a roughly $1.6 billion buyout completed in January 2012, financed partly with a $525 million first-lien term facility and $250 million of senior unsecured notes (Paul Hastings; SEC Form 8-K). In April 2024 parent Number Holdings filed Chapter 11 in Delaware (case 24-10719) with over $1 billion in liabilities and moved to close all 371 stores, affecting over 10,800 employees (Law360; Retail Dive).",
+          "date": "2024-04",
+          "amountUsd": 1000000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.retaildive.com/news/99-cents-only-files-chapter-11-bankruptcy/712533"
+        }
+      ],
+      "addedAt": "2026-11-23"
+    },
+    {
+      "id": "instant_brands",
+      "avoid": "Instant Brands",
+      "ownership": [
+        {
+          "firmId": "instant_brands",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Cornell Capital bought the maker of Instant Pot and, in 2017, merged it with Corelle Brands (Pyrex, Corelle). Instant Brands and 14 affiliates filed Chapter 11 in the Southern District of Texas in June 2023, citing too much debt amid rising interest rates; the company disclosed $512.3 million in funded debt and arranged $132.5 million of debtor-in-possession financing from existing lenders (Reuters; NPR; Financier Worldwide).",
+      "blurb": "Kitchen appliances and cookware including Instant Pot, Pyrex and Corelle.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Cornell Capital bought the maker of Instant Pot and, in 2017, merged it with Corelle Brands (Pyrex, Corelle). Instant Brands and 14 affiliates filed Chapter 11 in the Southern District of Texas in June 2023, citing too much debt amid rising interest rates; the company disclosed $512.3 million in funded debt and arranged $132.5 million of debtor-in-possession financing from existing lenders (Reuters; NPR; Financier Worldwide).",
+          "date": "2023-06",
+          "amountUsd": 512300000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, S.D. Tex.",
+          "sourceUrl": "https://www.npr.org/2023/06/14/1182073933/instant-pot-maker-seeks-bankruptcy-protection-as-sales-go-cold"
+        }
+      ],
+      "addedAt": "2026-11-23"
     }
   ]
 }

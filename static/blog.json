@@ -3270,6 +3270,21 @@
         "thrasio"
       ],
       "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-11-23-nyt_dealbook_archive",
+      "date": "2026-11-23",
+      "title": "Two PE-built retailers and housewares brands that ended in Chapter 11",
+      "strategy": "nyt_dealbook_archive",
+      "strategyLabel": "NYT DealBook archive",
+      "value": "extraction",
+      "summary": "A 2012 Ares/CPPIB buyout of 99 Cents Only and Cornell Capital's Instant Brands roll-up both ended in bankruptcy. Both carried heavy debt loads into the filings.",
+      "body": "99 Cents Only was taken private in January 2012 by Ares Management, Canada Pension Plan Investment Board and the founding family in a roughly $1.6 billion deal, financed partly with a $525 million first-lien term facility and $250 million of senior unsecured notes. In April 2024 its parent Number Holdings filed Chapter 11 in Delaware with over $1 billion in liabilities and moved to close all 371 stores, affecting more than 10,800 employees.\n\nInstant Brands, the maker of Instant Pot, was bought by Cornell Capital and merged in 2017 with Corelle Brands, owner of Pyrex and Corelle. In June 2023 it and 14 affiliates filed Chapter 11 in Texas, citing too much debt amid rising interest rates, with $512.3 million in funded debt disclosed.\n\nThe common thread is sponsor-era leverage meeting a harder rate and demand environment. Reporting we gathered did not establish dividends or sale-leasebacks in either case, so the evidence rests on the debt loads and bankruptcy outcomes.",
+      "entityIds": [
+        "99_cents_only_stores",
+        "instant_brands"
+      ],
+      "source": "https://www.nytimes.com/section/business/dealbook"
     }
   ]
 }
