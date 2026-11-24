@@ -20045,6 +20045,108 @@
       "addedAt": "2026-11-23",
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "mosaic_company",
+      "name": "The Mosaic Company",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In 2015 EPA and DOJ settled alleged RCRA hazardous-waste violations at Mosaic's Florida and Louisiana phosphate fertilizer plants (Bartow, Riverview, New Wales, Green Bay, South Pierce, Mulberry), a case EPA describes as covering about 60 billion pounds of hazardous waste, the largest amount in a federal or state RCRA settlement. Mosaic must fund a trust growing to $1.8 billion for closure and long-term care of its phosphogypsum stacks, backed by parent guarantees. Found via the EPA toxics-release/enforcement strategy. Tagged environment_general.",
+      "blurb": "Phosphate and potash fertilizer producer; operates Florida and Louisiana phosphate plants.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 70,
+      "source": "https://www.justice.gov/opa/pr/major-fertilizer-producer-mosaic-fertilizer-llc-ensure-proper-handling-storage-and-disposal",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "In 2015 EPA and DOJ settled alleged RCRA hazardous-waste violations at Mosaic's Florida and Louisiana phosphate fertilizer plants (Bartow, Riverview, New Wales, Green Bay, South Pierce, Mulberry), a case EPA describes as covering about 60 billion pounds of hazardous waste, the largest amount in a federal or state RCRA settlement. Mosaic must fund a trust growing to $1.8 billion for closure and long-term care of its phosphogypsum stacks, backed by parent guarantees.",
+          "date": "2015-01",
+          "amountUsd": 1800000000,
+          "amountKind": "settlement",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/major-fertilizer-producer-mosaic-fertilizer-llc-ensure-proper-handling-storage-and-disposal"
+        }
+      ],
+      "addedAt": "2026-11-24",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "cf_industries",
+      "name": "CF Industries Holdings",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "A 2010 EPA/Florida consent decree resolved hazardous-waste violations at CF Industries' Plant City phosphate operation, with a $701,500 penalty split between the US and Florida DEP and a required 4,500 tons-per-year cut in ammonia effluent to its phosphogypsum stack system. EPA noted Florida had incurred nearly $200 million in cleanup costs for acidic wastewater at the neighboring bankrupt Mulberry Phosphates Piney Point site; that is a separate site, not CF's liability. Found via the EPA toxics-release/enforcement strategy. Tagged environment_general.",
+      "blurb": "Nitrogen fertilizer and ammonia manufacturer with plants in the US, Canada and UK.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 62,
+      "source": "https://19january2021snapshot.epa.gov/enforcement/cf-industries-inc-settlement_.html",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "A 2010 EPA/Florida consent decree resolved hazardous-waste violations at CF Industries' Plant City phosphate operation, with a $701,500 penalty split between the US and Florida DEP and a required 4,500 tons-per-year cut in ammonia effluent to its phosphogypsum stack system. EPA noted Florida had incurred nearly $200 million in cleanup costs for acidic wastewater at the neighboring bankrupt Mulberry Phosphates Piney Point site; that is a separate site, not CF's liability.",
+          "date": "2010",
+          "amountUsd": 701500,
+          "amountKind": "fine",
+          "actor": "EPA",
+          "sourceUrl": "https://19january2021snapshot.epa.gov/enforcement/cf-industries-inc-settlement_.html"
+        }
+      ],
+      "addedAt": "2026-11-24",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "nutrien",
+      "name": "Nutrien Ltd.",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "In July 2022 DOJ, EPA and Louisiana DEQ lodged a consent decree over alleged RCRA violations at PCS Nitrogen's former Geismar, Louisiana phosphoric-acid plant, naming Nutrien Ltd. as ultimate parent. It requires treating over 1 billion pounds of acidic hazardous wastewater, closing phosphogypsum stacks over 50+ years with over $84 million in financial assurance, and a $1,510,023 civil penalty. PCS Nitrogen denied the violations and made no admission of liability. Found via the EPA toxics-release/enforcement strategy. Tagged environment_general.",
+      "blurb": "Canadian crop-nutrient producer and agricultural retailer; sells potash, nitrogen and phosphate fertilizer.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "N/A",
+      "harmScore": 64,
+      "source": "https://www.justice.gov/opa/pr/settlement-pcs-nitrogen-fertilizer-require-treatment-more-billion-pounds-hazardous-waste-and",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "In July 2022 DOJ, EPA and Louisiana DEQ lodged a consent decree over alleged RCRA violations at PCS Nitrogen's former Geismar, Louisiana phosphoric-acid plant, naming Nutrien Ltd. as ultimate parent. It requires treating over 1 billion pounds of acidic hazardous wastewater, closing phosphogypsum stacks over 50+ years with over $84 million in financial assurance, and a $1,510,023 civil penalty. PCS Nitrogen denied the violations and made no admission of liability.",
+          "date": "2022-07",
+          "amountUsd": 1510023,
+          "amountKind": "fine",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/settlement-pcs-nitrogen-fertilizer-require-treatment-more-billion-pounds-hazardous-waste-and"
+        }
+      ],
+      "addedAt": "2026-11-24",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -44691,6 +44793,99 @@
         }
       ],
       "addedAt": "2026-11-23"
+    },
+    {
+      "id": "mosaic_company",
+      "avoid": "Mosaic",
+      "ownership": [
+        {
+          "firmId": "mosaic_company",
+          "stake": "majority",
+          "since": "2004"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "In 2015 EPA and DOJ settled alleged RCRA hazardous-waste violations at Mosaic's Florida and Louisiana phosphate fertilizer plants (Bartow, Riverview, New Wales, Green Bay, South Pierce, Mulberry), a case EPA describes as covering about 60 billion pounds of hazardous waste, the largest amount in a federal or state RCRA settlement. Mosaic must fund a trust growing to $1.8 billion for closure and long-term care of its phosphogypsum stacks, backed by parent guarantees.",
+      "blurb": "Phosphate and potash fertilizer producer; operates Florida and Louisiana phosphate plants.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "In 2015 EPA and DOJ settled alleged RCRA hazardous-waste violations at Mosaic's Florida and Louisiana phosphate fertilizer plants (Bartow, Riverview, New Wales, Green Bay, South Pierce, Mulberry), a case EPA describes as covering about 60 billion pounds of hazardous waste, the largest amount in a federal or state RCRA settlement. Mosaic must fund a trust growing to $1.8 billion for closure and long-term care of its phosphogypsum stacks, backed by parent guarantees.",
+          "date": "2015-01",
+          "amountUsd": 1800000000,
+          "amountKind": "settlement",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/major-fertilizer-producer-mosaic-fertilizer-llc-ensure-proper-handling-storage-and-disposal"
+        }
+      ],
+      "addedAt": "2026-11-24"
+    },
+    {
+      "id": "cf_industries",
+      "avoid": "CF Industries",
+      "ownership": [
+        {
+          "firmId": "cf_industries",
+          "stake": "majority",
+          "since": "1946"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "A 2010 EPA/Florida consent decree resolved hazardous-waste violations at CF Industries' Plant City phosphate operation, with a $701,500 penalty split between the US and Florida DEP and a required 4,500 tons-per-year cut in ammonia effluent to its phosphogypsum stack system. EPA noted Florida had incurred nearly $200 million in cleanup costs for acidic wastewater at the neighboring bankrupt Mulberry Phosphates Piney Point site; that is a separate site, not CF's liability.",
+      "blurb": "Nitrogen fertilizer and ammonia manufacturer with plants in the US, Canada and UK.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "A 2010 EPA/Florida consent decree resolved hazardous-waste violations at CF Industries' Plant City phosphate operation, with a $701,500 penalty split between the US and Florida DEP and a required 4,500 tons-per-year cut in ammonia effluent to its phosphogypsum stack system. EPA noted Florida had incurred nearly $200 million in cleanup costs for acidic wastewater at the neighboring bankrupt Mulberry Phosphates Piney Point site; that is a separate site, not CF's liability.",
+          "date": "2010",
+          "amountUsd": 701500,
+          "amountKind": "fine",
+          "actor": "EPA",
+          "sourceUrl": "https://19january2021snapshot.epa.gov/enforcement/cf-industries-inc-settlement_.html"
+        }
+      ],
+      "addedAt": "2026-11-24"
+    },
+    {
+      "id": "nutrien",
+      "avoid": "Nutrien",
+      "ownership": [
+        {
+          "firmId": "nutrien",
+          "stake": "majority",
+          "since": "1975"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "In July 2022 DOJ, EPA and Louisiana DEQ lodged a consent decree over alleged RCRA violations at PCS Nitrogen's former Geismar, Louisiana phosphoric-acid plant, naming Nutrien Ltd. as ultimate parent. It requires treating over 1 billion pounds of acidic hazardous wastewater, closing phosphogypsum stacks over 50+ years with over $84 million in financial assurance, and a $1,510,023 civil penalty. PCS Nitrogen denied the violations and made no admission of liability.",
+      "blurb": "Canadian crop-nutrient producer and agricultural retailer; sells potash, nitrogen and phosphate fertilizer.",
+      "harms": [
+        "environment_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "environment_general",
+          "text": "In July 2022 DOJ, EPA and Louisiana DEQ lodged a consent decree over alleged RCRA violations at PCS Nitrogen's former Geismar, Louisiana phosphoric-acid plant, naming Nutrien Ltd. as ultimate parent. It requires treating over 1 billion pounds of acidic hazardous wastewater, closing phosphogypsum stacks over 50+ years with over $84 million in financial assurance, and a $1,510,023 civil penalty. PCS Nitrogen denied the violations and made no admission of liability.",
+          "date": "2022-07",
+          "amountUsd": 1510023,
+          "amountKind": "fine",
+          "actor": "EPA/DOJ",
+          "sourceUrl": "https://www.justice.gov/opa/pr/settlement-pcs-nitrogen-fertilizer-require-treatment-more-billion-pounds-hazardous-waste-and"
+        }
+      ],
+      "addedAt": "2026-11-24"
     }
   ]
 }

@@ -3285,6 +3285,22 @@
         "instant_brands"
       ],
       "source": "https://www.nytimes.com/section/business/dealbook"
+    },
+    {
+      "id": "2026-11-24-epa_tri_toxics_release",
+      "date": "2026-11-24",
+      "title": "Fertilizer giants and the waste stacks they leave behind",
+      "strategy": "epa_tri_toxics_release",
+      "strategyLabel": "EPA Toxics Release Inventory",
+      "value": "environment",
+      "summary": "Three fertilizer makers settled federal hazardous-waste cases tied to phosphogypsum stacks and acidic wastewater in Florida and Louisiana.",
+      "body": "Mosaic, CF Industries and Nutrien share a business: turning phosphate rock into fertilizer, and a byproduct problem: phosphogypsum stacks and acidic process wastewater.\n\nIn 2015, EPA and DOJ settled RCRA claims over Mosaic's Florida and Louisiana plants, a case EPA says covered about 60 billion pounds of hazardous waste. Mosaic must fund a trust growing to $1.8 billion for stack closure and long-term care.\n\nCF Industries signed a 2010 consent decree with a $701,500 penalty and a required 4,500 ton-per-year cut in ammonia effluent to its stack system. In 2022, Nutrien's subsidiary PCS Nitrogen agreed to treat over a billion pounds of acidic wastewater at Geismar, Louisiana and pay $1,510,023; the company denied the violations and admitted no liability.\n\nFor shoppers, these are upstream suppliers rather than shelf brands, but the settlements are public and sourced to EPA and DOJ.",
+      "entityIds": [
+        "cf_industries",
+        "mosaic_company",
+        "nutrien"
+      ],
+      "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
     }
   ]
 }
