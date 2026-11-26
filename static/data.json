@@ -20147,6 +20147,108 @@
       "addedAt": "2026-11-24",
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "rubios_coastal_grill",
+      "name": "Rubio's Coastal Grill",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Mill Road Capital acquired Rubio's in 2010 for about $91 million and took it private. The chain filed Chapter 11 in October 2020 (Law360 reported $82 million of debt) and again in June 2024, after closing 48 California restaurants about a week earlier; it said 86 restaurants remained open and the second case ended in a roughly $40 million sale to TREW Capital affiliate The Original Fish Taco (CoStar; Restaurant Business; SDBJ). PESP's 2024 tracker lists it as a PE-owned bankruptcy, citing about 1,100 layoffs. Quest: extraction_general.",
+      "blurb": "Fast-casual Mexican restaurant chain known for fish tacos, operating in California, Arizona and Nevada.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-06)",
+      "harmScore": 38,
+      "source": "https://www.costar.com/article/121991541/restaurant-chain-rubios-files-for-second-bankruptcy-in-four-years",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Mill Road Capital acquired Rubio's in 2010 for about $91 million and took it private. The chain filed Chapter 11 in October 2020 (Law360 reported $82 million of debt) and again in June 2024, after closing 48 California restaurants about a week earlier; it said 86 restaurants remained open and the second case ended in a roughly $40 million sale to TREW Capital affiliate The Original Fish Taco (CoStar; Restaurant Business; SDBJ). PESP's 2024 tracker lists it as a PE-owned bankruptcy, citing about 1,100 layoffs.",
+          "date": "2024-06",
+          "amountUsd": 40000000,
+          "amountKind": "deal",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.costar.com/article/121991541/restaurant-chain-rubios-files-for-second-bankruptcy-in-four-years"
+        }
+      ],
+      "addedAt": "2026-11-26",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "cano_health",
+      "name": "Cano Health",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "InTandem Capital Partners acquired Cano Health in 2017, per PESP's 2024 bankruptcy tracker, and Cano later went public via SPAC. It filed Chapter 11 in the District of Delaware on 4 February 2024 with roughly $1.3-1.4 billion of debt (Law360; Healthcare Dive). A lender restructuring agreement converted nearly $1 billion of secured debt into equity and $150 million of debtor-in-possession financing was committed. PESP notes about 700 layoffs in 2023, before the filing. Quest: extraction_general.",
+      "blurb": "Primary-care provider operating medical centers and value-based care programs, mainly in Florida.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-02)",
+      "harmScore": 45,
+      "source": "https://www.healthcaredive.com/news/cano-health-chapter-11-bankruptcy-restructuring-agreement/706546/",
+      "cats": [
+        "health"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "InTandem Capital Partners acquired Cano Health in 2017, per PESP's 2024 bankruptcy tracker, and Cano later went public via SPAC. It filed Chapter 11 in the District of Delaware on 4 February 2024 with roughly $1.3-1.4 billion of debt (Law360; Healthcare Dive). A lender restructuring agreement converted nearly $1 billion of secured debt into equity and $150 million of debtor-in-possession financing was committed. PESP notes about 700 layoffs in 2023, before the filing.",
+          "date": "2024-02",
+          "amountUsd": 1300000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.healthcaredive.com/news/cano-health-chapter-11-bankruptcy-restructuring-agreement/706546/"
+        }
+      ],
+      "addedAt": "2026-11-26",
+      "scope": "single_company",
+      "role": "actor"
+    },
+    {
+      "id": "franchise_group",
+      "name": "Franchise Group",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Franchise Group filed Chapter 11 in the District of Delaware on 3 November 2024 listing nearly $2 billion of debt. It decided to liquidate its American Freight furniture and appliance chain, closing all 328 stores with closing sales run by Hilco, while keeping Pet Supplies Plus, The Vitamin Shoppe and Buddy's Home Furnishings (Fox Business; Digital Commerce 360; CoStar). PESP's 2024 tracker says about 3,000 American Freight employees were affected. Quest: extraction_general.",
+      "blurb": "Retail holding company owning American Freight, Pet Supplies Plus, The Vitamin Shoppe and Buddy's Home Furnishings.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2024-11)",
+      "harmScore": 46,
+      "source": "https://www.foxbusiness.com/lifestyle/american-freight-closing-all-stores-amid-parent-companys-bankruptcy-filing",
+      "cats": [
+        "home"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Franchise Group filed Chapter 11 in the District of Delaware on 3 November 2024 listing nearly $2 billion of debt. It decided to liquidate its American Freight furniture and appliance chain, closing all 328 stores with closing sales run by Hilco, while keeping Pet Supplies Plus, The Vitamin Shoppe and Buddy's Home Furnishings (Fox Business; Digital Commerce 360; CoStar). PESP's 2024 tracker says about 3,000 American Freight employees were affected.",
+          "date": "2024-11",
+          "amountUsd": 2000000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.foxbusiness.com/lifestyle/american-freight-closing-all-stores-amid-parent-companys-bankruptcy-filing"
+        }
+      ],
+      "addedAt": "2026-11-26",
+      "scope": "single_company",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -44886,6 +44988,99 @@
         }
       ],
       "addedAt": "2026-11-24"
+    },
+    {
+      "id": "rubios_coastal_grill",
+      "avoid": "Rubio's Coastal Grill",
+      "ownership": [
+        {
+          "firmId": "rubios_coastal_grill",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "hospitality",
+      "alts": [],
+      "why": "Mill Road Capital acquired Rubio's in 2010 for about $91 million and took it private. The chain filed Chapter 11 in October 2020 (Law360 reported $82 million of debt) and again in June 2024, after closing 48 California restaurants about a week earlier; it said 86 restaurants remained open and the second case ended in a roughly $40 million sale to TREW Capital affiliate The Original Fish Taco (CoStar; Restaurant Business; SDBJ). PESP's 2024 tracker lists it as a PE-owned bankruptcy, citing about 1,100 layoffs.",
+      "blurb": "Fast-casual Mexican restaurant chain known for fish tacos, operating in California, Arizona and Nevada.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Mill Road Capital acquired Rubio's in 2010 for about $91 million and took it private. The chain filed Chapter 11 in October 2020 (Law360 reported $82 million of debt) and again in June 2024, after closing 48 California restaurants about a week earlier; it said 86 restaurants remained open and the second case ended in a roughly $40 million sale to TREW Capital affiliate The Original Fish Taco (CoStar; Restaurant Business; SDBJ). PESP's 2024 tracker lists it as a PE-owned bankruptcy, citing about 1,100 layoffs.",
+          "date": "2024-06",
+          "amountUsd": 40000000,
+          "amountKind": "deal",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.costar.com/article/121991541/restaurant-chain-rubios-files-for-second-bankruptcy-in-four-years"
+        }
+      ],
+      "addedAt": "2026-11-26"
+    },
+    {
+      "id": "cano_health",
+      "avoid": "Cano Health",
+      "ownership": [
+        {
+          "firmId": "cano_health",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "health",
+      "alts": [],
+      "why": "InTandem Capital Partners acquired Cano Health in 2017, per PESP's 2024 bankruptcy tracker, and Cano later went public via SPAC. It filed Chapter 11 in the District of Delaware on 4 February 2024 with roughly $1.3-1.4 billion of debt (Law360; Healthcare Dive). A lender restructuring agreement converted nearly $1 billion of secured debt into equity and $150 million of debtor-in-possession financing was committed. PESP notes about 700 layoffs in 2023, before the filing.",
+      "blurb": "Primary-care provider operating medical centers and value-based care programs, mainly in Florida.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "InTandem Capital Partners acquired Cano Health in 2017, per PESP's 2024 bankruptcy tracker, and Cano later went public via SPAC. It filed Chapter 11 in the District of Delaware on 4 February 2024 with roughly $1.3-1.4 billion of debt (Law360; Healthcare Dive). A lender restructuring agreement converted nearly $1 billion of secured debt into equity and $150 million of debtor-in-possession financing was committed. PESP notes about 700 layoffs in 2023, before the filing.",
+          "date": "2024-02",
+          "amountUsd": 1300000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.healthcaredive.com/news/cano-health-chapter-11-bankruptcy-restructuring-agreement/706546/"
+        }
+      ],
+      "addedAt": "2026-11-26"
+    },
+    {
+      "id": "american_freight",
+      "avoid": "American Freight",
+      "ownership": [
+        {
+          "firmId": "franchise_group",
+          "stake": "majority",
+          "since": "2024"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Franchise Group filed Chapter 11 in the District of Delaware on 3 November 2024 listing nearly $2 billion of debt. It decided to liquidate its American Freight furniture and appliance chain, closing all 328 stores with closing sales run by Hilco, while keeping Pet Supplies Plus, The Vitamin Shoppe and Buddy's Home Furnishings (Fox Business; Digital Commerce 360; CoStar). PESP's 2024 tracker says about 3,000 American Freight employees were affected.",
+      "blurb": "Discount retailer of furniture, appliances and mattresses with stores across the United States.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Franchise Group filed Chapter 11 in the District of Delaware on 3 November 2024 listing nearly $2 billion of debt. It decided to liquidate its American Freight furniture and appliance chain, closing all 328 stores with closing sales run by Hilco, while keeping Pet Supplies Plus, The Vitamin Shoppe and Buddy's Home Furnishings (Fox Business; Digital Commerce 360; CoStar). PESP's 2024 tracker says about 3,000 American Freight employees were affected.",
+          "date": "2024-11",
+          "amountUsd": 2000000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.foxbusiness.com/lifestyle/american-freight-closing-all-stores-amid-parent-companys-bankruptcy-filing"
+        }
+      ],
+      "addedAt": "2026-11-26"
     }
   ]
 }

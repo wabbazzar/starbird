@@ -3301,6 +3301,23 @@
         "nutrien"
       ],
       "source": "https://www.epa.gov/toxics-release-inventory-tri-program"
+    },
+    {
+      "id": "2026-11-26-pesp_bankruptcy_tracker",
+      "date": "2026-11-26",
+      "title": "Three PE-era bankruptcies: Rubio's, Cano Health, American Freight",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "A chain restaurant, a primary-care operator and a furniture retailer all ended up in Chapter 11, per PESP's 2024 tracker and press coverage. Debt loads and closures are the common thread.",
+      "body": "Rubio's Coastal Grill was bought by Mill Road Capital in 2010 for about $91 million. It filed Chapter 11 in 2020 and again in June 2024, after closing 48 California restaurants, and was sold for roughly $40 million.\n\nCano Health, a Florida primary-care operator that InTandem Capital acquired in 2017 according to PESP, filed in February 2024 with about $1.3 billion of debt. Lenders converted nearly $1 billion of it to equity.\n\nFranchise Group filed in November 2024 with nearly $2 billion of debt and liquidated American Freight, closing all 328 stores while keeping its other brands. PESP puts affected American Freight employees at about 3,000.\n\nThe common thread is heavy debt followed by closures and job losses, which is what PESP's tracker documents.",
+      "entityIds": [
+        "cano_health",
+        "franchise_group",
+        "rubios_coastal_grill",
+        "american_freight"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
     }
   ]
 }
