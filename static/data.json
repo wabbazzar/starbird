@@ -20249,6 +20249,40 @@
       "addedAt": "2026-11-26",
       "scope": "single_company",
       "role": "actor"
+    },
+    {
+      "id": "flex_pack",
+      "name": "Flex Pack",
+      "aum": "N/A",
+      "aumVal": 0,
+      "summary": "Flex Pack (formerly Phoenix Converting) was bought in 2018 by JZ Partners and Edgewater, which added seven more companies in four years. After a $34.4 million loan in December 2020, it filed Chapter 11 in July 2026 with liabilities about five times its assets, putting roughly 200 employees and contractors' jobs at risk (PESP, Nov 2026). Quest: extraction_general.",
+      "blurb": "Flexible-packaging converter making pouches and films for consumer products.",
+      "brands": [],
+      "layoffs": "N/A",
+      "notableBk": "Chapter 11 (2026-07)",
+      "harmScore": 48,
+      "source": "https://pestakeholder.org/news/private-equity-behind-60-of-manufacturing-bankruptcies-in-q3/",
+      "cats": [
+        "food"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Flex Pack (formerly Phoenix Converting) was bought in 2018 by JZ Partners and Edgewater, which added seven more companies in four years. After a $34.4 million loan in December 2020, it filed Chapter 11 in July 2026 with liabilities about five times its assets, putting roughly 200 employees and contractors' jobs at risk (PESP, Nov 2026).",
+          "date": "2026-07",
+          "amountUsd": 34400000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court",
+          "sourceUrl": "https://pestakeholder.org/news/private-equity-behind-60-of-manufacturing-bankruptcies-in-q3/"
+        }
+      ],
+      "addedAt": "2026-11-27",
+      "scope": "narrow",
+      "role": "actor"
     }
   ],
   "brands": [
@@ -45081,6 +45115,130 @@
         }
       ],
       "addedAt": "2026-11-26"
+    },
+    {
+      "id": "multi_color_corp",
+      "avoid": "Multi-Color Corporation",
+      "ownership": [
+        {
+          "firmId": "clayton_dubilier_and_rice",
+          "stake": "majority",
+          "since": "2021"
+        }
+      ],
+      "cat": "retail",
+      "alts": [],
+      "why": "Clayton, Dubilier & Rice acquired Multi-Color Corp in 2021 and then made debt-funded acquisitions of at least eight companies in three years, leaving the label maker with $5.9 billion in debt. It filed Chapter 11 in New Jersey in January 2026 and eliminated $3.9 billion of debt; the judge said filing through a $1 million bank account opened by a non-operating Ohio subsidiary 'did not sit right' with him but was legal (PESP, Aug 2026).",
+      "blurb": "Label and packaging printer supplying consumer-goods brands worldwide.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Clayton, Dubilier & Rice acquired Multi-Color Corp in 2021 and then made debt-funded acquisitions of at least eight companies in three years, leaving the label maker with $5.9 billion in debt. It filed Chapter 11 in New Jersey in January 2026 and eliminated $3.9 billion of debt; the judge said filing through a $1 million bank account opened by a non-operating Ohio subsidiary 'did not sit right' with him but was legal (PESP, Aug 2026).",
+          "date": "2026-01",
+          "amountUsd": 3900000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D.N.J.",
+          "sourceUrl": "https://pestakeholder.org/news/private-equity-2026-bankruptcies/"
+        }
+      ],
+      "addedAt": "2026-11-27"
+    },
+    {
+      "id": "pretium_packaging",
+      "avoid": "Pretium Packaging",
+      "ownership": [
+        {
+          "firmId": "clearlake_capital",
+          "stake": "majority",
+          "since": "2020"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Clearlake Capital acquired Pretium Packaging in 2020. After a missed interest payment prompted a Moody's downgrade with a negative outlook in late 2025, Pretium filed Chapter 11 in early 2026 to cancel about $900 million of debt. PESP reports it closed five plants by 2022 and another in 2025, laying off hundreds of workers.",
+      "blurb": "Maker of plastic containers and packaging for food and consumer products.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Clearlake Capital acquired Pretium Packaging in 2020. After a missed interest payment prompted a Moody's downgrade with a negative outlook in late 2025, Pretium filed Chapter 11 in early 2026 to cancel about $900 million of debt. PESP reports it closed five plants by 2022 and another in 2025, laying off hundreds of workers.",
+          "date": "2026-01",
+          "amountUsd": 900000000,
+          "amountKind": "debt",
+          "actor": "Moody's",
+          "sourceUrl": "https://pestakeholder.org/news/private-equity-2026-bankruptcies/"
+        }
+      ],
+      "addedAt": "2026-11-27"
+    },
+    {
+      "id": "alkegen",
+      "avoid": "Alkegen",
+      "ownership": [
+        {
+          "firmId": "clearlake_capital",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "home",
+      "alts": [],
+      "why": "Clearlake Capital acquired Alkegen (then Unifrax) from American Securities in 2018 and, per a Buffalo Business First report cited by PESP, laid off 10% of the Tonawanda, NY workforce soon after. Fitch downgraded the company in 2024 with about $1 billion of term loan debt due December 2025; it filed Chapter 11 in Q3 2026 and eliminated over $3 billion of debt (PESP, Nov 2026).",
+      "blurb": "Manufacturer of engineered fibers and thermal, filtration and battery materials.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Clearlake Capital acquired Alkegen (then Unifrax) from American Securities in 2018 and, per a Buffalo Business First report cited by PESP, laid off 10% of the Tonawanda, NY workforce soon after. Fitch downgraded the company in 2024 with about $1 billion of term loan debt due December 2025; it filed Chapter 11 in Q3 2026 and eliminated over $3 billion of debt (PESP, Nov 2026).",
+          "date": "2026-09",
+          "amountUsd": 3000000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court",
+          "sourceUrl": "https://pestakeholder.org/news/private-equity-behind-60-of-manufacturing-bankruptcies-in-q3/"
+        }
+      ],
+      "addedAt": "2026-11-27"
+    },
+    {
+      "id": "flex_pack",
+      "avoid": "Flex Pack",
+      "ownership": [
+        {
+          "firmId": "flex_pack",
+          "stake": "majority",
+          "since": "2018"
+        }
+      ],
+      "cat": "food",
+      "alts": [],
+      "why": "Flex Pack (formerly Phoenix Converting) was bought in 2018 by JZ Partners and Edgewater, which added seven more companies in four years. After a $34.4 million loan in December 2020, it filed Chapter 11 in July 2026 with liabilities about five times its assets, putting roughly 200 employees and contractors' jobs at risk (PESP, Nov 2026).",
+      "blurb": "Flexible-packaging converter making pouches and films for consumer products.",
+      "harms": [
+        "extraction_general"
+      ],
+      "aligns": [],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Flex Pack (formerly Phoenix Converting) was bought in 2018 by JZ Partners and Edgewater, which added seven more companies in four years. After a $34.4 million loan in December 2020, it filed Chapter 11 in July 2026 with liabilities about five times its assets, putting roughly 200 employees and contractors' jobs at risk (PESP, Nov 2026).",
+          "date": "2026-07",
+          "amountUsd": 34400000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court",
+          "sourceUrl": "https://pestakeholder.org/news/private-equity-behind-60-of-manufacturing-bankruptcies-in-q3/"
+        }
+      ],
+      "addedAt": "2026-11-27"
     }
   ]
 }

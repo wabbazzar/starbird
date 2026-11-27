@@ -3318,6 +3318,23 @@
         "american_freight"
       ],
       "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-11-27-pesp_bankruptcy_tracker",
+      "date": "2026-11-27",
+      "title": "Four PE-backed bankruptcies: packaging, fibers, labels",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "PESP's 2026 bankruptcy reporting surfaced four more private-equity-owned industrial suppliers that used Chapter 11 to shed billions in debt. They sit upstream of products you buy every day.",
+      "body": "Three of this run's entities are packaging and materials makers behind everyday goods. Multi-Color Corp, a label printer owned by Clayton, Dubilier & Rice since 2021, took on $5.9 billion in debt after at least eight debt-funded acquisitions, then filed in January 2026 and eliminated $3.9 billion. PESP notes the judge said the filing venue maneuver 'did not sit right' with him, though it was legal.\n\nClearlake Capital is the common thread for two more. Pretium Packaging filed in early 2026 to cancel about $900 million in debt after closing five plants by 2022 and another in 2025. Alkegen, bought from American Securities in 2018, laid off 10% of its Tonawanda, NY workforce soon after, and filed in Q3 2026, eliminating over $3 billion of debt.\n\nFlex Pack, a flexible-packaging converter owned by JZ Partners and Edgewater since 2018, filed in July 2026 with liabilities roughly five times its assets, putting about 200 jobs at risk. All figures come from PESP's 2026 bankruptcy reports.",
+      "entityIds": [
+        "flex_pack",
+        "alkegen",
+        "multi_color_corp",
+        "pretium_packaging"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
     }
   ]
 }
