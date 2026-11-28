@@ -3335,6 +3335,22 @@
         "pretium_packaging"
       ],
       "source": "https://pestakeholder.org/private-equity-bankruptcy/"
+    },
+    {
+      "id": "2026-11-28-pesp_bankruptcy_tracker",
+      "date": "2026-11-28",
+      "title": "Three 2026 bankruptcies: sponsors, lenders, and who absorbed the loss",
+      "strategy": "pesp_bankruptcy_tracker",
+      "strategyLabel": "PESP Private Equity bankruptcy tracker",
+      "value": "extraction",
+      "summary": "A Southern restaurant chain backed by TriSpan, West Marine under L Catterton and Oaktree, and an Atlanta Applebee's franchisee tied to Argonne Capital all filed Chapter 11 in 2026. In each case the debt outlived the growth plan.",
+      "body": "Yardbird Group filed Chapter 11 in Delaware on 21 September 2026 with nearly $25 million in funded debt. It had expanded after private-equity money from TriSpan Rising Stars in 2017. A City National Bank loan matured in August 2025 without being restructured, and bids for the business came in below the first-lien debt. Only three company-operated restaurants remained open, after Los Angeles, Denver and Miami closed.\n\nWest Marine filed in Delaware on 17 May 2026, reporting $500 million to $1 billion in assets and liabilities. Its co-sponsors, L Catterton and Oaktree, are putting in no new equity, and the plan cancels existing equity. The filing lets the chain renegotiate leases and shed underperforming stores, following a 2023 debt restructuring.\n\nNeighborhood Restaurant Partners, an Applebee's franchisee created as a subsidiary of Argonne Capital Group, filed in Georgia with $10 million to $50 million in liabilities, including more than $13 million owed to Equity Bank. It blamed falling traffic, inflation and rising costs. About 53 restaurants were operating when it filed, and 10 more locations were up for lease rejection.\n\nThe common thread is investor-backed expansion followed by restructuring on the lenders' terms.",
+      "entityIds": [
+        "neighborhood_restaurant_partners",
+        "west_marine",
+        "yardbird"
+      ],
+      "source": "https://pestakeholder.org/private-equity-bankruptcy/"
     }
   ]
 }

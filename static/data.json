@@ -20283,6 +20283,104 @@
       "addedAt": "2026-11-27",
       "scope": "narrow",
       "role": "actor"
+    },
+    {
+      "id": "yardbird",
+      "name": "Yardbird Group",
+      "summary": "Yardbird Group LLC and 10 affiliates filed Chapter 11 in Delaware on 21 September 2026 with nearly $25 million in funded debt, after expanding on private-equity money from TriSpan Rising Stars (invested 2017); a City National Bank loan matured August 2025 unrestructured, three bids came in below the first-lien debt, and the chain was down to three company-operated restaurants with Los Angeles, Denver and Miami closed (Restaurant Business; Restaurant Dive; Bondoro). Quest: extraction_general.",
+      "blurb": "Operator of Yardbird Southern Table & Bar upscale Southern restaurants.",
+      "notableBk": "Chapter 11 (2026-09)",
+      "harmScore": 42,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.restaurantdive.com/news/yardbird-southern-bar-and-table-bankruptcy-sale-process/831026/",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Yardbird Group LLC and 10 affiliates filed Chapter 11 in Delaware on 21 September 2026 with nearly $25 million in funded debt, after expanding on private-equity money from TriSpan Rising Stars (invested 2017); a City National Bank loan matured August 2025 unrestructured, three bids came in below the first-lien debt, and the chain was down to three company-operated restaurants with Los Angeles, Denver and Miami closed (Restaurant Business; Restaurant Dive; Bondoro).",
+          "date": "2026-09",
+          "amountUsd": 25000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.restaurantdive.com/news/yardbird-southern-bar-and-table-bankruptcy-sale-process/831026/"
+        }
+      ],
+      "aum": "N/A",
+      "aumVal": 0,
+      "brands": [],
+      "layoffs": "N/A",
+      "aligns": [],
+      "addedAt": "2026-11-28"
+    },
+    {
+      "id": "west_marine",
+      "name": "West Marine",
+      "summary": "West Marine filed Chapter 11 in Delaware on 17 May 2026, reporting $500 million to $1 billion in assets and liabilities and using the case to renegotiate leases and shed underperforming stores; co-sponsors L Catterton and Oaktree are contributing no new equity and the plan cancels existing equity, following a 2023 debt restructuring (SGB Media; Bondoro). Quest: extraction_general.",
+      "blurb": "Specialty retailer of boating supplies and marine equipment with stores across the U.S.",
+      "notableBk": "Chapter 11 (2026-05)",
+      "harmScore": 48,
+      "scope": "single_company",
+      "role": "actor",
+      "source": "https://sgbonline.com/west-marine-files-for-bankruptcy-store-closures-expected/",
+      "cats": [
+        "retail"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "West Marine filed Chapter 11 in Delaware on 17 May 2026, reporting $500 million to $1 billion in assets and liabilities and using the case to renegotiate leases and shed underperforming stores; co-sponsors L Catterton and Oaktree are contributing no new equity and the plan cancels existing equity, following a 2023 debt restructuring (SGB Media; Bondoro).",
+          "date": "2026-05",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://sgbonline.com/west-marine-files-for-bankruptcy-store-closures-expected/"
+        }
+      ],
+      "aum": "N/A",
+      "aumVal": 0,
+      "brands": [],
+      "layoffs": "N/A",
+      "aligns": [],
+      "addedAt": "2026-11-28"
+    },
+    {
+      "id": "neighborhood_restaurant_partners",
+      "name": "Neighborhood Restaurant Partners",
+      "summary": "Neighborhood Restaurant Partners, an Atlanta Applebee's franchisee created as a subsidiary of private investment firm Argonne Capital Group, filed Chapter 11 in the Northern District of Georgia in 2026 with $10 million to $50 million in liabilities, including over $13 million owed to Equity Bank, blaming falling traffic, inflation and rising costs; about 53 restaurants in Alabama, Florida and Georgia were operating and 10 more locations sought lease rejections (Restaurant Dive; NRN). Quest: extraction_general.",
+      "blurb": "Franchisee operating Applebee's restaurants in Alabama, Florida and Georgia.",
+      "notableBk": "Chapter 11 (2026)",
+      "harmScore": 40,
+      "scope": "narrow",
+      "role": "actor",
+      "source": "https://www.restaurantdive.com/news/applebees-franchisee-neighborhood-restaurant-partners-florida-chapter-11-bankruptcy/815721/",
+      "cats": [
+        "hospitality"
+      ],
+      "harms": [
+        "extraction_general"
+      ],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Neighborhood Restaurant Partners, an Atlanta Applebee's franchisee created as a subsidiary of private investment firm Argonne Capital Group, filed Chapter 11 in the Northern District of Georgia in 2026 with $10 million to $50 million in liabilities, including over $13 million owed to Equity Bank, blaming falling traffic, inflation and rising costs; about 53 restaurants in Alabama, Florida and Georgia were operating and 10 more locations sought lease rejections (Restaurant Dive; NRN).",
+          "date": "2026",
+          "actor": "U.S. Bankruptcy Court, N.D. Ga.",
+          "sourceUrl": "https://www.restaurantdive.com/news/applebees-franchisee-neighborhood-restaurant-partners-florida-chapter-11-bankruptcy/815721/"
+        }
+      ],
+      "aum": "N/A",
+      "aumVal": 0,
+      "brands": [],
+      "layoffs": "N/A",
+      "aligns": [],
+      "addedAt": "2026-11-28"
     }
   ],
   "brands": [
@@ -45239,6 +45337,95 @@
         }
       ],
       "addedAt": "2026-11-27"
+    },
+    {
+      "id": "yardbird",
+      "avoid": "Yardbird Southern Table & Bar",
+      "ownership": [
+        {
+          "firmId": "yardbird",
+          "stake": "majority",
+          "since": "2011"
+        }
+      ],
+      "cat": "hospitality",
+      "why": "Yardbird Group LLC and 10 affiliates filed Chapter 11 in Delaware on 21 September 2026 with nearly $25 million in funded debt, after expanding on private-equity money from TriSpan Rising Stars (invested 2017); a City National Bank loan matured August 2025 unrestructured, three bids came in below the first-lien debt, and the chain was down to three company-operated restaurants with Los Angeles, Denver and Miami closed (Restaurant Business; Restaurant Dive; Bondoro).",
+      "blurb": "Upscale Southern restaurant brand serving fried chicken and brunch.",
+      "harms": [
+        "extraction_general"
+      ],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Yardbird Group LLC and 10 affiliates filed Chapter 11 in Delaware on 21 September 2026 with nearly $25 million in funded debt, after expanding on private-equity money from TriSpan Rising Stars (invested 2017); a City National Bank loan matured August 2025 unrestructured, three bids came in below the first-lien debt, and the chain was down to three company-operated restaurants with Los Angeles, Denver and Miami closed (Restaurant Business; Restaurant Dive; Bondoro).",
+          "date": "2026-09",
+          "amountUsd": 25000000,
+          "amountKind": "debt",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://www.restaurantdive.com/news/yardbird-southern-bar-and-table-bankruptcy-sale-process/831026/"
+        }
+      ],
+      "alts": [],
+      "aligns": [],
+      "addedAt": "2026-11-28"
+    },
+    {
+      "id": "west_marine",
+      "avoid": "West Marine",
+      "ownership": [
+        {
+          "firmId": "west_marine",
+          "stake": "majority",
+          "since": "2017"
+        }
+      ],
+      "cat": "retail",
+      "why": "West Marine filed Chapter 11 in Delaware on 17 May 2026, reporting $500 million to $1 billion in assets and liabilities and using the case to renegotiate leases and shed underperforming stores; co-sponsors L Catterton and Oaktree are contributing no new equity and the plan cancels existing equity, following a 2023 debt restructuring (SGB Media; Bondoro).",
+      "blurb": "Boating supplies and marine equipment retailer.",
+      "harms": [
+        "extraction_general"
+      ],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "West Marine filed Chapter 11 in Delaware on 17 May 2026, reporting $500 million to $1 billion in assets and liabilities and using the case to renegotiate leases and shed underperforming stores; co-sponsors L Catterton and Oaktree are contributing no new equity and the plan cancels existing equity, following a 2023 debt restructuring (SGB Media; Bondoro).",
+          "date": "2026-05",
+          "actor": "U.S. Bankruptcy Court, D. Del.",
+          "sourceUrl": "https://sgbonline.com/west-marine-files-for-bankruptcy-store-closures-expected/"
+        }
+      ],
+      "alts": [],
+      "aligns": [],
+      "addedAt": "2026-11-28"
+    },
+    {
+      "id": "neighborhood_restaurant_partners",
+      "avoid": "Neighborhood Restaurant Partners (Applebee's franchisee)",
+      "ownership": [
+        {
+          "firmId": "neighborhood_restaurant_partners",
+          "stake": "majority",
+          "since": "2010"
+        }
+      ],
+      "cat": "hospitality",
+      "why": "Neighborhood Restaurant Partners, an Atlanta Applebee's franchisee created as a subsidiary of private investment firm Argonne Capital Group, filed Chapter 11 in the Northern District of Georgia in 2026 with $10 million to $50 million in liabilities, including over $13 million owed to Equity Bank, blaming falling traffic, inflation and rising costs; about 53 restaurants in Alabama, Florida and Georgia were operating and 10 more locations sought lease rejections (Restaurant Dive; NRN).",
+      "blurb": "Applebee's franchisee running casual-dining restaurants in the Southeast.",
+      "harms": [
+        "extraction_general"
+      ],
+      "evidence": [
+        {
+          "tag": "extraction_general",
+          "text": "Neighborhood Restaurant Partners, an Atlanta Applebee's franchisee created as a subsidiary of private investment firm Argonne Capital Group, filed Chapter 11 in the Northern District of Georgia in 2026 with $10 million to $50 million in liabilities, including over $13 million owed to Equity Bank, blaming falling traffic, inflation and rising costs; about 53 restaurants in Alabama, Florida and Georgia were operating and 10 more locations sought lease rejections (Restaurant Dive; NRN).",
+          "date": "2026",
+          "actor": "U.S. Bankruptcy Court, N.D. Ga.",
+          "sourceUrl": "https://www.restaurantdive.com/news/applebees-franchisee-neighborhood-restaurant-partners-florida-chapter-11-bankruptcy/815721/"
+        }
+      ],
+      "alts": [],
+      "aligns": [],
+      "addedAt": "2026-11-28"
     }
   ]
 }
